@@ -43,7 +43,7 @@ jobs:
         id: extract-file-name
         run: |
           api_url="${{ inputs.api-url }}"
-          api_name=$(echo "${api_url}" | awk -F/ '{print $(NF-2)}')
+          api_name=$(echo "${api_url}" | awk -F/ '{print $(NF-3)}')
           echo "ttl_file_name=spektrix-${api_name}-entities.ttl" >> $GITHUB_OUTPUT
           echo "artifact_name=spektrix-${api_name}" >> $GITHUB_OUTPUT
 
@@ -53,12 +53,12 @@ jobs:
           transform entities.json \
           -u http://localhost:7333 \
           --configurations project-config.json \
-          -f json >> "${{ steps.extract-file-name.outputs.ttl_file_name }}"
+          -f json >> ${{ steps.extract-file-name.outputs.ttl_file_name }}
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: entities
+          name: ${{ steps.extract-file-name.outputs.artifact_name }}
           path: "./${{ steps.extract-file-name.outputs.ttl_file_name }}"
           retention-days: 1
 
@@ -73,7 +73,7 @@ jobs:
         id: download-step
         uses: actions/download-artifact@v4
         with:
-          name: entities
+          name: ${{needs.fetch-data.outputs.artifact_name}}
           path: ./${{ needs.fetch-data.outputs.ttl_file_name }}
 
       - name: Copy files
