@@ -8,7 +8,7 @@ jobs:
     strategy:
         matrix:
           url:
-            - 'https://system.spektrix.com/gatewaytheatre/api/v3/events'
+            # - 'https://system.spektrix.com/gatewaytheatre/api/v3/events'
             - 'https://system.spektrix.com/kaymeekcentre/api/v3/events'
             - 'https://system.spektrix.com/terrabrucemajestic/api/v3/events'
     uses: ./.github/workflows/fetch-data-and-push.yml
