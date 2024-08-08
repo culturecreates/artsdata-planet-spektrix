@@ -5,14 +5,8 @@ on:
 
 jobs:
   call-fetch-data:
-    strategy:
-        matrix:
-          url:
-            # - 'https://system.spektrix.com/gatewaytheatre/api/v3/events'
-            - 'https://system.spektrix.com/kaymeekcentre/api/v3/events'
-            - 'https://system.spektrix.com/terrabrucemajestic/api/v3/events'
     uses: ./.github/workflows/fetch-data-and-push.yml
     with:
-      api-url: ${{ matrix.url }}
+      api-urls: 'https://system.spektrix.com/kaymeekcentre/api/v3/events,https://system.spektrix.com/terrabrucemajestic/api/v3/events'
     secrets:
-        publisher-uri: ${{secrets.PUBLISHER_URI_GREGORY}}
+      publisher-uri: ${{ secrets.PUBLISHER_URI_GREGORY }}
