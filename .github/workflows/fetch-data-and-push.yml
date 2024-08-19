@@ -42,7 +42,7 @@ jobs:
           matrix="[]"
           IFS=',' read -ra URLS <<< "${{ inputs.api-urls }}"
           for api_url in "${URLS[@]}"; do
-            curl "$api_url" >> entities.json
+            curl "$api_url" > entities.json
             api_name=$(echo "$api_url" | awk -F/ '{print $(NF-3)}')
             ttl_file_name="spektrix-${api_name}-entities.ttl"
             artifact_name="spektrix-${api_name}"

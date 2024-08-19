@@ -1,590 +1,804 @@
 {
-    "importOptions": [
-      {
-        "recordPath": [
-          "_",
-          "_"
-        ],
-        "limit": -1,
-        "trimStrings": false,
-        "guessCellValueTypes": false,
-        "storeEmptyStrings": true,
-        "includeFileSources": false,
-        "includeArchiveFileName": false,
-        "disableAutoPreview": false,
-        "projectName": "gatewaytheatre json",
-        "projectTags": [],
-        "fileSource": "gatewaytheatre.json",
-        "archiveFileName": null
-      }
-    ],
-    "operations": [
-      {
-        "op": "mapping-editor/save-rdf-mapping",
-        "mapping": {
-          "baseIRI": "https://www.spektrix.com/",
-          "namespaces": {
-            "event": "https://spektrix.com/event/",
-            "schema": "http://schema.org/",
-            "xsd": "http://www.w3.org/2001/XMLSchema#"
-          },
-          "subjectMappings": [
-            {
-              "subject": {
+  "importOptions": [
+    {
+      "recordPath": [
+        "_",
+        "_"
+      ],
+      "limit": -1,
+      "trimStrings": false,
+      "guessCellValueTypes": false,
+      "storeEmptyStrings": true,
+      "includeFileSources": false,
+      "includeArchiveFileName": false,
+      "disableAutoPreview": false,
+      "projectName": "gatewaytheatre json",
+      "projectTags": [],
+      "fileSource": "gatewaytheatre.json",
+      "archiveFileName": null
+    }
+  ],
+  "operations": [
+    {
+      "op": "mapping-editor/save-rdf-mapping",
+      "mapping": {
+        "baseIRI": "https://www.spektrix.com/",
+        "namespaces": {
+          "event": "https://spektrix.com/event/",
+          "schema": "http://schema.org/",
+          "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "subjectMappings": [
+          {
+            "subject": {
+              "valueSource": {
+                "source": "row_index"
+              },
+              "transformation": {
+                "language": "grel",
+                "expression": "\"http://www.spektrix.com/\"+cells[\"_ - id\"].value"
+              }
+            },
+            "typeMappings": [
+              {
                 "valueSource": {
-                  "source": "row_index"
+                  "source": "constant",
+                  "constant": "Event"
                 },
                 "transformation": {
-                  "language": "grel",
-                  "expression": "\"http://www.spektrix.com/\"+cells[\"_ - id\"].value"
+                  "language": "prefix",
+                  "expression": "schema"
                 }
-              },
-              "typeMappings": [
-                {
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
                   "valueSource": {
                     "source": "constant",
-                    "constant": "Event"
+                    "constant": "name"
                   },
                   "transformation": {
                     "language": "prefix",
                     "expression": "schema"
                   }
-                }
-              ],
-              "propertyMappings": [
-                {
-                  "property": {
-                    "valueSource": {
-                      "source": "constant",
-                      "constant": "name"
-                    },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
-                    }
-                  },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - name"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
-                    }
-                  ]
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "description"
+                      "source": "column",
+                      "columnName": "_ - name"
                     },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                    "valueType": {
+                      "type": "literal"
                     }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "description"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - htmlDescription"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
-                    }
-                  ]
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "startDate"
+                      "source": "column",
+                      "columnName": "_ - htmlDescription"
                     },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                    "valueType": {
+                      "type": "literal"
                     }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "startDate"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - firstInstanceDateTime"
-                      },
-                      "valueType": {
-                        "type": "datatype_literal",
-                        "datatype": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "date"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "xsd"
-                          }
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - firstInstanceDateTime"
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "date"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "xsd"
                         }
                       }
                     }
-                  ]
-                },
-                {
-                  "property": {
-                    "valueSource": {
-                      "source": "constant",
-                      "constant": "endDate"
-                    },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
-                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "endDate"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - lastInstanceDateTime"
-                      },
-                      "valueType": {
-                        "type": "datatype_literal",
-                        "datatype": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "date"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "xsd"
-                          }
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - lastInstanceDateTime"
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "date"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "xsd"
                         }
                       }
                     }
-                  ]
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "image"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "image"
+                      "source": "column",
+                      "columnName": "_ - imageUrl"
                     },
                     "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                      "language": "raw"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
                     }
-                  },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - imageUrl"
-                      },
-                      "transformation": {
-                        "language": "raw"
-                      },
-                      "valueType": {
-                        "type": "iri",
-                        "typeMappings": [],
-                        "propertyMappings": []
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "description": "Save RDF Mapping"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
-      {
-        "op": "mapping-editor/save-rdf-mapping",
-        "mapping": {
-          "baseIRI": "https://www.spektrix.com/",
-          "namespaces": {
-            "event": "https://spektrix.com/event/",
-            "schema": "http://schema.org/",
-            "xsd": "http://www.w3.org/2001/XMLSchema#"
-          },
-          "subjectMappings": [
-            {
-              "subject": {
+      "description": "Save RDF Mapping"
+    },
+    {
+      "op": "mapping-editor/save-rdf-mapping",
+      "mapping": {
+        "baseIRI": "https://www.spektrix.com/",
+        "namespaces": {
+          "event": "https://spektrix.com/event/",
+          "schema": "http://schema.org/",
+          "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "subjectMappings": [
+          {
+            "subject": {
+              "valueSource": {
+                "source": "row_index"
+              },
+              "transformation": {
+                "language": "grel",
+                "expression": "\"http://www.spektrix.com/\"+cells[\"_ - id\"].value"
+              }
+            },
+            "typeMappings": [
+              {
                 "valueSource": {
-                  "source": "row_index"
+                  "source": "constant",
+                  "constant": "Event"
                 },
                 "transformation": {
-                  "language": "grel",
-                  "expression": "\"http://www.spektrix.com/\"+cells[\"_ - id\"].value"
+                  "language": "prefix",
+                  "expression": "schema"
                 }
-              },
-              "typeMappings": [
-                {
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
                   "valueSource": {
                     "source": "constant",
-                    "constant": "Event"
+                    "constant": "name"
                   },
                   "transformation": {
                     "language": "prefix",
                     "expression": "schema"
                   }
-                }
-              ],
-              "propertyMappings": [
-                {
-                  "property": {
-                    "valueSource": {
-                      "source": "constant",
-                      "constant": "name"
-                    },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
-                    }
-                  },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - name"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
-                    }
-                  ]
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "description"
+                      "source": "column",
+                      "columnName": "_ - name"
                     },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                    "valueType": {
+                      "type": "literal"
                     }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "description"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - htmlDescription"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
-                    }
-                  ]
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "startDate"
+                      "source": "column",
+                      "columnName": "_ - htmlDescription"
                     },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                    "valueType": {
+                      "type": "literal"
                     }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "startDate"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - firstInstanceDateTime"
-                      },
-                      "valueType": {
-                        "type": "datatype_literal",
-                        "datatype": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "date"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "xsd"
-                          }
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - firstInstanceDateTime"
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "date"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "xsd"
                         }
                       }
                     }
-                  ]
-                },
-                {
-                  "property": {
-                    "valueSource": {
-                      "source": "constant",
-                      "constant": "endDate"
-                    },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
-                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "endDate"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - lastInstanceDateTime"
-                      },
-                      "valueType": {
-                        "type": "datatype_literal",
-                        "datatype": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "date"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "xsd"
-                          }
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - lastInstanceDateTime"
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "date"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "xsd"
                         }
                       }
                     }
-                  ]
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "image"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "image"
+                      "source": "column",
+                      "columnName": "_ - imageUrl"
                     },
                     "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                      "language": "raw"
+                    },
+                    "valueType": {
+                      "type": "literal"
                     }
-                  },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - imageUrl"
-                      },
-                      "transformation": {
-                        "language": "raw"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "description": "Save RDF Mapping"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
-      {
-        "op": "mapping-editor/save-rdf-mapping",
-        "mapping": {
-          "baseIRI": "https://www.spektrix.com/",
-          "namespaces": {
-            "event": "https://spektrix.com/event/",
-            "schema": "http://schema.org/",
-            "xsd": "http://www.w3.org/2001/XMLSchema#",
-            "skos": "http://www.w3.org/2004/02/skos/core#"
-          },
-          "subjectMappings": [
-            {
-              "subject": {
+      "description": "Save RDF Mapping"
+    },
+    {
+      "op": "mapping-editor/save-rdf-mapping",
+      "mapping": {
+        "baseIRI": "https://www.spektrix.com/",
+        "namespaces": {
+          "event": "https://spektrix.com/event/",
+          "schema": "http://schema.org/",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "skos": "http://www.w3.org/2004/02/skos/core#"
+        },
+        "subjectMappings": [
+          {
+            "subject": {
+              "valueSource": {
+                "source": "row_index"
+              },
+              "transformation": {
+                "language": "grel",
+                "expression": "\"http://www.spektrix.com/\"+cells[\"_ - id\"].value"
+              }
+            },
+            "typeMappings": [
+              {
                 "valueSource": {
-                  "source": "row_index"
+                  "source": "constant",
+                  "constant": "Event"
                 },
                 "transformation": {
-                  "language": "grel",
-                  "expression": "\"http://www.spektrix.com/\"+cells[\"_ - id\"].value"
+                  "language": "prefix",
+                  "expression": "schema"
                 }
-              },
-              "typeMappings": [
-                {
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
                   "valueSource": {
                     "source": "constant",
-                    "constant": "Event"
+                    "constant": "name"
                   },
                   "transformation": {
                     "language": "prefix",
                     "expression": "schema"
                   }
-                }
-              ],
-              "propertyMappings": [
-                {
-                  "property": {
-                    "valueSource": {
-                      "source": "constant",
-                      "constant": "name"
-                    },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
-                    }
-                  },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - name"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
-                    }
-                  ]
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "description"
+                      "source": "column",
+                      "columnName": "_ - name"
                     },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                    "valueType": {
+                      "type": "literal"
                     }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "description"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - htmlDescription"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
-                    }
-                  ]
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "startDate"
+                      "source": "column",
+                      "columnName": "_ - htmlDescription"
                     },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                    "valueType": {
+                      "type": "literal"
                     }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "startDate"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - firstInstanceDateTime"
-                      },
-                      "valueType": {
-                        "type": "datatype_literal",
-                        "datatype": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "dateTime"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "xsd"
-                          }
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - firstInstanceDateTime"
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "dateTime"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "xsd"
                         }
                       }
                     }
-                  ]
-                },
-                {
-                  "property": {
-                    "valueSource": {
-                      "source": "constant",
-                      "constant": "endDate"
-                    },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
-                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "endDate"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - lastInstanceDateTime"
-                      },
-                      "valueType": {
-                        "type": "datatype_literal",
-                        "datatype": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "dateTime"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "xsd"
-                          }
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - lastInstanceDateTime"
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "dateTime"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "xsd"
                         }
                       }
                     }
-                  ]
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "image"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
                 },
-                {
-                  "property": {
+                "values": [
+                  {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "image"
+                      "source": "column",
+                      "columnName": "_ - imageUrl"
                     },
                     "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
-                    }
-                  },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - imageUrl"
-                      },
-                      "transformation": {
-                        "language": "raw"
-                      },
-                      "valueType": {
-                        "type": "literal"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "property": {
-                    "valueSource": {
-                      "source": "constant",
-                      "constant": "additionalType"
+                      "language": "raw"
                     },
-                    "transformation": {
-                      "language": "prefix",
-                      "expression": "schema"
+                    "valueType": {
+                      "type": "literal"
                     }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "additionalType"
                   },
-                  "values": [
-                    {
-                      "valueSource": {
-                        "source": "column",
-                        "columnName": "_ - attribute_Genre"
-                      },
-                      "valueType": {
-                        "type": "datatype_literal",
-                        "datatype": {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "Concept"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "skos"
-                          }
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attribute_Genre"
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "Concept"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "skos"
                         }
                       }
                     }
-                  ]
-                }
-              ]
-            }
-          ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "description": "Save RDF Mapping"
+    },
+    {
+      "op": "mapping-editor/save-rdf-mapping",
+      "mapping": {
+        "baseIRI": "https://www.spektrix.com/",
+        "namespaces": {
+          "event": "https://spektrix.com/event/",
+          "schema": "http://schema.org/",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "skos": "http://www.w3.org/2004/02/skos/core#"
         },
-        "description": "Save RDF Mapping"
-      }
-    ]
-  }
+        "subjectMappings": [
+          {
+            "subject": {
+              "valueSource": {
+                "source": "row_index"
+              },
+              "transformation": {
+                "language": "grel",
+                "expression": "\"http://www.spektrix.com/\"+cells[\"_ - id\"].value"
+              }
+            },
+            "typeMappings": [
+              {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "Event"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "schema"
+                }
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "name"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - name"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "description"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "cells[\"_ - htmlDescription\"].value.replace(/\\<div [^>]*\\>/, \"\").replace(\"</div>\", \"\")"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "startDate"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - firstInstanceDateTime"
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "dateTime"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "xsd"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "endDate"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - lastInstanceDateTime"
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "dateTime"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "xsd"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "image"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - imageUrl"
+                    },
+                    "transformation": {
+                      "language": "raw"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "additionalType"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attribute_Genre"
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "Concept"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "skos"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "description": "Save RDF Mapping"
+    }
+  ]
+}

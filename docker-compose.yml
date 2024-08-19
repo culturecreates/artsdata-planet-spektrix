@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  refine:
+    image: ontotext/refine:1.2.1
+    restart: unless-stopped
+    environment:
+      SERVER_HOST: localhost
+    ports:
+      - "7333:7333"
+    volumes:
+      - refine_data:/opt/ontorefine/data
+      - ./:/opt/ontorefine/run
+    command: /opt/ontorefine/run/run_ontorefine.sh
+    container_name: ontorefine
+
+volumes:  
+  refine_data:
