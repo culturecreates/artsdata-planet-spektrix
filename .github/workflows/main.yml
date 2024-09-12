@@ -7,6 +7,6 @@ jobs:
   call-fetch-data:
     uses: ./.github/workflows/fetch-data-and-push.yml
     with:
-      api-urls: 'https://system.spektrix.com/kaymeekcentre/api/v3/events,https://system.spektrix.com/terrabrucemajestic/api/v3/events'
+      sources: 'kaymeekcentre,terrabrucemajestic'
     secrets:
       publisher-uri: ${{ secrets.PUBLISHER_URI_GREGORY }}
