@@ -22,7 +22,11 @@ place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:Place;
   schema:address address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
-  schema:streetAddress "1700 Mathers Avenue, West Vancouver, BC, V7V 2G7" .
+  schema:streetAddress "1700 Mathers Avenue";
+  schema:addressLocality "West Vancouver";
+  schema:addressRegion "BC";
+  schema:postalCode "V7V 2G7";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/180401AHTPKTMBJLKQPMDKQDCPGMTLVJT> a schema:Event;
   schema:name "20th Anniversary Gala: Three-Course Dinner and Concert";
@@ -310,6 +314,17 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:additionalType "Music"^^skos:Concept;
   schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
+<http://www.spektrix.com/185201ACGTPCPGMHTKJSCKBTHNPRHPRLH> a schema:Event;
+  schema:name "Mehregan Multicultural Festival";
+  schema:description """
+
+""";
+  schema:startDate "2024-10-20T14:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-20T14:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType "Rental"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
 <http://www.spektrix.com/177402ADBBMCHPSNMGCVHVSPMJNLCPVQR> a schema:Event;
   schema:name "Michael Kaeshammer";
   schema:description """
@@ -410,7 +425,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/179204ACHJVDVHLBLNPGLMLQVKNHRVSHM> a schema:Event;
-  schema:name "Norman Foote";
+  schema:name "Norman Foote & the Howl Masquerade";
   schema:description """
 	Music, laughter and the community spirit of Halloween.<span><br/></span><span><br/></span>Starring Juno award-winner, Canadian children’s entertainer Norman Foote - and a costumed choir featuring students from local Elementary Schools. Come in costume and enjoy an evening of music, laughter and the community spirit of Halloween.
 """;
