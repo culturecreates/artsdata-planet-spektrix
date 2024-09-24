@@ -7,6 +7,6 @@ jobs:
   call-fetch-data:
     uses: ./.github/workflows/fetch-data-and-push.yml
     with:
-      sources: 'kaymeekcentre,terrabrucemajestic'
+      sources: 'gatewaytheatre,kaymeekcentre,terrabrucemajestic'
     secrets:
       publisher-uri: ${{ secrets.PUBLISHER_URI_GREGORY }}

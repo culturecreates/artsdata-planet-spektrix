@@ -210,8 +210,11 @@
                 "values": [
                   {
                     "valueSource": {
-                      "source": "column",
-                      "columnName": "_ - attribute_Genre"
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "if(cells[\"_ - attribute_Genre\"].value != null, cells[\"_ - attribute_Genre\"].value, null)"
                     },
                     "valueType": {
                       "type": "datatype_literal",
@@ -254,6 +257,32 @@
                       "type": "iri",
                       "typeMappings": [],
                       "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "organizer"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "if(cells[\"_ - attribute_PresenterName\"].value != null, cells[\"_ - attribute_PresenterName\"].value, null)"
+                    },
+                    "valueType": {
+                      "type": "literal"
                     }
                   }
                 ]
