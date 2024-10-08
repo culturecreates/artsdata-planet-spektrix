@@ -1,0 +1,316 @@
+@base <https://www.spektrix.com/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/56801AMQDSPDMMJNCTTQJGQMCTDBSSSGM> a schema:Event;
+  schema:name "\"Hamlet\"";
+  schema:description """
+
+""";
+  schema:startDate "2024-06-13T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-20T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+
+place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:Place;
+  schema:name "BMO Mainstage";
+  schema:address address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+
+address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
+  schema:streetAddress "Senakw/Vanier Park";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/56602AVVMKPPNMSGQJTLGDHVDCQQSTVVM> a schema:Event;
+  schema:name "\"Measure for Measure\"";
+  schema:description """
+
+""";
+  schema:startDate "2024-07-04T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-20T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+
+place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:Place;
+  schema:name "Howard Family Stage";
+  schema:address address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+
+address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
+  schema:streetAddress "Senakw/Vanier Park";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/57001AJRNLVRMBLNJDVNKVQMDNNSRGTGD> a schema:Event;
+  schema:name "\"The Comedy of Errors\"";
+  schema:description """
+
+""";
+  schema:startDate "2024-07-02T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-21T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+
+<http://www.spektrix.com/56601ACCRKSPGKVDGHVRNMKGTVPHPQPBK> a schema:Event;
+  schema:name "\"Twelfth Night\"";
+  schema:description """
+
+""";
+  schema:startDate "2024-06-11T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-21T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+
+<http://www.spektrix.com/61601AVSDPSGQNGMDBLSJQKNCHSPHMMLK> a schema:Event;
+  schema:name "Bard Club: Hamlet";
+  schema:description """
+
+""";
+  schema:startDate "2024-07-17T13:00:00"^^xsd:dateTime;
+  schema:endDate "2024-07-17T13:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:Place;
+  schema:name "Bard Village";
+  schema:address address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
+  schema:streetAddress "1695 Whyte Ave";
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/62001APSGSQLCTLTNJRSTDSVSMQBNHTVL> a schema:Event;
+  schema:name "Bard Club: Measure for Measure";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-04T13:00:00"^^xsd:dateTime;
+  schema:endDate "2024-09-04T13:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/62201AMQLTQHPVGDTSSJLQDCVBSGVTNNB> a schema:Event;
+  schema:name "Bard Club: The Comedy Of Errors";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-11T13:00:00"^^xsd:dateTime;
+  schema:endDate "2024-09-11T13:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/61801AQNCMRJBHHNRRTCRVJHPDKRHCMLK> a schema:Event;
+  schema:name "Bard Club: Twelfth Night";
+  schema:description """
+
+""";
+  schema:startDate "2024-08-07T13:00:00"^^xsd:dateTime;
+  schema:endDate "2024-08-07T13:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/59601AVKDPHNNKSRGJLHVHKTKQPTKMSDT> a schema:Event;
+  schema:name "Bard Explored: Hamlet";
+  schema:description """
+
+""";
+  schema:startDate "2024-06-29T11:00:00"^^xsd:dateTime;
+  schema:endDate "2024-06-29T11:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+
+<http://www.spektrix.com/60001AQMCNPHJDPMRBPJPHQTSVTJDCRKQ> a schema:Event;
+  schema:name "Bard Explored: Measure for Measure";
+  schema:description """
+
+""";
+  schema:startDate "2024-08-17T11:00:00"^^xsd:dateTime;
+  schema:endDate "2024-08-17T11:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+
+<http://www.spektrix.com/59801AKQJRVHNSMCTHJNRGJQCBCJCQDDC> a schema:Event;
+  schema:name "Bard Explored: The Comedy of Errors";
+  schema:description """
+
+""";
+  schema:startDate "2024-08-10T11:00:00"^^xsd:dateTime;
+  schema:endDate "2024-08-10T11:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+
+<http://www.spektrix.com/59401AVPBDGTDRSCSDKLHRHSTPMLPGGSV> a schema:Event;
+  schema:name "Bard Explored: Twelfth Night";
+  schema:description """
+
+""";
+  schema:startDate "2024-07-06T11:00:00"^^xsd:dateTime;
+  schema:endDate "2024-07-06T11:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+
+<http://www.spektrix.com/61401ATQDMVMSLPDTKCRQGQKNDHQSBBKR> a schema:Event;
+  schema:name "Bard Fireworks Picnics by Emelle's";
+  schema:description """
+
+""";
+  schema:startDate "2024-07-20T18:00:00"^^xsd:dateTime;
+  schema:endDate "2024-07-27T18:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/63001AJJHHCCDTKKSDNHNCJHVRPDPDKLT> a schema:Event;
+  schema:name "Bard for Life Bundle: Speeches and Scenes!";
+  schema:description """
+
+""";
+  schema:startDate "2024-10-02T18:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-02T18:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT .
+
+place:1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT a schema:Place;
+  schema:name "BMO Theatre Centre";
+  schema:address address:1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT .
+
+address:1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT a schema:PostalAddress;
+  schema:streetAddress "162 West 1st Ave";
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/62401ATSLTMPGMSRJCDGRGDLJDPDVDTQM> a schema:Event;
+  schema:name "Bard for Life: Discovery Session!";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-25T18:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-25T18:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT .
+
+<http://www.spektrix.com/62801ABJBVRSCKSBLJSPRBSBBBRLBKKGT> a schema:Event;
+  schema:name "Bard for Life: Scenes";
+  schema:description """
+
+""";
+  schema:startDate "2025-01-15T18:30:00"^^xsd:dateTime;
+  schema:endDate "2025-01-15T18:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT .
+
+<http://www.spektrix.com/62601ATRDJLLGPPDCDCLHRDMCJVJGKDVB> a schema:Event;
+  schema:name "Bard for Life: Speeches";
+  schema:description """
+
+""";
+  schema:startDate "2024-10-02T18:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-02T18:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT .
+
+<http://www.spektrix.com/57201AVHSVBLCRCLQGNRQCCGBRSLVVRBN> a schema:Event;
+  schema:name "Bard Forum: Speak, Breathe, Discuss";
+  schema:description """
+
+""";
+  schema:startDate "2024-03-14T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-03-14T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB .
+
+place:2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB a schema:Place;
+  schema:name "Newmont Theatre";
+  schema:address address:2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB .
+
+address:2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB a schema:PostalAddress;
+  schema:streetAddress "BMO Theatre Centre";
+  schema:addressLocality "162 West 1st Ave";
+  schema:addressRegion "Vancouver";
+  schema:postalCode "BC";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/61201ARKNPQJBTCNRNPMQMMBCRPGCCDLM> a schema:Event;
+  schema:name "Bard Picnics by Emelle's";
+  schema:description """
+
+""";
+  schema:startDate "2024-06-11T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-21T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/56001APNJBQMGSPLVLVDSPKGGCMCMVLTQ> a schema:Event;
+  schema:name "Extra Little Players";
+  schema:description """
+
+""";
+  schema:startDate "2024-07-02T09:30:00"^^xsd:dateTime;
+  schema:endDate "2024-07-02T09:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/55801ACGDGDJSRRGCLCBTPCSLTJTBNGSM> a schema:Event;
+  schema:name "Little Players";
+  schema:description """
+
+""";
+  schema:startDate "2024-07-02T09:30:00"^^xsd:dateTime;
+  schema:endDate "2024-07-02T09:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/56401ANGTJBPDPBRQJTCNQMGHRLLHLQJK> a schema:Event;
+  schema:name "Summer Camps (13-18 years)";
+  schema:description """
+
+""";
+  schema:startDate "2024-07-15T09:30:00"^^xsd:dateTime;
+  schema:endDate "2024-08-26T09:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/56201AGSGSGJVVGPLSGRNJSLQQTTQHHRQ> a schema:Event;
+  schema:name "Summer Camps (8-13 years)";
+  schema:description """
+
+""";
+  schema:startDate "2024-07-08T09:30:00"^^xsd:dateTime;
+  schema:endDate "2024-08-26T09:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/61001AVKKRKGPQTDBMRDKCBQMCGNRHLKS> a schema:Event;
+  schema:name "Wine Wednesday: August 14th, 2024";
+  schema:description """
+
+""";
+  schema:startDate "2024-08-14T18:00:00"^^xsd:dateTime;
+  schema:endDate "2024-08-14T18:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/60801AHTJHGGNNSGVTBBSHPTBHTDLSBLM> a schema:Event;
+  schema:name "Wine Wednesday: July 10th, 2024";
+  schema:description """
+
+""";
+  schema:startDate "2024-07-10T18:00:00"^^xsd:dateTime;
+  schema:endDate "2024-07-10T18:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/60601ATNTMJGPJLLKLVBRSMHPPDCNKPMC> a schema:Event;
+  schema:name "Wine Wednesday: June 26, 2024";
+  schema:description """
+
+""";
+  schema:startDate "2024-06-26T18:00:00"^^xsd:dateTime;
+  schema:endDate "2024-06-26T18:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .

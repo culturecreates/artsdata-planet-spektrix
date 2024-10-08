@@ -1,0 +1,750 @@
+@base <https://www.spektrix.com/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/103801ACNLKLJBLCPVMJLSJCPJNCVVQHH> a schema:Event;
+  schema:name "Abra Cadabra: A Tribute to ABBA";
+  schema:description """
+	ABRA Cadabra – A tribute To The Music Of ABBA www.iLoveABBA.com  <span><br/></span>Get ready for an unforgettable experience with ABRA Cadabra! Featuring a live band, electrifying vocals, dazzling dancers, multimedia effects, and fabulous costumes, this interactive, family-friendly stage extravaganza promises to leave you beaming, grooving, and belting out your favorite ABBA classics. From \"Mamma Mia\" to \"Dancing Queen,\" \"Take A Chance\" to \"Waterloo,\" and many more beloved hits like \"SOS,\" \"Fernando,\" and \"Money Money Money,\" their show is a non-stop celebration of ABBA's timeless tunes that will have you singing along and dancing!<span><br/></span><span><br/></span><span><br/></span>For over two decades, ABRA Cadabra has been spreading the joy of ABBA's music across the globe. Their performances have graced prestigious venues and events, from entertaining the Malaysian Royal Family and the Prime Minister of Malaysia to captivating audiences at renowned theaters like The Queen Elizabeth Theatre in Vancouver and The Esplanade Theatre in Singapore. They've even shared the stage with icons like Boney M at Universal Studios in Florida!<span><br/></span><span><br/></span><span><br/></span>With a rich history of bringing the magic of ABBA to audiences of all ages and cultures, including televised concerts, casino shows, and festivals around the world, ABRA Cadabra's infectious energy and passion for the music shine through in every performance. Follow them on Facebook at www.facebook.com/TributeToABBA to stay updated on their latest shows and connect with fellow fans!<span><br/></span> <span><br/></span>Testimonials:<span><br/></span>“Best show we’ve ever seen!” – Gilberte Nowlan – Moncton, NB<span><br/></span><span><br/></span><span><br/></span>“OMG!!! What a spectacular show last night in Saint John!!! Thank you and come back soon. PLEASE!!! – Judy McNab – Saint John, NB<span><br/></span><span><br/></span><span><br/></span>“Labels like “tribute” band don’t cut it with these people.  Powerful, tight bang-on life-em-up delivery with a real joy in the performance! I would go see them again anywhere, anytime!” – Rob Randall – White Rock, BC<span><br/></span><span><br/></span><span><br/></span>“I wanted to give a giant thank you, thank you, thank you for your show in Kelowna.  We had so much fun and enjoyed it so much that I can’t even put it into words. We were all grinning ear to ear! You sounded so great and were so on point. From the bottom of my heart, thank you for giving us all such a fun, special evening”. – Dylan & Cavelle Wurfel – Kelowna, BC<span><br/></span>
+""";
+  schema:startDate "2024-10-09T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-09T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/7fc419a1-38be-4aee-bea4-90b2c1dc34df.jpg";
+  schema:additionalType "Live music"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer <https://spektrix.com/organization/mooncoin-productions-inc.> .
+
+<https://spektrix.com/organization/mooncoin-productions-inc.> a schema:Organization;
+  schema:name "Mooncoin Productions Inc." .
+
+place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:Place;
+  schema:name "Sid Williams Theatre";
+  schema:address address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
+  schema:streetAddress "442 Cliffe Avenue";
+  schema:addressLocality "Courtenay";
+  schema:addressRegion "BC V9N 2J2";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/107402AQKQMDKGJTTTJSDDJNLVPKQSNJM> a schema:Event;
+  schema:name "Arthur Simeon";
+  schema:description """
+	Arthur Simeon is a Ugandan-born Toronto-based comedian who has been performing for over a decade all over the world. A truly gifted storyteller, Arthur has been invited to perform at the Just For Laughs comedy festival nine times and appeared on CBC Television, HBO, Kevin Hart’s LOL Network and the CTV Comedy Channel. His unique comedic voice and perspective has seen him featured in the Globe & Mail, NOW Magazine and the Toronto<span><br/></span>Star. He’s also a regular on CBC Radio's <span class=\"ItalicText\">Laugh Out Loud</span> and <span class=\"ItalicText\">The Debaters</span>.<span><br/></span><span><br/></span>His latest album <span class=\"ItalicText\">The Blackest Panther</span> can regularly be heard on SiriusXM. Arthur is a banana bread connoisseur and lover of slow jams.<span><br/></span>
+""";
+  schema:startDate "2025-02-15T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-02-15T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/d6c218d0-e81d-4d03-b117-a77fe4eefdf2.jpg";
+  schema:additionalType "Comedy"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+organization:sid-williams-theatre-society a schema:Organization;
+  schema:name "Sid Williams Theatre Society" .
+
+<http://www.spektrix.com/107201ALHRSDHBGKRGTBPKHQNTRKCSGBS> a schema:Event;
+  schema:name "Ballet Victoria's Frankenstein";
+  schema:description """
+	<span class=\"BoldText\">A zombie love story</span><span><br/></span><span><br/></span>Shelley’s original gothic tale with a touching twist; set to a blend classical and contemporary music, the choreography drives an unexpected new and original narrative. Let’s say the inspiration, beyond Frankenstein’s creature, is drawing from <span class=\"ItalicText\">Corpse Bride</span>, and the second act of Giselle with the Willies. Let the undead drive passion in your hearts.<span><br/></span><span><br/></span><span><br/></span><span class=\"BoldText\">About Ballet Victoria</span><span><br/></span>Founded in 2002, Ballet Victoria is a boutique professional ballet company with 12 dancers and 4 yearly productions. Their performances are dramatic, technically demanding, and often laced with humour. Ballet Victoria's productions are accessible and relevant to a wide range of multicultural audiences. The shows are entertaining, hold great artistic depth and satisfy both those who discover ballet and expert aficionados. Under the direction of Paul Destrooper, the artistic team is constantly exploring new territory. Ballet Victoria has produced nearly one hundred new works and has toured in Canada, the United States, and Mexico.<span><br/></span>
+""";
+  schema:startDate "2024-11-01T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-01T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/4ae713d5-8b02-4eaa-8fb3-12dd0e9a7c7c.jpg";
+  schema:additionalType "Dance - Ballet"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/111201ALQPSSKHLLBKDSLDDDJBBGHKGVV> a schema:Event;
+  schema:name "Banff Centre Mountain Film Festival World Tour - FRI EVE";
+  schema:description """
+	<span class=\"BoldText\">***Film line up to be announced Fri Dec 13.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Presenting partners: Banff & Lake Louise Tourism, Rab<span><br/></span>Sponsored by: BUFF®, Oboz, YETI, Kicking Horse Coffee, World Expeditions, The Lake Louise Ski Resort & Summer Gondola</span><span><br/></span><span><br/></span>Banff Centre Mountain Film and Book Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.<span><br/></span><span><br/></span>From the over 400 entries submitted into the Festival each year, award-winners and audience favorites are among the films that are carefully selected to play in theatres around the world.<span><br/></span><span><br/></span>Traveling to remote vistas, analyzing topical environmental issues, and bringing audiences up-close and personal with adrenaline-packed action sports the 2024/2025 World Tour is an exhilarating and provocative exploration of the mountain world.
+""";
+  schema:startDate "2025-01-24T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-01-24T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/e389ea0e-4b20-4a7a-8818-eb3dec89167e.jpg";
+  schema:additionalType "Film"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/111601ABCPQMJQCGVRSGPJMMHHMGSPGSV> a schema:Event;
+  schema:name "Banff Centre Mountain Film Festival World Tour - SAT EVE";
+  schema:description """
+	<span class=\"BoldText\">***Film line up to be announced Fri Dec 13.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Presenting partners: Banff & Lake Louise Tourism, Rab<span><br/></span>Sponsored by: BUFF®, Oboz, YETI, Kicking Horse Coffee, World Expeditions, The Lake Louise Ski Resort & Summer Gondola</span><span><br/></span><span><br/></span>Banff Centre Mountain Film and Book Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.<span><br/></span><span><br/></span>From the over 400 entries submitted into the Festival each year, award-winners and audience favorites are among the films that are carefully selected to play in theatres around the world.<span><br/></span><span><br/></span>Traveling to remote vistas, analyzing topical environmental issues, and bringing audiences up-close and personal with adrenaline-packed action sports the 2024/2025 World Tour is an exhilarating and provocative exploration of the mountain world.
+""";
+  schema:startDate "2025-01-25T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-01-25T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/56988355-022b-4e35-96bc-01777365fd9d.jpg";
+  schema:additionalType "Film"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/111401ADMDSRCSTSBQKTDQBDGTLQQMHHH> a schema:Event;
+  schema:name "Banff Centre Mountain Film Festival World Tour - SAT MAT";
+  schema:description """
+	<span class=\"BoldText\">***Film line up to be announced Fri Dec 13.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Presenting partners: Banff & Lake Louise Tourism, Rab<span><br/></span>Sponsored by: BUFF®, Oboz, YETI, Kicking Horse Coffee, World Expeditions, The Lake Louise Ski Resort & Summer Gondola</span><span><br/></span><span><br/></span>Banff Centre Mountain Film and Book Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.<span><br/></span><span><br/></span>From the over 400 entries submitted into the Festival each year, award-winners and audience favorites are among the films that are carefully selected to play in theatres around the world.<span><br/></span><span><br/></span>Traveling to remote vistas, analyzing topical environmental issues, and bringing audiences up-close and personal with adrenaline-packed action sports the 2024/2025 World Tour is an exhilarating and provocative exploration of the mountain world.
+""";
+  schema:startDate "2025-01-25T14:00:00"^^xsd:dateTime;
+  schema:endDate "2025-01-25T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/7d5b8095-50d1-427f-926a-7a826636a04c.jpg";
+  schema:additionalType "Film"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/111001ANTCDJDHBHGBVLDTVRJMGTJMBPQ> a schema:Event;
+  schema:name "Banff Centre Mountain Film Festival World Tour - THURS EVE";
+  schema:description """
+	<span class=\"BoldText\">***Film line up to be announced Fri Dec 13.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Presenting partners: Banff & Lake Louise Tourism, Rab<span><br/></span>Sponsored by: BUFF®, Oboz, YETI, Kicking Horse Coffee, World Expeditions, The Lake Louise Ski Resort & Summer Gondola</span><span><br/></span><span><br/></span>Banff Centre Mountain Film and Book Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.<span><br/></span><span><br/></span>From the over 400 entries submitted into the Festival each year, award-winners and audience favorites are among the films that are carefully selected to play in theatres around the world.<span><br/></span><span><br/></span>Traveling to remote vistas, analyzing topical environmental issues, and bringing audiences up-close and personal with adrenaline-packed action sports the 2024/2025 World Tour is an exhilarating and provocative exploration of the mountain world.<span><br/></span>
+""";
+  schema:startDate "2025-01-23T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-01-23T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/90029989-0729-46cb-aa7e-c3c3f31b999e.jpg";
+  schema:additionalType "Film"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/109201AJPKHNRCNNLHMQQMDSRRNRNGTBV> a schema:Event;
+  schema:name "Ben Rosenblum Nebula Project";
+  schema:description """
+	<span class=\"BoldText\">Ben Rosenblum</span> brings his award-winning, genre-bending compositional style to the Nebula Project, a six-piece ensemble featuring a diverse cast of New York City’s most in-demand jazz musicians. Rosenblum boasts an extensive resume, having led bands at prestigious venues around the world (Ravinia, Library of Congress, Kuumbwa Jazz Center; multiple tours in the US, Canada, Europe and Japan) and touring with several Grammy and Juno recognized artists across various musical genres, including Rickie Lee Jones, Kiran Ahluwalia, Curtis Lundy, Nêgah Santos and Laura Anglade. With the Nebula Project, the pianist/accordionist digs deeply into his cosmopolitan roots in NYC to create a truly global music, drawing from influences as diverse as Brazilian forró, Irish reels and jigs, Bulgarian folkloric songs, Dominican merengue and Middle Eastern traditional rhythms, and combining them with an extensive rooting in American jazz and traditional music. Rosenblum leans on personal experiences working with master musicians from these and other areas of the world in order to write explorative, emotional, narrative-driven compositions that have garnered awards from ASCAP, Downbeat and beyond.<span><br/></span><span><br/></span><span class=\"BoldText\">Ben Rosenblum Nebula Project</span> is celebrating their February 2023 release <span class=\"ItalicText\">A Thousand Pebbles</span>. Since the Nebula Project's first album release in 2020, <span class=\"ItalicText\">Kites and Strings</span>, The Nebula Project was voted runner-up for Best New Artist in <span class=\"ItalicText\">JazzTimes'</span> <span class=\"ItalicText\">2020 Readers' Poll</span>, and the album received positive reviews from over twenty publications, including <span class=\"ItalicText\">All About Jazz</span>, <span class=\"ItalicText\">NYC Jazz Record</span>, <span class=\"ItalicText\">JazzTimes</span>, <span class=\"ItalicText\">JazzLife</span> (Japan) and more. Since the 2023 release, the group was featured in an article in Downbeat Magazine’s May 2023 issue, “Worldly Jazz Adventuring” which highlights the adventurous spirit of this ensemble.
+""";
+  schema:startDate "2025-03-10T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-03-10T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/10ba117f-11cc-4417-a9b2-957e57d0a28e.jpg";
+  schema:additionalType "Live music"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/108402AKHJCJDQTRKDJLVRQJLPPBVKJTD> a schema:Event;
+  schema:name "Blue Moon Marquee";
+  schema:description """
+	<span class=\"ItalicText\">“They are poised for worldwide recognition in a brilliant and unique genre-bending ride through American blues and folk, Gypsy jazz, Native American themes, jump blues, swing and more.” - Duke Robillard (Roomful of Blues, Fabulous Thunderbirds), Award-winning guitar player and producer.</span><span><br/></span><span><br/></span>Blue Moon Marquee writes and performs original compositions influenced by anything that swings, jumps or grooves. A.W. Cardinal (vocals/guitar) and Jasmine Colette a.k.a. Badlands Jass (vocals/bass/drums) have played for a vast gamut of crowds at jazz clubs, Lindy Hop dance halls, folk venues, blues haunts, hospitals, prisons, markets, motorcycle joints, dive bars and prestigious festival stages. Colette not only commands the upright bass but also brings the rhythm with her feet on a custom foot drum kit, all while singing in her signature honey-dipped tone. Cardinal’s distinctive and soulful vocals barrel out like a raging bull while his guitar crackles with the swinging energy of jazz-tinged blues.<span><br/></span><span><br/></span>The result of 9 years of rigorous touring, crisscrossing Europe and North America, is a distinct energy and style from this acclaimed duo. Carving a path through blues, jazz, jump jive, folk, country, swing, and Indigenous soul with an authentic spirit, their sound does not idle easily in one certain category. It stomps and struts through the wilds, conjuring a blend where Howlin’ Wolf tangos with Django, Earnest Tubb shoots firecrackers with Cab Calloway, and Memphis Minnie throws dice with Screamin’ Jay Hawkins. <span><br/></span><span><br/></span>Their gift is bringing all these elements together without anything sounding out of step. They collect the roots and smoothly braid them with lyrics that often touch on the underbelly of society, woven with elements of Indigenous storytelling and poetic cadence.<span><br/></span><span><br/></span><span class=\"ItalicText\">\"Blue Moon Marquee has its own completely original style. Modern Blues doesn't really get any better than this. This is a tremendous sound by a hugely talented duo” says American Roots UK.\"</span>
+""";
+  schema:startDate "2025-04-19T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-04-19T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/b28b07ea-910d-4207-814f-388179c3414f.jpg";
+  schema:additionalType "Live music"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/107801ARRRKNVQKNCSKGMCKNBNLTBRRKB> a schema:Event;
+  schema:name "Braiding the Land: Works by Raven Spirit Dance";
+  schema:description """
+	<h2>Featuring Frost Exploding Trees Moon, Spine of the Mother, and Confluence</h2><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">Frost Exploding Trees Moon</span></span> is a solo piece following the journey of a woman traveling her trap line. She finds a place to set up camp, builds her temporary home, and settles into the centre of her world of breath and perception.<span><br/></span><span><br/></span>The piece tracks a physical human journey as well as a spiritual one. It asks: How does one house one’s spirit? What keeps us close to earth and what makes us long for stars?<span><br/></span><span><br/></span>CO-CREATED BY: Floyd Favel and Michelle Olson<span><br/></span>PERFORMED BY: Michelle Olson<span><br/></span>ALSO PERFORMED BY: Jeanette Kotowich<span><br/></span>VOCALS: Kelly Daniels<span><br/></span>MUSIC: Meewasin Oma<span><br/></span>MUSIC COMPOSITION: Wayne Lavallee<span><br/></span>LIGHTING DESIGN: John Carter<span><br/></span>COSTUME DESIGN: Jules Francisco<span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">Spine of the Mother</span></span> began as an innovative collaboration with Indigenous artists in Canada and Peru. Tracing the inner terrain of our bodies as women through breath, impulse and memory unlocks kinetic energy creating ritual, which spans the spine of the mountain range we have shared for millennia.<span><br/></span><span><br/></span>The metaphor of the “Spine of Mother Earth” is a name given by Indigenous Elders in South America to the Andean mountain range that spans from the base in Argentina, through the Americas and ends at the tip of Alaska. Our bodies become the landscape like the mountain ranges that connect the North and South (the Eagle and the Condor) and through this we find our kinetic connection to others that transmits impulse, breath and spirit.<span><br/></span><span><br/></span>CHOREOGRAPHY: Starr Muranko In collaboration with past performers and artistic lineage of Tasha-Faye Evans, Andrea Patriau, Olivia Shaffer, Sarah Formosa and Marisa Gold<span><br/></span>PERFORMED BY: Tasha Faye Evans and Marisa Gold<span><br/></span>VIDEO/MEDIA DESIGN: Sammy Chien<span><br/></span>COMPOSER: Edgardo Moreno (‘Gracias a la Vida’ sung by Daniela Andrade)<span><br/></span>DRAMATURGE & MENTOR: Alvin Tolentino<span><br/></span>MENTOR: Michelle Olson<span><br/></span>CULTURAL ADVISOR: Jhaimy Alvarez-Acosta (Peru)<span><br/></span>LIGHTING DESIGN: John Carter<span><br/></span>COSTUME DESIGN: Ines Ortner<span><br/></span>ADDITIONAL DRAMATURGY: Alejandro Ronceria<span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">Confluence</span></span> is a dance work that weaves our perspectives, our histories and our bodies to create somatic tapestry that speaks to the resilience of Indigenous women. We embody the space between land and sky through play, prayer, grief and gratitude and are the living testament to the legacy that has been offered to us. Aligning our lives with the direction of the water in a river or geese in migration, we acknowledge we are always in process, shaping and carving through landscapes, creating rhythms and discovering our stories.<span><br/></span><span><br/></span>PRODUCED BY: Raven Spirit Dance<span><br/></span>ARTISTIC LEAD: Michelle Olson<span><br/></span>CHOREOGRAPHIC VISIONING: Michelle Olson, Starr Muranko and Jeanette Kotowich<span><br/></span>IN COLLABORATION WITH ARTISTS: Michelle Olson, Starr Muranko, Jeanette Kotowich, Tin Gamboa, and Emily Solstice<span><br/></span>ARTISTIC LINEAGE: Margaret Grenier, Carlos Rivera, Yvette Nolan, Kristy Janvier, Salome Neito, & Tasha Faye Evans<span><br/></span>LIGHTING DESIGNER: Brad Trenaman<span><br/></span>STAGE MANAGER: Kayleigh Sandormirsky<span><br/></span>ORIGINAL SOUND SCORE: Scott Maynard<span><br/></span>REHEARSAL DIRECTOR: Salome Nieto<span><br/></span>SOMATIC MOVEMENT COACH: Donna Redlick<span><br/></span><span><br/></span>MUSIC: <span><br/></span>Ä́’sía Keyi <span><br/></span>– Dyet and the Love Soldiers<span><br/></span><span><br/></span>All My Relations<span><br/></span>– Iskwew Singers<span><br/></span><span><br/></span>Ammalu <span><br/></span>– Russell Wallace
+""";
+  schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-05-16T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/6ac8f3a1-cf9c-4d00-9ae2-241ae3c9dcc8.jpg";
+  schema:additionalType "Dance"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/103001ARMPDCGMDQVDNGCTTLVDLSDTDHC> a schema:Event;
+  schema:name "Cabaret";
+  schema:description """
+	Book by Joe Masteroff<span><br/></span>Based on the play by John Van Druten and<span><br/></span>Stories by Christopher Isherwood<span><br/></span>Music by John Kander Lyrics by Fred Ebb<span><br/></span><span><br/></span>In a Berlin nightclub, as the 1920's draw to a close, a garish Master of Ceremonies welcomes the audience and assures them they will forget all their troubles at the Cabaret. With the Emcee's bawdy songs as wry commentary, Cabaret explores the dark, heady, and tumultuous life of Berlin's natives and expatriates as Germany slowly yields to the emerging Third Reich. Cliff, a young American writer newly arrived in Berlin, is immediately taken with English singer Sally Bowles. Meanwhile, Fräulein Schneider, proprietor of Cliff and Sally's boarding house, tentatively begins a romance with Herr Schultz, a mild-mannered fruit seller who happens to be Jewish. Musical numbers include \"Willkommen,\" \"Cabaret,\" \"Don't Tell Mama\" and \"Two Ladies.\"<span><br/></span><span><br/></span>CABARET is presented by arrangement with Concord Theatricals on behalf of Tams-Witmark LLC. <a target=\"_blank\" href=\"https://www.concordtheatricals.com/\">concordtheatricals.com</a>
+""";
+  schema:startDate "2024-10-16T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-19T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/e2565c01-78a8-44d5-899a-96e0e663e3bb.jpg";
+  schema:additionalType "Musical theatre"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:three-legged-dog-productions .
+
+organization:three-legged-dog-productions a schema:Organization;
+  schema:name "Three Legged Dog Productions" .
+
+<http://www.spektrix.com/109001AQVDGKQDTQBDHQTNJSBLSRDDKPC> a schema:Event;
+  schema:name "Cheesecake Burlesque Revue";
+  schema:description """
+	Cheesecake shows are vaudevillian-style variety shows, with dancing, singing, and comedy all centred around the classic art form of striptease! They have show-stopping group acts and scintillating solos in a range of styles - from classic to contemporary, and comedic to sultry.<span><br/></span><span><br/></span>The Cheesecakes are multiple award-winners who have dazzled and delighted in Las Vegas, New York, New Orleans, San Francisco, Seattle, Helsinki, Paris, Stockholm, Rome, and Berlin, as well as all across Canada! Armed with a sassy-silliness and a g-force of glitter, these girls pack a sparkly punch that will make your heart happy and leave you loving the skin you’re in! With influences from cult classics like Priscilla Queen of the Desert to Broadway favourites like Guys and Dolls to imaginative roller coasters like their original Cheesecakes In Space, these girls know how to put on the modern day show-stopper! The Cheesecakes are known for their high-energy acts, standout performers, comedic timing, steamy seductiveness and girl-next-door accessibility.<span><br/></span>
+""";
+  schema:startDate "2025-02-14T20:00:00"^^xsd:dateTime;
+  schema:endDate "2025-02-14T20:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/69448188-6e2f-4839-83b8-50d293e22cc2.jpg";
+  schema:additionalType "Burlesque"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/112801AMJPLBJHSJQMDVBDGQCNGDKBPHH> a schema:Event;
+  schema:name "Courtenay Little Theatre presents Alice in Wonderland";
+  schema:description """
+	Courtenay Little Theatre is excited to be presenting Alice in Wonderland as our family production this Christmas. This brand-new musical version of the timeless classic takes you down the rabbit hole with the ever-curious Alice to a land of zany adventures where nothing is as it seems. The White Rabbit, Tweedle-Dee and Tweedle-Dum, the Mad Hatter, the Caterpillar, the Mock Turtle, the mysterious Cheshire Cat, the Queen of Hearts and all of your favourites from Lewis Carroll’s beloved books make this a magical, tuneful, and over the top entertaining musical for the whole family!<span><br/></span><span><br/></span>Book, Music, & Lyrics by Janet Yates Vogt & Mark Friedman <span><br/></span>Based on Alice’s Adventures in Wonderland & Through the Looking Glass by Lewis Carroll<span><br/></span><span><br/></span>Music Team<span><br/></span>Vocal Coach: Carrie Lemke<span><br/></span>Live Band: Dagmar Killian, Nancy Cox, Corjin de Roo<span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">Alice in Wonderland</span> is presented through special arrangement with, and all authorized performance materials are supplied by Theatrical Rights Worldwide 1180 Avenue of the Americas, Suite 640, New York, NY 10036. www.theatricalrights.com</span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2024-12-22T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-12-31T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/45a81c58-a00c-45cb-8b67-88b119e2b576.jpg";
+  schema:additionalType "Musical theatre"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:courtenay-little-theatre .
+
+organization:courtenay-little-theatre a schema:Organization;
+  schema:name "Courtenay Little Theatre" .
+
+<http://www.spektrix.com/110401AVTRJSJPKNRVVHGRGMRTCCVGSHJ> a schema:Event;
+  schema:name "Dominic Miller: The Shape of My Heart Tour";
+  schema:description """
+	Dominic Miller and his band are bringing the program “The Shape of My Heart” to Western Canada in January 2025. They will play 8 shows across Alberta and BC jam packed with evergreen hits.<span><br/></span><span><br/></span>Dominic Miller has been involved in every Sting album since the 1991’s \"The Soul Cages\" and performed over a thousand concerts with the former \"The Police\" singer as well as co-written hit songs such as \"Shape Of My Heart\" and “La Belle Dame sans regrets”.<span><br/></span><span><br/></span>He recently accompanied Sting in his 2024 “Sting 3.0” tour across Europe and North America, which included five sold out shows in Toronto. Dominic Miller is also a very successful solo artist having released 12 albums to positive reviews. <span><br/></span><span><br/></span>Born in Buenos Aires to an American father and an Irish mother, he studied guitar at Boston's prestigious Berklee College and the London Guildhall School of Music.<span><br/></span><span><br/></span>He’s been a sought after session musician since the late 80s and his list of engagements defy categorization but include collaborations with Phil Collins, The Chieftains, Eddi Reader, Katie Melua, Bryan Adams, Paul Young, Nigel Kennedy, Peter Gabriel, and Tina Turner, among others. Dominic Miller will be touring with this star-studded line-up:<span><br/></span><span><br/></span>Dominic Miller – guitar<span><br/></span>Ziv Ravitz – drums<span><br/></span>Nicolas Fiszman – bass<span><br/></span>Jason Rebello – piano<span><br/></span>The band will play numerous works from Sting’s repertoire in a jazz and folk style. They will improvise around those melodies that Dominic Miller performs with the famous Englishman.<span><br/></span><span><br/></span>The program also includes the music from Miller’s new album \"Vagabond\" recorded at studio “La Buissonne” in the South of France with world-class musicians. He has crafted a fascinating sound mixture of Jazz, Pop, Acoustic Folk, Contemporary Classical and Latin elements. “Vagabond” combines all those styles producing something entirely new.<span><br/></span><span><br/></span>Grab your tickets and come enjoy the warmth of music on a cold January night.
+""";
+  schema:startDate "2025-01-17T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-01-17T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c9dad4e9-afd0-4348-b76a-3bf222459254.jpg";
+  schema:additionalType "Live music"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sheep.co-entertainment .
+
+organization:sheep.co-entertainment a schema:Organization;
+  schema:name "Sheep.Co Entertainment" .
+
+<http://www.spektrix.com/105401APRJVMGJLHSJCNQLVPBJJLBQLJQ> a schema:Event;
+  schema:name "Dracula, Nightmare of the Dead";
+  schema:description """
+	A wry look at Victorian mores, a female Van Helsing, a recreation of the Gothic novel’s dramatic sweep, distinguish this adaptation of <span class=\"ItalicText\">Dracula</span>, based upon the 1897 horror classic by Bram Stoker. The play opens in a graveyard, and those who lived the tale of DRACULA, return from the dead to tell us their story, transporting us from Dracula's Transylvanian Castle, aboard the shipwrecked <span class=\"ItalicText\">Demeter</span>, to the Port at Whitby, Dr. Seward’s asylum, a Romanian convent and a crypt at midnight…	
+""";
+  schema:startDate "2024-10-02T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-06T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/5c4d3c80-a8b1-4f62-88fe-4ffb9d6e3677.jpg";
+  schema:additionalType "Theatre - Drama"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:courtenay-little-theatre-society .
+
+organization:courtenay-little-theatre-society a schema:Organization;
+  schema:name "Courtenay Little Theatre Society" .
+
+<http://www.spektrix.com/108001AGVJBVHKVRTQTNBRVCRNKVMJQNR> a schema:Event;
+  schema:name "Epidermis Circus";
+  schema:description """
+	<span class=\"BoldText\">The weirdest puppet show you've ever seen</span><span><br/></span><span class=\"BoldText\">From SNAFU Society of Unexpected Spectacles</span><span><br/></span><span><br/></span>A spicy puppet cabaret, hosted by a sassy grandma who keeps trying to steal the show. This beautifully twisted variety show is performed by Ingrid Hansen, who also puppeteers for Jim Henson Company’s <span class=\"ItalicText\">Fraggle Rock</span>. Watch behind-the-scenes as Hansen performs a live puppet film, animating cheeky vignettes in the palm of her hand and projecting them onto a huge screen.<span><br/></span><span><br/></span>Both live and magnified on screen, in cunningly angled cameras and mirrors, we see Hansen create characters from her own hands, fingers, tongue, in a saucy and jostling vaudeville of ‘stars’. Tiny stories emerge that celebrate the hilarious impossibility of being alive and having a body: these fragile bags of meat and bone carry us from place to place and allow us to laugh and snort and feel. SNAFU’s work has been compared to Wes Anderson and David Lynch, yet “hilarious, absurd and profoundly human.” (The Star Phoenix Newspaper).<span><br/></span><span><br/></span>Directed by Britt Small (premiere director of <span class=\"ItalicText\">Ride the Cyclone</span>), with costumes by JIMBO (winner of <span class=\"ItalicText\">RuPaul’s Drag Race</span>), performed by Ingrid Hansen (puppeteer for The Jim Henson Company’s <span class=\"ItalicText\">Fraggle Rock</span> and <span class=\"ItalicText\">Sesame</span>).<span><br/></span><span><br/></span><span class=\"ItalicText\">“Utterly magical, insanely inventive, wickedly funny, BEAUTIFULLY TWISTED, and occasionally erotic! ★★★★★” - Free Press.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">“Surpassing the world of the weird, the zany antics of Epidermis Circus live in a universe of absolutely absurd. CRITIC’S CHOICE NYC. ★★★★★” - Jaycie Buben, All About Solo NY</span><span><br/></span><span><br/></span><span class=\"ItalicText\">Epidermis Circus</span> was created with support from the Capital Regional District Arts Council and the Canada Council for the Arts, and tours with the support of the BC Arts Council.  Early development of <span class=\"ItalicText\">Epidermis Circus</span> was also supported by the National Arts Centre's #CanadaPerforms initiative, and the OAC’s Theatre Creators Reserve as recommended by the Puppetmongers.
+""";
+  schema:startDate "2024-11-22T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-22T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c2d239a9-7916-49c2-8530-bf69e33edcfb.jpg";
+  schema:additionalType "Theatre"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/110001ACPBDDBVMJDNJCSDHRGNSGDJHGM> a schema:Event;
+  schema:name "Fat Joke";
+  schema:description """
+	An unfiltered, hilarious interrogation of fatphobia.<span><br/></span><span><br/></span>A fusion of stand-up comedy, storytelling, and unapologetic fact-blasting, Fat Joke thrusts fatphobia into the spotlight. Drawing upon personal experience and research, comedian, actor, and writer Cheyenne Rouleau surgically dissects this seldom-discussed subject with a razor-sharp wit that leaves the audience confronting their assumptions. Think: Nanette by Hannah Gadsby meets Inside by Bo Burnham.<span><br/></span><span><br/></span>Brace yourself for a social commentary that challenges conventions, sparks crucial conversations, and keeps you laughing in the process.<span><br/></span><span><br/></span>A Neworld Theatre production<span><br/></span>Created and Performed by Cheyenne Rouleau<span><br/></span>Directed by Chelsea Haberlin<span><br/></span>Dramaturgy by Jiv Parasram<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.createastir.ca/articles/fat-joke-theatre-review-the-cultch-neworld-theatre-rumble-theatre\">CLICK HERE TO READ THEATRE REVIEW FOR FAT JOKE</a>
+""";
+  schema:startDate "2025-02-07T14:00:00"^^xsd:dateTime;
+  schema:endDate "2025-02-07T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c12e07f3-401d-4d2a-ac1b-060f2b217b82.jpg";
+  schema:additionalType "Comedy"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/98601ANCGJHQJBCLNRTKRSSHKHVMQSSGP> a schema:Event;
+  schema:name "Fleetwood Magic, the Authentic Tribute to Fleetwood Mac";
+  schema:description """
+	Fleetwood Magic Tribute Band transports audiences in sound and time on a musical journey performing Fleetwood Mac’s greatest hits from the 60’s to the 80’s. They perform in vintage costumes using period correct instrument sounds, exacting vocals and onstage character to personify this most famous line-up of Fleetwood Mac. <span><br/></span><span><br/></span>Fleetwood Mac is one of the world’s most popular and iconic groups and has earned their place in the rock and roll hall of fame as one of the biggest selling classic rock bands on the planet! <span><br/></span><span><br/></span>Fleetwood Magic vividly reminds audiences of all ages, what made “The Mac” legendary.  Experiencing timeless classics like “Rhiannon,” “Dreams,” “You Make Loving Fun,” “Say You Love Me,” “The Chain,” “Go Your Own Way,” listeners have come to realize the rumours are true – Fleetwood Magic does indeed, deliver the magic! <span><br/></span><span><br/></span>Fleetwood Magic is comprised of the finest musicians…Twirling in chiffon and velvet, personifying Stevie Nicks is Diane Warren, the signature guitar licks and full throttle vocals of Lindsay Buckingham are performed by Mike Luniw, the silky lead and harmony vocals of the late-great Christine McVie is Songbird Zoey Leven, the iconic groove and mad-man drummer personality is that of Curtis Michael Leippi, the steady and underrated bass anchor of John McVie is Dave Kalancha, and ambient keyboard sounds are created by Steve Bush.<span><br/></span><span><br/></span>Fleetwood Magic continually plays sold out shows to thousands of Fleetwood Mac fans! This show is a must see!<span><br/></span><span><br/></span>For more information about Fleetwood Magic, please visit:<a target=\"_blank\" href=\"https://www.fleetwoodmagic.ca/\"> fleetwoodmagic.ca</a>
+""";
+  schema:startDate "2024-09-27T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-27T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/a4243917-9cff-450e-bbd1-f2e8e05da18c.jpg";
+  schema:additionalType "Live music - Rock"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:diane-warren .
+
+organization:diane-warren a schema:Organization;
+  schema:name "Diane Warren" .
+
+<http://www.spektrix.com/110801ADSKLMTLQBKGSVJMJVVJTPPQTJS> a schema:Event;
+  schema:name "God is a Scottish Drag Queen Christmas Special";
+  schema:description """
+	God, dressed in an all new holiday power suit, returns to set the record straight and expound on everything from the beginnings of Christmas with Yule, Saturnalia and Winter Solstice, to holiday foods, Christmas carols, Star Wars, the true story of the Nativity, and even Tiny Tim! This show blends together the nostalgia of holidays gone by, a hilarious and laugh-out-loud look at the holidays of today and a heartwarming and perfectly sweet peek at holidays yet to come! The Christmas Special has become the most popular show of the entire series and is an absolute must see! You will never look at Egg Nog the same way again!<span><br/></span><span><br/></span>“God Is Great! What did you expect me to say?”<span><br/></span>London Free Press<span><br/></span><span><br/></span>“A hilarious and heavenly way to spend an evening!”<span><br/></span>CBC<span><br/></span><span><br/></span>“This show is an absolute must see!<span><br/></span>VUE Weekly
+""";
+  schema:startDate "2024-11-26T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-26T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/259ab999-9aaf-4903-b632-adfd90d3390b.jpg";
+  schema:additionalType "Comedy"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:quatro-entertainment-inc .
+
+organization:quatro-entertainment-inc a schema:Organization;
+  schema:name "Quatro Entertainment Inc" .
+
+<http://www.spektrix.com/110601ARNSJLGBBVBGPPNNDHDHNQDTRKM> a schema:Event;
+  schema:name "Jann Arden";
+  schema:description """
+	Celebrate the holidays with Alberta’s own Jann Arden as she puts her unique spin on the classics you know and love, featured on her 2015 release <span class=\"ItalicText\">A Jann Arden Christmas</span>.<span><br/></span><span><br/></span>Arden is a multi-platinum, award-winning singer, songwriter, actor and best-selling author. Her accolades include eight JUNO Awards including Female Artist of the Year and Songwriter of the Year, 10 SOCAN Awards, and 4 Western Canadian Music Awards to name a few. An inductee of the Canadian Music Hall of Fame, a Star on Canada’s Walk of Fame, and a recipient of the Order of Canada – Jann Arden is a national treasure.<span><br/></span>
+""";
+  schema:startDate "2024-11-16T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-16T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/18fa5feb-3d32-497d-a895-6edab856e45d.jpg";
+  schema:additionalType "Holiday concert"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer <https://spektrix.com/organization/gee-dan-productions-&-sid-williams-theatre-society> .
+
+<https://spektrix.com/organization/gee-dan-productions-&-sid-williams-theatre-society>
+  a schema:Organization;
+  schema:name "Gee Dan Productions & Sid Williams Theatre Society" .
+
+<http://www.spektrix.com/107002AJVBMGPNQGGQNTSSJHQPKRDGGJD> a schema:Event;
+  schema:name "Just the 2 of Us: Joëlle Rabu & Buwa";
+  schema:description """
+	You may be hard-pressed to find a more unexpected singing duo than veteran, award-winning Canadian chanteuse Joëlle Rabu and Nigerian-born rising star Buwa. Born on opposite sides of the world and decades apart they have nonetheless met their musical match in one another. Two vocal powerhouses, with musical tastes and ambitions blurring all lines of genre and era, Joëlle & Buwa join forces in a new show - <span class=\"ItalicText\">Just the 2 of Us</span>.<span><br/></span><span><br/></span><span class=\"ItalicText\">Just the 2 of Us</span> is a celebration of their favourite music spanning six decades and a half a dozen genres; from Piaf, Garland, Dietrich and Streisand; to Aretha Franklin and Etta James; from Elton John to Amy Winehouse; and Janis Joplin to Prince and beyond. Though nostalgia abounds, Joëlle & Buwa interpret each song through the lens of their diverse experiences, breathing fresh life and vitality into timeless classic melodies and immortal songs. Humour, engaging banter from the nostalgic playful to the edgy risqué is always on the menu with these two singers.<span><br/></span><span><br/></span>What awaits…sincere storytelling, heart-stopping ballads, unforgettable musical prowess, backed by a fabulous ensemble of multi-instrumentalists, and framed by a friendship that defies all expectations. Together, Joëlle & Buwa aim to showcase the enduring power of music to transcend borders and generations
+""";
+  schema:startDate "2024-11-28T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-28T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/60828a3c-1e8c-4cc9-8bd8-3273994dc2b1.jpg";
+  schema:additionalType "Live music"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/107001APCDPPVRLGLJBTJNGBPQJDPNJMQ> a schema:Event;
+  schema:name "Kym Gouchie";
+  schema:description """
+	Lheidli T’enneh artist, performer and cultural ambassador Kym Gouchie’s traditional hand drum, acoustic guitar, full-bodied voice and authentic storytelling make her a powerful force. Indigenous, folk, roots and subtle country tones alongside Kym’s poignant lyrics and eloquent delivery have a stirring impact on her audience, instilling hope and inspiration. She’ll be performing as a full band with a tantalizing blend of accompanists on cello, bass, keys and vocal harmonies, featuring a variety of her music including some heartwarming songs from her new album Shun Beh Nats’ujeh (<span class=\"ItalicText\">We Are Healing Through Songs</span>). Kym is known for her unique and memorable performances and this show will open your heart.<span><br/></span><span><br/></span>Kym is also well-known as a speaker and bridge-builder, called upon regularly to work with groups across the country on themes of reconciliation, promoting connection, unity and healing. She is a founding member of CARE - Canadian Artists for Reconciliation & Education.<span><br/></span><span><br/></span><span class=\"ItalicText\">“Kym Gouchie is an artist who has the ability to momentarily make us feel that time can stand still. Performing with a combination of soulful expression, focused intent, integrity, and artistic depth, Kym Gouchie embraces and holds audiences while imparting messages and truths in songs that need to be heard. Kym is a truly unique artist who seamlessly blends the contemporary with the traditional.” - Peter North, Artistic Director: Salmon Arm Roots & Blues</span>
+""";
+  schema:startDate "2024-09-26T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-26T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/f809d436-3a8d-499d-997a-aa31183dc43f.jpg";
+  schema:additionalType "Live music"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/113201AGJJKDKVSJKQSRNLGHKRPQDSHHM> a schema:Event;
+  schema:name "Let's Go Surfin'! - A musical salute to the Beach Boys";
+  schema:description """
+	Get ready to be swept away by the timeless melodies of the Beach Boys! Join us for a nostalgic evening filled with their iconic hits and concert favorites. Let’s Go Surfin is performed by BACKBEAT, Canada's most authentic musical tribute to the 60's. They nail the incredibly intricate Beach Boys harmonies perfectly! All the genius of Brian Wilson’s songwriting and studio wizardry blossoms on stage in a spectacular musical salute to one of the greatest pop groups of all time!<span><br/></span><span><br/></span>All the hits are here!  From the energetic “Fun, Fun, Fun” and \"Surfin' USA\" to the emotional masterpieces like “Don’t Worry, Baby” and \"God Only Knows\", this show will take you on a musical journey through the sunshine-soaked sounds of California. Feel the sand between your toes and the warmth of the summer sun as you sing along to your favorite Beach Boys classics.<span><br/></span><span><br/></span>Don't miss this unforgettable opportunity to relive the music and the magic of The Beach Boys… in a spectacular tribute of both sight and sound performed by BACKBEAT.
+""";
+  schema:startDate "2025-02-08T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-02-08T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/89ed37a0-f7a8-423a-82ad-9d4ab83b69e6.jpg";
+  schema:additionalType "Live music"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:backbeat-entertainment .
+
+organization:backbeat-entertainment a schema:Organization;
+  schema:name "BackBeat Entertainment" .
+
+<http://www.spektrix.com/108801ALCMMPSBQHKPPPTSVMHCRCNRPVS> a schema:Event;
+  schema:name "Love Bomb";
+  schema:description """
+	<span class=\"BoldText\">A shameless hussy production</span><span><br/></span><span><br/></span>Written by Meghan Gardiner<span><br/></span>Music by Steve Charles<span><br/></span>Book and lyrics by Meghan Gardiner<span><br/></span>Starring Sara Holt and Melissa Kahan<span><br/></span><span><br/></span><span class=\"ItalicText\">\"Love bombing: attempts to influence a person by lavish demonstrations of attention and affection; an expression used to describe the tactics used by pimps and gang members to control their victims.\"</span><span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">Love Bomb</span></span> is a rock concert within a play – and a mystery on top of that. A concert of emotion rips through Justine’s first performance in years and all because of one uninvited guest, her music takes on a life of its own. This dramatic production takes an intimate and emotionally brave look at sex trafficking. In Canada, countless lives have been, and continue to be affected by this epic problem.<span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">Love Bomb</span></span> was selected to premiere as the first production of the 2015/2016 season at Vancouver’s historic Firehall Arts Centre in October 2015. This shameless hussy production and world premiere musical by Meghan Gardiner (Dissolve), <span class=\"ItalicText\">Love Bomb</span> opened to both popular and critical acclaim. The play has earned two 2015 Ovation Awards for Musical Theatre: ‘Outstanding Lead Actress’ and ‘Outstanding Production’ in the Small Ensemble category.<span><br/></span>
+""";
+  schema:startDate "2024-10-08T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-08T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/83c1561e-be52-46f3-9707-21519b03b8ab.jpg";
+  schema:additionalType "Theatre"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/111801AGTTSSKTDMNHQDKBDLHLTMCTQJJ> a schema:Event;
+  schema:name "Matthew Good And His Band";
+  schema:description """
+	Matthew Good is a multi-platinum selling Canadian recording artist, best known for his signature vocal style, guitar-driven melodies, and cinematic lyrics. He began his career as the frontman for the Matthew Good Band, one of the most successful Canadian alternative rock bands during the 1990s and early 2000s. Good’s body of work includes thirteen full-length studio albums, four EPs, two compilation LPs, and one live album. He has been nominated for 21 Juno Awards throughout his career, with two solo wins for Rock Album of the Year for Vancouver (2009) and Video of the Year for 2003’s “Weapon”, and two wins for Best Group (Matthew Good Band) and Best Rock Album for Beautiful Midnight (2000).<span><br/></span>
+""";
+  schema:startDate "2024-10-26T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-26T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/8a39bc10-ed6c-4c0a-88a3-3176eedf0c49.jpg";
+  schema:additionalType "Concert"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer <https://spektrix.com/organization/got-pop?-concerts-&-gee-dan-productions> .
+
+<https://spektrix.com/organization/got-pop?-concerts-&-gee-dan-productions> a schema:Organization;
+  schema:name "Got Pop? Concerts & Gee Dan Productions" .
+
+<http://www.spektrix.com/104801ABKCMKPKJGHDBCNKDSGKQGVKSSN> a schema:Event;
+  schema:name "Menopause The Musical";
+  schema:description """
+	Menopause The Musical® - COME JOIN OUR SISTERHOOD!<span><br/></span><span><br/></span>Four women at a lingerie sale have nothing in common but a black lace bra AND memory loss, hot flashes, night sweats, not enough sex, too much sex and more! This hilarious musical parody set to classic tunes from the ‘60s, ‘70s and ‘80s will have you cheering and dancing in the aisles! See what more than 17 million women and fans worldwide have been laughing about for over 20 years!<span><br/></span><span><br/></span>It's the Hilarious Celebration of Women and The Change!® <span><br/></span>
+""";
+  schema:startDate "2024-10-10T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-10T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/894172b4-28b1-49c5-804e-f813355329e1.jpg";
+  schema:additionalType "Musical theatre"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:modo-live .
+
+organization:modo-live a schema:Organization;
+  schema:name "MODO-LIVE" .
+
+<http://www.spektrix.com/109801AVKBNCQLRRRGDBQRQNKTRHNPQML> a schema:Event;
+  schema:name "Music of the Night: The Concert Tour";
+  schema:description """
+	This concert celebration of Andrew Lloyd Webber returns to Courtney (last here in 2019) after having now toured across Canada to sold out audiences from Victoria to Montreal! Now with a live band and many new incredible and celebrated singers, we welcome you to experience this concert of Webber’s most iconic theatrical music - including selections from Phantom of the Opera, Evita, Cats, Jesus Christ Superstar, Sunset Blvd, and more! <span><br/></span><span><br/></span>\"Just saw opening night of Spring 2024 tour in Richmond/Vancouver, BC. What an amazing show!!! Wonderful mix of songs represented!  Just amazing!!!  Get your tickets now!!!  Should not miss this amazing show!”<span><br/></span>Melanie Ngai, Vancouver, BC<span><br/></span><span><br/></span>\"This was very entertaining, the cast had unbelievable voices, and what a wonderful way to spend a Sunday afternoon saw the show at a sold out show at Georgian College Barrie\"<span><br/></span>Angela Carter, Barrie, ON<span><br/></span><span><br/></span>\"this very professional and capable cast – made up of seasoned singers ... never ceased to amaze us with a string of hits that made famous the brilliant Andrew Lloyd Webber.  The artists are versatile, play very well and have voices to spare... They all impressed me. It’s a very solid cast.\"<span><br/></span>Review:  atuvu.ca (Montreal)<span><br/></span><span><br/></span><span><br/></span>In response to the Calls to Action from the Truth and Reconciliation Commission of Canada <a target=\"_blank\" href=\"https://www.rcaanc-cirnac.gc.ca/eng/1524494530110/1557511412801\">(Delivering on Truth and Reconciliation Commission Calls to Action)</a>, we are offering modest discounted rates to the Indigenous Community as a small gesture.<span><br/></span>
+""";
+  schema:startDate "2024-10-23T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-23T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/3720a59f-5b15-4bb7-b6a7-010cff549657.jpg";
+  schema:additionalType "Concert"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer <https://spektrix.com/organization/sound-the-alarm:-music/theatre> .
+
+<https://spektrix.com/organization/sound-the-alarm:-music/theatre> a schema:Organization;
+  schema:name "Sound the Alarm: Music/Theatre" .
+
+<http://www.spektrix.com/110201AVDPCBBGHHKDVJLGNDNQLVNPNNS> a schema:Event;
+  schema:name "Neil Diamond Tribute Show - Featuring Jay White";
+  schema:description """
+	<span class=\"BoldText\">THE WORLD'S MOST AUTHENTIC NEIL DIAMOND CONCERT CELEBRATION FEATURING JAY WHITE!</span><span><br/></span><span><br/></span>For over 50 years Neil Diamond’s music has bridged generations and captured the hearts of millions. Jay White has received Neil’s written and verbal approval, while appearing on Neil’s stages. It was here Neil told Jay to “Keep up the good work”. Every moment, every sound, each expression of every song evokes the power and the passion of Neil Diamond. Visually spectacular and warmly familiar, this powerful concert experience is not only a feast for the eyes and ears, but for the heart. Combining the passion of Broadway with the power of a live concert we rediscover his charismatic presence in this uplifting production, complete with a finale of heart pounding patriotic pride!<span><br/></span>
+""";
+  schema:startDate "2025-11-20T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-20T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/fcd53542-d7f0-40af-b915-030f8e68e563.jpg";
+  schema:additionalType "Live music"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:vaughnco-entertainment .
+
+organization:vaughnco-entertainment a schema:Organization;
+  schema:name "VaughnCo Entertainment" .
+
+<http://www.spektrix.com/108201AKRVHLNCBJTPJRCRKTRJGCVJTGG> a schema:Event;
+  schema:name "O Come All Ye Soulful";
+  schema:description """
+	<span class=\"BoldText\">Dawn Pemberton with the Jodi Proznick Quintet</span><span><br/></span><span class=\"BoldText\">A Joyful & Soulful Bounce to your Favourite Holiday Classics</span><span><br/></span><span><br/></span>Join two award winning powerhouses - vocalist, Dawn Pemberton and bassist/bandleader, Jodi Proznick and an all-star band as they bring a joyful and soulful bounce to your favourite holiday classics. <span><br/></span><span><br/></span>The music includes holiday classics made famous by Ray Charles, Stevie Wonder, Ella Fitzgerald, John Legend, Donny Hathaway, Otis Redding, Darlene Love, Vince Guaraldi, and more! Join Western Canadian Music Award winners Dawn Pemberton (vocals), Jodi Proznick (bass), and the band for a soulful holiday celebration.<span><br/></span><span><br/></span><span class=\"BoldText\">O Come All Ye Soulful is:</span><span><br/></span><span><br/></span><span class=\"BoldText\">Dawn Pemberton</span>- Vocals<span><br/></span><span><br/></span><span class=\"BoldText\">Jodi Proznick</span>- Bass<span><br/></span><span><br/></span><span class=\"BoldText\">Tilden Webb</span>- Piano<span><br/></span><span><br/></span><span class=\"BoldText\">Nick Bracewell</span>- Drums<span><br/></span><span><br/></span><span class=\"BoldText\">Vince Mai</span>- Trumpet<span><br/></span><span><br/></span><span class=\"BoldText\">James Danderfer</span>- Saxophone
+""";
+  schema:startDate "2024-12-15T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-12-15T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/9aaa9e61-0b58-4505-8627-0dac98e0936f.jpg";
+  schema:additionalType "Holiday concert"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/91001AGRQVVNCNSQHCNHSNGBSKJVCSJCL> a schema:Event;
+  schema:name "Queen: It's A Kinda Magic";
+  schema:description """
+	Following the huge success of its 2023 Canadian national tour, <span class=\"BoldText\">Queen: It’s a Kinda Magic</span> is RETURNING IN 2024 by popular demand!<span><br/></span><span><br/></span>See the rock spectacular that everyone RAVED about, bringing their big sound, big screens, crazy lighting and outlandish costumes back for a night of non-stop rock anthems, including Bohemian Rhapsody, We Will Rock You, We Are the Champions, Radio GaGa, I Want to Break Free, Somebody to Love, Don’t Stop Me Now, Another One Bites the Dust and so many more.<span><br/></span><span><br/></span>Featuring Dominic Warren reprising his role as ‘Freddie Mercury’ and performing vocals, piano and guitar all LIVE ON STAGE and in original key.<span><br/></span><span><br/></span>Don’t miss the REAL ROCK EXPERIENCE, direct from Australia!<span><br/></span>
+""";
+  schema:startDate "2024-09-22T14:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-22T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/84c323d6-a775-41fd-8504-39c0c11ba4c2.jpg";
+  schema:additionalType "Tribute concert"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:johnny-showtime-ltd .
+
+organization:johnny-showtime-ltd a schema:Organization;
+  schema:name "Johnny Showtime LTD" .
+
+<http://www.spektrix.com/108601AMNMMNLDMDBGDSPJJCPCHCHCDMG> a schema:Event;
+  schema:name "Ring of Fire";
+  schema:description """
+	<span class=\"BoldText\">An Arts Club Theatre Company production</span><span><br/></span><span><br/></span><span class=\"BoldText\">Ring of Fire</span><span><br/></span><span class=\"BoldText\">The Music of Johnny Cash</span><span><br/></span><span><br/></span>Created by Richard Maltby, Jr.<span><br/></span>Conceived by William Meade<span><br/></span>Orchestrations by Steven Bishop and Jeff Lisenby<span><br/></span>Ring of Fire was originally produced on Broadway by William<span><br/></span>Meade, CTM Productions, Bob Cuillo, GFour Productions, and James B. Freydberg<span><br/></span><span><br/></span>A REMARKABLE LIFE OF STORY AND SONG<span><br/></span><span><br/></span>Let the iconic songbook of Johnny Cash guide you on a captivating journey of trials and triumphs, love, and redemption. This inspired theatrical concert, brought to life by a talented ensemble of singers and musicians, delves into the heart of Cash's music. Experience his artistry through timeless hits like “I Walk the Line,” “Folsom Prison Blues,” “Country Boy,” and “A Boy Named Sue,” connecting with universal emotions and experiences along the way.<span><br/></span><span><br/></span><span class=\"ItalicText\">Ring of Fire is presented through special arrangement with and all authorized performance materials are supplied by Theatrical Rights Worldwide, 1180 Avenue of the Americas, Suite 640, New York, NY 10036. www.theatricalrights.com</span><span><br/></span><span><br/></span><span><br/></span><span class=\"ItalicText\">Artistic team and cast to be announced.</span><span><br/></span>
+""";
+  schema:startDate "2025-03-27T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-03-27T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/7b1337b7-ee96-4252-bc73-f781370d4fb3.jpg";
+  schema:additionalType "Musical theatre"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/107401APCCQDLQGPVKCVQQGDDMGCJMJRQ> a schema:Event;
+  schema:name "Sexy Laundry";
+  schema:description """
+	<span class=\"BoldText\">An Arts Club Theatre Company production</span><span><br/></span><span><br/></span><span class=\"BoldText\">Sexy Laundry</span><span><br/></span><span class=\"BoldText\">By Michele Rim</span><span><br/></span><span><br/></span>A CONTEMPORARY CANADIAN COMEDY<span><br/></span><span><br/></span>Alice and Henry are coming to grips with their lackluster sex life. Time, kids, and stress - not to mention gravity - have taken their toll. In an effort to rekindle the magic in their 25-year marriage, they go on a naughty hotel retreat, equipped with a copy of <span class=\"ItalicText\">Sex for Dummies</span>. But they soon find that when the clothes come off, so do the gloves! This couple’s relatable, humorous, and inspiring escapade will touch audiences. Don't miss your chance to see Vancouver playwright Michele Riml's international hit play - now translated into 15 languages!<span><br/></span><span><br/></span><span class=\"ItalicText\">“Against a backdrop of clever humour and wittiness, lies a play emphasizing the power of love” - BroadwayWorld.com</span><span><br/></span><span><br/></span><span class=\"ItalicText\">Artistic team and cast to be announced.</span><span><br/></span><span><br/></span><span class=\"BoldText\">About the playwright</span><span><br/></span>Michele Riml is a critically acclaimed playwright from Vancouver. Her plays include <span class=\"ItalicText\">Under the Influence</span>, <span class=\"ItalicText\">Poster Boys</span>, <span class=\"ItalicText\">RAGE</span>, and many more. <span class=\"ItalicText\">Sexy Laundry</span> and <span class=\"ItalicText\">Henry and Alice: Into the Wild</span> have become international hits with ongoing productions worldwide. Her plays for young audiences have been widely produced and include <span class=\"ItalicText\">The Skinny Lie</span>, <span class=\"ItalicText\">The Invisible Girl</span>, and <span class=\"ItalicText\">Tree Boy</span>. She is currently working on a new musical, <span class=\"ItalicText\">SALT</span>, with British singer/songwriter David Ford.<span><br/></span>
+""";
+  schema:startDate "2024-11-09T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-09T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/3276f062-283b-4c26-81c2-70fc2dd9e175.jpg";
+  schema:additionalType "Theatre - Comedy"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/112601ACDKBDPVBMJVCBLTJTVJRJQBCQD> a schema:Event;
+  schema:name "Shane Koyczan";
+  schema:description """
+	There are some artists who happen to be in the right place at the right time... that moment when the door is still slightly open and there’s just enough space to sneak through.<span><br/></span><span><br/></span>Then there are those artists who find themselves standing in front of a closed door, but instead of waiting for it to open they kick it in to go through. In the rise of Spoken Word’s popularity, that open door cannot be discussed without saying the name Shane Koyczan. In 2010, the world caught a glimpse of Koyczan’s prodigious talent with his presentation at the opening ceremonies of the Winter Olympics in Vancouver. This stand-out performance helped shine a light on this street poet from Vancouver’s downtown east side.<span><br/></span><span><br/></span>Shane had been an artist, inches away from living on the street, who even in those troubled times was putting out work like To This Day, a video that’s garnered 24 million views and is used worldwide in classrooms as a teaching tool, as well in speech and forensic competitions. His second book, Stickboy, was adapted into an opera by Vancouver Opera. His voice has been sought after by luminaries like George Miller, who worked with Shane on Mad Max: Fury Road. Koyczan also created the piece, Shoulders, which he toured with David Suzuki as part of The Blue Dot Tour, a movement to enshrine environmental rights in the constitution.<span><br/></span><span><br/></span>A collaborator with artists such as Ani DiFranco, Dan Mangan, Tanya Tagaq, and others, Koyczan has elevated the art form of Spoken Word from its humble beginnings in after-hour cafes to stages both grand and distant. Shane brings an authenticity to his work that connects with audiences, as evidenced by his fiercely honest TED Talk, which highlights the kind of humanity he brings to each performance. Not just a poet moving on from one subject to the next, Shane weaves his pieces together in a spellbinding narrative that show audiences themes that stretch over our lives. Koyczan continues to trek through the difficult parts of our existence with humour in heart, and a notepad in hand; he scribbles down the whispers inside us and uses laughter as a poultice to press against our wounds.<span><br/></span><span><br/></span>In 2017 Shane invited us deep into family trauma with the documentary Shut Up And Say Something, an emotional trip through his past as he comes to terms with his estranged father. The film went on to win Most Popular Documentary at Vancouver <span><br/></span>International Film Festival, moving audiences with its bravery and vulnerability. After a number of critical successes in the book world, Shane chose to depart from convention and carve out his own path as an independent artist. Koyczan launched his own publishing house, Stickboy Press, whose first collection was brought to life by a crowd funding campaign in which 1,688 backers pledged $91,154 to make A Bruise On Light, a Guinness record holder as the most money raised through crowdfunding for a book of poetry. Shane followed this success by publishing two graphic novels, Silence Is A Song I Know All The Words To and Turn On A Light.<span><br/></span><span><br/></span>It feels safe to say that there seems no territory beyond the reach of Koyczan’s pen or of his heart. An artist whose work has transgressed genres and given breath to a new generation of voices, Shane Koyczan wears the mantle of human and dares others to discover what that means.
+""";
+  schema:startDate "2025-03-04T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-03-04T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/62fef093-bf9e-4d47-9e40-ee77c6c359ed.jpg";
+  schema:additionalType "Spoken word"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer <https://spektrix.com/organization/gee-dan-productions-&-sid-williams-theatre-society> .
+
+<http://www.spektrix.com/112201ACSCPJVCPSJCJCBCPJCHDNDDMDV> a schema:Event;
+  schema:name "Snowed In Comedy Tour";
+  schema:description """
+	The Snowed In Comedy Tour has turned into a Canadian success story, celebrating its sixteenth  year. It has now grown to become the biggest comedy tour in Canada. Playing in 70 cities this year, coast to coast. In a market still dominated by American acts, with American TV credits, a small Canadian comedy tour has managed to succeed. Like the Tragically Hip they have done it by touring and making more and more people laugh, year after year. The tour has now performed in Australia, The US, France, and Switzerland. The tour has received numerous standing ovations. Four international comedians come together to create one amazing show with each bringing a unique and hilarious take providing something for everyone. Just for Laughs winner Dan Quinn is joined by the Great Canadian Laugh Off winner, Paul Myrehaug and 6 time Canadian Comedian of the year nominee, Pete Zedlacher. We are proud to announce that Erica Sigurdson with over 70 appearances on the Debaters, will be joining us. Don’t miss out on the comedy show called “Better than the Just for Laughs Tour” and “Delivers a Flurry of Laughs”.<span><br/></span><span><br/></span>Erica Sigurdson<span><br/></span>70+ appearances on the Debaters<span><br/></span>Winnipeg Comedy Festival<span><br/></span>Just for Laughs<span><br/></span>Halifax Comedy Festival<span><br/></span><span><br/></span>Pete Zedlacher<span><br/></span>6-time nominee of the Canadian Comedy Award for Best Male Stand-up<span><br/></span>Winner of Sirius XM's Top Comic<span><br/></span>8 appearances at Montreal's Just For Laughs Festival<span><br/></span>Halifax And Winnipeg Comedy Festival<span><br/></span><span><br/></span>Dan Quinn<span><br/></span>Winner of Canadian Competition at Just for Laughs<span><br/></span>Opened for Rob Schneider, Russell Peters<span><br/></span>Best of Fest Moncton Comedy Festival<span><br/></span>TV Special on Check TV, Comedy Network<span><br/></span><span><br/></span>Paul Myrehaug<span><br/></span>CBC’s the Debaters<span><br/></span>$25,000 Great Canadian Laugh off winner<span><br/></span>Just For Laughs, Comedy Now on CTV<span><br/></span>
+""";
+  schema:startDate "2025-01-14T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-01-14T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/12cffc75-c524-4572-bc84-a1cf50812547.jpg";
+  schema:additionalType "Comedy"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:dan-quinn-entertainment .
+
+organization:dan-quinn-entertainment a schema:Organization;
+  schema:name "Dan Quinn Entertainment" .
+
+<http://www.spektrix.com/112401AVDLKDLKJMHRRVVRJLKHRVLLRBP> a schema:Event;
+  schema:name "Songs for Nobodies";
+  schema:description """
+	<span class=\"BoldText\">A First Impressions Theatre production</span><span><br/></span><span class=\"BoldText\">A musical by Joanna Murray-Smith</span><span><br/></span><span><br/></span>Written by award-winning playwright Joanna Murray-Smith, <span class=\"ItalicText\"><span class=\"BoldText\">Songs For Nobodies</span></span> showcases Sheila Sharma’s astonishing gift for recreating the great singers of the past. Sharma began singing professionally for the first time on the First Impressions stage in 1989 and returns now with this bravura performance one can only describe as so sublime, it's like a shot of morphine; for a blissful few minutes all the cares of the world are gone.<span><br/></span><span><br/></span>You are invited to an audience with Judy Garland, Patsy Cline, Edith Piaf, Billie Holiday and Maria Callas. Accompanied by live musicians, Sharma’s miraculous voice shifts from the smoky blues of Holiday to the thrilling soprano of Maria Callas via Garland, Cline, and Piaf. With consummate ease, she breathes new life and deeper meaning into the five legendary performers and the five ordinary women whose lives were changed by their brush with fame.<span><br/></span><span><br/></span>When Sharma lets her voice float out over the anonymous crowd, or form the grooves of thousands of records, or flow through radios into millions of homes across the world, she makes countless unknown connections with people. The singer has her story and the listener hers, and should those stories touch each other, there can be magic. There will be magic. Featuring such favourites as “Come Rain or Come Shine,” “Crazy,” and “Ain’t Nobody’s Business If I Do,” <span class=\"ItalicText\"><span class=\"BoldText\">Songs For Nobodies</span></span> illuminates the power of song to share a story, heal a heartbreak, and inspire a dream. <span><br/></span><span><br/></span><span class=\"ItalicText\">“Sharma is remarkable and compelling; her singing is thrilling and her characters diverse and sympathetic… she is a consummate performer… bravissima.”</span><span><br/></span>
+""";
+  schema:startDate "2025-01-30T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-01-30T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/b09590e3-f950-4549-89f6-a4c9b7f72790.jpg";
+  schema:additionalType "Musical theatre"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/107202AHHNBVVJMMBLDSBLHVNRRGKLTGV> a schema:Event;
+  schema:name "Steve Patterson is Patterdad";
+  schema:description """
+	“Not all dad jokes are bad jokes”<span><br/></span><span><br/></span>Award-winning stand-up comedian, author, broadcaster, and host of CBC’s The Debaters, Steve Patterson, is on a quest to make dad jokes cool in an all-new show about fatherhood. In Patterdad, <span class=\"BoldText\">Steve Patterson</span> shares hilarious and relatable stories about how his life has changed since becoming a dad to two precocious daughters. Drawing on funny anecdotes from his popular book Dad Up! he shares his struggles about being outsmarted, outrun, and outnumbered, (current household rankings have him clinging to sixth place behind his wife, daughters, the dog, and whichever stuffed animal is most essential in any given week), and everything in between. Patterdad is a 90-minute fun ride that will warm your heart, rekindle memories, and make you treasure being at the “bird-appreciating” age.<span><br/></span><span><br/></span><span class=\"BoldText\">“There’s no debate about it, Steve Patterson is hysterical. Don’t miss him!” – Rick Mercer</span>
+""";
+  schema:startDate "2024-11-15T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-15T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/90ad80f2-d87c-4a15-8cb1-c3c01f5a7d01.jpg";
+  schema:additionalType "Comedy"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/113001ADCGCPGPCTQDMKMRCLBTGKBVQTC> a schema:Event;
+  schema:name "Susan Aglukark";
+  schema:description """
+	Susan Aglukark is Canada’s first Inuk artist to win a Juno (4), a Governor General’s Performing Arts Award for lifetime artistic achievement, and she is an officer of the Order of Canada. Susan holds several Honourary Doctorate degrees and has held command performances.<span><br/></span><span><br/></span>Her journey as a singer-songwriter began in the early 1990s when she began her writing and recording career. In Susan’s early reflections was the discovery of the platform as learning, sharing and healing, this inspired her major label debut album <span class=\"ItalicText\">This Child</span>, released in January 1995. She has since written and recorded 10 albums, founded the Arctic Rose Foundation, authored two children’s books and has a personal memoir in the works.<span><br/></span><span><br/></span><span class=\"BoldText\">Susan is embarking on her 30th Anniversary of This Child Tour with special guest Angela<span><br/></span>Amarualik.</span><span><br/></span><span><br/></span>Her writing of <span class=\"ItalicText\">This Child</span> brought her to a personal call to action, get on the platform and speak up, learn, heal, share, this has been her work for these 30 years.<span><br/></span>
+""";
+  schema:startDate "2025-04-02T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-04-02T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/60c7f686-cc97-446d-8cd2-12cd28831924.jpg";
+  schema:additionalType "Live music"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer <https://spektrix.com/organization/gee-dan-productions-&-sid-williams-theatre-society> .
+
+<http://www.spektrix.com/106601ABDGMDSRMQSQSLLHHLBNPJHQMLS> a schema:Event;
+  schema:name "Symphony at the Sid with Favourite Composers: Episode 2";
+  schema:description """
+	Conductor: Cosette Justo Valdés<span><br/></span>Guest Artist: Mark D’Angelo, Trumpet<span><br/></span>PROGRAMME: <span><br/></span>Mozart: Nozze di Figaro Overture<span><br/></span>Ravel: Le Tombeau de Couperin<span><br/></span>Vivian Fung: Concerto for Trumpet<span><br/></span>J. Haydn: Symphony No. 88 in G Major<span><br/></span><span><br/></span>With a great response from last season Maestra Justo Valdés brings back Favourite Composers. In Episode 2 the orchestra plays Mozart, Haydn and Ravel. VIS member Mark D’Angelo performs Vivian Fung’s Trumpet Concerto, a virtuosic tour-de-force displaying the capabilities of the Eb Trumpet and Flugelhorn. <span><br/></span><span><br/></span>To learn more about the music and performers, visit: <a target=\"_blank\" href=\"https://vancouverislandsymphony.com/\"> www.vancouverislandsymphony.com</a><span><br/></span>
+""";
+  schema:startDate "2025-03-09T14:00:00"^^xsd:dateTime;
+  schema:endDate "2025-03-09T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/83288bd8-e0d4-41e1-b067-21cda58cae03.jpg";
+  schema:additionalType "Classical - Symphony"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:vancouver-island-symphony .
+
+organization:vancouver-island-symphony a schema:Organization;
+  schema:name "Vancouver Island Symphony" .
+
+<http://www.spektrix.com/106201AHMHMNJTBNGTSLHDGDSRQVNBMDC> a schema:Event;
+  schema:name "Symphony at the Sid with Reindeer Games...The Sequel";
+  schema:description """
+	Conductor: Cosette Justo Valdés<span><br/></span>Guest Artist: Festive Brass<span><br/></span><span><br/></span>Christmas with the Symphony in Season 30 features one of our audience’s most requested Christmas artists - Festive Brass. Led by Stevan Paranosic, VIS Principal Trumpet Reindeer Games…The Sequel promises a very fun and entertaining show that is sure to put you in the Christmas Spirit.<span><br/></span>To learn more about the music and performers, visit: <a target=\"_blank\" href=\"https://vancouverislandsymphony.com/\"> www.vancouverislandsymphony.com</a><span><br/></span>
+""";
+  schema:startDate "2024-12-01T14:00:00"^^xsd:dateTime;
+  schema:endDate "2024-12-01T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/a2c62a29-9a69-48d2-b518-1253978c3afc.jpg";
+  schema:additionalType "Classical - Symphony"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:vancouver-island-symphony .
+
+<http://www.spektrix.com/106401ANLTCRJSLBJJLJTVGHGBPLRCVMK> a schema:Event;
+  schema:name "Symphony at the Sid with Second Guessed Unpublished. Unfinished.";
+  schema:description """
+	Conductor: Cosette Justo Valdés<span><br/></span>PROGRAMME<span><br/></span>Beethoven: Symphony No. 10<span><br/></span>Jocelyn Morlock: Interloper<span><br/></span>Charles Ives: The Unanswered Question<span><br/></span>J.S. Bach: The Art of the Fugue, BWV 1080<span><br/></span>Felix Mendelssohn: Symphony No. 4 “Italiana”<span><br/></span><span><br/></span>VIS shares the hidden treasures in these works, offering a glimpse into the creative process of the composers. It is fascinating to think about the stories behind these pieces and why they were not finished, remained unpublished or not performed during the composer’s life… yet they have become beloved pieces in the orchestral repertoire.<span><br/></span>To learn more about the music and performers, visit: <a target=\"_blank\" href=\"https://vancouverislandsymphony.com/\"> www.vancouverislandsymphony.com</a>
+""";
+  schema:startDate "2025-01-19T14:00:00"^^xsd:dateTime;
+  schema:endDate "2025-01-19T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/ed93af79-3042-4e7a-a80f-e91cc95dd549.jpg";
+  schema:additionalType "Classical - Symphony"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:vancouver-island-symphony .
+
+<http://www.spektrix.com/99001ABSMDGGQQQKQLGVTTHLNPJVCHQMN> a schema:Event;
+  schema:name "Taylor Mania";
+  schema:description """
+	<h2>UK's #1 Tribute to Taylor Swift</h2><span><br/></span>Acclaimed tribute artist Katy Ellis is a self-obsessed ‘Swiftie’, who along with an incredible live band, promises to deliver the most authentic recreation of a Taylor Swift show that you will ever see<span><br/></span><span><br/></span>Performing songs from throughout Taylor’s career – this international tribute concert is not to be missed<span><br/></span><span><br/></span>Having already taken ‘Swiftie’ fans across the world by storm, the performance will feature all of Taylor’s much-loved hits, including Shake It Off, Blank Space, Love Story, You Belong With Me, Look What You Made Me Do, I Knew You Were Trouble, and many, many more. This fun energetic show gets all the audience involved and has everyone singing along and ‘Shaking it off’ to all of Taylor Swift’s biggest hits.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.taylorswifttribute.com/\"> Taylor Swift Tribute</a><span><br/></span>
+""";
+  schema:startDate "2024-11-06T18:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-06T18:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/e3cace42-a41e-4f40-a8d2-16d124864416.jpg";
+  schema:additionalType "Tribute concert"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:encore-events .
+
+organization:encore-events a schema:Organization;
+  schema:name "Encore Events" .
+
+<http://www.spektrix.com/109401AHBTMTDQLMPLHKGRMBGGDTKBNQH> a schema:Event;
+  schema:name "The Baby Tyler Show";
+  schema:description """
+	<span class=\"BoldText\">Produced by SNAFU</span><span><br/></span>Directed and co-created by by Britt Small (premiere director of <span class=\"ItalicText\">Ride the Cyclone</span>)  <span><br/></span>Performed and co-created by Ingrid Hansen (puppeteer for The Jim Henson Company’s Fraggle Rock and Sesame’s <span class=\"ItalicText\">Helpsters</span>) <span><br/></span><span><br/></span><span><br/></span>It’s tough being small when the world is so big. Baby Tyler comes to life in this mind-bending puppet show by Fraggle Rock/Sesame/Henson puppeteer Ingrid Hansen. She lends Tyler a hand and creates a live puppet film before your very eyes, using only household objects, a camera, and her bare hands. Expect a child-friendly puppet show jam packed with physical comedy!<span><br/></span><span><br/></span><span class=\"BoldText\">Rated E for Everyone. Too spooky for hoomans under 5 years old.</span><span><br/></span><span><br/></span>Danish-Canadian puppeteer Ingrid Hansen also puppeteers on the Jim Henson Company’s <span class=\"ItalicText\">Fraggle Rock</span> and Sesame Workshop’s Emmy Award-winning series <span class=\"ItalicText\">Helpsters</span>. <span><br/></span><span><br/></span><span class=\"ItalicText\">“Utterly magical</span>, <span class=\"ItalicText\">insanely inventive</span>, <span class=\"ItalicText\">wickedly funny</span>. ★★★★★” - <span class=\"ItalicText\">Winnipeg Free Press</span><span><br/></span><span><br/></span><span class=\"ItalicText\">“Both live and magnified on screen, in cunningly angled cameras and mirrors, we see Hansen create characters from her own hands, fingers, face. NUTTY, INGENIOUS, MESMERIZING.” - 12th Night</span><span><br/></span><span><br/></span><span class=\"ItalicText\">“GENIUS PHYSICAL COMEDY!” - Entertainment World</span><span><br/></span><span><br/></span><span class=\"ItalicText\">\"Immensely funny, creative, uproarious and surprising...Her physicality is impeccable.\" - The Star Phoenix</span><span><br/></span><span><br/></span><span class=\"ItalicText\">“Unbelievably funny.” - PLANK Magazine</span><span><br/></span><span><br/></span><span><br/></span><span class=\"ItalicText\">The Baby Tyler Show</span> was created with support from the Belfry Theatre, the Capital Regional District Arts Council and the Canada Council for the Arts, and tours with the support of the BC Arts Council. 
+""";
+  schema:startDate "2024-11-23T14:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-23T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/89818030-fd14-4f9c-8ca6-7821bab8f9fc.jpg";
+  schema:additionalType "Children's show"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/106001AGTGDBPRPKDPLBLVJRQCRMTLGSC> a schema:Event;
+  schema:name "The Doobie Brothers Experience";
+  schema:description """
+	<h2>The Doobie Brothers Experience “1970 – 1975”</h2><span><br/></span>The Doobie Brothers Experience is the industry leading substitute for The Doobie Brothers. Playing to outdoor and theatre audiences is what this production is all about. What makes The Doobie Brothers Experience so special? Well, just for starters: look-a-likes of Tom and Pat with vocal similarities, accurate instrumental work, soaring harmonies, and top flight performances - these are the band's hallmarks, and foundation to which their performance has been built. With over 235 years of collective professional experience in the band today, their performances are as close to the real deal as you'll ever get. <span><br/></span><span><br/></span>The Doobie Brothers Experience show has evolved into a masterful celebration of The Doobie Brothers music. One of the most \"game-changing\" song catalogs in the history of Rock n' Roll is performed to perfection before your eyes and ears. Most every Rock enthusiast knows the words to \"China Grove\", or \"Long Train Runnin' \", and those who truly love Rock, can sing along when \"Black Water\", \"Dark Eyed Cajun Woman\", or \"Jesus Is Just Alright\" come up in the playlist.<span><br/></span><span><br/></span>If you love The Doobie Brothers... then welcome to The Doobie Brothers Experience and \"Listen To The Music\"<span><br/></span><span><br/></span><span><br/></span>The Doobie Brothers Experience are:<span><br/></span>HENRY LOCKE - lead vocals and lead guitar (40+ years pro)<span><br/></span>TERRY SHELDRAKE - lead vocals and guitar (40+ years pro)<span><br/></span>CLAUDIO FANTINATO - alto/tenor sax; guitar; percussion (40+ years pro)<span><br/></span>RON McKEE - bass guitar and vocals  (38+ years pro)<span><br/></span>MALCOLM GRIER - piano; organ; and vocals (40+ years pro)<span><br/></span>GERRY POOL - drums and vocals (40+ years pro)<span><br/></span>
+""";
+  schema:startDate "2024-10-12T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-12T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/cc4f0bc8-6926-42c4-80c0-46beb10cbc56.jpg";
+  schema:additionalType "Concert"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:dbx .
+
+organization:dbx a schema:Organization;
+  schema:name "DBX" .
+
+<http://www.spektrix.com/109202ASDCPGNHQRHSNMNHMPHJSVDQVLH> a schema:Event;
+  schema:name "The Washboard Union";
+  schema:description """
+	<span class=\"BoldText\">Grab the Wheel and Go Tour</span><span><br/></span><span><br/></span>With special guest Tony Stevens<span><br/></span><span><br/></span>Celebrating the release of their brand new album Westerly, JUNO and 9-time Canadian Country Music Association award-winning band <a target=\"_blank\" href=\"https://www.thewashboardunion.com/\">The Washboard Union</a> announce their 2024 “Grab the Wheel and Go tour\" which will make 22+ stops across the country with shows in Ontario, British Columbia, Saskatchewan and Manitoba.<span><br/></span><span><br/></span>With platinum and gold records and a string of hit songs like \"Shot of Glory\", \"Country Thunder\", \"Dock Rock\", and \"I Run On Country\", The Washboard Union are one of Canada's preeminent country bands with a dynamic, one of a kind live show. There are those special nights you’ll talk about for years to come…. Like the night you saw THE WASHBOARD UNION live.<span><br/></span>
+""";
+  schema:startDate "2024-11-07T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-07T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/13ab97ca-b1a8-42ee-b15a-2c71d63cf78f.jpg";
+  schema:additionalType "Live music - Country"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer <https://spektrix.com/organization/gee-dan-productions-&-sid-williams-theatre-society> .
+
+<http://www.spektrix.com/101401AGMNDJHGVPGSVRJJRVVDSKJCNCL> a schema:Event;
+  schema:name "The Wildflowers: Tribute to Tom Petty & The Heartbreakers";
+  schema:description """
+	The international touring band The Wildflowers are North America’s #1 Tribute to Tom Petty & The Heartbreakers. <span><br/></span><span><br/></span>“Who doesn’t love Tom Petty?” bassist Darryell Stone asked himself one day in 2012 while listening to the radio. There was only one answer he could imagine, “Nobody.” Testing his hypothesis, Stone polled friends, family and fellow musicians how they felt about Petty. The result was always the same. Everyone loves Tom Petty.<span><br/></span>One of these fellow musicians just happened to be Tom Petty’s doppelganger, guitarist and lead vocalist Jonathan Guthrie. Guthrie was an avid fan and had always fantasized about being a Heartbreaker. As two seasoned musicians and Tom Petty & The Heartbreakers fans, there was really only one thing for them to do – form a Tom Petty tribute band. <span><br/></span><span><br/></span>It wasn’t hard for Stone and Guthrie to find skilled musicians excited about playing in a Tom Petty tribute band. Drummer Steve Lucas, formerly of Feverdog and a bandmate of Stone’s local band, Theatrix, quickly signed on. Lucas brought with him his M-80’s band mate Glenn Freeman. Freeman, who boasts of seeing multiple Tom Petty concerts in the 80s, brought an instrumental cornucopia to the group with keyboards, harmonica, guitar and backing vocals. Lead guitarist Curt Granger rounded out the lineup. With 30+ years experience in Birmingham’s local music scene, Granger has played in such circuit bands as Pyrate, Scream Sophie, and his own solo project, as well as creating a line of world-renowned boutique guitar amplifiers. <span><br/></span><span><br/></span>The new Tom Petty tribute band rehearsed with one focus – to recreate the music of Tom Petty with precision, attention to detail, and a reverent respect. Parts were studied in great detail, down to inflections in the very way each word of every lyric was sung. <span><br/></span>Performing locally in the first year, it didn’t take long for the band to be noticed. Word spread quickly, which led to more shows outside the band’s home state, which led to more word of mouth and exposure. Soon the band was gaining interest from venues across the southeast, which led to more travel and more Tom Petty fans discovering them. <span><br/></span><span><br/></span>Jump ahead 100 shows and The Wildflowers have become one of the most popular tribute shows across the southeast US, and quickly gaining recognition in other regions. <span><br/></span><span><br/></span>Equipped with decades of experience and a passion for Tom Petty’s magic way with songs, The Wildflowers bring music lovers of all stripes what they adore. More Tom Petty & The Heartbreakers<span><br/></span>
+""";
+  schema:startDate "2025-03-25T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-03-25T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/8ea22855-eacf-4a82-88f0-76ce0fa0184e.jpg";
+  schema:additionalType "Concert"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer <https://spektrix.com/organization/vaughnco-entertainment-inc.> .
+
+<https://spektrix.com/organization/vaughnco-entertainment-inc.> a schema:Organization;
+  schema:name "VaughnCo Entertainment Inc." .
+
+<http://www.spektrix.com/109601AKCNLBPBVBJGBHHJQTBPSDDCDNG> a schema:Event;
+  schema:name "The Yellow Brick Road Experience Featuring Andrew Johns";
+  schema:description """
+	Experience first hand how Andrew commands the stage with his spot on piano and vocal skills that take you back to Elton John in his prime! <span><br/></span><span><br/></span>Andrew Johns featuring his band The Jets with full horn section, playing all the hits in the original keys as performed by Sir Elton John.<span><br/></span><span><br/></span>Take a trip down memory lane as Andrew Johns & The Jets relive all the greatest hits in this dynamic tribute featuring some of North America’s finest session and touring  musicians, including 4-time Juno award winner and Canada’s Walk of Fame recipient Julie Masi from the Parachute Club. <span><br/></span><span><br/></span>With over 250 millions records sold worldwide, as well as holding the world record for biggest selling single of all time with \"Candle In the Wind\", Elton John’s timeless musical catalogue will be celebrated. Performing such hits as “Yellow Brick Road”, “Burn down the mission”, “Your Song”, “Crocodile Rock”, and many more.<span><br/></span><span><br/></span>Come join the excitement and passion and stunning musicianship as the Yellow Brick Road Experience winds its way back to Courtenay, BC. See you on the Yellow Brick Road!<span><br/></span>
+""";
+  schema:startDate "2024-10-29T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-29T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/b7633a66-1a76-44d7-a80e-10607edbd2fa.jpg";
+  schema:additionalType "Live music - Pop"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:lms-entertainment .
+
+organization:lms-entertainment a schema:Organization;
+  schema:name "LMS ENTERTAINMENT" .
+
+<http://www.spektrix.com/108401AHNKQMBDMNSGDMVKKNLKKDLTMBC> a schema:Event;
+  schema:name "Winter Harp";
+  schema:description """
+	Celebrate Christmas and the holiday season with the Winter Harp ensemble. Glorious music and song combine with festive stories to warm your heart and wrap you in the Christmas spirit.<span><br/></span><span><br/></span>Winter Harp is a Christmas masterpiece. Velvet gowns, golden instruments, candles, and backdrops of cathedrals and snow combine to transport you to another time and place. Classical and Celtic harps, flutes and rare medieval instruments, percussion, poetry and song envelop you in the silken cloak of Christmas. Familiar carols, along with songs ancient and rare, celebrate the season and set your heart singing.<span><br/></span><span><br/></span>Don't miss this journey of pure magic! Winter Harp - where Christmas begins.<span><br/></span>
+""";
+  schema:startDate "2024-12-16T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-12-16T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/7c1d81ab-de06-4185-972c-155ab4aa0193.jpg";
+  schema:additionalType "Holiday concert"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:sid-williams-theatre-society .
+
+<http://www.spektrix.com/106801ACJCBJDTGKBLBLRMLHDNVKPHJGM> a schema:Event;
+  schema:name "Yellowpoint Christmas Spectacular 2024!";
+  schema:description """
+	The Yellowpoint Christmas Spectacular is a celebration of music, dance, lights and decorations.  Now in its 16th season, it has become a holiday tradition for many across Vancouver Island. <span><br/></span><span><br/></span>What better way to celebrate the season than with tickets to this dazzling spectacle. It’s fast moving and colorful.  It will take you on an emotional journey through a wide variety of music and dance from rock & roll to Broadway, jazz and classical, tap, interwoven with touching readings and stories.<span><br/></span><span><br/></span>This year's singing and dancing extravaganza includes musical medleys of well known songs by Van Morrison, Dolly Parton, Neil Diamond and Taylor Swift as well as favorites from the musical Grease, a nostalgia set, a collection of James Bond movie hits, Bing Crosby's classic 'White Christmas' and many more classical hits and Christmas favourites. <span><br/></span><span><br/></span>Producer & Director: Katy Bowen-Roberts<span><br/></span>Musical Director & Arranger: James Mark<span><br/></span>Co-Director & Choreographer: Lindsay Sterk<span><br/></span>Lighting: Hilary Britton-Foster<span><br/></span>Sound: Steve Adamson<span><br/></span>Stage Manager: Shelby Matthews<span><br/></span>
+""";
+  schema:startDate "2024-12-09T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-12-11T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/47d3bc0b-a2a0-4971-a71a-c98847caf3cb.jpg";
+  schema:additionalType "Music and dance"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:razzle-dazzle-productions .
+
+organization:razzle-dazzle-productions a schema:Organization;
+  schema:name "Razzle Dazzle Productions" .
+
+<http://www.spektrix.com/24001ABMNLGCGVMRMGTMJKPBQCNHQQLMH> a schema:Event;
+  schema:name "Z TEST Event One";
+  schema:description """
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span><br/></span><span><br/></span>Fusce at diam sit amet nibh lacinia congue id at odio.<span><br/></span><span><br/></span><ul><li>Pellentesque efficitur</li><li>vulputate mattis.</li><li>Pellentesque vulputate</li><li>ac dapibus vulputate</li></ul><span><br/></span><ol><li>ipsum magna mollis nulla</li><li>et semper tortor</li><li>augue sit amet</li></ol><span><br/></span>Nunc nisl odio, lacinia non scelerisque volutpat, varius at mi.<span><br/></span><span><br/></span>$ % *<span><br/></span><span><br/></span>Aenean lacinia nisi non augue accumsan dapibus. Suspendisse potenti. Quisque tempor sapien sit amet tellus viverra porttitor. Pellentesque risus nibh, commodo ac blandit quis, laoreet at turpis. Cras non semper dui. Integer aliquet nisi urna, eu mollis nunc bibendum ac. Fusce est est, ultricies et lorem finibus, efficitur pharetra ex. Donec a malesuada mauris, ac iaculis mi. Donec non dapibus ligula. Maecenas sit amet nunc tincidunt risus finibus dapibus et vitae turpis. 
+""";
+  schema:startDate "2020-12-14T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-03-15T12:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType "Film - Documentary"^^skos:Concept;
+  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH;
+  schema:organizer organization:test .
+
+organization:test a schema:Organization;
+  schema:name "Test" .
+
+place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:Place;
+  schema:name "Online - Virtual Event";
+  schema:address address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+
+address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
+  schema:streetAddress "Your Screen";
+  schema:addressLocality "Your Location";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/43001AKSPRSSKSHNTDHGBHCHQCHRJRSDT> a schema:Event;
+  schema:name "Z Test Event Two";
+  schema:description """
+
+""";
+  schema:startDate "2022-08-31T19:30:00"^^xsd:dateTime;
+  schema:endDate "2022-08-31T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType "Film"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer <https://spektrix.com/organization/> .
+
+<https://spektrix.com/organization/> a schema:Organization;
+  schema:name "" .
+
+<http://www.spektrix.com/60401AJBTCTVVQCDNPTHTLLCCKRPLQHLB> a schema:Event;
+  schema:name "Z TEST Event Virtual";
+  schema:description """
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+""";
+  schema:startDate "2022-07-03T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-03-14T14:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType "Comedy"^^skos:Concept;
+  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH;
+  schema:organizer <https://spektrix.com/organization/> .
+
+<http://www.spektrix.com/43801ACRLMVKGBSGVDHLHBRQGTPTTSDDJ> a schema:Event;
+  schema:name "Z TEST In-Person";
+  schema:description """
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+""";
+  schema:startDate "2022-09-03T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-11T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType "Live music"^^skos:Concept;
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
+  schema:organizer organization:performing-arts-comox-valley .
+
+organization:performing-arts-comox-valley a schema:Organization;
+  schema:name "Performing Arts Comox Valley" .
+
+place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:Place;
+  schema:name "Native Sons Hall";
+  schema:address address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:PostalAddress;
+  schema:streetAddress "360 Cliffe Avenue";
+  schema:addressLocality "Courtenay";
+  schema:addressRegion "BC V9N 2H9";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/44801AVQJMVSBSCDMRGLRKNLTGJPHPNQG> a schema:Event;
+  schema:name "Z Virtual Event Test";
+  schema:description """
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+""";
+  schema:startDate "2021-07-31T19:00:00"^^xsd:dateTime;
+  schema:endDate "2021-07-31T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType "Special programming"^^skos:Concept;
+  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH;
+  schema:organizer organization:sid-williams-theatre-society .
