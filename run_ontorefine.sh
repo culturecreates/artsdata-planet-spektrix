@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Update the Config file
+config_file="ontorefine/configuration.json"
+column_additions_file="ontorefine/columns.json"
+jq '.operations |= (input + .)' $config_file $column_additions_file > updated-configuration.json
+
 # Start the services in the background
 sudo docker compose up -d
 
@@ -12,10 +17,10 @@ echo "Server started!"
 
 # Send a command to the running container
 echo "Running OntoRefine CLI using config.json..."
-sudo docker exec onto_refine /opt/ontorefine/dist/bin/ontorefine-cli transform ../data/data/kaymeekcentre.json \
+sudo docker exec onto_refine /opt/ontorefine/dist/bin/ontorefine-cli transform ../data/data/sidwilliams.json \
   -u http://localhost:7333  \
   --no-clean \
-  --configurations ../data/ontorefine/configuration.json  \
+  --configurations ../data/updated-configuration.json  \
   -f json >> entities.ttl
 
 # Open the default browser

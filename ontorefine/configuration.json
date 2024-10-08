@@ -210,11 +210,8 @@
                 "values": [
                   {
                     "valueSource": {
-                      "source": "row_index"
-                    },
-                    "transformation": {
-                      "language": "grel",
-                      "expression": "if(cells[\"_ - attribute_Genre\"].value != null, cells[\"_ - attribute_Genre\"].value, null)"
+                      "source": "column",
+                      "columnName": "_ - attribute_Genre"
                     },
                     "valueType": {
                       "type": "datatype_literal",
@@ -279,7 +276,30 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "if(cells[\"_ - attribute_PresenterName\"].value != null, cells[\"_ - attribute_PresenterName\"].value, null)"
+                      "expression": "coalesce(cells[\"_ - attribute_PresenterName\"].value, cells[\"_ - attribute_PresentedBy\"].value)"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "performer"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attribute_PerformanceSponsor"
                     },
                     "valueType": {
                       "type": "literal"

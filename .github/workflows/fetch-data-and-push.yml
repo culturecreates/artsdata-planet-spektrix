@@ -43,7 +43,7 @@ jobs:
       matrix: ${{ steps.process-urls.outputs.matrix }}
     steps:
       - name: Install requirements
-        run: apk update && apk add curl && apk add util-linux
+        run: apk update && apk add curl && apk add util-linux && apk add jq
 
       - name: Run ontorefine server
         run: /opt/ontorefine/dist/bin/ontorefine &
@@ -52,6 +52,17 @@ jobs:
         id: step-4
         run: | 
           curl 'https://raw.githubusercontent.com/culturecreates/artsdata-planet-spektrix/main/ontorefine/configuration.json' >> project-config.json
+          curl 'https://raw.githubusercontent.com/culturecreates/artsdata-planet-spektrix/main/ontorefine/columns.json' >> columns.json
+
+      - name: Transform configurations to include column additions 
+        shell: bash
+        run: |
+          config_file="project-config.json"
+          column_file="columns.json"
+          tmp_file=$(mktemp)
+
+          jq '.operations |= (input + .)' "$config_file" "$column_file" > "$tmp_file"
+          mv "$tmp_file" "$config_file"
 
       - name: download artifacts
         uses: actions/download-artifact@v4

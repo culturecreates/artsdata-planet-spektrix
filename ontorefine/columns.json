@@ -1,0 +1,50 @@
+[
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "_ - id",
+        "expression": "set-to-blank",
+        "onError": "set-to-blank",
+        "newColumnName": "_ - attribute_Genre",
+        "columnInsertIndex": 1
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "_ - id",
+        "expression": "set-to-blank",
+        "onError": "set-to-blank",
+        "newColumnName": "_ - attribute_PresenterName",
+        "columnInsertIndex": 1
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "_ - id",
+        "expression": "set-to-blank",
+        "onError": "set-to-blank",
+        "newColumnName": "_ - attribute_PresentedBy",
+        "columnInsertIndex": 1
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "_ - id",
+        "expression": "set-to-blank",
+        "onError": "set-to-blank",
+        "newColumnName": "_ - attribute_PerformanceSponsor",
+        "columnInsertIndex": 1
+    }
+]
