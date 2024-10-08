@@ -5,6 +5,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix place: <https://spektrix.com/place/> .
 @prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
 
 <http://www.spektrix.com/180601ASMQKJHDVSJPGGDPPMVKMGTDJMG> a schema:Event;
   schema:name "20th Anniversary Gala: Cocktail Reception and Trans-Canada Highwaymen";
@@ -15,8 +17,7 @@
   schema:endDate "2024-11-23T20:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:Place;
   schema:name "Kay Meek Arts Centre";
@@ -38,8 +39,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-23T18:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Special"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/177802ADTHKRQGRHGPMSJBMGDGDBKCVRK> a schema:Event;
   schema:name "A Simple Space";
@@ -50,8 +50,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-05-22T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Special"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/180201ARDPVDMGSBDRHNKHPMBCHGHNCHQ> a schema:Event;
   schema:name "ABBA Revisited";
@@ -62,8 +61,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-05-06T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/176802AKSCBTTSMTVMQJBTQNSBBPHTSBS> a schema:Event;
   schema:name "After the Gold Rush Reimagined";
@@ -74,8 +72,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-19T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/184001ASHNBGNSKJRLNLJMVKKSNQJTSSD> a schema:Event;
   schema:name "Barney Bentall and The Cariboo Express";
@@ -86,8 +83,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-09T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/177401AVMSSSKNGGQKBPJQDJLKPMDHMVS> a schema:Event;
   schema:name "Blue Moon Marquee";
@@ -98,8 +94,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-02T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/181601AMDGMGCVHRRCSPJGDHJJSKSKLJD> a schema:Event;
   schema:name "Daal Band: Live in Vancouver";
@@ -110,8 +105,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-06T20:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/176601AMSDNGSVQMLCPLDNNDPQNRBRLMP> a schema:Event;
   schema:name "Duo Cordelia";
@@ -122,8 +116,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-03T15:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/178801ACMMVBVTMNHHNCBBVQRVSTQVKVB> a schema:Event;
   schema:name "Epidermis Circus";
@@ -134,8 +127,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-04-11T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Theatre"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/186601AHRMNHKDGKNTLPLTPGCGHJMKCJR> a schema:Event;
   schema:name "Essentials of Estate Planning";
@@ -146,8 +138,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-23T17:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Talk"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/186801AQRTLPHPNQHJBCCGSGJRVPLVNCQ> a schema:Event;
   schema:name "Exhibition On Screen: Dawn of Impressionism: Paris 1874";
@@ -158,8 +149,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-03-23T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/187001ANRDTDJNVTPHPBSPTNVHPHNMPQL> a schema:Event;
   schema:name "Exhibition on Screen: Michelangelo: Love and Death";
@@ -170,8 +160,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-05-26T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/186602ANJMDGMTJTKGVSDMGLRRTHHHQHS> a schema:Event;
   schema:name "Exhibition on Screen: Van Gogh: Poets & Lovers";
@@ -182,8 +171,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-28T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/170001AKKRVBTNDHJVNLJBRLNVMRJTVSB> a schema:Event;
   schema:name "Fleetwood Magic - The Authentic Tribute to Fleetwood Mac";
@@ -194,8 +182,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-16T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/185402AMJNNGNHBCCJDLPPVQSLBVCNHSQ> a schema:Event;
   schema:name "Food, Inc. 2";
@@ -206,8 +193,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-12-02T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/183401AHBGRJHGTSNGVNLTSDNLKKSBRTN> a schema:Event;
   schema:name "From Lust to Loyalty";
@@ -218,8 +204,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-03T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/179201APGTCQQVPDMSKJGSSMRBNDJJQNR> a schema:Event;
   schema:name "Get Back Unplugged";
@@ -230,8 +215,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-27T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/185401ABSVVMRVTGNMNMVQPPDMNPVRJRT> a schema:Event;
   schema:name "Ghostlight";
@@ -242,8 +226,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-21T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/179003ANVJNBNMGJHDRSTMVSJJKPCNTVN> a schema:Event;
   schema:name "Grant Lawrence & Friends";
@@ -254,8 +237,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-04-12T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/183801AGRPKBNGPJRTMCMMJKMGMVVJBLR> a schema:Event;
   schema:name "Honouring Cyrus the Great ";
@@ -266,8 +248,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-27T17:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/178201AJQQPTNBJQCNVDKBKNCBLDBRKTT> a schema:Event;
   schema:name "Juliet: A Revenge Comedy";
@@ -278,8 +259,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-12-08T15:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Theatre"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/176201ANLHLNRPJJGGPMMRCPRLLCQRKBR> a schema:Event;
   schema:name "Kay Meek Concerto Competition Winner";
@@ -290,8 +270,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-02-09T14:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/186201APHQGKJLCBKGKTRCMQSSVJJPHSM> a schema:Event;
   schema:name "KUCHEH MEHRAN";
@@ -302,8 +281,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-12-20T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/177002AVNVCJRMSVSPCBKHHNTHJRMPJDK> a schema:Event;
   schema:name "Le Ren";
@@ -314,8 +292,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-04-04T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/185201ACGTPCPGMHTKJSCKBTHNPRHPRLH> a schema:Event;
   schema:name "Mehregan Multicultural Festival";
@@ -326,8 +303,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-20T14:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/177402ADBBMCHPSNMGCVHVSPMJNLCPVQR> a schema:Event;
   schema:name "Michael Kaeshammer";
@@ -338,8 +314,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-12-06T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/174801AVTRQJMHSVVDHTBHGKGPTTNSKCM> a schema:Event;
   schema:name "Michael van den Bos: Cut Loose! Fame, Flashdance, Footloose & The Musicals of the '80s";
@@ -350,8 +325,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-04-01T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Talk"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "Presented by Michael van den Bos" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/174601ABBQGHNRPQMCRQRJDPTJBBSSSVB> a schema:Event;
   schema:name "Michael van den Bos: Gene Kelly: Hollywood's Dashing Dance Auteur";
@@ -362,8 +336,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-02-25T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Talk"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "Presented by Michael van den Bos" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/174201AMKMLHRDDHSVQVQKGPKJDRQDGDR> a schema:Event;
   schema:name "Michael van den Bos: Razzle Dazzle Divas";
@@ -374,8 +347,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-22T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Talk"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "Presented by Michael van den Bos" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/181201ASRVGRNHSCPQQRJBTSNDMVVRPDR> a schema:Event;
   schema:name "Milestones in Melody: A Journey through Strings";
@@ -386,8 +358,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-12T14:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/182201AKLHSBJGPRBLJBLDPLKPHGJSQQC> a schema:Event;
   schema:name "Misinformation is Killing Us: A Conversation with Timothy Caulfield";
@@ -398,8 +369,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-06T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/175401ABDMMVTBPSRKBRQPQRMDQHBCNDR> a schema:Event;
   schema:name "Music at the Movies: A Tribute to John Williams";
@@ -410,8 +380,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-17T14:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/177201AQKMQQMSCLQHCBNNVKKTNKKLDHL> a schema:Event;
   schema:name "New Orford String Quartet with Ian Parker";
@@ -422,8 +391,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-05-17T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/184401AVQSPCVCNMVVCGBLVGQTKLNKLGB> a schema:Event;
   schema:name "Nikolay Khozyainov - Beethoven Monument";
@@ -434,8 +402,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-15T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/179204ACHJVDVHLBLNPGLMLQVKNHRVSHM> a schema:Event;
   schema:name "Norman Foote & the Howl Masquerade";
@@ -446,8 +413,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-30T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/185801ALDNBHPCVBCRDRPLPTJHQNHSNNV> a schema:Event;
   schema:name "Perfect Days";
@@ -458,8 +424,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-04T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/179002APCNRTRRPTKDTGPVDRVNMLMNDSL> a schema:Event;
   schema:name "Petunia & the Vipers";
@@ -470,8 +435,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-01-17T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/175601ADPRDBVBBRDVRPSCGSJCDLNSRQJ> a schema:Event;
   schema:name "Rachmaninoff: Rhapsody on a Theme of Paganini";
@@ -482,8 +446,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-20T14:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/186001ALPGBSQPKTJTBSTMPTVKRTSRKNB> a schema:Event;
   schema:name "Riceboy Sleeps";
@@ -494,8 +457,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-15T10:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/178601ASMCMGGJNJLQKPJVMNDRGLNBVSS> a schema:Event;
   schema:name "Ring of Fire";
@@ -506,8 +468,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-03-21T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Theatre"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/179202ATQLLMKLNTVNMNVVLVKDDHRVMRS> a schema:Event;
   schema:name "Seffarine";
@@ -518,8 +479,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-12-01T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/178001AKCHMSVPVQMCBCVCMQMLGKNPCKR> a schema:Event;
   schema:name "Sexy Laundry";
@@ -530,8 +490,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-11T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Theatre"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/184201ATMNDRTNVJJPKNBQMRKRVVGNRTV> a schema:Event;
   schema:name "SHIAMAK Vancouver - WINTER FUNK";
@@ -542,8 +501,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-30T18:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/186401AGLKGNGRLNCJTNMRHMDBRRDRPVH> a schema:Event;
   schema:name "Sleeping Beauty";
@@ -554,8 +512,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-12-14T17:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/178401ARDJJBBKCKTBLLQSDSVSKTQPKDQ> a schema:Event;
   schema:name "Someone Like You";
@@ -566,8 +523,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-01-10T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Theatre"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/177202APRLQBPPLSMPDHBPHJSCHTHVTSQ> a schema:Event;
   schema:name "Stella Cole";
@@ -578,8 +534,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-04-25T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/176602AJJMLRBBVCBBSSKSCGNRJDCMNJS> a schema:Event;
   schema:name "Stephane Wrembel";
@@ -590,8 +545,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-01-24T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/177801ATGGBLKVDRTLQTSPRKHJLRNHSTR> a schema:Event;
   schema:name "The Bad Plus";
@@ -602,8 +556,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/182601ADTLSNBNJSHKCQSBNBMSSTPQCDD> a schema:Event;
   schema:name "The Complete Works of William Shakespeare (abridged) [revised] [again]";
@@ -614,8 +567,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-02T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/179401AJSNQKKJMNCKCPLHTLDGCPRBTCV> a schema:Event;
   schema:name "The Dancers of Damelahamid: Spirit and Tradition";
@@ -626,8 +578,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-04-26T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Special"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/179203AMLMVPVDBBMSBNMJGHPQMLPPLBG> a schema:Event;
   schema:name "The Slocan Ramblers";
@@ -638,8 +589,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-02-23T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/172801ATMCQGGRJSSBMVTVCJMNTBPMRQB> a schema:Event;
   schema:name "The Wildflowers - North America's #1 Tribute to Tom Petty and the Heartbreakers";
@@ -650,8 +600,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-03-30T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/185601AGVPLKVNTQNSRKLPLGBJPBQRKJB> a schema:Event;
   schema:name "Thelma";
@@ -662,8 +611,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-18T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/177001AMTBNMGTKNJRTNLKRNDKGSQBHVC> a schema:Event;
   schema:name "Tom Allen: J.S. Bach's Long Walk in the Snow";
@@ -674,8 +622,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-03-16T15:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/175002AGKKJLCPBHQPHBGVHBDMNGBSBND> a schema:Event;
   schema:name "Violinist Jonathan Crow and Holst's Planets";
@@ -686,8 +633,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-05-24T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/176801ARSTNBQHHQRRDLNCSJPGRMRMBTP> a schema:Event;
   schema:name "VSO Chamber Players";
@@ -698,8 +644,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-12-01T15:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/177601ATTPRNDBMCSLJJLGKCHVRPDLVBH> a schema:Event;
   schema:name "Yagódy";
@@ -710,8 +655,7 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-04-15T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
 
 <http://www.spektrix.com/176002ALPSDQNPKHSTCKLNJPTHGGQRPJG> a schema:Event;
   schema:name "You're the Top! The Cole Porter Songbook on Film & Live with Laura Crema Sextet";
@@ -722,5 +666,4 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-01-25T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer "" .
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
