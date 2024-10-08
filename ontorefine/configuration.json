@@ -29,7 +29,9 @@
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "skos": "http://www.w3.org/2004/02/skos/core#",
           "place": "https://spektrix.com/place/",
-          "address": "https://spektrix.com/postalAddress/"
+          "address": "https://spektrix.com/postalAddress/",
+          "organization": "https://spektrix.com/organization/",
+          "performer": "https://spektrix.com/performer/"
         },
         "subjectMappings": [
           {
@@ -276,7 +278,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "coalesce(cells[\"_ - attribute_PresenterName\"].value, cells[\"_ - attribute_PresentedBy\"].value)"
+                      "expression": "(\"https://spektrix.com/organization/\" + coalesce(cells[\"_ - attribute_PresenterName\"].value, cells[\"_ - attribute_PresentedBy\"].value)).toLowercase().strip()"
                     },
                     "valueType": {
                       "type": "literal"
@@ -298,8 +300,11 @@
                 "values": [
                   {
                     "valueSource": {
-                      "source": "column",
-                      "columnName": "_ - attribute_PerformanceSponsor"
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "(\"https://spektrix.com/performer/\" + _ - attribute_PerformanceSponsor).toLowercase().strip()"
                     },
                     "valueType": {
                       "type": "literal"
@@ -531,6 +536,105 @@
                     "valueSource": {
                       "source": "constant",
                       "constant": "CA"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "subject": {
+              "valueSource": {
+                "source": "row_index"
+              },
+              "transformation": {
+                "language": "grel",
+                "expression": "(\"https://spektrix.com/organization/\" + coalesce(cells[\"_ - attribute_PresenterName\"].value, cells[\"_ - attribute_PresentedBy\"].value)).toLowercase().strip()"
+              }
+            },
+            "typeMappings": [
+              {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "Organization"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "schema"
+                }
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "name"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "coalesce(cells[\"_ - attribute_PresenterName\"].value, cells[\"_ - attribute_PresentedBy\"].value)"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "subject": {
+              "valueSource": {
+                "source": "row_index"
+              },
+              "transformation": {
+                "language": "grel",
+                "expression": "(\"https://spektrix.com/performer/\" + _ - attribute_PerformanceSponsor).toLowercase().strip()"
+              }
+            },
+            "typeMappings": [
+              {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "Organization"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "schema"
+                }
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "name"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "_ - attribute_PerformanceSponsor"
                     },
                     "valueType": {
                       "type": "literal"
