@@ -1,6 +1,6 @@
-import requests, json, sys, os
+import requests, json, os
 
-source = os.environ.get('SOURCE')
+source = os.environ.get('SOURCE').strip()
 
 base_url = f"https://system.spektrix.com/{source}/api/v3"
 

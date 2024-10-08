@@ -77,7 +77,9 @@ jobs:
         run: |
             mkdir -p outputs
             matrix="[]"
-            IFS=',' read -ra SOURCES <<< "${{ inputs.sources }}"
+            input_sources="${{ inputs.sources }}"
+            input_sources_cleaned="${input_sources//[[:space:]]/}"
+            IFS=',' read -ra SOURCES <<< "$input_sources_cleaned"
             for source in "${SOURCES[@]}"; do
               ttl_file_name="spektrix-${source}-entities.ttl"
               artifact_name="spektrix-${source}"

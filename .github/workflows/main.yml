@@ -7,6 +7,14 @@ jobs:
   call-fetch-data:
     uses: ./.github/workflows/fetch-data-and-push.yml
     with:
-      sources: 'gatewaytheatre,kaymeekcentre,terrabrucemajestic'
+      sources: >
+        gatewaytheatre,
+        kaymeekcentre,
+        terrabrucemajestic,
+        factorytheatre,
+        rotarycentreforthearts,
+        rcmusic,
+        bardonthebeach,
+        sidwilliams
     secrets:
       publisher-uri: ${{ secrets.PUBLISHER_URI_GREGORY }}
