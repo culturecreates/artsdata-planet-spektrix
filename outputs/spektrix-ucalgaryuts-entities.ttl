@@ -1,0 +1,353 @@
+@base <https://www.spektrix.com/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/91201ALKRLHGDGHKMCRKDBJKSBNPKJQGR> a schema:Event;
+  schema:name "A Child's Christmas";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span>
+""";
+  schema:startDate "2024-12-15T14:30:00"^^xsd:dateTime;
+  schema:endDate "2024-12-15T14:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/b77dd9a9-6086-4725-8d65-ecbab6b4c8e7.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR a schema:Place;
+  schema:name "Eckhardt-Gramatté Hall (Rozsa Centre)";
+  schema:address address:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+address:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR a schema:PostalAddress;
+  schema:streetAddress "206 University Court NW";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/92001ACMVVRHKQMSLNPTJRKSCQLCJBRDB> a schema:Event;
+  schema:name "Calgary without Patriarchy: Save My Soul";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2024-09-23T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-23T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/b8a2b8fe-b0c7-480a-aab3-901cae1cfa27.jpg";
+  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+
+place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:Place;
+  schema:name "University Theatre";
+  schema:address address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+
+address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
+  schema:streetAddress "230 University Court NW";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/92201ASMGRMRGGNSBGRTMVTKMBJNMBVNK> a schema:Event;
+  schema:name "Feminine Musique: The Art of the Duet";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2024-09-27T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-27T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/63ffbb37-6d7e-4c0b-a4af-73c4ddba5a25.jpeg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/91401AQKQGPGGPDLVJTSNQMHHHBRGBVSM> a schema:Event;
+  schema:name "ICMF 2024";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable.</span>
+""";
+  schema:startDate "2024-09-13T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-09-14T18:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/73017157-d4a9-4424-9a05-7fb518030914.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/90801ADCHGPKGDSJCLPHLQJMGHDMHKLCK> a schema:Event;
+  schema:name "Jaspreet Singh: Grown Up Tour 2025 - Calgary";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">The content is suitable for 16+ audience.</span>
+""";
+  schema:startDate "2025-06-01T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-06-01T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/82012d09-d1b8-4ec5-8833-2f68c325c664.jpg";
+  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+
+<http://www.spektrix.com/95801ALCSKCQJQBVRNRGSNHJHPLGBTSCG> a schema:Event;
+  schema:name "Land's End with Laura Hynes: Album Release Concert";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span>
+""";
+  schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-23T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/3778d667-8337-49b0-bf46-4f1293a634f0.jpeg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/78401AJTHVQKCLLSCNJNQLQTRRQHGJKMK> a schema:Event;
+  schema:name "Lights Out";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable.</span>
+""";
+  schema:startDate "2024-02-09T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-02-17T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/73ebfeb6-e171-48a1-941a-91eb3e5c79ea.jpg";
+  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+
+place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:Place;
+  schema:name "Reeve Theatre";
+  schema:address address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+
+address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
+  schema:streetAddress "210 University Court NW";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/79001ALMNHMLKHPPSKLMRGRNPHGQTCGQR> a schema:Event;
+  schema:name "Mainstage Dance";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable.</span>
+""";
+  schema:startDate "2024-03-14T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-03-16T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/ef599509-b126-439b-b932-ca41fc6b9249.jpg";
+  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+
+<http://www.spektrix.com/92801ABBPVVLCTHDBQJRSNTDCNSVRCNLP> a schema:Event;
+  schema:name "NPAA AM Show: Novice, Open, Men's Masters, Grandmasters Championships & Transformation Division";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span>
+""";
+  schema:startDate "2024-11-02T09:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-02T09:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/df4074cf-6e43-4c43-8d51-4983905a4374.jpg";
+  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+
+<http://www.spektrix.com/92802ANRLGDQVKTRKDPTHJDJKMCKKDDKH> a schema:Event;
+  schema:name "NPAA PM Show: Women's Masters, NPAA Elite-Pro & IPE Pro Championships";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span>
+""";
+  schema:startDate "2024-11-02T16:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-02T16:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/9d2ef114-4310-42d1-bc06-472ba51d0e50.jpg";
+  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+
+<http://www.spektrix.com/77201ACHJGSDMKVSDQSJLPVNTKPPQRMCG> a schema:Event;
+  schema:name "ONCUE: Songs for Summer Solstice";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span>
+""";
+  schema:startDate "2024-06-21T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-06-21T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/bd245baa-78c7-490d-bdd7-c9a5bc1aa2f0.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/73201AGSCKBTGSBVVPVMMGBMDMVPLHBVG> a schema:Event;
+  schema:name "Paintbrush - Banff Centre Mountain Film Festival World Tour";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non refundable.</span>
+""";
+  schema:startDate "2024-02-02T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-02-04T13:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/1ac5fcfe-bacd-47c2-84d5-95b292e8b6fc.jpeg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/76601ATPKJGRNKVVHLSJKLRGVJNDHKVDL> a schema:Event;
+  schema:name "Pavel Kolesnikov in Recital";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span>
+""";
+  schema:startDate "2024-04-02T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-04-02T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/658450fb-9205-49a7-bee6-e4568bf72d54.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/72801ATSHJLPCLMCSJGLVNVVHQRQSJNCV> a schema:Event;
+  schema:name "Rocky Mountain Concert Band: Portraits of the North";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non refundable and unchangeable.</span>
+""";
+  schema:startDate "2023-12-10T14:00:00"^^xsd:dateTime;
+  schema:endDate "2023-12-10T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/138fd660-772d-4790-b7f6-a7716a8438e1.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/93401ADSVCQMQNMJNHNNNRLDRJPDKQRCG> a schema:Event;
+  schema:name "Rod Squance & Zaheer-Abbas Janmohamed: An Evening of Classical Raga and Marimba ";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-25T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/e8015022-2fef-4588-b579-f495e8e196e8.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/91001AGRQVVNCNSQHCNHSNGBSKJVCSJCL> a schema:Event;
+  schema:name "Scares and Scales";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span>
+""";
+  schema:startDate "2024-10-20T14:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-20T14:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/5b3c258e-1179-4c88-b2b1-a3d6d6a0050c.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/72001ANHVHCLGLNCCVMNNJLHCJHVKDPJB> a schema:Event;
+  schema:name "THE COMIC STRIPPERS (18+ only)";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"BoldText\">18+ ONLY</span>
+""";
+  schema:startDate "2024-02-03T20:00:00"^^xsd:dateTime;
+  schema:endDate "2024-02-03T20:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/3f2497dc-30df-4ba3-b767-7c37449751dd.jpg";
+  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+
+<http://www.spektrix.com/95601AKBTMBPSVSQQNHNMNCNJRTLHSSTL> a schema:Event;
+  schema:name "The Nutcracker";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable.</span>
+""";
+  schema:startDate "2024-12-06T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-12-08T14:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/f70f4517-e28e-47d9-8256-4dcbba5767d3.jpg";
+  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+
+<http://www.spektrix.com/90001ANBRQDJNTMCJPBPQHVSQBBDRNLBQ> a schema:Event;
+  schema:name "The Wolves";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2024-10-18T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-26T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/2a0f1172-d7f1-4893-8c0e-43f57ef972a3.jpeg";
+  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+
+<http://www.spektrix.com/94402ACBSJJLGQGGTPDLKNJBGDPKHGSCH> a schema:Event;
+  schema:name "UCalgary Brass & Percussion Ensemble";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2024-11-26T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-26T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/dcac9762-92f4-4291-9a94-34851ac02e29.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/93801ACCSQPDKSCHCDGBCSDTQHPKGSBRS> a schema:Event;
+  schema:name "UCalgary Chamber Choir (with special guest Bishop Carroll Concert Choir)";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2024-11-19T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-19T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/624eb6fb-cb3f-4fd4-a3a4-86dbccf2d574.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/94601ASVLLJKGKRQSCCDGRBPVBDVNDCCJ> a schema:Event;
+  schema:name "UCalgary Chamber Music Ensembles";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span><span><br/></span>
+""";
+  schema:startDate "2024-11-21T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-21T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/163dd89e-b2eb-4852-8daf-5b19757172cd.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/94201ACKSQKLJRVNBCTGNDVTCJCHVPLBC> a schema:Event;
+  schema:name "UCalgary Jazz Orchestra";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span><span><br/></span>
+""";
+  schema:startDate "2024-11-20T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-20T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/edbe5c28-139b-46cb-b3a8-3fd3985940a5.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/95001AGRTJLQSRDPVNBKJLGDDCGQSBRRT> a schema:Event;
+  schema:name "UCalgary Orchestra";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2024-11-28T20:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-28T20:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/b0b2f9ef-4de4-4810-a32e-da79f195d573.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/93601ASMSRSHLGTLHJVMLSMKVNQKJMQCR> a schema:Event;
+  schema:name "UCalgary String Quartet - 30th Anniversary Season with special guest Jani Parsons";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2024-11-08T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-08T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/a24509b0-10e6-4316-a68a-ce4d1a70828f.jpeg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/95201ADLDPTCJCDJNVDLNRRQBSJCCKBCS> a schema:Event;
+  schema:name "UCalgary Symphonic Band";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2024-11-29T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-29T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/22a3243a-0cac-4e34-86e7-0f2dfeb94fb7.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/93001AKPMKDQLDNTLBKNJTSQGLTNBGGRP> a schema:Event;
+  schema:name "UCalgary Wind Ensemble & Symphonic Band ";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2024-10-10T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-10T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/912a9ae2-0522-47d9-a5f6-162e048cd479.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/94002ANTMMHLLTPSJHNBJPCSKSDTRDNNS> a schema:Event;
+  schema:name "UCalgary World Music Ensemble";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span><span><br/></span>
+""";
+  schema:startDate "2024-11-25T20:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-25T20:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/dba84b92-0587-41a8-843f-7f6c8ed0d7bc.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/87601ANPLQMNRMNHLQMLDPMSJKHLTKRCN> a schema:Event;
+  schema:name "Voices of the North";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable.</span>
+""";
+  schema:startDate "2024-06-22T15:00:00"^^xsd:dateTime;
+  schema:endDate "2024-06-22T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/a28aa3e3-7510-4136-9b6a-6a3d7f745796.jpg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .
+
+<http://www.spektrix.com/92601APQCHQPJPMRPPCQQKBJGHJRQSVBP> a schema:Event;
+  schema:name "Why [Not] Dance? Vol. 5 ...as we do";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2024-09-21T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-21T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/db93860e-69ba-4dbb-96ba-e701624041d8.jpeg";
+  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+
+<http://www.spektrix.com/66801AQKPRHKKGQQBTMBVQVVTVMKKQTGN> a schema:Event;
+  schema:name "With Love Jaspreet ! - Canada Tour 2023 by Jaspreet Singh";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non refundable and unchangeable.</span>
+""";
+  schema:startDate "2023-10-13T19:00:00"^^xsd:dateTime;
+  schema:endDate "2023-10-13T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/f4396a53-cf1e-464e-b6eb-f6717e9a80fc.jpg";
+  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+
+<http://www.spektrix.com/73601AGTJSDMRRHHCHRQSCLRVRLDPRMQN> a schema:Event;
+  schema:name "Yarrow - Banff Centre Mountain Film Festival World Tour";
+  schema:description """
+
+""";
+  schema:startDate "2024-02-01T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-02-03T13:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/ucalgaryuts/files/67bfcf8d-4b51-44f6-9131-2076aff14008.jpeg";
+  schema:location place:403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR .

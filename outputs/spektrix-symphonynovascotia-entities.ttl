@@ -1,0 +1,233 @@
+@base <https://www.spektrix.com/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/12801AHKJCDVHRVVMMTDLCVKNKBDKHMLM> a schema:Event;
+  schema:name "It's Easy to Be Green";
+  schema:description """
+
+""";
+  schema:startDate "2024-04-20T16:00:00"^^xsd:dateTime;
+  schema:endDate "2024-04-21T14:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:802AJGBTDPGVCVMGPKHTKDLNBHRQNQDQG .
+
+place:802AJGBTDPGVCVMGPKHTKDLNBHRQNQDQG a schema:Place;
+  schema:name "Canadian Museum of Immigration at Pier 21";
+  schema:address address:802AJGBTDPGVCVMGPKHTKDLNBHRQNQDQG .
+
+address:802AJGBTDPGVCVMGPKHTKDLNBHRQNQDQG a schema:PostalAddress;
+  schema:streetAddress "1055 Marginal Rd";
+  schema:addressLocality "Halifax";
+  schema:addressCountry "CA" .
+
+place:803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM a schema:Place;
+  schema:name "Alderney Landing Theatre";
+  schema:address address:803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM .
+
+address:803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM a schema:PostalAddress;
+  schema:streetAddress "2 Ochterloney St";
+  schema:addressLocality "Dartmouth";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/10601APSKMRRDLKDGKBKNPNLTDRGCSHLR> a schema:Event;
+  schema:name "Livestream: Beethoven Piano Concertos with Jon Kimura Parker, Part 2";
+  schema:description """
+
+""";
+  schema:startDate "2024-03-22T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-03-22T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:Place;
+  schema:name "Online";
+  schema:address address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/22601ARRLHTVCDDNCQVPHHJKHRLVJHGRP> a schema:Event;
+  schema:name "Livestream: Beethoven's Pastoral Symphony";
+  schema:description """
+
+""";
+  schema:startDate "2025-02-13T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-02-13T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/10401AVGBSHGLNCJKPBDLVSHHVCQHSBNR> a schema:Event;
+  schema:name "Livestream: Bernhard Conducts Beethoven and Mahler";
+  schema:description """
+
+""";
+  schema:startDate "2023-11-16T19:30:00"^^xsd:dateTime;
+  schema:endDate "2023-11-16T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/10402ARDVDMNJBRVPDTKLPJMKVHLCQLDV> a schema:Event;
+  schema:name "Livestream: Holly Conducts Ravel and Debussy";
+  schema:description """
+
+""";
+  schema:startDate "2024-04-18T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-04-18T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/22401AHNCPNVTKJTRNRHMVHTTDRBJQHGK> a schema:Event;
+  schema:name "Livestream: Shostakovich & Copland's Appalachian Spring";
+  schema:description """
+
+""";
+  schema:startDate "2024-10-31T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-31T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/22801AGSKTJDCRVHCKQCVVHGLQCVGCCGM> a schema:Event;
+  schema:name "Livestream: Symphony Soloists Play Mozart";
+  schema:description """
+
+""";
+  schema:startDate "2025-04-10T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-04-10T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+
+<http://www.spektrix.com/12601ADHGSMRHJGRGJSDPTNTCRCGQHPQN> a schema:Event;
+  schema:name "Moon Over Halifax";
+  schema:description """
+
+""";
+  schema:startDate "2024-02-17T16:00:00"^^xsd:dateTime;
+  schema:endDate "2024-02-18T14:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:802AJGBTDPGVCVMGPKHTKDLNBHRQNQDQG .
+
+<http://www.spektrix.com/13001AJPBLLHQGJTKKHRRTDNKLLTSKVVJ> a schema:Event;
+  schema:name "NSYO: Come If You Dare";
+  schema:description """
+
+""";
+  schema:startDate "2023-10-28T14:00:00"^^xsd:dateTime;
+  schema:endDate "2023-10-28T14:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ .
+
+place:603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ a schema:Place;
+  schema:name "St. Andrew's United Church";
+  schema:address address:603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ .
+
+address:603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ a schema:PostalAddress;
+  schema:streetAddress "6036 Coburg Rd";
+  schema:addressLocality "Halifax";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> a schema:Event;
+  schema:name "NSYO: Dance Party!";
+  schema:description """
+
+""";
+  schema:startDate "2022-10-15T18:00:00"^^xsd:dateTime;
+  schema:endDate "2022-10-15T20:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ .
+
+<http://www.spektrix.com/13401ATNSLDSHJQKBGBDBQSJVDPTKJJMG> a schema:Event;
+  schema:name "NSYO: Dvořák at the Movies";
+  schema:description """
+
+""";
+  schema:startDate "2024-05-05T16:00:00"^^xsd:dateTime;
+  schema:endDate "2024-05-05T16:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ .
+
+<http://www.spektrix.com/13201ACQQNNPSNRJMNQRQRCSJCCGPQLHJ> a schema:Event;
+  schema:name "NSYO: Holiday Spirit with the NSYO";
+  schema:description """
+
+""";
+  schema:startDate "2023-12-17T19:00:00"^^xsd:dateTime;
+  schema:endDate "2023-12-17T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ .
+
+<http://www.spektrix.com/23201APGCMPGJNLTBJBBRLRLRBCKNMGMV> a schema:Event;
+  schema:name "NSYO: Myths and Legends";
+  schema:description """
+
+""";
+  schema:startDate "2025-04-26T14:00:00"^^xsd:dateTime;
+  schema:endDate "2025-04-26T14:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ .
+
+<http://www.spektrix.com/7202ADKSBQLMVLGTBJCBGTJSQSNSRSQNV> a schema:Event;
+  schema:name "NSYO: Orchestra in Motion";
+  schema:description """
+
+""";
+  schema:startDate "2023-04-30T19:00:00"^^xsd:dateTime;
+  schema:endDate "2023-04-30T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ .
+
+<http://www.spektrix.com/7401ABQKCMHPSMGCDJCDKPNHPKRBSBRLS> a schema:Event;
+  schema:name "NSYO: Orchestral Tradition: Revisited";
+  schema:description """
+
+""";
+  schema:startDate "2022-12-03T19:00:00"^^xsd:dateTime;
+  schema:endDate "2022-12-03T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ .
+
+<http://www.spektrix.com/23001ARCVCNHNNNCLVMBNCMRGPKGBRCSK> a schema:Event;
+  schema:name "NSYO: Songs of the People";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-30T14:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-30T14:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ .
+
+<http://www.spektrix.com/12401ALRBGCBJJRJTTJKHBDCPJSGMKBSL> a schema:Event;
+  schema:name "Songs and Dances of Mi'kma'ki";
+  schema:description """
+
+""";
+  schema:startDate "2024-01-13T16:00:00"^^xsd:dateTime;
+  schema:endDate "2024-01-14T14:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:802AJGBTDPGVCVMGPKHTKDLNBHRQNQDQG .
+
+<http://www.spektrix.com/12201AVGSVDJSKHNLNDGDHCNLJPBPLMHR> a schema:Event;
+  schema:name "Symphony at 40 Book Launch";
+  schema:description """
+
+""";
+  schema:startDate "2023-09-27T18:00:00"^^xsd:dateTime;
+  schema:endDate "2023-09-27T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:802AJGBTDPGVCVMGPKHTKDLNBHRQNQDQG .
+
+<http://www.spektrix.com/615ASTGPHKNBLMPVNQBMCRBPGLJRPDVQS> a schema:Event;
+  schema:name "Symphony Week!";
+  schema:description """
+
+""";
+  schema:startDate "2023-09-10T15:00:00"^^xsd:dateTime;
+  schema:endDate "2024-09-15T15:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM .

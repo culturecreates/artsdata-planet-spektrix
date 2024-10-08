@@ -1,0 +1,127 @@
+@base <https://www.spektrix.com/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/3601ABRLTLCLBPPCHRCSJRVVJLBBBDQCM> a schema:Event;
+  schema:name "Footloose";
+  schema:description """
+
+""";
+  schema:startDate "2025-03-14T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-03-28T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/95276117-6439-4a44-9325-6b46efee7bac.jpg";
+  schema:additionalType "Musical"^^skos:Concept;
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:Place;
+  schema:name "Abbotsford Arts Centre";
+  schema:address address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:PostalAddress;
+  schema:streetAddress "2329 Crescent Ave";
+  schema:addressLocality "Abbotsford";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD> a schema:Event;
+  schema:name "G7 Comedy Festival - Improv Night";
+  schema:description """
+
+""";
+  schema:startDate "2024-10-18T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-18T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/57fcc2ab-0a42-437d-a5f1-3845924b687f.jpg";
+  schema:additionalType ""^^skos:Concept;
+  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+
+place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:Place;
+  schema:name "Matsqui Centennial Auditorium";
+  schema:address address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+
+address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
+  schema:streetAddress "32315 South Fraser Way";
+  schema:addressLocality "Abbotsford";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/2401AMBSVDSNBDLGKMKJVPMHNLQGTKHSV> a schema:Event;
+  schema:name "G7 Comedy Festival - Stand-up Night";
+  schema:description """
+
+""";
+  schema:startDate "2024-10-19T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-19T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/24c80a86-60b1-4560-973b-8b2d4486c05e.jpg";
+  schema:additionalType ""^^skos:Concept;
+  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+
+<http://www.spektrix.com/4001APBPRCSHVVMHTCBMSPSJRNDMCHHLV> a schema:Event;
+  schema:name "G7 Double Feature";
+  schema:description """
+
+""";
+  schema:startDate "2025-04-09T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-04-12T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/60017862-2b3d-413b-a9d1-fc4c725b493b.jpg";
+  schema:additionalType "Comedy"^^skos:Concept;
+  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+
+place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:Place;
+  schema:name "Abbotsford Arts Addition";
+  schema:address address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+
+address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
+  schema:streetAddress "2329 Crescent Ave";
+  schema:addressLocality "Abbotsford";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/3401ARKRNLBJKDJTKHBHRJBNHVDNSKPTR> a schema:Event;
+  schema:name "Irena's Vow";
+  schema:description """
+
+""";
+  schema:startDate "2025-01-24T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-02-01T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/73f55f3d-ea9b-4469-b7a9-f5c970a6b886.jpg";
+  schema:additionalType "Drama"^^skos:Concept;
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/3201AQVHRDTTMHKGVGSKKQQVCTJHSRSNR> a schema:Event;
+  schema:name "Parfumerie";
+  schema:description """
+
+""";
+  schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-12-21T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/19cbd179-e763-4fbc-8364-d3eb2b1c4b94.jpg";
+  schema:additionalType "Comedy"^^skos:Concept;
+  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+
+<http://www.spektrix.com/3001AKGPBMSRNCDBJCGBHRDVVQRQLSLMV> a schema:Event;
+  schema:name "Prince Caspian";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-08T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-17T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/4f70524c-b17b-498b-b905-0eecd9da36e9.jpg";
+  schema:additionalType "Literary"^^skos:Concept;
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> a schema:Event;
+  schema:name "The Play That Goes Wrong";
+  schema:description """
+
+""";
+  schema:startDate "2025-05-09T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-05-24T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/0771ec36-cbcd-4b36-b3fe-48ea35d2e5e3.jpg";
+  schema:additionalType "Comedy"^^skos:Concept;
+  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .

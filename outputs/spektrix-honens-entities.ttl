@@ -1,0 +1,107 @@
+@base <https://www.spektrix.com/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/10801ADHCBQTDNRNBLLTSCPBVDKMJGHCJ> a schema:Event;
+  schema:name "2024 Bison Noir: Centenary in Blue";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-06T21:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-06T21:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:Place;
+  schema:name "Royal Canadian Legion No.1";
+  schema:address address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:PostalAddress;
+  schema:streetAddress "116 7 Ave SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB T2G 0H5";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/11601ASNTDDTNQDPTRBBMHTCLMHBVDMHV> a schema:Event;
+  schema:name "Cadence";
+  schema:description """
+
+""";
+  schema:startDate "2024-10-09T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-10-09T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:2601AQNNVGDSDNTBVTJRRMQNTDRTBBNTQ .
+
+place:2601AQNNVGDSDNTBVTJRRMQNTDRTBBNTQ a schema:Place;
+  schema:name "The Grand";
+  schema:address address:2601AQNNVGDSDNTBVTJRRMQNTDRTBBNTQ .
+
+address:2601AQNNVGDSDNTBVTJRRMQNTDRTBBNTQ a schema:PostalAddress;
+  schema:streetAddress "608 1 St SW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB T2P 1M6";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/11001ATRSBGDJMQQMCVKRJSQJPSBBHRPT> a schema:Event;
+  schema:name "Classical Adaptations with WindSync";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-07T10:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-08T10:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV .
+
+place:2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV a schema:Place;
+  schema:name "St. Stephen’s Anglican Church";
+  schema:address address:2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV .
+
+address:2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV a schema:PostalAddress;
+  schema:streetAddress "1121 14 Ave SW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB T2R 0P3";
+  schema:addressCountry "CA" .
+
+place:2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD a schema:Place;
+  schema:name "Brookfield Residential YMCA at Seton";
+  schema:address address:2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD .
+
+address:2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD a schema:PostalAddress;
+  schema:streetAddress "4995 Market St SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB T3M 2P9";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/10601APSKMRRDLKDGKBKNPNLTDRGCSHLR> a schema:Event;
+  schema:name "Illia Ovcharenko in Recital: Beethoven Three Ways";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-06T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-09-06T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV .
+
+<http://www.spektrix.com/11401ADJMJHLSTCBJCSJGTJRVLDRSDLQV> a schema:Event;
+  schema:name "Summertime Soirée: A Night in Paris on the Elbow";
+  schema:description """
+
+""";
+  schema:startDate "2024-08-10T20:00:00"^^xsd:dateTime;
+  schema:endDate "2024-08-10T20:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:Place;
+  schema:name "Unknown";
+  schema:address address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
+  schema:streetAddress "Unknown";
+  schema:addressCountry "CA" .

@@ -1,0 +1,187 @@
+@base <https://www.spektrix.com/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/18801AQTCDTTRMRJKMBPNNPMJSBLMGVQP> a schema:Event;
+  schema:name "A Moonlit Night ";
+  schema:description """
+
+""";
+  schema:startDate "2024-06-20T17:30:00"^^xsd:dateTime;
+  schema:endDate "2024-06-20T17:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thousandislandsplayhouse/files/13fdc278-9fa9-4780-87c0-e843c1d54ace.jpg";
+  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+
+place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:Place;
+  schema:name "Springer Theatre";
+  schema:address address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+
+address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
+  schema:streetAddress "185 South Street";
+  schema:addressLocality "Gananoque";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/17801ANDDGKKLBMPBRRTQKGLNDCMQGQHV> a schema:Event;
+  schema:name "Cabaret Music Series - Back Home Again";
+  schema:description """
+
+""";
+  schema:startDate "2024-03-24T14:30:00"^^xsd:dateTime;
+  schema:endDate "2024-03-24T14:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thousandislandsplayhouse/files/60caf238-5e0e-4f7b-8737-a8c075bcd760.jpg";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:Place;
+  schema:name "Firehall Theatre";
+  schema:address address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:PostalAddress;
+  schema:streetAddress "185 South Street";
+  schema:addressLocality "Gananoque";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/17601ADSBKGQMMPTLRCMTNQVQJNSBPVNG> a schema:Event;
+  schema:name "Cabaret Music Series - Canadian Songbook";
+  schema:description """
+
+""";
+  schema:startDate "2024-02-25T14:30:00"^^xsd:dateTime;
+  schema:endDate "2024-02-25T14:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thousandislandsplayhouse/files/49859b73-1f32-4b8a-ae00-22bc943b921f.jpg";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/17401ARMGDGRGTJBKVPBLJVRHCKNDGPTT> a schema:Event;
+  schema:name "Cabaret Music Series - Fats, Ray & Jerry Lee";
+  schema:description """
+
+""";
+  schema:startDate "2024-01-28T14:30:00"^^xsd:dateTime;
+  schema:endDate "2024-01-28T14:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/18001AQNDJSHVVQBLCSKTRHMGHNPJGJTM> a schema:Event;
+  schema:name "Cabaret Music Series - Georgette Fry Up Close";
+  schema:description """
+
+""";
+  schema:startDate "2024-04-28T14:30:00"^^xsd:dateTime;
+  schema:endDate "2024-04-28T14:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thousandislandsplayhouse/files/07cd2c4a-eb4b-41f4-ae4b-87f7f1708cc3.jpg";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/18601AGJVHRJDDNTMMMDTKPLTNBGVTLHV> a schema:Event;
+  schema:name "Doubt - A Parable";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-05T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-29T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thousandislandsplayhouse/files/74be8793-3aef-476d-8290-f824bea75d27.jpg";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/15201AJRGPHRLRVGVLSMBRKVQSJMVJBSH> a schema:Event;
+  schema:name "Jesus Christ Superstar ";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-24T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-27T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thousandislandsplayhouse/files/bff502d1-0a20-48b5-96d1-b42e3a280d43.jpg";
+  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+
+<http://www.spektrix.com/14601AQGMDCVKHRBCGJLMKRPVNVKVHPJG> a schema:Event;
+  schema:name "Liars at a Funeral";
+  schema:description """
+
+""";
+  schema:startDate "2024-05-31T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-06-22T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thousandislandsplayhouse/files/bf26d3ab-b8ef-4908-aaf0-35d1a05d3cc1.jpg";
+  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+
+<http://www.spektrix.com/14801ALJMRBKMVHTKGLRNMTGKCGDBTVSP> a schema:Event;
+  schema:name "Mamma Mia";
+  schema:description """
+
+""";
+  schema:startDate "2024-07-02T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-08-10T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thousandislandsplayhouse/files/a5eb616c-7da3-49d6-ad21-9b12dc67074e.jpg";
+  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+
+<http://www.spektrix.com/15001AMKBTPKPRJBCVBMQKCKPSNVVCTJT> a schema:Event;
+  schema:name "Mary's Wedding ";
+  schema:description """
+
+""";
+  schema:startDate "2024-08-16T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-08T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thousandislandsplayhouse/files/98145fa2-7353-4474-a2da-d5dfeb9e8350.jpg";
+  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+
+<http://www.spektrix.com/16001ARGQQRHSBPHJPVSHSDBVGRTHPBSV> a schema:Event;
+  schema:name "Murder for Two";
+  schema:description """
+
+""";
+  schema:startDate "2024-08-01T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-08-31T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thousandislandsplayhouse/files/e66999a5-da27-47dd-bfa2-b425758ac924.jpg";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/18201AHGNDCRVCPJBPPJCHBJKBJSRNNKN> a schema:Event;
+  schema:name "NINE";
+  schema:description """
+
+""";
+  schema:startDate "2024-04-12T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-04-14T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thousandislandsplayhouse/files/82d2c767-04c4-4d12-8788-72e09b6a21c7.jpg";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/16401ABVRRCMPGBBKHVKSLVNQTBRMLVRH> a schema:Event;
+  schema:name "Sequence ";
+  schema:description """
+
+""";
+  schema:startDate "2024-10-04T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-10-27T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thousandislandsplayhouse/files/2af05416-b4ff-4061-9fc4-7584916175f2.jpg";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/18401APQBVKHJSJNGJQKHRTGTLCTRJBBR> a schema:Event;
+  schema:name "Stitches, Strings and Shadows";
+  schema:description """
+
+""";
+  schema:startDate "2024-03-22T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-03-23T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/19201ACDMCRSLDRKDVBCRLQTJMQBCSLCD> a schema:Event;
+  schema:name "The Great Canadian Comedy Caravan";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-08T20:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-08T20:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+
+<http://www.spektrix.com/14401ASTBHRJNMRVVCMLVMRRSGQMJPHLG> a schema:Event;
+  schema:name "TIP Launch";
+  schema:description """
+
+""";
+  schema:startDate "2024-10-17T10:00:00"^^xsd:dateTime;
+  schema:endDate "2024-10-17T10:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .

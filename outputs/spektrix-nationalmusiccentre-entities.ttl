@@ -1,0 +1,389 @@
+@base <https://www.spektrix.com/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/20001ASSPTTDVHQJLHCGJGTSBBKPHTPJB> a schema:Event;
+  schema:name "Artist in Residence Studio Spotlight featuring Tess Roby";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-14T13:00:00"^^xsd:dateTime;
+  schema:endDate "2024-09-14T13:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:Place;
+  schema:name "Studio Bell";
+  schema:address address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:PostalAddress;
+  schema:streetAddress "850 4th Street SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB T2G 0L8";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/11601ASNTDDTNQDPTRBBMHTCLMHBVDMHV> a schema:Event;
+  schema:name "Backstage Pass Tour";
+  schema:description """
+	<h2>Add a Backstage Pass Tour</h2>Take an exclusive tour backstage at Studio Bell and see music come to life! Experience our world-class recording facilities and hear the stories behind notable artifacts.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2024-08-10T12:00:00"^^xsd:dateTime;
+  schema:endDate "2024-10-26T13:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/3401ARKRNLBJKDJTKHBHRJBNHVDNSKPTR> a schema:Event;
+  schema:name "Behind-the-Glass Tour";
+  schema:description """
+	<h2>Add a Behind-the-Glass Tour</h2>Explore the hits of NMC’s collection and dive deeper into Canada’s music story! Explore the exhibitions and artifacts with a musically trained tour guide.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2023-12-23T11:00:00"^^xsd:dateTime;
+  schema:endDate "2024-01-20T14:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/17201ARRMQGPTQCTQRSSQDHPCMJGNLLPM> a schema:Event;
+  schema:name "Build A Band Summer Camp";
+  schema:description """
+
+""";
+  schema:startDate "2024-07-15T09:00:00"^^xsd:dateTime;
+  schema:endDate "2024-08-19T09:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/14601AQGMDCVKHRBCGJLMKRPVNVKVHPJG> a schema:Event;
+  schema:name "CCMA Hall of Fame Inductee - Jason McCoy ";
+  schema:description """
+
+""";
+  schema:startDate "2024-06-14T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-06-14T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:Place;
+  schema:name "Performance Hall";
+  schema:address address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
+  schema:streetAddress "850 4th Street SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB T2G 0L8";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/10801ADHCBQTDNRNBLLTSCPBVDKMJGHCJ> a schema:Event;
+  schema:name "HCW Tour";
+  schema:description """
+
+""";
+  schema:startDate "2024-08-02T10:00:00"^^xsd:dateTime;
+  schema:endDate "2024-08-02T11:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/16801ANHJRBJLNRBNVQDKPGNSLJNKRTQV> a schema:Event;
+  schema:name "Holocaust Symposium";
+  schema:description """
+
+""";
+  schema:startDate "2024-05-16T10:00:00"^^xsd:dateTime;
+  schema:endDate "2024-05-16T10:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/16001ARGQQRHSBPHJPVSHSDBVGRTHPBSV> a schema:Event;
+  schema:name "Huu Bac Quintet & Ginger Beef";
+  schema:description """
+
+""";
+  schema:startDate "2024-04-27T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-04-27T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/21201ARBBTMBLNJJTVHKLSDDJRJTLMNRD> a schema:Event;
+  schema:name "JazzYYC and NMC Present: Jill Barber ";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-08T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-08T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/20201AVQHKKMVCNSSQSPNTVCQPQCKBBPV> a schema:Event;
+  schema:name "Mid-Autumn Star Finals";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-22T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-22T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/16601ARPMPTNDDCJCLRDPBTPKBJMLVCDR> a schema:Event;
+  schema:name "NMC and Master T Present: Pass the Mic";
+  schema:description """
+
+""";
+  schema:startDate "2024-02-27T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-02-27T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/13801AGMJPLQGHBSJHBGMRNCQQKGVHKBV> a schema:Event;
+  schema:name "NMC Presents Randy Bachman: Every Guitar Tells a Story Live in Concert ";
+  schema:description """
+
+""";
+  schema:startDate "2024-02-09T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-02-09T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/14401ASTBHRJNMRVVCMLVMRRSGQMJPHLG> a schema:Event;
+  schema:name "NMC Presents Randy Bachman: Every Guitar Tells a Story Live in Concert February 10";
+  schema:description """
+
+""";
+  schema:startDate "2024-02-10T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-02-10T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/15401AGBHLPJQSLGSGPTPRKHBGTDKGKJN> a schema:Event;
+  schema:name "NMC Presents Randy Bachman: Every Guitar Tells a Story Live in Concert February 8";
+  schema:description """
+
+""";
+  schema:startDate "2024-02-08T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-02-08T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/19201ACDMCRSLDRKDVBCRLQTJMQBCSLCD> a schema:Event;
+  schema:name "NMC Presents: Elisapie";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-30T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-30T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/16401ABVRRCMPGBBKHVKSLVNQTBRMLVRH> a schema:Event;
+  schema:name "NMC Presents: Heartstrings & Honky Tonks";
+  schema:description """
+
+""";
+  schema:startDate "2024-04-03T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-04-03T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/18801AQTCDTTRMRJKMBPNNPMJSBLMGVQP> a schema:Event;
+  schema:name "NMC Presents: Jimmy Rankin Live";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-06T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-06T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/19601ASQHGTDLVRHPVGMRMDVHLHMGNGQV> a schema:Event;
+  schema:name "NMC Presents: Mid-Autumn Festival with Jasmine Jazz";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-20T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-20T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/19801AHJMMDKNMDJQSLCTGNDLGNGMJGHK> a schema:Event;
+  schema:name "NMC Presents: Mid-Autumn Festival with XIA-3";
+  schema:description """
+
+""";
+  schema:startDate "2024-09-21T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-09-21T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/21001AHGQKHHCBJDNTTTMDTTPLSBDJSQB> a schema:Event;
+  schema:name "NMC Presents: OHSOTO'KINO Music Incubator Showcase Reception ";
+  schema:description """
+
+""";
+  schema:startDate "2024-10-03T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-10-03T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT .
+
+place:1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT a schema:Place;
+  schema:name "Skybridge";
+  schema:address address:1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT .
+
+address:1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT a schema:PostalAddress;
+  schema:streetAddress "850 4th Street SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB T2G 0L8";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/15001AMKBTPKPRJBCVBMQKCKPSNVVCTJT> a schema:Event;
+  schema:name "NMC Presents: Rock the Nation Opening Night";
+  schema:description """
+
+""";
+  schema:startDate "2024-01-26T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-01-26T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/15801AMKKPNSMSJBRKTDKDKJVGCKCBJKN> a schema:Event;
+  schema:name "NMC Presents: Shaela Miller Album Release";
+  schema:description """
+
+""";
+  schema:startDate "2024-05-04T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-05-04T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC> a schema:Event;
+  schema:name "President's Holiday Dinner and Andy Kim Christmas";
+  schema:description """
+
+""";
+  schema:startDate "2024-12-13T17:30:00"^^xsd:dateTime;
+  schema:endDate "2024-12-13T17:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/18201AHGNDCRVCPJBPPJCHBJKBJSRNNKN> a schema:Event;
+  schema:name "Raga Mala Calgary and NMC present: Bharat Sundar Live";
+  schema:description """
+
+""";
+  schema:startDate "2024-06-01T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-06-01T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/15601ATMPBSJPVHGDQLTKHTGJDDNPRJJP> a schema:Event;
+  schema:name "Rhapsody in Blue 100 Year Anniversary Gala";
+  schema:description """
+
+""";
+  schema:startDate "2024-02-12T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-02-12T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/14201ARTVMVMMBMSJNNDBHCBBRVSCTRNG> a schema:Event;
+  schema:name "Rock The Nation";
+  schema:description """
+	<h2>Add Rock the Nation Tickets</h2>Experience a live performance of Rock the Nation — a celebration of Canadian music featuring songs from the ‘60s to present day.
+""";
+  schema:startDate "2024-02-24T12:00:00"^^xsd:dateTime;
+  schema:endDate "2024-04-28T12:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/17801ANDDGKKLBMPBRRTQKGLNDCMQGQHV> a schema:Event;
+  schema:name "Sikh Heritage Month";
+  schema:description """
+
+""";
+  schema:startDate "2024-04-25T13:00:00"^^xsd:dateTime;
+  schema:endDate "2024-04-25T13:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/12401ALRBGCBJJRJTTJKHBDCPJSGMKBSL> a schema:Event;
+  schema:name "Special Olympics Canada Winter Games Calgary 2024";
+  schema:description """
+
+""";
+  schema:startDate "2024-02-28T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-02-28T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:Event;
+  schema:name "Studio Bell Admission";
+  schema:description """
+
+""";
+  schema:startDate "2024-02-20T10:00:00"^^xsd:dateTime;
+  schema:endDate "2024-12-31T10:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/21401ATBPGTQKVRDDCCQRVVVPPKQMSKBM> a schema:Event;
+  schema:name "Studio Bell After Hours: Holiday Edition";
+  schema:description """
+
+""";
+  schema:startDate "2024-12-14T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-12-14T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/10401AVGBSHGLNCJKPBDLVSHHVCQHSBNR> a schema:Event;
+  schema:name "Summer Camps";
+  schema:description """
+
+""";
+  schema:startDate "2023-07-03T10:00:00"^^xsd:dateTime;
+  schema:endDate "2023-08-21T10:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+
+<http://www.spektrix.com/13401ATNSLDSHJQKBGBDBQSJVDPTKJJMG> a schema:Event;
+  schema:name "Tune In To Music";
+  schema:description """
+
+""";
+  schema:startDate "2023-10-20T12:00:00"^^xsd:dateTime;
+  schema:endDate "2023-11-24T12:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/17601ADSBKGQMMPTLRCMTNQVQJNSBPVNG> a schema:Event;
+  schema:name "Violins of Hope: Lenka Lichtenberg's \"The Secret Poetess of Terezin\" ";
+  schema:description """
+
+""";
+  schema:startDate "2024-06-02T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-06-02T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/18001AQNDJSHVVQBLCSKTRHMGHNPJGJTM> a schema:Event;
+  schema:name "Violins of Hope:Socalled With Strings";
+  schema:description """
+
+""";
+  schema:startDate "2024-05-26T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-05-26T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+
+<http://www.spektrix.com/22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM> a schema:Event;
+  schema:name "Voices of Canada";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-21T10:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-21T13:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
