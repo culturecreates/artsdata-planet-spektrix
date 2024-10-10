@@ -8,7 +8,8 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/10401AVGBSHGLNCJKPBDLVSHHVCQHSBNR> a schema:Event;
+<http://www.spektrix.com/centaurtheatre/event/10401AVGBSHGLNCJKPBDLVSHHVCQHSBNR> a
+    schema:Event;
   schema:name "For the Pleasure of Seeing Her Again";
   schema:description """
 
@@ -16,20 +17,23 @@
   schema:startDate "2025-05-13T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-06-01T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/cc11649c-0f6a-4553-b6c3-2a0193ad07e0.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:Place;
+<https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a
+    schema:Place;
   schema:name "Centaur Theatre";
-  schema:address address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:address <https://spektrix.com/centaurtheatre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
+<https://spektrix.com/centaurtheatre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a
+    schema:PostalAddress;
   schema:streetAddress "453 St. Francois-Xavier";
   schema:addressLocality "Montreal";
   schema:addressRegion "QC";
   schema:postalCode "HZY 2T1";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/9601AVDDJDNPPDCBTDGNSVVJSTBLBSPNQ> a schema:Event;
+<http://www.spektrix.com/centaurtheatre/event/9601AVDDJDNPPDCBTDGNSVVJSTBLBSPNQ> a
+    schema:Event;
   schema:name "Sakura - After Chekhov";
   schema:description """
 	Are you 25 or under? Ask the box office about <span class=\"BoldText\">Pay-Your-Age</span> tickets! /<span><br/></span>Vous aviez 25 ans ou moins ? Demandez à la billetterie pour les billets <span class=\"BoldText\">Payez-votre-âge</span>!<span><br/></span><span><br/></span><span class=\"BoldText\">Pay-What-You-Decide</span> tickets are back! Call the box office to pay the price of your choice for every Thursday performance. /<span><br/></span>Les billets <span class=\"BoldText\">payez-ce-que-vous-décidez</span> sont de retour ! Appelez la billetterie pour payer le prix de votre choix pour les représentations du jeudi.
@@ -37,9 +41,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2024-09-17T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-06T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/d1991bd8-8def-49c8-a53c-ff5d461ca920.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/10201AJHJGJMTBHDNGMTSMTVVGPNSHHLL> a schema:Event;
+<http://www.spektrix.com/centaurtheatre/event/10201AJHJGJMTBHDNGMTSMTVVGPNSHHLL> a
+    schema:Event;
   schema:name "Strawberries in January - A Musical Fantasy";
   schema:description """
 
@@ -47,9 +52,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2025-01-21T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-09T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/fbb311ac-da1d-46ea-9a99-0d8805b451f8.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/9001AGHDBMPJDRPSRMKLRCJGBJJMTQGDH> a schema:Event;
+<http://www.spektrix.com/centaurtheatre/event/9001AGHDBMPJDRPSRMKLRCJGBJJMTQGDH> a
+    schema:Event;
   schema:name "The Magic of Theatre Gala";
   schema:description """
 	<h1><span class=\"BoldText\">The Magic of Theatre Gala</span></h1>Prepare for a night of exclusive elegance and intimate glamour. Treat yourself to exquisite gourmet dishes from Bonaparte Restaurant, revel in live music, experience breathtaking theatrical performances, and anticipate delightful surprises, all while participating in a fabulous online auction.<span><br/></span><span><br/></span>With your purchase of a $500 Individual ticket, you are eligible for a tax receipt in the amount of $350.
@@ -57,14 +63,15 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2024-05-30T17:30:00"^^xsd:dateTime;
   schema:endDate "2024-05-30T17:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/085b3a8a-8ec7-429e-af76-358e6e5b5df4.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/9801ASMPJNGDQLTQPCPCCHKQQRGTTRTJM> a schema:Event;
+<http://www.spektrix.com/centaurtheatre/event/9801ASMPJNGDQLTQPCPCCHKQQRGTTRTJM> a
+    schema:Event;
   schema:name "Three Women of Swatow";
   schema:description """
-
+	Preview performances are <span class=\"BoldText\">25% off</span>! Select the <span class=\"BoldText\">November 5, 6, or 7</span> performances to enjoy this deal!<span><br/></span>/<span><br/></span>Les avant-premières sont à <span class=\"BoldText\">25% de réduction</span> ! Selectionnez les spectacles du <span class=\"BoldText\">5, 6, ou 7 novembre</span> pour profiter de cette offre !
 """;
   schema:startDate "2024-11-05T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-24T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/54b28616-ebf8-49de-ab42-6f0015454977.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .

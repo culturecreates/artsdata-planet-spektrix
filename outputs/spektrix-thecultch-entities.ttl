@@ -8,7 +8,7 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/16601ARPMPTNDDCJCLRDPBTPKBJMLVCDR> a schema:Event;
+<http://www.spektrix.com/thecultch/event/16601ARPMPTNDDCJCLRDPBTPKBJMLVCDR> a schema:Event;
   schema:name "A Little Bit Much";
   schema:description """
 
@@ -16,27 +16,17 @@
   schema:startDate "2024-10-26T16:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-26T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+  schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
 
-place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:Place;
+<https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:Place;
   schema:name "Vancity Culture Lab";
-  schema:address address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+  schema:address <https://spektrix.com/thecultch/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
 
-address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
+<https://spektrix.com/thecultch/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:PostalAddress;
   schema:streetAddress "1895 Venables St";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/13002AHSDRRJVDCTRRNJGTTGDLVMKRLTJ> a schema:Event;
-  schema:name "A Moment for Mark & Kelli and Det Andre Teatret";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-05T22:00:00"^^xsd:dateTime;
-  schema:endDate "2024-10-05T22:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
-
-<http://www.spektrix.com/2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV> a schema:Event;
+<http://www.spektrix.com/thecultch/event/2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV> a schema:Event;
   schema:name "As You Like It or The Land Acknowledgement";
   schema:description """
 
@@ -44,17 +34,17 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:startDate "2024-09-25T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-09-29T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+  schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
-place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:Place;
+<https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> a schema:Place;
   schema:name "York Theatre";
-  schema:address address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+  schema:address <https://spektrix.com/thecultch/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
-address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:PostalAddress;
+<https://spektrix.com/thecultch/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> a schema:PostalAddress;
   schema:streetAddress "639 Commercial Drive";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/3202ATRVBHVHSRMRHJLCHVJHJQHMNKRBQ> a schema:Event;
+<http://www.spektrix.com/thecultch/event/3202ATRVBHVHSRMRHJLCHVJHJQHMNKRBQ> a schema:Event;
   schema:name "Beauty and the Beast: My Life";
   schema:description """
 	<span><br/></span>
@@ -62,37 +52,17 @@ address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:PostalAddress;
   schema:startDate "2025-03-28T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-04-06T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:Place;
+<https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:Place;
   schema:name "Historic Theatre";
-  schema:address address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:address <https://spektrix.com/thecultch/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
+<https://spektrix.com/thecultch/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:PostalAddress;
   schema:streetAddress "1895 Venables Street";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/13601ABSCMSGQNLTCLGCSNLSTLGHSDRHB> a schema:Event;
-  schema:name "Bingewatch & The Nancy Boys";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-04T20:00:00"^^xsd:dateTime;
-  schema:endDate "2024-10-04T20:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
-
-<http://www.spektrix.com/14801ALJMRBKMVHTKGLRNMTGKCGDBTVSP> a schema:Event;
-  schema:name "Celebrating Indigenous Women In Hip Hop Workshop Series";
-  schema:description """
-
-""";
-  schema:startDate "2024-09-22T12:00:00"^^xsd:dateTime;
-  schema:endDate "2024-09-22T12:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
-
-<http://www.spektrix.com/3201AQVHRDTTMHKGVGSKKQQVCTJHSRSNR> a schema:Event;
+<http://www.spektrix.com/thecultch/event/3201AQVHRDTTMHKGVGSKKQQVCTJHSRSNR> a schema:Event;
   schema:name "Children of God ";
   schema:description """
 
@@ -100,9 +70,9 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2025-03-21T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-29T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+  schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
-<http://www.spektrix.com/17801ANDDGKKLBMPBRRTQKGLNDCMQGQHV> a schema:Event;
+<http://www.spektrix.com/thecultch/event/17801ANDDGKKLBMPBRRTQKGLNDCMQGQHV> a schema:Event;
   schema:name "Circurious Cabaret ";
   schema:description """
 
@@ -110,9 +80,9 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2024-11-09T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-09T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/16201AKSRRCPBSBQNMJRPLKHGSVGKLNDL> a schema:Event;
+<http://www.spektrix.com/thecultch/event/16201AKSRRCPBSBQNMJRPLKHGSVGKLNDL> a schema:Event;
   schema:name "Comedy on The Drive";
   schema:description """
 
@@ -120,9 +90,9 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2024-10-19T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-19T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+  schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
-<http://www.spektrix.com/3401ARKRNLBJKDJTKHBHRJBNHVDNSKPTR> a schema:Event;
+<http://www.spektrix.com/thecultch/event/3401ARKRNLBJKDJTKHBHRJBNHVDNSKPTR> a schema:Event;
   schema:name "Dance Nation";
   schema:description """
 
@@ -130,9 +100,9 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2025-04-23T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-05-04T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+  schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
-<http://www.spektrix.com/16401ABVRRCMPGBBKHVKSLVNQTBRMLVRH> a schema:Event;
+<http://www.spektrix.com/thecultch/event/16401ABVRRCMPGBBKHVKSLVNQTBRMLVRH> a schema:Event;
   schema:name "Daseina's Tango";
   schema:description """
 
@@ -140,9 +110,9 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2024-11-10T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-10T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/3001AKGPBMSRNCDBJCGBHRDVVQRQLSLMV> a schema:Event;
+<http://www.spektrix.com/thecultch/event/3001AKGPBMSRNCDBJCGBHRDVVQRQLSLMV> a schema:Event;
   schema:name "Dimanche";
   schema:description """
 
@@ -150,37 +120,17 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2025-02-06T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-02-08T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:location <https://spektrix.com/thecultch/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:Place;
+<https://spektrix.com/thecultch/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> a schema:Place;
   schema:name "Vancouver Playhouse";
-  schema:address address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:address <https://spektrix.com/thecultch/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
+<https://spektrix.com/thecultch/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> a schema:PostalAddress;
   schema:streetAddress "600 Hamilton St";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/13401ATNSLDSHJQKBGBDBQSJVDPTKJJMG> a schema:Event;
-  schema:name "Diversity Hires & Scout's Honour";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-03T21:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-03T21:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
-
-<http://www.spektrix.com/14601AQGMDCVKHRBCGJLMKRPVNVKVHPJG> a schema:Event;
-  schema:name "Dracula: A Musical Burlesque Comedy";
-  schema:description """
-
-""";
-  schema:startDate "2024-09-28T14:00:00"^^xsd:dateTime;
-  schema:endDate "2024-09-29T19:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
-
-<http://www.spektrix.com/12601ADHGSMRHJGRGJSDPTNTCRCGQHPQN> a schema:Event;
+<http://www.spektrix.com/thecultch/event/12601ADHGSMRHJGRGJSDPTNTCRCGQHPQN> a schema:Event;
   schema:name "Duo Pop Up Show";
   schema:description """
 
@@ -188,9 +138,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-10-01T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-10-01T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+  schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
 
-<http://www.spektrix.com/2601AQNNVGDSDNTBVTJRRMQNTDRTBBNTQ> a schema:Event;
+<http://www.spektrix.com/thecultch/event/2601AQNNVGDSDNTBVTJRRMQNTDRTBBNTQ> a schema:Event;
   schema:name "East Van Panto: Robin Hood";
   schema:description """
 
@@ -198,9 +148,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-11-20T19:00:00"^^xsd:dateTime;
   schema:endDate "2025-01-05T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+  schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
-<http://www.spektrix.com/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> a schema:Event;
+<http://www.spektrix.com/thecultch/event/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> a schema:Event;
   schema:name "Every Day She Rose";
   schema:description """
 
@@ -208,49 +158,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2025-05-01T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-05-11T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+  schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
 
-<http://www.spektrix.com/13201ACQQNNPSNRJMNQRQRCSJCCGPQLHJ> a schema:Event;
-  schema:name "Festival Ensemble & Derek's Mojo";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-03T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-03T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
-
-<http://www.spektrix.com/13003ADCNHNKNPVJLSLDRMHLDCVVHCGDK> a schema:Event;
-  schema:name "Festival Ensemble & Det Andre Teatret";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-04T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-04T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
-
-<http://www.spektrix.com/14201ARTVMVMMBMSJNNDBHCBBRVSCTRNG> a schema:Event;
-  schema:name "Festival Ensemble & Little Miss Normal";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-05T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-05T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
-
-<http://www.spektrix.com/12801AHKJCDVHRVVMMTDLCVKNKBDKHMLM> a schema:Event;
-  schema:name "Festival Ensemble & Scout's Honour";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-02T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-02T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
-
-<http://www.spektrix.com/16801ANHJRBJLNRBNVQDKPGNSLJNKRTQV> a schema:Event;
+<http://www.spektrix.com/thecultch/event/16801ANHJRBJLNRBNVQDKPGNSLJNKRTQV> a schema:Event;
   schema:name "Freedom: RainCity Housing Benefit Concert with Pacific Soul and B-Roll";
   schema:description """
 
@@ -258,9 +168,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-12-07T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-07T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/17201ARRMQGPTQCTQRSSQDHPCMJGNLLPM> a schema:Event;
+<http://www.spektrix.com/thecultch/event/17201ARRMQGPTQCTQRSSQDHPCMJGNLLPM> a schema:Event;
   schema:name "Freedom: RainCity Housing Benefit Concert with Spotlight and YVR Pop Choir";
   schema:description """
 
@@ -268,9 +178,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-12-08T14:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-08T18:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/4001APBPRCSHVVMHTCBMSPSJRNDMCHHLV> a schema:Event;
+<http://www.spektrix.com/thecultch/event/4001APBPRCSHVVMHTCBMSPSJRNDMCHHLV> a schema:Event;
   schema:name "Haus of YOLO";
   schema:description """
 
@@ -278,39 +188,19 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2025-06-05T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-06-15T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+  schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
-<http://www.spektrix.com/7801ATTBPVLSHPLVGKMJNMMDGBTHMPBTK> a schema:Event;
-  schema:name "Homemade Husbands: DIY Manual";
+<http://www.spektrix.com/thecultch/event/18201AHGNDCRVCPJBPPJCHBJKBJSRNNKN> a schema:Event;
+  schema:name "Keepers of the Salish Sea";
   schema:description """
 
 """;
-  schema:startDate "2024-10-05T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-05T19:30:00"^^xsd:dateTime;
+  schema:startDate "2024-11-20T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-12-01T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/13603ADCRDKGBNKCBGDCCKBQLMTCRBKPH> a schema:Event;
-  schema:name "Honk & Bingewatch";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-05T21:45:00"^^xsd:dateTime;
-  schema:endDate "2024-10-05T21:45:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
-
-<http://www.spektrix.com/14001ASQBPJTJLPNKCVSVSGCTCKBPVCGV> a schema:Event;
-  schema:name "Little Miss Normal & Derek's Mojo";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-04T21:45:00"^^xsd:dateTime;
-  schema:endDate "2024-10-04T21:45:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
-
-<http://www.spektrix.com/2202AQGQNPPCCQJMMCJBRNMLGQNSBDTNK> a schema:Event;
+<http://www.spektrix.com/thecultch/event/2202AQGQNPPCCQJMMCJBRNMLGQNSBDTNK> a schema:Event;
   schema:name "Little Red Warrior and His Lawyer";
   schema:description """
 
@@ -318,9 +208,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2025-03-06T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-16T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+  schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
-<http://www.spektrix.com/2802ANCTHRVHMJVSDTPSCGQLRJQJTLRTV> a schema:Event;
+<http://www.spektrix.com/thecultch/event/2802ANCTHRVHMJVSDTPSCGQLRJQJTLRTV> a schema:Event;
   schema:name "Love You Wrong Time";
   schema:description """
 	<span><br/></span>
@@ -328,9 +218,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2025-05-01T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-05-11T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/16001ARGQQRHSBPHJPVSHSDBVGRTHPBSV> a schema:Event;
+<http://www.spektrix.com/thecultch/event/16001ARGQQRHSBPHJPVSHSDBVGRTHPBSV> a schema:Event;
   schema:name "Morticia's Ball";
   schema:description """
 
@@ -338,9 +228,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-10-18T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-19T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/3601ABRLTLCLBPPCHRCSJRVVJLBBBDQCM> a schema:Event;
+<http://www.spektrix.com/thecultch/event/3601ABRLTLCLBPPCHRCSJRVVJLBBBDQCM> a schema:Event;
   schema:name "N.Ormes";
   schema:description """
 
@@ -348,19 +238,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2025-04-24T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-04-27T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/11801AKPSMNLHVNHMDJQKSBJCLCVQPNQJ> a schema:Event;
-  schema:name "Pouya Live in Vancouver";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-04T20:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-04T20:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
-
-<http://www.spektrix.com/2401AMBSVDSNBDLGKMKJVPMHNLQGTKHSV> a schema:Event;
+<http://www.spektrix.com/thecultch/event/2401AMBSVDSNBDLGKMKJVPMHNLQGTKHSV> a schema:Event;
   schema:name "Prism";
   schema:description """
 
@@ -368,9 +248,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-10-23T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-10-27T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD> a schema:Event;
+<http://www.spektrix.com/thecultch/event/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD> a schema:Event;
   schema:name "Raven Mother";
   schema:description """
 
@@ -378,19 +258,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-10-09T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-10-12T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/13001AJPBLLHQGJTKKHRRTDNKLLTSKVVJ> a schema:Event;
-  schema:name "Seasoned & Det Andre Teatret";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-02T21:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-02T21:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
-
-<http://www.spektrix.com/17601ADSBKGQMMPTLRCMTNQVQJNSBPVNG> a schema:Event;
+<http://www.spektrix.com/thecultch/event/17601ADSBKGQMMPTLRCMTNQVQJNSBPVNG> a schema:Event;
   schema:name "Snowed In Comedy: Dan Quinn, Erica Sigurdson, Paul Myrehaug, Pete Zedlacher";
   schema:description """
 
@@ -398,19 +268,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2025-01-24T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-01-24T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+  schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
-<http://www.spektrix.com/11001ATRSBGDJMQQMCVKRJSQJPSBBHRPT> a schema:Event;
-  schema:name "The Fretless";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-06T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-06T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
-
-<http://www.spektrix.com/17401ARMGDGRGTJBKVPBLJVRHCKNDGPTT> a schema:Event;
+<http://www.spektrix.com/thecultch/event/17401ARMGDGRGTJBKVPBLJVRHCKNDGPTT> a schema:Event;
   schema:name "The Sound Inside";
   schema:description """
 
@@ -418,9 +278,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-11-14T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-24T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+  schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
 
-<http://www.spektrix.com/15801AMKKPNSMSJBRKTDKDKJVGCKCBJKN> a schema:Event;
+<http://www.spektrix.com/thecultch/event/15801AMKKPNSMSJBRKTDKDKJVGCKCBJKN> a schema:Event;
   schema:name "Théâtre des Vamps";
   schema:description """
 
@@ -428,9 +288,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-11-02T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-02T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/15201AJRGPHRLRVGVLSMBRKVQSJMVJBSH> a schema:Event;
+<http://www.spektrix.com/thecultch/event/15201AJRGPHRLRVGVLSMBRKVQSJMVJBSH> a schema:Event;
   schema:name "Transform Festival: Circus Ball";
   schema:description """
 
@@ -438,9 +298,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-11-07T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-07T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:location <https://spektrix.com/thecultch/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-<http://www.spektrix.com/15401AGBHLPJQSLGSGPTPRKHBGTDKGKJN> a schema:Event;
+<http://www.spektrix.com/thecultch/event/15401AGBHLPJQSLGSGPTPRKHBGTDKGKJN> a schema:Event;
   schema:name "Transform Festival: In Spirit";
   schema:description """
 
@@ -448,9 +308,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-11-08T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-08T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:location <https://spektrix.com/thecultch/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-<http://www.spektrix.com/15001AMKBTPKPRJBCVBMQKCKPSNVVCTJT> a schema:Event;
+<http://www.spektrix.com/thecultch/event/15001AMKBTPKPRJBCVBMQKCKPSNVVCTJT> a schema:Event;
   schema:name "Transform Festival: Opening Night Bash";
   schema:description """
 
@@ -458,9 +318,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-11-06T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-06T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:location <https://spektrix.com/thecultch/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-<http://www.spektrix.com/15601ATMPBSJPVHGDQLTKHTGJDDNPRJJP> a schema:Event;
+<http://www.spektrix.com/thecultch/event/15601ATMPBSJPVHGDQLTKHTGJDDNPRJJP> a schema:Event;
   schema:name "Transform Festival:\"On Native Land\" a new musical by Corey Payette";
   schema:description """
 
@@ -468,29 +328,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-11-09T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-09T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:location <https://spektrix.com/thecultch/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-<http://www.spektrix.com/13602AMVSPGPPRNQHCMHTQKJMNLNDJVRK> a schema:Event;
-  schema:name "Upfront Theatre & Honk";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-04T22:00:00"^^xsd:dateTime;
-  schema:endDate "2024-10-04T22:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
-
-<http://www.spektrix.com/13801AGMJPLQGHBSJHBGMRNCQQKGVHKBV> a schema:Event;
-  schema:name "Upfront Theatre & The Nancy Boys";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-05T20:00:00"^^xsd:dateTime;
-  schema:endDate "2024-10-05T20:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
-
-<http://www.spektrix.com/17001ATQVJDMTMDNCJJRSGHPLDNKCVDBL> a schema:Event;
+<http://www.spektrix.com/thecultch/event/17001ATQVJDMTMDNCJJRSGHPLDNKCVDBL> a schema:Event;
   schema:name "Winter Harp";
   schema:description """
 
@@ -498,9 +338,9 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-12-20T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-20T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> a schema:Event;
+<http://www.spektrix.com/thecultch/event/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> a schema:Event;
   schema:name "Wonderful Joe";
   schema:description """
 	<span><br/></span>
@@ -508,4 +348,4 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2025-02-04T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-02-23T16:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .

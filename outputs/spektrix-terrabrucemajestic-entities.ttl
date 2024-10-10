@@ -8,7 +8,8 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/27601AQVLTVTCJRHPTLCPRBPBJCDTNLPC> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/27601AQVLTVTCJRHPTLCPRBPBJCDTNLPC>
+  a schema:Event;
   schema:name "33rd annual FND presents \"Odditeaser\": (un)Done / Walang Hiya";
   schema:description """
 
@@ -17,19 +18,22 @@
   schema:endDate "2024-10-02T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:Place;
+<https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:Place;
   schema:name "The Majestic Theatre";
-  schema:address address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:address <https://spektrix.com/terrabrucemajestic/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
+<https://spektrix.com/terrabrucemajestic/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:PostalAddress;
   schema:streetAddress "390 Duckworth Street";
   schema:addressLocality "St. John's";
   schema:addressRegion "NL";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/19401AJHGNGSSNHVHGVRMMRHQDRBGPQPM> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/19401AJHGNGSSNHVHGVRMMRHQDRBGPQPM>
+  a schema:Event;
   schema:name "Bach's Long Walk with Tom Allen and Friends";
   schema:description """
 
@@ -38,9 +42,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-08-16T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/16201AKSRRCPBSBQNMJRPLKHGSVGKLNDL> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/16201AKSRRCPBSBQNMJRPLKHGSVGKLNDL>
+  a schema:Event;
   schema:name "Best Kind Comedy Tour 2024";
   schema:description """
 
@@ -49,9 +54,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-10-05T21:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Comedy"^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/30601ASVMNTVBQGPSKCLTTHTBBRPCLTLM> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/30601ASVMNTVBQGPSKCLTTHTBBRPCLTLM>
+  a schema:Event;
   schema:name "Camp Phlegm (Quartz Fest)";
   schema:description """
 
@@ -60,9 +66,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-10-18T20:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/terrabrucemajestic/files/83227e96-1f74-4198-bc1a-55c23134a0a6.jpg";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/25201ANDKMVTTJTBHCHVPRBNBQSNTLMKN> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/25201ANDKMVTTJTBHCHVPRBNBQSNTLMKN>
+  a schema:Event;
   schema:name "Country & Elvis Show";
   schema:description """
 
@@ -71,9 +78,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-09-20T20:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/30201AHVTMBBQKSVNPBBRMTKPDQPRMHJC> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/30201AHVTMBBQKSVNPBBRMTKPDQPRMHJC>
+  a schema:Event;
   schema:name "Damian Follett Covers & Me 2";
   schema:description """
 
@@ -82,9 +90,166 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-11-23T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/31201ATMKLGGTMGGNNMMMLRSSSDMCQPHC> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/31601AJQCKSMKVPVHKSNQGKNCQPTMVGLL>
+  a schema:Event;
+  schema:name "FogFest - Screening 1";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-08T20:45:00"^^xsd:dateTime;
+  schema:endDate "2024-11-08T20:45:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/33401ASQTDQSSBKHDTGJNVLMTDQJCSHNC>
+  a schema:Event;
+  schema:name "FogFest - Screening 10";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-11T18:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-11T18:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/33201AJLRJQTMSPLGKHLNMPSPGHMNLTRH>
+  a schema:Event;
+  schema:name "FogFest - Screening 11";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-11T21:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-11T21:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/33202AJPKHVNLTSJNRKJVVMJSRQTTQNKL>
+  a schema:Event;
+  schema:name "FogFest - Screening 12";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-12T16:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-12T16:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/33402AVMTCTQMGMCTBTVQVGGJBTJNQLDN>
+  a schema:Event;
+  schema:name "FogFest - Screening 13";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-12T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-12T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/31801ADDBNQLLLKJTNRHHPMNDDRKHTBJB>
+  a schema:Event;
+  schema:name "FogFest - Screening 2";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-09T00:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-09T00:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/32001ABCGNLKMHMQDQQTTRQRNTSNGPVMC>
+  a schema:Event;
+  schema:name "FogFest - Screening 3";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-09T15:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-09T15:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/32201AJKCHKSVHJRMVGRPSJQJNPNNBBBQ>
+  a schema:Event;
+  schema:name "FogFest - Screening 4";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-09T18:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-09T18:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/32401ANQMVQVNTGTQHTSGSGJCPVKHDGKP>
+  a schema:Event;
+  schema:name "FogFest - Screening 5";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-09T21:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-09T21:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/32601AKDCCCPHNNLLKVMKNDNHMQKCVBKT>
+  a schema:Event;
+  schema:name "FogFest - Screening 6";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-10T15:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-10T15:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/32801AVMKCMLRNPSSSQQTHRKHHMLJSPPT>
+  a schema:Event;
+  schema:name "FogFest - Screening 7 (Bell Showcase)";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-10T18:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-10T18:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/33001ATHPSRJLTTHKPJHTBJLTTSMCRPQH>
+  a schema:Event;
+  schema:name "FogFest - Screening 8";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-10T20:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-10T20:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/32602ACHLMHLSDRSBMCVLHTSHSHDVRQTM>
+  a schema:Event;
+  schema:name "FogFest - Screening 9";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-11T15:00:00"^^xsd:dateTime;
+  schema:endDate "2024-11-11T15:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/31201ATMKLGGTMGGNNMMMLRSSSDMCQPHC>
+  a schema:Event;
   schema:name """Fortunate Ones with special guest Kelly McMichael	""";
   schema:description """
 
@@ -93,9 +258,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-12-07T20:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/27201ATMPGJCKNGLLLPMRKRVCVBLCMPLH> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/27201ATMPGJCKNGLLLPMRKRVCVBLCMPLH>
+  a schema:Event;
   schema:name "GOODBYE GLASS CEILING! An Election Night Celebration";
   schema:description """
 
@@ -104,9 +270,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-11-05T20:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/28001ATQBPNCNMQQVMPLRVTJTQRGHDNSG> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/28001ATQBPNCNMQQVMPLRVTJTQRGHDNSG>
+  a schema:Event;
   schema:name "Grind Mind Presents: The Death Tour";
   schema:description """
 
@@ -115,9 +282,22 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-09-22T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/27801AGBRBTMKNGSLNDRVNGSHQJPSLPHH> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/31401ACGSQBSNGJMMSMSJDBKPVTCCSKMC>
+  a schema:Event;
+  schema:name "Kenny and Dolly, Christmas and Hits";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-17T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-20T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType ""^^skos:Concept;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/terrabrucemajestic/event/27801AGBRBTMKNGSLNDRVNGSHQJPSLPHH>
+  a schema:Event;
   schema:name "Mike Sixonate - Old Crow Album Release";
   schema:description """
 
@@ -126,9 +306,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-10-19T20:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/26201AGBHCTNMDGTRMRCVQPKJNVHQTBBK> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/26201AGBHCTNMDGTRMRCVQPKJNVHQTBBK>
+  a schema:Event;
   schema:name "MRG Live Presents: David Nihill - Shelf Help Tour";
   schema:description """
 
@@ -137,9 +318,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-12-03T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Comedy"^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/21401ATBPGTQKVRDDCCQRVVVPPKQMSKBM> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/21401ATBPGTQKVRDDCCQRVVVPPKQMSKBM>
+  a schema:Event;
   schema:name "No Change in the Weather";
   schema:description """
 
@@ -148,9 +330,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-07-27T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Musical Theatre"^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/26401ANCDKPPRRGMBPNMJGQSVPCDHQSJS> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/26401ANCDKPPRRGMBPNMJGQSVPCDHQSJS>
+  a schema:Event;
   schema:name "OMÂ - Or the Privileges of the Potato";
   schema:description """
 
@@ -159,9 +342,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-09-22T14:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/19001AGPSVSHKKJGHGMBKJNKLNQCSNLPR> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/19001AGPSVSHKKJGHGMBKJNKLNQCSNLPR>
+  a schema:Event;
   schema:name "Only Living Father - TNL";
   schema:description """
 
@@ -170,9 +354,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-09-29T14:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/30801ARPRRSKJDTQHHJTDRTPHSSSJNCJP> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/30801ARPRRSKJDTQHHJTDRTPHSSSJNCJP>
+  a schema:Event;
   schema:name "Quartz Drag Brunch";
   schema:description """
 
@@ -181,16 +366,19 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:endDate "2024-10-20T11:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/terrabrucemajestic/files/7128da1e-ef04-4021-993f-d4339c1a0eaa.jpg";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
 
-place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:Place;
+<https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>
+  a schema:Place;
   schema:name "Theatre Hill";
-  schema:address address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+  schema:address <https://spektrix.com/terrabrucemajestic/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
 
-address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
+<https://spektrix.com/terrabrucemajestic/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>
+  a schema:PostalAddress;
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/26001APLNVRTPLBBPSVMJQSVGGNQMBRBG> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/26001APLNVRTPLBBPSVMJQSVGGNQMBRBG>
+  a schema:Event;
   schema:name "Rumour Has It: A Tribute to Adele";
   schema:description """
 
@@ -199,9 +387,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-11-16T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/29401ADJVTMPMVSKRPCKNPVMCRPLRQJRR> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/29401ADJVTMPMVSKRPCKNPVMCRPLRQJRR>
+  a schema:Event;
   schema:name "SJIWFF Saturday Noon Feature: Curl Power";
   schema:description """
 
@@ -210,9 +399,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-10-26T12:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/terrabrucemajestic/files/4f619b8a-8bb4-4835-975c-ecf5a639980d.jpg";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/29801AKHGBCBQNDCCBHCDGNPLGJBDMJSD> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/29801AKHGBCBQNDCCBHCDGNPLGJBDMJSD>
+  a schema:Event;
   schema:name "SJIWFF35 Closing Night Gala: Paying For It";
   schema:description """
 
@@ -221,9 +411,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-10-26T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/28202APQRNGVTLSBPNPLVKTBHGMQKBMLG> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/28202APQRNGVTLSBPNPLVKTBHGMQKBMLG>
+  a schema:Event;
   schema:name "SJIWFF35 Friday Evening Feature: Seguridad";
   schema:description """
 
@@ -232,9 +423,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-10-25T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/29201ACCPRBMSLVHDLHKGSRKDGGQQMTJM> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/29201ACCPRBMSLVHDLHKGSRKDGGQQMTJM>
+  a schema:Event;
   schema:name "SJIWFF35 Friday Late Feature: Shepherds (Bergers)";
   schema:description """
 
@@ -243,9 +435,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-10-25T21:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/28401ALHCVVGBRSQJPRCNLLHLGCQGLNBC> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/28401ALHCVVGBRSQJPRCNLLHLGCQGLNBC>
+  a schema:Event;
   schema:name "SJIWFF35 Opening Gala: Sweet Angel Baby";
   schema:description """
 
@@ -254,9 +447,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-10-22T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/29601AVVVGLGMQTHTLNRNLGJBCQJTVHSN> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/29601AVVVGLGMQTHTLNRNLGJBCQJTVHSN>
+  a schema:Event;
   schema:name "SJIWFF35 Saturday Afternoon Feature: Wilfred Buck";
   schema:description """
 
@@ -265,9 +459,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-10-26T14:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/29001ALLPBTHVNSHLVJMKCMRSHGJJGQBT> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/29001ALLPBTHVNSHLVJMKCMRSHGJJGQBT>
+  a schema:Event;
   schema:name "SJIWFF35 Thursday Evening Shorts";
   schema:description """
 
@@ -276,9 +471,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-10-24T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/29002ACNTLSKNGDCHSRHKKLPKRSQSNPMK> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/29002ACNTLSKNGDCHSRHKKLPKRSQSNPMK>
+  a schema:Event;
   schema:name "SJIWFF35 Thursday Late Feature: Girls Will Be Girls";
   schema:description """
 
@@ -287,9 +483,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-10-24T21:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/28601APDRTPPTPHLHSRDRCLCHBTNJRVPM> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/28601APDRTPPTPHLHSRDRCLCHBTNJRVPM>
+  a schema:Event;
   schema:name "SJIWFF35 Wednesday Evening Shorts";
   schema:description """
 
@@ -298,9 +495,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-10-23T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/28801AVBKQSCSGSCMSTRKBBJTVJRJMRQJ> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/28801AVBKQSCSGSCMSTRKBBJTVJRJMRQJ>
+  a schema:Event;
   schema:name "SJIWFF35 Wednesday Late Shorts";
   schema:description """
 
@@ -309,9 +507,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-10-23T21:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/27401ARJLQPVGRGCMSLCMHMNMQVRHNDVC> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/27401ARJLQPVGRGCMSLCMHMNMQVRHNDVC>
+  a schema:Event;
   schema:name "The Halloween Gala";
   schema:description """
 
@@ -320,9 +519,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-10-11T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/30001ACDNMRPKSDRKSKCJNMSBQHCSMMMG> a schema:Event;
+<http://www.spektrix.com/terrabrucemajestic/event/30001ACDNMRPKSDRKSKCJNMSBQHCSMMMG>
+  a schema:Event;
   schema:name "The Rocky Horror Picture Show";
   schema:description """
 
@@ -331,4 +531,4 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:endDate "2024-10-31T20:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/terrabrucemajestic/files/cc314342-47de-4ed0-8652-5e96d369a274.jpg";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .

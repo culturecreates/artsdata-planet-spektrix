@@ -8,7 +8,7 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/25401ADKDNDVMDKDPLNQQVHNPHGRHDJGH> a schema:Event;
+<http://www.spektrix.com/gctc/event/25401ADKDNDVMDKDPLNQQVHNPHGRHDJGH> a schema:Event;
   schema:name "[#5] be careful with each other (so you can be dangerous together)";
   schema:description """
 	<h2>Show Type:</h2><span><br/></span><span class=\"BoldText\">Previews:</span> Tuesday & Wednesday, April 9 & 10, 2024<span><br/></span><span class=\"BoldText\">Opening Night:</span> Thursday, April 11, 2024<span><br/></span><span class=\"BoldText\">Reduced Capacity:</span> Friday, April 12, 2024<span><br/></span><span class=\"BoldText\">Pay What You Decide:</span> Sunday, April 14, 2024<span><br/></span><span class=\"BoldText\">Relaxed & Reduced Capacity:</span> Tuesday, April 16, 2024<span><br/></span><span class=\"BoldText\">Talk Back:</span> Thursday, April 18, 2024<span><br/></span><span class=\"BoldText\">ASL Performance:</span> Friday, April 19, 2024<span><br/></span><span><br/></span><span><br/></span><h2>Location:</h2><span class=\"BoldText\">Great Canadian Theatre Company</span><span><br/></span><a target=\"_blank\" href=\"https://goo.gl/maps/kFXUvQ7VBpWuqseC7\">1233 Wellington Street West, Ottawa, ON, K1Y 0G7 Canada </a>
@@ -16,17 +16,17 @@
   schema:startDate "2024-04-09T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-04-21T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/c111d57b-3b8e-4f88-b5e4-0c1abd388959.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:Place;
+<https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:Place;
   schema:name "Great Canadian Theatre Company";
-  schema:address address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:address <https://spektrix.com/gctc/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
+<https://spektrix.com/gctc/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:PostalAddress;
   schema:streetAddress "1233 Wellington St W.";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/33001ATHPSRJLTTHKPJHTBJLTTSMCRPQH> a schema:Event;
+<http://www.spektrix.com/gctc/event/33001ATHPSRJLTTHKPJHTBJLTTSMCRPQH> a schema:Event;
   schema:name "[A] The Anger in Ernest and Ernestine";
   schema:description """
 
@@ -34,9 +34,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-24T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-06T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/82dc1bdd-3d6b-4973-88ed-db044a06f024.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/33201AJLRJQTMSPLGKHLNMPSPGHMNLTRH> a schema:Event;
+<http://www.spektrix.com/gctc/event/33201AJLRJQTMSPLGKHLNMPSPGHMNLTRH> a schema:Event;
   schema:name "[B] Beowulf in Afghanistan";
   schema:description """
 
@@ -44,9 +44,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-11-12T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-24T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/ace4d88b-cdf4-4a1c-9844-d2150412d524.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/33401ASQTDQSSBKHDTGJNVLMTDQJCSHNC> a schema:Event;
+<http://www.spektrix.com/gctc/event/33401ASQTDQSSBKHDTGJNVLMTDQJCSHNC> a schema:Event;
   schema:name "[C] FLOP! An Improvised Musical Fiasco";
   schema:description """
 
@@ -54,9 +54,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-12-10T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-22T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/a97c2f84-d251-451e-90ba-a31ddd1b343c.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/33601ABMMCLRHCDGJGLSCVTKRJSMDCMSS> a schema:Event;
+<http://www.spektrix.com/gctc/event/33601ABMMCLRHCDGJGLSCVTKRJSMDCMSS> a schema:Event;
   schema:name "[D] Why It’s I̶m̶Possible";
   schema:description """
 
@@ -64,9 +64,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-01-21T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-02T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/b9334142-9280-4376-8fc6-ebce6d6b2537.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/33801ASNTMSCGCRRHSPSCJNKGBMBPNMSP> a schema:Event;
+<http://www.spektrix.com/gctc/event/33801ASNTMSCGCRRHSPSCJNKGBMBPNMSP> a schema:Event;
   schema:name "[E] Vierge";
   schema:description """
 
@@ -74,9 +74,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-03-18T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-30T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/8226fffd-c627-4745-93ac-946fcb83ef17.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/38601APMJBSGHLBVKJDHHGBQTTKBBSMSJ> a schema:Event;
+<http://www.spektrix.com/gctc/event/38601APMJBSGHLBVKJDHHGBQTTKBBSMSJ> a schema:Event;
   schema:name "Craft Night @ GCTC";
   schema:description """
 
@@ -84,9 +84,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-08-14T17:30:00"^^xsd:dateTime;
   schema:endDate "2024-08-14T17:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/d95551a9-ba6b-4144-a6b8-db969e459e36.jpeg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/34801AJDHTGHVDDDGHKMHBRJLKTRHLMSR> a schema:Event;
+<http://www.spektrix.com/gctc/event/34801AJDHTGHVDDDGHKMHBRJLKTRHLMSR> a schema:Event;
   schema:name "FemmeVox 6";
   schema:description """
 
@@ -94,9 +94,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-10-06T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-06T20:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/45e43f6b-3849-4741-bf8d-f5c577fbbb02.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/35001ANDBMVNTNMQTQBCTTLTMVTJHVKBV> a schema:Event;
+<http://www.spektrix.com/gctc/event/35001ANDBMVNTNMQTQBCTTLTMVTJHVKBV> a schema:Event;
   schema:name "FemmeVox 7";
   schema:description """
 
@@ -104,9 +104,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-12-15T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-15T20:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/c9f6da93-7a85-4d00-9d26-7e5b56df0360.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/35201AQQRSLKMCNNBJNMJCGMJTGPJQHBV> a schema:Event;
+<http://www.spektrix.com/gctc/event/35201AQQRSLKMCNNBJNMJCGMJTGPJQHBV> a schema:Event;
   schema:name "FemmeVox 8";
   schema:description """
 
@@ -114,9 +114,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-03-30T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-30T20:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/01c6226a-2d31-4b49-bbc3-c680bee7f9be.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/39601AJRRLKSVBMNJSKBSJSPPVNLVSKDK> a schema:Event;
+<http://www.spektrix.com/gctc/event/39601AJRRLKSVBMNJSKBSJSPPVNLVSKDK> a schema:Event;
   schema:name "The Humbug Hustle: A Holiday Phantom-ime";
   schema:description """
 
@@ -124,9 +124,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-12-28T19:00:00"^^xsd:dateTime;
   schema:endDate "2025-01-05T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/0f19bc6b-45b1-4a9a-a668-2eff63e4f083.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/37601AJTVHGLQVMBGHJGCMHJCHGMKKBDC> a schema:Event;
+<http://www.spektrix.com/gctc/event/37601AJTVHGLQVMBGHJGCMHJCHGMKKBDC> a schema:Event;
   schema:name "Volunteer Shift - [A] The Anger in Ernest and Ernestine";
   schema:description """
 
@@ -134,9 +134,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-24T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-06T13:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/9a274e63-06df-4551-9d94-206d4b7a9605.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/37801AKCRRQNMLVLKQJBSQBHRPCKVJJNK> a schema:Event;
+<http://www.spektrix.com/gctc/event/37801AKCRRQNMLVLKQJBSQBHRPCKVJJNK> a schema:Event;
   schema:name "Volunteer Shift - [B] Beowulf in Afghanistan";
   schema:description """
 
@@ -144,9 +144,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-11-12T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-24T13:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/978a960e-82df-4f65-bcad-c6af8fc7c495.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/38001AJMJGLMVGBGPDQNMJJMCJDLNBDQB> a schema:Event;
+<http://www.spektrix.com/gctc/event/38001AJMJGLMVGBGPDQNMJJMCJDLNBDQB> a schema:Event;
   schema:name "Volunteer Shift - [C] FLOP! An Improvised Musical Fiasco";
   schema:description """
 
@@ -154,9 +154,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-12-10T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-22T13:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/b8682778-5421-4bf6-a1a6-5a3dd0676bcd.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/38201AHNBNPJGLCLVNBPRCDPTCCSQSKKV> a schema:Event;
+<http://www.spektrix.com/gctc/event/38201AHNBNPJGLCLVNBPRCDPTCCSQSKKV> a schema:Event;
   schema:name "Volunteer Shift - [D] Why It’s I̶m̶possible";
   schema:description """
 
@@ -164,9 +164,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-01-21T19:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-02T13:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/6b6b7295-42f5-4d83-8640-22341362a196.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/38401ANGTJSBMBHBQLHQPNRBLQSPPBRDN> a schema:Event;
+<http://www.spektrix.com/gctc/event/38401ANGTJSBMBHBQLHQPNRBLQSPPBRDN> a schema:Event;
   schema:name "Volunteer Shift - [E] Vierge";
   schema:description """
 
@@ -174,9 +174,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-03-18T19:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-30T13:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/a69068ba-4428-4ab0-9282-ceb06727b786.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/39201APPPJQSCBDBPCLLVKSNCLNHTDTRQ> a schema:Event;
+<http://www.spektrix.com/gctc/event/39201APPPJQSCBDBPCLLVKSNCLNHTDTRQ> a schema:Event;
   schema:name "Volunteer Shift - Broadway Nights";
   schema:description """
 
@@ -184,9 +184,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-08-25T17:00:00"^^xsd:dateTime;
   schema:endDate "2024-08-25T17:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/f64e2393-d619-4d54-8661-35d8d1e7f5fa.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/39401AHHBKTRJHJPLGBDBSTVVRJPBTKLC> a schema:Event;
+<http://www.spektrix.com/gctc/event/39401AHHBKTRJHJPLGBDBSTVVRJPBTKLC> a schema:Event;
   schema:name "Volunteer Shift - FemmeVox 24-25";
   schema:description """
 
@@ -194,9 +194,9 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-10-06T19:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-30T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/220e1976-9521-4043-bec2-a88509e90cfa.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/40001ASPQDPHTMRMGGVKLMLRBPQNHNVSD> a schema:Event;
+<http://www.spektrix.com/gctc/event/40001ASPQDPHTMRMGGVKLMLRBPQNHNVSD> a schema:Event;
   schema:name "Volunteers Shift - The Humbug Hustle";
   schema:description """
 
@@ -204,4 +204,4 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-12-28T18:00:00"^^xsd:dateTime;
   schema:endDate "2025-01-05T13:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/8d3c7520-064a-4ccb-bce7-e3c43bb92dd3.jpg";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .

@@ -8,7 +8,8 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/9001AGHDBMPJDRPSRMKLRCJGBJJMTQGDH> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/9001AGHDBMPJDRPSRMKLRCJGBJJMTQGDH> a
+    schema:Event;
   schema:name "[2023] Act C Year-Long (Ages 14-18)";
   schema:description """
 	<h1><span class=\"BoldText\">Acting C (Ages 14-18)</span></h1><span class=\"BoldText\">September 20, 2023 - April 27, 2024</span><span><br/></span><span class=\"BoldText\">Sundays 1PM-4PM</span><span><br/></span><span class=\"BoldText\">$1209</span> until May 31<span><br/></span><span class=\"BoldText\">$1099</span> until May 31 for current 2022 to 2023 Academy students<span><br/></span><span class=\"BoldText\">$1259</span> June 1 onwards<span><br/></span><span><br/></span>In these classes, students develop acting skills integral to all theatrical disciplines including ensemble-building, storytelling, and character creation. Not only are students expanding their physical, vocal, and communication skills, but they are also learning transferable skills such as confidence, focus, listening, and trust-building.
@@ -16,17 +17,20 @@
   schema:startDate "2023-09-17T13:00:00"^^xsd:dateTime;
   schema:endDate "2023-09-17T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:Place;
+<https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a
+    schema:Place;
   schema:name "Gateway Theatre";
-  schema:address address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:address <https://spektrix.com/gatewaytheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
+<https://spektrix.com/gatewaytheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a
+    schema:PostalAddress;
   schema:streetAddress "6500 Gilbert Rd";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/7002AHSTPBJLTRHRKRQLVRNJNVMBBVDBM> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/7002AHSTPBJLTRHRKRQLVRNJNVMBBVDBM> a
+    schema:Event;
   schema:name "[2023] Acting A Year Long (Ages 8-10)";
   schema:description """
 	<h1>Acting A (Ages 8-10)</h1><span><br/></span>September 21, 2023-April 18, 2024<span><br/></span>Thursdays 5 PM - 6:30 PM<span><br/></span>$589  until May 31<span><br/></span>$619  June 1 onwards<span><br/></span><span><br/></span>Students become well-rounded performers in these classes while being immersed in the world of musicals. Young performers build confidence as they command the stage exploring vocal techniques, choreography, and expressing lyrics musically and dramatically.
@@ -34,9 +38,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2023-09-21T17:00:00"^^xsd:dateTime;
   schema:endDate "2023-09-21T17:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/15401AGBHLPJQSLGSGPTPRKHBGTDKGKJN> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/15401AGBHLPJQSLGSGPTPRKHBGTDKGKJN> a
+    schema:Event;
   schema:name "[2023] Acting A2 (Ages 8-10)";
   schema:description """
 
@@ -44,9 +49,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2023-09-17T10:30:00"^^xsd:dateTime;
   schema:endDate "2023-09-17T10:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/6802ARCPVTRBCCSBLQDBQGPBBKHDCDKPC> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/6802ARCPVTRBCCSBLQDBQGPBBKHDCDKPC> a
+    schema:Event;
   schema:name "[2023] Acting B Year Long (Ages 11-13)";
   schema:description """
 	<h1><span class=\"BoldText\">Acting B (Ages 11-13)</span></h1><span class=\"BoldText\">September 21, 2023 - April 18, 2024</span><span><br/></span><span class=\"BoldText\">Thursdays 7-9pm</span><span><br/></span><span class=\"BoldText\">$789</span> until May 31<span><br/></span><span class=\"BoldText\">$829</span> June 1 onwards<span><br/></span><span><br/></span>In these classes, students develop acting skills integral to all theatrical disciplines including ensemble-building, storytelling, and character creation. Not only are students expanding their physical, vocal, and communication skills, but they are also learning transferable skills such as confidence, focus, listening, and trust-building.
@@ -54,9 +60,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2023-09-21T19:00:00"^^xsd:dateTime;
   schema:endDate "2023-09-21T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/8601AVPPNNBTVGDHCLBCTPRSLGQPDSBRD> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/8601AVPPNNBTVGDHCLBCTPRSLGQPDSBRD> a
+    schema:Event;
   schema:name "[2023] Musical Theatre A (Ages 8-10)";
   schema:description """
 	<h1>Musical Theatre A (Ages 8-10)</h1><span><br/></span>September 19,2023-April 16, 2024<span><br/></span>Tuesdays 5 PM - 6:30 PM<span><br/></span>$619  until May 31<span><br/></span>$649  June 1 onwards<span><br/></span><span><br/></span>Students become well-rounded performers in these classes while being immersed in the world of musicals. Young performers build confidence as they command the stage exploring vocal techniques, choreography, and expressing lyrics musically and dramatically.
@@ -64,9 +71,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2023-09-19T17:00:00"^^xsd:dateTime;
   schema:endDate "2023-09-19T17:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/15201AJRGPHRLRVGVLSMBRKVQSJMVJBSH> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/15201AJRGPHRLRVGVLSMBRKVQSJMVJBSH> a
+    schema:Event;
   schema:name "[2023] Musical Theatre A2 (Ages 8-10)";
   schema:description """
 
@@ -74,9 +82,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2023-09-16T14:45:00"^^xsd:dateTime;
   schema:endDate "2023-09-16T14:45:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/8801ABJDKGQJJPHNLQGQLLLRMHJSKRCGT> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/8801ABJDKGQJJPHNLQGQLLLRMHJSKRCGT> a
+    schema:Event;
   schema:name "[2023] Musical Theatre B Year Long (Ages 11-13)";
   schema:description """
 	<h1>Musical Theatre B (Ages 11-13)</h1><span><br/></span>September 19, 2023 -April 16,2024<span><br/></span>Tuesdays 6:45 PM - 8:45 PM<span><br/></span>$829  until May 31<span><br/></span>$869  June 1 onwards<span><br/></span><span><br/></span>Students become well-rounded performers in these classes while being immersed in the world of musicals. Young performers build confidence as they command the stage exploring vocal techniques, choreography, and expressing lyrics musically and dramatically.
@@ -84,9 +93,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2023-09-19T18:45:00"^^xsd:dateTime;
   schema:endDate "2023-09-19T18:45:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/7603ACTHMDRKQVVLNGGNBKBLNCKRLQJPK> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/7603ACTHMDRKQVVLNGGNBKBLNCKRLQJPK> a
+    schema:Event;
   schema:name "[2023] Musical Theatre C (Ages 14-18)";
   schema:description """
 	<h1>Musical Theatre C (Ages 14-18)</h1><span><br/></span>September 20-April 17, 2023<span><br/></span>Wednesdays 5 PM - 8 PM<span><br/></span>$1249 until May 31<span><br/></span>$1299  June 1 onwards<span><br/></span><span><br/></span>Students become well-rounded performers in these classes while being immersed in the world of musicals. Young performers build confidence as they command the stage exploring vocal techniques, choreography, and expressing lyrics musically and dramatically.
@@ -94,9 +104,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2023-09-20T17:00:00"^^xsd:dateTime;
   schema:endDate "2023-09-20T17:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/6801ABTVLJRVPSSSGRNRDNBVDKGKTRLVM> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/6801ABTVLJRVPSSSGRNRDNBVDKGKTRLVM> a
+    schema:Event;
   schema:name "[2023] Musical Theatre Intro (Ages 6-7)";
   schema:description """
 	<h1>Musical Theatre Intro (Ages 6-7)</h1><span><br/></span>July 4-7, 2023<span><br/></span>9:30 AM - 12 PM<span><br/></span>$179  until May 31<span><br/></span>$199  June 1 onwards<span><br/></span><span><br/></span>Students become well-rounded performers in these classes while being immersed in the world of musicals. Young performers build confidence as they command the stage exploring vocal techniques, choreography, and expressing lyrics musically and dramatically.
@@ -104,9 +115,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2023-07-04T09:30:00"^^xsd:dateTime;
   schema:endDate "2023-07-04T09:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/17801ANDDGKKLBMPBRRTQKGLNDCMQGQHV> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/17801ANDDGKKLBMPBRRTQKGLNDCMQGQHV> a
+    schema:Event;
   schema:name "[2023] Musical Theatre Intro 2 Winter (Ages 6-7)";
   schema:description """
 
@@ -114,9 +126,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-01-06T13:00:00"^^xsd:dateTime;
   schema:endDate "2024-01-06T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/8001ARTDCCTGLQPKPGKVDJPJMKTGHTJJP> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/8001ARTDCCTGLQPKPGKVDJPJMKTGHTJJP> a
+    schema:Event;
   schema:name "[2023] Musical Theatre Intro Fall (Ages 6-7)";
   schema:description """
 	<h1>Musical Theatre Intro Fall (Ages 11-13)</h1><span><br/></span>September 16, 2023 - December 16,2023<span><br/></span>10:45 AM - 12:15 PM<span><br/></span>$299  until May 31<span><br/></span>$319  June 1 onwards<span><br/></span><span><br/></span>$598 for fall + winter sessions <span><br/></span><span><br/></span>Students become well-rounded performers in these classes while being immersed in the world of musicals. Young performers build confidence as they command the stage exploring vocal techniques, choreography, and expressing lyrics musically and dramatically.
@@ -124,9 +137,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2023-09-16T10:45:00"^^xsd:dateTime;
   schema:endDate "2023-09-16T10:45:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR> a
+    schema:Event;
   schema:name "[2023] Musical Theatre Intro Winter (Ages 6-7)";
   schema:description """
 	<h1><span class=\"BoldText\">Musical Theatre Intro (Ages 6-7)</span></h1><span class=\"BoldText\">Spring Session</span><span><br/></span><span class=\"BoldText\">Jan 6 2024 - Apr 20, 2024</span><span><br/></span><span class=\"BoldText\">Saturdays 10:45am-12:15pm</span><span><br/></span>$299 until May 31<span><br/></span>$319 June 1 onwards<span><br/></span>$598 both sessions<span><br/></span><span><br/></span>Students become well-rounded performers in these classes while being immersed in the world of musicals. Young performers build confidence as they command the stage exploring vocal techniques, choreography, and expressing lyrics musically and dramatically.
@@ -134,9 +148,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-01-06T10:45:00"^^xsd:dateTime;
   schema:endDate "2024-01-06T10:45:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/25001ADDVSKQBVSNBTBDPCMQTVGBHJDPN> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/25001ADDVSKQBVSNBTBDPCMQTVGBHJDPN> a
+    schema:Event;
   schema:name "[2024/2025] Acting A2 (Ages 8-10)";
   schema:description """
 	<h1>Acting A2</h1>Ages 8-10<span><br/></span>Sundays, 10:30-12:00pm<span><br/></span>Sept 22 2024 – Apr 13 2025
@@ -144,9 +159,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-22T10:30:00"^^xsd:dateTime;
   schema:endDate "2024-09-22T10:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/24202AQGRJSLLJMHKMPKDJPRMKTGQTGHJ> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/24202AQGRJSLLJMHKMPKDJPRMKTGQTGHJ> a
+    schema:Event;
   schema:name "[2024/2025] Acting B (Ages 11-13)";
   schema:description """
 	<h1>Acting B </h1>Ages 11-13<span><br/></span>Thursdays, 7-9pm<span><br/></span>Sept 19 2024 – Apr 17 2025
@@ -154,9 +170,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-19T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-19T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/25401ADKDNDVMDKDPLNQQVHNPHGRHDJGH> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/25401ADKDNDVMDKDPLNQQVHNPHGRHDJGH> a
+    schema:Event;
   schema:name "[2024/2025] Acting for Stage and Film (Ages 14-18)";
   schema:description """
 	<h1>Acting for Stage and Film</h1>Ages 14-18<span><br/></span>Sundays, 1-4pm<span><br/></span>Sept 22 2024 – Apr 13 2025<span><br/></span>Tuition: $1359<span><br/></span>Early Bird: $1339<span class=\"BoldText\"><span><br/></span></span>Until May 31
@@ -164,9 +181,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-22T13:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-22T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/23801AJTHHRQPTBGSQKNGJHMKGQMHTHHM> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/23801AJTHHRQPTBGSQKNGJHMKGQMHTHHM> a
+    schema:Event;
   schema:name "[2024/2025] Acting Intro Fall (Ages 6-7)";
   schema:description """
 	<h1>Acting Intro Fall</h1>Ages 6-7<span><br/></span>Saturdays 9:30-10:30AM<span><br/></span>September 21-December 14, 2024<span><br/></span><span><br/></span>
@@ -174,9 +192,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-21T09:30:00"^^xsd:dateTime;
   schema:endDate "2024-09-21T09:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/24001ABMNLGCGVMRMGTMJKPBQCNHQQLMH> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/24001ABMNLGCGVMRMGTMJKPBQCNHQQLMH> a
+    schema:Event;
   schema:name "[2024/2025] Acting Intro Winter (Ages 6-7)";
   schema:description """
 	Acting Intro Winter<span><br/></span>Ages 6-7<span><br/></span>Saturdays, 9:30-10:30am<span><br/></span>Winter dates: Jan 4 – Apr 12 2025
@@ -184,9 +203,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-01-04T09:30:00"^^xsd:dateTime;
   schema:endDate "2025-01-04T09:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/23802AJMSQKKPLNHKQGDTBPHHMTLMLVMQ> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/23802AJMSQKKPLNHKQGDTBPHHMTLMLVMQ> a
+    schema:Event;
   schema:name "[2024/2025] Musical Theatre A (Ages 8-10)";
   schema:description """
 	<h1>Musical Theatre A </h1>Ages 8-10<span><br/></span>Tuesdays, 5-6:30pm<span><br/></span>Sept 17, 2024 – Apr 15, 2025
@@ -194,9 +214,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-17T17:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-17T17:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/24401ANRSMNVVNPTCKDHLSQSTGQBDDKHJ> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/24401ANRSMNVVNPTCKDHLSQSTGQBDDKHJ> a
+    schema:Event;
   schema:name "[2024/2025] Musical Theatre A2 (Ages 8-10)";
   schema:description """
 	<h1>Musical Theatre A2 </h1>Ages 8-10<span><br/></span>Saturdays, 2:45-4:15<span><br/></span>Sept 21 2024 – Apr 12 2025
@@ -204,9 +225,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-21T14:45:00"^^xsd:dateTime;
   schema:endDate "2024-09-21T14:45:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/24601AQBNLBQCHKVGDVHQJVMMGKLGNBDJ> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/24601AQBNLBQCHKVGDVHQJVMMGKLGNBDJ> a
+    schema:Event;
   schema:name "[2024/2025] Musical Theatre B (Ages 11-13)";
   schema:description """
 	<h1>Musical Theatre B </h1>Ages 11-13<span><br/></span>Tuesdays, 7-9pm<span><br/></span>Sept 17 2024 – Apr 15 2025<span><br/></span>Tuition: $869<span><br/></span>Early bird: $849<span class=\"BoldText\"><span><br/></span></span>Until May 31<span><br/></span>Last day to register: October 1
@@ -214,9 +236,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-17T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-17T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/23401AHHMQSVVPPKJGSDQCLPJRGKVPLMQ> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/23401AHHMQSVVPPKJGSDQCLPJRGKVPLMQ> a
+    schema:Event;
   schema:name "[2024/2025] Musical Theatre Intro 2 Fall (Ages 6-7)";
   schema:description """
 	<h1>Musical Theatre Intro 2 Fall</h1><span><br/></span>Ages 6-7<span><br/></span>Saturdays, 1:00-2:30PM<span><br/></span>September 21-December 14, 2024
@@ -224,9 +247,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-21T13:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-21T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/23601ABQMTDMTTDQVVNJCNJPSQCSVMLHB> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/23601ABQMTDMTTDQVVNJCNJPSQCSVMLHB> a
+    schema:Event;
   schema:name "[2024/2025] Musical Theatre Intro 2 Winter (Ages 6-7)";
   schema:description """
 	<h1>Musical Theatre Intro 2 Winter</h1>Ages 6-7<span><br/></span>Saturdays, 1:00-2:30pm<span><br/></span>Winter dates: Jan 4 – Apr 12 2025<span><br/></span><span><br/></span>
@@ -234,9 +258,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-01-04T13:00:00"^^xsd:dateTime;
   schema:endDate "2025-01-04T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/23201APGCMPGJNLTBJBBRLRLRBCKNMGMV> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/23201APGCMPGJNLTBJBBRLRLRBCKNMGMV> a
+    schema:Event;
   schema:name "[2024/2025] Musical Theatre Intro Winter (Ages 6-7)";
   schema:description """
 	<h1>Musical Theatre Intro Winter</h1>Ages 6-7<span><br/></span>Saturdays, January 4-April 12, 2025<span><br/></span>
@@ -244,9 +269,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-01-04T10:45:00"^^xsd:dateTime;
   schema:endDate "2025-01-04T10:45:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/25201ANDKMVTTJTBHCHVPRBNBQSNTLMKN> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/25201ANDKMVTTJTBHCHVPRBNBQSNTLMKN> a
+    schema:Event;
   schema:name "[2024/2025] Musical Theatre Performance (Ages 11-18)";
   schema:description """
 	<h1>Musical Theatre Performance </h1>Ages 11-18<span><br/></span>Mondays, 5-8pm<span><br/></span>Sept 16 2024 – Apr 24 2025
@@ -254,9 +280,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-16T17:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-16T17:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/19601ASQHGTDLVRHPVGMRMDVHLHMGNGQV> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/19601ASQHGTDLVRHPVGMRMDVHLHMGNGQV> a
+    schema:Event;
   schema:name "[2024] Acting Camp 1 (Summer) - Ages 8-10 ";
   schema:description """
 	<h1>Acting Camp 1 </h1><span><br/></span>Ages 8-10<span><br/></span><span><br/></span>July 8-12, 2024<span><br/></span>9am-4pm<span><br/></span><span><br/></span>Tuition: $529<span><br/></span>Early bird: $509<span><br/></span>
@@ -264,9 +291,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-08T09:00:00"^^xsd:dateTime;
   schema:endDate "2024-07-08T09:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/19801AHJMMDKNMDJQSLCTGNDLGNGMJGHK> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/19801AHJMMDKNMDJQSLCTGNDLGNGMJGHK> a
+    schema:Event;
   schema:name "[2024] Acting Camp 2 (Summer) - Ages 11-13";
   schema:description """
 	<h1>Acting Camp 2 (ACT2)</h1><span><br/></span>Ages 11-13<span><br/></span><span><br/></span>July 8-12, 2024<span><br/></span>9:30am-4:30pm<span><br/></span><span><br/></span>Tuition: $529<span><br/></span>Early bird: $509<span><br/></span>
@@ -274,9 +302,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-08T09:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-08T09:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/19201ACDMCRSLDRKDVBCRLQTJMQBCSLCD> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/19201ACDMCRSLDRKDVBCRLQTJMQBCSLCD> a
+    schema:Event;
   schema:name "[2024] Acting Camp Intro (Summer) - Ages 6-7";
   schema:description """
 	<h1>Acting Intro</h1><span><br/></span>Ages 6-7<span><br/></span>July 2-5, 2024<span><br/></span><span><br/></span>12:15-2:45pm<span><br/></span><span><br/></span>Tuition: $189<span><br/></span>Early bird: $169<span><br/></span>
@@ -284,9 +313,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-02T12:15:00"^^xsd:dateTime;
   schema:endDate "2024-07-02T12:15:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/20201AVQHKKMVCNSSQSPNTVCQPQCKBBPV> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/20201AVQHKKMVCNSSQSPNTVCQPQCKBBPV> a
+    schema:Event;
   schema:name "[2024] Music In Our Schools";
   schema:description """
 	<h1>Music In Our Schools</h1><span><br/></span>Music in our Schools (MIOS) is a series of concerts held at the Gateway Theatre highlighting school music programs. Concerts provide an opportunity for our young musicians to share their talents while performing onstage at a professional venue.<span><br/></span>The Richmond School District has vibrant and thriving music opportunities including choir, guitar, drumming, musical theatre, concert band, and jazz band programs. We know that in addition to learning the vast knowledge and skills it takes to be a musician, music education helps our learners become persistent, confident, and expressive individuals. Participating in an ensemble allows for lasting friendships and a sense of belonging that<span><br/></span>is essential to the overall wellness impacting all aspects of our learners’ lives.<span><br/></span><span><br/></span>Tuesday, April 30th, 6:30 PM: Steveston-London<span><br/></span>Wednesday, May 1st, 6:30 PM: MacNeill<span><br/></span>Thursday, May 2nd, 6:30 PM: Cambie<span><br/></span>Friday, May 7th, 6:30 PM: Hugh Boyd<span><br/></span>Saturday, May 8th, 6:30 PM: Palmer<span><br/></span><span><br/></span>Tickets $10
@@ -294,9 +324,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-04-30T18:30:00"^^xsd:dateTime;
   schema:endDate "2024-05-08T18:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/18801AQTCDTTRMRJKMBPNNPMJSBLMGVQP> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/18801AQTCDTTRMRJKMBPNNPMJSBLMGVQP> a
+    schema:Event;
   schema:name "[2024] Musical Theatre Intro (Summer) - Ages 6-7";
   schema:description """
 	<h1>Musical Theatre Intro (MT Intro)</h1><span><br/></span>Ages 6-7<span><br/></span><span><br/></span>July 2-5, 2024<span><br/></span>9:00 AM-11:30 AM<span><br/></span><span><br/></span>Early bird: $179 <span class=\"ItalicText\">(reg.</span>) $199<span><br/></span>
@@ -304,9 +335,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-02T09:00:00"^^xsd:dateTime;
   schema:endDate "2024-07-02T09:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/19001AGPSVSHKKJGHGMBKJNKLNQCSNLPR> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/19001AGPSVSHKKJGHGMBKJNKLNQCSNLPR> a
+    schema:Event;
   schema:name "[2024] Musical Theatre Intro 2 (Summer) - Ages 6-7";
   schema:description """
 	<h1>Musical Theatre Intro 2 </h1><span><br/></span>Ages 6-7<span><br/></span>July 2-5, 2024<span><br/></span>3:00 PM-5:30 PM<span><br/></span><span><br/></span>Early bird: $179 (reg.) $199<span><br/></span><span><br/></span>
@@ -314,9 +346,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-02T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-07-02T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/23001ARCVCNHNNNCLVMBNCMRGPKGBRCSK> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/23001ARCVCNHNNNCLVMBNCMRGPKGBRCSK> a
+    schema:Event;
   schema:name "[2024] Musical Theatre Intro Fall (Ages 6-7)";
   schema:description """
 	<h1>Musical Theatre Intro (Fall)</h1>Ages 6-7<span><br/></span>Saturdays, 10:45 AM - 12:15 PM<span><br/></span>September 21-December 14, 2024<span><br/></span>
@@ -324,9 +357,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-21T10:45:00"^^xsd:dateTime;
   schema:endDate "2024-09-21T10:45:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/20001ASSPTTDVHQJLHCGJGTSBBKPHTPJB> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/20001ASSPTTDVHQJLHCGJGTSBBKPHTPJB> a
+    schema:Event;
   schema:name "[2024] Musical Theatre Performance (Summer) - Ages 8-13";
   schema:description """
 	<h1>Musical Theatre Performance - two-week camp</h1><span><br/></span>Ages 8-13<span><br/></span><span><br/></span>July 15-26, 2024<span><br/></span>9:00 AM-4:00 PM<span><br/></span><span><br/></span>Dress/Tech: Thurs, July 25 <span><br/></span>Performance Day: Fri, July 26
@@ -334,9 +368,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-15T09:00:00"^^xsd:dateTime;
   schema:endDate "2024-07-15T09:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/24801AHGPCJBMGMVRBNKLDDDHKTKTNBQS> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/24801AHGPCJBMGMVRBNKLDDDHKTKTNBQS> a
+    schema:Event;
   schema:name "[2024-2025] Acting A (Ages 8-10)";
   schema:description """
 	<h1>Acting A (ACTA)</h1>Ages 8-10<span><br/></span>Thursdays, Sept 19 2024 – Apr 17 2025<span><br/></span>5-6:30pm<span><br/></span>Tuition: $619<span><br/></span>Early bird: $599<span class=\"BoldText\"><span><br/></span></span>Until May 31<span><br/></span>
@@ -344,9 +379,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-19T17:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-19T17:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/31201ATMKLGGTMGGNNMMMLRSSSDMCQPHC> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/31201ATMKLGGTMGGNNMMMLRSSSDMCQPHC> a
+    schema:Event;
   schema:name "2024 Taiwanese Cultural Goodwill Mission of the National Day";
   schema:description """
 	The Metro Vancouver Overseas Taiwanese Society (MVOTS) Presents:<span><br/></span><span><br/></span><h1>2024 Taiwanese Cultural Goodwill Mission of the National Day</h1><span><br/></span>Sunday, September 22, 2024<span><br/></span><span><br/></span>6:00 PM <span><br/></span><span><br/></span>$40 zone 1<span><br/></span><span><br/></span>$30 zone 2<span><br/></span><span><br/></span><span><br/></span>Taiwan Acrobatic Troupe: Nostalgia for Taiwan<span><br/></span><span><br/></span>The program portrays the stories of early Taiwanese immigrants. In addition to native cultural customs, immigrants also brought various distinctive customs, creating Taiwan's unique multicultural landscape. This program features the essence of acrobatics and its distinctive techniques, combining drama, dance, and music to present a large-scale interdisciplinary acrobatic performance. Songs in Mandarin, Taiwanese, Hakka, Cantonese, and indigenous languages tell stories that belong to Taiwan. The program further integrates acrobatics with Taiwan's unique temple fair formation performance culture, allowing overseas compatriots and foreign friends to feel the charm of Taiwan through a stunning and heartwarming sound and light experience<span><br/></span>
@@ -354,9 +390,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-22T18:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-22T18:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/26401ANCDKPPRRGMBPNMJGQSVPCDHQSJS> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/26401ANCDKPPRRGMBPNMJGQSVPCDHQSJS> a
+    schema:Event;
   schema:name "Alice in Wonderland";
   schema:description """
 	Richmond Academy of Dance presents:<span><br/></span><span><br/></span><h1>Alice in Wonderland</h1><span><br/></span>Join us for this whimsical and wonderful performance of dance, acting, and song presented by our entire academy!<span><br/></span><span><br/></span>These performances celebrate all the hard work and joy the students have brought to the academy throughout the year!<span><br/></span><span><br/></span>Friday, June 7, 2024, 6:30 PM & Saturday, June 8, 2024, 1:00 PM<span><br/></span>Tickets: $36.44 (includes all taxes and fees)<span><br/></span>
@@ -364,9 +401,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-06-07T18:30:00"^^xsd:dateTime;
   schema:endDate "2024-06-08T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/20401AHPLRCCNVVRTBBQTNVLNPCCJVRGB> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/20401AHPLRCCNVVRTBBQTNVLNPCCJVRGB> a
+    schema:Event;
   schema:name "Beauty and the Beast Jr. with Pleasant Mountain Music";
   schema:description """
 	Pleasant Mountain Music presents:<span><br/></span><span><br/></span><h1>Beauty and the Beast Jr.</h1><span><br/></span>Pleasant Mountain Music introduces their musical theatre ensemble, performing Beauty and The Beast Jr. at Gateway Studio B. Once upon a time in a faraway land, an enchantress turns a cruel, unfeeling prince into a hideous beast. To break the spell, the beast must learn to love the beauty and earn her love in return before the last petal falls from an enchanted rose.<span><br/></span><span><br/></span>May 15, 2024 and May 16, 2024 at 7:00 PM<span><br/></span><span><br/></span>$15 presale (until April 2)<span><br/></span>$20 April 2 to May 16
@@ -374,9 +412,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-05-15T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-05-16T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/26601APLTNSPSGDPBRQVGGSRDMVBVVNQK> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/26601APLTNSPSGDPBRQVGGSRDMVBVVNQK> a
+    schema:Event;
   schema:name "Celebration of Dance";
   schema:description """
 	Richmond Academy of Dance presents:<span><br/></span><span><br/></span><h1>Celebration of Dance</h1><span><br/></span>Saturday, June 8th, 7:30 PM<span><br/></span><span><br/></span>$41.98 (includes all taxes and fees)<span><br/></span><span><br/></span>An inspiring performance highlighting our dancers, singers, and actors, who have graced the stages in local and international competitions to high acclaim, winning the season’s top awards! Don’t miss your opportunity to support our professional division students and renowned choreographers and enjoy the talent that flourishes at Richmond Academy of Dance!
@@ -384,9 +423,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-06-08T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-06-08T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/32201AJKCHKSVHJRMVGRPSJQJNPNNBBBQ> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/32201AJKCHKSVHJRMVGRPSJQJNPNNBBBQ> a
+    schema:Event;
   schema:name "Community Dinner";
   schema:description """
 
@@ -394,9 +434,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-10-30T17:30:00"^^xsd:dateTime;
   schema:endDate "2024-10-30T17:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/18401APQBVKHJSJNGJQKHRTGTLCTRJBBR> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/18401APQBVKHJSJNGJQKHRTGTLCTRJBBR> a
+    schema:Event;
   schema:name "Division Infinity Saves the World!";
   schema:description """
 	<h2>Richmond Children's Arts Festival Presents:</h2><span><br/></span><h1>Division Infinity Saves The World! </h1><span><br/></span>
@@ -404,9 +445,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-02-19T10:30:00"^^xsd:dateTime;
   schema:endDate "2024-02-19T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/29201ACCPRBMSLVHDLHKGSRKDGGQQMTJM> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/29201ACCPRBMSLVHDLHKGSRKDGGQQMTJM> a
+    schema:Event;
   schema:name "Earth Child Montessori School Graduation Ceremony 2024";
   schema:description """
 	<h1>Earth Child Montessori School Graduation Ceremony 2024</h1><span><br/></span><h2>Wednesday, June 26, 2024, 2:15 PM</h2><span><br/></span>$29 - Adults<span><br/></span>$10 - Children ages 3-12<span><br/></span>$0 - Children ages 0-2<span><br/></span><span><br/></span>Join Earth Child Montessori School to celebrate the accomplishments and milestones of its young learners as they transition from preschool to the next chapter of their educational journey. The program will feature various elements that highlight these preschoolers' achievements. The children will perform a variety of songs, dances, dramas, and presentations of graduation projects they have rehearsed diligently with their teachers. During the ceremony, each preschooler will have their moment to shine as they are called to the stage to receive a graduation certificate and be recognized for their hard work and dedication. All these performances showcase the blossoming talents, confidence, and skill the students have developed throughout their time at Earth Child Montessori School.
@@ -414,9 +456,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-06-26T14:15:00"^^xsd:dateTime;
   schema:endDate "2024-06-26T14:15:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/18201AHGNDCRVCPJBPPJCHBJKBJSRNNKN> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/18201AHGNDCRVCPJBPPJCHBJKBJSRNNKN> a
+    schema:Event;
   schema:name "Footloose - Youth Edition";
   schema:description """
 	Pythagoras Academy Presents:<span><br/></span><span><br/></span><h1>Footloose Youth Edition</h1><span><br/></span>Thursday, February 29th, 6:30 PM <span><br/></span><span><br/></span>Doors: 5:30 PM <span><br/></span><span><br/></span>Tickets: <span><br/></span><span><br/></span>Adult: $33<span><br/></span><span><br/></span>Children (ages 3 to 18): $18<span><br/></span><span><br/></span>A musical about a young boy from Chicago who has moved to a small town. He loves to sing, dance, and hang out with his friends, but the town has strict laws against dancing. Will the boy be able to convince the town council to lift the ban, or will he be forced to never dance again?
@@ -424,9 +467,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-02-29T18:30:00"^^xsd:dateTime;
   schema:endDate "2024-02-29T18:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/30401AVTJMSJLDVLNKKKDPCPPRDDJCLRT> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/30401AVTJMSJLDVLNKKKDPCPPRDDJCLRT> a
+    schema:Event;
   schema:name "Gateway Academy Musical Theatre Performance Summer Show";
   schema:description """
 	<h1>Gateway Academy Musical Theatre Performance Summer Show</h1><span><br/></span>Join our <span class=\"BoldText\">Academy Musical Theatre Summer Camp</span> students in this celebration of Gateway’s 40th Anniversary!<span><br/></span>See our young folks shine as they sing, dance and act their hearts out to songs from <span class=\"ItalicText\">Annie</span>, <span class=\"ItalicText\">Cinderella</span>, <span class=\"ItalicText\">Crazy for You</span>, and more!<span><br/></span><span><br/></span>Friday, July 26, 2024, 3:15 PM<span><br/></span><span><br/></span>Ticket price: $15
@@ -434,9 +478,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-26T15:15:00"^^xsd:dateTime;
   schema:endDate "2024-07-26T15:15:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/31401ACGSQBSNGJMMSMSJDBKPVTCCSKMC> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/31401ACGSQBSNGJMMSMSJDBKPVTCCSKMC> a
+    schema:Event;
   schema:name "Hawaiian Aloha Night";
   schema:description """
 	<h1>Hawaiian Aloha Night with Wailele Wai Wai</h1><span><br/></span>Thursday, September 19th, 2024 at 7:00 pm<span><br/></span>2 hours with 15 min. intermission<span><br/></span>$2.10<span><br/></span>General admission<span><br/></span><span><br/></span>Presented by：<span><br/></span>Wailele Wai Wai (Hawaiian Dancers) <span><br/></span><span><br/></span>with guests：<span><br/></span>Risa Takahashi (Hawaiian Singer)<span><br/></span>Yukiko Ashida (Japanese Classical Dancer)<span><br/></span>Yurie Kaneko (Flamenco Dancer)<span><br/></span><span><br/></span><span><br/></span>Join us for a magical evening filled with Hawaiian Hula and culture. Wailele Wai Wai will take you on a journey to the beautiful islands of Hawaii through their captivating performances.<span><br/></span><span><br/></span>Indulge in the warmth and hospitality of Hawaii as Wailele Wai Wai shares the essence of Aloha through traditional songs and dances. Let the soothing, swaying hula dancers transport you to paradise. <span><br/></span>
@@ -444,9 +489,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-19T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-19T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/20801AJMTLQPSPKJDPVTSBMNNJNRPTPVH> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/20801AJMTLQPSPKJDPVTSBMNNJNRPTPVH> a
+    schema:Event;
   schema:name "Into the Woods";
   schema:description """
 	Richmond Christian School Presents:<span><br/></span><span><br/></span><h1>Into the Woods</h1>Step into a world where fairy tales collide, and wishes come with a price. Join Cinderella,, Little Red Riding Hood, Jack, Rapunzel, and the Baker and his Wife as they venture into the enchanted forest in pursuit of their wishes. But beware, for in the woods, nothing is quite as it seems. With a Tony-Award winning score by Stephen Sondheim and a captivating story by James Lapine, this musical will leave you spellbound!  'Into the Woods' is a comical satire and musical masterpiece that explores the consequences of our desires.  Join us as the RCS Band and Theatre department join forces with the RCS Middle Campus dancers, singers, and “builders” to create a unique and captivating experience.  The show runs for three nights only, so get your tickets early!<span><br/></span><span><br/></span>Into the Woods is presented through special arrangement with Musical Theatre International.  All authorized performance materials are also supplied by MTI. www.mtishows.com<span><br/></span><span><br/></span><span class=\"BoldText\">Wednesday, May 29th</span><span><br/></span><span class=\"BoldText\">Thursday, May 30th</span><span><br/></span><span class=\"BoldText\">Friday, May 31st</span><span><br/></span><span><br/></span><span class=\"BoldText\">7:00 PM</span><span><br/></span><span><br/></span><span class=\"BoldText\">$25</span>
@@ -454,9 +500,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-05-29T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-05-31T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/12201AVGSVDJSKHNLNDGDHCNLJPBPLMHR> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/12201AVGSVDJSKHNLNDGDHCNLJPBPLMHR> a
+    schema:Event;
   schema:name "Jade Circle";
   schema:description """
 
@@ -464,9 +511,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-03-07T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-03-17T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/13801AGMJPLQGHBSJHBGMRNCQQKGVHKBV> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/13801AGMJPLQGHBSJHBGMRNCQQKGVHKBV> a
+    schema:Event;
   schema:name "Jade Circle - PWYW Preview ";
   schema:description """
 
@@ -474,9 +522,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-03-06T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-03-06T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/12001ALNGHTPHGCKCMSTDNQBDRDVTJPQB> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/12001ALNGHTPHGCKCMSTDNQBDRDVTJPQB> a
+    schema:Event;
   schema:name "Ken Ludwig's Baskerville: A Sherlock Holmes Mystery";
   schema:description """
 
@@ -484,9 +533,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-04-12T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-04-20T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/13601ABSCMSGQNLTCLGCSNLSTLGHSDRHB> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/13601ABSCMSGQNLTCLGCSNLSTLGHSDRHB> a
+    schema:Event;
   schema:name "Ken Ludwig's Baskerville: A Sherlock Holmes Mystery - PWYW";
   schema:description """
 
@@ -494,9 +544,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-04-11T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-04-11T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/26201AGBHCTNMDGTRMRCVQPKJNVHQTBBK> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/26201AGBHCTNMDGTRMRCVQPKJNVHQTBBK> a
+    schema:Event;
   schema:name "Li Zhenjie ‘s Solo Concert";
   schema:description """
 	The North American Artist Association Presents:<span><br/></span><span><br/></span><h1>Li Zhenjie ‘s Solo Concert</h1><span><br/></span>Saturday, June 29, 2024, 7:00PM<span><br/></span><span><br/></span>$0.00 + $2.10 ticketing fee
@@ -504,9 +555,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-06-29T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-06-29T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/25601AQKSSGTVJVSMNNRKRHMGHGVLKJGV> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/25601AQKSSGTVJVSMNNRKRHMGHGVLKJGV> a
+    schema:Event;
   schema:name "Matilda JR.";
   schema:description """
 	Childlike Faith Academy of Music and Theatre Presents:<span><br/></span><span><br/></span><h1>Matilda JR.</h1><span><br/></span>Saturday, June 22, 2024<span><br/></span>4:45 PM and 7:30 PM<span><br/></span>$60 VIP (Adult / Child)<span><br/></span>$28 Adult (15 years old and above)<span><br/></span>$18 Child (14 years old and under)<span><br/></span><span><br/></span>Rebellion is nigh in Matilda JR., a gleefully witty ode to the anarchy of childhood and the power of imagination! This story of Matilda, who dreams of a better life, and the children she inspires will have audiences rooting for the \"revolting children\" who are out to teach the grown-ups a lesson.<span><br/></span><span><br/></span>Matilda has astonishing wit, intelligence--and special powers! She's unloved by her cruel parents but impresses her schoolteacher, the highly loveable Miss Honey. Matilda's school life isn't completely smooth sailing, however–the school's mean headmistress, Miss Trunchbull, hates children and just loves thinking up new punishments for those who don't abide by her rules. But Matilda has courage and cleverness in equal amounts, and could be the school pupils' saving grace!<span><br/></span><span><br/></span>Packed with high-energy dance numbers and catchy songs, Matilda JR. is a joyous girl power romp. Children and adults alike will be thrilled and delighted by the story of the special little girl with an extraordinary imagination.<span><br/></span><span><br/></span>
@@ -514,9 +566,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-06-22T16:45:00"^^xsd:dateTime;
   schema:endDate "2024-06-22T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/28801AVBKQSCSGSCMSTRKBBJTVJRJMRQJ> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/28801AVBKQSCSGSCMSTRKBBJTVJRJMRQJ> a
+    schema:Event;
   schema:name "Moonlight Magic: Mid-Autumn Celebration";
   schema:description """
 	<h1>MOONLIGHT MAGIC: Mid-Autumn Celebration</h1>Saturday, September 14, 2024 at 6PM<span><br/></span>Tickets $15 for Adults and $10 for Youth
@@ -524,9 +577,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-14T18:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-14T18:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/22801AGSKTJDCRVHCKQCVVHGLQCVGCCGM> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/22801AGSKTJDCRVHCKQCVVHGLQCVGCCGM> a
+    schema:Event;
   schema:name "Music for Moms Concert";
   schema:description """
 	Richmond Youth Council Band (RYCB) & Richmond Elementary Honour Band (REHB) present:<span><br/></span><span><br/></span><h1>Music for Moms Concert</h1><span><br/></span>RELAX WITH A MUSICAL MOMENT JUST FOR YOU--OR CELEBRATE MOM (AND DAD) WITH US! Richmond Youth Concert Band & Richmond Elementary Honour Band proudly present Music for Moms concert to celebrate Mother's Day. The Richmond Youth Concert Band (known as the RYCB) is located in Richmond. Established in 1978, it is an auditioned ensemble of secondary school students from Richmond. The RYCB has a history of involvement with the local community, most recently through our partnership with the Richmond Food Bank and annual concerts at Gilmore United Church and Music For Moms. The RYCB sponsors the Richmond Elementary Honour Band (also known as the REHB). Our mission is to provide quality band music education and performance opportunities for our members. Join us on Monday, May 13th at 7:00pm for a concert presented by the Richmond Youth Concert Band and Richmond Elementary Honour Band at the Gateway Theatre. Celebrate Mother’s Day with us and witness the growth of our talented young musicians on the professional stage.<span><br/></span><span><br/></span>7:00 PM, May 13, 2024<span><br/></span>$15 adult <span><br/></span>$10 children / seniors (18 and under and 65+)
@@ -534,9 +588,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-05-13T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-05-13T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/27201ATMPGJCKNGLLLPMRKRVCVBLCMPLH> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/27201ATMPGJCKNGLLLPMRKRVCVBLCMPLH> a
+    schema:Event;
   schema:name "Oliver";
   schema:description """
 	<h1>Lionel Bart's Oliver!</h1>A Gateway Theatre Production by special arrangement with Cameron Mackintosh<span><br/></span>Performed for a live audience on the MainStage<span><br/></span>Run time: Approximately 2 hours and 30 minutes, including a 20-minute intermission<span><br/></span><span><br/></span>Book, Music & Lyrics by LIONEL BART<span><br/></span>Freely adapted from Charles Dicken’s OLIVER TWIST<span><br/></span><span><br/></span>December 12, 2024 – January 4, 2025<span><br/></span><span><br/></span>The award-winning musical adaptation of the classic Dickens novel, <span class=\"ItalicText\">Oliver!</span> springs to life with some of the most memorable characters and songs ever to grace the stage.<span><br/></span><span><br/></span>Join young Oliver Twist as he navigates the Victorian London underworld, searching for a home, a family, and – most importantly – for love. Oliver, a malnourished orphan in a workhouse, becomes the neglected apprentice of an undertaker, then escapes to find acceptance amongst a band of pickpockets led by the conniving Fagin. When Oliver is captured for a theft he did not commit, the benevolent victim, Mr. Brownlow, takes him in. Fagin, fearing the safety of his hideout, has Oliver kidnapped, threatening the boy’s chances of discovering the true love of a family. With spirited songs like “Food, Glorious Food,” and “Consider Yourself,” <span class=\"ItalicText\">Oliver!</span> is widely hailed as a theatrical masterpiece.<span><br/></span><span><br/></span>Tickets from $35<span><br/></span><span><br/></span>Special Performances<span><br/></span><span><br/></span>Thurs. Dec 12 - 7:30pm (Pay-What-You-Will Preview) <span class=\"BoldText\">To book tickets for the PWYW Preview, please click <a target=\"_blank\" href=\"https://www.gatewaytheatre.com/tickets/oliver-pwyw/\">here</a></span><span><br/></span>Fri. Dec 13 - 7:30pm (Opening Night)<span><br/></span>Thurs. Dec 19 - 7:30pm (2 for 1 ticket special! Use promo code TWISTBOGO)<span><br/></span>Sat. Dec 21 - 1pm (Open Experience)<span><br/></span>Sat. Dec 28 - 1pm (VocalEye Live Audio Description option available)<span><br/></span>Tues. Dec 31 - 7:30pm (New Year' Eve Toast)
@@ -544,9 +599,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-01-04T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/28001ATQBPNCNMQQVMPLRVTJTQRGHDNSG> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/28001ATQBPNCNMQQVMPLRVTJTQRGHDNSG> a
+    schema:Event;
   schema:name "Oliver - PWYW Preview ";
   schema:description """
 	<h1>Lionel Bart's Oliver!</h1>A Gateway Theatre Production by special arrangement with Cameron Mackintosh<span><br/></span>Performed for a live audience on the MainStage<span><br/></span>Run time: Approximately 2 hours and 30 minutes, including a 20-minute intermission<span><br/></span><span><br/></span>Book, Music & Lyrics by LIONEL BART<span><br/></span>Freely adapted from Charles Dicken’s OLIVER TWIST<span><br/></span><span><br/></span>Pay-What-You-Will Preview - Dec 12 - 7:30PM<span><br/></span><span><br/></span>The award-winning musical adaptation of the classic Dickens novel, <span class=\"ItalicText\">Oliver!</span> springs to life with some of the most memorable characters and songs ever to grace the stage.<span><br/></span><span><br/></span>Join young Oliver Twist as he navigates the Victorian London underworld, searching for a home, a family, and – most importantly – for love. Oliver, a malnourished orphan in a workhouse, becomes the neglected apprentice of an undertaker, then escapes to find acceptance amongst a band of pickpockets led by the conniving Fagin. When Oliver is captured for a theft he did not commit, the benevolent victim, Mr. Brownlow, takes him in. Fagin, fearing the safety of his hideout, has Oliver kidnapped, threatening the boy’s chances of discovering the true love of a family. With spirited songs like “Food, Glorious Food,” and “Consider Yourself,” <span class=\"ItalicText\">Oliver!</span> is widely hailed as a theatrical masterpiece.
@@ -554,9 +610,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-12-12T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-12-12T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/27001AHPHSDCGHGCCRQCHCPMCLLSSSQJG> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/27001AHPHSDCGHGCCRQCHCPMCLLSSSQJG> a
+    schema:Event;
   schema:name "Otosan";
   schema:description """
 	<h1>Otosan</h1>A Little Onion Puppet Co. Production<span><br/></span>February 19 - 22, 2025<span><br/></span>Performed for a live audience in Studio B<span><br/></span>Run time: Approximately 45 minutes<span><br/></span><span><br/></span>By SHIZUKA KAI, RANDI EDMUNDSON, & JESS AMY SHEAD<span><br/></span><span><br/></span>February 22, 2025<span><br/></span><span><br/></span>When little Shizu hides in her Otosan’s suitcase and secretly travels to his most dangerous destination The North, her presence is a big surprise and an even bigger nuisance to her gruff, no-nonsense father. Facing snowy owls, white wolves and grizzly bears in the most remote of locations, Otosan and Shizu must learn to tackle challenges together, eventually learning how to communicate their love. Inspired by Co-creator Shizuka Kai’s real-life experience with her father, a wildlife videographer, <span class=\"ItalicText\">Otosa</span>n is a beautifully told story that uses puppetry, real wildlife projections and an original score to take the audience on an immersive journey.<span><br/></span><span><br/></span>Tickets from $23<span><br/></span><span><br/></span>Special Performance<span><br/></span><span><br/></span>Sat. Feb 22 - 1:00PM (Relaxed Performance)
@@ -564,9 +621,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-02-22T10:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-22T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/27401ARJLQPVGRGCMSLCMHMNMQVRHNDVC> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/27401ARJLQPVGRGCMSLCMHMNMQVRHNDVC> a
+    schema:Event;
   schema:name "Pride & Prejudice";
   schema:description """
 	<h1>Pride & Prejudice</h1>by Kate Hamill<span><br/></span>Adapted from the novel by Jane Austen<span><br/></span>In association with Western Canada Theatre<span><br/></span><span><br/></span>April 17 - 26<span><br/></span><span><br/></span>Join us for a fresh and vibrant take on Jane Austen's classic novel with Kate Hamill's acclaimed adaptation of Pride and Prejudice. Follow the outspoken Elizabeth Bennet, whose determination to avoid marriage due to societal pressure is challenged by the charmingly handsome, mildly amusing, and remarkably ubiquitous Mr. Darcy. With fast-paced staging and seamless character switches, this production promises a hilarious and heartwarming experience for longtime Jane Austen fans and newcomers alike. Don’t miss out on the wit, whimsy, and romance - a highly entertaining tale for audiences of all ages. <span><br/></span><span><br/></span>Tickets from $35<span><br/></span><span><br/></span>Special Performances<span><br/></span><span><br/></span>Thurs. April 17 - 7:30pm (Pay-What-You-Will Preview) <span class=\"BoldText\">To book tickets for the PWYW Preview, please click <a target=\"_blank\" href=\"https://www.gatewaytheatre.com/tickets/pp-pwyw/\">here</a></span><span><br/></span>Fri. April 18 - 7:30pm (Opening Night)<span><br/></span>Sat. April 19 - 1pm (Open Experience)<span><br/></span>Thurs. April 24 - 7:30pm (2 for 1 ticket special! Use promo code PRIDEBOGO)<span><br/></span>Sat. April 26 - 1pm (VocalEye Live Audio Description option available)
@@ -574,9 +632,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-04-18T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-04-26T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/27601AQVLTVTCJRHPTLCPRBPBJCDTNLPC> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/27601AQVLTVTCJRHPTLCPRBPBJCDTNLPC> a
+    schema:Event;
   schema:name "Pride & Prejudice PWYW Preview";
   schema:description """
 
@@ -584,9 +643,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-04-17T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-04-17T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/14001ASQBPJTJLPNKCVSVSGCTCKBPVCGV> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/14001ASQBPJTJLPNKCVSVSGCTCKBPVCGV> a
+    schema:Event;
   schema:name "Rodgers & Hammerstein's Cinderella - PWYW";
   schema:description """
 
@@ -594,9 +654,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2023-12-14T19:30:00"^^xsd:dateTime;
   schema:endDate "2023-12-14T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/11801AKPSMNLHVNHMDJQKSBJCLCVQPNQJ> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/11801AKPSMNLHVNHMDJQKSBJCLCVQPNQJ> a
+    schema:Event;
   schema:name "Rodgers + Hammerstein's Cinderella";
   schema:description """
 
@@ -604,9 +665,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:endDate "2023-12-31T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/28201ANLRQMDQPKBCRBQJSVDBPMCHQKNS> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/28201ANLRQMDQPKBCRBQJSVDBPMCHQKNS> a
+    schema:Event;
   schema:name "Silk Road Music: Lunar New Year Celebration";
   schema:description """
 	<h1>SILK ROAD MUSIC: Lunar New Year Celebration</h1>Saturday, February 1, 2025 at 2PM<span><br/></span>Tickets only $25
@@ -614,9 +676,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-02-01T14:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-01T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/31001ANSGMCKVDLMTPSRQHVNSMPTMDPCG> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/31001ANSGMCKVDLMTPSRQHVNSMPTMDPCG> a
+    schema:Event;
   schema:name "The Dream Continues";
   schema:description """
 	<h1>The Dream Continues</h1><span><br/></span>Friday, September 6, 2024<span><br/></span><span><br/></span>7:30 PM<span><br/></span><span><br/></span>Tickets:<span><br/></span><span><br/></span>$50 regular<span><br/></span><span><br/></span>$100 VIP
@@ -624,9 +687,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-09-07T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-09-07T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/30001ACDNMRPKSDRKSKCJNMSBQHCSMMMG> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/30001ACDNMRPKSDRKSKCJNMSBQHCSMMMG> a
+    schema:Event;
   schema:name "The Flame PWYW";
   schema:description """
 	<h1>THE FLAME: Anniversary Edition</h1><span><br/></span>Saturday, March 8, 2025 at 2:30PM<span><br/></span>Pay-What-You-Will
@@ -634,9 +698,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-03-08T14:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-08T14:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/30801ARPRRSKJDTQHHJTDRTPHSSSJNCJP> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/30801ARPRRSKJDTQHHJTDRTPHSSSJNCJP> a
+    schema:Event;
   schema:name "The Flame Storytelling Showcase";
   schema:description """
 	<h1>The Flame Storytelling Showcase </h1>hosted by Deborah Wiliams<span><br/></span>7 PM - 9 PM, October 6th<span><br/></span>Free (registration required)<span><br/></span>Maximum 2 tickets per order
@@ -644,9 +709,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-10-06T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-06T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/30601ASVMNTVBQGPSKCLTTHTBBRPCLTLM> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/30601ASVMNTVBQGPSKCLTTHTBBRPCLTLM> a
+    schema:Event;
   schema:name "The Flame Storytelling Workshop (Two-Day) with Deborah Williams";
   schema:description """
 	<h1>The Flame Storytelling Workshop (Two-Day) with Deborah Wiliams</h1><span><br/></span>10 AM - 4 PM October 5th - 6th <span><br/></span><span><br/></span>$200 regular<span><br/></span>$180 for Richmond residents
@@ -654,9 +720,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-10-05T10:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-05T10:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/26001APLNVRTPLBBPSVMJQSVGGNQMBRBG> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/26001APLNVRTPLBBPSVMJQSVGGNQMBRBG> a
+    schema:Event;
   schema:name "Toward the Future Concert";
   schema:description """
 	Richmond Delta Youth Orchestra Presents<span><br/></span><span><br/></span><h1>Toward the Future Concert</h1><span><br/></span>This year-end concert is a combination of a music concert and award ceremony, celebrating the success and hard work of 180+ young musicians in their journey with RDYO in the 2023-24 season. <span><br/></span><span><br/></span>Saturday, June 1, 2024, 2:00 PM<span><br/></span>$28 Adults<span><br/></span>$19 Full-time students & seniors 65+<span><br/></span>Pay-What-You-Will pricing: $0-$100 (limited quantities available; Pay-What-You-Will pricing is available only in person at the box office or by phone: 604.270.1812)
@@ -664,9 +731,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-06-01T14:00:00"^^xsd:dateTime;
   schema:endDate "2024-06-01T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/21001AHGQKHHCBJDNTTTMDTTPLSBDJSQB> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/21001AHGQKHHCBJDNTTTMDTTPLSBDJSQB> a
+    schema:Event;
   schema:name "TranscenDANCE";
   schema:description """
 	Vancouver Academy of Dance Presents:<span><br/></span><span><br/></span><span class=\"BoldText\">TranscenDANCE</span><span><br/></span><span><br/></span>Vancouver Academy of Dance celebrates 29 years of dance excellence with an award-winning mixed-repertoire program. Great for all ages!<span><br/></span><span><br/></span>Saturday, May 25, 2024<span><br/></span><span><br/></span>3:00 PM<span><br/></span><span><br/></span>Adult: $43.50<span><br/></span>Child (12 & under): $32<span><br/></span><span><br/></span>
@@ -674,9 +742,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-05-25T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-05-25T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/25801AGPSVCGGNRPVHRSNSQGLMPJPTNDB> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/25801AGPSVCGGNRPVHRSNSQGLMPJPTNDB> a
+    schema:Event;
   schema:name "Transcending Eras: The Gathering of Heroes Concert";
   schema:description """
 	BC Chinese Music Association Presents:<span><br/></span><span><br/></span><h1>Transcending Eras: The Gathering of Heroes</h1><span><br/></span>Saturday, May 18th, 7:30 PM<span><br/></span><span><br/></span>$28 (general admission)<span><br/></span><span><br/></span>This annual concert celebrates the 29th anniversary of the BC Chinese Orchestra (BCCO). This concert promises to be a thrilling<span><br/></span>musical extravaganza centered around the captivating theme of \"heroes.\" We have carefully prepared a selection of evocative traditional pieces for this occasion. Among them is the renowned \"General's Command,\" originally part of the string ensemble repertoire collected by Rongzhai in the Qing Dynasty in 1814. This piece has undergone several adaptations and became prominently featured in Hong Kong films and television series related to Wong Fei-hung in the 1940s. Additionally, we will present a suite of six complete movements from the 1959 Chinese dance<span><br/></span>drama \"Dagger Society.\" In addition to the overture, we are delighted to have the soprano Ms. Miao Quanting from the Vancouver Chinese Choir and an elite group from the Vancouver Chorale joining us. Their vocal prowess will add depth and emotion to the concert. Following these classical pieces, the orchestra will showcase modern compositions. First is \"Kamalan,\" composed by<span><br/></span>Taiwanese composer Su Wenqing in 2008, inspired by the mythological stories of the Yilan region (formerly known as Kamalan). Lastly, our concertmaster, Anna Fang, will perform the erhu concerto \"Chu Song,\" composed by prominent Chinese composer Li Bochan in 2014, depicting the historical tale \"Farewell My Concubine.\" We are also pleased to have young musicians from the BC Youth Chinese Orchestra (BCYCO) joining us, sharing their own pieces and collaborating with the BCCO to portray the heroic spirit and scenes embedded in \"Chu Song.\"
@@ -684,9 +753,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-05-18T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-05-18T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/29601AVVVGLGMQTHTLNRNLGJBCQJTVHSN> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/29601AVVVGLGMQTHTLNRNLGJBCQJTVHSN> a
+    schema:Event;
   schema:name "True Voices: Pride Storytelling and Tea";
   schema:description """
 	<h1>True Voices: Pride Storytelling and Tea</h1>Thursday, August 1, 2024 at 7PM<span><br/></span>Free (capacity is limited)
@@ -694,9 +764,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-08-01T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-08-01T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/26801APBDSSBSQMVTPLPRDJQMMKCLMHMP> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/26801APBDSSBSQMVTPLPRDJQMMKCLMHMP> a
+    schema:Event;
   schema:name "Yaga";
   schema:description """
 	<h1>YAGA</h1>by Kat Sandler<span><br/></span>A Touchstone Theatre Production<span><br/></span><span><br/></span>October 24 - November 2<span><br/></span><span><br/></span>The mysterious disappearance and suspected murder of a college bad boy leads a local small -town sheriff, a young private detective, and a university professor with a taste for younger men into a labyrinth of secret lives, ancient magic, and multiple suspects. <span><br/></span><span><br/></span>Yaga is the revisioning of a legendary folk anti-hero through Sandler’s razor-sharp feminist wit. Part thriller, part comedy, part nightmare fairy-tale, Yaga leads us into an unforgettable world of trickery and revenge – just in time for Halloween! <span><br/></span><span><br/></span>Tickets from $35<span><br/></span><span><br/></span>Special Performances<span><br/></span><span><br/></span>Thurs. Oct 24 - 7:30pm (Pay-What-You-Will Preview) <span class=\"BoldText\">To book tickets for the PWYW Preview, please click <a target=\"_blank\" href=\"https://www.gatewaytheatre.com/tickets/yaga-pwyw/\">here</a></span><span><br/></span>Fri. Oct 25 - 7:30pm (Opening Night)<span><br/></span>Sat. Oct 26 - 1pm (Open Experience)<span><br/></span>Tues. Oct 29 - 7:30pm (2 for 1 ticket special! Use promo code YAGABOGO)<span><br/></span>Sat. Nov 2 - 1pm (VocalEye Live Audio Description option available)
@@ -704,9 +775,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-02T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/27801AGBRBTMKNGSLNDRVNGSHQJPSLPHH> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/27801AGBRBTMKNGSLNDRVNGSHQJPSLPHH> a
+    schema:Event;
   schema:name "Yaga PWYW";
   schema:description """
 
@@ -714,9 +786,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-10-24T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-10-24T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/32401ANQMVQVNTGTQHTSGSGJCPVKHDGKP> a schema:Event;
+<http://www.spektrix.com/gatewaytheatre/event/32401ANQMVQVNTGTQHTSGSGJCPVKHDGKP> a
+    schema:Event;
   schema:name "音. 画：云之南 Music & Visual Art: Music of Yunan";
   schema:description """
 
@@ -724,4 +797,4 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-10-13T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-13T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .

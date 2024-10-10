@@ -8,7 +8,8 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/336ARVLBCPGHBMCGSHBTLLPNMCRTVJHCT> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/336ARVLBCPGHBMCGSHBTLLPNMCRTVJHCT>
+  a schema:Event;
   schema:name "2024 Canadian Grand Masters Fiddling Competition";
   schema:description """
 	Ticket Pricing: <span><br/></span><span><br/></span>$25 Adult <span><br/></span>$15 Senior & Student <span><br/></span>$12 Youth (10 and under)<span><br/></span><span><br/></span>Join us for a celebration at the prestigious Canadian Grand Masters Fiddling Competition. As the landmark event for fiddlers across the nation, this competition brings together top fiddlers from Canada, as well as special performances by the Pan Northern Youth Fiddle Ensemble.<span><br/></span><span><br/></span>www.yukon2024.com
@@ -16,16 +17,19 @@
   schema:startDate "2024-08-24T12:00:00"^^xsd:dateTime;
   schema:endDate "2024-08-24T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/078f1a1a-632b-4ff4-8fef-2385be22cd80.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:Place;
+<https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:Place;
   schema:name "Yukon Arts Centre Mainstage";
-  schema:address address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:address <https://spektrix.com/yukonartscentre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
+<https://spektrix.com/yukonartscentre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a
+    schema:PostalAddress;
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/6001AHTPDKPQHHKQPKDKSKRBSTJBCVNKB> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/6001AHTPDKPQHHKQPKDKSKRBSTJBCVNKB>
+  a schema:Event;
   schema:name "Active Voice with Tanya Talaga in conversation with Ivan Coyote ";
   schema:description """
 	Active Voice: featuring writer and journalist Tanya Talaga.<span><br/></span><span><br/></span>Please join us for an evening of reading and conversation, featuring author and journalist Tanya Talaga, in conversation with writer and storyteller Ivan Coyote. This event is the second in an exciting creative partnership between <span class=\"BoldText\">Yukon University</span> and <span class=\"BoldText\">Yukon Arts Centre</span>, sponsored by <span class=\"BoldText\">CBC North</span>. Active Voice seeks to bring global voices to the Yukon, and foster intimate and authentic discussion between each artist and our communities. Our next guest is the incredible Tanya Talaga.<span><br/></span><span><br/></span>Tanya will be welcomed and hosted by Yukon University’s Specialist in Creative Engagement and Expression, Ivan Coyote.<span><br/></span><span><br/></span><span><br/></span><span class=\"BoldText\">Tanya Talaga bio:</span><span><br/></span><span><br/></span>Tanya Talaga is of Anishinaabe and Polish descent and was born and raised in Toronto. She is a member of Fort William First Nation. Her mother was raised on the traditional territory of Fort William First Nation and Treaty 9. <span><br/></span><span><br/></span>She is the acclaimed author of the national bestseller Seven Fallen Feathers, which won the RBC Taylor Prize, the Shaughnessy Cohen Prize for Political Writing and the First Nation Communities Read: Young Adult/Adult Award. A finalist for the Hilary Weston Writer’s Trust Prize for Nonfiction and the BC National Award for Canadian Non-Fiction, the book was also CBC’s Nonfiction Book of the Year and a Globe and Mail Top 100 book. <span><br/></span><span><br/></span>Talaga was the 2017-2018 Atkinson Fellow in Public Policy and the 2018 CBC Massey Lecturer. She is also the author of the national bestseller All Our Relations: Finding the Path Forward. For more than 20 years she was a journalist at the Toronto Star and is now a regular columnist at the Globe and Mail. Tanya Talaga is the founder of Makwa Creative, a production company formed to elevate Indigenous voices and stories.<span><br/></span>
@@ -33,9 +37,21 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2024-11-26T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-26T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/119a7f7a-a5d1-4004-84c3-d638fafff9d0.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/8001ARTDCCTGLQPKPGKVDJPJMKTGHTJJP> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK>
+  a schema:Event;
+  schema:name "Begonia with Jasmine Netsena & Bria Rose N’ Thorns";
+  schema:description """
+	<span class=\"BoldText\">EQLive Presented by SiriusXM Canada & Women in Music Canada</span><span><br/></span><span><br/></span>Women In Music Canada is thrilled to announce the launch of EQLive, presented by SiriusXM Canada.  EQLive is an exciting new showcase series dedicated to uplifting women and gender-diverse artists and crews as they develop toward the biggest stages. This fall marks the inaugural season, with live performances scheduled in Calgary, Whitehorse, Ottawa, and Toronto. Each event will feature accessible  ticket pricing and, where possible, will be streamed nationwide to maximize reach and opportunity. <span><br/></span><span><br/></span> <span><br/></span><span><br/></span><span class=\"BoldText\">WHITEHORSE:</span><span><br/></span><span><br/></span>This showcase features trailblazer and NPR “Artist to watch” Begonia (2 x JUNO & Polaris Prize nominee) for her first-ever appearance in Whitehorse, supported by Bria Rose N’ Thorns, and Jasmine Netsena. Presented in collaboration Music Yukon. 
+""";
+  schema:startDate "2024-10-30T19:00:00"^^xsd:dateTime;
+  schema:endDate "2024-10-30T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7832edf3-3c28-41fa-abbc-d9fac6a0a6f0.jpg";
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<http://www.spektrix.com/yukonartscentre/event/8001ARTDCCTGLQPKPGKVDJPJMKTGHTJJP>
+  a schema:Event;
   schema:name "Blue Feather Music 2024 Festival Night #1";
   schema:description """
 	The 24th annual Blue Feather Festival featuring Sue Foley, Brandon Isaak, Sierra Noble and the Will Pacaud Band. <span><br/></span><span><br/></span>The Blue Feather Music Festival aims to inspire, encourage and support our young people to develop the gifts that the Creator has given them, through music & the arts. The blue feather is a symbol of hope.
@@ -43,9 +59,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2024-11-08T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-08T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/fa68553a-a25c-4601-9363-43583ca231ff.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR>
+  a schema:Event;
   schema:name "Blue Feather Music 2024 Festival Night #2";
   schema:description """
 	The 24th annual Blue Feather Festival featuring Russ Dwarf with Bumblefoot, Paul Kype and Texas Flood, PIQSIQ, and Hendrika.<span><br/></span><span><br/></span>The Blue Feather Music Festival aims to inspire, encourage and support our young people to develop the gifts that the Creator has given them, through music & the arts. The blue feather is a symbol of hope.<span><br/></span>
@@ -53,9 +70,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2024-11-09T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-09T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/910c8779-3ebc-46a4-a55d-22ca9ee76004.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/243AGMNKJLJRVCMLPPCJJDCGBKMPKGPHJ> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/243AGMNKJLJRVCMLPPCJJDCGBKMPKGPHJ>
+  a schema:Event;
   schema:name "Chantal Kreviazuk";
   schema:description """
 	Ticket Pricing: <span><br/></span>$48.00<span><br/></span><span><br/></span>JUNO and Grammy-winning artist Chantal Kreviazuk is doing a Canadian tour in celebration of the 25th anniversary of her iconic sophomore album Colour Moving and Still. In recognition of the album’s silver anniversary, Kreviazuk has revealed details of a deluxe edition re-release on double vinyl, coming October 4. The Colour Moving and Still double LP will include all 10 tracks from the album.<span><br/></span><span><br/></span><span class=\"BoldText\">ABOUT CHANTAL KREVIAZUK</span><span><br/></span>Chantal Kreviazuk made her critically acclaimed full-length debut, Under These Rocks and Stones, in 1997. Since then, the Winnipeg-born and internationally celebrated 3x JUNO Award and Grammy-winning singer-songwriter and musician, classically trained pianist, actress, movie producer, philanthropist, humanitarian and proud wife and mother of three has recorded 10 albums, including a live album, a holiday album and a collaboration with her husband and Our Lady Peace frontman Raine Maida. <span><br/></span><span><br/></span>A prolific songwriter, Kreviazuk has written global smashes for the likes of Drake, Gwen Stefani, Pitbull, Christina Aguilera, Britney Spears, Carrie Underwood, Avril Lavigne, Shakira, Kelly Clarkson and Kendrick Lamar. Equally committed to helping those in need, Kreviazuk was awarded the Order of Canada in 2014 along with Maida, for their efforts to raise awareness and support for human and animal rights, mental health, education and the environment. Kreviazuk has been an ambassador to War Child for more than two decades and one of the organization’s founding artists.
@@ -63,9 +81,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2024-09-24T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-25T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/00a0a77f-14c1-47b3-89fe-f885330b7db5.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/509AVGHTQCKRKVMPQRSPJHNRVQCSCHBVG> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/509AVGHTQCKRKVMPQRSPJHNRVQCSCHBVG>
+  a schema:Event;
   schema:name "Charles Ross - One Man Avengers";
   schema:description """
 	Ticket Pricing: <span><br/></span>$35.00<span><br/></span><span><br/></span>Canadian actor and professional geek Charlie Ross is back, portraying Iron Man’s armour, Cap’s shield, Hulk’s rage, Thor’s biceps, Thanos’s chin and Black Widow’s butt in his One Man Avengers in his hilarious parody. Directed by TJ Dawe.<span><br/></span><span><br/></span>As writer and performer of One Man Star Wars, One Man Avengers and One Man Lord of the Rings, he has toured the globe for the last 11 years, delighting audiences with his unique and frenetic solo shows.<span><br/></span><span><br/></span>Born in a northern British Columbian town (closely resembling the Shire), Charlie spent his early years longing for galaxies far, far away.  It was the discovery of a passion for acting (and a move to more southerly climes) that brought this geek-at-heart back to earth.<span><br/></span><span><br/></span>At university, Ross formed a friendship and collaborating partnership with actor<span class=\"ItalicText\">writer</span>director, TJ Dawe. TJ has directed four of Ross’s solo shows - the first being the wildly successful One Man Star Wars. <span><br/></span><span><br/></span>With thousands of performances, in hundreds of cities, across four continents: from off-Broadway NYC to the Sydney Opera House, or the West End of London to the sands of Dubai - chances are these shows have been there. The worldwide love affair with these Trilogies is phenomenal and it’s been a dream come true, for Charlie Ross, to celebrate that love with the generations of fans around the world.<span><br/></span><span><br/></span>You can find out more about Charlie, TJ, One Man Lord of the Rings and Star Wars through Facebook and Twitter.<span><br/></span><span><br/></span><span><br/></span><span class=\"ItalicText\">“Like the Energizer Bunny”</span> - Calgary Herald<span><br/></span><span><br/></span><span class=\"ItalicText\">“Nerd heaven”</span> - Chicago Tribune <span><br/></span><span><br/></span><span class=\"ItalicText\">“Nuclear levels of energy”</span> - Variety <span><br/></span><span><br/></span><span class=\"ItalicText\">“An uncanny ability to perform multiple characters at the drop of a hat”</span> - Boston Theatre <span><br/></span><span><br/></span><span class=\"ItalicText\">“If anyone can be described as a one-man multimedia machine, Charles Ross is it.”</span> - Australian Stage
@@ -73,19 +92,10 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2024-09-14T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-14T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/6b68eae4-aa6b-4138-a8ff-7f4260ed3c3e.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> a schema:Event;
-  schema:name "EQLive presented by SiriusXM";
-  schema:description """
-	<span class=\"BoldText\">EQLive Presented by SiriusXM Canada & Women in Music Canada</span><span><br/></span><span><br/></span>Women In Music Canada is thrilled to announce the launch of EQLive, presented by SiriusXM Canada.  EQLive is an exciting new showcase series dedicated to uplifting women and gender-diverse artists and crews as they develop toward the biggest stages. This fall marks the inaugural season, with live performances scheduled in Calgary, Whitehorse, Ottawa, and Toronto. Each event will feature accessible  ticket pricing and, where possible, will be streamed nationwide to maximize reach and opportunity. <span><br/></span><span><br/></span> <span><br/></span><span><br/></span><span class=\"BoldText\">WHITEHORSE:</span><span><br/></span><span><br/></span>This showcase features trailblazer and NPR “Artist to watch” Begonia (2 x JUNO & Polaris Prize nominee) for her first-ever appearance in Whitehorse, supported by Bria Rose N’ Thorns, and Jasmine Netsena. Presented in collaboration Music Yukon. 
-""";
-  schema:startDate "2024-10-30T19:00:00"^^xsd:dateTime;
-  schema:endDate "2024-10-30T19:00:00"^^xsd:dateTime;
-  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7832edf3-3c28-41fa-abbc-d9fac6a0a6f0.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
-
-<http://www.spektrix.com/7001AGCLPBHTQLDRVGJQJGVCGDJKJPPNR> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/7001AGCLPBHTQLDRVGJQJGVCGDJKJPPNR>
+  a schema:Event;
   schema:name "Erica Dee Mah & Christopher Tse ";
   schema:description """
 	Erica Dee Mah and Christopher Tse, alongside some special guests, will be performing an intimate evening of music and poetry to celebrate the release of Erica's latest EP, \"Paper Wealth\", and Christopher's poetry book \"A Song for the Paper Children\".<span><br/></span> <span><br/></span>Erica Dee Mah is a singer-songwriter and contemporary guzheng player based in Whitehorse, Yukon. In 2022, she released The Sargasso Season, an original collection of songs written on the traditional 21-stringed Chinese zither. The album is an exploration of sounds and possibilities on the versatile instrument, and seeks out a place for the guzheng in Canadian folk-roots music. Exclaim! Magazine named her one of the \"must-hear\" emerging artists in Canada, and she was featured on CBC Music alongside artists like the Polaris Music Prize finalists, Pantayo, who are incorporating Asian heritage into their music. Erica often performs with her husband, Darcy McCord, a classically trained cellist, and together they create a unique orchestral folk sound. Paper Wealth is Erica Dee Mah’s second offering of original guzheng music and was released in May 2024. Incorporating many traditional sounds and techniques on the Chinese zither, “Paper Wealth” is a vibrant and layered collection of songs that celebrates Chinese-Canadian cultural heritage. <span><br/></span> <span><br/></span>Paper Wealth is available via Bandcamp, and major streaming platforms: <span><br/></span>http://www.ericamah.com<span><br/></span> <span><br/></span>Christopher Tse is an educator and award-winning writer based in Whitehorse, Yukon. He placed second at both the 2011 Poetry Slam World Cup and 2016 Rio International Poetry Slam, and continues to miss the top of the podium in most areas of his life. He has shared the stage with Leanne Betasamosake Simpson, Shane Koyczan, and Mustafa the Poet, and his work has appeared on stages, radio, and graffiti walls worldwide. He teaches social work at the University of Victoria. A Song for the Paper Children is Christopher's first book. The poem was written to commemorate the centenary of the Chinese Exclusion Act, and was performed by Christopher Tse in the Senate of Canada on 23 June 2023. It was published in May 2024 with Plumleaf Press. <span><br/></span> <span><br/></span>A Song for the Paper Children is available via Plumpleaf Press: https://plumleafpress.com/product/a-song-for-the-paper-children/<span><br/></span> <span><br/></span>Social Media:<span><br/></span> <span><br/></span>@ericadeemah <span><br/></span>@tselikec<span><br/></span>
@@ -93,16 +103,19 @@ address:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH a schema:PostalAddress;
   schema:startDate "2024-10-15T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-15T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/35908c73-f399-4326-9476-3898840fb584.jpg";
-  schema:location place:410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP .
+  schema:location <https://spektrix.com/yukonartscentre/location/410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP> .
 
-place:410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP a schema:Place;
+<https://spektrix.com/yukonartscentre/location/410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP>
+  a schema:Place;
   schema:name "Old Fire Hall";
-  schema:address address:410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP .
+  schema:address <https://spektrix.com/yukonartscentre/address/410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP> .
 
-address:410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP a schema:PostalAddress;
+<https://spektrix.com/yukonartscentre/address/410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP> a
+    schema:PostalAddress;
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/1019ADGRMCRDQHHLCMKMHKGTCHVPQSCRQ> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/1019ADGRMCRDQHHLCMKMHKGTCHVPQSCRQ>
+  a schema:Event;
   schema:name "Guild 'Round Back: Vanstones";
   schema:description """
 	General Admission: $15  <span><br/></span><span><br/></span>Vanstones are a Yukon-based indie rock band with catchy, heartfelt song-writing and energetic live performances. After the departure of two of the band's three founding members, the band moved to a power trio arrangement and solidified their high-energy sound (think Alabama Shakes, Manneskin, and The Strokes, with a touch of classic rock bands like Fleetwood Mac). Their \"Electric Lemonade\" 2024 summer tour will showcase the band's new direction. Performance highlights for Vanstones include opening for Serena Ryder, The Strumbellas, and Hannah Georgas, and performing at the Dawson City Music Festival. They were showcasing artists at Breakout West in Kelowna in October 2023. Their debut album \"Cascadia\" was released on August 25th 2023.  <span><br/></span><span><br/></span>Join us at the Yukon’s most charming outdoor venue for this and more! Round Back is located behind the Guild Hall (go left through the parking lot) and features covered and uncovered audience seating surrounded by a beautiful backdrop of trees and wildlife. This series happens rain or shine, so be sure to dress for the weather and don’t forget to bring some bug spray! Cash bar.
@@ -110,17 +123,20 @@ address:410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP a schema:PostalAddress;
   schema:startDate "2024-07-31T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-07-31T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/19d6ac96-5f56-40c3-aa3c-0676a4a907c7.jpg";
-  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> .
 
-place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:Place;
+<https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>
+  a schema:Place;
   schema:name "Guild Hall";
-  schema:address address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+  schema:address <https://spektrix.com/yukonartscentre/address/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> .
 
-address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
+<https://spektrix.com/yukonartscentre/address/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> a
+    schema:PostalAddress;
   schema:streetAddress "27 14th Ave";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/457AVHBVKGPHRBDBRHVDBGMNNCTBGDVVH> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/457AVHBVKGPHRBDBRHVDBGMNNCTBGDVVH>
+  a schema:Event;
   schema:name "Hawksley Workman";
   schema:description """
 	Ticket Pricing: <span><br/></span>$40.00 <span><br/></span><span><br/></span>Hawksley Workman will be joined by other musicians for his October 28 performance. Workman is a JUNO Award-winning and Gold Record certified singer-songwriter and multi-instrumentalist. Since his ground-breaking self-produced indie debut For Him and The Girls (1999) through to chart-topping singles of 2020, Hawksley has careened between major label international smash hits to Canadiana soaked indie releases. Boasting a catalogue of 17 solo records, Hawksley’s genre defying style strings together folk, chart pop and irrepressible cabaret. <span><br/></span><span><br/></span>His show-stopping vocals on songs about weather, love, heartbreak and tales of end-times have garnered him a league of devoted fans. Performing over a thousand shows worldwide, Hawksley has headlined prestigious venues like Massey Hall and The Olympia in Paris. For a uniquely Canadian artist Hawksley has built loyal fan bases in the UK, France, Norway and Australia, launching many successful tours, demystifying and delighting fans while drawing on an enviable catalogue of mischievous favourites, glammy stompers and heartfelt hymns to small town Canada.
@@ -128,9 +144,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-10-28T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-28T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/f3821eae-210c-4831-922f-fac9c8deeb40.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/4601AJPCPMGTNKKCGHTVKNTDGDBLJMHTJ> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/4601AJPCPMGTNKKCGHTVKNTDGDBLJMHTJ>
+  a schema:Event;
   schema:name "Hendrika Album Release";
   schema:description """
 	Selina Heyligers-Hare is a vocalist and multi-instrumentalist with a diploma in Music & Technology from Selkirk College. She has been a staple in the Yukon music scene for decades. From her bluegrass roots to teenaged rock rebellion, to her jazz focused college years, her love for many genres has led to a versatile and unique collection of original material that pushes the boundaries of modern music in all the right ways. For Hendrika, the stage is home, she emanates a star quality while being humble and kind in character, proficient in all her instruments and absolutely captivating. <span><br/></span><span><br/></span>This past winter, Selina recorded her first full EP at Stackwall Sound Productions under her artist name Hendrika. Composed over many years of growth, heartbreak and grief, the new EP I Can’t Remember explores the depths of the human condition, the poignant irony of the outward grasping need for a love and support that can only be found within. But with this poetic existential darkness and turmoil, it also touches on the lighter pleasures of life and the simplicities of us in our truest selves.<span><br/></span><span><br/></span>Hendrika as a band is hot off their summer tour including dates such as Dawson City Music Festival (YT) and Lilac Festival (AB). Coming up they will be making their way down to Breakout West 2024 in Saskatoon this September.<span><br/></span>
@@ -138,9 +155,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-09-20T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-20T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/83fcde87-8b98-48bd-974f-cab1397f1a4e.jpg";
-  schema:location place:410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP .
+  schema:location <https://spektrix.com/yukonartscentre/location/410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP> .
 
-<http://www.spektrix.com/447ABGBDGPSBQPNQGPDNVCNVHCHJDJGMM> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/447ABGBDGPSBQPNQGPDNVCNVHCHJDJGMM>
+  a schema:Event;
   schema:name "Horizon: An American Saga - Chapter 1";
   schema:description """
 	Adult: $17 Members: $14 Senior (65): $14 Student: $10 Youth (under 18): $10<span><br/></span><span><br/></span>In a nod to the classic John Ford Westerns, Costner chronicles a multi-faceted, 15-year span of pre-and post-Civil War expansion and settlement of the American west. One night only. Big Screen Cinema. Presented by YFS with the Yukon Arts Centre. Recommended ages 14+. Content advisory: Expect strong violence, including guns and shooting, deaths, people being pierced with arrows or stabbed with spears, dead bodies, blood spurts, pools of blood, bloody scalps, a village being attacked and burned, women getting hit or threatened, colonialism, sexuality and more. Dir. Kevin Costner, 2024, USA, 181 min.
@@ -148,9 +166,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-08-03T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-08-03T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/eb99f6e5-4e6a-4220-9c11-1dae941a410d.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM>
+  a schema:Event;
   schema:name "JOTW - Montréal Bassist Carl Mayotte Quintet";
   schema:description """
 	“Few electric bass professionals have the disconcerting ease to draw melodic lines, to build appropriate harmonic frameworks, to fit into high-flying rhythmic patterns …   Carl Mayotte has the attributes of a virtuoso: flexibility, dexterity, speed, precision, groove and a sense of improvisation. A natural.”<span><br/></span>~ Alain Brunet, PANM360.com<span><br/></span><span><br/></span>“Multi-faceted, bustling, exuberant and emotive, Quebecois bassist/composer/leader Carl Mayotte’s new album Carnaval makes for quite the engaging listen.”<span><br/></span>~ Yoshi Maclear Wall, WholeNote 2024<span><br/></span><span><br/></span>Grand winner of the 2020-2021 Radio-Canada Jazz Revelation title, CARL MAYOTTE is one of the most fashionable young bassists and jazzmen in Quebec and Canada. Mayotte’s third album, Escale, earned him a Félix award for best jazz album of the year for Quebec in 2022. Mayotte’s latest recording, Carnaval, was released in October 2023 to critical acclaim.<span><br/></span><span><br/></span>Carl Mayotte – electric bass, Gabriel Cyr – guitar, Damien-Jade Cyr – saxophones, Francis Grégoire – piano and keyboards, Stéphane Chamberland – drums  <span><br/></span><span><br/></span>Jazz on the Wing cabaret<span><br/></span>Presented by Jazz Yukon<span><br/></span>More info and music samples: jazzyukon.ca<span><br/></span>
@@ -158,9 +177,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2025-04-13T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-04-13T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/8eac7a05-7488-480d-90c5-cb486ef1195f.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/3001AKGPBMSRNCDBJCGBHRDVVQRQLSLMV> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/3001AKGPBMSRNCDBJCGBHRDVVQRQLSLMV>
+  a schema:Event;
   schema:name "JOTW - Montréal vocalist Laura Anglade Quartet";
   schema:description """
 	“Laura has studied all the great vocal stylists of the last century. And yet she imitates no one. Her pure tone, sparing use of vibrato, and total lack of affectation are almost startling when you first hear her, because you feel convinced that no singer has ever been so absolutely honest with you.”<span><br/></span>~ David Noel Edwards, The Berkshire Edge<span><br/></span><span><br/></span>French and American singer LAURA ANGLADE is a promising storyteller with a lot to say. She draws inspiration from Carmen McRae, Blossom Dearie, Sarah Vaughan, Ella Fitzgerald, Shirley Horn, Billie Holiday, and Barbra Streisand, among others. <span><br/></span><span><br/></span>Laura has made a mark in the music scenes of New York, Paris, London, Toronto and Montreal, collaborating with some of the world's finest musicians, including Peter Bernstein, Jonathan Kreisberg, Ben Paterson, Ira Coleman, Reg Schwager, and Neil Swainson, to name a few.<span><br/></span><span><br/></span>Her second Juno-nominated album, ‘Venez Donc Chez Moi’ (Justin Time Records, 2022) is a duo recording featuring Montreal guitarist Sam Kirmayer, with whom she was awarded the “Prix Opus\" for Jazz Concert of the Year in 2023.<span><br/></span><span><br/></span>Laura Anglade – vocals, Sam Kirmayer – guitar, Jonathan Chapman – upright bass, Valérie Lacombe - drums<span><br/></span><span><br/></span>Jazz on the Wing cabaret<span><br/></span>Presented by Jazz Yukon<span><br/></span>More info and music samples: jazzyukon.ca<span><br/></span>
@@ -168,9 +188,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-09-29T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-09-29T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/8f61c802-c957-4e5d-8f38-48a6d7dd7b54.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/3201AQVHRDTTMHKGVGSKKQQVCTJHSRSNR> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/3201AQVHRDTTMHKGVGSKKQQVCTJHSRSNR>
+  a schema:Event;
   schema:name "JOTW - Toronto guitarist Jocelyn Gould Quintet";
   schema:description """
 	Juno award winner JOCELYN GOULD is an international performer, recording artist, and educator. Her joyful energy captivates audiences around the world and her passion for music is infectious. Jocelyn has absorbed the influences of the jazz guitar greats -- citing Wes Montgomery, Grant Green, Joe Pass and Kenny Burrell as primary influences on the guitar -- and used these influences to weave an exciting and unique personal sound.<span><br/></span><span><br/></span>Jocelyn has performed and recorded internationally as a leader and with GRAMMY nominated vocalist Freddy Cole, JUNO-winning trumpeter and vocalist Bria Skonberg, Down Beat Trombonist of the Year Michael Dease, trumpeter Etienne Charles, Jon Gordon, Rodney Whitaker, Randy Napoleon, Will Bonness and Diego Rivera.<span><br/></span><span><br/></span>Jocelyn Gould – guitar and vocals, Anthony Stanco – trumpet, Julian Bradford – upright bass, Will Bonness – piano, Fabio Ragnelli – drums<span><br/></span><span><br/></span>Jazz on the Wing cabaret<span><br/></span>Presented by Jazz Yukon<span><br/></span>More info and music samples: jazzyukon.ca<span><br/></span>
@@ -178,9 +199,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-11-10T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-10T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/0dc61391-30d0-4a16-a8f3-9183a27366a0.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/3601ABRLTLCLBPPCHRCSJRVVJLBBBDQCM> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/3601ABRLTLCLBPPCHRCSJRVVJLBBBDQCM>
+  a schema:Event;
   schema:name "JOTW - Vancouver Pianist Miles Black Trio";
   schema:description """
 	“Black has established himself as one of Canada's most accomplished jazz pianists, and plays regularly among contemporary jazz greats, this ... promises to be both magnetizing and memorable.”<span><br/></span>~ Vancouver International Jazz Festival<span><br/></span><span><br/></span>Recognized as one of Canada's most celebrated jazz pianists, MILES BLACK is highly <span><br/></span>acclaimed as an arranger, producer, composer, session musician, guitarist, vocalist, <span><br/></span>bassist, saxophonist, songwriter, and musical theatre director.  Black is well-known for performing with the celebrated Oliver Gannon Quartet, The Mike Allen Quartet, Triology and Altered Laws.<span><br/></span><span><br/></span>Miles Black – piano, Steve Holy – upright bass, Kristian Braathen – drums <span><br/></span><span><br/></span>Jazz on the Wing cabaret<span><br/></span>Presented by Jazz Yukon<span><br/></span>More info and music samples: jazzyukon.ca<span><br/></span>
@@ -188,9 +210,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2025-03-02T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-02T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/f9b61c8c-5979-4fec-82b5-11e6184d388e.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/3401ARKRNLBJKDJTKHBHRJBNHVDNSKPTR> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/3401ARKRNLBJKDJTKHBHRJBNHVDNSKPTR>
+  a schema:Event;
   schema:name "JOTW - Vancouver trumpeter/vocalist Bonnie Northgraves Quintet";
   schema:description """
 	BONNIE NORTHGRAVES is a Canadian trumpeter, vocalist, pianist, and composer based in Vancouver, BC. Her Quintet is a trumpet and vocal driven vehicle for her unique compositions. Her singing is smokey, rich, and explorative; her trumpet playing a call to the early jazz styles of New Orleans while being lyrical, intriguing, evolved, and playful. <span><br/></span><span><br/></span>With one foot rooted in heritage and one foot leading forward she is an engaging musical powerhouse that is exciting, joyful, and chock full of personality. This strong combination has given wings to a music career that’s seen her tour North America, Europe, China, and India.<span><br/></span><span><br/></span>Bonnie Northgraves – trumpet, vocals & piano, Joe Abbott – clarinet, Joe Lubinsky-Mast – upright bass, Josh Roberts – guitar, Seth Kitamura - drums<span><br/></span><span><br/></span>Jazz on the Wing cabaret<span><br/></span>Presented by Jazz Yukon<span><br/></span>More info and music samples: jazzyukon.ca<span><br/></span>
@@ -198,9 +221,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2025-01-12T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-01-12T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/73f75b29-d2d3-4427-a035-366f7bf46628.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/2601AQNNVGDSDNTBVTJRRMQNTDRTBBNTQ> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/2601AQNNVGDSDNTBVTJRRMQNTDRTBBNTQ>
+  a schema:Event;
   schema:name "Kim Beggs New Album Release";
   schema:description """
 	Welcome to Kim Begg's 7th album and a celebration of her 20th year since the release of her first solo album. <span><br/></span><span><br/></span>Kim delivers a heartfelt darkness in a beautiful, backwoods beat driven performance. Sincere, vulnerable, clear eyed, tough, Beggs observes the world with acute vision clearly placing her convictions on the side of humanity. <span><br/></span><span><br/></span>Kim has been nominated for many music awards including Canadian Folk Music, Western Canadian Music, Just Plain Folks (USA), Independent Music (USA) awards for all six of her solo albums.<span><br/></span><span><br/></span>Opening for Kim is Dawson City's Jared Klok. A little bit country, a little bit tongue-in-cheek, his songs follow the long gaze of a flatlander with wit and whimsy to boot.
@@ -208,9 +232,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-09-22T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-22T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/361a5187-c341-4ba7-86d9-b11b962ac10d.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/5801ANBQVBLJQKVGKMVQVKJKLJQMKBTVN> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/5801ANBQVBLJQKVGKMVQVKJKLJQMKBTVN>
+  a schema:Event;
   schema:name "Little Miss Higgins - Yukoner Appreciation Night";
   schema:description """
 	From the Great Northern Plains, Little Miss Higgins struts and serenades her way onto any stage playing music brewed up in early country blues, jazz and folk.  For over 20 years, she has performed, toured, collaborated, recorded and released seven independent albums. Her music and artwork have received many accolades, awards and nominations including Western Canadian Music Awards, JUNOs and Maple Blues Awards.  <span><br/></span>Little Miss Higgins (aka Jolene Higgins) was born in Brooks, Alberta, and raised in Independence, Kansas.  <span><br/></span><span><br/></span>Music entered her life early. “When I was about four my dad brought home an old mini-grand piano and told me it was mine.  I carved my name in the side of it and, it was inevitable, I had to start taking piano lessons.” Higgins now uses guitar and voice as her main instruments as well as her theatre background to bring a refreshing sound and story to the stage. <span><br/></span><span><br/></span>Her most recent projects are exactly a culmination of these two worlds–music and theatre. Released in 2021, The Fire Waltz is a 5-part music driven radio play podcast. And, the latest endeavor, One For Sorrow, Two For Joy, is a theatre piece using music and puppetry to tell the fictional story of a woman who lives alone on the prairies in the early 1900’s. Higgins not only co-wrote the story and composed music for the show, but has also taken on a role as a puppeteer for live performances. She incorporates songs from both projects into her music show.<span><br/></span>
@@ -218,9 +243,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-11-12T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-12T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7a0f6d7f-b3e1-4a67-8cf6-d5fcd9e201b9.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/5201APJKBKCCCNQQMCTQGVKMLVCGJKMGP> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/5201APJKBKCCCNQQMCTQGVKMLVCGJKMGP>
+  a schema:Event;
   schema:name "Matt Andersen: Put The Jolly In Your Holly! ";
   schema:description """
 	Join Matt Andersen for his special Christmas concert.<span><br/></span><span><br/></span>When Matt steps on stage, he brings a lifetime of music to every note he plays. His latest album, The Big Bottle of Joy, is all about hard-won celebration; a dozen songs infused with raw blues-rock, rollicking Americana, thoughtful folk, and ecstatic gospel. Andersen’s stage presence is informed by decades of cutting his teeth in dusty clubs, dim-lit bars, and grand theatres all over the world, delivering soulful performances that run the gamut from intimate to wall-shaking. In the studio, he’s always brought the same attention to detail and commitment to craft as he has to his live show, and the result - a multi-faceted and poignant body of work - has led him to amass over 31 million streams on Spotify and 30 million views on YouTube. <span><br/></span><span><br/></span>In addition to headlining major festivals, clubs and theatres throughout North America, Europe, and Australia, he has shared the stage and toured with Marcus King, Beth Hart, Marty Stuart, Greg Allman, Tedeschi Trucks Band, Randy Bachman, Serena Ryder, Tab Benoit, and more. <span><br/></span><span><br/></span>Andersen nabbed the 2013 and 2016 European Blues Awards for Best Solo/Acoustic Act, was the first ever Canadian to take home top honours in the solo category at the 2010 International Blues Challenge in Memphis, won the CIMA Road Gold award in 2015, and has won multiple Maple Blues Awards. Matt Andersen & The Big Bottle of Joy was nominated for a Juno Award in 2024. <span><br/></span>
@@ -228,9 +254,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-12-16T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-17T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/f9596f22-4f68-4825-9a80-c7bde4c9cd1b.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/5601AMGRKCNRPTGHLVLGRJSVLDNJMKSJC> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/5601AMGRKCNRPTGHLVLGRJSVLDNJMKSJC>
+  a schema:Event;
   schema:name "Momentum of Isolation – Contemporary Dance from Radical System Art ";
   schema:description """
 	MOMENTUM OF ISOLATION bases its performances around social isolation and loneliness. The performance explores the objective and subjective experiences through the individual, the group and modern society – a society with shifting values and an everadvancing digital way of life.<span><br/></span><span><br/></span>To shape a digital world on stage, MOI places interactive video and sound around the performers. These elements enhance ideas on how technology influences our lives, and that it can both empower and disempower us. <span><br/></span><span><br/></span>Further distilling isolation, solo performances and the extended social isolation of one character on stage are critical to the arc of the performance. Within MOI, one character’s interactions are only with inanimate objects. Through puppeteering and stage craft, the inanimate world comes to life, which highlights how social isolation can disrupt our connection to reality. Our social bonds allow us to understand that we have an impact on what is around us – that we exist.<span><br/></span><span><br/></span>Research began on MOI in 2018 after Artistic Director Shay Kuebler read about the “Minister of Loneliness” in the UK. In studies, social isolation was found to be more detrimental to health over alcohol and cigarettes. In 2018, MOI felt like a critical work to explore. Now, it has become even more relevant and accessible.<span><br/></span>
@@ -238,9 +265,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-10-23T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-23T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/dce02a91-ce7d-4d8c-ae60-d1c94eede8f3.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/5001ABHHSRBTQRMRKVQTDCNNRTMMJHMGD> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/5001ABHHSRBTQRMRKVQTDCNNRTMMJHMGD>
+  a schema:Event;
   schema:name "Norman Foote: Everybody Sings with Special Guests";
   schema:description """
 	Norman Foote draws from his life experiences creating songs and stories that entertain everyone regardless of age. He uses wordplay, humour, engaging melodies and props all to great effect.<span><br/></span> <span><br/></span>His passion for songwriting and performing has taken him to amazing concerts and places throughout the world. He has gathered music awards including a Juno and several WCMA awards. His ability to find ageless melodies and relevant stories are key to his popularity with young audiences and adults alike.  <span><br/></span><span><br/></span>Joining the concert will be an animated group of young singers from Ecole Whitehorse Elementary and Takhini Elementary.<span><br/></span><span><br/></span>“It’s easy to see why Foote is so popular, he quickly gets his audience laughing and singing” Calgary Herald.<span><br/></span>
@@ -248,9 +276,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-11-02T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-02T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/a79cf10b-a176-45ae-bbbd-748f02532b39.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/1307ABBLRKHDHPNMQHPMTCRHKMLQDHPPB> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/1307ABBLRKHDHPNMQHPMTCRHKMLQDHPPB>
+  a schema:Event;
   schema:name "Out Innerspace Dance Theatre: New Creation";
   schema:description """
 	Tickets: $15 <span><br/></span><span><br/></span>Vancouver-based Out Innerspace Dance Theatre will be developing a new project, titled New Creation, during their two-week residency at the Yukon Arts Centre and will perform it on our mainstage on September 7 at 7PM.<span><br/></span><span><br/></span>New Creation features an unlikely constellation of characters past their heyday asking if their best days are behind them. A Rhino, Skeleton, Matador, Oil and a Cockroach fight for relevance, face opportunity for transformation and discover what they bring into uncertain futures. A comedy and tragedy tightrope, New Creation prioritizes what is essential for enduring time and the threatened extinction of our dreams. OIS’s expressive and interactive production design creates a limitless “elsewhere” using transformation, ritual and humour to help connect human longevity to the necessary survival of creatures, concepts, values and things. <span><br/></span><span><br/></span>Vancouver-based Out Innerspace Dance Theatre (OIS) was founded by Tiffany Tregarthen and David Raymond on unceded Indigenous land of the Coast Salish peoples and has dedicated nearly 20 years to creating extraordinary dance experiences through uncompromising rigour and ingenuity. They have recently been awarded Associate Artist of Agora de la Danse, support from the National Arts Centre's National Creation Fund, and commissions with Ballet BC, Netherlands Dance Theatre 2, Hessisches Staatsballett (Germany) and Gibney Dance (New York). Bygones has performed 50 times across 12 countries including presentations invited to Julidans (Amsterdam), Torino Danza, Colours Festival (Stuttgart), Teatros del Canal (Madrid), Dansens Hus (Stockholm), and Canada’s National Arts Centre. Their education program Modus Operandi offers relevant dance development and individualized mentorship generating some of Canada’s most radical and inspired young dance artists. This project is generously supported by the National Arts Centre’s National Creation Fund.
@@ -258,9 +287,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-09-07T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-07T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/df12b44f-7818-4712-8e5d-99b3ae7f1009.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/4801ANHPDLLRCQPPBDBQTRQJMPNKSLKPJ> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/4801ANHPDLLRCQPPBDBQTRQJMPNKSLKPJ>
+  a schema:Event;
   schema:name "Playlist: A new show by Ivan Coyote. With special guest Christine Genier";
   schema:description """
 	Do you still remember every word of every song that ever changed your life? Are you already humming the tune of the first song that really made you cry? Do you still know all of the lyrics that you copied onto the pages of your journal in grade eight? Writer and performer Ivan Coyote has crafted a playlist of stories that sing to us about how they managed to discover a coded but very possible queer future hidden in the music coming out of the AM radio in the kitchen, lurking in their parent’s record collection, and leaking out of the lyrics in their elementary school musical. Combining Coyote’s equal parts hilarious and heartbreaking stories with long-time collaborator Clyde Petersen’s artwork, Playlist will have you hitting rewind on your own list of songs that helped shape you. <span><br/></span><span><br/></span>Christine Genier will be the opening presenter, who is a performer, poet, writer, broadcaster, journalist and language keeper.  She is a gatherer of stories and moderator of talks, exploring the Indigenous space in popular culture with honesty and humour. Christine has works in progress in with Yukon Digital Theatre (Teach Me How to Throat Sing, 2024) and Nakai Theatre (Dear Star Trek, 2025). Christine Genier is a Wolf Clan citizen of the Ta’an Kwäch’än Council.<span><br/></span>
@@ -268,9 +298,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-11-01T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-01T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/de8b96e1-ffe9-4baf-b912-5e4b6e4f1faf.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/6801ABTVLJRVPSSSGRNRDNBVDKGKTRLVM> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/6801ABTVLJRVPSSSGRNRDNBVDKGKTRLVM>
+  a schema:Event;
   schema:name "Regaining Our Good Hearts: The Role of Emotional Competency in Healing Our World.";
   schema:description """
 	The first of the Illuminating Worldviews community dialogue series, this evening will feature Dr Lee Brown (former Director of the Institute of Aboriginal Health, UBC) and Elder Mark Wedge (Carcross Tagish First Nation Elder, Author of Peacemaking Circles) in conversation with Ayana Young (Host of For The Wild Podcast). We warmly invite you to join us for this dialogue exploring the origin and history of emotional suppression and the importance of recovering our emotional maturity to heal the world. Addressing the lack of emotional learning in contemporary school curriculum, this conversation will explore opportunities for educational transformation through learning that develops the emotional realm of the human being.<span><br/></span><span><br/></span><span class=\"BoldText\">Dr. Lee Brown</span> is the former Director of the Institute of Aboriginal Health in the College of Health Disciplines and the Indigenous Doctoral Program in the Department of Educational Studies at The University of British Columbia, where he wrote his Doctoral Thesis entitled: Making the Classroom a Healthy Place: The Develop of Affective Competency in Aboriginal Pedagogy.. He is the co-author of The Sacred Tree, an educational curriculum based on Aboriginal values and epistemology. Lee has also contributed to the Round Lake Native Healing Centre in Vernon, BC, during the last Thirty years in several capacities, including as clinical supervisor and as a cultural resource to the centre. He has been the keynote speaker at over one hundred Aboriginal conferences. He has been invited to share his knowledge of culture and healing in over five hundred indigenous communities in North America. Dr. Brown has developed a theory of holistic emotional education predicated upon six emotional competency principles arising from his research in the area of affective education and learning. Lee also facilitates the annual Emotional Education Conference and is a Global Emotional Education Association co-founder. Lee has been published in Academic Journals on Emotional Education, including the Canadian Journal of Native Education and AlterNative: A New Zealand International Journal of Indigenous Scholarship. Lee has also served as the guest editor of the UBC Educational Leadership Journal.<span><br/></span><span><br/></span><span class=\"BoldText\">Mark Wedge</span>, or Aan Goosh oo, has long been actively involved in economic and social development, land claims negotiations, ceremonial leadership, and dispute resolution in his community and throughout Canada and the United States. He has served as Khà Shâde Héni (Chief) of the Carcross/Tagish First Nation, as Executive Director of the Council of Yukon Indians, as President and Chairman of Yukon Indian Development Corporation and däna Näye Ventures, and as an inaugural board member of the First Nations Bank of Canada. For over 20 years Mark has held peacemaking circles in workplaces and public forums for sentencing for individual crimes, land claims disputes between First Nations and the Canadian government, and outstanding issues between victims of Mission School abuse and the Anglican Church. He is co-author of the book Peacemaking Circles: From Crime to Community, alongside Kay Pranis and former Chief Judge of the Yukon Territorial Court Barry Stuart. Mark has taught in communities throughout North America and abroad, and is working towards creating Circle-based forms of contemporary tribal governance in his First Nation Government. He advises several postgraduate students; most recently he co-authored a chapter on a Tagish and Tlingit approach to water governance in the book, Global Water Ethics: Towards a global ethics charter. Mark currently sits on the Board of Governors of Yukon University, chairs the Tagish River Habitat Protection Area Steering Committee, is a guiding Elder of the Illuminating Worldviews project, and is leading his Nation's treaty negotiations with British Columbia. He is enjoying his role as a grandpa to Taiya, Kasha and Leonard.<span><br/></span><span><br/></span><span class=\"BoldText\">Ayana Young</span> and her daughter Penelope Mae Walker spend most days strategizing how to stop large scale industrial projects in wild salmon habitat; and exploring the wilderness of Coastal Alaska. Ayana is the Co-Founder and Host of For The Wild, an independent slow media organization and podcast dedicated to land-based protection, co-liberation, and intersectional storytelling that dreams towards a world of grounded justice and reciprocity. Learning deeply from the critical dialogue shared with over 100 guests, Ayana approaches For The Wild’s mission with critical thinking, deep reverence, and artistry. She is also a Co-Founder of the The Chilkat Watershed Fund at Alaska Venture Fund as well as the Co-Founder of The Asher Foundation.
@@ -278,9 +309,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-09-19T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-19T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/2ecd2ce6-3970-4115-8353-40ad1531a8d3.jpg";
-  schema:location place:410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP .
+  schema:location <https://spektrix.com/yukonartscentre/location/410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP> .
 
-<http://www.spektrix.com/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC>
+  a schema:Event;
   schema:name "Said The Whale ";
   schema:description """
 	Said The Whale have earned their place in the Canadian music pantheon. They’ve won a Juno Award, topped the alternative radio chart, and amassed a devoted base of fans who affectionately describe themselves as “SaidHeads” — all the while maintaining their resolute independent spirit. Now, more than a decade into their career, the Vancouver group are opening their most ambitious chapter yet.<span><br/></span><span><br/></span>Throughout 2020, lockdowns meant that the band members were at home, away from the relentless touring cycle that had defined most of their 14-year career. Singer-songwriters Tyler Bancroft and Ben Worcester, plus keyboardist Jaycelyn Brown and bassist Lincoln Hotchen, threw themselves fully into working on new material with producer Steve Bays (Hot Hot Heat) at his Tugboat Place Studio, resulting in the most towering, maximalist music of their careers.<span><br/></span><span><br/></span>Stately piano, roaring guitar distortion, giant-sized synths and orchestral flourishes — every moment blooms with bright, vivid sounds and subtle details. But in spite of the grandiose arrangements and go-for-broke production quality, the new songs are, at their core, classic Said The Whale. <span><br/></span><span><br/></span>Lead single “Honey Lungs” is a bright and bubbly anthem, its crunchy rock swagger shot through with frenzied drum fills and sugar-spiked pop singalongs. Seven albums into their career, Said The Whale are now fully independent and refusing to bask in success. They’re swinging for the fences and holding nothing back in their relentless pursuit of pop-rock perfection.<span><br/></span>
@@ -288,9 +320,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-11-21T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-21T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/26fbc828-1991-4dab-922e-d11097c0b753.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/4001APBPRCSHVVMHTCBMSPSJRNDMCHHLV> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/4001APBPRCSHVVMHTCBMSPSJRNDMCHHLV>
+  a schema:Event;
   schema:name "The Garden: An Original Music, Dance, and Circus Performance";
   schema:description """
 	\"The Garden\" is a wild and whimsical celebration of Yukon's vibrant arts community. Produced by ZGB Productions, a daring, Yukon artist collective, this immersive live performance is a feast for the senses, featuring all local artists. Experience an awe-inspiring display of live and original music, theatre, dance, and circus, all brought together for an unforgettable experience.<span><br/></span><span><br/></span>Inspired by nature and surrealism, \"The Garden\" will captivate you with its colourful characters and will sweep you away with an electrifying mix of music and dance styles, from swinging rhythms and contemporary flows to cabaret flair, electronic beats, Broadway sparkle, and fiery tango. <span><br/></span><span><br/></span>This dynamic and engaging show will add a burst of warmth and joie de vivre before the winter's long, cold, and dark days arrive.<span><br/></span><span><br/></span>Curious yet? Come see for yourself how Yukon's artistic talent blooms in this Garden. Get your tickets now!<span><br/></span><span><br/></span>Audience advisories: This performance is family friendly but your kids might ask you to explain some jokes—consider it a bonus parenting challenge! The show also includes the use of theatrical haze.<span><br/></span>
@@ -298,9 +331,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-10-17T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-19T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/98e053e7-aeaf-4acf-aeb1-7e175f0f4d54.jpeg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/4401APLLPBSHLDJVTLGBDQTQBHJDJSHCM> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/4401APLLPBSHLDJVTLGBDQTQBHJDJSHCM>
+  a schema:Event;
   schema:name "THE GUILD: Hot Flash Comedy with Syd Bosel";
   schema:description """
 	Hot Flash Comedy!<span><br/></span><span><br/></span>featuring Syd Bosel<span><br/></span><span><br/></span>With Special Guests (TBA)<span><br/></span><span><br/></span>Hosted by Helen Schneiderman<span><br/></span><span><br/></span>Friday September 20th and Saturday September 21st, 2024. 8pm<span><br/></span><span><br/></span>Join us this fall for the hilarious stand-up comedian and comedic storyteller Syd Bosel and special guests. Hosted by Helen Schneiderman, Vancouver based comedian Syd Bosel spills her life out onto the stage sharing tales of “adult” children, surviving breast cancer, and other glories of nature.<span><br/></span><span><br/></span>Bring your friends… and your pantyliners!<span><br/></span>
@@ -308,9 +342,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-09-20T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-20T20:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/16ae3f8c-0629-4193-91db-20f3ecc4a0cc.jpg";
-  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> .
 
-<http://www.spektrix.com/6601AQMNQNHRQGLJKCSPPPSGMQSBMDCJM> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/6601AQMNQNHRQGLJKCSPPPSGMQSBMDCJM>
+  a schema:Event;
   schema:name "THE GUILD: Hurricane Diane by Madeleine George";
   schema:description """
 	“An astonishing new play by Madeleine George that whirls ancient myth, lesbian pulp, ecological thriller and The Real Housewives of Monmouth County into a perfect storm of timely tragicomedy.” – Jesse Green, The New York Times<span><br/></span><span><br/></span><span class=\"BoldText\">About the play:</span> In this Obie-winning comedy, Pulitzer Prize finalist Madeleine George pens a hilarious evisceration of the blind eye we all turn to climate change and the bacchanalian catharsis that awaits us, even in our own backyards. Meet Diane, a permaculture gardener dripping with butch lesbian charm. She’s got supernatural abilities owing to her true identity - the Greek god Dionysus- and she’s returned to the modern world to gather mortal followers and restore the Earth to its natural state. Where better to begin than by seducing four housewives in a suburban cul-de-sac? “Hurricane Diane” is presented by arrangement with Concord Theatricals on behalf of Samuel French, Inc. www.concordtheatricals.com.<span><br/></span><span><br/></span>Recommended ages 14+. Content includes swearing, onstage intimacy and social drinking, sexual references, sexually explicit props, and portrayal of climate change collapse. Please reach out to guildproducer@gmail.com if you have questions about content.<span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">'The Guild has a zero tolerance policy for harassment of performers, technicians and front of  house staff. Thank you for your understanding.’ </span></span><span><br/></span><span><br/></span><span class=\"BoldText\">Help keep our performers healthy:</span> If you are not feeling well or showing any symptoms of a cold, flu or Covid-19, please stay home. If you contact the Yukon Arts Centre box office before the start of the performance you have tickets for, you can rebook your tickets or receive a full refund. Please contact the Yukon Arts Centre box office at 867-667-8574 to do so.<span><br/></span><span><br/></span><span class=\"BoldText\">ASL performance:</span> We currently intend to offer an ASL-interpreted performance on Wednesday October 9. If you are a member of the Deaf or hard-of-hearing community and would like to have interpretation at this performance, please email guildproducer@gmail.com at least one week in advance of the show to confirm. You must confirm with the guild producer to ensure ASL interpretation.<span><br/></span>
@@ -318,9 +353,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-10-02T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-19T20:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/655caf78-5872-4cf3-ae23-4754501c42e9.jpg";
-  schema:location place:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH .
+  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> .
 
-<http://www.spektrix.com/669ALJDJPMBHNSNVDBDBDVJVMJMBVMTRK> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/669ALJDJPMBHNSNVDBDBDVJVMJMBVMTRK>
+  a schema:Event;
   schema:name "These Are The Songs That I Sing When I'm Sad";
   schema:description """
 	Ticket Pricing: $25.00 <span><br/></span><span><br/></span>Produced by Nightswimming, These Are The Songs That I Sing When I’m Sad is an intimate and joyous performance for one singer and an audience gathered around her piano. It explores the songs people turn to when they’re sad, the songs that they play to soothe their blues or lift them up out of the depths. Jane sings and tells stories about songs that play this role in her own life, and then invites the audience to share the songs that they sing (or play or listen to) when they’re sad. It’s a rare opportunity to hear a superb singer up close and personal as she delves into the link between deep emotions and the musical elements that make sad songs so addictive. <span><br/></span><span><br/></span>Created by Jane Miller & Brian Quirt.<span><br/></span>Performed by Jane Miller. <span><br/></span>Directed & dramaturged by Brian Quirt. <span><br/></span>Produced by Gloria Mok. <span><br/></span>Designed by Rebecca Picherack. <span><br/></span><span><br/></span>Playlists of sad songs generated by the audience in recent performances can be listened to via <a href=\"https://nightswimming.ca\">https://nightswimming.ca</a><span><br/></span> and playlists from each of the <a href=\"https://nightswimming.ca/sad-songs-playlists-whitehorse/\">Whitehorse performances</a> will be available the following day.
@@ -328,9 +364,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-09-27T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-28T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/641ff22c-b797-4ceb-9f81-904da6383efc.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>
+  a schema:Event;
   schema:name "Whitehorse Concerts - Buzz Brass";
   schema:description """
 	Thanks to outstanding original transcriptions, rediscover famous compositions from the turn of the 20th century by giants such as Debussy, Ravel, Dvořák, Liszt and others, including Khachaturian’s celebrated Sabre Dance. The programme, as inspired as it is inspiring, consists of timeless masterpieces that all audiences will be able to appreciate. Come and hear these works under the new incomparable light that Buzz Brass casts upon them!<span><br/></span>
@@ -338,9 +375,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-10-26T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-26T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/ba8f487c-b583-49bc-99f3-64fa0bb4325f.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/2401AMBSVDSNBDLGKMKJVPMHNLQGTKHSV> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/2401AMBSVDSNBDLGKMKJVPMHNLQGTKHSV>
+  a schema:Event;
   schema:name "Whitehorse Concerts - Janelle Lucyk and Kerry Bursey";
   schema:description """
 	Janelle Lucyk and Kerry Bursey, with appearances by members of the Whitehorse Chamber Choir. Janelle is the artistic director of Ménestrel, her ensemble with Kerry Bursey which produces alternative early music mixing ancient repertoire with oral folk traditions. 
@@ -348,9 +386,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-11-23T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-23T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/cbed9112-9210-477c-acff-1d043f18bda1.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV>
+  a schema:Event;
   schema:name "Whitehorse Concerts - Karl Stobbe and Friends";
   schema:description """
 	Karl Stobbe (violin), Paul Marleyn (cello) and Paul Williamson (piano) anchor this show. They will also be joined by some of the Yukon’s finest classical players. 
@@ -358,9 +397,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2025-03-08T19:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-08T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/dd8372e5-50d9-4383-a516-6da0f1a1c486.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL>
+  a schema:Event;
   schema:name "Whitehorse Concerts - Rachel Fenlon";
   schema:description """
 	featuring music by local composer, Daniel Janke. Drawing from a singer-songwriter approach, Rachel performs song recitals as both singer and pianist accompanying herself. 
@@ -368,9 +408,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2025-02-05T19:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-05T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/ca72b0d8-d7cc-4615-81c5-198526907811.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD>
+  a schema:Event;
   schema:name "Whitehorse Concerts - Tong/Sheppard Duo";
   schema:description """
 	Pianist Michael Sheppard and violinist Jessica Tong first met at the Peabody Institute, where they studied with legendary pianist Leon Fleisher and violinist Pamela Frank respectively. After their first performance of Mozart Violin Sonatas over ten years ago, they discovered they shared a very rare singular vision in their approaches to music-making, and they have continued to collaborate ever since that first performance, presenting inventive and adventurous programs that integrate both well-loved and lesser known masterpieces for violin and piano.
@@ -378,9 +419,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-09-21T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-21T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/e09e330c-cebc-4374-b593-0b94893d3a89.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/7401ABQKCMHPSMGCDJCDKPNHPKRBSBRLS> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/7401ABQKCMHPSMGCDJCDKPNHPKRBSBRLS>
+  a schema:Event;
   schema:name "YFS Megalopolis";
   schema:description """
 	In the city of New Rome, there's a conflict between Cesar, a genius artist who seeks to leap into a utopian, idealistic future, and his opposition, Mayor Franklyn Cicero, who remains committed to a regressive status quo, perpetuating greed, special interests, and partisan warfare. <span><br/></span><span><br/></span>Check out this cast, though: Adam Driver, Giancarlo Esposito, Nathalie Emmanuel, Aubrey Plaza, Shia LaBeouf, Jon Voight, Jason Schwartzman, Talia Shire, Grace VanderWaal, Laurence Fishburne, Kathryn Hunter and Dustin Hoffman Recommended for ages 16 and over for sexual content, nudity, drug use, language and some violence. Dir. Francis Ford Coppola, 2024, USA, 138 mins
@@ -388,9 +430,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-10-29T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-29T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/84a426f4-9438-48b8-91c5-5c4bbe577b6d.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/6401AGGHMDTSNBRCTQVKPTDLMCCJHGPKV> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/6401AGGHMDTSNBRCTQVKPTDLMCCJHGPKV>
+  a schema:Event;
   schema:name "YFS: The Count of Monte Cristo";
   schema:description """
 	LE COMTE DE MONTE-CRISTO<span><br/></span><span><br/></span>The biggest film of the year to come out of France. One night only. Big Screen Cinema. Presented by YFS with the Yukon Arts Centre.<span><br/></span><span><br/></span>Un film de Matthieu Delaporte et Alexandre de La Patellière, avec Pierre Niney, Bastien Bouillon, Anaïs Demoustier, Anamaria Vartolomei, Laurent Lafitte de la Comédie-Française, avec la participation de Pierfrancesco Favino, Patrick Mille, Vassili Schneider et Julien de Saint Jean. Victime d’un complot, le jeune Edmond Dantès est arrêté le jour de son mariage pour un crime qu’il n’a pas commis. Après quatorze ans de détention au château d’If, il parvient à s’évader. Devenu immensément riche, il revient sous l’identité du comte de Monte-Cristo pour se venger des trois hommes qui l’ont trahi.<span><br/></span> <span><br/></span>Edmond Dantes becomes the target of a sinister plot and is arrested on his wedding day for a crime he did not commit. After 14 years in the island prison of Château d'If, he manages a daring escape. Now rich beyond his dreams, he assumes the identity of the Count of Monte-Cristo and exacts his revenge on the three men who betrayed him. <span><br/></span><span><br/></span> In French, Romanian and Italian with EST.<span><br/></span><span><br/></span>Recommended ages 10+. Content advisory: mature themes, violence<span><br/></span><span><br/></span>Dir. Matthieu Delaporte, Alexandre de la Patellière, 2024, France, Belgium, 178 min.<span><br/></span><span><br/></span><span><br/></span><span><br/></span><span><br/></span><span><br/></span><span><br/></span><span><br/></span><span><br/></span>
@@ -398,9 +441,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-09-11T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-11T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/061708e8-1945-46de-be48-d61047d7c4f0.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR>
+  a schema:Event;
   schema:name "YFS: The Greatest of All Time";
   schema:description """
 	One night only on the Yukon's largest cinema screen!<span><br/></span><span><br/></span>An explosive thriller inspired by the 2004 Moscow Metro bombing, where a suicide bomber detonated in a crowded subway, killing dozens. It delves into the aftermath and pursuit of those responsible.<span><br/></span><span><br/></span>Stars: Vijay, Meenakshi Chaudhary, Prasanth, Malvika Sharma, Raghava Lawrence,Sudeep<span><br/></span>Special ticket pricing is in effect for this screening.<span><br/></span><span><br/></span>In Tamil with EST.<span><br/></span><span><br/></span>Recommended for ages 14+ for violence and brutality.<span><br/></span><span><br/></span>Dir. Venkat Prabhu, 2024, India, 170 min.<span><br/></span>
@@ -408,9 +452,10 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-09-08T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-08T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/c95e8ec3-5ebe-4dcb-8a1d-4b6a8f202a59.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<http://www.spektrix.com/793ALHVJVSPBQSSJBMKKDGGPBTSJJLVQH> a schema:Event;
+<http://www.spektrix.com/yukonartscentre/event/793ALHVJVSPBQSSJBMKKDGGPBTSJJLVQH>
+  a schema:Event;
   schema:name "YTYP: Hadestown, Teen Edition";
   schema:description """
 	Pricing<span><br/></span>Adult: $35, Senior $30, Student $30, Youth $30<span><br/></span><span><br/></span>This full-length teen edition of Anaïs Mitchell’s haunting, jazz-inflected folk opera follows Orpheus’ mythical quest to overcome Hades and regain the favour of his one true love, Eurydice. Winner of eight 2019 Tony Awards, including Best Musical, Best Score and Best Orchestrations, and winner of four 2019 Drama Desk Awards, six 2019 Outer Critics Circle Awards including Outstanding New Broadway Musical and winner of a 2020 Grammy Award for Best Musical Theatre Album, Yukon Theatre for Young People’s presentation of Hadestown Teen is the first time in Canada that this show will be performed with amateur licensing rights. YTYP’s production features seasoned young performers all under 20 years of age. Presented with permission of Concord Theatricals.
@@ -418,4 +463,4 @@ address:404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH a schema:PostalAddress;
   schema:startDate "2024-08-14T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-08-16T19:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/b135078a-bad4-49b3-b9f6-6c5b4901f006.jpg";
-  schema:location place:401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH .
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .

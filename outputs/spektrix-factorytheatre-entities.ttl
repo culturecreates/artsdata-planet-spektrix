@@ -8,7 +8,8 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/35202ABDJRJHRSVCCPJVGJNPJGHTTTGKJ> a schema:Event;
+<http://www.spektrix.com/factorytheatre/event/35202ABDJRJHRSVCCPJVGJNPJGHTTTGKJ> a
+    schema:Event;
   schema:name "Angel Morgan Psychic 25th Anniversary Tour!";
   schema:description """
 
@@ -16,19 +17,33 @@
   schema:startDate "2024-10-18T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-18T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP .
+  schema:location <https://spektrix.com/factorytheatre/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> .
 
-place:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:Place;
+<https://spektrix.com/factorytheatre/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> a
+    schema:Place;
   schema:name "Factory Theatre";
-  schema:address address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP .
+  schema:address <https://spektrix.com/factorytheatre/address/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> .
 
-address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
+<https://spektrix.com/factorytheatre/address/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> a
+    schema:PostalAddress;
   schema:streetAddress "125 Bathurst Street";
   schema:addressLocality "Toronto ON";
   schema:addressRegion "M5V 2R2";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/40402AHKSSHJHJHRCSPLMGCHBPSMCQVCQ> a schema:Event;
+<http://www.spektrix.com/factorytheatre/event/42202AVVCSBHLRSNNLJKHSLJPJKRPPGGT> a
+    schema:Event;
+  schema:name "Dissonant Species";
+  schema:description """
+
+""";
+  schema:startDate "2024-11-14T19:30:00"^^xsd:dateTime;
+  schema:endDate "2024-11-17T14:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/factorytheatre/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> .
+
+<http://www.spektrix.com/factorytheatre/event/40402AHKSSHJHJHRCSPLMGCHBPSMCQVCQ> a
+    schema:Event;
   schema:name "Documents Perform | Documentos Actúan";
   schema:description """
 
@@ -36,9 +51,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-10-01T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-01T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP .
+  schema:location <https://spektrix.com/factorytheatre/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> .
 
-<http://www.spektrix.com/40602ARTCTGPPQKDLDCQPMHLNBJSDQLTL> a schema:Event;
+<http://www.spektrix.com/factorytheatre/event/40602ARTCTGPPQKDLDCQPMHLNBJSDQLTL> a
+    schema:Event;
   schema:name "I Don't Even Miss You";
   schema:description """
 
@@ -46,9 +62,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-10-31T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-10T14:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP .
+  schema:location <https://spektrix.com/factorytheatre/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> .
 
-<http://www.spektrix.com/42002ANNRSNNDMNVVLTBRDHSKLGPSHDHR> a schema:Event;
+<http://www.spektrix.com/factorytheatre/event/42002ANNRSNNDMNVVLTBRDHSKLGPSHDHR> a
+    schema:Event;
   schema:name "Let's Assume I Know Nothing, And Move Forward From There";
   schema:description """
 
@@ -56,9 +73,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2025-03-04T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-16T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP .
+  schema:location <https://spektrix.com/factorytheatre/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> .
 
-<http://www.spektrix.com/39602ADJGBBDTSCHMNLJTKBSQMMMGMGHD> a schema:Event;
+<http://www.spektrix.com/factorytheatre/event/39602ADJGBBDTSCHMNLJTKBSQMMMGMGHD> a
+    schema:Event;
   schema:name "ROSA";
   schema:description """
 
@@ -66,9 +84,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-10-04T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-06T14:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP .
+  schema:location <https://spektrix.com/factorytheatre/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> .
 
-<http://www.spektrix.com/41802ADLRKJVHHQGPPMRJNCRPPHJGSJRD> a schema:Event;
+<http://www.spektrix.com/factorytheatre/event/41802ADLRKJVHHQGPPMRJNCRPPHJGSJRD> a
+    schema:Event;
   schema:name "RPS FEST";
   schema:description """
 
@@ -76,9 +95,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-10-17T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-19T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP .
+  schema:location <https://spektrix.com/factorytheatre/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> .
 
-<http://www.spektrix.com/40202AJLHNJPHGGLJQQQHSSPBKDTQKNVV> a schema:Event;
+<http://www.spektrix.com/factorytheatre/event/40202AJLHNJPHGGLJQQQHSSPBKDTQKNVV> a
+    schema:Event;
   schema:name "SCOTT HAMMELL: NO SECRETS";
   schema:description """
 
@@ -86,9 +106,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-09-07T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-07T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP .
+  schema:location <https://spektrix.com/factorytheatre/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> .
 
-<http://www.spektrix.com/40802ADCBTNPLKVLNBPLBDDJHJQHRRGBN> a schema:Event;
+<http://www.spektrix.com/factorytheatre/event/40802ADCBTNPLKVLNBPLBDDJHJQHRRGBN> a
+    schema:Event;
   schema:name "SHEER BLIND VELOCITY";
   schema:description """
 
@@ -96,9 +117,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-10-26T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-26T21:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP .
+  schema:location <https://spektrix.com/factorytheatre/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> .
 
-<http://www.spektrix.com/39402ARCJHKNTKTDMDHGMNLMSVTQHVNCR> a schema:Event;
+<http://www.spektrix.com/factorytheatre/event/39402ARCJHKNTKTDMDHGMNLMSVTQHVNCR> a
+    schema:Event;
   schema:name "WILMA";
   schema:description """
 
@@ -106,4 +128,4 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-09-26T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-29T14:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP .
+  schema:location <https://spektrix.com/factorytheatre/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> .

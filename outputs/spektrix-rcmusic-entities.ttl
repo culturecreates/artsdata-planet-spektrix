@@ -8,7 +8,7 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/233202ATMJBLVNNMDKJLDTTSTVPKKPRDL> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/233202ATMJBLVNNMDKJLDTTSTVPKKPRDL> a schema:Event;
   schema:name "2024 CBC Massey Lectures What I Mean to Say: Ian Williams";
   schema:description """
 
@@ -16,23 +16,23 @@
   schema:startDate "2024-10-29T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-29T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:cbc-massey-lecture .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/cbc-massey-lecture> .
 
-organization:cbc-massey-lecture a schema:Organization;
+<https://spektrix.com/rcmusic/organization/cbc-massey-lecture> a schema:Organization;
   schema:name "CBC Massey Lecture" .
 
-place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ a schema:Place;
+<https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ> a schema:Place;
   schema:name "TELUS Centre for Performance and Learning";
-  schema:address address:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ .
+  schema:address <https://spektrix.com/rcmusic/address/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ> .
 
-address:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ> a schema:PostalAddress;
   schema:streetAddress "273 Bloor St W";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/188202APHBCTJHSKQGNCBDBSCJCRMNBCN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/188202APHBCTJHSKQGNCBDBSCJCRMNBCN> a schema:Event;
   schema:name "2024 Griffin Poetry Prize Readings";
   schema:description """
 
@@ -40,13 +40,14 @@ address:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ a schema:PostalAddress;
   schema:startDate "2024-06-05T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-06-05T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-griffin-trust-for-excellence-in--poetry .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-griffin-trust-for-excellence-in--poetry> .
 
-organization:the-griffin-trust-for-excellence-in--poetry a schema:Organization;
+<https://spektrix.com/rcmusic/organization/the-griffin-trust-for-excellence-in--poetry>
+  a schema:Organization;
   schema:name "The Griffin Trust For Excellence In  Poetry" .
 
-<http://www.spektrix.com/229202AKPMVDHMQNMNNSNCLPRTVMHBLLN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/229202AKPMVDHMQNMNNSNCLPRTVMHBLLN> a schema:Event;
   schema:name "21C Afterhours: GGS New Music Ensemble";
   schema:description """
 
@@ -54,13 +55,13 @@ organization:the-griffin-trust-for-excellence-in--poetry a schema:Organization;
   schema:startDate "2025-01-18T22:00:00"^^xsd:dateTime;
   schema:endDate "2025-01-18T22:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-organization:the-royal-conservatory a schema:Organization;
+<https://spektrix.com/rcmusic/organization/the-royal-conservatory> a schema:Organization;
   schema:name "The Royal Conservatory" .
 
-<http://www.spektrix.com/223602ATLBHNQBKBPJKTNGBSKRGCLTHVT> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/223602ATLBHNQBKBPJKTNGBSKRGCLTHVT> a schema:Event;
   schema:name "28th Annual WGC Screenwriting Awards";
   schema:description """
 
@@ -68,13 +69,13 @@ organization:the-royal-conservatory a schema:Organization;
   schema:startDate "2024-05-13T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-05-13T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:writers-guild-of-canada .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/writers-guild-of-canada> .
 
-organization:writers-guild-of-canada a schema:Organization;
+<https://spektrix.com/rcmusic/organization/writers-guild-of-canada> a schema:Organization;
   schema:name "Writers Guild of Canada" .
 
-<http://www.spektrix.com/236002AHBGKNMGSTTHLRGTPPVNGHQNTDN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/236002AHBGKNMGSTTHLRGTPPVNGHQNTDN> a schema:Event;
   schema:name "A Gospel Jazz Christmas feat. TMC and Mike Janzen Trio";
   schema:description """
 
@@ -82,13 +83,13 @@ organization:writers-guild-of-canada a schema:Organization;
   schema:startDate "2024-12-12T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-12-12T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:mike--janzen .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/mike--janzen> .
 
-organization:mike--janzen a schema:Organization;
+<https://spektrix.com/rcmusic/organization/mike--janzen> a schema:Organization;
   schema:name "Mike  Janzen" .
 
-<http://www.spektrix.com/228602AKPHDKCSKGSSJSPVSDVHPGCSHKT> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/228602AKPHDKCSKGSSJSPVSDVHPGCSHKT> a schema:Event;
   schema:name "Academy Chamber Orchestra";
   schema:description """
 
@@ -96,10 +97,10 @@ organization:mike--janzen a schema:Organization;
   schema:startDate "2024-12-14T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-12-14T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/229002AGHLDJVCKLKKNGBHNPLKLBVPTSL> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/229002AGHLDJVCKLKKNGBHNPLKLBVPTSL> a schema:Event;
   schema:name "Academy Chamber Orchestra";
   schema:description """
 
@@ -107,10 +108,10 @@ organization:mike--janzen a schema:Organization;
   schema:startDate "2025-04-27T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-04-27T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/236402APBTTSVLHJLJLBHNVRQSNRDSSMR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/236402APBTTSVLHJLJLBHNVRQSNRDSSMR> a schema:Event;
   schema:name "Ali Velshi";
   schema:description """
 
@@ -118,10 +119,10 @@ organization:mike--janzen a schema:Organization;
   schema:startDate "2024-10-15T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-15T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/224002ALNVVJMGGSNQPDJGDSMPGSLSDJN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/224002ALNVVJMGGSNQPDJGDSMPGSLSDJN> a schema:Event;
   schema:name "Amici Chamber Ensemble MEMORIES GALA";
   schema:description """
 
@@ -129,23 +130,23 @@ organization:mike--janzen a schema:Organization;
   schema:startDate "2024-05-25T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-05-25T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:5202ASQBLCCDQHPSNGLPNKBRBPCCKPGQS;
-  schema:organizer organization:amici-chamber-ensemble .
+  schema:location <https://spektrix.com/rcmusic/location/5202ASQBLCCDQHPSNGLPNKBRBPCCKPGQS>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/amici-chamber-ensemble> .
 
-organization:amici-chamber-ensemble a schema:Organization;
+<https://spektrix.com/rcmusic/organization/amici-chamber-ensemble> a schema:Organization;
   schema:name "Amici Chamber Ensemble" .
 
-place:5202ASQBLCCDQHPSNGLPNKBRBPCCKPGQS a schema:Place;
+<https://spektrix.com/rcmusic/location/5202ASQBLCCDQHPSNGLPNKBRBPCCKPGQS> a schema:Place;
   schema:name "Rosedale Golf Club";
-  schema:address address:5202ASQBLCCDQHPSNGLPNKBRBPCCKPGQS .
+  schema:address <https://spektrix.com/rcmusic/address/5202ASQBLCCDQHPSNGLPNKBRBPCCKPGQS> .
 
-address:5202ASQBLCCDQHPSNGLPNKBRBPCCKPGQS a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/5202ASQBLCCDQHPSNGLPNKBRBPCCKPGQS> a schema:PostalAddress;
   schema:streetAddress "1901 Mount Pleasant Rd";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/234802AKKBMPSMHJPKCVGTSTRCPNBSDQQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/234802AKKBMPSMHJPKCVGTSTRCPNBSDQQ> a schema:Event;
   schema:name "Amici Chamber Ensemble presents Hidden Treasures";
   schema:description """
 
@@ -153,20 +154,20 @@ address:5202ASQBLCCDQHPSNGLPNKBRBPCCKPGQS a schema:PostalAddress;
   schema:startDate "2025-04-13T15:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-13T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:amici-chamber-ensemble .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/amici-chamber-ensemble> .
 
-place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:Place;
+<https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV> a schema:Place;
   schema:name "Trinity-St Paul's Centre";
-  schema:address address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV .
+  schema:address <https://spektrix.com/rcmusic/address/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV> .
 
-address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV> a schema:PostalAddress;
   schema:streetAddress "427 Bloor St W";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/234202AMVMBRKNSRSVNJQPSCSHVQKVRQP> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/234202AMVMBRKNSRSVNJQPSCSHVQKVRQP> a schema:Event;
   schema:name "Amici Chamber Ensemble presents Maestro Bernstein";
   schema:description """
 
@@ -174,10 +175,10 @@ address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
   schema:startDate "2024-10-06T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-06T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:amici-chamber-ensemble .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/amici-chamber-ensemble> .
 
-<http://www.spektrix.com/234602ACBMHHSCLMQGPDVSPTLPKTGGDTT> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/234602ACBMHHSCLMQGPDVSPTLPKTGGDTT> a schema:Event;
   schema:name "Amici Chamber Ensemble presents Piaf and Poulenc";
   schema:description """
 
@@ -185,10 +186,10 @@ address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
   schema:startDate "2025-02-09T15:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-09T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:amici-chamber-ensemble .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/amici-chamber-ensemble> .
 
-<http://www.spektrix.com/234402ACMTBQHQPPGMDDTRGQDMMKGTSLN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/234402ACMTBQHQPPGMDDTRGQDMMKGTSLN> a schema:Event;
   schema:name "Amici Chamber Ensemble presents Was Brahms a god?";
   schema:description """
 
@@ -196,10 +197,10 @@ address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
   schema:startDate "2024-11-10T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-10T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:amici-chamber-ensemble .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/amici-chamber-ensemble> .
 
-<http://www.spektrix.com/217002AQMKQDQBJMGCKJGRLBTCCGBGMHG> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/217002AQMKQDQBJMGCKJGRLBTCCGBGMHG> a schema:Event;
   schema:name "An Evening with Branford Marsalis";
   schema:description """
 
@@ -207,10 +208,10 @@ address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
   schema:startDate "2025-02-08T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-08T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/235002ALBPNKVJVHMTPHGGLNNNKLKVMJR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/235002ALBPNKVJVHMTPHGGLNNNKLKVMJR> a schema:Event;
   schema:name "Angélique Kidjo";
   schema:description """
 
@@ -218,10 +219,10 @@ address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
   schema:startDate "2025-03-25T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-25T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/231202ALPCVPPNCPVKBDBHKQHNSTHLJDV> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/231202ALPCVPPNCPVKBDBHKQHNSTHLJDV> a schema:Event;
   schema:name "ARC Ensemble: Czech Mates";
   schema:description """
 
@@ -229,10 +230,10 @@ address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
   schema:startDate "2024-11-10T14:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-10T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/231402ANQQRKBDPTNDKTKPVHTTKDBTCLR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/231402ANQQRKBDPTNDKTKPVHTTKDBTCLR> a schema:Event;
   schema:name "ARC Ensemble: Hollywood Exiles";
   schema:description """
 
@@ -240,10 +241,10 @@ address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
   schema:startDate "2025-04-06T14:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-06T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/106402AGNPPKSHCJTVMKMSLTHTVLLNLGJ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/106402AGNPPKSHCJTVMKMSLTHTVLLNLGJ> a schema:Event;
   schema:name "Artists in Performance: Ukrainian Art Song Summer Institute";
   schema:description """
 
@@ -251,13 +252,13 @@ address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
   schema:startDate "2023-08-27T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-08-18T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:ukrainian-art-song-project .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/ukrainian-art-song-project> .
 
-organization:ukrainian-art-song-project a schema:Organization;
+<https://spektrix.com/rcmusic/organization/ukrainian-art-song-project> a schema:Organization;
   schema:name "Ukrainian Art Song Project" .
 
-<http://www.spektrix.com/214802APJCGRKGGSJHRTGDTRJSKBQQLNV> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/214802APJCGRKGGSJHRTGDTRJSKBQQLNV> a schema:Event;
   schema:name "Barbara Hannigan with Bertrand Chamayou";
   schema:description """
 
@@ -265,10 +266,10 @@ organization:ukrainian-art-song-project a schema:Organization;
   schema:startDate "2024-11-28T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-28T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/232402ALJHPBJVSMQTLHDRRNPCVQQLRVC> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/232402ALJHPBJVSMQTLHDRRNPCVQQLRVC> a schema:Event;
   schema:name "Beethoven's Nine: Ode to Humanity";
   schema:description """
 
@@ -276,10 +277,10 @@ organization:ukrainian-art-song-project a schema:Organization;
   schema:startDate "2024-11-19T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-19T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/215802ARQBHHVRGCBSDVNJGTVCBLSHRVQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/215802ARQBHHVRGCBSDVNJGTVCBLSHRVQ> a schema:Event;
   schema:name "Benjamin Grosvenor";
   schema:description """
 
@@ -287,10 +288,10 @@ organization:ukrainian-art-song-project a schema:Organization;
   schema:startDate "2024-11-08T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-08T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/229802ADQVVMLTDHGVPVTSRRGRQMNJBQM> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/229802ADQVVMLTDHGVPVTSRRGRQMNJBQM> a schema:Event;
   schema:name "Bruce Hornsby & yMusic: BrhyM";
   schema:description """
 
@@ -298,10 +299,10 @@ organization:ukrainian-art-song-project a schema:Organization;
   schema:startDate "2025-05-03T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-05-03T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/213602ACRPQMJKTGQHGSVSSVTLCPBMNBS> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/213602ACRPQMJKTGQHGSVSSVTLCPBMNBS> a schema:Event;
   schema:name "Bruce Liu";
   schema:description """
 
@@ -309,10 +310,10 @@ organization:ukrainian-art-song-project a schema:Organization;
   schema:startDate "2025-01-19T15:00:00"^^xsd:dateTime;
   schema:endDate "2025-01-19T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/200802ARPCPVVJBRLJVTNTVVJLKPSGVNV> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/200802ARPCPVVJBRLJVTNTVVJLKPSGVNV> a schema:Event;
   schema:name "Cesária Évora Orchestra";
   schema:description """
 
@@ -320,10 +321,10 @@ organization:ukrainian-art-song-project a schema:Organization;
   schema:startDate "2025-02-22T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-22T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/239202APTQNJVDLPVMDTBQKSTMNBHDVMK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/239202APTQNJVDLPVMDTBQKSTMNBHDVMK> a schema:Event;
   schema:name "Chabad on Bayview presents Violins of Hope";
   schema:description """
 
@@ -331,13 +332,13 @@ organization:ukrainian-art-song-project a schema:Organization;
   schema:startDate "2024-11-12T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-12T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:chabad-on-bayview .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/chabad-on-bayview> .
 
-organization:chabad-on-bayview a schema:Organization;
+<https://spektrix.com/rcmusic/organization/chabad-on-bayview> a schema:Organization;
   schema:name "Chabad on Bayview" .
 
-<http://www.spektrix.com/230602ASMGKPVVDCCMKQQKDVCPJLDCTBM> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/230602ASMGKPVVDCCMKQQKDVCPJLDCTBM> a schema:Event;
   schema:name "Commemorate the National Day of Truth & Reconciliation with Tanya Tagaq, Lido Pimienta, and others";
   schema:description """
 
@@ -345,10 +346,10 @@ organization:chabad-on-bayview a schema:Organization;
   schema:startDate "2024-10-01T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-01T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/232002ADDJHPMKJNQTPRVKLPBVNRGCKHJ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/232002ADDJHPMKJNQTPRVKLPBVNRGCKHJ> a schema:Event;
   schema:name "Continuum Contemporary Music: Spanning";
   schema:description """
 
@@ -356,10 +357,10 @@ organization:chabad-on-bayview a schema:Organization;
   schema:startDate "2025-01-25T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-01-25T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/217603AMQTSGCNNSMPNNMCLRQKHHTDMDJ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/217603AMQTSGCNNSMPNNMCLRQKHHTDMDJ> a schema:Event;
   schema:name "Czech Philharmonic conducted by Semyon Bychkov with Daniil Trifonov";
   schema:description """
 
@@ -367,10 +368,10 @@ organization:chabad-on-bayview a schema:Organization;
   schema:startDate "2024-12-07T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-07T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/218802ADRJLDPDQHVCMGKHNQHQVVLDTVD> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/218802ADRJLDPDQHVCMGKHNQHQVVLDTVD> a schema:Event;
   schema:name "Czech Philharmonic conducted by Semyon Bychkov with Jan Mráček";
   schema:description """
 
@@ -378,10 +379,10 @@ organization:chabad-on-bayview a schema:Organization;
   schema:startDate "2024-12-08T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-08T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/231002APGPVGLTJRNGJLQTRVTGBKQHRHP> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/231002APGPVGLTJRNGJLQTRVTGBKQHRHP> a schema:Event;
   schema:name "David Louie";
   schema:description """
 
@@ -389,10 +390,10 @@ organization:chabad-on-bayview a schema:Organization;
   schema:startDate "2024-11-03T14:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-03T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/240802AHVSQKCGMLMSSMTHDJSHGBQTRTT> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/240802AHVSQKCGMLMSSMTHDJSHGBQTRTT> a schema:Event;
   schema:name "Dean’s Master Class with Emanuel Ax";
   schema:description """
 
@@ -400,10 +401,10 @@ organization:chabad-on-bayview a schema:Organization;
   schema:startDate "2024-10-05T17:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-05T17:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/228202ALSDTKJVDTKKDHKMVDQVJTQDMDJ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/228202ALSDTKJVDTKKDHKMVDQVJTQDMDJ> a schema:Event;
   schema:name "Eliades Ochoa";
   schema:description """
 
@@ -411,10 +412,10 @@ organization:chabad-on-bayview a schema:Organization;
   schema:startDate "2025-05-10T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-05-10T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/217202ANTMJHHLPHLQTNSTCHDPCBCHLPV> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/217202ANTMJHHLPHLQTNSTCHDPCBCHLPV> a schema:Event;
   schema:name "Emanuel Ax";
   schema:description """
 
@@ -422,10 +423,10 @@ organization:chabad-on-bayview a schema:Organization;
   schema:startDate "2024-10-06T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-06T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/216402AJVLVLNTCGPLJHGLBHHKKSKSDGG> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/216402AJVLVLNTCGPLJHGLBHHKKSKSDGG> a schema:Event;
   schema:name "Emilie-Claire Barlow: Winter Wonderland";
   schema:description """
 
@@ -433,10 +434,10 @@ organization:chabad-on-bayview a schema:Organization;
   schema:startDate "2024-12-14T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-14T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/240402ATRSJJQGLCNHNBVRKRQCQRNRTBN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/240402ATRSJJQGLCNHNBVRKRQCQRNRTBN> a schema:Event;
   schema:name "Esprit Orchestra presents CARROT REVOLUTION";
   schema:description """
 
@@ -444,13 +445,13 @@ organization:chabad-on-bayview a schema:Organization;
   schema:startDate "2025-04-02T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-02T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:esprit-orchestra .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/esprit-orchestra> .
 
-organization:esprit-orchestra a schema:Organization;
+<https://spektrix.com/rcmusic/organization/esprit-orchestra> a schema:Organization;
   schema:name "Esprit Orchestra" .
 
-<http://www.spektrix.com/239802APVSNKNTSBVPGLLRPVLKKBDCVNJ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/239802APVSNKNTSBVPGLLRPVLKKBDCVNJ> a schema:Event;
   schema:name "Esprit Orchestra presents CHASING VITO";
   schema:description """
 
@@ -458,10 +459,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2025-03-04T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-04T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:esprit-orchestra .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/esprit-orchestra> .
 
-<http://www.spektrix.com/208402AVVCDNPHJPLSLMLBGQTQLHDHLSM> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/208402AVVCDNPHJPLSLMLBGQTQLHDHLSM> a schema:Event;
   schema:name "Esprit Orchestra presents Circle Maps";
   schema:description """
 
@@ -469,10 +470,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2023-11-30T20:00:00"^^xsd:dateTime;
   schema:endDate "2023-11-30T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:esprit-orchestra .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/esprit-orchestra> .
 
-<http://www.spektrix.com/240202AMMLBSDQPPVSPBKSNBQMQJLSRQH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/240202AMMLBSDQPPVSPBKSNBQMQJLSRQH> a schema:Event;
   schema:name "Esprit Orchestra presents COSMIC HEARTBEATS";
   schema:description """
 
@@ -480,10 +481,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2025-04-17T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-17T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:esprit-orchestra .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/esprit-orchestra> .
 
-<http://www.spektrix.com/239402ACBKRPVPPPTPJVTSTSDGNCKCTNP> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/239402ACBKRPVPPPTPJVTSTSDGNCKCTNP> a schema:Event;
   schema:name "Esprit Orchestra presents f(x)=";
   schema:description """
 
@@ -491,10 +492,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2024-11-27T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-27T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:esprit-orchestra .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/esprit-orchestra> .
 
-<http://www.spektrix.com/240002AMTQSNDGDKNRKKMPDSJGSMNLLMB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/240002AMTQSNDGDKNRKKMPDSJGSMNLLMB> a schema:Event;
   schema:name "Esprit Orchestra presents ICEFIRE, DO-RE-MI & CARING FOR THE EARTH";
   schema:description """
 
@@ -502,10 +503,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2025-03-27T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-27T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:esprit-orchestra .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/esprit-orchestra> .
 
-<http://www.spektrix.com/240602ARLHQDPLLDHNRGKPQJRPDJLCSHQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/240602ARLHQDPLLDHNRGKPQJRPDJLCSHQ> a schema:Event;
   schema:name "Esprit Orchestra presents IMAGINARY PANCAKE";
   schema:description """
 
@@ -513,10 +514,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2025-04-06T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-06T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:esprit-orchestra .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/esprit-orchestra> .
 
-<http://www.spektrix.com/239602ASKLQCKQTSRVVRCHSKMVCJLMBKL> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/239602ASKLQCKQTSRVVRCHSKMVCJLMBKL> a schema:Event;
   schema:name "Esprit Orchestra presents RUNNER";
   schema:description """
 
@@ -524,10 +525,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2025-02-23T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-23T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:esprit-orchestra .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/esprit-orchestra> .
 
-<http://www.spektrix.com/209002AMJHRCDMKNKVVBMPLJDCTMQJVBV> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/209002AMJHRCDMKNKVVBMPLJDCTMQJVBV> a schema:Event;
   schema:name "Esprit Orchestra presents Sonic Universe";
   schema:description """
 
@@ -535,10 +536,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2024-04-25T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-04-25T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:esprit-orchestra .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/esprit-orchestra> .
 
-<http://www.spektrix.com/208602ADRKBQPBSRSMNRCTCBNTBCBHRBT> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/208602ADRKBQPBSRSMNRCTCBNTBCBHRBT> a schema:Event;
   schema:name "Esprit Orchestra presents Three";
   schema:description """
 
@@ -546,10 +547,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2024-01-24T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-01-24T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:esprit-orchestra .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/esprit-orchestra> .
 
-<http://www.spektrix.com/208802ABHHJJSNHQCHNDGHSQPRMBJLDQD> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/208802ABHHJJSNHQCHNDGHSQPRMBJLDQD> a schema:Event;
   schema:name "Esprit Orchestra presents Violinissimo II";
   schema:description """
 
@@ -557,10 +558,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2024-03-28T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-03-28T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:esprit-orchestra .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/esprit-orchestra> .
 
-<http://www.spektrix.com/208202AVMMDVHDRQMNPCBJVCPBPTCHVMT> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/208202AVMMDVHDRQMNPCBJVCPBPTCHVMT> a schema:Event;
   schema:name "Esprit Orchestra presents X Marks The Spot";
   schema:description """
 
@@ -568,10 +569,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2023-10-15T20:00:00"^^xsd:dateTime;
   schema:endDate "2023-10-15T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:esprit-orchestra .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/esprit-orchestra> .
 
-<http://www.spektrix.com/232003AMMBBHMSNJSPVKQQDLMSKHTQDQN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/232003AMMBBHMSNJSPVKQQDLMSKHTQDQN> a schema:Event;
   schema:name "GGS Brass & Friends";
   schema:description """
 
@@ -579,10 +580,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2025-02-02T14:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-02T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/226803AVPLTJHCKKVCBCVCVPVLMNQSDQP> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/226803AVPLTJHCKKVCBCVCVPVLMNQSDQP> a schema:Event;
   schema:name "GGS Chamber Opera: Ravel’s L’enfant et les sortilèges and Debussy’s L’enfant prodigue";
   schema:description """
 
@@ -590,10 +591,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2024-11-02T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-02T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/227002ADPTVHRTPJQKRVBDGRSQSBQRVMQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/227002ADPTVHRTPJQKRVBDGRSQSBQRVMQ> a schema:Event;
   schema:name "GGS Chamber Opera: Ravel’s L’enfant et les sortilèges and Debussy’s L’enfant prodigue";
   schema:description """
 
@@ -601,10 +602,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2024-11-01T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-01T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/226202ABNSQCPLNKJBNNKHPTGTRJLBQHG> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/226202ABNSQCPLNKJBNNKHPTGTRJLBQHG> a schema:Event;
   schema:name "GGS New Music Ensemble";
   schema:description """
 
@@ -612,10 +613,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2025-04-22T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-04-22T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/232202ANTTBBVRJLRBDNGHQLGSRLCMVRC> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/232202ANTTBBVRJLRBDNGHQLGSRLCMVRC> a schema:Event;
   schema:name "GGS Percussion & Friends";
   schema:description """
 
@@ -623,10 +624,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2025-02-23T14:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-23T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/212202AQKRKKDSPSRPJLPKBVQJHLHPTCH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/212202AQKRKKDSPSRPJLPKBVQJHLHPTCH> a schema:Event;
   schema:name "GGS Spring Opera: Wolfgang Amadeus Mozart's Die Zauberflöte";
   schema:description """
 
@@ -634,10 +635,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2025-03-19T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-19T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/212402ATRTBMBPSMQLVMJRGTSGMQRRTCS> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/212402ATRTBMBPSMQLVMJRGTSGMQRRTCS> a schema:Event;
   schema:name "GGS Spring Opera: Wolfgang Amadeus Mozart's Die Zauberflöte";
   schema:description """
 
@@ -645,10 +646,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2025-03-21T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-21T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/229602AVRMNJGBHMLNVGMSVRVRGMPRKLG> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/229602AVRMNJGBHMLNVGMSVRVRGMPRKLG> a schema:Event;
   schema:name "Harold López-Nussa with Grégoire Maret and Hilario Durán with His Latin Jazz Big Band";
   schema:description """
 
@@ -656,10 +657,10 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2025-02-20T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-20T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/237402ATNJRQLLQCNGHPDVKRJTJGJQNJK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/237402ATNJRQLLQCNGHPDVKRJTJGJQNJK> a schema:Event;
   schema:name "Here One Moment by Liane Moriarty";
   schema:description """
 	<h1>Buy the book!</h1>Purchase now and save 30% on your copy of, <span class=\"ItalicText\">Here One Moment</span>, at the special price of $26 ($38 regular retail price). The event will be followed by a book signing.
@@ -667,23 +668,24 @@ organization:esprit-orchestra a schema:Organization;
   schema:startDate "2024-09-19T17:30:00"^^xsd:dateTime;
   schema:endDate "2024-09-19T17:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP;
-  schema:organizer organization:toronto-international-festival-of-authors .
+  schema:location <https://spektrix.com/rcmusic/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-international-festival-of-authors> .
 
-organization:toronto-international-festival-of-authors a schema:Organization;
+<https://spektrix.com/rcmusic/organization/toronto-international-festival-of-authors>
+  a schema:Organization;
   schema:name "Toronto International Festival of Authors" .
 
-place:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:Place;
+<https://spektrix.com/rcmusic/location/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> a schema:Place;
   schema:name "Koerner Hall";
-  schema:address address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP .
+  schema:address <https://spektrix.com/rcmusic/address/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> .
 
-address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP> a schema:PostalAddress;
   schema:streetAddress "273 Bloor St W";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/201403AQKNHGRTNCRTBRHRNTTGPMJJKPD> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/201403AQKNHGRTNCRTBRHRNTTGPMJJKPD> a schema:Event;
   schema:name "Hilary Hahn with Andreas Haefliger";
   schema:description """
 
@@ -691,10 +693,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-06-06T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-06-06T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/217403AVPMTSVNRNKJRNRKDLPKLVSKQSH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/217403AVPMTSVNRNKJRNRKDLPKLVSKQSH> a schema:Event;
   schema:name "James Ehnes and Orion Weiss";
   schema:description """
 
@@ -702,10 +704,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2025-05-11T15:00:00"^^xsd:dateTime;
   schema:endDate "2025-05-11T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/230603AHJQDJLJHKRLDCKHGPKTKHLVLPN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/230603AHJQDJLJHKRLDCKHGPKTKHLVLPN> a schema:Event;
   schema:name "Jane Bunnett and Friends";
   schema:description """
 
@@ -713,10 +715,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2025-03-01T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-01T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/235402ANQCNRSBCHPSSBJBTQMPSPRCVSB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/235402ANQCNRSBCHPSSBJBTQMPSPRCVSB> a schema:Event;
   schema:name "Jaymz Bee presents THANK YOU JAZZ.FM91";
   schema:description """
 
@@ -724,13 +726,13 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-10-16T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-16T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer <https://spektrix.com/organization/vesuvius-music-inc.> .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/vesuvius-music-inc.> .
 
-<https://spektrix.com/organization/vesuvius-music-inc.> a schema:Organization;
+<https://spektrix.com/rcmusic/organization/vesuvius-music-inc.> a schema:Organization;
   schema:name "Vesuvius Music Inc." .
 
-<http://www.spektrix.com/227202ALTNDGBRMSBQKDTMLBBKRRVGQLN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/227202ALTNDGBRMSBQKDTMLBBKRRVGQLN> a schema:Event;
   schema:name "Joaquin Valdepeñas Conducts";
   schema:description """
 
@@ -738,10 +740,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-12-05T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-12-05T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/213802ACHNQDPQCSPGHBVLHGTGCHLGNTM> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/213802ACHNQDPQCSPGHBVLHGTGCHLGNTM> a schema:Event;
   schema:name "Kevin Chen";
   schema:description """
 
@@ -749,10 +751,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-12-15T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-15T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/215002ATGRSRBKLVSRQVBTGDBDCNSLQKR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/215002ATGRSRBKLVSRQVBTGDBDCNSLQKR> a schema:Event;
   schema:name "Leonidas Kavakos plays Bach #1";
   schema:description """
 
@@ -760,10 +762,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-11-09T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-09T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/215202AKJGGRVLTCVNQTKGHTQSQDDVDJJ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/215202AKJGGRVLTCVNQTKGHTQSQDDVDJJ> a schema:Event;
   schema:name "Leonidas Kavakos plays Bach #2";
   schema:description """
 
@@ -771,10 +773,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-11-10T17:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-10T17:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/217802ALQVNPQVJRCCJDHBTSDRMCHSTSC> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/217802ALQVNPQVJRCCJDHBTSDRMCHSTSC> a schema:Event;
   schema:name "Les Arts Florissants with Théotime Langlois de Swarte";
   schema:description """
 
@@ -782,10 +784,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2025-03-29T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-29T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/216002AJGVSKGRGCQRVKJSTCSTJKHNTLC> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/216002AJGVSKGRGCQRVKJSTCSTJKHNTLC> a schema:Event;
   schema:name "Les Violons du Roy with Karina Gauvin and Marie-Nicole Lemieux";
   schema:description """
 
@@ -793,10 +795,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-10-27T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-27T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/228803ARGMBQQKBRVHVBKQRGGPGMMNVRR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/228803ARGMBQQKBRVHVBKQRGGPGMMNVRR> a schema:Event;
   schema:name "Los Lobos";
   schema:description """
 
@@ -804,10 +806,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2025-03-08T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-08T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/214002AVSVSNHCKGPPSQDDCKTPNBRTCHV> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/214002AVSVSNHCKGPPSQDDCKTPNBRTCHV> a schema:Event;
   schema:name "Louis Lortie";
   schema:description """
 
@@ -815,10 +817,10 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2025-02-09T15:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-09T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/223402ABLPTTSPNSGKPBRVSHVJQVKHJRM> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/223402ABLPTTSPNSGKPBRVSHVJQVKHJRM> a schema:Event;
   schema:name "Luminato Festival and The Nathaniel Dett Chorale present: Missa Afro-Brasileira";
   schema:description """
 
@@ -826,13 +828,13 @@ address:1AHGJDSMMPLMPPGNLJBQVLBRSKVDLQRPP a schema:PostalAddress;
   schema:startDate "2024-06-11T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-06-11T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:luminato .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/luminato> .
 
-organization:luminato a schema:Organization;
+<https://spektrix.com/rcmusic/organization/luminato> a schema:Organization;
   schema:name "Luminato" .
 
-<http://www.spektrix.com/234002ADJMQNHRBCHBVGJDQMVMHCVGVHN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/234002ADJMQNHRBCHBVGJDQMVMHCVGVHN> a schema:Event;
   schema:name "Mandle Philharmonic presents Mahler & Beethoven";
   schema:description """
 
@@ -840,13 +842,13 @@ organization:luminato a schema:Organization;
   schema:startDate "2024-09-20T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-09-20T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:mandle-philharmonic .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/mandle-philharmonic> .
 
-organization:mandle-philharmonic a schema:Organization;
+<https://spektrix.com/rcmusic/organization/mandle-philharmonic> a schema:Organization;
   schema:name "Mandle Philharmonic" .
 
-<http://www.spektrix.com/166802AGMMTQGPCQSCHTVKHDKMMCVDBMQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/166802AGMMTQGPCQSCHTVKHDKMMCVDBMQ> a schema:Event;
   schema:name "Mandle Philharmonic presents Ode to Joy Beethoven Symphony No. 9 (Choral)";
   schema:description """
 
@@ -854,10 +856,10 @@ organization:mandle-philharmonic a schema:Organization;
   schema:startDate "2024-11-29T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-29T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:mandle-philharmonic .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/mandle-philharmonic> .
 
-<http://www.spektrix.com/236202ACBJQRNCBRPKRQHLJHVTPHCJBGN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/236202ACBJQRNCBRPKRQHLJHVTPHCJBGN> a schema:Event;
   schema:name "Mardi Gras Mambo: Valentine's Day";
   schema:description """
 
@@ -865,10 +867,10 @@ organization:mandle-philharmonic a schema:Organization;
   schema:startDate "2025-02-14T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-14T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/227402ARPBNGHDLRKMSMHHPMSNHDMBQLQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/227402ARPBNGHDLRKMSMHHPMSNHDMBQLQ> a schema:Event;
   schema:name "Mariza";
   schema:description """
 
@@ -876,10 +878,10 @@ organization:mandle-philharmonic a schema:Organization;
   schema:startDate "2024-10-26T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-26T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/218602AKVCNLSBHTHSVCRKGMVRHBMMQMG> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/218602AKVCNLSBHTHSVCRKGMVRHBMMQMG> a schema:Event;
   schema:name "Martin Fröst, Antoine Tamestit and Shai Wosner";
   schema:description """
 
@@ -887,10 +889,10 @@ organization:mandle-philharmonic a schema:Organization;
   schema:startDate "2025-03-28T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-28T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/231802AKVGDSMTGGJGQRDHQQCPHMMHGGB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/231802AKVGDSMTGGJGQRDHQQCPHMMHGGB> a schema:Event;
   schema:name "Measha Brueggergosman-Lee: Zombie Blizzard";
   schema:description """
 
@@ -898,10 +900,10 @@ organization:mandle-philharmonic a schema:Organization;
   schema:startDate "2025-01-24T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-01-24T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/229402ANCSVTTHCMVMTPTPNCCRHTSNHGG> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/229402ANCSVTTHCMVMTPTPNCCRHTSNHGG> a schema:Event;
   schema:name "Michael Feinstein in Because of You";
   schema:description """
 
@@ -909,10 +911,10 @@ organization:mandle-philharmonic a schema:Organization;
   schema:startDate "2025-02-13T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-13T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/226802AGGBKTPDQGBKJJTSDTVTVJKDBRR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/226802AGGBKTPDQGBKJJTSDTVTVJKDBRR> a schema:Event;
   schema:name "Michelle Cann and the Imani Winds";
   schema:description """
 
@@ -920,10 +922,10 @@ organization:mandle-philharmonic a schema:Organization;
   schema:startDate "2025-01-18T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-01-18T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/213803ACTBVBPMDKVTCGGNKMPNGGMLJCQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/213803ACTBVBPMDKVTCGGNKMPNGGMLJCQ> a schema:Event;
   schema:name "Monty Alexander 80th Birthday and Jay Douglas All-Stars";
   schema:description """
 
@@ -931,10 +933,10 @@ organization:mandle-philharmonic a schema:Organization;
   schema:startDate "2024-10-19T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-19T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/182402ADJHCPRGVRVQKJKMLVSMTJQMMJR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/182402ADJHCPRGVRVQKJKMLVSMTJQMMJR> a schema:Event;
   schema:name "Music Lights the Way Piano Festival Finals";
   schema:description """
 
@@ -942,10 +944,10 @@ organization:mandle-philharmonic a schema:Organization;
   schema:startDate "2023-03-21T12:00:00"^^xsd:dateTime;
   schema:endDate "2023-03-21T12:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/182602AMHKMGRPMKTJCLSCLHPTKDNKPDQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/182602AMHKMGRPMKTJCLSCLHPTKDNKPDQ> a schema:Event;
   schema:name "Music Lights the Way Piano Festival Grand Finale";
   schema:description """
 
@@ -953,10 +955,10 @@ organization:mandle-philharmonic a schema:Organization;
   schema:startDate "2023-03-22T19:00:00"^^xsd:dateTime;
   schema:endDate "2023-03-22T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/225002ACTDHVGHBJDKTBBMDLCCDPTQSJD> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/225002ACTDHVGHBJDKTBBMDLCCDPTQSJD> a schema:Event;
   schema:name "Musical Stage Company presents UNCOVERED U2 THE ROLLING STONES";
   schema:description """
 
@@ -964,13 +966,13 @@ organization:mandle-philharmonic a schema:Organization;
   schema:startDate "2024-10-22T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-25T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-musical-stage-company .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-musical-stage-company> .
 
-organization:the-musical-stage-company a schema:Organization;
+<https://spektrix.com/rcmusic/organization/the-musical-stage-company> a schema:Organization;
   schema:name "The Musical Stage Company" .
 
-<http://www.spektrix.com/223202ACRBQHQVVQKBRVMHNKBPLVSLKTB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/223202ACRBQHQVVQKBRVMHNKBPLVSLKTB> a schema:Event;
   schema:name "NYO Canada presents Horizons Tour";
   schema:description """
 
@@ -978,13 +980,13 @@ organization:the-musical-stage-company a schema:Organization;
   schema:startDate "2024-07-19T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-19T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:nyo-canada .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/nyo-canada> .
 
-organization:nyo-canada a schema:Organization;
+<https://spektrix.com/rcmusic/organization/nyo-canada> a schema:Organization;
   schema:name "NYO Canada" .
 
-<http://www.spektrix.com/210602AJJJMTTDVNJLQNBPVJPPLLPJVCR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/210602AJJJMTTDVNJLQNBPVJPPLLPJVCR> a schema:Event;
   schema:name "Opera Atelier presents All Is Love";
   schema:description """
 
@@ -992,13 +994,13 @@ organization:nyo-canada a schema:Organization;
   schema:startDate "2024-04-10T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-04-14T14:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:opera-atelier .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/opera-atelier> .
 
-organization:opera-atelier a schema:Organization;
+<https://spektrix.com/rcmusic/organization/opera-atelier> a schema:Organization;
   schema:name "Opera Atelier" .
 
-<http://www.spektrix.com/230802APLBHGLCMLMSTBSRTSCCDNTMLRL> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/230802APLBHGLCMLMSTBSRTSCCDNTMLRL> a schema:Event;
   schema:name "Piaf! The Show";
   schema:description """
 
@@ -1006,10 +1008,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2025-02-01T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-01T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/215402AJQBNTDSNBNTBQSCRJDMNPDTRVH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/215402AJQBNTDSNBNTBQSCRJDMNPDTRVH> a schema:Event;
   schema:name "Pierre-Laurent Aimard";
   schema:description """
 
@@ -1017,10 +1019,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2025-02-28T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-28T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/230002AHHMQCMSDVLMRJMKCTVJPHRHVNR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/230002AHHMQCMSDVLMRJMKCTVJPHRHVNR> a schema:Event;
   schema:name "Pilar with The Royal Conservatory Strings and Bria Skonberg Quintet";
   schema:description """
 
@@ -1028,10 +1030,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2024-11-02T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-02T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/217602AHJKDMBDSHHKSLJJSMQDSMBJLHD> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/217602AHJKDMBDSHHKSLJJSMQDSMBJLHD> a schema:Event;
   schema:name "Randall Goosby with Zhu Wang";
   schema:description """
 
@@ -1039,10 +1041,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2025-04-23T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-23T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/189002ALKKDPQRTMDHMVRQCVGJTVLVDJB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/189002ALKKDPQRTMDHMVRQCVGJTVLVDJB> a schema:Event;
   schema:name "RCM Violin Symposium: Finale Performance";
   schema:description """
 
@@ -1050,10 +1052,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2023-05-26T17:30:00"^^xsd:dateTime;
   schema:endDate "2023-05-26T17:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/189202ATJTQHRPPRDDVBLNMTCQPDSQLDN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/189202ATJTQHRPPRDDVBLNMTCQPDSQLDN> a schema:Event;
   schema:name "RCM Violin Symposium: Four-Day Workshop Package";
   schema:description """
 
@@ -1061,10 +1063,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2023-05-23T10:00:00"^^xsd:dateTime;
   schema:endDate "2023-05-23T10:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/189203ASDBVVQJGSSDRTBSQMCDJGPMPLR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/189203ASDBVVQJGSSDRTBSQMCDJGPMPLR> a schema:Event;
   schema:name "RCM Violin Symposium: One-Day Workshop (May 24)";
   schema:description """
 
@@ -1072,10 +1074,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2023-05-24T14:00:00"^^xsd:dateTime;
   schema:endDate "2023-05-24T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/190402ASLSGLTKVMTHCCLDRCPPLMBVBBR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/190402ASLSGLTKVMTHCCLDRCPPLMBVBBR> a schema:Event;
   schema:name "RCM Violin Symposium: One-Day Workshop (May 25)";
   schema:description """
 
@@ -1083,10 +1085,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2023-05-25T14:00:00"^^xsd:dateTime;
   schema:endDate "2023-05-25T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/190602APGGBKNVQNSTMPPJSVRRQHBHNRH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/190602APGGBKNVQNSTMPPJSVRRQHBHNRH> a schema:Event;
   schema:name "RCM Violin Symposium: One-Day Workshop (May 26)";
   schema:description """
 
@@ -1094,10 +1096,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2023-05-26T14:00:00"^^xsd:dateTime;
   schema:endDate "2023-05-26T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/188602AHMRVQCTJVGMSJMQRKMGLRJLMVS> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/188602AHMRVQCTJVGMSJMQRKMGLRJLMVS> a schema:Event;
   schema:name "RCM Violin Symposium: RCM Violin Series (5th Edition) Showcase";
   schema:description """
 
@@ -1105,10 +1107,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2023-05-25T17:30:00"^^xsd:dateTime;
   schema:endDate "2023-05-25T17:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/189602AGPCSTLRPSMCVSGDDKGLNGSJPDG> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/189602AGPCSTLRPSMCVSGDDKGLNGSJPDG> a schema:Event;
   schema:name "RCM Violin Symposium: Refining Teaching Techniques for Elementary Level Students";
   schema:description """
 
@@ -1116,10 +1118,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2023-05-23T10:00:00"^^xsd:dateTime;
   schema:endDate "2023-05-23T10:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/188802AQKHLVPVDDCVDKJQDKGKTKTSHBL> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/188802AQKHLVPVDDCVDKJQDKGKTKTSHBL> a schema:Event;
   schema:name "RCM Violin Symposium: The Dean's Master Class with Ray Chen";
   schema:description """
 
@@ -1127,10 +1129,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2023-05-26T15:30:00"^^xsd:dateTime;
   schema:endDate "2023-05-26T15:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/188402APCRLMHJKBVMQRPBTHTBJJHHNRN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/188402APCRLMHJKBVMQRPBTHTBJJHHNRN> a schema:Event;
   schema:name "RCM Violin Symposium: The Taylor Academy Violin Showcase";
   schema:description """
 
@@ -1138,10 +1140,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2023-05-24T17:30:00"^^xsd:dateTime;
   schema:endDate "2023-05-24T17:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/189402ABCCSQGQPKPBNBGNDQKCQGNTVLC> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/189402ABCCSQGQPKPBNBGNDQKCQGNTVLC> a schema:Event;
   schema:name "RCM Violin Symposium: Three-Day Workshop Package";
   schema:description """
 
@@ -1149,10 +1151,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2023-05-24T14:00:00"^^xsd:dateTime;
   schema:endDate "2023-05-24T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/225802AHMRSGQDQRRMDKDSTKCJSTQMRRK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/225802AHMRSGQDQRRMDKDSTKCJSTQMRRK> a schema:Event;
   schema:name "Rebanks Family Fellowship Concert";
   schema:description """
 
@@ -1160,10 +1162,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2024-11-20T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-04-02T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/197602ANMRPGMCRSSGVGPBSSKDNJSMBTB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/197602ANMRPGMCRSSGVGPBSSKDNJSMBTB> a schema:Event;
   schema:name "Rhiannon Giddens and Adia Victoria";
   schema:description """
 
@@ -1171,10 +1173,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2023-09-20T20:00:00"^^xsd:dateTime;
   schema:endDate "2023-09-20T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/238402ABLQQMBMLTNTDLMGBKNDPRSQCKK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/238402ABLQQMBMLTNTDLMGBKNDPRSQCKK> a schema:Event;
   schema:name "Rosanne Cash";
   schema:description """
 
@@ -1182,10 +1184,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2025-03-07T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-07T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/212802ABJQGHBPBTNMMTJLDNGTQCRVPSS> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/212802ABJQGHBPBTNMMTJLDNGTQCRVPSS> a schema:Event;
   schema:name "Royal Conservatory Orchestra with conductor Earl Lee";
   schema:description """
 
@@ -1193,10 +1195,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2024-11-22T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-22T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/213202AVQQMHHJJPJJPPSBMSCLHVQTMCD> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/213202AVQQMHHJJPJJPPSBMSCLHVQTMCD> a schema:Event;
   schema:name "Royal Conservatory Orchestra with conductor Naomi Woo";
   schema:description """
 
@@ -1204,10 +1206,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2025-02-07T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-07T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/212602ADVSJRJMGKGKDNNCVCLTRVBGNMS> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/212602ADVSJRJMGKGKDNNCVCLTRVBGNMS> a schema:Event;
   schema:name "Royal Conservatory Orchestra with conductor Tania Miller";
   schema:description """
 
@@ -1215,10 +1217,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2024-10-10T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-10-10T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/213402APNTLRSVBNCVVBLGHBTNKPQDHMH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/213402APNTLRSVBNCVVBLGHBTNKPQDHMH> a schema:Event;
   schema:name "Royal Conservatory Orchestra with conductor William Eddins";
   schema:description """
 
@@ -1226,10 +1228,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2025-05-02T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-05-02T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/227602ATPSRCCSTVPMSCSVCPJSDPNTGCR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/227602ATPSRCCSTVPMSCSVCPJSDPNTGCR> a schema:Event;
   schema:name "Rufus Wainwright";
   schema:description """
 
@@ -1237,10 +1239,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2024-11-30T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-30T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/215602AHBBNNKMTVKLGVMDVGDPBGLCJMV> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/215602AHBBNNKMTVKLGVMDVGDPBGLCJMV> a schema:Event;
   schema:name "Schaghajegh Nosrati";
   schema:description """
 
@@ -1248,10 +1250,10 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2025-03-23T15:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-23T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/110402ATKQRNNHQVBQTLHHTJHPMNBHBMK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/110402ATKQRNNHQVBQTLHHTJHPMNBHBMK> a schema:Event;
   schema:name "Scotiabank Giller Prize Between the Pages";
   schema:description """
 
@@ -1259,13 +1261,13 @@ organization:opera-atelier a schema:Organization;
   schema:startDate "2023-11-07T20:00:00"^^xsd:dateTime;
   schema:endDate "2023-11-07T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:scotiabank-giller-prize .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/scotiabank-giller-prize> .
 
-organization:scotiabank-giller-prize a schema:Organization;
+<https://spektrix.com/rcmusic/organization/scotiabank-giller-prize> a schema:Organization;
   schema:name "Scotiabank Giller Prize" .
 
-<http://www.spektrix.com/214202AVVNSLQPBLHVBPGCLSGQRMDJTHP> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/214202AVVNSLQPBLHVBPGCLSGQRMDJTHP> a schema:Event;
   schema:name "Sheku Kanneh-Mason with Isata Kanneh-Mason";
   schema:description """
 
@@ -1273,10 +1275,10 @@ organization:scotiabank-giller-prize a schema:Organization;
   schema:startDate "2024-12-11T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-11T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/222802AVMTTQPVKPVCJCKKMBGKPLTSBDH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/222802AVMTTQPVKPVCJCKKMBGKPLTSBDH> a schema:Event;
   schema:name "Soundstreams presents Grandma's Shawl";
   schema:description """
 
@@ -1284,21 +1286,21 @@ organization:scotiabank-giller-prize a schema:Organization;
   schema:startDate "2024-05-04T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-05-04T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN;
-  schema:organizer organization:soundstreams .
+  schema:location <https://spektrix.com/rcmusic/location/8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/soundstreams> .
 
-organization:soundstreams a schema:Organization;
+<https://spektrix.com/rcmusic/organization/soundstreams> a schema:Organization;
   schema:name "Soundstreams" .
 
-place:8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN a schema:Place;
+<https://spektrix.com/rcmusic/location/8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN> a schema:Place;
   schema:name "Redwood Theatre";
-  schema:address address:8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN .
+  schema:address <https://spektrix.com/rcmusic/address/8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN> .
 
-address:8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN> a schema:PostalAddress;
   schema:streetAddress "1300 Gerrard St E";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/238002APDBVPTDVCRLVNSNGSVGVLVDPVJ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/238002APDBVPTDVCRLVNSNGSVGVLVDPVJ> a schema:Event;
   schema:name "Soundstreams presents Letters To God";
   schema:description """
 
@@ -1306,10 +1308,10 @@ address:8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN a schema:PostalAddress;
   schema:startDate "2024-10-24T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-10-24T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:soundstreams .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/soundstreams> .
 
-<http://www.spektrix.com/217404ASHTCTQGPJLSQJVSRGBMKBPCBGV> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/217404ASHTCTQGPJLSQJVSRGBMKBPCBGV> a schema:Event;
   schema:name "Stephen Sondheim’s Into the Woods - NYE Celebration";
   schema:description """
 
@@ -1317,10 +1319,10 @@ address:8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN a schema:PostalAddress;
   schema:startDate "2024-12-31T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-31T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/218003ATGNDHCNLJRVMBDKDSKKLKRJPSH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/218003ATGNDHCNLJRVMBDKDSKKLKRJPSH> a schema:Event;
   schema:name "Stephen Sondheim's Into the Woods";
   schema:description """
 
@@ -1328,10 +1330,10 @@ address:8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN a schema:PostalAddress;
   schema:startDate "2024-12-30T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-30T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/218202ALGMPDLTCKMMPPJSRHLNKMGBGKL> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/218202ALGMPDLTCKMMPPJSRHLNKMGBGKL> a schema:Event;
   schema:name "Stephen Sondheim's Into the Woods";
   schema:description """
 
@@ -1339,10 +1341,10 @@ address:8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN a schema:PostalAddress;
   schema:startDate "2024-12-29T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-29T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/218402ARCJTHSCQPMTHKKSRGGLRVGJHCK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/218402ARCJTHSCQPMTHKKSRGGLRVGJHCK> a schema:Event;
   schema:name "Stephen Sondheim's Into the Woods";
   schema:description """
 
@@ -1350,10 +1352,10 @@ address:8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN a schema:PostalAddress;
   schema:startDate "2024-12-28T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-28T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/218002AVTSCLCQCMCGBCNBGQNCCCVGHMR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/218002AVTSCLCQCMCGBCNBGQNCCCVGHMR> a schema:Event;
   schema:name "Sullivan Fortner Trio and Barbra Lica Quintet";
   schema:description """
 
@@ -1361,10 +1363,10 @@ address:8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN a schema:PostalAddress;
   schema:startDate "2025-04-30T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-30T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/225402ATLSDVJMBSRPHRGVRMJJKJJNQCR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/225402ATLSDVJMBSRPHRGVRMJJKJJNQCR> a schema:Event;
   schema:name "Tafelmusik presents Handel Messiah";
   schema:description """
 
@@ -1372,13 +1374,14 @@ address:8602ASLQTKBVQMHNVGSHQGJSHTNMMJRVN a schema:PostalAddress;
   schema:startDate "2024-12-20T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-12-21T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:tafelmusik-baroque-orchestra-and-chamber-choir .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/tafelmusik-baroque-orchestra-and-chamber-choir> .
 
-organization:tafelmusik-baroque-orchestra-and-chamber-choir a schema:Organization;
+<https://spektrix.com/rcmusic/organization/tafelmusik-baroque-orchestra-and-chamber-choir>
+  a schema:Organization;
   schema:name "Tafelmusik Baroque Orchestra and Chamber Choir" .
 
-<http://www.spektrix.com/225202ANPPTSMTJBLBTJGHSQCSDSKKPLN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/225202ANPPTSMTJBLBTJGHSQCSDSKKPLN> a schema:Event;
   schema:name "Tafelmusik presents Mozart Jupiter";
   schema:description """
 
@@ -1386,23 +1389,24 @@ organization:tafelmusik-baroque-orchestra-and-chamber-choir a schema:Organizatio
   schema:startDate "2024-09-27T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-29T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:tafelmusik-baroque-orchestra-and-chamber-choir .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/tafelmusik-baroque-orchestra-and-chamber-choir> .
 
-organization:tafelmusik-baroque-orchestra-and-chamber-choir a schema:Organization;
+<https://spektrix.com/rcmusic/organization/tafelmusik-baroque-orchestra-and-chamber-choir>
+  a schema:Organization;
   schema:name "Tafelmusik Baroque Orchestra and Chamber Choir" .
 
-place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ a schema:Place;
+<https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ> a schema:Place;
   schema:name "TELUS Centre for Performance and Learning";
-  schema:address address:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ .
+  schema:address <https://spektrix.com/rcmusic/address/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ> .
 
-address:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ> a schema:PostalAddress;
   schema:streetAddress "273 Bloor St W";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/225602AQJJHBRSTQTDTPGVNJBPVSTVDBH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/225602AQJJHBRSTQTDTPGVNJBPVSTVDBH> a schema:Event;
   schema:name "Tafelmusik presents Samuel Marino at the Opera Bologne Mozart";
   schema:description """
 
@@ -1410,10 +1414,10 @@ address:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ a schema:PostalAddress;
   schema:startDate "2025-05-23T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-05-25T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:tafelmusik-baroque-orchestra-and-chamber-choir .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/tafelmusik-baroque-orchestra-and-chamber-choir> .
 
-<http://www.spektrix.com/206402AMKHTVKQCJMKLBMDKHHKRLMRKPJ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/206402AMKHTVKQCJMKLBMDKHHKRLMRKPJ> a schema:Event;
   schema:name "Tafelmusik presents: A Handel Celebration";
   schema:description """
 
@@ -1421,10 +1425,10 @@ address:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ a schema:PostalAddress;
   schema:startDate "2024-05-31T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-06-02T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:tafelmusik-baroque-orchestra-and-chamber-choir .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/tafelmusik-baroque-orchestra-and-chamber-choir> .
 
-<http://www.spektrix.com/214602APBJKPJJRPPHNNPGKVBCGPGCVBB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/214602APBJKPJJRPPHNNPGKVBCGPGCVBB> a schema:Event;
   schema:name "Takács Quartet with Sir Stephen Hough";
   schema:description """
 
@@ -1432,13 +1436,13 @@ address:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ a schema:PostalAddress;
   schema:startDate "2025-02-21T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-21T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-organization:the-royal-conservatory a schema:Organization;
+<https://spektrix.com/rcmusic/organization/the-royal-conservatory> a schema:Organization;
   schema:name "The Royal Conservatory" .
 
-<http://www.spektrix.com/233402ARTRLBGPSBVLKRGJGJTHBVGGKMQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/233402ARTRLBGPSBVLKRGJGJTHBVGGKMQ> a schema:Event;
   schema:name "Tanya Talaga: The Knowing";
   schema:description """
 
@@ -1446,10 +1450,10 @@ organization:the-royal-conservatory a schema:Organization;
   schema:startDate "2024-09-23T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-23T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/227802AMBTJPBBDDCRLKDVBLKLDTSTKHR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/227802AMBTJPBBDDCRLKDVBLKLDTSTKHR> a schema:Event;
   schema:name "Taylor Academy Showcase Concert";
   schema:description """
 
@@ -1457,10 +1461,10 @@ organization:the-royal-conservatory a schema:Organization;
   schema:startDate "2024-10-19T16:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-08T16:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/230202ABRKSBPLLNLRGJSSKJQBCDSGHDC> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/230202ABRKSBPLLNLRGJSSKJQBCDSGHDC> a schema:Event;
   schema:name "Taylor Academy: The Stars of Tomorrow";
   schema:description """
 
@@ -1468,10 +1472,10 @@ organization:the-royal-conservatory a schema:Organization;
   schema:startDate "2025-03-20T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-20T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/219002AGGPPLKSPPGCDTMKSSLGHMDTMRH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/219002AGGPPLKSPPGCDTMKSSLGHMDTMRH> a schema:Event;
   schema:name "TD Toronto Jazz Festival presents Al di Meola";
   schema:description """
 
@@ -1479,13 +1483,13 @@ organization:the-royal-conservatory a schema:Organization;
   schema:startDate "2024-06-25T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-06-25T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:td-toronto-jazz-festival .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/td-toronto-jazz-festival> .
 
-organization:td-toronto-jazz-festival a schema:Organization;
+<https://spektrix.com/rcmusic/organization/td-toronto-jazz-festival> a schema:Organization;
   schema:name "TD Toronto Jazz Festival" .
 
-<http://www.spektrix.com/223002AGGQLCQHDPGHJMCBNPNVTKKTHGC> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/223002AGGQLCQHDPGHJMCBNPNVTKKTHGC> a schema:Event;
   schema:name "TD Toronto Jazz Festival presents Amanda Martinez - Recuerdo";
   schema:description """
 
@@ -1493,10 +1497,10 @@ organization:td-toronto-jazz-festival a schema:Organization;
   schema:startDate "2024-06-26T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-06-26T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:td-toronto-jazz-festival .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/td-toronto-jazz-festival> .
 
-<http://www.spektrix.com/210202ALGLGPJGLPLRQCJSRVMSVCLKGTK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/210202ALGLGPJGLPLRQCJSRVMSVCLKGTK> a schema:Event;
   schema:name "TEM in Collaboration with Schola Cantorum presents Dido and Aeneas";
   schema:description """
 
@@ -1504,23 +1508,23 @@ organization:td-toronto-jazz-festival a schema:Organization;
   schema:startDate "2023-11-21T19:30:00"^^xsd:dateTime;
   schema:endDate "2023-11-22T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:theatre-of-early-music .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/theatre-of-early-music> .
 
-organization:theatre-of-early-music a schema:Organization;
+<https://spektrix.com/rcmusic/organization/theatre-of-early-music> a schema:Organization;
   schema:name "Theatre of Early Music" .
 
-place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:Place;
+<https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV> a schema:Place;
   schema:name "Trinity-St Paul's Centre";
-  schema:address address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV .
+  schema:address <https://spektrix.com/rcmusic/address/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV> .
 
-address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV> a schema:PostalAddress;
   schema:streetAddress "427 Bloor St W";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/228002ALKVMCGPQQHPRCTCLDMNSHHDCNV> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/228002ALKVMCGPQQHPRCTCLDMNSHHDCNV> a schema:Event;
   schema:name "Thandiswa Mazwai and Kunle";
   schema:description """
 
@@ -1528,10 +1532,10 @@ address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
   schema:startDate "2024-11-16T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-16T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/223802ANSSSQCRTVRKBDTBKVBDJVBPMKK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/223802ANSSSQCRTVRKBDTBKVBDJVBPMKK> a schema:Event;
   schema:name "The 2024 Royal Occasion Performances and Awards Presentation";
   schema:description """
 
@@ -1539,10 +1543,10 @@ address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
   schema:startDate "2024-05-23T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-05-23T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/210402ABTSBCQNSTVVMBCDGCMLLSRQBBM> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/210402ABTSBCQNSTVVMBCDGCMLLSRQBBM> a schema:Event;
   schema:name "The Daniels Corporation presents Songs from The Journey";
   schema:description """
 
@@ -1550,13 +1554,13 @@ address:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV a schema:PostalAddress;
   schema:startDate "2024-06-21T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-06-21T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-daniels-corporation .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-daniels-corporation> .
 
-organization:the-daniels-corporation a schema:Organization;
+<https://spektrix.com/rcmusic/organization/the-daniels-corporation> a schema:Organization;
   schema:name "The Daniels Corporation" .
 
-<http://www.spektrix.com/211202ADTMRSCDSDJBBKCQVCJPMDMRRSK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/211202ADTMRSCDSDJBBKCQVCJPMDMRRSK> a schema:Event;
   schema:name "The Future of Money";
   schema:description """
 
@@ -1564,13 +1568,13 @@ organization:the-daniels-corporation a schema:Organization;
   schema:startDate "2024-04-04T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-04-04T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-munk-school .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-munk-school> .
 
-organization:the-munk-school a schema:Organization;
+<https://spektrix.com/rcmusic/organization/the-munk-school> a schema:Organization;
   schema:name "The Munk School" .
 
-<http://www.spektrix.com/231602AGHKDTVDPSSQPNPQGKPLVPGQKRP> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/231602AGHKDTVDPSSQPNPQGKPLVPGQKRP> a schema:Event;
   schema:name "The Glenn Gould School Chamber Competition Finals";
   schema:description """
 
@@ -1578,10 +1582,10 @@ organization:the-munk-school a schema:Organization;
   schema:startDate "2025-03-26T19:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-26T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/226002ANDPNVQGPSPGQLPRLJPJLCGGRMC> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/226002ANDPNVQGPSPGQLPRLJPJLCGGRMC> a schema:Event;
   schema:name "The Glenn Gould School Piano Showcase";
   schema:description """
 
@@ -1589,10 +1593,10 @@ organization:the-munk-school a schema:Organization;
   schema:startDate "2025-04-26T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-04-26T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/226804ACJJKGGVKQVLPJJGKBKCJGMPMPM> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/226804ACJJKGGVKQVLPJJGKBKCJGMPMPM> a schema:Event;
   schema:name "The Glenn Gould School Vocal Showcase";
   schema:description """
 
@@ -1600,10 +1604,10 @@ organization:the-munk-school a schema:Organization;
   schema:startDate "2025-01-25T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-01-25T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/224802ABMGMDMHSTHBRSNJKNHHPJNRJRD> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/224802ABMGMDMHSTHBRSNJKNHHPJNRJRD> a schema:Event;
   schema:name "The Journal of Hélène Berr";
   schema:description """
 
@@ -1611,10 +1615,10 @@ organization:the-munk-school a schema:Organization;
   schema:startDate "2025-01-22T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-01-22T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/226402ADPNHHRKLCTHRCRRHRHDNSTTRMB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/226402ADPNHHRKLCTHRCRRHRHDNSTTRMB> a schema:Event;
   schema:name "The Journal of Hélène Berr";
   schema:description """
 
@@ -1622,10 +1626,10 @@ organization:the-munk-school a schema:Organization;
   schema:startDate "2025-01-21T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-01-21T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/226602AHPNTQSMNHDLCBBQRHMDPNGKSSN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/226602AHPNTQSMNHDLCBBQRHMDPNGKSSN> a schema:Event;
   schema:name "The Journal of Hélène Berr";
   schema:description """
 
@@ -1633,10 +1637,10 @@ organization:the-munk-school a schema:Organization;
   schema:startDate "2025-01-23T15:00:00"^^xsd:dateTime;
   schema:endDate "2025-01-23T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/100602ALKDMTSRHDBMQCJMHDDRVTDQCBH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/100602ALKDMTSRHDBMQCJMHDDRVTDQCBH> a schema:Event;
   schema:name "The Michener Institute Convocation 2024";
   schema:description """
 
@@ -1644,13 +1648,13 @@ organization:the-munk-school a schema:Organization;
   schema:startDate "2024-06-15T12:00:00"^^xsd:dateTime;
   schema:endDate "2024-06-15T12:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-michener-institute .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-michener-institute> .
 
-organization:the-michener-institute a schema:Organization;
+<https://spektrix.com/rcmusic/organization/the-michener-institute> a schema:Organization;
   schema:name "The Michener Institute" .
 
-<http://www.spektrix.com/230402ADRRCJKTCHHQCDNSNJKJDQHDPQT> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/230402ADRRCJKTCHHQCDNSNJKJDQHDPQT> a schema:Event;
   schema:name "The Robert W. & G. Ann Corcoran Concerto Competition Finals";
   schema:description """
 
@@ -1658,10 +1662,10 @@ organization:the-michener-institute a schema:Organization;
   schema:startDate "2025-01-22T19:00:00"^^xsd:dateTime;
   schema:endDate "2025-01-22T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/226805AHNHCGNMRLDJTVSQMMHRGSSNGVH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/226805AHNHCGNMRLDJTVSQMMHRGSSNGVH> a schema:Event;
   schema:name "The Ukulele Orchestra of Great Britain";
   schema:description """
 
@@ -1669,10 +1673,10 @@ organization:the-michener-institute a schema:Organization;
   schema:startDate "2025-04-16T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-16T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/237202AMLVRLJBDRRSRNSCRHDNNCCTDDP> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/237202AMLVRLJBDRRSRNSCRHDNNCCTDDP> a schema:Event;
   schema:name "Toronto International Festival of Authors presents Liane Moriarty";
   schema:description """
 
@@ -1680,13 +1684,14 @@ organization:the-michener-institute a schema:Organization;
   schema:startDate "2024-09-19T17:30:00"^^xsd:dateTime;
   schema:endDate "2024-09-19T17:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:toronto-international-festival-of-authors .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-international-festival-of-authors> .
 
-organization:toronto-international-festival-of-authors a schema:Organization;
+<https://spektrix.com/rcmusic/organization/toronto-international-festival-of-authors>
+  a schema:Organization;
   schema:name "Toronto International Festival of Authors" .
 
-<http://www.spektrix.com/237002AQVMDKQKDCTRHKVKBKJCLJSSTKB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/237002AQVMDKQKDCTRHKVKBKJCLJSSTKB> a schema:Event;
   schema:name "Toronto International Festival of Authors presents Yuval Noah Harari";
   schema:description """
 
@@ -1694,10 +1699,10 @@ organization:toronto-international-festival-of-authors a schema:Organization;
   schema:startDate "2024-09-13T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-13T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:toronto-international-festival-of-authors .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-international-festival-of-authors> .
 
-<http://www.spektrix.com/172602AVRKPVKLQPQHKMTHLDNHVJTSHQH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/172602AVRKPVKLQPQHKMTHLDNHVJTSHQH> a schema:Event;
   schema:name "Toronto International Festival of Authors presents: The Moth Mainstage";
   schema:description """
 
@@ -1705,10 +1710,10 @@ organization:toronto-international-festival-of-authors a schema:Organization;
   schema:startDate "2024-09-19T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-19T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:toronto-international-festival-of-authors .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-international-festival-of-authors> .
 
-<http://www.spektrix.com/224402APMVGVPJVVBPPLDDDSBRQNRCGGC> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/224402APMVGVPJVVBPPLDDDSBRQNRCGGC> a schema:Event;
   schema:name "Toronto Mendelssohn Choir presents Festival of Carols";
   schema:description """
 
@@ -1716,23 +1721,23 @@ organization:toronto-international-festival-of-authors a schema:Organization;
   schema:startDate "2024-12-03T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-12-04T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG;
-  schema:organizer organization:toronto-mendelssohn-choir .
+  schema:location <https://spektrix.com/rcmusic/location/1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-mendelssohn-choir> .
 
-organization:toronto-mendelssohn-choir a schema:Organization;
+<https://spektrix.com/rcmusic/organization/toronto-mendelssohn-choir> a schema:Organization;
   schema:name "Toronto Mendelssohn Choir" .
 
-place:1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG a schema:Place;
+<https://spektrix.com/rcmusic/location/1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG> a schema:Place;
   schema:name "Yorkminster Park Baptist Church";
-  schema:address address:1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG .
+  schema:address <https://spektrix.com/rcmusic/address/1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG> .
 
-address:1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG> a schema:PostalAddress;
   schema:streetAddress "1585 Yonge St";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/224202AQPRVRRSCHQLVTQKPLSCQGLPGTG> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/224202AQPRVRRSCHQLVTQKPLSCQGLPGTG> a schema:Event;
   schema:name "Toronto Mendelssohn Choir presents The Love Affair: Waltz & Tango";
   schema:description """
 
@@ -1740,10 +1745,10 @@ address:1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG a schema:PostalAddress;
   schema:startDate "2024-11-03T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-03T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:toronto-mendelssohn-choir .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-mendelssohn-choir> .
 
-<http://www.spektrix.com/224602ADLGPBLKGBTMTBJCPRKRPJBCQLP> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/224602ADLGPBLKGBTMTBJCPRKRPJBCQLP> a schema:Event;
   schema:name "Toronto Mendelssohn Choir presents Visionaries Vivaldi and DaVinci";
   schema:description """
 
@@ -1751,10 +1756,10 @@ address:1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG a schema:PostalAddress;
   schema:startDate "2025-02-08T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-02-08T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:toronto-mendelssohn-choir .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-mendelssohn-choir> .
 
-<http://www.spektrix.com/229003ADHSRQQBHHQPMQMCGCKTGBMDDDL> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/229003ADHSRQQBHHQPMQMCGCKTGBMDDDL> a schema:Event;
   schema:name "Toronto Sings the Breithaupt Brothers’ Songbook";
   schema:description """
 
@@ -1762,10 +1767,10 @@ address:1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG a schema:PostalAddress;
   schema:startDate "2025-04-25T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-25T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/222602AVPDMNGHQRMHBBPNSNDRNCGGJSC> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/222602AVPDMNGHQRMHBBPNSNDRNCGGJSC> a schema:Event;
   schema:name "TSM presents Bach & Vivaldi";
   schema:description """
 
@@ -1773,23 +1778,23 @@ address:1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG a schema:PostalAddress;
   schema:startDate "2024-07-24T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-24T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-organization:toronto-summer-music-festival a schema:Organization;
+<https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> a schema:Organization;
   schema:name "Toronto Summer Music Festival" .
 
-place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:Place;
+<https://spektrix.com/rcmusic/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> a schema:Place;
   schema:name "Church of the Redeemer";
-  schema:address address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN .
+  schema:address <https://spektrix.com/rcmusic/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
-address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> a schema:PostalAddress;
   schema:streetAddress "162 Bloor St W";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/221602AVQKNVJTNTRRPHJKKMKTBRQPCSK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/221602AVQKNVJTNTRRPHJKKMKTBRQPCSK> a schema:Event;
   schema:name "TSM presents Beethoven Unleashed";
   schema:description """
 
@@ -1797,10 +1802,10 @@ address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:PostalAddress;
   schema:startDate "2024-08-01T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-08-01T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/220403AHHTMTTMJBDHQPQLNSPSBVTDDSC> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/220403AHHTMTTMJBDHQPQLNSPSBVTDDSC> a schema:Event;
   schema:name "TSM presents Breathings";
   schema:description """
 
@@ -1808,20 +1813,20 @@ address:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN a schema:PostalAddress;
   schema:startDate "2024-07-22T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-22T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:Place;
+<https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:Place;
   schema:name "Edward Johnson Building";
-  schema:address address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:address <https://spektrix.com/rcmusic/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:PostalAddress;
   schema:streetAddress "80 Queen's Park";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/220602APSCLQNDTQQNMQDCHGHMSPNVNVJ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/220602APSCLQNDTQQNMQDCHGHMSPNVNVJ> a schema:Event;
   schema:name "TSM presents Canadian Brass";
   schema:description """
 
@@ -1829,10 +1834,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-25T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-25T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/221802AHNHNRJJNGSGMBPQQPNTMLGSRTB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/221802AHNHNRJJNGSGMBPQQPNTMLGSRTB> a schema:Event;
   schema:name "TSM presents Chausson's Concert";
   schema:description """
 
@@ -1840,10 +1845,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-08-02T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-08-02T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/219802AHKLVQKSKKMMRJPMJRRMSNJVLLG> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/219802AHKLVQKSKKMMRJPMJRRMSNJVLLG> a schema:Event;
   schema:name "TSM presents Connolly & Middleton";
   schema:description """
 
@@ -1851,10 +1856,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-16T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-16T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/219602ABQCNPBRMRDPGLHJNRSTBCGSNTQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/219602ABQCNPBRMRDPGLHJNRSTBCGSNTQ> a schema:Event;
   schema:name "TSM presents Death and the Maiden";
   schema:description """
 
@@ -1862,10 +1867,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-15T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-15T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/221002ATTPKJSDMDLJLHRRLTHDBDQGNSB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/221002ATTPKJSDMDLJLHRRLTHDBDQGNSB> a schema:Event;
   schema:name "TSM presents Dreams and Shadows";
   schema:description """
 
@@ -1873,10 +1878,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-29T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-29T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/221202AGDVJPCDSBMHRRKLTSJPKNSDLMT> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/221202AGDVJPCDSBMHRRKLTSJPKNSDLMT> a schema:Event;
   schema:name "TSM presents Elisabeth St-Gelais";
   schema:description """
 
@@ -1884,10 +1889,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-30T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-30T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/186202AMVNTQRMNMDHBQDGQCJKNSTJCLQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/186202AMVNTQRMNMDHBQDGQCJKNSTJCLQ> a schema:Event;
   schema:name "TSM Presents Finale";
   schema:description """
 	<h1>Finale</h1>
@@ -1895,10 +1900,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-08-03T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-08-03T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/191402ALBKLVDRGRKMSLPHHMDGPMVMCJK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/191402ALBKLVDRGRKMSLPHHMDGPMVMCJK> a schema:Event;
   schema:name "TSM presents Kids Concert: Canadian Brass";
   schema:description """
 
@@ -1906,10 +1911,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-24T11:00:00"^^xsd:dateTime;
   schema:endDate "2024-07-24T11:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/191202ANMVKSQHNQRHRDGVSTKVRPNBDTM> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/191202ANMVKSQHNQRHRDGVSTKVRPNBDTM> a schema:Event;
   schema:name "TSM presents Kids Concert: Kyra Millan presents \"The Opera\"";
   schema:description """
 
@@ -1917,10 +1922,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-17T11:00:00"^^xsd:dateTime;
   schema:endDate "2024-07-17T11:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/183002AMDBJDRGRKVPJDPBJPMKTNCSTCS> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/183002AMDBJDRGRKVPJDPBJPMKTNCSTCS> a schema:Event;
   schema:name "TSM Presents Opening Night: The Fairy Queen";
   schema:description """
 	<h1>Opening Night</h1>
@@ -1928,10 +1933,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-11T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-11T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/221402AHTCJNKRJQGCLHHQSNBJPMLMLRQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/221402AHTCJNKRJQGCLHHQSNBJPMLMLRQ> a schema:Event;
   schema:name "TSM presents Pacifica Quartet";
   schema:description """
 
@@ -1939,10 +1944,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-31T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-31T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/183203AQHTKVPPDMRJLGQCBPBSCDTBHRD> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/183203AQHTKVPPDMRJLGQCBPBSCDTBHRD> a schema:Event;
   schema:name "TSM Presents ReGeneration Concert 1";
   schema:description """
 	<h1>ReGeneration Concert 1</h1>
@@ -1950,10 +1955,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-13T13:00:00"^^xsd:dateTime;
   schema:endDate "2024-07-13T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/183402ASNPBJLQPGTSRMMKLTLNHLKDBDP> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/183402ASNPBJLQPGTSRMMKLTLNHLKDBDP> a schema:Event;
   schema:name "TSM Presents ReGeneration Concert 2";
   schema:description """
 	<h1>ReGeneration Concert 2</h1>
@@ -1961,10 +1966,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-13T16:00:00"^^xsd:dateTime;
   schema:endDate "2024-07-13T16:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/183602AVRSBNTSQVVLHRJGJDJDVTVKVTM> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/183602AVRSBNTSQVVLHRJGJDJDVTVKVTM> a schema:Event;
   schema:name "TSM Presents ReGeneration Concert 3";
   schema:description """
 	<h1>ReGeneration Concert 3</h1>
@@ -1972,10 +1977,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-13T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-13T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/184202ANQDVMTNCDSBSDHJGLSQGCCSNQR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/184202ANQDVMTNCDSBSDHJGLSQGCCSNQR> a schema:Event;
   schema:name "TSM Presents ReGeneration Concert 4";
   schema:description """
 	<h1>ReGeneration Concert 4</h1>
@@ -1983,10 +1988,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-20T13:00:00"^^xsd:dateTime;
   schema:endDate "2024-07-20T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/184402AVSBHNGRBMSMDVCGNKJGGKHQCVS> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/184402AVSBHNGRBMSMDVCGNKJGGKHQCVS> a schema:Event;
   schema:name "TSM Presents ReGeneration Concert 5";
   schema:description """
 	<h1>ReGeneration Concert 5</h1>
@@ -1994,10 +1999,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-20T16:00:00"^^xsd:dateTime;
   schema:endDate "2024-07-20T16:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/184602AQCGRGPLBHKTKJNPQDCDDBCPDGB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/184602AQCGRGPLBHKTKJNPQDCDDBCPDGB> a schema:Event;
   schema:name "TSM Presents ReGeneration Concert 6";
   schema:description """
 	<h1>ReGeneration Concert 6</h1>
@@ -2005,10 +2010,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-20T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-20T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/185202ATBLQMVRHLLRGJCLRQJSGLRPMLG> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/185202ATBLQMVRHLLRGJCLRQJSGLRPMLG> a schema:Event;
   schema:name "TSM Presents ReGeneration Concert 7";
   schema:description """
 	<h1>ReGeneration Concert 7</h1>
@@ -2016,10 +2021,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-27T16:00:00"^^xsd:dateTime;
   schema:endDate "2024-07-27T16:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/185402AMJNNGNHBCCJDLPPVQSLBVCNHSQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/185402AMJNNGNHBCCJDLPPVQSLBVCNHSQ> a schema:Event;
   schema:name "TSM Presents ReGeneration Concert 8";
   schema:description """
 	<h1>ReGeneration Concert 8</h1>
@@ -2027,10 +2032,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-27T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-27T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/222202AVVBHSNKLDNPBLRRCMPRCHPTDKQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/222202AVVBHSNKLDNPBLRRCMPRCHPTDKQ> a schema:Event;
   schema:name "TSM presents Schmaltz & Pepper";
   schema:description """
 
@@ -2038,10 +2043,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-23T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-23T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/220402ADVQSMBNSLVGLVTDSSPMSRDGHVD> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/220402ADVQSMBNSLVGLVTDSSPMSRDGHVD> a schema:Event;
   schema:name "TSM presents Schubert's Piano";
   schema:description """
 
@@ -2049,10 +2054,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-19T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-19T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/219402AHHRBHSKJQGKTKRKGHTTPTDRDQR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/219402AHHRBHSKJQGKTKRKGHTTPTDRDQR> a schema:Event;
   schema:name "TSM presents Transfigured Night";
   schema:description """
 
@@ -2060,10 +2065,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-12T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-12T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/220002ALNQTMLDNJJHPTKSMBRJHHCCPGQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/220002ALNQTMLDNJJHPTKSMBRJHHCCPGQ> a schema:Event;
   schema:name "TSM presents Trio Zimbalist";
   schema:description """
 
@@ -2071,10 +2076,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-17T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-17T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/220202AGBPVTPJTCMPBRRHSSKCQRHLTDT> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/220202AGBPVTPJTCMPBRRHSSKCQRHLTDT> a schema:Event;
   schema:name "TSM presents Vadym Kholodenko";
   schema:description """
 
@@ -2082,10 +2087,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-18T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-18T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/220802ANNTVNNVVBDNGJLMVMSLMDHVMVQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/220802ANNTVNNVVBDNGJLMVMSLMDHVMVQ> a schema:Event;
   schema:name "TSM presents Voices Within";
   schema:description """
 
@@ -2093,10 +2098,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2024-07-26T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-07-26T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:toronto-summer-music-festival .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/toronto-summer-music-festival> .
 
-<http://www.spektrix.com/204802ATBRTQQPSSNVLKMLDDMQTGMLMVB> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/204802ATBRTQQPSSNVLKMLDDMQTGMLMVB> a schema:Event;
   schema:name "U of T presents 10 O'Clock Jazz Orchestra and Small Jazz Ensembles";
   schema:description """
 
@@ -2104,20 +2109,14 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2025-03-19T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-19T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-organization:university-of-toronto-faculty-of-music a schema:Organization;
+<https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music>
+  a schema:Organization;
   schema:name "University of Toronto Faculty of Music" .
 
-place:1802ARGRKTLMNQKVDQSCGBCSGTHTTCNNB a schema:Place;
-  schema:name "Virtual Concert";
-  schema:address address:1802ARGRKTLMNQKVDQSCGBCSGTHTTCNNB .
-
-address:1802ARGRKTLMNQKVDQSCGBCSGTHTTCNNB a schema:PostalAddress;
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/205402ATBQHDGDTKPCRJLDRKHNTQPLJRV> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/205402ATBQHDGDTKPCRJLDRKHNTQPLJRV> a schema:Event;
   schema:name "U of T presents 10 O'Clock Jazz Orchestra and Vocal Jazz Ensemble";
   schema:description """
 
@@ -2125,10 +2124,10 @@ address:1802ARGRKTLMNQKVDQSCGBCSGTHTTCNNB a schema:PostalAddress;
   schema:startDate "2024-11-20T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-20T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-<http://www.spektrix.com/237802AJSNCVHMDLQDRKKTBCQNHSNJCDD> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/237802AJSNCVHMDLQDRKKTBCQNHSNJCDD> a schema:Event;
   schema:name "U of T presents Cardoso, Lobo, Allegri, Sumaya, Tomkins, Gonzales & Balfour";
   schema:description """
 
@@ -2136,20 +2135,20 @@ address:1802ARGRKTLMNQKVDQSCGBCSGTHTTCNNB a schema:PostalAddress;
   schema:startDate "2025-03-22T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-22T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-place:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:Place;
+<https://spektrix.com/rcmusic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:Place;
   schema:name "St Paul's Basilica";
-  schema:address address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR .
+  schema:address <https://spektrix.com/rcmusic/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
 
-address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:PostalAddress;
   schema:streetAddress "83 Power St";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/204402AMCRDRNSGNNBSSTRTTDSBTTGPGQ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/204402AMCRDRNSGNNBSSTRTTDSBTTGPGQ> a schema:Event;
   schema:name "U of T presents Choirs in Concert";
   schema:description """
 
@@ -2157,30 +2156,10 @@ address:801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR a schema:PostalAddress;
   schema:startDate "2024-10-18T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-23T14:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-place:2002APLLRJQLLLDGLMSVTSPVTNQPBGKGL a schema:Place;
-  schema:name "Grace Church-on-the-Hill";
-  schema:address address:2002APLLRJQLLLDGLMSVTSPVTNQPBGKGL .
-
-address:2002APLLRJQLLLDGLMSVTSPVTNQPBGKGL a schema:PostalAddress;
-  schema:streetAddress "300 Lonsdale Rd";
-  schema:addressLocality "Toronto";
-  schema:addressRegion "ON";
-  schema:addressCountry "CA" .
-
-place:9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG a schema:Place;
-  schema:name "Eglinton St. George's United Church";
-  schema:address address:9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG .
-
-address:9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG a schema:PostalAddress;
-  schema:streetAddress "35 Lytton Blvd";
-  schema:addressLocality "Toronto";
-  schema:addressRegion "ON";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/205002AJBPHRHDJHJLBCVSHBQRHTRSDPG> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/205002AJBPHRHDJHJLBCVSHBQRHTRSDPG> a schema:Event;
   schema:name "U of T presents Contemporary Music Ensemble";
   schema:description """
 
@@ -2188,10 +2167,10 @@ address:9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG a schema:PostalAddress;
   schema:startDate "2024-10-15T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-04-01T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-<http://www.spektrix.com/235802ABPMBTLNGGVJPBBVTJSQCVSQVNM> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/235802ABPMBTLNGGVJPBBVTJSQCVSQVNM> a schema:Event;
   schema:name "U of T presents Così fan tutte";
   schema:description """
 
@@ -2199,10 +2178,10 @@ address:9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG a schema:PostalAddress;
   schema:startDate "2025-03-13T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-16T14:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-<http://www.spektrix.com/205202ASLNRCKKMNTTNVTGPPMRCQPHMJJ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/205202ASLNRCKKMNTTNVTGPPMRCQPHMJJ> a schema:Event;
   schema:name "U of T presents Downing Hybrid Ensemble";
   schema:description """
 
@@ -2210,10 +2189,10 @@ address:9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG a schema:PostalAddress;
   schema:startDate "2024-11-13T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-13T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-<http://www.spektrix.com/233802ABBMHGDSLNMNVRRNCKQMHJLNPKS> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/233802ABBMHGDSLNMNVRRNCKQMHJLNPKS> a schema:Event;
   schema:name "U of T presents Gospel Choir";
   schema:description """
 
@@ -2221,10 +2200,10 @@ address:9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG a schema:PostalAddress;
   schema:startDate "2025-02-08T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-02-08T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-<http://www.spektrix.com/235602APVGKPKRRNNCTTNMSHPMJHDGDLJ> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/235602APVGKPKRRNNCTTNMSHPMJHDGDLJ> a schema:Event;
   schema:name "U of T presents L’amour und Liebe";
   schema:description """
 
@@ -2232,10 +2211,10 @@ address:9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG a schema:PostalAddress;
   schema:startDate "2025-04-04T17:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-04T17:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-<http://www.spektrix.com/237602AVGRNKPQNQVBBJLTTBDJPCLVBHL> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/237602AVGRNKPQNQVBBJLTTBDJPCLVBHL> a schema:Event;
   schema:name "U of T presents The Choice of Hercules - Dixit Dominus";
   schema:description """
 
@@ -2243,10 +2222,10 @@ address:9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG a schema:PostalAddress;
   schema:startDate "2024-11-10T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-10T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-<http://www.spektrix.com/233602ARGGGNCKNQMSGRJHCLMLRBPHDJK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/233602ARGGGNCKNQMSGRJHCLMLRBPHDJK> a schema:Event;
   schema:name "U of T presents The Music of Terry Promane";
   schema:description """
 
@@ -2254,10 +2233,10 @@ address:9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG a schema:PostalAddress;
   schema:startDate "2024-11-06T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-06T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-<http://www.spektrix.com/236802APQRRSPBRLPQLRCGCRDBVNCTQSP> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/236802APQRRSPBRLPQLRCGCRDBVNCTQSP> a schema:Event;
   schema:name "U of T presents Three Islands Castaway Tempest Songbook Riders to the Sea";
   schema:description """
 
@@ -2265,20 +2244,20 @@ address:9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG a schema:PostalAddress;
   schema:startDate "2024-11-21T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-24T14:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-place:9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH a schema:Place;
+<https://spektrix.com/rcmusic/location/9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH> a schema:Place;
   schema:name "York University";
-  schema:address address:9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH .
+  schema:address <https://spektrix.com/rcmusic/address/9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH> .
 
-address:9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH> a schema:PostalAddress;
   schema:streetAddress "Accolade East Building";
   schema:addressLocality "83 York Blvd";
   schema:addressRegion "Toronto ON";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/203402ASGJDLKKHJJMMLSJGVTKBMNCBJP> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/203402ASGJDLKKHJJMMLSJGVTKBMNCBJP> a schema:Event;
   schema:name "U of T presents University of Toronto Symphony Orchestra";
   schema:description """
 
@@ -2286,20 +2265,20 @@ address:9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH a schema:PostalAddress;
   schema:startDate "2024-09-28T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-05T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-place:4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK a schema:Place;
+<https://spektrix.com/rcmusic/location/4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK> a schema:Place;
   schema:name "Metropolitan United Church";
-  schema:address address:4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK .
+  schema:address <https://spektrix.com/rcmusic/address/4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK> .
 
-address:4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK a schema:PostalAddress;
+<https://spektrix.com/rcmusic/address/4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK> a schema:PostalAddress;
   schema:streetAddress "56 Queen St E";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/205602AHSNTLMQSPCJKBRJMHMVTQCRQGN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/205602AHSNTLMQSPCJKBRJMHMVTQCRQGN> a schema:Event;
   schema:name "U of T presents Vocal Jazz Ensemble";
   schema:description """
 
@@ -2307,10 +2286,10 @@ address:4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK a schema:PostalAddress;
   schema:startDate "2025-03-12T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-12T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-<http://www.spektrix.com/203802ANJRRVKRPMKCNTLJGJGPBVSTGSL> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/203802ANJRRVKRPMKCNTLJGJGPBVSTGSL> a schema:Event;
   schema:name "U of T presents Wind Ensemble";
   schema:description """
 
@@ -2318,10 +2297,10 @@ address:4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK a schema:PostalAddress;
   schema:startDate "2024-10-05T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-22T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-<http://www.spektrix.com/204202AHPMGMVGPJKHLCMSHGMMRGTMSQD> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/204202AHPMGMVGPJKHLCMSHGMMRGTMSQD> a schema:Event;
   schema:name "U of T presents Wind Symphony";
   schema:description """
 
@@ -2329,10 +2308,10 @@ address:4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK a schema:PostalAddress;
   schema:startDate "2024-10-19T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-29T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH;
-  schema:organizer organization:university-of-toronto-faculty-of-music .
+  schema:location <https://spektrix.com/rcmusic/location/9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-<http://www.spektrix.com/216602AGGBMGQKGLLGTKHHKBNHGDLHVCV> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/216602AGGBMGQKGLLGTKHHKBNHGDLHVCV> a schema:Event;
   schema:name "Viano Quartet with MILOŠ";
   schema:description """
 
@@ -2340,10 +2319,10 @@ address:4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK a schema:PostalAddress;
   schema:startDate "2024-11-17T15:00:00"^^xsd:dateTime;
   schema:endDate "2024-11-17T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/214402ATQNSNVPMRPTQTCTRTLPBNKLKCP> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/214402ATQNSNVPMRPTQTCTRTLPBNKLKCP> a schema:Event;
   schema:name "VOCES8";
   schema:description """
 
@@ -2351,10 +2330,10 @@ address:4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK a schema:PostalAddress;
   schema:startDate "2024-12-13T20:00:00"^^xsd:dateTime;
   schema:endDate "2024-12-13T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/238602ASCSCBRKQRJNQBVQTHDVTVLGTMC> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/238602ASCSCBRKQRJNQBVQTHDVTVLGTMC> a schema:Event;
   schema:name "VOICEBOX OIC presents ALCESTE by Christoph Willibald Gluck";
   schema:description """
 
@@ -2362,13 +2341,13 @@ address:4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK a schema:PostalAddress;
   schema:startDate "2025-01-12T14:30:00"^^xsd:dateTime;
   schema:endDate "2025-01-12T14:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:voicebox-oic .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/voicebox-oic> .
 
-organization:voicebox-oic a schema:Organization;
+<https://spektrix.com/rcmusic/organization/voicebox-oic> a schema:Organization;
   schema:name "VOICEBOX OIC" .
 
-<http://www.spektrix.com/238802AQQCHPVKKGDSNVCVQMGDCGBRBNS> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/238802AQQCHPVKKGDSNVCVQMGDCGBRBNS> a schema:Event;
   schema:name "VOICEBOX OIC presents LA RONDINE by Giacomo Puccini";
   schema:description """
 
@@ -2376,10 +2355,10 @@ organization:voicebox-oic a schema:Organization;
   schema:startDate "2025-03-20T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-03-21T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:voicebox-oic .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/voicebox-oic> .
 
-<http://www.spektrix.com/239002AVPJBNQKTKKQTQMBPTKHBHLGPMH> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/239002AVPJBNQKTKKQTQMBPTKHBHLGPMH> a schema:Event;
   schema:name "VOICEBOX OIC presents ROBERT LE DIABLE by Giacomo Meyerbeer";
   schema:description """
 
@@ -2387,10 +2366,10 @@ organization:voicebox-oic a schema:Organization;
   schema:startDate "2025-04-25T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-25T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV;
-  schema:organizer organization:voicebox-oic .
+  schema:location <https://spektrix.com/rcmusic/location/202AVGMPQTQBQRCSGKLRJQMMVGMLJNDVV>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/voicebox-oic> .
 
-<http://www.spektrix.com/233002ABJDJTNBVHRMGSMMHSBRGKBBGKK> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/233002ABJDJTNBVHRMGSMMHSBRGKBBGKK> a schema:Event;
   schema:name "Wildlands League & Mushkegowuk Council Present Tawich in the City";
   schema:description """
 
@@ -2398,13 +2377,14 @@ organization:voicebox-oic a schema:Organization;
   schema:startDate "2024-09-25T19:00:00"^^xsd:dateTime;
   schema:endDate "2024-09-25T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer <https://spektrix.com/organization/wildlands-league-&-mushkegowuk-council> .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/wildlands-league-&-mushkegowuk-council> .
 
-<https://spektrix.com/organization/wildlands-league-&-mushkegowuk-council> a schema:Organization;
+<https://spektrix.com/rcmusic/organization/wildlands-league-&-mushkegowuk-council>
+  a schema:Organization;
   schema:name "Wildlands League & Mushkegowuk Council" .
 
-<http://www.spektrix.com/216802ASDRGQKPQGQTHRCDGBHVPRGNNND> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/216802ASDRGQKPQGQTHRCDGBHVPRGNNND> a schema:Event;
   schema:name "Yellowjackets";
   schema:description """
 
@@ -2412,10 +2392,10 @@ organization:voicebox-oic a schema:Organization;
   schema:startDate "2025-04-26T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-04-26T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/217402ATMNCDDRBMPCJVBQLBHVSVSJHLN> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/217402ATMNCDDRBMPCJVBQLBHVSVSJHLN> a schema:Event;
   schema:name "Yuja Wang and Víkingur Ólafsson";
   schema:description """
 
@@ -2423,10 +2403,10 @@ organization:voicebox-oic a schema:Organization;
   schema:startDate "2025-02-18T20:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-18T20:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .
 
-<http://www.spektrix.com/236403AGLLJRTJNSKBPMTBVNCSPHJPGLR> a schema:Event;
+<http://www.spektrix.com/rcmusic/event/236403AGLLJRTJNSKBPMTBVNCSPHJPGLR> a schema:Event;
   schema:name "Yuja Wang and Víkingur Ólafsson";
   schema:description """
 
@@ -2434,5 +2414,5 @@ organization:voicebox-oic a schema:Organization;
   schema:startDate "2025-02-17T19:00:00"^^xsd:dateTime;
   schema:endDate "2025-02-17T19:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ;
-  schema:organizer organization:the-royal-conservatory .
+  schema:location <https://spektrix.com/rcmusic/location/204AMVQJPJQPLKPMLKLBQGRHMGCBDJBQQ>;
+  schema:organizer <https://spektrix.com/rcmusic/organization/the-royal-conservatory> .

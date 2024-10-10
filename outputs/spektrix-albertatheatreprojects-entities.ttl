@@ -8,7 +8,8 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/24601AQBNLBQCHKVGDVHQJVMMGKLGNBDJ> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/24601AQBNLBQCHKVGDVHQJVMMGKLGNBDJ>
+  a schema:Event;
   schema:name "22-23 Teenage Dick (Completed Production)";
   schema:description """
 
@@ -16,19 +17,22 @@
   schema:startDate "2023-04-18T19:30:00"^^xsd:dateTime;
   schema:endDate "2023-04-30T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:Place;
+<https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:Place;
   schema:name "Martha Cohen Theatre";
-  schema:address address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:address <https://spektrix.com/albertatheatreprojects/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
+<https://spektrix.com/albertatheatreprojects/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:PostalAddress;
   schema:streetAddress "215 8 Ave SE";
   schema:addressLocality "Calgary";
   schema:addressRegion "AB T2G 0K8";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/26201AGBHCTNMDGTRMRCVQPKJNVHQTBBK> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/26201AGBHCTNMDGTRMRCVQPKJNVHQTBBK>
+  a schema:Event;
   schema:name "22-23 Teenage Dick (Youth Engagement)";
   schema:description """
 
@@ -36,17 +40,20 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:startDate "2023-04-26T11:30:00"^^xsd:dateTime;
   schema:endDate "2023-05-10T11:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:Place;
+<https://spektrix.com/albertatheatreprojects/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>
+  a schema:Place;
   schema:name "ATP Rehearsal Hall";
-  schema:address address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:address <https://spektrix.com/albertatheatreprojects/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
+<https://spektrix.com/albertatheatreprojects/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>
+  a schema:PostalAddress;
   schema:streetAddress "220 9 Ave SE";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/18201AHGNDCRVCPJBPPJCHBJKBJSRNNKN> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/18201AHGNDCRVCPJBPPJCHBJKBJSRNNKN>
+  a schema:Event;
   schema:name "Alberta Kitchen Party";
   schema:description """
 
@@ -54,9 +61,10 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2022-03-02T19:30:00"^^xsd:dateTime;
   schema:endDate "2022-03-19T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/18602ADTGKVNLBLPJJMPTNVVHRVMHQNJS> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/18602ADTGKVNLBLPJJMPTNVVHRVMHQNJS>
+  a schema:Event;
   schema:name "Alberta Kitchen Party (Youth Engagement)";
   schema:description """
 
@@ -64,9 +72,10 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2022-03-09T11:30:00"^^xsd:dateTime;
   schema:endDate "2022-03-16T11:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-<http://www.spektrix.com/34001AGQQHTLTHTMBJQGPRQRMLLBGHNMV> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/34001AGQQHTLTHTMBJQGPRQRMLLBGHNMV>
+  a schema:Event;
   schema:name "Backyard Bash Fundraiser 2024";
   schema:description """
 
@@ -74,16 +83,19 @@ address:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN a schema:PostalAddress;
   schema:startDate "2024-08-09T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-08-10T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN> .
 
-place:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:Place;
+<https://spektrix.com/albertatheatreprojects/location/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>
+  a schema:Place;
   schema:name "General";
-  schema:address address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN .
+  schema:address <https://spektrix.com/albertatheatreprojects/address/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN> .
 
-address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
+<https://spektrix.com/albertatheatreprojects/address/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>
+  a schema:PostalAddress;
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/25401ADKDNDVMDKDPLNQQVHNPHGRHDJGH> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/25401ADKDNDVMDKDPLNQQVHNPHGRHDJGH>
+  a schema:Event;
   schema:name "Bombay Black";
   schema:description """
 
@@ -91,9 +103,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2023-03-07T19:30:00"^^xsd:dateTime;
   schema:endDate "2023-03-19T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/32601AKDCCCPHNNLLKVMKNDNHMQKCVBKT> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/32601AKDCCCPHNNLLKVMKNDNHMQKCVBKT>
+  a schema:Event;
   schema:name "Charlotte's Web";
   schema:description """
 
@@ -101,9 +114,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2024-11-26T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-12-29T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/24801AHGPCJBMGMVRBNKLDDDHKTKTNBQS> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/24801AHGPCJBMGMVRBNKLDDDHKTKTNBQS>
+  a schema:Event;
   schema:name "Cowgirl Up";
   schema:description """
 
@@ -111,9 +125,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2022-10-18T19:30:00"^^xsd:dateTime;
   schema:endDate "2022-10-30T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/25801AGPSVCGGNRPVHRSNSQGLMPJPTNDB> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/25801AGPSVCGGNRPVHRSNSQGLMPJPTNDB>
+  a schema:Event;
   schema:name "Cowgirl Up (Youth Engagement)";
   schema:description """
 
@@ -121,9 +136,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2022-10-26T11:30:00"^^xsd:dateTime;
   schema:endDate "2022-11-02T11:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-<http://www.spektrix.com/18401APQBVKHJSJNGJQKHRTGTLCTRJBBR> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/18401APQBVKHJSJNGJQKHRTGTLCTRJBBR>
+  a schema:Event;
   schema:name "In Wonderland";
   schema:description """
 
@@ -131,9 +147,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2021-11-23T19:30:00"^^xsd:dateTime;
   schema:endDate "2021-12-29T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/19801AHJMMDKNMDJQSLCTGNDLGNGMJGHK> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/19801AHJMMDKNMDJQSLCTGNDLGNGMJGHK>
+  a schema:Event;
   schema:name "In Wonderland (Youth Engagement)";
   schema:description """
 
@@ -141,9 +158,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2021-11-25T11:30:00"^^xsd:dateTime;
   schema:endDate "2021-12-16T11:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-<http://www.spektrix.com/18202APJJJCHLMKPNLCKVHJTNNKBGJPVK> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/18202APJJJCHLMKPNLCKVHJTNNKBGJPVK>
+  a schema:Event;
   schema:name "Kim's Convenience ";
   schema:description """
 
@@ -151,9 +169,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2022-04-13T19:30:00"^^xsd:dateTime;
   schema:endDate "2022-05-01T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/19202AMCPNMSPJRSLMHTCBSLNNJRBSKNM> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/19202AMCPNMSPJRSLMHTCBSLNNJRBSKNM>
+  a schema:Event;
   schema:name "Kim's Convenience (Youth Engagement)";
   schema:description """
 
@@ -161,9 +180,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2022-04-20T11:30:00"^^xsd:dateTime;
   schema:endDate "2022-04-27T11:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-<http://www.spektrix.com/32801AVMKCMLRNPSSSQQTHRKHHMLJSPPT> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/32801AVMKCMLRNPSSSQQTHRKHHMLJSPPT>
+  a schema:Event;
   schema:name "King James";
   schema:description """
 
@@ -171,9 +191,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2025-02-25T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-16T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/33001ATHPSRJLTTHKPJHTBJLTTSMCRPQH> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/33001ATHPSRJLTTHKPJHTBJLTTSMCRPQH>
+  a schema:Event;
   schema:name "Liars at a Funeral";
   schema:description """
 
@@ -181,9 +202,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2025-04-22T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-05-11T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/31001ANSGMCKVDLMTPSRQHVNSMPTMDPCG> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/31001ANSGMCKVDLMTPSRQHVNSMPTMDPCG>
+  a schema:Event;
   schema:name "The Birds and the Bees";
   schema:description """
 
@@ -191,9 +213,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2024-05-07T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-05-25T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/30801ARPRRSKJDTQHHJTDRTPHSSSJNCJP> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/30801ARPRRSKJDTQHHJTDRTPHSSSJNCJP>
+  a schema:Event;
   schema:name "The Black Bonspiel of Wullie MacCrimmon";
   schema:description """
 
@@ -201,9 +224,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2024-02-20T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-03-10T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/24001ABMNLGCGVMRMGTMJKPBQCNHQQLMH> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/24001ABMNLGCGVMRMGTMJKPBQCNHQQLMH>
+  a schema:Event;
   schema:name "The F Word";
   schema:description """
 
@@ -211,9 +235,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2023-02-09T19:30:00"^^xsd:dateTime;
   schema:endDate "2023-02-19T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/26401ANCDKPPRRGMBPNMJGQSVPCDHQSJS> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/26401ANCDKPPRRGMBPNMJGQSVPCDHQSJS>
+  a schema:Event;
   schema:name "The F Word (Youth Engagement)";
   schema:description """
 
@@ -221,9 +246,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2023-02-15T11:30:00"^^xsd:dateTime;
   schema:endDate "2023-02-15T11:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-<http://www.spektrix.com/23801AJTHHRQPTBGSQKNGJHMKGQMHTHHM> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/23801AJTHHRQPTBGSQKNGJHMKGQMHTHHM>
+  a schema:Event;
   schema:name "The Jungle Book";
   schema:description """
 
@@ -231,9 +257,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2022-11-30T18:30:00"^^xsd:dateTime;
   schema:endDate "2022-12-31T13:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/26001APLNVRTPLBBPSVMJQSVGGNQMBRBG> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/26001APLNVRTPLBBPSVMJQSVGGNQMBRBG>
+  a schema:Event;
   schema:name "The Jungle Book (Youth Engagement)";
   schema:description """
 
@@ -241,9 +268,10 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2022-11-29T11:30:00"^^xsd:dateTime;
   schema:endDate "2022-12-15T11:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-<http://www.spektrix.com/32401ANQMVQVNTGTQHTSGSGJCPVKHDGKP> a schema:Event;
+<http://www.spektrix.com/albertatheatreprojects/event/32401ANQMVQVNTGTQHTSGSGJCPVKHDGKP>
+  a schema:Event;
   schema:name "The Seafarer";
   schema:description """
 
@@ -251,4 +279,4 @@ address:1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN a schema:PostalAddress;
   schema:startDate "2024-10-15T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-10T14:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .

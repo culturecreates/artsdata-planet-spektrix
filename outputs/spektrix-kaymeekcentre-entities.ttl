@@ -8,7 +8,8 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/180601ASMQKJHDVSJPGGDPPMVKMGTDJMG> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/180601ASMQKJHDVSJPGGDPPMVKMGTDJMG> a
+    schema:Event;
   schema:name "20th Anniversary Gala: Cocktail Reception and Trans-Canada Highwaymen";
   schema:description """
 
@@ -17,20 +18,22 @@
   schema:endDate "2024-11-23T20:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:Place;
+<https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a
+    schema:Place;
   schema:name "Kay Meek Arts Centre";
-  schema:address address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:address <https://spektrix.com/kaymeekcentre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
+<https://spektrix.com/kaymeekcentre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:PostalAddress;
   schema:streetAddress "1700 Mathers Avenue";
   schema:addressLocality "West Vancouver";
   schema:addressRegion "BC";
   schema:postalCode "V7V 2G7";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/180401AHTPKTMBJLKQPMDKQDCPGMTLVJT> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/180401AHTPKTMBJLKQPMDKQDCPGMTLVJT> a
+    schema:Event;
   schema:name "20th Anniversary Gala: Three-Course Dinner and Concert";
   schema:description """
 
@@ -39,9 +42,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-23T18:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Special"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/177802ADTHKRQGRHGPMSJBMGDGDBKCVRK> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/177802ADTHKRQGRHGPMSJBMGDGDBKCVRK> a
+    schema:Event;
   schema:name "A Simple Space";
   schema:description """
 	Seven acrobats push their physical limits to the extreme.<span><br/></span><span><br/></span>Simultaneously raw, frantic and joyful - Australian circus company, A Simple Space evokes real responses in audiences, something visceral rather than cerebral. Instead of fine-tuning the performance with makeup, lighting and theatrical overlay, the cast has deliberately gone the opposite way focusing on their exceptional skill, playful competitiveness, trust and friendship. You’ll feel the heat, hear every breath, and be immersed in every moment. This honesty is the essence behind A Simple Space.<span><br/></span><span><br/></span>“It leaves the audience exhilarated, full of life, and different from the way they were when they walked into the space.” Theatre Scene
@@ -50,9 +54,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-05-22T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Special"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/180201ARDPVDMGSBDRHNKHPMBCHGHNCHQ> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/180201ARDPVDMGSBDRHNKHPMBCHGHNCHQ> a
+    schema:Event;
   schema:name "ABBA Revisited";
   schema:description """
 
@@ -61,9 +66,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-05-06T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/176802AKSCBTTSMTVMQJBTQNSBBPHTSBS> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/176802AKSCBTTSMTVMQJBTQNSBBPHTSBS> a
+    schema:Event;
   schema:name "After the Gold Rush Reimagined";
   schema:description """
 	A celebration of Neil Young’s eclectic third album After the Gold Rush.<span><br/></span><span><br/></span>Our annual tradition of rounding up talented musicians to re-imagine a classic album continues! This edition of the popular two-night event features Krystle Dos Santos, Joe Henry, Rich Hope, Marcus Mosely, Samantha Parton, Marin Patenaude, Steve Poltz, Julian Taylor and others. <span><br/></span><span><br/></span>Expect to hear such timeless songs as Southern Man, Only Love Can Break Your Heart and the brilliant title track performed in styles entirely up to the artists’ inspiration. Following a first set of After the Gold Rush performed in its entirety, the second set will feature the guest artists’ choice of songs from Young’s extensive catalogue.
@@ -72,9 +78,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-19T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/184001ASHNBGNSKJRLNLJMVKKSNQJTSSD> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/184001ASHNBGNSKJRLNLJMVKKSNQJTSSD> a
+    schema:Event;
   schema:name "Barney Bentall and The Cariboo Express";
   schema:description """
 
@@ -83,9 +90,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-09T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/177401AVMSSSKNGGQKBPJQDJLKPMDHMVS> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/177401AVMSSSKNGGQKBPJQDJLKPMDHMVS> a
+    schema:Event;
   schema:name "Blue Moon Marquee";
   schema:description """
 	Outstanding BC-based Juno winners are known for their energetic live performances.<span><br/></span><span><br/></span>The BC-based Blue Moon Marquee are inspired by anything that swings, jumps or grooves. The multi-talented upright bassist Jasmine Colette brings the rhythm with her feet on a custom foot drum kit, all while singing in her signature honey-dipped tone. A.W. Cardinal provides distinctive and soulful vocals which barrel out like a raging bull while his guitar crackles with the swinging energy of jazz-tinged blues. It’s evident that artists like Louis Armstrong, Howlin’ Wolf, Tom Waits, Memphis Minnie, and Django Reinhardt are deeply infused in the soul of their music. <span><br/></span><span><br/></span>Opening for Blue Moon Marquee is Vancouver’s own Paul Pigat who is blessed with a jazz man’s sheen, a rockabilly heart and a hobo’s soul.
@@ -94,9 +102,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-02T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/181601AMDGMGCVHRRCSPJGDHJJSKSKLJD> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/181601AMDGMGCVHRRCSPJGDHJJSKSKLJD> a
+    schema:Event;
   schema:name "Daal Band: Live in Vancouver";
   schema:description """
 
@@ -105,9 +114,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-06T20:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/176601AMSDNGSVQMLCPLDNNDPQNRBRLMP> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/176601AMSDNGSVQMLCPLDNNDPQNRBRLMP> a
+    schema:Event;
   schema:name "Duo Cordelia";
   schema:description """
 	Explore the boundaries of the piano and violin.<span><br/></span><span><br/></span>Violinist Marcoux and pianist Poirier perform a rich tapestry of classical repertoire, traditional melodies and original compositions. Vanessa Marcoux performs regularly in a wide array of musical activities ranging from classical to world music, jazz, improvisation and performing her own compositions. As a member of the Duo Fortin-Poirier, Marie-Christine has performed the critically acclaimed ‘Twenty Fingers and a Piano’ in Canada, the United States, France, Norway and Italy. <span><br/></span><span><br/></span>Featured works by Shostakovich, Fauré, Mussorgsky, Say, Glass and Marcoux.
@@ -116,9 +126,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-03T15:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/178801ACMMVBVTMNHHNCBBVQRVSTQVKVB> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/178801ACMMVBVTMNHHNCBBVQRVSTQVKVB> a
+    schema:Event;
   schema:name "Epidermis Circus";
   schema:description """
 	A live puppet film created by using household objects, a camera and bare hands!<span><br/></span><span><br/></span>A spicy puppet cabaret, hosted by a sassy grandma who keeps trying to steal the show. This beautifully twisted variety show is performed by Ingrid Hansen, who also puppeteers for the Jim Henson Company. Watch from behind-the-scenes as Hansen performs a live puppet film, animating cheeky vignettes in the palm of her hand and projecting them onto a huge screen. 
@@ -127,9 +138,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-04-11T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Theatre"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/186601AHRMNHKDGKNTLPLTPGCGHJMKCJR> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/186601AHRMNHKDGKNTLPLTPGCGHJMKCJR> a
+    schema:Event;
   schema:name "Essentials of Estate Planning";
   schema:description """
 
@@ -138,9 +150,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-23T17:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Talk"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/186801AQRTLPHPNQHJBCCGSGJRVPLVNCQ> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/186801AQRTLPHPNQHJBCCGSGJRVPLVNCQ> a
+    schema:Event;
   schema:name "Exhibition On Screen: Dawn of Impressionism: Paris 1874";
   schema:description """
 
@@ -149,9 +162,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-03-23T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/187001ANRDTDJNVTPHPBSPTNVHPHNMPQL> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/187001ANRDTDJNVTPHPBSPTNVHPHNMPQL> a
+    schema:Event;
   schema:name "Exhibition on Screen: Michelangelo: Love and Death";
   schema:description """
 
@@ -160,9 +174,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-05-26T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/186602ANJMDGMTJTKGVSDMGLRRTHHHQHS> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/186602ANJMDGMTJTKGVSDMGLRRTHHHQHS> a
+    schema:Event;
   schema:name "Exhibition on Screen: Van Gogh: Poets & Lovers";
   schema:description """
 
@@ -171,9 +186,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-28T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/170001AKKRVBTNDHJVNLJBRLNVMRJTVSB> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/170001AKKRVBTNDHJVNLJBRLNVMRJTVSB> a
+    schema:Event;
   schema:name "Fleetwood Magic - The Authentic Tribute to Fleetwood Mac";
   schema:description """
 
@@ -182,9 +198,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-16T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/185402AMJNNGNHBCCJDLPPVQSLBVCNHSQ> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/185402AMJNNGNHBCCJDLPPVQSLBVCNHSQ> a
+    schema:Event;
   schema:name "Food, Inc. 2";
   schema:description """
 
@@ -193,9 +210,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-12-02T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/183401AHBGRJHGTSNGVNLTSDNLKKSBRTN> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/183401AHBGRJHGTSNGVNLTSDNLKKSBRTN> a
+    schema:Event;
   schema:name "From Lust to Loyalty";
   schema:description """
 
@@ -204,9 +222,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-11-03T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/179201APGTCQQVPDMSKJGSSMRBNDJJQNR> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/179201APGTCQQVPDMSKJGSSMRBNDJJQNR> a
+    schema:Event;
   schema:name "Get Back Unplugged";
   schema:description """
 	A nostalgic re-imagining of the Beatles.<span><br/></span><span><br/></span>Get Back Unplugged started as an idea of Vancouver-based folk-pop trio the Wahs (Cam Wilson, Andy Hillhouse, and Brent Gubbels), to dive deeper into the Beatles body of work. After performing in a now legendary White Album concert at the Rogue Folk Club, they decided to invite some friends and collaborators to join them in this exciting project, adding an accordion, ukulele and kazoo to the mix!<span><br/></span><span><br/></span>“...had our audience on their feet asking for more!” Quadra Concert Society
@@ -215,9 +234,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-27T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/185401ABSVVMRVTGNMNMVQPPDMNPVRJRT> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/185401ABSVVMRVTGNMNMVQPPDMNPVRJRT> a
+    schema:Event;
   schema:name "Ghostlight";
   schema:description """
 
@@ -226,9 +246,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-21T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/179003ANVJNBNMGJHDRSTMVSJJKPCNTVN> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/179003ANVJNBNMGJHDRSTMVSJJKPCNTVN> a
+    schema:Event;
   schema:name "Grant Lawrence & Friends";
   schema:description """
 	Vancouver's own award-winning raconteur-extraordinaire.<span><br/></span><span><br/></span>CBC host, author, columnist, and musician Grant Lawrence will once again share uproarious true stories of growing up in West Vancouver and Desolation Sound, told alongside his accompanying hilarious slides and videos. Between stories, be entertained by an all-star cast of special guest musicians to be announced. <span><br/></span><span><br/></span>Grant Lawrence has written four bestselling books, hosts CBC Music Top 20, sings for the popular garage band The Smugglers, and writes for multiple newspapers.
@@ -237,9 +258,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-04-12T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/183801AGRPKBNGPJRTMCMMJKMGMVVJBLR> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/183801AGRPKBNGPJRTMCMMJKMGMVVJBLR> a
+    schema:Event;
   schema:name "Honouring Cyrus the Great ";
   schema:description """
 
@@ -248,9 +270,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-27T17:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/178201AJQQPTNBJQCNVDKBKNCBLDBRKTT> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/178201AJQQPTNBJQCNVDKBKNCBLDBRKTT> a
+    schema:Event;
   schema:name "Juliet: A Revenge Comedy";
   schema:description """
 	A comedic exploration into the tragedy of Shakespeare's most famous female characters.<span><br/></span><span><br/></span>What if Juliet decided not to die? Juliet: A Revenge Comedy is an exploration of our reverence for classical theatre through the lens of modern feminism. <span><br/></span><span><br/></span>Stuck in an endless loop of turning a dagger on herself, Juliet breaks out of her tragedy in search of a reason for her tragic demise. Along the way, Juliet recruits a team of Shakespeare’s most famous female characters to find out why they’ve been forced to die. Can they alter their fate or are they doomed to play out the same tragic tales for the rest of eternity? 
@@ -259,9 +282,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-12-08T15:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Theatre"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/176201ANLHLNRPJJGGPMMRCPRLLCQRKBR> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/176201ANLHLNRPJJGGPMMRCPRLLCQRKBR> a
+    schema:Event;
   schema:name "Kay Meek Concerto Competition Winner";
   schema:description """
 	Come experience a rising star of classical music, the winner of the annual VAMSO Kay Meek Concerto Competition.<span><br/></span><span><br/></span>The spotlight is on Generation Next as we celebrate local emerging talent. Rounding out the program is Tchaikovsky’s Sleeping Beauty Waltz and the captivating melodies and heart-wrenching harmonies of Symphony No. 5, a masterpiece from the height of the Romantic Era, with an inspirational narrative of triumph over adversity.<span><br/></span><span><br/></span>Tchaikovsky: Sleeping Beauty Waltz<span><br/></span>Kay Meek Concerto Competition Winner<span><br/></span>INTERMISSION<span><br/></span>Tchaikovsky: Symphony No. 5<span><br/></span><span><br/></span>*Repertoire selections and performing artists are subject to change.
@@ -270,9 +294,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-02-09T14:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/186201APHQGKJLCBKGKTRCMQSSVJJPHSM> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/186201APHQGKJLCBKGKTRCMQSSVJJPHSM> a
+    schema:Event;
   schema:name "KUCHEH MEHRAN";
   schema:description """
 
@@ -281,9 +306,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-12-20T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/177002AVNVCJRMSVSPCBKHHNTHJRMPJDK> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/177002AVNVCJRMSVSPCBKHHNTHJRMPJDK> a
+    schema:Event;
   schema:name "Le Ren";
   schema:description """
 	Folk-singer known for lilting melodies and deeply felt lyrics about love.<span><br/></span><span><br/></span>The Canadian folk singer’s music has a familiarity about it, even if you’ve never heard it before. Her crystal clear vocals hit in a way that feels both nostalgic and timeless - with clear evidence of musical influences like Bob Dylan, John Prine and Joni Mitchell. In her debut album, Leftovers, Le Ren creates a coming-of-age collage that collects past experiences and reflects on their present meaning. <span><br/></span><span><br/></span>\"Reflecting on relationships…. Trying to understand myself through the way that I love people. Or how people love me. I think that feels like a throughline.\" 
@@ -292,9 +318,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-04-04T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/185201ACGTPCPGMHTKJSCKBTHNPRHPRLH> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/185201ACGTPCPGMHTKJSCKBTHNPRHPRLH> a
+    schema:Event;
   schema:name "Mehregan Multicultural Festival";
   schema:description """
 
@@ -303,9 +330,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-10-20T14:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/177402ADBBMCHPSNMGCVHVSPMJNLCPVQR> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/177402ADBBMCHPSNMGCVHVSPMJNLCPVQR> a
+    schema:Event;
   schema:name "Michael Kaeshammer";
   schema:description """
 	Jazz or pop or classical: Kaeshammer returns!<span><br/></span><span><br/></span>Michael Kaeshammer isn’t so much a piano player as a piano whisperer;  a master musician and songwriter able to coax dazzling, kaleidoscopic sounds from his instrument in a way few can rival. The 7x Juno award-nominee’s superb 15th album, Turn it Up was released in March 2024 to strong reviews.<span><br/></span><span><br/></span>Born in Germany and residing in BC, Kaeshammer has been called “Canada’s #1 piano player” by CBC. He has captivated audiences around the world, highlighted by 10 tours to China, countless shows opposite international superstars, and three appearances at the Olympics to audiences in the millions.
@@ -314,9 +342,10 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2024-12-06T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/174801AVTRQJMHSVVDHTBHGKGPTTNSKCM> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/174801AVTRQJMHSVVDHTBHGKGPTTNSKCM> a
+    schema:Event;
   schema:name "Michael van den Bos: Cut Loose! Fame, Flashdance, Footloose & The Musicals of the '80s";
   schema:description """
 	A retro revue clip-show of big screen musical performances from the 80s.<span><br/></span><span><br/></span>Like an awesome 80s mixtape, the movie musicals of that era exploded with an energized blast of eclectic styles. From provocative new spins on the traditional musical form, adaptations of Broadway shows and comic strips, to the kinetically punchy images and infectious pop sounds of MTV’s music video influence - classic film scholar Michael Van den Bos goes back to the eighties for a retro revue that decade’s big screen musical performances.
@@ -325,13 +354,15 @@ address:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL a schema:PostalAddress;
   schema:endDate "2025-04-01T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Talk"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer performer:presented-by-michael-van-den-bos .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:performer <https://spektrix.com/kaymeekcentre/performer/presented-by-michael-van-den-bos> .
 
-performer:presented-by-michael-van-den-bos a schema:Person;
+<https://spektrix.com/kaymeekcentre/performer/presented-by-michael-van-den-bos> a
+    schema:Person;
   schema:name "Presented by Michael van den Bos" .
 
-<http://www.spektrix.com/174601ABBQGHNRPQMCRQRJDPTJBBSSSVB> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/174601ABBQGHNRPQMCRQRJDPTJBBSSSVB> a
+    schema:Event;
   schema:name "Michael van den Bos: Gene Kelly: Hollywood's Dashing Dance Auteur";
   schema:description """
 	An exploration into the work of the multi-talented musical theatre superstar, Gene Kelly.<span><br/></span><span><br/></span>He danced with his ghostly alter-ego, with a cartoon mouse, through French impressionist paintings, on roller skates, while singing in the rain and partnered with some of the most talented women in the movies. Hollywood musical superstar Gene Kelly did it all. Not only was he a dazzling dancer, Kelly was a charismatic actor, a spirited singer, a creative choreographer and a fine film director. Explore the life and work of the ebullient Gene Kelly with clips from his classic movie musicals.
@@ -340,10 +371,11 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-02-25T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Talk"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer performer:presented-by-michael-van-den-bos .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:performer <https://spektrix.com/kaymeekcentre/performer/presented-by-michael-van-den-bos> .
 
-<http://www.spektrix.com/174201AMKMLHRDDHSVQVQKGPKJDRQDGDR> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/174201AMKMLHRDDHSVQVQKGPKJDRQDGDR> a
+    schema:Event;
   schema:name "Michael van den Bos: Razzle Dazzle Divas";
   schema:description """
 	A spotlight on the sensational ladies of song and dance from the golden era of Hollywood.<span><br/></span><span><br/></span>All Singing! All Dancing! All Women Who Wow! Classic film scholar Michael van den Bos swings his spotlight onto the sensational ladies of song and dance who lit up movie screens with their powerful and breathtaking talents including Julie Andrews, Doris Day, Lena Horne and Ann Miller. From the legendary stars to the talents deserving rediscovery, Michael illuminates these wonder women of musical movies from the golden era of Hollywood to contemporary cinema with a super-charged collection of performance clips.
@@ -352,10 +384,11 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-10-22T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Talk"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL;
-  schema:performer performer:presented-by-michael-van-den-bos .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:performer <https://spektrix.com/kaymeekcentre/performer/presented-by-michael-van-den-bos> .
 
-<http://www.spektrix.com/181201ASRVGRNHSCPQQRJBTSNDMVVRPDR> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/181201ASRVGRNHSCPQQRJBTSNDMVVRPDR> a
+    schema:Event;
   schema:name "Milestones in Melody: A Journey through Strings";
   schema:description """
 
@@ -364,9 +397,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-10-12T14:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/182201AKLHSBJGPRBLJBLDPLKPHGJSQQC> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/182201AKLHSBJGPRBLJBLDPLKPHGJSQQC> a
+    schema:Event;
   schema:name "Misinformation is Killing Us: A Conversation with Timothy Caulfield";
   schema:description """
 
@@ -375,9 +409,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-11-06T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/175401ABDMMVTBPSRKBRQPQRMDQHBCNDR> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/175401ABDMMVTBPSRKBRQPQRMDQHBCNDR> a
+    schema:Event;
   schema:name "Music at the Movies: A Tribute to John Williams";
   schema:description """
 	Celebrate the grandeur and genius of John Williams. <span><br/></span><span><br/></span>Join us on a cinematic journey across the decades, as Conductor Ian Parker and VAMSO pay tribute to the career of legendary composer John Williams, performing some of the most memorable movie music of all time: Superman, Raiders of the Lost Ark, E.T. the Extra-Terrestrial, Jurassic Park, Star Wars, and more!<span><br/></span><span><br/></span>*Repertoire selections and performing artists are subject to change.
@@ -386,9 +421,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-11-17T14:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/177201AQKMQQMSCLQHCBNNVKKTNKKLDHL> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/177201AQKMQQMSCLQHCBNNVKKTNKKLDHL> a
+    schema:Event;
   schema:name "New Orford String Quartet with Ian Parker";
   schema:description """
 	Featuring Brahm’s magnificent Piano Quintet in F Minor.<span><br/></span><span><br/></span>Composed of four elite orchestral leaders and soloists who come together to perform chamber music at the highest level, the New Orford String Quartet brings a palpable sense of joy to each performance, described by the Toronto Star as “nothing short of electrifying.” <span><br/></span><span><br/></span>Well-known to Kay Meek audiences, Ian Parker has performed in recitals across Canada, the United States and Europe and with top Canadian orchestras including the symphonies of Toronto, Quebec, Vancouver, Victoria, Winnipeg, Edmonton, Orchestre Métropolitain, and the Calgary Philharmonic. 
@@ -397,9 +433,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-05-17T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/184401AVQSPCVCNMVVCGBLVGQTKLNKLGB> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/184401AVQSPCVCNMVVCGBLVGQTKLNKLGB> a
+    schema:Event;
   schema:name "Nikolay Khozyainov - Beethoven Monument";
   schema:description """
 
@@ -408,9 +445,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-11-15T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/179204ACHJVDVHLBLNPGLMLQVKNHRVSHM> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/179204ACHJVDVHLBLNPGLMLQVKNHRVSHM> a
+    schema:Event;
   schema:name "Norman Foote & the Howl Masquerade";
   schema:description """
 	Music, laughter and the community spirit of Halloween.<span><br/></span><span><br/></span>Starring Juno award-winner, Canadian children’s entertainer Norman Foote - and a costumed choir featuring students from local Elementary Schools. Come in costume and enjoy an evening of music, laughter and the community spirit of Halloween.
@@ -419,9 +457,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-10-30T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/185801ALDNBHPCVBCRDRPLPTJHQNHSNNV> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/185801ALDNBHPCVBCRDRPLPTJHQNHSNNV> a
+    schema:Event;
   schema:name "Perfect Days";
   schema:description """
 
@@ -430,9 +469,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-11-04T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/179002APCNRTRRPTKDTGPVDRVNMLMNDSL> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/179002APCNRTRRPTKDTGPVDRVNMLMNDSL> a
+    schema:Event;
   schema:name "Petunia & the Vipers";
   schema:description """
 	A high-energy ensemble that bridges genres from the 1920s to the 1970s with an original twist.<span><br/></span><span><br/></span>Petunia & the Vipers plays music that springboards off the past and jumps into the present day, combining elements of country, western swing, Mexicana, French cabaret, ragtime, rockabilly, jazz, punk and folk. Touring in Canada and the UK for over 20 years, their last four album releases have all gone to #1 on the Canadian Folk/Blues/Americana charts.<span><br/></span><span><br/></span>“Real Underground Music. Foot-tapping country & western laced with rock and jazz.” The New York Post
@@ -441,9 +481,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-01-17T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/175601ADPRDBVBBRDVRPSCGSJCDLNSRQJ> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/175601ADPRDBVBBRDVRPSCGSJCDLNSRQJ> a
+    schema:Event;
   schema:name "Rachmaninoff: Rhapsody on a Theme of Paganini";
   schema:description """
 	A tribute to the power of romantic music.<span><br/></span><span><br/></span>Immerse yourself in the passionate virtuosity of Tchaikovsky and Rachmaninoff, with music that speaks of love, heroism and the human spirit. Conductor Ian Parker and VAMSO open the 24/25 Kay Meek series with Tchaikovsky’s powerfully romantic overture-fantasy: Romeo & Juliet and Khachaturian’s spirited Sabre Dance. In a brilliant display of passion and precision, Maestro Parker then joins the orchestra as piano soloist in a work that is as virtuosic for the orchestra, performing the dynamic and hauntingly beautiful: Rhapsody on a Theme of Paganini by Rachmaninoff.<span><br/></span><span><br/></span>Khachaturian: Sabre Dance<span><br/></span>Khachaturian: Adagio from Spartacus<span><br/></span>Tchaikovsky: Romeo &amp; Juliet Fantasy-Overture<span><br/></span>INTERMISSION<span><br/></span>Rachmaninoff: Rhapsody on a Theme of Paganini<span><br/></span>Ian Parker, piano<span><br/></span><span><br/></span>*Repertoire selections and performing artists are subject to change.
@@ -452,9 +493,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-10-20T14:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/186001ALPGBSQPKTJTBSTMPTVKRTSRKNB> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/186001ALPGBSQPKTJTBSTMPTVKRTSRKNB> a
+    schema:Event;
   schema:name "Riceboy Sleeps";
   schema:description """
 
@@ -463,9 +505,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-10-15T10:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/178601ASMCMGGJNJLQKPJVMNDRGLNBVSS> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/178601ASMCMGGJNJLQKPJVMNDRGLNBVSS> a
+    schema:Event;
   schema:name "Ring of Fire";
   schema:description """
 	Based on the songbook from iconic storyteller Johnny Cash.<span><br/></span><span><br/></span>Brought to life by a talented collection of singers and musicians, this theatrical concert gets to the heart of Cash’s unique life story and connects it with universal experiences in songs such as “I Walk the Line,” “Folsom Prison Blues,” “Country Boy,” and “A Boy Named Sue.” <span><br/></span><span><br/></span>Theatrical devices such as water-based fog and haze, flashing lights, and mature content may occur in this production. 
@@ -474,9 +517,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-03-21T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Theatre"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/179202ATQLLMKLNTVNMNVVLVKDDHRVMRS> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/179202ATQLLMKLNTVNMNVVLVKDDHRVMRS> a
+    schema:Event;
   schema:name "Seffarine";
   schema:description """
 	“A gorgeous intersection of Spanish flamenco, Arabic and Andalusian music, Persian classical and jazz.”<span><br/></span><span><br/></span>From the ancient city of Fes, Morocco, internationally acclaimed singer Lamiae Naki and her ensemble channel their deep knowledge of the music from both sides of the Straits of Gibraltar. Seffarine embraces and extends the age of tolerance and exchange between Muslim, Jewish and Christian cultures by diving deep into the drama and technical prowess that characterizes these traditions. They invite listeners to hear with fresh ears the age-old conversation that crossed the sea, reminding us of the connections and histories which modern identities disguise. Seffarine concerts carry the audience on a vibrant musical journey charged with texture and colour.
@@ -485,9 +529,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-12-01T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/178001AKCHMSVPVQMCBCVCMQMLGKNPCKR> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/178001AKCHMSVPVQMCBCVCMQMLGKNPCKR> a
+    schema:Event;
   schema:name "Sexy Laundry";
   schema:description """
 	Join Alice and Henry on a naughty jaunt to rekindle the magic.<span><br/></span><span><br/></span>Alice and Henry are coming to grips with their lackluster sex life. Time, kids, and stress—not to mention gravity—have taken their toll. In an effort to rekindle the magic in their 25-year marriage, they go on a naughty hotel retreat, equipped with a copy of Sex for Dummies. But they soon find that when the clothes come off, so do the gloves! This couple’s relatable, humorous, and inspiring escapade will touch audiences of all ages. <span><br/></span><span><br/></span>Don't miss your chance to see Vancouver playwright Michele Riml's international hit play—now translated into 15 languages! This production contains coarse language, flashing lights, and water-based haze and fog.
@@ -496,9 +541,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-10-11T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Theatre"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/184201ATMNDRTNVJJPKNBQMRKRVVGNRTV> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/184201ATMNDRTNVJJPKNBQMRKRVVGNRTV> a
+    schema:Event;
   schema:name "SHIAMAK Vancouver - WINTER FUNK";
   schema:description """
 
@@ -507,9 +553,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-11-30T18:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/186401AGLKGNGRLNCJTNMRHMDBRRDRPVH> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/186401AGLKGNGRLNCJTNMRHMDBRRDRPVH> a
+    schema:Event;
   schema:name "Sleeping Beauty";
   schema:description """
 
@@ -518,9 +565,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-12-14T17:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType ""^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/178401ARDJJBBKCKTBLLQSDSVSKTQPKDQ> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/178401ARDJJBBKCKTBLLQSDSVSKTQPKDQ> a
+    schema:Event;
   schema:name "Someone Like You";
   schema:description """
 	A  millennial take on the mistaken identity of Cyrano de Bergerac.<span><br/></span><span><br/></span>Open-hearted Isabelle is a lifelong romantic, but modern love isn’t like a pop song or an old novel—or is it? When her best friend, Kristin, embarks on a rebound romance, things get complicated as Isabelle’s ‘wingman’ duties cross the line. This charming new comedy launches the mistaken identities of Cyrano de Bergerac into 21st-century Vancouver with millennial manifestos, dating apps, and the quest for self-love. <span><br/></span><span><br/></span>This production includes coarse language and mature subjects. It may contain theatrical devices (e.g., water-based fog and haze). 
@@ -529,9 +577,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-01-10T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Theatre"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/177202APRLQBPPLSMPDHBPHJSCHTHVTSQ> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/177202APRLQBPPLSMPDHBPHJSCHTHVTSQ> a
+    schema:Event;
   schema:name "Stella Cole";
   schema:description """
 	International sensation sings the Great American Songbook.<span><br/></span><span><br/></span>Cole’s silky-smooth covers by Ella Fitzgerald, Sarah Vaughn, Judy Garland and Billie Eilish, her rich vocal tone and extraordinary control transcends generations of music from traditional jazz standards to mainstream pop. Her ability to interpret songs in a personally vulnerable way that connects to something within herself, places her in the lineage of the greatest interpreters of the repertoire.<span><br/></span><span><br/></span>“To watch Stella perform is to be transported back in time. Her voice, personality, and presence shine timelessly as if she'd been plucked straight out of an old MGM movie.” Broadwayworld.com<span><br/></span>
@@ -540,9 +589,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-04-25T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/176602AJJMLRBBVCBBSSKSCGNRJDCMNJS> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/176602AJJMLRBBVCBBSSKSCGNRJDCMNJS> a
+    schema:Event;
   schema:name "Stephane Wrembel";
   schema:description """
 	“The living face of Gypsy jazz”<span><br/></span><span><br/></span>Since 2003, Wrembel has organized the Django á Gogo Music Festival, bringing together some of the finest musicians in the world to celebrate the Sinti (Roma) guitar style to perform in venues like Carnegie Hall. He has dazzled audiences all over the world with music that incorporates jazz, blues, classical, swing, flamenco and rock.<span><br/></span><span><br/></span>“I just play my own music,” he says. “I like to believe that it is beyond any one genre and that there is something in it for everyone. It’s not only for Django lovers or jazz lovers.  It’s for the music lover.”
@@ -551,9 +601,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-01-24T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/177801ATGGBLKVDRTLQTSPRKHJLRNHSTR> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/177801ATGGBLKVDRTLQTSPRKHJLRNHSTR> a
+    schema:Event;
   schema:name "The Bad Plus";
   schema:description """
 	A genre-bridging jazz fusion quartet.<span><br/></span><span><br/></span>The Bad Plus are a democratic unit with a clear vision and a refusal to conform to convention. “We were always challenging the idea of leader-centric jazz,” says drummer Dave King. “For us, it’s always been more of a priority to have group thinking, not virtuoso soloing.” <span><br/></span><span><br/></span>For the past two decades they have played with spirit and adventure, made their own rules and done so with a bold sense of creativity - even releasing unexpected takes on tunes by artists like David Bowie, Rush and Nirvana. The Bad Plus has won critical acclaim and a legion of fans worldwide with their unique sound and flair for live performance.<span><br/></span><span><br/></span>QUOTES:<span><br/></span>“The cooperative spirit, the canny interplay, the imaginative, boundaryless compositions and solos, and the dedication and sophistication to make music -- no matter how difficult or wide-ranging -- make The Bad Plus at once compelling and compulsively listenable.” Allmusic.com
@@ -562,9 +613,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/182601ADTLSNBNJSHKCQSBNBMSSTPQCDD> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/182601ADTLSNBNJSHKCQSBNBMSSTPQCDD> a
+    schema:Event;
   schema:name "The Complete Works of William Shakespeare (abridged) [revised] [again]";
   schema:description """
 
@@ -573,9 +625,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-11-02T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/179401AJSNQKKJMNCKCPLHTLDGCPRBTCV> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/179401AJSNQKKJMNCKCPLHTLDGCPRBTCV> a
+    schema:Event;
   schema:name "The Dancers of Damelahamid: Spirit and Tradition";
   schema:description """
 	An immersive experience into the Indigenous culture of the Northwest Coast and its vast ecosystem.<span><br/></span><span><br/></span>For countless generations, dance played an integral part in defining Indigenous art and culture. Through the sharing of Indigenous knowledge and artistic practices of interconnectedness and community, Spirit and Tradition layers coastal masked dances with projected imagery, soundscape, and LED puppetry.  Be immersed in the rich and diverse ecosystem of the Northwest Coast.
@@ -584,9 +637,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-04-26T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Special"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/179203AMLMVPVDBBMSBNMJGHPQMLPPLBG> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/179203AMLMVPVDBBMSBNMJGHPQMLPPLBG> a
+    schema:Event;
   schema:name "The Slocan Ramblers";
   schema:description """
 	Award-winning Canadian bluegrass band.<span><br/></span><span><br/></span>Rooted in tradition and fearlessly creative, The Slocans have become a leading light of today’s bluegrass music scene. With a reputation for their spirited live shows, impeccable musicianship and the uncanny ability to convert anyone within earshot into a lifelong fan - The Slocans have been winning over audiences from Merlefest to RockyGrass and everywhere in between.<span><br/></span><span><br/></span>On their new album Up the Hill and Through the Fog, the all-star ensemble channels loss into a surprisingly joyous collection of twelve songs intended to uplift and help make sense of the world.
@@ -595,9 +649,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-02-23T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/172801ATMCQGGRJSSBMVTVCJMNTBPMRQB> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/172801ATMCQGGRJSSBMVTVCJMNTBPMRQB> a
+    schema:Event;
   schema:name "The Wildflowers - North America's #1 Tribute to Tom Petty and the Heartbreakers";
   schema:description """
 
@@ -606,9 +661,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-03-30T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Rental"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/185601AGVPLKVNTQNSRKLPLGBJPBQRKJB> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/185601AGVPLKVNTQNSRKLPLGBJPBQRKJB> a
+    schema:Event;
   schema:name "Thelma";
   schema:description """
 
@@ -617,9 +673,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-11-18T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Film"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/177001AMTBNMGTKNJRTNLKRNDKGSQBHVC> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/177001AMTBNMGTKNJRTNLKRNDKGSQBHVC> a
+    schema:Event;
   schema:name "Tom Allen: J.S. Bach's Long Walk in the Snow";
   schema:description """
 	CBC broadcaster and storyteller, Tom Allen tells the story of a young Johann Sebastian Bach.<span><br/></span><span><br/></span>Renowned author, musician & presenter, Tom Allen and friends tell the musical story of ‘How the Great Man Got That Way’. At 18 years old, in his first job and not composing much at all yet, the young Johann Sebastian got into such trouble that all he could do was to walk away. J.S. Bach’s Long Walk in the Snow takes you on a 400 km journey to a glittering port city with street fights, big business, the father figure he didn’t know he needed and, quite possibly, love.  
@@ -628,9 +685,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-03-16T15:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/175002AGKKJLCPBHQPHBGVHBDMNGBSBND> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/175002AGKKJLCPBHQPHBGVHBDMNGBSBND> a
+    schema:Event;
   schema:name "Violinist Jonathan Crow and Holst's Planets";
   schema:description """
 	Featuring Mendelssohn’s Violin Concerto with special guest, Jonathan Crow.<span><br/></span><span><br/></span>In this thrilling conclusion to the series, the BC-born and raised Concertmaster of the Toronto Symphony Orchestra joins Ian Parker and VAMSO to perform one of the most well-known and iconic works of the violin repertoire. The musical voyage continues into the ether as we travel through Holst’s other-worldly depictions of astronomical and mythological characters in The Planets.<span><br/></span><span><br/></span>Glinka: Overture to Ruslan and Lyudmila<span><br/></span>Mendelssohn: Violin Concerto, Jonathan Crow, violin<span><br/></span>INTERMISSION<span><br/></span>Holst, The Planets<span><br/></span><span><br/></span>*Repertoire selections and performing artists are subject to change.
@@ -639,9 +697,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-05-24T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/176801ARSTNBQHHQRRDLNCSJPGRMRMBTP> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/176801ARSTNBQHHQRRDLNCSJPGRMRMBTP> a
+    schema:Event;
   schema:name "VSO Chamber Players";
   schema:description """
 	An intimate afternoon of chamber music with members of the Vancouver Symphony Orchestra.<span><br/></span><span><br/></span>VSO Concertmaster Nicholas Wright, newly-appointed Principal Horn Alex Wide and VSO Pianist Grace Huang perform the lyrical and ebullient Brahms Horn Trio.
@@ -650,9 +709,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2024-12-01T15:00:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Classical"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/177601ATTPRNDBMCSLJJLGKCHVRPDLVBH> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/177601ATTPRNDBMCSLJJLGKCHVRPDLVBH> a
+    schema:Event;
   schema:name "Yagódy";
   schema:description """
 	An all-female high-energy modern Ukrainian folk quartet.<span><br/></span><span><br/></span>Immerse yourself in this modern reframing of the music of Ukraine as Yagódy’s dynamic four-part vocal harmonies, supported by drums, guitar and accordion, transport you to another place and time. Dramatic staging and costumes evoke a mythical feeling of connection between the sounds of today and the ancestral influences of the region. Audiences are sure to be captivated by this compelling and unique performance.
@@ -661,9 +721,10 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-04-15T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/176002ALPSDQNPKHSTCKLNJPTHGGQRPJG> a schema:Event;
+<http://www.spektrix.com/kaymeekcentre/event/176002ALPSDQNPKHSTCKLNJPTHGGQRPJG> a
+    schema:Event;
   schema:name "You're the Top! The Cole Porter Songbook on Film & Live with Laura Crema Sextet";
   schema:description """
 	A De-Lovely evening of live music intermingled with classic Hollywood film clips.<span><br/></span><span><br/></span>In the pantheon of 20th century music, Cole Porter ranks among the top songwriters of all time. Porter was a rare artist who wrote the lyrics and composed the music for all his songs, creating timeless tunes of wit and sophistication married with seductive melodies. In this unique special event, classic film scholar Michael van den Bos presents a De-Lovely evening that celebrates Porter’s beguiling Broadway and movie songs performed live by The Laura Crema Sextet, featuring clips from classic Hollywood performances projected on the big screen for an immersive evening experience.
@@ -672,4 +733,4 @@ performer:presented-by-michael-van-den-bos a schema:Person;
   schema:endDate "2025-01-25T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:additionalType "Music"^^skos:Concept;
-  schema:location place:201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL .
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
