@@ -36,6 +36,7 @@ def enrich_event_with_location(event, venues, instances, plans):
 
     event_instances = [instance for instance in instances if instance.get("event", {}).get("id") == event_id]
     event['locations'] = [] 
+    event['source'] = source
 
     if event_instances:
         for instance in event_instances:

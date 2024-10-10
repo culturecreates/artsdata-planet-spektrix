@@ -41,7 +41,7 @@
               },
               "transformation": {
                 "language": "grel",
-                "expression": "\"http://www.spektrix.com/\"+cells[\"_ - id\"].value"
+                "expression": "\"http://www.spektrix.com/\" + cells[\"_ - source\"].value+\"/event/\"+cells[\"_ - id\"].value"
               }
             },
             "typeMappings": [
@@ -245,12 +245,11 @@
                 "values": [
                   {
                     "valueSource": {
-                      "source": "column",
-                      "columnName": "_ - locations - _ - id"
+                      "source": "row_index"
                     },
                     "transformation": {
-                      "language": "prefix",
-                      "expression": "place"
+                      "language": "grel",
+                      "expression": "\"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/location/\" + cells[\"_ - locations - _ - id\"].value"
                     },
                     "valueType": {
                       "type": "iri",
@@ -278,7 +277,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "(\"https://spektrix.com/organization/\" + coalesce(cells[\"_ - attribute_PresenterName\"].value, cells[\"_ - attribute_PresentedBy\"].value).replace(\" \", \"-\")).toLowercase().strip()"
+                      "expression": "(\"https://spektrix.com/\" +cells[\"_ - source\"].value + \"/organization/\" + coalesce(cells[\"_ - attribute_PresenterName\"].value, cells[\"_ - attribute_PresentedBy\"].value).replace(\" \", \"-\")).toLowercase().strip()"
                     },
                     "valueType": {
                       "type": "iri",
@@ -344,7 +343,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "if(cells[\"_ - attribute_PerformanceSponsor\"].value != \"\", \n   (\"https://spektrix.com/performer/\" + cells[\"_ - attribute_PerformanceSponsor\"].value.replace(\" \", \"-\").toLowercase().strip()),\n   null)"
+                      "expression": "if(cells[\"_ - attribute_PerformanceSponsor\"].value != \"\", \n   (\"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/performer/\"  +cells[\"_ - attribute_PerformanceSponsor\"].value.replace(\" \", \"-\").toLowercase().strip()),\n   null)"
                     },
                     "valueType": {
                       "type": "iri",
@@ -394,12 +393,11 @@
           {
             "subject": {
               "valueSource": {
-                "source": "column",
-                "columnName": "_ - locations - _ - id"
+                "source": "row_index"
               },
               "transformation": {
-                "language": "prefix",
-                "expression": "place"
+                "language": "grel",
+                "expression": "\"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/location/\" + cells[\"_ - locations - _ - id\"].value"
               }
             },
             "typeMappings": [
@@ -452,12 +450,11 @@
                 "values": [
                   {
                     "valueSource": {
-                      "source": "column",
-                      "columnName": "_ - locations - _ - id"
+                      "source": "row_index"
                     },
                     "transformation": {
-                      "language": "prefix",
-                      "expression": "address"
+                      "language": "grel",
+                      "expression": "\"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/address/\" + cells[\"_ - locations - _ - id\"].value"
                     },
                     "valueType": {
                       "type": "iri",
@@ -472,12 +469,11 @@
           {
             "subject": {
               "valueSource": {
-                "source": "column",
-                "columnName": "_ - locations - _ - id"
+                "source": "row_index"
               },
               "transformation": {
-                "language": "prefix",
-                "expression": "address"
+                "language": "grel",
+                "expression": "\"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/address/\" + cells[\"_ - locations - _ - id\"].value"
               }
             },
             "typeMappings": [
