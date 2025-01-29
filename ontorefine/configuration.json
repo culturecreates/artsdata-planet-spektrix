@@ -216,17 +216,44 @@
                       "columnName": "_ - attribute_Genre"
                     },
                     "valueType": {
-                      "type": "datatype_literal",
-                      "datatype": {
-                        "valueSource": {
-                          "source": "constant",
-                          "constant": "Concept"
-                        },
-                        "transformation": {
-                          "language": "prefix",
-                          "expression": "skos"
+                      "type": "unique_bnode",
+                      "typeMappings": [
+                        {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "Concept"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "skos"
+                          }
                         }
-                      }
+                      ],
+                      "propertyMappings": [
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "prefLabel"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "skos"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - attribute_Genre"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
+                        }
+                      ]
                     }
                   }
                 ]
