@@ -4,27 +4,9 @@ source = os.environ.get('SOURCE').strip()
 
 base_url = f"https://system.spektrix.com/{source}/api/v3"
 
-def get_events():
-    print("Getting events...")
-    response = requests.get(f"{base_url}/events")
-    response.raise_for_status()
-    return response.json()
-
-def get_venues():
-    print("Getting venues...")
-    response = requests.get(f"{base_url}/venues")
-    response.raise_for_status()
-    return response.json()
-
-def get_instances():
-    print("Getting instances...")
-    response = requests.get(f"{base_url}/instances")
-    response.raise_for_status()
-    return response.json()
-
-def get_plans():
-    print("Getting plans...")
-    response = requests.get(f"{base_url}/plans")
+def get_entities(entity):
+    print(f"Getting {entity}...")
+    response = requests.get(f"{base_url}/{entity}")
     response.raise_for_status()
     return response.json()
 
@@ -50,10 +32,14 @@ def enrich_event_with_location(event, venues, instances, plans):
         return event
 
 def main():
-    events = get_events()
-    venues = get_venues()
-    instances = get_instances()
-    plans = get_plans()
+    try:
+        events = get_entities("events")
+        venues = get_entities("venues")
+        instances = get_entities("instances")
+        plans = get_entities("plans")
+    except requests.exceptions.RequestException as e:
+        print(f"Error: {e}")
+        exit(0)
     enriched_events = [enrich_event_with_location(event, venues, instances, plans) for event in events]
 
     json_data = json.dumps(enriched_events, indent=4)
