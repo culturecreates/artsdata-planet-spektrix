@@ -8,6 +8,44 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
+<http://www.spektrix.com/gallery7/event/4201ASVGBHHRTVLQBSRVKDQCKNHHDCTSJ> a schema:Event;
+  schema:name "24/25 Spring Break Camps: Dramatic Rumblings (8-10)";
+  schema:description """
+
+""";
+  schema:startDate "2025-03-17T09:00:00"^^xsd:dateTime;
+  schema:endDate "2025-03-24T09:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:4607b2c1b6294da3a038360320a47991176;
+  schema:location <https://spektrix.com/gallery7/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
+
+_:4607b2c1b6294da3a038360320a47991176 a skos:Concept;
+  skos:prefLabel "" .
+
+<https://spektrix.com/gallery7/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:Place;
+  schema:name "Matsqui Centennial Auditorium";
+  schema:address <https://spektrix.com/gallery7/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
+
+<https://spektrix.com/gallery7/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:PostalAddress;
+  schema:streetAddress "32315 South Fraser Way";
+  schema:addressLocality "Abbotsford";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/gallery7/event/4401APLLPBSHLDJVTLGBDQTQBHJDJSHCM> a schema:Event;
+  schema:name "24/25 Spring Break Camps: Stage Eruptions (Ages 11-13)";
+  schema:description """
+
+""";
+  schema:startDate "2025-03-17T09:00:00"^^xsd:dateTime;
+  schema:endDate "2025-03-24T09:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:4607b2c1b6294da3a038360320a47991177;
+  schema:location <https://spektrix.com/gallery7/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
+
+_:4607b2c1b6294da3a038360320a47991177 a skos:Concept;
+  skos:prefLabel "" .
+
 <http://www.spektrix.com/gallery7/event/3601ABRLTLCLBPPCHRCSJRVVJLBBBDQCM> a schema:Event;
   schema:name "Footloose";
   schema:description """
@@ -16,8 +54,11 @@
   schema:startDate "2025-03-14T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-03-28T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/95276117-6439-4a44-9325-6b46efee7bac.jpg";
-  schema:additionalType "Musical"^^skos:Concept;
+  schema:additionalType _:4607b2c1b6294da3a038360320a47991178;
   schema:location <https://spektrix.com/gallery7/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
+
+_:4607b2c1b6294da3a038360320a47991178 a skos:Concept;
+  skos:prefLabel "Musical" .
 
 <https://spektrix.com/gallery7/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> a schema:Place;
   schema:name "Abbotsford Arts Centre";
@@ -37,18 +78,11 @@
   schema:startDate "2024-10-18T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-10-18T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/57fcc2ab-0a42-437d-a5f1-3845924b687f.jpg";
-  schema:additionalType ""^^skos:Concept;
+  schema:additionalType _:4607b2c1b6294da3a038360320a47991179;
   schema:location <https://spektrix.com/gallery7/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
 
-<https://spektrix.com/gallery7/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:Place;
-  schema:name "Matsqui Centennial Auditorium";
-  schema:address <https://spektrix.com/gallery7/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
-
-<https://spektrix.com/gallery7/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:PostalAddress;
-  schema:streetAddress "32315 South Fraser Way";
-  schema:addressLocality "Abbotsford";
-  schema:addressRegion "BC";
-  schema:addressCountry "CA" .
+_:4607b2c1b6294da3a038360320a47991179 a skos:Concept;
+  skos:prefLabel "" .
 
 <http://www.spektrix.com/gallery7/event/2401AMBSVDSNBDLGKMKJVPMHNLQGTKHSV> a schema:Event;
   schema:name "G7 Comedy Festival - Stand-up Night";
@@ -58,8 +92,11 @@
   schema:startDate "2024-10-19T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-10-19T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/24c80a86-60b1-4560-973b-8b2d4486c05e.jpg";
-  schema:additionalType ""^^skos:Concept;
+  schema:additionalType _:4607b2c1b6294da3a038360320a47991180;
   schema:location <https://spektrix.com/gallery7/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
+
+_:4607b2c1b6294da3a038360320a47991180 a skos:Concept;
+  skos:prefLabel "" .
 
 <http://www.spektrix.com/gallery7/event/4001APBPRCSHVVMHTCBMSPSJRNDMCHHLV> a schema:Event;
   schema:name "G7 Double Feature";
@@ -69,8 +106,11 @@
   schema:startDate "2025-04-09T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-04-12T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/60017862-2b3d-413b-a9d1-fc4c725b493b.jpg";
-  schema:additionalType "Comedy"^^skos:Concept;
+  schema:additionalType _:4607b2c1b6294da3a038360320a47991181;
   schema:location <https://spektrix.com/gallery7/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:4607b2c1b6294da3a038360320a47991181 a skos:Concept;
+  skos:prefLabel "Comedy" .
 
 <https://spektrix.com/gallery7/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:Place;
   schema:name "Abbotsford Arts Addition";
@@ -90,8 +130,11 @@
   schema:startDate "2025-01-24T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-02-01T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/73f55f3d-ea9b-4469-b7a9-f5c970a6b886.jpg";
-  schema:additionalType "Drama"^^skos:Concept;
+  schema:additionalType _:4607b2c1b6294da3a038360320a47991182;
   schema:location <https://spektrix.com/gallery7/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
+
+_:4607b2c1b6294da3a038360320a47991182 a skos:Concept;
+  skos:prefLabel "Drama" .
 
 <http://www.spektrix.com/gallery7/event/3201AQVHRDTTMHKGVGSKKQQVCTJHSRSNR> a schema:Event;
   schema:name "Parfumerie";
@@ -101,8 +144,11 @@
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-12-21T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/19cbd179-e763-4fbc-8364-d3eb2b1c4b94.jpg";
-  schema:additionalType "Comedy"^^skos:Concept;
+  schema:additionalType _:4607b2c1b6294da3a038360320a47991183;
   schema:location <https://spektrix.com/gallery7/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
+
+_:4607b2c1b6294da3a038360320a47991183 a skos:Concept;
+  skos:prefLabel "Comedy" .
 
 <http://www.spektrix.com/gallery7/event/3001AKGPBMSRNCDBJCGBHRDVVQRQLSLMV> a schema:Event;
   schema:name "Prince Caspian";
@@ -112,8 +158,11 @@
   schema:startDate "2024-11-08T19:30:00"^^xsd:dateTime;
   schema:endDate "2024-11-17T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/4f70524c-b17b-498b-b905-0eecd9da36e9.jpg";
-  schema:additionalType "Literary"^^skos:Concept;
+  schema:additionalType _:4607b2c1b6294da3a038360320a47991184;
   schema:location <https://spektrix.com/gallery7/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
+
+_:4607b2c1b6294da3a038360320a47991184 a skos:Concept;
+  skos:prefLabel "Literary" .
 
 <http://www.spektrix.com/gallery7/event/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> a schema:Event;
   schema:name "The Play That Goes Wrong";
@@ -123,5 +172,8 @@
   schema:startDate "2025-05-09T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-05-24T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gallery7/files/0771ec36-cbcd-4b36-b3fe-48ea35d2e5e3.jpg";
-  schema:additionalType "Comedy"^^skos:Concept;
+  schema:additionalType _:4607b2c1b6294da3a038360320a47991185;
   schema:location <https://spektrix.com/gallery7/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
+
+_:4607b2c1b6294da3a038360320a47991185 a skos:Concept;
+  skos:prefLabel "Comedy" .

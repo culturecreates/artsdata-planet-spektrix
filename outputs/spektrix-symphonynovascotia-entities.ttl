@@ -8,6 +8,28 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
+<http://www.spektrix.com/symphonynovascotia/event/24201AQBJSCTMKBQRHSLCPQSBDTRMBNBT>
+  a schema:Event;
+  schema:name "Inspire Me! Music That Changes the World";
+  schema:description """
+
+""";
+  schema:startDate "2025-02-16T14:00:00"^^xsd:dateTime;
+  schema:endDate "2025-02-16T14:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/symphonynovascotia/location/803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM> .
+
+<https://spektrix.com/symphonynovascotia/location/803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM>
+  a schema:Place;
+  schema:name "Alderney Landing Theatre";
+  schema:address <https://spektrix.com/symphonynovascotia/address/803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM> .
+
+<https://spektrix.com/symphonynovascotia/address/803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM>
+  a schema:PostalAddress;
+  schema:streetAddress "2 Ochterloney St";
+  schema:addressLocality "Dartmouth";
+  schema:addressCountry "CA" .
+
 <http://www.spektrix.com/symphonynovascotia/event/12801AHKJCDVHRVVMMTDLCVKNKBDKHMLM>
   a schema:Event;
   schema:name "It's Easy to Be Green";
@@ -248,13 +270,13 @@
   schema:image "";
   schema:location <https://spektrix.com/symphonynovascotia/location/803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM> .
 
-<https://spektrix.com/symphonynovascotia/location/803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM>
-  a schema:Place;
-  schema:name "Alderney Landing Theatre";
-  schema:address <https://spektrix.com/symphonynovascotia/address/803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM> .
+<http://www.spektrix.com/symphonynovascotia/event/24001ABMNLGCGVMRMGTMJKPBQCNHQQLMH>
+  a schema:Event;
+  schema:name "Tap Dancing Through Time";
+  schema:description """
 
-<https://spektrix.com/symphonynovascotia/address/803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM>
-  a schema:PostalAddress;
-  schema:streetAddress "2 Ochterloney St";
-  schema:addressLocality "Dartmouth";
-  schema:addressCountry "CA" .
+""";
+  schema:startDate "2025-05-04T14:00:00"^^xsd:dateTime;
+  schema:endDate "2025-05-04T14:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/symphonynovascotia/location/803APDDRVVDVDMBMJCQTRNLSMTMDPLMPM> .

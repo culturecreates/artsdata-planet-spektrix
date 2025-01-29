@@ -8,44 +8,6 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/gctc/event/25401ADKDNDVMDKDPLNQQVHNPHGRHDJGH> a schema:Event;
-  schema:name "[#5] be careful with each other (so you can be dangerous together)";
-  schema:description """
-	<h2>Show Type:</h2><span><br/></span><span class=\"BoldText\">Previews:</span> Tuesday & Wednesday, April 9 & 10, 2024<span><br/></span><span class=\"BoldText\">Opening Night:</span> Thursday, April 11, 2024<span><br/></span><span class=\"BoldText\">Reduced Capacity:</span> Friday, April 12, 2024<span><br/></span><span class=\"BoldText\">Pay What You Decide:</span> Sunday, April 14, 2024<span><br/></span><span class=\"BoldText\">Relaxed & Reduced Capacity:</span> Tuesday, April 16, 2024<span><br/></span><span class=\"BoldText\">Talk Back:</span> Thursday, April 18, 2024<span><br/></span><span class=\"BoldText\">ASL Performance:</span> Friday, April 19, 2024<span><br/></span><span><br/></span><span><br/></span><h2>Location:</h2><span class=\"BoldText\">Great Canadian Theatre Company</span><span><br/></span><a target=\"_blank\" href=\"https://goo.gl/maps/kFXUvQ7VBpWuqseC7\">1233 Wellington Street West, Ottawa, ON, K1Y 0G7 Canada </a>
-""";
-  schema:startDate "2024-04-09T20:00:00"^^xsd:dateTime;
-  schema:endDate "2024-04-21T14:00:00"^^xsd:dateTime;
-  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/c111d57b-3b8e-4f88-b5e4-0c1abd388959.jpg";
-  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
-
-<https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:Place;
-  schema:name "Great Canadian Theatre Company";
-  schema:address <https://spektrix.com/gctc/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
-
-<https://spektrix.com/gctc/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:PostalAddress;
-  schema:streetAddress "1233 Wellington St W.";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/gctc/event/33001ATHPSRJLTTHKPJHTBJLTTSMCRPQH> a schema:Event;
-  schema:name "[A] The Anger in Ernest and Ernestine";
-  schema:description """
-
-""";
-  schema:startDate "2024-09-24T20:00:00"^^xsd:dateTime;
-  schema:endDate "2024-10-06T14:00:00"^^xsd:dateTime;
-  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/82dc1bdd-3d6b-4973-88ed-db044a06f024.jpg";
-  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
-
-<http://www.spektrix.com/gctc/event/33201AJLRJQTMSPLGKHLNMPSPGHMNLTRH> a schema:Event;
-  schema:name "[B] Beowulf in Afghanistan";
-  schema:description """
-
-""";
-  schema:startDate "2024-11-12T20:00:00"^^xsd:dateTime;
-  schema:endDate "2024-11-24T14:00:00"^^xsd:dateTime;
-  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/ace4d88b-cdf4-4a1c-9844-d2150412d524.jpg";
-  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
-
 <http://www.spektrix.com/gctc/event/33401ASQTDQSSBKHDTGJNVLMTDQJCSHNC> a schema:Event;
   schema:name "[C] FLOP! An Improvised Musical Fiasco";
   schema:description """
@@ -55,6 +17,14 @@
   schema:endDate "2024-12-22T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/a97c2f84-d251-451e-90ba-a31ddd1b343c.jpg";
   schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:Place;
+  schema:name "Great Canadian Theatre Company";
+  schema:address <https://spektrix.com/gctc/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/gctc/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:PostalAddress;
+  schema:streetAddress "1233 Wellington St W.";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/gctc/event/33601ABMMCLRHCDGJGLSCVTKRJSMDCMSS> a schema:Event;
   schema:name "[D] Why It’s I̶m̶Possible";
@@ -76,14 +46,14 @@
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/8226fffd-c627-4745-93ac-946fcb83ef17.jpg";
   schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/gctc/event/38601APMJBSGHLBVKJDHHGBQTTKBBSMSJ> a schema:Event;
-  schema:name "Craft Night @ GCTC";
+<http://www.spektrix.com/gctc/event/40801ACLMJTSSJPDJLCGJNCRGTMKSPPRR> a schema:Event;
+  schema:name "Confidential Musical Theatre Project";
   schema:description """
 
 """;
-  schema:startDate "2024-08-14T17:30:00"^^xsd:dateTime;
-  schema:endDate "2024-08-14T17:30:00"^^xsd:dateTime;
-  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/d95551a9-ba6b-4144-a6b8-db969e459e36.jpeg";
+  schema:startDate "2025-02-08T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-02-08T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/7d0a03cd-ddb1-4abf-855b-33310da996d1.jpg";
   schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
 <http://www.spektrix.com/gctc/event/34801AJDHTGHVDDDGHKMHBRJLKTRHLMSR> a schema:Event;
@@ -116,6 +86,16 @@
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/01c6226a-2d31-4b49-bbc3-c680bee7f9be.jpg";
   schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
+<http://www.spektrix.com/gctc/event/41601AVNPVJKVCKMRJHHMRKVNNMTGJHSV> a schema:Event;
+  schema:name "Lawyer Play 2025: Shakespeare's As You Like It";
+  schema:description """
+
+""";
+  schema:startDate "2025-04-30T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-05-03T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/e30693c4-b1ca-49d2-a989-a7aa004b7782.jpg";
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
 <http://www.spektrix.com/gctc/event/39601AJRRLKSVBMNJSKBSJSPPVNLVSKDK> a schema:Event;
   schema:name "The Humbug Hustle: A Holiday Phantom-ime";
   schema:description """
@@ -124,6 +104,16 @@
   schema:startDate "2024-12-28T19:00:00"^^xsd:dateTime;
   schema:endDate "2025-01-05T14:00:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/0f19bc6b-45b1-4a9a-a668-2eff63e4f083.jpg";
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<http://www.spektrix.com/gctc/event/40601AVRVRQNNTTMJRHQKDLRCKSKHBGKP> a schema:Event;
+  schema:name "The Revue";
+  schema:description """
+
+""";
+  schema:startDate "2025-02-07T20:00:00"^^xsd:dateTime;
+  schema:endDate "2025-02-07T20:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/37494d2a-22ed-491f-99f3-de35eb5e4c8c.jpg";
   schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
 <http://www.spektrix.com/gctc/event/37601AJTVHGLQVMBGHJGCMHJCHGMKKBDC> a schema:Event;
@@ -186,6 +176,16 @@
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/f64e2393-d619-4d54-8661-35d8d1e7f5fa.jpg";
   schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
+<http://www.spektrix.com/gctc/event/41201ATDVHVNDPRBLKPLQHLVPNSCNQLLP> a schema:Event;
+  schema:name "Volunteer Shift - Confidential Musical Theatre Project (Feb 8th, 2025)";
+  schema:description """
+
+""";
+  schema:startDate "2025-02-08T18:30:00"^^xsd:dateTime;
+  schema:endDate "2025-02-08T18:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/f21bbefe-576f-4e0a-92ca-83b2ce14b623.jpg";
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
 <http://www.spektrix.com/gctc/event/39401AHHBKTRJHJPLGBDBSTVVRJPBTKLC> a schema:Event;
   schema:name "Volunteer Shift - FemmeVox 24-25";
   schema:description """
@@ -196,12 +196,22 @@
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/220e1976-9521-4043-bec2-a88509e90cfa.jpg";
   schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
 
-<http://www.spektrix.com/gctc/event/40001ASPQDPHTMRMGGVKLMLRBPQNHNVSD> a schema:Event;
-  schema:name "Volunteers Shift - The Humbug Hustle";
+<http://www.spektrix.com/gctc/event/41401ASSQNDLHNVKJRVQSRBSHHNBDDDQS> a schema:Event;
+  schema:name "Volunteer Shift - The Grapes Of Wrath: unplugged";
   schema:description """
 
 """;
-  schema:startDate "2024-12-28T18:00:00"^^xsd:dateTime;
-  schema:endDate "2025-01-05T13:00:00"^^xsd:dateTime;
-  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/8d3c7520-064a-4ccb-bce7-e3c43bb92dd3.jpg";
+  schema:startDate "2025-02-26T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-02-26T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/518da8f1-86c5-40f9-a71e-15e1b398e1a5.jpg";
+  schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<http://www.spektrix.com/gctc/event/41001AMGNGHKLQLCLRMPJKPQBNDVJPHRD> a schema:Event;
+  schema:name "Volunteer Shift - The Revue (Feb 7th, 2025)";
+  schema:description """
+
+""";
+  schema:startDate "2025-02-07T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-02-07T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gctc/files/ccdb2f6a-4bea-400c-8990-1a481051e408.jpg";
   schema:location <https://spektrix.com/gctc/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
