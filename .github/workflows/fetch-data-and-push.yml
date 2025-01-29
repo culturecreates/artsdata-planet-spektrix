@@ -1,6 +1,12 @@
 name: Fetch JSON Data and Push to Artsdata
 
 on:
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: 'A comma-separated string of sources to fetch data from'
+        required: true
+        type: string
   workflow_call:
     inputs:
       sources:
