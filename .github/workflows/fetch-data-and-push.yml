@@ -14,7 +14,7 @@ on:
         type: string
         description: 'A comma-separated string of sources to fetch data from'
     secrets:
-      publisher-uri:
+      PUBLISHER_URI_GREGORY:
         required: true
 
 jobs:
@@ -145,5 +145,5 @@ jobs:
         uses: culturecreates/artsdata-pipeline-action@v1.1.0
         with:
           artifact: ${{ matrix.artifact }}
-          publisher: ${{ secrets.publisher-uri }}
+          publisher: ${{ secrets.PUBLISHER_URI_GREGORY }}
           downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-spektrix/main/outputs/${{ matrix.file_name }}
