@@ -101,7 +101,7 @@ jobs:
               transform json_data/${source}.json \
               -u http://localhost:7333 \
               --configurations project-config.json \
-              -f json >> outputs/spektrix-$source-entities.ttl
+              -f json >> outputs/spektrix-$source-entities.ttl || echo "Error processing source: ${source}"
             done
             formatted_matrix=$(echo "$matrix" | sed 's/^\[/{ "include": [/; s/]$/]}/')
             echo "matrix=$formatted_matrix" >> $GITHUB_OUTPUT
