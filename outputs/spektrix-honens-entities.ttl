@@ -1,0 +1,351 @@
+@base <https://www.spektrix.com/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/honens/event/13801AGMJPLQGHBSJHBGMRNCQQKGVHKBV> a schema:Event;
+  schema:name "2025 Laureate Circle Calgary: Illia Ovcharenko";
+  schema:description """
+
+""";
+  schema:startDate "2025-05-27T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-05-28T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> .
+
+<https://spektrix.com/honens/location/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> a schema:Place;
+  schema:name "Kahanoff Centre";
+  schema:address <https://spektrix.com/honens/address/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> .
+
+<https://spektrix.com/honens/address/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> a schema:PostalAddress;
+  schema:streetAddress "105 12 Avenue SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 1A1";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/15201AJRGPHRLRVGVLSMBRKVQSJMVJBSH> a schema:Event;
+  schema:name "2025 Laureate Circle Ottawa: Illia Ovcharenko";
+  schema:description """
+
+""";
+  schema:startDate "2025-05-26T17:30:00"^^xsd:dateTime;
+  schema:endDate "2025-05-26T17:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> .
+
+<http://www.spektrix.com/honens/event/15001AMKBTPKPRJBCVBMQKCKPSNVVCTJT> a schema:Event;
+  schema:name "Bison Noir: Música Callada with Sir Stephen Hough";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-22T21:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-22T21:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/5601AMGRKCNRPTGHLVLGRJSVLDNJMKSJC> .
+
+<https://spektrix.com/honens/location/5601AMGRKCNRPTGHLVLGRJSVLDNJMKSJC> a schema:Place;
+  schema:name "The Grotto, Contemporary Calgary";
+  schema:address <https://spektrix.com/honens/address/5601AMGRKCNRPTGHLVLGRJSVLDNJMKSJC> .
+
+<https://spektrix.com/honens/address/5601AMGRKCNRPTGHLVLGRJSVLDNJMKSJC> a schema:PostalAddress;
+  schema:streetAddress "701 11 Street SW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB  T2P 2C4";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/15801AMKKPNSMSJBRKTDKDKJVGCKCBJKN> a schema:Event;
+  schema:name "Classical Adaptations I";
+  schema:description """
+
+""";
+  schema:startDate "2025-09-06T10:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-06T10:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR> .
+
+<https://spektrix.com/honens/location/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR> a schema:Place;
+  schema:name "Performance Hall, National Music Centre";
+  schema:address <https://spektrix.com/honens/address/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR> .
+
+<https://spektrix.com/honens/address/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR> a schema:PostalAddress;
+  schema:streetAddress "850 4 Street SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB  T2G 1R1";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/16201AKSRRCPBSBQNMJRPLKHGSVGKLNDL> a schema:Event;
+  schema:name "Classical Adaptations II";
+  schema:description """
+
+""";
+  schema:startDate "2025-09-06T14:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-06T14:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR> .
+
+<http://www.spektrix.com/honens/event/20001ASSPTTDVHQJLHCGJGTSBBKPHTPJB> a schema:Event;
+  schema:name "Curtain Call: Illia Ovcharenko in Recital";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-22T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-22T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/5801ANBQVBLJQKVGKMVQVKJKLJQMKBTVN> .
+
+<https://spektrix.com/honens/location/5801ANBQVBLJQKVGKMVQVKJKLJQMKBTVN> a schema:Place;
+  schema:name "Heather Edwards Theatre, Contemporary Calgary";
+  schema:address <https://spektrix.com/honens/address/5801ANBQVBLJQKVGKMVQVKJKLJQMKBTVN> .
+
+<https://spektrix.com/honens/address/5801ANBQVBLJQKVGKMVQVKJKLJQMKBTVN> a schema:PostalAddress;
+  schema:streetAddress "701 11 Street SW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB  T2P 2C4";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/19201ACDMCRSLDRKDVBCRLQTJMQBCSLCD> a schema:Event;
+  schema:name "Finals I";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-23T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-23T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
+
+<https://spektrix.com/honens/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> a schema:Place;
+  schema:name "Jack Singer Concert Hall, Werklund Centre";
+  schema:address <https://spektrix.com/honens/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
+
+<https://spektrix.com/honens/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> a schema:PostalAddress;
+  schema:streetAddress "225 8 Avenue SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB  T2G 0K9";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/19401AJHGNGSSNHVHGVRMMRHQDRBGPQPM> a schema:Event;
+  schema:name "Finals II & Awards Show";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-24T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-24T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
+
+<http://www.spektrix.com/honens/event/19601ASQHGTDLVRHPVGMRMDVHLHMGNGQV> a schema:Event;
+  schema:name "Honens Honours";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-21T17:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-21T17:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/5201APJKBKCCCNQQMCTQGVKMLVCGJKMGP> .
+
+<https://spektrix.com/honens/location/5201APJKBKCCCNQQMCTQGVKMLVCGJKMGP> a schema:Place;
+  schema:name "Calgary Petroleum Club";
+  schema:address <https://spektrix.com/honens/address/5201APJKBKCCCNQQMCTQGVKMLVCGJKMGP> .
+
+<https://spektrix.com/honens/address/5201APJKBKCCCNQQMCTQGVKMLVCGJKMGP> a schema:PostalAddress;
+  schema:streetAddress "319 5 Avenue SW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB  T2P 0L5";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/19801AHJMMDKNMDJQSLCTGNDLGNGMJGHK> a schema:Event;
+  schema:name "It Takes Three: Salon to Hollywood";
+  schema:description """
+
+""";
+  schema:startDate "2025-09-06T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-09-06T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR> .
+
+<http://www.spektrix.com/honens/event/18801AQTCDTTRMRJKMBPNNPMJSBLMGVQP> a schema:Event;
+  schema:name "Masterclass I";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-18T09:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-18T09:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
+
+<https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> a schema:Place;
+  schema:name "Eckhardt-Gramatté Hall, Rozsa Centre";
+  schema:address <https://spektrix.com/honens/address/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
+
+<https://spektrix.com/honens/address/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> a schema:PostalAddress;
+  schema:streetAddress "206 University Court NW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB  T2N 4V8";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/19001AGPSVSHKKJGHGMBKJNKLNQCSNLPR> a schema:Event;
+  schema:name "Masterclass II";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-19T09:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-19T09:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
+
+<http://www.spektrix.com/honens/event/18601AGJVHRJDDNTMMMDTKPLTNBGVTLHV> a schema:Event;
+  schema:name "Neurorecital with Nicolas Namoradze";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-15T20:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-15T20:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/5001ABHHSRBTQRMRKVQTDCNNRTMMJHMGD> .
+
+<https://spektrix.com/honens/location/5001ABHHSRBTQRMRKVQTDCNNRTMMJHMGD> a schema:Place;
+  schema:name "Infinity Dome Theatre, TELUS Spark";
+  schema:address <https://spektrix.com/honens/address/5001ABHHSRBTQRMRKVQTDCNNRTMMJHMGD> .
+
+<https://spektrix.com/honens/address/5001ABHHSRBTQRMRKVQTDCNNRTMMJHMGD> a schema:PostalAddress;
+  schema:streetAddress "220 Saint George's Drive NE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB  T2E 5T2";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/20801AJMTLQPSPKJDPVTSBMNNJNRPTPVH> a schema:Event;
+  schema:name "Open Air High River";
+  schema:description """
+
+""";
+  schema:startDate "2025-09-07T14:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-07T14:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/3201AQVHRDTTMHKGVGSKKQQVCTJHSRSNR> .
+
+<https://spektrix.com/honens/location/3201AQVHRDTTMHKGVGSKKQQVCTJHSRSNR> a schema:Place;
+  schema:name "Honens Office";
+  schema:address <https://spektrix.com/honens/address/3201AQVHRDTTMHKGVGSKKQQVCTJHSRSNR> .
+
+<https://spektrix.com/honens/address/3201AQVHRDTTMHKGVGSKKQQVCTJHSRSNR> a schema:PostalAddress;
+  schema:streetAddress "1170—105 12 Avenue SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 1A1";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/20601ABGSVVQHCDMLPVSSHGJPQKDMCGQD> a schema:Event;
+  schema:name "Piano Project YYC @ CF Chinook Centre";
+  schema:description """
+
+""";
+  schema:startDate "2025-09-05T16:00:00"^^xsd:dateTime;
+  schema:endDate "2025-09-05T16:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/3201AQVHRDTTMHKGVGSKKQQVCTJHSRSNR> .
+
+<http://www.spektrix.com/honens/event/16801ANHJRBJLNRBNVQDKPGNSLJNKRTQV> a schema:Event;
+  schema:name "Semifinals I";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-16T13:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-16T13:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
+
+<http://www.spektrix.com/honens/event/17001ATQVJDMTMDNCJJRSGHPLDNKCVDBL> a schema:Event;
+  schema:name "Semifinals II";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-16T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-16T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
+
+<http://www.spektrix.com/honens/event/17201ARRMQGPTQCTQRSSQDHPCMJGNLLPM> a schema:Event;
+  schema:name "Semifinals III";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-17T13:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-17T13:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
+
+<http://www.spektrix.com/honens/event/17401ARMGDGRGTJBKVPBLJVRHCKNDGPTT> a schema:Event;
+  schema:name "Semifinals IV";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-17T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-17T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
+
+<http://www.spektrix.com/honens/event/17802ARQGCSKTDGDBPGBHPTGHVHPJJQMJ> a schema:Event;
+  schema:name "Semifinals IX";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-20T13:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-20T13:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
+
+<http://www.spektrix.com/honens/event/17601ADSBKGQMMPTLRCMTNQVQJNSBPVNG> a schema:Event;
+  schema:name "Semifinals V";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-18T13:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-18T13:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
+
+<http://www.spektrix.com/honens/event/17801ANDDGKKLBMPBRRTQKGLNDCMQGQHV> a schema:Event;
+  schema:name "Semifinals VI";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-18T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-18T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
+
+<http://www.spektrix.com/honens/event/18001AQNDJSHVVQBLCSKTRHMGHNPJGJTM> a schema:Event;
+  schema:name "Semifinals VII";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-19T13:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-19T13:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
+
+<http://www.spektrix.com/honens/event/18201AHGNDCRVCPJBPPJCHBJKBJSRNNKN> a schema:Event;
+  schema:name "Semifinals VIII";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-19T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-19T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
+
+<http://www.spektrix.com/honens/event/18401APQBVKHJSJNGJQKHRTGTLCTRJBBR> a schema:Event;
+  schema:name "Semifinals X";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-20T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-20T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/honens/location/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> .
