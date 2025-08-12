@@ -2,6 +2,8 @@ name: Call fetch workflow
 
 on:
     workflow_dispatch:
+    schedule:
+      - cron: 0 9 1 * *
 
 jobs:
   call-fetch-data:
