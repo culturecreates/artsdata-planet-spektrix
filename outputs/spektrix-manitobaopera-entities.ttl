@@ -1,0 +1,71 @@
+@base <https://www.spektrix.com/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/manitobaopera/event/4201ASVGBHHRTVLQBSRVKDQCKNHHDCTSJ> a
+    schema:Event;
+  schema:name "Lake of the Woods Concert";
+  schema:description """
+	<h2>We look forward to having you join us for an unforgettable evening of music in support of Manitoba Opera’s Digital Emerging Artists Program.</h2><span><br/></span>Nestled in the Lake of the Woods, the intimate setting of Dr. Mark & Theresa Barker’s lakeside cottage provides the perfect backdrop for this extraordinary event, allowing you to immerse yourself in the beauty of both the music and the natural environment.<span><br/></span><span><br/></span>This unique event will feature captivating performances by Dr. Minna Chung, Tracy Dahl, Gwen Hoebig, Monica Huisman, Dr. Laura Loewen, Dr. David Moroz, and John Tessier.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://mbopera.ca/wp-content/uploads/2025/07/2025-26_LotW_Digital-Documents_Bio-Sheet_V3.pdf\">Read The Artist Bios</a><span><br/></span><span><br/></span><span class=\"BoldText\">More information to come...</span>
+""";
+  schema:startDate "2025-08-23T16:30:00"^^xsd:dateTime;
+  schema:endDate "2025-08-23T16:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/0f7a5ef2-70fc-4758-b848-c8cac598c4a1.jpg";
+  schema:location <https://spektrix.com/manitobaopera/location/458APVTCKQCGMJLPKMQJVTQKTLSTLMHJN> .
+
+<https://spektrix.com/manitobaopera/location/458APVTCKQCGMJLPKMQJVTQKTLSTLMHJN> a
+    schema:Place;
+  schema:name "Fire Road 2, McCallum Point Road, Clearwater Bay";
+  schema:address <https://spektrix.com/manitobaopera/address/458APVTCKQCGMJLPKMQJVTQKTLSTLMHJN> .
+
+<https://spektrix.com/manitobaopera/address/458APVTCKQCGMJLPKMQJVTQKTLSTLMHJN> a schema:PostalAddress;
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/manitobaopera/event/3001AKGPBMSRNCDBJCGBHRDVVQRQLSLMV> a
+    schema:Event;
+  schema:name "The Marriage of Figaro";
+  schema:description """
+	<h1>OH, WHAT A DAY!</h1><span><br/></span><span class=\"BoldText\">It’s the eve of Figaro and Susanna’s wedding, but nothing is going right. The Count’s wandering eye has landed on the bride-to-be. Cherubino, the page, is sweet on the Countess, and Marcellina, the governess, is chasing after Figaro.</span><span><br/></span><span><br/></span>Mozart’s great ensemble comedy features a colourful cast of characters and a whirlwind of tricks, disguises, and mistaken identities. Can the servants turn the tables on the masters in order to teach the Count a lesson and save the wedding? Will love triumph?<span><br/></span><span><br/></span>From the famous overture to the finale, this social commentary on class and love unfolds with brilliant music, memorable melodies, and heart-breaking tenderness as the characters ponder young love, lost love, and forgiveness.<span><br/></span><span><br/></span><span class=\"ItalicText\">Sung in Italian with projected English translations.</span><span><br/></span><span><br/></span><span class=\"BoldText\">MUSIC</span> Wolfgang Amadeus Mozart<span><br/></span><span class=\"BoldText\">LIBRETTO</span> Lorenzo da Ponte<span><br/></span>(Based on Pierre-Augustin Beaumarchais’ comic play Le Mariage de Figaro)<span><br/></span><span><br/></span><h2>Artists:</h2><ul><li>Count Almaviva - Phillip Addis</li><li>Countess Almaviva - Jamie Groote</li><li>Figaro - Robert Mellon</li><li>Susanna - Caitlin Wood</li><li>Conductor - Gordon Gerrard</li></ul>
+""";
+  schema:startDate "2026-04-18T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-04-24T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/f46c02f3-08e2-4351-950a-d963aa16c5b6.jpg";
+  schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> .
+
+<https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> a
+    schema:Place;
+  schema:name "Centennial Concert Hall";
+  schema:address <https://spektrix.com/manitobaopera/address/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> .
+
+<https://spektrix.com/manitobaopera/address/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> a schema:PostalAddress;
+  schema:streetAddress "555 Main Street";
+  schema:addressLocality "Winnipeg";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/manitobaopera/event/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB> a
+    schema:Event;
+  schema:name "Tosca";
+  schema:description """
+	<h1>Supremely Operatic!</h1><span><br/></span><span class=\"BoldText\">Heart-pounding drama, intense passion, and soaring melodies are a killer combination in this fateful day in the life of the diva Tosca.</span><span><br/></span><span><br/></span>In revolutionary Rome, the fiery, famous singer lives for art and love but finds herself in a life-and-death struggle when her lover, the painter Cavaradossi, is caught trying to protect a freedom fighter. Scarpia, the corrupt chief of police will stop at nothing to satisfy his lust for her. In this game of deadly political intrigue will Tosca submit to Scarpia’s desires or see her lover die? Can Scarpia’s evil reach from beyond the grave? <span><br/></span><span><br/></span>This spell-binding classic features some of Puccini’s best: “Vissi d’arte,” the opera’s most famous aria in which Tosca sings that she’s always lived her life for art and love; Cavaradossi’s “Recondita armonia”; Scarpia’s “Te Deum,” sung with self-satisfied villainy and madness; and “E lucevan le stelle,” Cavaradossi’s farewell to Tosca.  <span><br/></span><span><br/></span><span class=\"ItalicText\">Sung in Italian with projected English translations.</span><span><br/></span><span><br/></span><span class=\"BoldText\">MUSIC</span>  Giacomo Puccini<span><br/></span><span class=\"BoldText\">LIBRETTO</span>  Luigi Illica and Giuseppe Giacosa<span><br/></span>(Based on Victorien Sardou’s drama La Tosca)<span><br/></span><span><br/></span><h2>Artists:</h2><ul><li>Tosca - Marina Costa-Jackson</li><li>Cavaradossi - David Pomeroy</li><li>Scarpia - Gregory Dahl</li><li>Conductor - Tyrone Paterson</li></ul><span><br/></span><span class=\"ItalicText\">(Cast is subject to change.)</span>
+""";
+  schema:startDate "2025-11-22T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-28T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/cc27223d-dbca-4ad7-8096-96185f9e68bb.jpg";
+  schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> .
+
+<http://www.spektrix.com/manitobaopera/event/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> a
+    schema:Event;
+  schema:name "Tosca Opening Night Dinner";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-22T17:00:00"^^xsd:dateTime;
+  schema:endDate "2025-11-22T17:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/753f43ef-c4e6-4de6-a95a-b6c692b74899.jpg";
+  schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> .

@@ -35,10 +35,10 @@
   a schema:Event;
   schema:name "Backstage Pass Tour";
   schema:description """
-	<h2>Add a Backstage Pass Tour</h2>Take an exclusive tour backstage at Studio Bell and see music come to life! Experience our world-class recording facilities and hear the stories behind notable artifacts.<span><br/></span><span><br/></span>
+	<h2>Add a Backstage Pass Tour</h2>Take an exclusive tour backstage at Studio Bell and see music come to life in the National Music Centre’s recording studios!<span><br/></span><span><br/></span>
 """;
   schema:startDate "2025-03-15T13:30:00"^^xsd:dateTime;
-  schema:endDate "2025-06-24T14:15:00"^^xsd:dateTime;
+  schema:endDate "2025-08-30T13:30:00"^^xsd:dateTime;
   schema:image "";
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
@@ -53,17 +53,6 @@
   schema:addressLocality "Calgary";
   schema:addressRegion "AB T2G 0L8";
   schema:addressCountry "CA" .
-
-<http://www.spektrix.com/nationalmusiccentre/event/3401ARKRNLBJKDJTKHBHRJBNHVDNSKPTR>
-  a schema:Event;
-  schema:name "Behind-the-Glass Tour";
-  schema:description """
-	<h2>Add a Behind-the-Glass Tour</h2>Explore the hits of NMC’s collection and dive deeper into Canada’s music story! Explore the exhibitions and artifacts with a musically trained tour guide.<span><br/></span><span><br/></span>
-""";
-  schema:startDate "2025-05-17T11:00:00"^^xsd:dateTime;
-  schema:endDate "2025-06-24T15:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
 <http://www.spektrix.com/nationalmusiccentre/event/17201ARRMQGPTQCTQRSSQDHPCMJGNLLPM>
   a schema:Event;
@@ -97,6 +86,28 @@
   schema:endDate "2025-05-21T12:00:00"^^xsd:dateTime;
   schema:image "";
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<http://www.spektrix.com/nationalmusiccentre/event/3401ARKRNLBJKDJTKHBHRJBNHVDNSKPTR>
+  a schema:Event;
+  schema:name "Greatest Hits Tour";
+  schema:description """
+	<h2>Add a Greatest Hits Tour</h2>Dive into Canadian music history and get up close with iconic instruments and artifacts from the National Music Centre’s world-renowned collection.
+""";
+  schema:startDate "2025-05-17T14:30:00"^^xsd:dateTime;
+  schema:endDate "2025-08-31T14:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
+
+<http://www.spektrix.com/nationalmusiccentre/event/10801ADHCBQTDNRNBLLTSCPBVDKMJGHCJ>
+  a schema:Event;
+  schema:name "HCW Tour";
+  schema:description """
+
+""";
+  schema:startDate "2025-08-01T10:00:00"^^xsd:dateTime;
+  schema:endDate "2025-08-01T11:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
 <http://www.spektrix.com/nationalmusiccentre/event/23401AHHMQSVVPPKJGSDQCLPJRGKVPLMQ>
   a schema:Event;
@@ -141,6 +152,28 @@
   schema:endDate "2024-11-08T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<http://www.spektrix.com/nationalmusiccentre/event/29602ACKCQSVCQGTHTDDNLQVQSCQMHMGR>
+  a schema:Event;
+  schema:name "King Eddy Stampede Breakfast";
+  schema:description """
+
+""";
+  schema:startDate "2025-07-04T08:30:00"^^xsd:dateTime;
+  schema:endDate "2025-07-04T08:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:Place;
+  schema:name "King Eddy";
+  schema:address <https://spektrix.com/nationalmusiccentre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/nationalmusiccentre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:PostalAddress;
+  schema:streetAddress "438 9th Avenue SE";
+  schema:addressLocality "Calgary";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/23001ARCVCNHNNNCLVMBNCMRGPKGBRCSK>
   a schema:Event;
@@ -230,17 +263,6 @@
   schema:image "";
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-<https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
-  a schema:Place;
-  schema:name "King Eddy";
-  schema:address <https://spektrix.com/nationalmusiccentre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-<https://spektrix.com/nationalmusiccentre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
-  a schema:PostalAddress;
-  schema:streetAddress "438 9th Avenue SE";
-  schema:addressLocality "Calgary";
-  schema:addressCountry "CA" .
-
 <http://www.spektrix.com/nationalmusiccentre/event/24601AQBNLBQCHKVGDVHQJVMMGKLGNBDJ>
   a schema:Event;
   schema:name "NMC and Women Band Directors International Present: Girls in Jazz 2025 Gala Concert";
@@ -274,6 +296,28 @@
   schema:image "";
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
+<http://www.spektrix.com/nationalmusiccentre/event/30001ACDNMRPKSDRKSKCJNMSBQHCSMMMG>
+  a schema:Event;
+  schema:name "NMC Presents: Andy Milne in Tribute to Oscar Peterson 100";
+  schema:description """
+	Join us for an unforgettable evening as two-time JUNO Award-winning pianist and composer Andy Milne pays tribute to his mentor, the legendary Oscar Peterson, in honour of Peterson’s 100th birthday on August 15.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.google.com/maps/place/Studio+Bell,+home+of+the+National+Music+Centre/@51.0445506,-114.054786,17z/data=!3m1!4b1!4m5!3m4!1s0x53717aaa864fd43b:0x7609799479e4d20e!8m2!3d51.0445591!4d-114.0529828\">Studio Bell</a><span><br/></span><span><br/></span>Doors: 6:30 pm.<span><br/></span>Show: 7:30 pm.<span><br/></span><span><br/></span>General: $39.00 +GST<span><br/></span>Youth (25 and under): $25.00 +GST<span><br/></span><span><br/></span>NMC Members get 15% off. Check your email for the discount code in our Members Newsletter.
+""";
+  schema:startDate "2025-08-15T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-08-15T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/nationalmusiccentre/files/9fadf8c9-258a-48cc-997d-122529c7a213.jpg";
+  schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<http://www.spektrix.com/nationalmusiccentre/event/29401ADJVTMPMVSKRPCKNPVMCRPLRQJRR>
+  a schema:Event;
+  schema:name "NMC Presents: Black Music Month Community Lane & Talent Expo";
+  schema:description """
+
+""";
+  schema:startDate "2025-06-14T10:00:00"^^xsd:dateTime;
+  schema:endDate "2025-06-14T10:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
+
 <http://www.spektrix.com/nationalmusiccentre/event/28801AVBKQSCSGSCMSTRKBBJTVJRJMRQJ>
   a schema:Event;
   schema:name "NMC Presents: Derina Harvey Band";
@@ -295,6 +339,40 @@
   schema:endDate "2025-06-22T19:30:00"^^xsd:dateTime;
   schema:image "";
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<http://www.spektrix.com/nationalmusiccentre/event/30201AHVTMBBQKSVNPBBRMTKPDQPRMHJC>
+  a schema:Event;
+  schema:name "NMC Presents: Sarah Slean with Strings";
+  schema:description """
+	Experience an unforgettable evening of music and storytelling as Sarah Slean, one of Canada’s most compelling and multifaceted artists, takes the stage with a string quartet at Studio Bell, home of the National Music Centre.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.google.com/maps/place/Studio+Bell,+home+of+the+National+Music+Centre/@51.0445506,-114.054786,17z/data=!3m1!4b1!4m5!3m4!1s0x53717aaa864fd43b:0x7609799479e4d20e!8m2!3d51.0445591!4d-114.0529828\">Studio Bell</a><span><br/></span><span><br/></span>Doors: 6:30 pm.<span><br/></span>Show: 7:30 pm.<span><br/></span><span><br/></span>Tickets: $50 +GST<span><br/></span><span><br/></span>NMC Members get 15% off. Check your email for the discount code in our Members Newsletter.
+""";
+  schema:startDate "2025-10-25T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-25T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/nationalmusiccentre/files/a1edd8f2-75ce-4c84-8a8b-a8d7c28e8f94.jpg";
+  schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<http://www.spektrix.com/nationalmusiccentre/event/30601ASVMNTVBQGPSKCLTTHTBBRPCLTLM>
+  a schema:Event;
+  schema:name "OHSOTO'KINO Music Incubator Artist Showcase and Reception";
+  schema:description """
+
+""";
+  schema:startDate "2025-09-17T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-09-17T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/nationalmusiccentre/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
+
+<https://spektrix.com/nationalmusiccentre/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>
+  a schema:Place;
+  schema:name "Skybridge";
+  schema:address <https://spektrix.com/nationalmusiccentre/address/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
+
+<https://spektrix.com/nationalmusiccentre/address/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>
+  a schema:PostalAddress;
+  schema:streetAddress "850 4th Street SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB T2G 0L8";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/23201APGCMPGJNLTBJBBRLRLRBCKNMGMV>
   a schema:Event;
@@ -325,7 +403,7 @@
 
 """;
   schema:startDate "2024-10-16T10:00:00"^^xsd:dateTime;
-  schema:endDate "2025-08-31T10:00:00"^^xsd:dateTime;
+  schema:endDate "2025-12-31T10:00:00"^^xsd:dateTime;
   schema:image "";
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
@@ -361,6 +439,28 @@
   schema:endDate "2025-05-15T19:00:00"^^xsd:dateTime;
   schema:image "";
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<http://www.spektrix.com/nationalmusiccentre/event/30401AVTJMSJLDVLNKKKDPCPPRDDJCLRT>
+  a schema:Event;
+  schema:name "The Gift of Sound: A Benefit Concert for Jens Lindemann and Jennifer Snow";
+  schema:description """
+	Join us for a benefit concert for Jens Lindemann and Jennifer Snow, who tragically lost their home during the Los Angeles fires of 2025. Presented by Craig Senyk Initiatives, the concert will feature Ian Parker, Shannon Gaye, Kristian Alexandrov Trio, JJ Shiplett, and more special guests.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.google.com/maps/place/Studio+Bell,+home+of+the+National+Music+Centre/@51.0445506,-114.054786,17z/data=!3m1!4b1!4m5!3m4!1s0x53717aaa864fd43b:0x7609799479e4d20e!8m2!3d51.0445591!4d-114.0529828\">Studio Bell</a><span><br/></span><span><br/></span>Doors: 6:00 pm.<span><br/></span>Show: 7:00 pm.<span><br/></span><span><br/></span>Tickets: $60 +GST
+""";
+  schema:startDate "2025-08-23T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-08-23T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/nationalmusiccentre/files/0d5c32ba-52fc-4729-baa5-715f7ef8f237.jpg";
+  schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<http://www.spektrix.com/nationalmusiccentre/event/29201ACCPRBMSLVHDLHKGSRKDGGQQMTJM>
+  a schema:Event;
+  schema:name "Ukulele Workshop";
+  schema:description """
+
+""";
+  schema:startDate "2025-06-20T10:30:00"^^xsd:dateTime;
+  schema:endDate "2025-06-20T10:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
 <http://www.spektrix.com/nationalmusiccentre/event/27801AGBRBTMKNGSLNDRVNGSHQJPSLPHH>
   a schema:Event;

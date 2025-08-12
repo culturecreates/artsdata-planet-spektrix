@@ -8,73 +8,6 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/calgaryphil/event/39801ATJCSCVLGHGKQJHSGGHGSRBRSCPQ> a schema:Event;
-  schema:name "A Choral Christmas";
-  schema:description """
-
-""";
-  schema:startDate "2024-12-06T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-12-06T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585102;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585102 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:Place;
-  schema:name "Jack Singer Concert Hall";
-  schema:address <https://spektrix.com/calgaryphil/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-<https://spektrix.com/calgaryphil/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:PostalAddress;
-  schema:streetAddress "Arts Commons";
-  schema:addressLocality "205 8 Ave SE";
-  schema:addressRegion "Calgary";
-  schema:postalCode "AB";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/calgaryphil/event/35402AKGBQBNDMNKSNVCHHKDHMPQJTDHK> a schema:Event;
-  schema:name "A Night on Broadway with Ashley Brown";
-  schema:description """
-
-""";
-  schema:startDate "2025-05-23T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-05-24T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585103;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585103 a skos:Concept;
-  skos:prefLabel "Pops" .
-
-<http://www.spektrix.com/calgaryphil/event/35802AMJSRHBJBGHPMDNRMQLTJQHLDLQL> a schema:Event;
-  schema:name "A Paintbrush for Piccolo";
-  schema:description """
-
-""";
-  schema:startDate "2025-05-11T15:00:00"^^xsd:dateTime;
-  schema:endDate "2025-05-11T15:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585104;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585104 a skos:Concept;
-  skos:prefLabel "Symphony Sundays for Kids" .
-
-<http://www.spektrix.com/calgaryphil/event/38802ANVGKGJCPVMLNKPHJLQDSLGKPMMB> a schema:Event;
-  schema:name "A Tribute to Bob Marley";
-  schema:description """
-
-""";
-  schema:startDate "2025-02-08T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-02-08T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585105;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585105 a skos:Concept;
-  skos:prefLabel "Specials" .
-
 <http://www.spektrix.com/calgaryphil/event/49603AKKCSNHLNQCRHDQGKSCSKSCPJVLH> a schema:Event;
   schema:name "Alberta in Harmony:  The Planets ";
   schema:description """
@@ -83,10 +16,35 @@ _:e9e6478a95dd455ea641e7584049f585105 a skos:Concept;
   schema:startDate "2026-05-02T19:30:00"^^xsd:dateTime;
   schema:endDate "2026-05-02T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585106;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c128;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585106 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c128 a skos:Concept;
+  skos:prefLabel "Specials" .
+
+<https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:Place;
+  schema:name "Jack Singer Concert Hall";
+  schema:address <https://spektrix.com/calgaryphil/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/calgaryphil/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:PostalAddress;
+  schema:streetAddress "Werklund Centre";
+  schema:addressLocality "formerly Arts Commons";
+  schema:addressRegion "205 8 Ave SE";
+  schema:postalCode "Calgary";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/calgaryphil/event/47201AKJCKRLKLLRCPMQKNQTPDQTRPLCP> a schema:Event;
+  schema:name "An Evening with Lang Lang ";
+  schema:description """
+
+""";
+  schema:startDate "2025-09-27T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-27T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c129;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c129 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <http://www.spektrix.com/calgaryphil/event/49801AVVVJQRDHHCHGRNLMSSLHRNCVBPM> a schema:Event;
@@ -97,10 +55,10 @@ _:e9e6478a95dd455ea641e7584049f585106 a skos:Concept;
   schema:startDate "2026-04-23T19:30:00"^^xsd:dateTime;
   schema:endDate "2026-04-23T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585107;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c130;
   schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
 
-_:e9e6478a95dd455ea641e7584049f585107 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c130 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:Place;
@@ -113,34 +71,6 @@ _:e9e6478a95dd455ea641e7584049f585107 a skos:Concept;
   schema:addressRegion "AB";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/calgaryphil/event/40401AJTHBLMVMBVCCLGRTCHHQHMCLTQK> a schema:Event;
-  schema:name "An Intimate Evening with The Tenors and Calgary Philharmonic";
-  schema:description """
-
-""";
-  schema:startDate "2025-04-10T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-04-10T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585108;
-  schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
-
-_:e9e6478a95dd455ea641e7584049f585108 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/34601ALVSBJCTDPKVRHHHNJPRRSBQSGSH> a schema:Event;
-  schema:name "Babar the Elephant";
-  schema:description """
-
-""";
-  schema:startDate "2024-09-22T15:00:00"^^xsd:dateTime;
-  schema:endDate "2024-09-22T15:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585109;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585109 a skos:Concept;
-  skos:prefLabel "Symphony Sundays for Kids" .
-
 <http://www.spektrix.com/calgaryphil/event/50201AJQJMNKPVNTVBTBMSCMBRSMTGJSS> a schema:Event;
   schema:name "Baroque at Bella with Camille Delaforge";
   schema:description """
@@ -149,10 +79,10 @@ _:e9e6478a95dd455ea641e7584049f585109 a skos:Concept;
   schema:startDate "2026-02-05T19:30:00"^^xsd:dateTime;
   schema:endDate "2026-02-05T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585110;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c131;
   schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
 
-_:e9e6478a95dd455ea641e7584049f585110 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c131 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <http://www.spektrix.com/calgaryphil/event/50001ALBDLSVMDTDTMKNPPLMDQMDRBTLK> a schema:Event;
@@ -163,10 +93,10 @@ _:e9e6478a95dd455ea641e7584049f585110 a skos:Concept;
   schema:startDate "2025-11-06T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-11-06T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585111;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c132;
   schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
 
-_:e9e6478a95dd455ea641e7584049f585111 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c132 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <http://www.spektrix.com/calgaryphil/event/46202ANKPHRLSKBLKLQVRVQQKGKDMSHGT> a schema:Event;
@@ -175,41 +105,13 @@ _:e9e6478a95dd455ea641e7584049f585111 a skos:Concept;
 
 """;
   schema:startDate "2025-10-03T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-10-03T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-04T14:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585112;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c133;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585112 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c133 a skos:Concept;
   skos:prefLabel "Classics 3" .
-
-<http://www.spektrix.com/calgaryphil/event/34801AJDHTGHVDDDGHKMHBRJLKTRHLMSR> a schema:Event;
-  schema:name "Beethoven's Emperor";
-  schema:description """
-
-""";
-  schema:startDate "2024-09-27T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-09-28T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585113;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585113 a skos:Concept;
-  skos:prefLabel "Classics 1" .
-
-<http://www.spektrix.com/calgaryphil/event/35201AQQRSLKMCNNBJNMJCGMJTGPJQHBV> a schema:Event;
-  schema:name "Bernstein's Serenade with Esther Yoo";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-18T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-19T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585114;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585114 a skos:Concept;
-  skos:prefLabel "Classics 2" .
 
 <http://www.spektrix.com/calgaryphil/event/49001AHJBVTCVBRMRMLMCJSNSSQLBRQJR> a schema:Event;
   schema:name "Best of Barber: Adagio + More";
@@ -219,49 +121,11 @@ _:e9e6478a95dd455ea641e7584049f585114 a skos:Concept;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585115;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c134;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585115 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c134 a skos:Concept;
   skos:prefLabel "Classics 3" .
-
-<http://www.spektrix.com/calgaryphil/event/41001AMGNGHKLQLCLRMPJKPQBNDVJPHRD> a schema:Event;
-  schema:name "Big Sing";
-  schema:description """
-
-""";
-  schema:startDate "2025-03-15T13:00:00"^^xsd:dateTime;
-  schema:endDate "2025-03-15T13:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585116;
-  schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
-
-_:e9e6478a95dd455ea641e7584049f585116 a skos:Concept;
-  skos:prefLabel "Special Events" .
-
-<https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> a schema:Place;
-  schema:name "Grace Presbyterian Church";
-  schema:address <https://spektrix.com/calgaryphil/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
-
-<https://spektrix.com/calgaryphil/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> a schema:PostalAddress;
-  schema:streetAddress "1009 15 Ave SW";
-  schema:addressLocality "Calgary";
-  schema:addressRegion "AB";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/calgaryphil/event/35602AVSGTMGDTTMMTVPLVNVCQKGJTSQK> a schema:Event;
-  schema:name "Bond + Beyond";
-  schema:description """
-
-""";
-  schema:startDate "2025-01-17T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-01-18T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585117;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585117 a skos:Concept;
-  skos:prefLabel "Pops" .
 
 <http://www.spektrix.com/calgaryphil/event/45201ARKHJCBNTTPVRDPLBGRLGJLSLDSJ> a schema:Event;
   schema:name "Broadway Hits: Hamilton, Rent + More!";
@@ -271,38 +135,309 @@ _:e9e6478a95dd455ea641e7584049f585117 a skos:Concept;
   schema:startDate "2026-05-29T19:30:00"^^xsd:dateTime;
   schema:endDate "2026-05-30T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585118;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c135;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585118 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c135 a skos:Concept;
   skos:prefLabel "Pops" .
 
-<http://www.spektrix.com/calgaryphil/event/39001AMGJLTQNTKSVBHSJCGGLBSSLLVJK> a schema:Event;
-  schema:name "Carmina Burana";
+<http://www.spektrix.com/calgaryphil/event/45001APSKGSQJNQPLCLJCBDHPHSDJVPSS> a schema:Event;
+  schema:name "Dance Dance Disco";
   schema:description """
 
 """;
-  schema:startDate "2024-09-14T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-09-14T19:30:00"^^xsd:dateTime;
+  schema:startDate "2026-03-06T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-03-07T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585119;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c136;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585119 a skos:Concept;
-  skos:prefLabel "Specials" .
+_:cb96476a0e114d17aa94d71b013ed48c136 a skos:Concept;
+  skos:prefLabel "Pops" .
 
-<http://www.spektrix.com/calgaryphil/event/40801ACLMJTSSJPDJLCGJNCRGTMKSPPRR> a schema:Event;
-  schema:name "Chantal Kreviazuk: A Holiday Special";
+<http://www.spektrix.com/calgaryphil/event/51401AJNDJJSCSRDMGDPMBDQVCNBMPCNB> a schema:Event;
+  schema:name "Education Concert: Orchestra in Orbit";
   schema:description """
 
 """;
-  schema:startDate "2024-12-07T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-12-07T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-11-19T10:00:00"^^xsd:dateTime;
+  schema:endDate "2025-11-20T10:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585120;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c137;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c137 a skos:Concept;
+  skos:prefLabel "Education" .
+
+<http://www.spektrix.com/calgaryphil/event/51601ASNDVBQVGLKLVCBQNQGNVJJTVQBG> a schema:Event;
+  schema:name "Education Concert: Swan Lake";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-05T10:00:00"^^xsd:dateTime;
+  schema:endDate "2026-03-10T10:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c138;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c138 a skos:Concept;
+  skos:prefLabel "Education" .
+
+<http://www.spektrix.com/calgaryphil/event/51801AMMMQBBLVKCCNBKCBSKVNJHHMGKP> a schema:Event;
+  schema:name "Education Concert: Wandering with Wonder";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-06T10:00:00"^^xsd:dateTime;
+  schema:endDate "2026-05-07T10:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c139;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c139 a skos:Concept;
+  skos:prefLabel "Education" .
+
+<http://www.spektrix.com/calgaryphil/event/45401AJDKTHQLVSLBBVQGBPQSVNVKLQMM> a schema:Event;
+  schema:name "Gil Shaham plays Beethoven";
+  schema:description """
+
+""";
+  schema:startDate "2025-09-12T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-13T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c140;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c140 a skos:Concept;
+  skos:prefLabel "Classics 1" .
+
+<http://www.spektrix.com/calgaryphil/event/48401AVGNMMHRQVCLVRTRPKGHCJLGDVKR> a schema:Event;
+  schema:name "Handel's Messiah";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-04T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-12-05T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c141;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c141 a skos:Concept;
+  skos:prefLabel "Specials" .
+
+<http://www.spektrix.com/calgaryphil/event/48801AQHMRLTRLKHTVVSGQHTMLHGKSGHS> a schema:Event;
+  schema:name "Hans Graf Returns: A Midsummer Night’s Dream ";
+  schema:description """
+
+""";
+  schema:startDate "2026-06-05T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-06-06T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c142;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c142 a skos:Concept;
+  skos:prefLabel "Classics 2" .
+
+<http://www.spektrix.com/calgaryphil/event/51001ARVGTVPPNTBQGVCQJBVQPDQSJLSM> a schema:Event;
+  schema:name "Home Alone in Concert";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-28T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-29T14:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c143;
+  schema:location <https://spektrix.com/calgaryphil/location/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> .
+
+_:cb96476a0e114d17aa94d71b013ed48c143 a skos:Concept;
+  skos:prefLabel "Specials" .
+
+<https://spektrix.com/calgaryphil/location/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> a schema:Place;
+  schema:name "WinSport Event Centre";
+  schema:address <https://spektrix.com/calgaryphil/address/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> .
+
+<https://spektrix.com/calgaryphil/address/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> a schema:PostalAddress;
+  schema:streetAddress "88 Canada Olympic Road SW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB T3B 5R5";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/calgaryphil/event/46001ANTMSCJPQGDHCBQLMJHRHSLVRCJM> a schema:Event;
+  schema:name "It Takes Two: A Symphonic Collaboration";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-23T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-01-24T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c144;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c144 a skos:Concept;
+  skos:prefLabel "Classics 2" .
+
+<http://www.spektrix.com/calgaryphil/event/46201AMLCVHRCMSRMCBPBJCBDJSGKTGPC> a schema:Event;
+  schema:name "IX: Shostakovich";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-27T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-02-28T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c145;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c145 a skos:Concept;
+  skos:prefLabel "Classics 2" .
+
+<http://www.spektrix.com/calgaryphil/event/44802AVDMDGBPDHNJQLCSVVQBKMPRTHDN> a schema:Event;
+  schema:name "La Vida Loca: Latin Pop Hits";
+  schema:description """
+
+""";
+  schema:startDate "2026-04-10T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-04-11T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c146;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c146 a skos:Concept;
+  skos:prefLabel "Pops" .
+
+<http://www.spektrix.com/calgaryphil/event/45601AKQVBSQHJBQRVBTCHVPGDDNQTRGL> a schema:Event;
+  schema:name "Mahler's First Symphony";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-22T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-05-23T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c147;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c147 a skos:Concept;
+  skos:prefLabel "Classics 1" .
+
+<http://www.spektrix.com/calgaryphil/event/49201ADMHVCPDCGVCRJSKQMLVHNQNVVVH> a schema:Event;
+  schema:name "Nothing Compares: The Music of Prince";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-08T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-08T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c148;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c148 a skos:Concept;
+  skos:prefLabel "Specials" .
+
+<http://www.spektrix.com/calgaryphil/event/50401ARMBCNTPHTPBVLQSVDRCMHSBBNBM> a schema:Event;
+  schema:name "Phil in the Park";
+  schema:description """
+
+""";
+  schema:startDate "2025-09-07T14:00:00"^^xsd:dateTime;
+  schema:endDate "2025-09-07T14:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c149;
+  schema:location <https://spektrix.com/calgaryphil/location/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> .
+
+_:cb96476a0e114d17aa94d71b013ed48c149 a skos:Concept;
+  skos:prefLabel "Specials" .
+
+<https://spektrix.com/calgaryphil/location/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> a schema:Place;
+  schema:name "Prince's Island Park";
+  schema:address <https://spektrix.com/calgaryphil/address/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> .
+
+<https://spektrix.com/calgaryphil/address/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> a schema:PostalAddress;
+  schema:streetAddress "Calgary";
+  schema:addressLocality "AB";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/calgaryphil/event/47801AQSJJVSSQJNMDHJPPGNDTMSTPTST> a schema:Event;
+  schema:name "Postcards from Italy";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-08T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-05-08T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c150;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c150 a skos:Concept;
+  skos:prefLabel "Classics 3" .
+
+<http://www.spektrix.com/calgaryphil/event/49602ABDTSBHKBNTJCCDHJVHHCJVVPQCH> a schema:Event;
+  schema:name "Revolution: The Music of The Beatles - A Symphonic Experience";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-07T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-02-07T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c151;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c151 a skos:Concept;
+  skos:prefLabel "Specials" .
+
+<http://www.spektrix.com/calgaryphil/event/45402AQMJCNJNTGNDHGQMCTBDHTRSSGVJ> a schema:Event;
+  schema:name "Romantic Ravel";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-02-14T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c152;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c152 a skos:Concept;
+  skos:prefLabel "Classics 1" .
+
+<http://www.spektrix.com/calgaryphil/event/34201ASMCSDCJKPKGCLJTKVRDGQJPPMJH> a schema:Event;
+  schema:name "Salute to Vienna New Year's Concert";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-01T14:30:00"^^xsd:dateTime;
+  schema:endDate "2026-01-01T14:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c153;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c153 a skos:Concept;
+  skos:prefLabel "Specials" .
+
+<http://www.spektrix.com/calgaryphil/event/48601ARPGPBJPBBJPGRVPTHVCMTBCKDRT> a schema:Event;
+  schema:name "Slavonic Dances";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-15T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c154;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+_:cb96476a0e114d17aa94d71b013ed48c154 a skos:Concept;
+  skos:prefLabel "Classics 1" .
+
+<http://www.spektrix.com/calgaryphil/event/46401AJJTJHQJSQQVGTKDVGHPLJJBLHMJ> a schema:Event;
+  schema:name "Star Wars: Return of the Jedi in Concert";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-15T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-05-16T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c155;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
 
-_:e9e6478a95dd455ea641e7584049f585120 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c155 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> a schema:Place;
@@ -315,635 +450,18 @@ _:e9e6478a95dd455ea641e7584049f585120 a skos:Concept;
   schema:addressRegion "AB T2N 1M4";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/calgaryphil/event/34203AJVBGBPHJQKKPQGDCRCDMVHKVLLM> a schema:Event;
-  schema:name "Controlled Burn";
-  schema:description """
-
-""";
-  schema:startDate "2025-03-15T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-03-15T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585121;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585121 a skos:Concept;
-  skos:prefLabel "Classics 3" .
-
-<http://www.spektrix.com/calgaryphil/event/45001APSKGSQJNQPLCLJCBDHPHSDJVPSS> a schema:Event;
-  schema:name "Dance Dance Disco";
-  schema:description """
-
-""";
-  schema:startDate "2026-03-06T19:30:00"^^xsd:dateTime;
-  schema:endDate "2026-03-07T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585122;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585122 a skos:Concept;
-  skos:prefLabel "Pops" .
-
-<http://www.spektrix.com/calgaryphil/event/39201APPPJQSCBDBPCLLVKSNCLNHTDTRQ> a schema:Event;
-  schema:name "Disney and Pixar's Coco in Concert";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-11T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-12T13:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585123;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585123 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/41401ASSQNDLHNVKJRVQSRBSHHNBDDDQS> a schema:Event;
-  schema:name "Disney’s The Muppet Christmas Carol in Concert Live-to-Film";
-  schema:description """
-
-""";
-  schema:startDate "2024-11-22T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-11-23T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585124;
-  schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
-
-_:e9e6478a95dd455ea641e7584049f585124 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/42201AQKKRSPRKRLQJDDCVRBGKSTCCBDJ> a schema:Event;
-  schema:name "Education Concert: A Paintbrush for Piccolo";
-  schema:description """
-
-""";
-  schema:startDate "2025-05-13T10:00:00"^^xsd:dateTime;
-  schema:endDate "2025-05-15T10:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585125;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585125 a skos:Concept;
-  skos:prefLabel "Education" .
-
-<http://www.spektrix.com/calgaryphil/event/41801AVTMRHQTMCCLMJSHHVVQTNHJPGQB> a schema:Event;
-  schema:name "Education Concert: Babar the Elephant";
-  schema:description """
-
-""";
-  schema:startDate "2024-11-20T10:00:00"^^xsd:dateTime;
-  schema:endDate "2024-11-21T10:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585126;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585126 a skos:Concept;
-  skos:prefLabel "Education" .
-
-<http://www.spektrix.com/calgaryphil/event/42001AQJJQTSKLLKMRKNHHDRNVHRLPNPB> a schema:Event;
-  schema:name "Education Concert: Link Up: The Orchestra Sings";
-  schema:description """
-
-""";
-  schema:startDate "2025-02-05T10:00:00"^^xsd:dateTime;
-  schema:endDate "2025-02-06T10:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585127;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585127 a skos:Concept;
-  skos:prefLabel "Education" .
-
-<http://www.spektrix.com/calgaryphil/event/51401AJNDJJSCSRDMGDPMBDQVCNBMPCNB> a schema:Event;
-  schema:name "Education Concert: Orchestra in Orbit";
-  schema:description """
-
-""";
-  schema:startDate "2025-11-19T10:00:00"^^xsd:dateTime;
-  schema:endDate "2025-11-20T10:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585128;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585128 a skos:Concept;
-  skos:prefLabel "Education" .
-
-<http://www.spektrix.com/calgaryphil/event/51601ASNDVBQVGLKLVCBQNQGNVJJTVQBG> a schema:Event;
-  schema:name "Education Concert: Swan Lake";
-  schema:description """
-
-""";
-  schema:startDate "2026-03-05T10:00:00"^^xsd:dateTime;
-  schema:endDate "2026-03-10T10:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585129;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585129 a skos:Concept;
-  skos:prefLabel "Education" .
-
-<http://www.spektrix.com/calgaryphil/event/51801AMMMQBBLVKCCNBKCBSKVNJHHMGKP> a schema:Event;
-  schema:name "Education Concert: Wandering with Wonder";
-  schema:description """
-
-""";
-  schema:startDate "2026-05-06T10:00:00"^^xsd:dateTime;
-  schema:endDate "2026-05-07T10:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585130;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585130 a skos:Concept;
-  skos:prefLabel "Education" .
-
-<http://www.spektrix.com/calgaryphil/event/45401AJDKTHQLVSLBBVQGBPQSVNVKLQMM> a schema:Event;
-  schema:name "Gil Shaham plays Beethoven";
-  schema:description """
-
-""";
-  schema:startDate "2025-09-12T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-09-13T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585131;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585131 a skos:Concept;
-  skos:prefLabel "Classics 1" .
-
-<http://www.spektrix.com/calgaryphil/event/48401AVGNMMHRQVCLVRTRPKGHCJLGDVKR> a schema:Event;
-  schema:name "Handel's Messiah";
-  schema:description """
-
-""";
-  schema:startDate "2025-12-04T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-12-05T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585132;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585132 a skos:Concept;
-  skos:prefLabel "Holiday" .
-
-<http://www.spektrix.com/calgaryphil/event/48801AQHMRLTRLKHTVVSGQHTMLHGKSGHS> a schema:Event;
-  schema:name "Hans Graf Returns: A Midsummer Night’s Dream ";
-  schema:description """
-
-""";
-  schema:startDate "2026-06-05T19:30:00"^^xsd:dateTime;
-  schema:endDate "2026-06-06T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585133;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585133 a skos:Concept;
-  skos:prefLabel "Classics 2" .
-
-<http://www.spektrix.com/calgaryphil/event/34202AGCPPQTMBCHGRKRSDVLTGGKTMQKH> a schema:Event;
-  schema:name "Harry Potter and the Order of the Phoenix™ in Concert";
-  schema:description """
-
-""";
-  schema:startDate "2025-02-20T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-02-22T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585134;
-  schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
-
-_:e9e6478a95dd455ea641e7584049f585134 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/51001ARVGTVPPNTBQGVCQJBVQPDQSJLSM> a schema:Event;
-  schema:name "Home Alone in Concert";
-  schema:description """
-
-""";
-  schema:startDate "2025-11-28T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-11-29T14:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585135;
-  schema:location <https://spektrix.com/calgaryphil/location/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> .
-
-_:e9e6478a95dd455ea641e7584049f585135 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<https://spektrix.com/calgaryphil/location/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> a schema:Place;
-  schema:name "Winsport Arena";
-  schema:address <https://spektrix.com/calgaryphil/address/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> .
-
-<https://spektrix.com/calgaryphil/address/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> a schema:PostalAddress;
-  schema:streetAddress "88 Canada Olympic Road SW";
-  schema:addressLocality "Calgary";
-  schema:addressRegion "AB T3B 5R5";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/calgaryphil/event/40201AJMHGMLBHTGVNKHNPGVSVHHPSMBQ> a schema:Event;
-  schema:name "How to Train Your Dragon In Concert";
-  schema:description """
-
-""";
-  schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-05-17T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585136;
-  schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
-
-_:e9e6478a95dd455ea641e7584049f585136 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/46001ANTMSCJPQGDHCBQLMJHRHSLVRCJM> a schema:Event;
-  schema:name "It Takes Two: A Symphonic Collaboration";
-  schema:description """
-
-""";
-  schema:startDate "2026-01-23T19:30:00"^^xsd:dateTime;
-  schema:endDate "2026-01-24T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585137;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585137 a skos:Concept;
-  skos:prefLabel "Classics 2" .
-
-<http://www.spektrix.com/calgaryphil/event/46201AMLCVHRCMSRMCBPBJCBDJSGKTGPC> a schema:Event;
-  schema:name "IX: Shostakovich";
-  schema:description """
-
-""";
-  schema:startDate "2026-02-27T19:30:00"^^xsd:dateTime;
-  schema:endDate "2026-02-28T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585138;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585138 a skos:Concept;
-  skos:prefLabel "Classics 2" .
-
-<http://www.spektrix.com/calgaryphil/event/36401AGDPLVGNCJMRKTPQLBSBLCVKVSMG> a schema:Event;
-  schema:name "Jeneba Kanneh-Mason plays Mozart";
-  schema:description """
-
-""";
-  schema:startDate "2025-03-21T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-03-22T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585139;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585139 a skos:Concept;
-  skos:prefLabel "Classics 2" .
-
-<http://www.spektrix.com/calgaryphil/event/35001ANDBMVNTNMQTQBCTTLTMVTJHVKBV> a schema:Event;
-  schema:name "Kiesza + Orchestra";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-05T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-05T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585140;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585140 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/44802AVDMDGBPDHNJQLCSVVQBKMPRTHDN> a schema:Event;
-  schema:name "La Vida Loca: Latin Pop Hits";
-  schema:description """
-
-""";
-  schema:startDate "2026-04-10T19:30:00"^^xsd:dateTime;
-  schema:endDate "2026-04-11T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585141;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585141 a skos:Concept;
-  skos:prefLabel "Pops" .
-
-<http://www.spektrix.com/calgaryphil/event/45601AKQVBSQHJBQRVBTCHVPGDDNQTRGL> a schema:Event;
-  schema:name "Mahler's First Symphony";
-  schema:description """
-
-""";
-  schema:startDate "2026-05-22T19:30:00"^^xsd:dateTime;
-  schema:endDate "2026-05-23T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585142;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585142 a skos:Concept;
-  skos:prefLabel "Classics 1" .
-
-<http://www.spektrix.com/calgaryphil/event/36602ATBVQCLBBHVQTGDPJKTMBVHGQRSD> a schema:Event;
-  schema:name "Mahler's Resurrection";
-  schema:description """
-
-""";
-  schema:startDate "2025-05-30T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-05-31T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585143;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585143 a skos:Concept;
-  skos:prefLabel "Classics 2" .
-
-<http://www.spektrix.com/calgaryphil/event/36001AVSBSKQTBCMJCHVTHSQVQCNPBTLJ> a schema:Event;
-  schema:name "Mozart's Birthday Party ";
-  schema:description """
-
-""";
-  schema:startDate "2025-01-25T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-01-25T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585144;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585144 a skos:Concept;
-  skos:prefLabel "Classics 3" .
-
-<http://www.spektrix.com/calgaryphil/event/35601ALVJGKRTKBQLPHGRMJPNQQKSPRPT> a schema:Event;
-  schema:name "Nicolas Namoradze plays Rachmaninoff";
-  schema:description """
-
-""";
-  schema:startDate "2024-11-15T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-11-16T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585145;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585145 a skos:Concept;
-  skos:prefLabel "Classics 1" .
-
-<http://www.spektrix.com/calgaryphil/event/38801AQDNRKLTDJNRGTHNNSDTQVMLRTCD> a schema:Event;
-  schema:name "Noon Hour Concert: Brookfield Place";
-  schema:description """
-
-""";
-  schema:startDate "2024-11-26T12:00:00"^^xsd:dateTime;
-  schema:endDate "2024-11-26T12:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585146;
-  schema:location <https://spektrix.com/calgaryphil/location/5801ANBQVBLJQKVGKMVQVKJKLJQMKBTVN> .
-
-_:e9e6478a95dd455ea641e7584049f585146 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<https://spektrix.com/calgaryphil/location/5801ANBQVBLJQKVGKMVQVKJKLJQMKBTVN> a schema:Place;
-  schema:name "Brookfield Place";
-  schema:address <https://spektrix.com/calgaryphil/address/5801ANBQVBLJQKVGKMVQVKJKLJQMKBTVN> .
-
-<https://spektrix.com/calgaryphil/address/5801ANBQVBLJQKVGKMVQVKJKLJQMKBTVN> a schema:PostalAddress;
-  schema:streetAddress "225 6 Ave SW";
-  schema:addressLocality "Calgary";
-  schema:addressRegion "AB T2P 3S9";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/calgaryphil/event/49201ADMHVCPDCGVCRJSKQMLVHNQNVVVH> a schema:Event;
-  schema:name "Nothing Compares: The Music of Prince";
-  schema:description """
-
-""";
-  schema:startDate "2025-11-08T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-11-08T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585147;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585147 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/39601AJRRLKSVBMNJSKBSJSPPVNLVSKDK> a schema:Event;
-  schema:name "On Stage with James Ehnes";
-  schema:description """
-
-""";
-  schema:startDate "2024-11-30T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-11-30T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585148;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585148 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/50401ARMBCNTPHTPBVLQSVDRCMHSBBNBM> a schema:Event;
-  schema:name "Phil in the Park";
-  schema:description """
-
-""";
-  schema:startDate "2025-09-07T14:00:00"^^xsd:dateTime;
-  schema:endDate "2025-09-07T14:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585149;
-  schema:location <https://spektrix.com/calgaryphil/location/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> .
-
-_:e9e6478a95dd455ea641e7584049f585149 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<https://spektrix.com/calgaryphil/location/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> a schema:Place;
-  schema:name "Prince's Island Park";
-  schema:address <https://spektrix.com/calgaryphil/address/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> .
-
-<https://spektrix.com/calgaryphil/address/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> a schema:PostalAddress;
-  schema:streetAddress "Calgary";
-  schema:addressLocality "AB";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/calgaryphil/event/42401AMGVRNMTBVGKTCVLCNVTMNDSPQQG> a schema:Event;
-  schema:name "Phil in the Park + Beat Beethoven";
-  schema:description """
-
-""";
-  schema:startDate "2024-09-08T14:00:00"^^xsd:dateTime;
-  schema:endDate "2024-09-08T14:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585150;
-  schema:location <https://spektrix.com/calgaryphil/location/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> .
-
-_:e9e6478a95dd455ea641e7584049f585150 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/40601AVRVRQNNTTMJRHQKDLRCKSKHBGKP> a schema:Event;
-  schema:name "Pop Bangers: Harry Styles, Billie Eilish + More!";
-  schema:description """
-
-""";
-  schema:startDate "2024-11-09T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-11-09T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585151;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585151 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/47801AQSJJVSSQJNMDHJPPGNDTMSTPTST> a schema:Event;
-  schema:name "Postcards from Italy";
-  schema:description """
-
-""";
-  schema:startDate "2026-05-08T19:30:00"^^xsd:dateTime;
-  schema:endDate "2026-05-08T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585152;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585152 a skos:Concept;
-  skos:prefLabel "Classics 3" .
-
-<http://www.spektrix.com/calgaryphil/event/36601ATRPSQKSGHPQNCLQHVKLVNDQQCLK> a schema:Event;
-  schema:name "Poulenc's Organ Concerto";
-  schema:description """
-
-""";
-  schema:startDate "2025-05-09T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-05-10T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585153;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585153 a skos:Concept;
-  skos:prefLabel "Classics 1" .
-
-<http://www.spektrix.com/calgaryphil/event/35801AHSQHGLDRQDGJQNMNBKJMSLGBGCB> a schema:Event;
-  schema:name "Ravel's Piano Concerto";
-  schema:description """
-
-""";
-  schema:startDate "2024-11-01T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-11-01T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585154;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585154 a skos:Concept;
-  skos:prefLabel "Classics 3" .
-
-<http://www.spektrix.com/calgaryphil/event/49602ABDTSBHKBNTJCCDHJVHHCJVVPQCH> a schema:Event;
-  schema:name "Revolution: The Music of The Beatles - A Symphonic Experience";
-  schema:description """
-
-""";
-  schema:startDate "2026-02-07T19:30:00"^^xsd:dateTime;
-  schema:endDate "2026-02-07T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585155;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585155 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/45402AQMJCNJNTGNDHGQMCTBDHTRSSGVJ> a schema:Event;
-  schema:name "Romantic Ravel";
-  schema:description """
-
-""";
-  schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
-  schema:endDate "2026-02-14T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585156;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585156 a skos:Concept;
-  skos:prefLabel "Classics 1" .
-
-<http://www.spektrix.com/calgaryphil/event/34201ASMCSDCJKPKGCLJTKVRDGQJPPMJH> a schema:Event;
-  schema:name "Salute to Vienna New Year's Concert";
-  schema:description """
-
-""";
-  schema:startDate "2025-01-01T14:30:00"^^xsd:dateTime;
-  schema:endDate "2026-01-01T14:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585157;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585157 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/35401APNVLPNRJRDCGRRCTSSJTSMNRNQD> a schema:Event;
-  schema:name "Sci-Fi Spectacular: Interstellar, Star Wars + Beyond";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-10-26T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585158;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585158 a skos:Concept;
-  skos:prefLabel "Pops" .
-
-<http://www.spektrix.com/calgaryphil/event/40001ASPQDPHTMRMGGVKLMLRBPQNHNVSD> a schema:Event;
-  schema:name "Simply the Best: The Music of Tina Turner";
-  schema:description """
-
-""";
-  schema:startDate "2025-03-08T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-03-08T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585159;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585159 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/48601ARPGPBJPBBJPGRVPTHVCMTBCKDRT> a schema:Event;
-  schema:name "Slavonic Dances";
-  schema:description """
-
-""";
-  schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-11-15T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585160;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585160 a skos:Concept;
-  skos:prefLabel "Classics 1" .
-
-<http://www.spektrix.com/calgaryphil/event/46401AJJTJHQJSQQVGTKDVGHPLJJBLHMJ> a schema:Event;
-  schema:name "Star Wars: Return of the Jedi in Concert";
-  schema:description """
-
-""";
-  schema:startDate "2026-05-15T19:30:00"^^xsd:dateTime;
-  schema:endDate "2026-05-16T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585161;
-  schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
-
-_:e9e6478a95dd455ea641e7584049f585161 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/39402ARCJHKNTKTDMDHGMNLMSVTQHVNCR> a schema:Event;
-  schema:name "Star Wars: The Empire Strikes Back in Concert";
-  schema:description """
-
-""";
-  schema:startDate "2025-04-25T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-04-26T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585162;
-  schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
-
-_:e9e6478a95dd455ea641e7584049f585162 a skos:Concept;
-  skos:prefLabel "Specials" .
-
 <http://www.spektrix.com/calgaryphil/event/48201AHQBKMVGJSTQGDDLBHBMNSLMGSVN> a schema:Event;
-  schema:name "Steve Hackman’s Skull & Bones";
+  schema:name "Steve Hackman’s Skull + Bones";
   schema:description """
 
 """;
   schema:startDate "2025-10-31T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-10-31T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585163;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c156;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585163 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c156 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <http://www.spektrix.com/calgaryphil/event/50601AKRTTBVBCHPTJTHBMBPVLKRJDRHP> a schema:Event;
@@ -954,10 +472,10 @@ _:e9e6478a95dd455ea641e7584049f585163 a skos:Concept;
   schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-12-06T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585164;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c157;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
 
-_:e9e6478a95dd455ea641e7584049f585164 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c157 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <http://www.spektrix.com/calgaryphil/event/45801APJPHDJMJCSGNSRNCNRNHDDTHVGL> a schema:Event;
@@ -968,25 +486,11 @@ _:e9e6478a95dd455ea641e7584049f585164 a skos:Concept;
   schema:startDate "2025-10-17T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-10-18T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585165;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c158;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585165 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c158 a skos:Concept;
   skos:prefLabel "Classics 2" .
-
-<http://www.spektrix.com/calgaryphil/event/35202ABDJRJHRSVCCPJVGJNPJGHTTTGKJ> a schema:Event;
-  schema:name "Symphonie fantastique";
-  schema:description """
-
-""";
-  schema:startDate "2025-02-28T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-03-01T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585166;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585166 a skos:Concept;
-  skos:prefLabel "Classics 1" .
 
 <http://www.spektrix.com/calgaryphil/event/46601ARLMMHCRQKJDPLVLJJSQTQKJVKPS> a schema:Event;
   schema:name "SYNTHONY: EDM Meets Orchestra";
@@ -996,10 +500,10 @@ _:e9e6478a95dd455ea641e7584049f585166 a skos:Concept;
   schema:startDate "2025-09-05T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-09-05T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585167;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c159;
   schema:location <https://spektrix.com/calgaryphil/location/7001AGCLPBHTQLDRVGJQJGVCGDJKJPPNR> .
 
-_:e9e6478a95dd455ea641e7584049f585167 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c159 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <https://spektrix.com/calgaryphil/location/7001AGCLPBHTQLDRVGJQJGVCGDJKJPPNR> a schema:Place;
@@ -1010,36 +514,8 @@ _:e9e6478a95dd455ea641e7584049f585167 a skos:Concept;
   schema:streetAddress "Big Four";
   schema:addressLocality "1801 Big Four Trail SE";
   schema:addressRegion "Calgary";
-  schema:postalCode "AB T2G 2W1";
+  schema:postalCode "AB";
   schema:addressCountry "CA" .
-
-<http://www.spektrix.com/calgaryphil/event/36201ASKGPVLCNJNCMBLVSLJHKQPCHTRV> a schema:Event;
-  schema:name "Tchaikovsky in Love";
-  schema:description """
-
-""";
-  schema:startDate "2025-02-14T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-02-15T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585168;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585168 a skos:Concept;
-  skos:prefLabel "Classics 2" .
-
-<http://www.spektrix.com/calgaryphil/event/39602ADJGBBDTSCHMNLJTKBSQMMMGMGHD> a schema:Event;
-  schema:name "Tchaikovsky X Drake";
-  schema:description """
-
-""";
-  schema:startDate "2024-09-07T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-09-07T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585169;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585169 a skos:Concept;
-  skos:prefLabel "Specials" .
 
 <http://www.spektrix.com/calgaryphil/event/51201ANJTLKTPNSNHSSNGJHMCPQDDDKRV> a schema:Event;
   schema:name "Tenille Townes + The Calgary Philharmonic Orchestra";
@@ -1049,10 +525,10 @@ _:e9e6478a95dd455ea641e7584049f585169 a skos:Concept;
   schema:startDate "2026-04-25T19:30:00"^^xsd:dateTime;
   schema:endDate "2026-04-25T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585170;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c160;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585170 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c160 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <http://www.spektrix.com/calgaryphil/event/46801ACDBKCSKJDBSGRJBRPHCJBLCKVCG> a schema:Event;
@@ -1063,53 +539,11 @@ _:e9e6478a95dd455ea641e7584049f585170 a skos:Concept;
   schema:startDate "2025-09-21T15:00:00"^^xsd:dateTime;
   schema:endDate "2025-09-21T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585171;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c161;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585171 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c161 a skos:Concept;
   skos:prefLabel "Symphony Sundays for Kids" .
-
-<http://www.spektrix.com/calgaryphil/event/35002ACMKQSNVNBVCBNQNRGBRJMBTBQMH> a schema:Event;
-  schema:name "The Hockey Sweater";
-  schema:description """
-
-""";
-  schema:startDate "2025-01-19T15:00:00"^^xsd:dateTime;
-  schema:endDate "2025-01-19T15:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585172;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585172 a skos:Concept;
-  skos:prefLabel "Symphony Sundays for Kids" .
-
-<http://www.spektrix.com/calgaryphil/event/36003ACBTQKPLQNPSMQVRRBCQNRBTJLKK> a schema:Event;
-  schema:name "The Lark Ascending";
-  schema:description """
-
-""";
-  schema:startDate "2025-04-04T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-04-04T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585173;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585173 a skos:Concept;
-  skos:prefLabel "Classics 3" .
-
-<http://www.spektrix.com/calgaryphil/event/36202ABTDQCQPJHMCDJLHTLVKVRHJSGRJ> a schema:Event;
-  schema:name "The Music of ABBA with Rajaton";
-  schema:description """
-
-""";
-  schema:startDate "2025-03-28T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-03-29T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585174;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585174 a skos:Concept;
-  skos:prefLabel "Pops" .
 
 <http://www.spektrix.com/calgaryphil/event/44801AVQJMVSBSCDMRGLRKNLTGJPHPNQG> a schema:Event;
   schema:name "The Music of Hans Zimmer";
@@ -1119,24 +553,10 @@ _:e9e6478a95dd455ea641e7584049f585174 a skos:Concept;
   schema:startDate "2026-01-16T19:30:00"^^xsd:dateTime;
   schema:endDate "2026-01-17T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585175;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c162;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585175 a skos:Concept;
-  skos:prefLabel "Pops" .
-
-<http://www.spektrix.com/calgaryphil/event/34401AVSCHHTDLGCSLVJRSQLBPTLHDKLB> a schema:Event;
-  schema:name "The Music of Pink Floyd";
-  schema:description """
-
-""";
-  schema:startDate "2024-09-20T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-09-21T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585176;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585176 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c162 a skos:Concept;
   skos:prefLabel "Pops" .
 
 <http://www.spektrix.com/calgaryphil/event/44601AVBDVLNHRGJHQBVDLKSCHSSDGBJK> a schema:Event;
@@ -1147,10 +567,10 @@ _:e9e6478a95dd455ea641e7584049f585176 a skos:Concept;
   schema:startDate "2025-09-19T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-09-20T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585177;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c163;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585177 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c163 a skos:Concept;
   skos:prefLabel "Pops" .
 
 <http://www.spektrix.com/calgaryphil/event/48001ANTPHKKRNRQQLDJDLRNDSJJPHJLD> a schema:Event;
@@ -1161,81 +581,35 @@ _:e9e6478a95dd455ea641e7584049f585177 a skos:Concept;
   schema:startDate "2025-10-10T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-10-11T14:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585178;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c164;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585178 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/41601AVNPVJKVCKMRJHHMRKVNNMTGJHSV> a schema:Event;
-  schema:name "The Tenors + the Calgary Philharmonic Orchestra";
-  schema:description """
-
-""";
-  schema:startDate "2025-04-12T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-04-12T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585179;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585179 a skos:Concept;
-  skos:prefLabel "Specials" .
-
-<http://www.spektrix.com/calgaryphil/event/36002AHMPLRHCNBVTBQBQCDHNTHTNNLHM> a schema:Event;
-  schema:name "The Unicorn's Birthday®";
-  schema:description """
-
-""";
-  schema:startDate "2025-03-16T15:00:00"^^xsd:dateTime;
-  schema:endDate "2025-03-16T15:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585180;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585180 a skos:Concept;
-  skos:prefLabel "Symphony Sundays for Kids" .
-
-<http://www.spektrix.com/calgaryphil/event/39202ABGJDMDKHMQKSLDGHLKSJMRDMQRG> a schema:Event;
-  schema:name "Traditional Christmas 2024";
-  schema:description """
-
-""";
-  schema:startDate "2024-12-10T19:30:00"^^xsd:dateTime;
-  schema:endDate "2024-12-12T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585181;
-  schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
-
-_:e9e6478a95dd455ea641e7584049f585181 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c164 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <http://www.spektrix.com/calgaryphil/event/47401AKQNQDVQMQKDSCQGTCTQNHNCHLHR> a schema:Event;
-  schema:name "Traditional Christmas 2025";
+  schema:name "Traditional Christmas";
   schema:description """
 
 """;
   schema:startDate "2025-12-09T19:30:00"^^xsd:dateTime;
   schema:endDate "2025-12-11T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585182;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c165;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-_:e9e6478a95dd455ea641e7584049f585182 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c165 a skos:Concept;
   skos:prefLabel "Specials" .
 
-<http://www.spektrix.com/calgaryphil/event/38803ATSLHHLTBMMCNVPLLHNGRVMLRSQJ> a schema:Event;
-  schema:name "Unplugged: Nirvana Reimagined";
-  schema:description """
+<https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> a schema:Place;
+  schema:name "Grace Presbyterian Church";
+  schema:address <https://spektrix.com/calgaryphil/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
 
-""";
-  schema:startDate "2025-01-31T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-01-31T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585183;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585183 a skos:Concept;
-  skos:prefLabel "Specials" .
+<https://spektrix.com/calgaryphil/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> a schema:PostalAddress;
+  schema:streetAddress "1009 15 Ave SW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/calgaryphil/event/47601ALRPQQGLMRHLJRSGRRTJGJKMNSGT> a schema:Event;
   schema:name "Verdi's Requiem";
@@ -1245,10 +619,10 @@ _:e9e6478a95dd455ea641e7584049f585183 a skos:Concept;
   schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
   schema:endDate "2026-03-20T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585184;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c166;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585184 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c166 a skos:Concept;
   skos:prefLabel "Classics 3" .
 
 <http://www.spektrix.com/calgaryphil/event/50801AMGQRGSCDNRCKBGRSTVMLTQRTDTT> a schema:Event;
@@ -1259,10 +633,10 @@ _:e9e6478a95dd455ea641e7584049f585184 a skos:Concept;
   schema:startDate "2026-03-28T19:30:00"^^xsd:dateTime;
   schema:endDate "2026-03-28T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585185;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c167;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
 
-_:e9e6478a95dd455ea641e7584049f585185 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c167 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <http://www.spektrix.com/calgaryphil/event/49601ASJBNVSCTNMSJHKPCGQLLJSNSJJN> a schema:Event;
@@ -1273,10 +647,10 @@ _:e9e6478a95dd455ea641e7584049f585185 a skos:Concept;
   schema:startDate "2026-04-17T19:30:00"^^xsd:dateTime;
   schema:endDate "2026-04-17T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585186;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c168;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585186 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c168 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <http://www.spektrix.com/calgaryphil/event/46402ARRKJRKJHHPQLVSCRLVRGHNKBCSK> a schema:Event;
@@ -1287,10 +661,10 @@ _:e9e6478a95dd455ea641e7584049f585186 a skos:Concept;
   schema:startDate "2026-01-18T15:00:00"^^xsd:dateTime;
   schema:endDate "2026-01-18T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585187;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c169;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585187 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c169 a skos:Concept;
   skos:prefLabel "Symphony Sundays for Kids" .
 
 <http://www.spektrix.com/calgaryphil/event/48602ARKMHKQCJCCLDPRLCTPHGJLRBBDP> a schema:Event;
@@ -1301,10 +675,10 @@ _:e9e6478a95dd455ea641e7584049f585187 a skos:Concept;
   schema:startDate "2026-01-30T19:30:00"^^xsd:dateTime;
   schema:endDate "2026-01-30T19:30:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585188;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c170;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585188 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c170 a skos:Concept;
   skos:prefLabel "Specials" .
 
 <http://www.spektrix.com/calgaryphil/event/47001AKGBPVRNLLTLGMHBTDTNRJQVNRCM> a schema:Event;
@@ -1315,10 +689,10 @@ _:e9e6478a95dd455ea641e7584049f585188 a skos:Concept;
   schema:startDate "2026-05-10T15:00:00"^^xsd:dateTime;
   schema:endDate "2026-05-10T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585189;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c171;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585189 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c171 a skos:Concept;
   skos:prefLabel "Symphony Sundays for Kids" .
 
 <http://www.spektrix.com/calgaryphil/event/46403ARKCBTGJNCQRVNKVHMHMLGSSBRLV> a schema:Event;
@@ -1329,22 +703,8 @@ _:e9e6478a95dd455ea641e7584049f585189 a skos:Concept;
   schema:startDate "2026-03-01T15:00:00"^^xsd:dateTime;
   schema:endDate "2026-03-01T15:00:00"^^xsd:dateTime;
   schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585190;
+  schema:additionalType _:cb96476a0e114d17aa94d71b013ed48c172;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
-_:e9e6478a95dd455ea641e7584049f585190 a skos:Concept;
+_:cb96476a0e114d17aa94d71b013ed48c172 a skos:Concept;
   skos:prefLabel "Symphony Sundays for Kids" .
-
-<http://www.spektrix.com/calgaryphil/event/41201ATDVHVNDPRBLKPLQHLVPNSCNQLLP> a schema:Event;
-  schema:name "Yo-Yo Ma in Concert";
-  schema:description """
-
-""";
-  schema:startDate "2025-05-02T19:30:00"^^xsd:dateTime;
-  schema:endDate "2025-05-02T19:30:00"^^xsd:dateTime;
-  schema:image "";
-  schema:additionalType _:e9e6478a95dd455ea641e7584049f585191;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-_:e9e6478a95dd455ea641e7584049f585191 a skos:Concept;
-  skos:prefLabel "Specials" .
