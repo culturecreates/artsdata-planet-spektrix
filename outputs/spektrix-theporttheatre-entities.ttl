@@ -1,0 +1,1589 @@
+@base <https://www.spektrix.com/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/theporttheatre/event/31801ADDBNQLLLKJTNRHHPMNDDRKHTBJB> a
+    schema:Event;
+  schema:name " A Night in Old Havana ";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-12T20:00:00"^^xsd:dateTime;
+  schema:endDate "2026-02-12T20:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410308;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> .
+
+_:467a8bdbaa404e028e62b3a0e6425410308 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> a schema:Organization;
+  schema:name "Vancouver Island Symphony" .
+
+<https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> a
+    schema:Place;
+  schema:name "The Port Theatre";
+  schema:address <https://spektrix.com/theporttheatre/address/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> .
+
+<https://spektrix.com/theporttheatre/address/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> a
+    schema:PostalAddress;
+  schema:streetAddress "125 Front Street";
+  schema:addressLocality "Nanaimo";
+  schema:addressRegion "BC V9R 6Z4";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/theporttheatre/event/27601AQVLTVTCJRHPTLCPRBPBJCDTNLPC> a
+    schema:Event;
+  schema:name "100 ml or Less: ";
+  schema:description """
+	Confiscated shampoos, awkward pat-downs, and a decade of reflection—comedian Darren Millar hilariously unpacks 12 years in airport security with sharp wit, heart, and stories you won’t hear at the boarding gate. Buckle up!<span><br/></span><span><br/></span><span class=\"BoldText\">The Sunday August 10, 2025 2:00 pm performance is an ASL Performance.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It's like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-09T17:45:00"^^xsd:dateTime;
+  schema:endDate "2025-08-16T20:15:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/1606788d-31d3-421b-bd7a-3d3e317d7c7a.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410309;
+  schema:location <https://spektrix.com/theporttheatre/location/425ASSDBCKRKRDQRMPBNQJSVHNJGCRCDQ>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410309 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> a schema:Organization;
+  schema:name "The Nanaimo Fringe Festival" .
+
+<https://spektrix.com/theporttheatre/location/425ASSDBCKRKRDQRMPBNQJSVHNJGCRCDQ> a
+    schema:Place;
+  schema:name "Black Rabbit Kitchen";
+  schema:address <https://spektrix.com/theporttheatre/address/425ASSDBCKRKRDQRMPBNQJSVHNJGCRCDQ> .
+
+<https://spektrix.com/theporttheatre/address/425ASSDBCKRKRDQRMPBNQJSVHNJGCRCDQ> a
+    schema:PostalAddress;
+  schema:streetAddress "321 Selby Street";
+  schema:addressLocality "Nanaimo";
+  schema:addressRegion "BC V9R 5B8";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/theporttheatre/event/26401ANCDKPPRRGMBPNMJGQSVPCDHQSJS> a
+    schema:Event;
+  schema:name "4 PACK - Coffee Concert ";
+  schema:description """
+	Each Coffee Concert 4 pack includes one ticket to each of the following concerts:<span><br/></span><span><br/></span>COFFEE CONCERT: <a target=\"_blank\" href=\"https://www.porttheatre.com/events/coffee-concert-pocket-symphonies-2025/\">Pocket Symphonies</a> <span><br/></span><span><br/></span>COFFEE CONCERT: <a target=\"_blank\" href=\"https://www.porttheatre.com/events/coffee-concert-ty-koch-2025/\">Ty Koch</a> <span><br/></span><span><br/></span>COFFEE CONCERT: <a target=\"_blank\" href=\"https://www.porttheatre.com/events/coffee-concert-sarah-hagen-2026/\">Sarah Hagen</a><span><br/></span><span><br/></span>COFFEE CONCERT: <a target=\"_blank\" href=\"https://www.porttheatre.com/events/coffee-concert-cheng-2-duo-2026/\">Cheng&#178; Duo</a><span><br/></span><span><br/></span>You will be contacted by the Port Theatre Ticket Staff regarding your ticket delivery.
+""";
+  schema:startDate "2025-10-05T23:59:00"^^xsd:dateTime;
+  schema:endDate "2025-10-05T23:59:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4f80e45b-9462-4ce8-a221-d39edd99c403.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410310;
+  schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410310 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<https://spektrix.com/theporttheatre/organization/the-port-theatre-society> a schema:Organization;
+  schema:name "The Port Theatre Society" .
+
+<https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP> a
+    schema:Place;
+  schema:name "The Port Theatre Lobby";
+  schema:address <https://spektrix.com/theporttheatre/address/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP> .
+
+<https://spektrix.com/theporttheatre/address/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP> a
+    schema:PostalAddress;
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/theporttheatre/event/28801AVBKQSCSGSCMSTRKBBJTVJRJMRQJ> a
+    schema:Event;
+  schema:name "A WONDERHEADS Christmas Carol";
+  schema:description """
+	Back by popular demand! Visual storytelling virtuosos, the WONDERHEADS, present their signature reimagining of Charles Dickens’ classic <span class=\"ItalicText\">A Christmas Carol</span>. Bringing the magic of imagination to the stage, this unforgettable live experience features spectacular giant masks, whimsical puppets, and wondrous theatrical invention.<span><br/></span><span><br/></span>A feast for the eyes, ears, and heart, with a generous kick to the funny bone; this astonishing production showcases larger than life characters, glowing ghosts, and 10-foot-tall puppets – to name just a few of the treats in store for audiences as they are whisked away with Ebenezer Scrooge on his magical Christmas Eve adventure. Prepare to laugh, cry, and be utterly enchanted this holiday season!<span><br/></span><span><br/></span>The WONDERHEADS have spent more than a decade touring the world to critical acclaim and sold-out audiences who describe the experience as watching animation come to life. Performed entirely without dialogue, their enchanting work has earned widespread praise, including six Critics’ Choice Awards and twelve Best of Fest honors. In what the CBC describes as <span class=\"ItalicText\">“Pure magic”</span> and the Globe and Mail as <span class=\"ItalicText\">“Powerful, surprising, and moving,”</span> the unforgettable experience of a WONDERHEADS show is not to be missed.<span><br/></span>
+""";
+  schema:startDate "2025-12-23T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-12-24T12:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/5055f1a8-3103-4b68-a346-4cecbc1a1eb5.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410311;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/wonderheads-theatre> .
+
+_:467a8bdbaa404e028e62b3a0e6425410311 a skos:Concept;
+  skos:prefLabel "Family" .
+
+<https://spektrix.com/theporttheatre/organization/wonderheads-theatre> a schema:Organization;
+  schema:name "WONDERHEADS Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/29201ACCPRBMSLVHDLHKGSRKDGGQQMTJM> a
+    schema:Event;
+  schema:name "Alex MacKenzie's Hungry for Laughs ";
+  schema:description """
+	<span class=\"ItalicText\">Get ready to laugh for a cause!</span><span><br/></span><span><br/></span>Canada’s Funniest Comedy Tour is rolling into town, and it's more than just a night of stand-up— it's a movement.<span><br/></span><span><br/></span>Founded by comedian Alex Mackenzie and proudly produced by Canadian-owned ECL Productions, the Hungry for Laughs Comedy Tour brings together the best comedians in the country for an unforgettable night of laughter, love, and giving back. Each show supports a local charity, so when you buy a ticket, you're not just treating yourself to world-class comedy — you're helping your community thrive.<span><br/></span><span><br/></span>Whether you’ve seen us on Amazon Prime, Just for Laughs, or CBC’s The Debaters, you’re in for a night of big laughs and positive vibes in a room full of great people.<span><br/></span><span><br/></span>Hundreds of hours go into producing each show — all to create a moment. And when you're in that moment, laughing alongside hundreds of people from your community, you're making memories with your loved ones that will last long after the curtain closes.<span><br/></span><span><br/></span>If you love stand-up comedy, believe in giving back to your community, and enjoy supporting the rising comedic stars of Canada — this show was made for you. Come laugh loud, give back, and feel good doing it.<span><br/></span><span><br/></span><span class=\"ItalicText\">Stand up to hunger. It’s no laughing matter.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Comedians:</span><span><br/></span><span class=\"BoldText\">Alex Mackenzie</span> - (Amazon Prime, Melbourne Comedy Festival)<span><br/></span><span class=\"BoldText\">Chris Griffin</span> - (Just for Laughs, Voted Vancouvers Funniest Comedian)<span><br/></span><span class=\"BoldText\">Brittany Lyseng</span> - (CBC Debaters, Just for Laughs, Roast Battle Canada)<span><br/></span><span class=\"BoldText\">Sunee Dhaliwal</span> - (Just for Laughs, Comedy Network, Opened for Bill Burr)<span><br/></span>
+""";
+  schema:startDate "2025-10-11T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-11T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/77d62ddc-f250-453d-97f6-91962355491d.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410312;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/punchline-nutrition> .
+
+_:467a8bdbaa404e028e62b3a0e6425410312 a skos:Concept;
+  skos:prefLabel "Comedy" .
+
+<https://spektrix.com/theporttheatre/organization/punchline-nutrition> a schema:Organization;
+  schema:name "Punchline Nutrition" .
+
+<http://www.spektrix.com/theporttheatre/event/29401ADJVTMPMVSKRPCKNPVMCRPLRQJRR> a
+    schema:Event;
+  schema:name "American Rock Legends";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-27T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-03-27T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410313;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/rock.it-boy-entertainment> .
+
+_:467a8bdbaa404e028e62b3a0e6425410313 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<https://spektrix.com/theporttheatre/organization/rock.it-boy-entertainment> a schema:Organization;
+  schema:name "Rock.It Boy Entertainment" .
+
+<http://www.spektrix.com/theporttheatre/event/20401AHPLRCCNVVRTBBQTNVLNPCCJVRGB> a
+    schema:Event;
+  schema:name "April Wine";
+  schema:description """
+	April Wine is a Canadian rock band formed in 1969. Originally based in Halifax, Nova Scotia, the band enjoyed international success in the 1970s and 1980s, releasing more than 20 albums since 1971, and selling over 20 million albums worldwide.<span><br/></span><span><br/></span>April Wine’s extensive discography includes numerous gold and platinum selling albums featuring mega-hits like ‘Roller’, ‘I Like to Rock’, ‘You Could Have Been a Lady’ and others. Best known for their international top 40 hit ‘Just Between You And Me’, an iconic power ballad that made them the very first Canadian band on MTV, April Wine went on to release over twenty albums and have received a combined total of 11 Juno Award nominations in the Group Of the Year, Album of the Year, and Best Selling Single categories.<span><br/></span><span><br/></span>In 2009, April Wine was inducted into the Canadian Music Industry Hall of Fame and were honoured with a Lifetime Achievement Award for being part of Canadian Music History for 40 years, and in 2010 the band was inducted into the Canadian Music Hall of Fame.<span><br/></span><span><br/></span>The band continues to tour throughout North America to this day.
+""";
+  schema:startDate "2026-02-15T20:00:00"^^xsd:dateTime;
+  schema:endDate "2026-02-15T20:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/e30fbb41-1b76-44b6-a88d-9ba814282bed.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410314;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410314 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<https://spektrix.com/theporttheatre/organization/> a schema:Organization;
+  schema:name "" .
+
+<http://www.spektrix.com/theporttheatre/event/7601AHCJPTHNBCVJHLQNKQVKDRKRMLTPC> a
+    schema:Event;
+  schema:name "Australia's Thunder from Down Under";
+  schema:description """
+	<span><br/></span>Get ready to experience an exhilarating and electrifying extravaganza as Thunder from Down Under, the world-renowned Australian male revue, announces its highly anticipated return in 2025 with their TEMPTATION TOUR. The sizzling hot international sensation is set to set the stage on fire with their captivating performances and infectious energy, promising an unforgettable night of entertainment for fans across the country. <span><br/></span><span><br/></span>Known for their charismatic personalities, chiseled physiques, and mesmerizing dance routines, Thunder from Down Under has been leaving audiences in awe for years. Their unmatched Australian charm and talent have earned them a dedicated global following, making them one of the most sought-after live shows in the entertainment industry. <span><br/></span><span><br/></span>The 2025 tour promises to be an extraordinary event, featuring a production filled with heart-pounding dance numbers, sensational costumes, and interactive audience engagement. With a mix of classic routines and innovative acts, Thunder from Down Under guarantees a night of excitement and thrill, leaving fans on the edge of their seats. <span><br/></span><span><br/></span>The international acclaimed male revue has garnered an impressive array of awards and accolades throughout its illustrious career including Best Male Revue and recently being awarded the Keys to the City in Las Vegas. Celebrating over 2 decades on the Las Vegas strip and sold out shows every night. The Australian sensation that has captivated the entertainment world holds a coveted residency at Las Vegas ‘Excalibur Resort and Casino' and now has a new residency in Nashville at Woolworth Theatre. <span><br/></span><span><br/></span>For an unforgettable night of fun, laughter, and top-notch entertainment, Thunder from Down Under's 2025 Tour is an absolute must-see event. The full tour schedule and ticket purchase information will be available on the official Thunder from Down Under website.<span><br/></span><span><br/></span>Don't miss the chance to witness the electrifying performances of Thunder from Down Under as they make their triumphant return. Get ready to be blown away! <span><br/></span><span><br/></span><span><br/></span>Find out more information on <a target=\"_blank\" href=\"https://thunderfromdownunder.com/\">The Thunder From Down Under Website</a><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-09-23T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-23T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/86479796-1097-4c12-abc5-8325b0264c44.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410315;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/forrest-jones-entertainment> .
+
+_:467a8bdbaa404e028e62b3a0e6425410315 a skos:Concept;
+  skos:prefLabel "Special Events" .
+
+<https://spektrix.com/theporttheatre/organization/forrest-jones-entertainment> a schema:Organization;
+  schema:name "Forrest Jones Entertainment" .
+
+<http://www.spektrix.com/theporttheatre/event/13001AJPBLLHQGJTKKHRRTDNKLLTSKVVJ> a
+    schema:Event;
+  schema:name "Bella Italia ";
+  schema:description """
+	CONDUCTOR: Cosette Justo Valdés<span><br/></span>GUEST ARTISTS: Sarah Caulfield, soprano<span><br/></span><span><br/></span><span><br/></span>Whether you’re new to opera or a devoted aficionado this concert promises to uplift your spirit and nurture your soul. Experience the enchanting voice of soprano Sarah Caulfield as she delivers a stunning performance bringing to life the rich themes of love, laughter, betrayal, seduction, passion, heartache, tragedy, and comedy. <span><br/></span><span><br/></span>Enjoy a thoughtfully curated selection of your favourite opera pieces, showcasing the masterpieces of iconic composers such as Rossini, Bellini, Verdi and Puccini.<span><br/></span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-11-08T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-08T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/07e8ad75-f379-4bd7-9554-b6778f644474.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410316;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> .
+
+_:467a8bdbaa404e028e62b3a0e6425410316 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/26601APLTNSPSGDPBRQVGGSRDMVBVVNQK> a
+    schema:Event;
+  schema:name "Between Trains";
+  schema:description """
+	Late, harried and stressed, young professional Gemma is in no mood to share a train station bench with outrageously eccentric Pam, who seems bent on making her very bad day even worse. <span><br/></span><span><br/></span><span class=\"BoldText\">The Sunday August 17, 2025 2:30 pm performance is an ASL Performance.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It’s like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-09T14:00:00"^^xsd:dateTime;
+  schema:endDate "2025-08-17T14:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4f4101f7-3904-404f-9ab8-6c2fa3c3123a.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410317;
+  schema:location <https://spektrix.com/theporttheatre/location/425ASSDBCKRKRDQRMPBNQJSVHNJGCRCDQ>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410317 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/23601ABQMTDMTTDQVVNJCNJPSQCSVMLHB> a
+    schema:Event;
+  schema:name "Boy's Club";
+  schema:description """
+	Mixing personal anecdotes with original songs, rapper Alick Mac expands on ideas introduced in his award-winning song “Easier to Shout”. In a urgent, timely message, Alick offers reflections on rape culture, misogyny and mental health.<span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - Its like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-10T17:00:00"^^xsd:dateTime;
+  schema:endDate "2025-08-16T21:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/27a1d233-1edc-445e-84b2-947c5ac24747.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410318;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410318 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/10201AJHJGJMTBHDNGMTSMTVVGPNSHHLL> a
+    schema:Event;
+  schema:name "Brent Butt with Special Guests";
+  schema:description """
+	Born in Tisdale, Saskatchewan, BRENT BUTT discovered early that being funny was a good way to get attention. Brent honed his comedy in school and at the age of 20 moved to the city to pursue a career in stand-up. Within months he was headlining top clubs in Toronto, and within a couple years he was touring internationally and appearing at major festivals.  His television specials quickly secured his reputation as one of the funniest people in the country, but he was also busy creating his own TV series – a sitcom called CORNER GAS.  It became an instant hit with unprecedented ratings and numerous accolades including an International Emmy Award nomination, and was named \"Funniest Show on TV\" by TV Guide readers. Canada’s favourite comedy is now shown in over 26 countries including the US.  The final episode of the series was “the highest (rated) on record for a Canadian scripted series since it began keeping track in 1994” Brent’s follow-up series HICCUPS ran for two seasons.<span><br/></span>  <span><br/></span>In 2013 Brent was honoured with a Queen Elizabeth II Diamond Jubilee Medal for his contributions to community and country.  That same year Brent’s first feature film entitled NO CLUE and directed by Carl Bessai was released. Brent wrote, starred in and produced the film under his Sparrow Media banner. The highly anticipated feature film return to Dog River with CORNER GAS: THE MOVIE saw the entire beloved cast reunited to the delight of rabid fans and new fans alike and the movie would go on to receive a special Golden Screen Award at the 2016 Canadian Screen Awards. Re-imagined by creator and star Brent Butt, an all-new animated version of the iconic comedy franchise entitled CORNER GAS: ANIMATED debuted in 2018.  The animated series immediately became the #1 rated show in the history of Canada’s The Comedy Network and a popular main stay on streamer CRAVE TV. So successful in fact, the animated series is now also streaming in the United States on Amazon’s free streaming service IMDB TV and a French language version has been launched. Brent and the series have won multiple Canadian Screen Awards and Leo Awards including Best Animated Program, Best Performance and Best Animation Writing so far.  The fourth and final season of CORNER GAS: ANIMATED is now available.  <span><br/></span><span><br/></span>Most recently Brent’s first novel HUGE debuted to great fanfare immediately becoming the #1 Fiction Bestseller in Canada and it remains on the Top Ten list to date.  With Brent performing, writing, executive producing, and even directing, there is little doubt the future holds many untold achievements for one of Canada’s brightest stars. <span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-09-19T20:00:00"^^xsd:dateTime;
+  schema:endDate "2025-09-19T20:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/633d6aa9-0469-47f7-90e7-330a10473473.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410319;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/modo-live> .
+
+_:467a8bdbaa404e028e62b3a0e6425410319 a skos:Concept;
+  skos:prefLabel "Comedy" .
+
+<https://spektrix.com/theporttheatre/organization/modo-live> a schema:Organization;
+  schema:name "MODO-LIVE" .
+
+<http://www.spektrix.com/theporttheatre/event/23201APGCMPGJNLTBJBBRLRLRBCKNMGMV> a
+    schema:Event;
+  schema:name "CLUE: The Burlesque Show";
+  schema:description """
+	Combining razor-sharp wit, vintage flair, and sinfully stylish striptease, \"Clue: The Burlesque Play\" is where campy crime meets cabaret—perfect for lovers of laughter and lipstick, with side of provocative crime. <span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It’s like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-08T21:00:00"^^xsd:dateTime;
+  schema:endDate "2025-08-16T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/f1edb8cc-a476-4144-922e-24c9fda6057a.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410320;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410320 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/22201AVHLKLNNVQMTJHCGGPHJTVQHKKPM> a
+    schema:Event;
+  schema:name "COFFEE CONCERT: Cheng² Duo";
+  schema:description """
+	Rooted by a sibling bond that transcends the familial, the JUNO-nominated Cheng² Duo (pronounced Cheng Squared Duo) transfixes listeners through its impassioned expressivity, contagious joy, and a rare ability to forge instant and lasting connections with global audiences - critics have hailed their performances as “brilliant” (The Sunday Times, UK), “truly exhilarating” (The WholeNote, Canada), and “absolutely captivating…through a tremendous mastery of their instruments” (Pizzicato Magazine, Luxembourg).<span><br/></span><span><br/></span>Cellist <span class=\"BoldText\">Bryan Cheng</span>, prizewinner of the 2023 Canada Council For the Arts’ Virginia Parker Prize and 2022 Verbier Festival’s Prix Yves Paternot, and pianist <span class=\"BoldText\">Silvie Cheng</span>, 2022-23 Cecilia Concerts Musician-in-Residence and National Arts Club Artist Fellow, have been making music together for nearly their entire lives. Since officially forming the Cheng² Duo at their 2011 Carnegie Weill Recital Hall debut, their artistry has left lasting impressions across the globe, with extensive tours to illustrious concert halls and international festivals throughout North America, Europe, Asia, and South Africa.<span><br/></span><span><br/></span>In the vanguard of creative programming, Bryan and Silvie are equally committed to presenting traditional masterworks, rediscovering neglected repertoire, and championing the music of their time. Since 2013, they have commissioned and arranged 15 new works, as well as curated cross-disciplinary concert experiences that meld classical and contemporary music with jazz, poetry, and visual/media arts.<span><br/></span><span><br/></span>Cheng² Duo has released four critically-acclaimed albums, most recently Portrait (Centrediscs, 2023), which was nominated for a 2024 JUNO Award for “Classical Album of the Year - Small Ensemble”. Born in Ottawa and Tokyo to Chinese parents, Bryan and Silvie are proud Canadians who are currently based in Berlin and New York City.<span><br/></span> <span><br/></span>
+""";
+  schema:startDate "2026-04-21T10:30:00"^^xsd:dateTime;
+  schema:endDate "2026-04-21T10:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/6283b79f-ed1e-4e4d-a4b1-02dbb77ece47.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410321;
+  schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410321 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/21601ATQCRBPJGGKQCSQSNJJDGKGBDPBP> a
+    schema:Event;
+  schema:name "COFFEE CONCERT: Pocket Symphonies";
+  schema:description """
+	Pocket Symphonies with the <span class=\"BoldText\">Bergmann Duo</span>, <span class=\"BoldText\">Jasper Wood</span>, violin and <span class=\"BoldText\">Sungyong Lim</span>, cello ‘Pocket’ ensembles offer an opportunity to bring a fresh and new take on a much beloved work such as Beethoven’s 5th Symphony. <span><br/></span><span><br/></span>The cornerstone classical masterpiece is probably one of the most well-known pieces of all time and this ‘pocket’ version by Carl Burchard for one piano 4 hands, violin and cello leaves nothing out in terms of fullness and exuberance. Also, on the programme is the Hebrides Overture by Mendelssohn and a selection of Brahms Hungarian Dances. The quartet will round out the programme with other works that celebrate the splendid and rich sound combination of strings and piano.<span><br/></span><span><br/></span><span><br/></span><span class=\"UnderlineText\">PROGRAMME</span><span><br/></span><span><br/></span>Felix Mendelssohn Bartholdy (1809-1847 )<span><br/></span><span class=\"ItalicText\">Hebrides-Overture</span> op.26      <span><br/></span><span><br/></span>Franz Schubert (1797-1828): Grand Duo op.140 <span><br/></span><span class=\"ItalicText\">Allegro moderato</span><span><br/></span><span><br/></span>Zoltán Kodály (1882-1967): Duo for Violin and Cello, op.7<span><br/></span><span class=\"ItalicText\">Allegro serioso, non troppo</span><span><br/></span><span><br/></span>Johannes Brahms (1833-1897)<span><br/></span><span class=\"ItalicText\">Hungarian Dances Nos. 2, 4 & 5</span><span><br/></span><span><br/></span>Ludwig van Beethoven (1770-1827): Symphony no. 5 in c minor, op.67<span><br/></span><span class=\"ItalicText\">Allegro con brio</span><span><br/></span><span class=\"ItalicText\">Andante con moto</span><span><br/></span><span class=\"ItalicText\">Scherzo: Allegro</span><span><br/></span><span class=\"ItalicText\">Allegro- Presto</span>
+""";
+  schema:startDate "2025-10-07T10:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-07T10:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/10055189-f255-4f84-a0a8-8156eaffabdd.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410322;
+  schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410322 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM> a
+    schema:Event;
+  schema:name "COFFEE CONCERT: Sarah Hagen";
+  schema:description """
+	<span class=\"ItalicText\">“Why hurry over beautiful things? Why not linger and enjoy them?”</span> So pondered Clara Schumann, remembered as one of the finest pianists of all time.<span><br/></span><span><br/></span>In “Wonder Women!”, pianist and humorist <span class=\"BoldText\">Sarah Hagen</span> delves into the remarkable stories and piano music of forgotten female composers from the classical repertoire. This recital will highlight piano works by 18th and 19th century composers, including Clara Schumann, Cécile Chaminade, Dora Pejačević, and others. Included will be stunningly gorgeous music by Marianna Martines, who lived in the same circles as Haydn and Mozart, and often joined Mozart in piano duets at the musical soirées she and her sister held in their Viennese home.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.porttheatre.com/site/assets/files/2171/wonder_women_programme_-_nanaimo_2026.pdf\">PROGRAMME</a><span><br/></span><span><br/></span>Mel Bonis (1858-1937): <span class=\"ItalicText\">Meditation</span><span><br/></span><span><br/></span>Marianna Martines (1744-1812): Sonata in G major<span><br/></span><span class=\"ItalicText\">Allegro brillante</span> <span><br/></span><span class=\"ItalicText\">Andante</span><span><br/></span><span class=\"ItalicText\">Allegro Assai</span> <span><br/></span><span><br/></span>Fanny Mendelssohn Hensel (1805-1847): <span class=\"ItalicText\">Mélodie Op. 4 No. 2</span> 					<span><br/></span>Delphine von Scauroth (1813–1887): <span class=\"ItalicText\">Songs Without Words, Op. 18 No. 2</span> 		<span><br/></span>F. Mendelssohn Hensel: <span class=\"ItalicText\">Allegro vivace, from HN 392</span><span><br/></span><span><br/></span><span><br/></span>Marianne von Auenbrugger (1759-1782): from Sonata in E-flat major, <span class=\"ItalicText\">Largo</span> <span><br/></span><span><br/></span>Cécile Chaminade (1857–1944): <span class=\"ItalicText\">Guitar</span><span><br/></span><span><br/></span>Dora Pejačević (1885-1923): <span class=\"ItalicText\">Violets</span> <span><br/></span>Agathe Backer Grøndahl (1847-1907): <span class=\"ItalicText\">Song of the roses</span><span><br/></span>D. Pejačević: <span class=\"ItalicText\">Rose</span><span><br/></span><span><br/></span>Louise Farrenc (1804-1875): <span class=\"ItalicText\">Nocturne</span><span><br/></span>Clara Schumann (1819-1896): <span class=\"ItalicText\">Nocturne Op. 6 No. 2</span><span><br/></span>Amy Beach (1867-1944): <span class=\"ItalicText\">Nocturne Op. 107</span><span><br/></span>M. Bonis: <span class=\"ItalicText\">At Dusk</span><span><br/></span>
+""";
+  schema:startDate "2026-03-03T10:30:00"^^xsd:dateTime;
+  schema:endDate "2026-03-03T10:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/c51ab352-1ece-4d8b-84d0-71fb3d6f3440.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410323;
+  schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410323 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC> a
+    schema:Event;
+  schema:name "COFFEE CONCERT: Ty Koch";
+  schema:description """
+	<span class=\"BoldText\">Ty Koch</span> is a vocalist known for his versatile musical style that blends original songs with blues influences, classical art songs, crooner tunes, popular ballads, and vintage rock & roll. His songwriting journey began in his teenage years, leading to collaborations with various artists across different genres.<span><br/></span><span><br/></span>Having a strong presence in Island audiences, Ty has performed at notable events such as the Nanaimo Big Band Festival, 39 Days of July in Duncan, and multiple tours across Vancouver Island. His recent highlights include a performance with the Vancouver Island Symphony and a feature in the Port Theatre’s Discovery Series in Nanaimo. Additionally, Ty has participated in two Rise Up Reality TV Tours on Roku TV and has toured in Atlantic Canada.<span><br/></span><span><br/></span>Looking ahead, Ty is set to head to Alberta this fall for performances with his trio. To date, he has released two singles, \"Go to War\" and \"Waiting to Be Found,\" marking his growing discography.<span><br/></span><span><br/></span><span class=\"UnderlineText\">Ty Koch was a featured artist on the 2023-2024 Discovery Series.</span><span><br/></span>
+""";
+  schema:startDate "2025-11-25T10:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-25T10:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/c65c987f-9fd9-4a1c-a622-0a6876a1ee4b.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410324;
+  schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410324 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/8001ARTDCCTGLQPKPGKVDJPJMKTGHTJJP> a
+    schema:Event;
+  schema:name "Completely Creedence Band";
+  schema:description """
+	COMPLETELY CREEDENCE BAND is a dynamic tribute to the iconic American rock band CCR (Creedence Clearwater Revival). This talented group of musicians brings the classic hits and energy of CCR to audiences across the country. With a deep appreciation for the music and a commitment to delivering an authentic performance, Completely Creedence Band captures the essence of CCR's sound and spirit. <span><br/></span> <span><br/></span>Led by a frontman with a powerful voice and a commanding stage presence, Completely Creedence Band delivers high-energy performances that leave audiences singing along and dancing in the aisles. From \"Proud Mary\" and \"Bad Moon Rising\" to \"Fortunate Son\" and \"Have You Ever Seen the Rain,\" they faithfully recreate CCR's greatest hits. <span><br/></span> <span><br/></span>With years of experience and a passion for the music, Completely Creedence Band has become one of the most sought-after tribute acts in Canada. Whether performing at Theatres, festivals, corporate events, or private parties, they always bring the same level of energy and excitement to the stage. For fans of classic rock and CCR, Completely Creedence Band is a must-see act that never fails to deliver an unforgettable performance.<span><br/></span> <span><br/></span>The Band features: <span><br/></span><span><br/></span>- Jamie Robertson vocals and rhythm guitar <span><br/></span><span><br/></span>- Murray Atkinson on guitar and backing vocals <span><br/></span><span><br/></span>- Lance Lapointe on bass guitar and backing vocals <span><br/></span><span><br/></span>- Grant Baird on drums and backing vocals  <span><br/></span><span><br/></span>Audiences have marveled at how remarkably similar Robertson's voice sounds to John Fogerty's, capturing all the subtle nuances of his vocals.  Completely Creedence Band delivers a musical experience where your love of CCR will live on through these four incredible musicians who share your passion of CCR's music.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-12-05T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-12-05T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/99dd49eb-e458-4d8b-9834-2de280a1968f.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410325;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410325 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<http://www.spektrix.com/theporttheatre/event/31001ANSGMCKVDLMTPSRQHVNSMPTMDPCG> a
+    schema:Event;
+  schema:name "Confession Publique";
+  schema:description """
+	Crimson Coast Dance opens their Season 2025 – 2026 with Confession Publique.<span><br/></span><span><br/></span>Ideated, directed, and choreographed by Mélanie Demers and brought to life on stage by Angélique Willkie with Marie Jourdenais’ participation, this thought provoking show will grip your sensibilities as it weaves together music, theatre, spoken word and dance in a powerful reflection on humanity’s yearning for validation and the complex interplay of power and vulnerability that evokes. Original score by Frannie Holder.<span><br/></span><span><br/></span><span class=\"ItalicText\">\"This confession... confronts us with the fascinating abysses of devouring and vulnerability. It is the uncompromising affirmation of a female body that no longer has to apologize for aging, for experiencing pleasure, for suffering, or even for being a disturbance. The dance is anything but decorative: it is an expiation, a living archaeology. CONFESSION PUBLIQUE is not to be watched, it is to be received, in a shudder of both trespass and gratitude. A score of paradoxes, where brutality coexists with an almost maternal tenderness.\"</span> - THE ARTCHEMISTS - Peter Loquen<span><br/></span><span><br/></span><span class=\"BoldText\">Content Advisory:</span> This show is for mature audiences (18+). It is based on a series of stories referencing racism, sexual violation, living in an aging body, and the power of transformation. It contains nudity and mature content.
+""";
+  schema:startDate "2025-10-09T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-10T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/2c1e5ebc-3603-4794-b33f-e3fc27cd0128.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410326;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/crimson-coast-dance-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410326 a skos:Concept;
+  skos:prefLabel "Dance" .
+
+<https://spektrix.com/theporttheatre/organization/crimson-coast-dance-society> a schema:Organization;
+  schema:name "Crimson Coast Dance Society" .
+
+<http://www.spektrix.com/theporttheatre/event/27401ARJLQPVGRGCMSLCMHMNMQVRHNDVC> a
+    schema:Event;
+  schema:name "Costco Heartbreak";
+  schema:description """
+	A storytelling show about first love, second chances and shopping in bulk. Jon David shares \"moments of vulnerability from his past that are easy to relate to\" (Edmonton Journal). <span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It’s like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-08T19:15:00"^^xsd:dateTime;
+  schema:endDate "2025-08-10T18:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/78009172-c742-4b61-88e0-fb15427bc2f3.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410327;
+  schema:location <https://spektrix.com/theporttheatre/location/425ASSDBCKRKRDQRMPBNQJSVHNJGCRCDQ>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410327 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/13801AGMJPLQGHBSJHBGMRNCQQKGVHKBV> a
+    schema:Event;
+  schema:name "Cuban Vibes: A Symphonic Festival ";
+  schema:description """
+	CONDUCTOR: Cosette Justo Valdés<span><br/></span><span><br/></span>GUEST ARTISTS:<span><br/></span>Milagros de Los Angeles Soto, soprano<span><br/></span>Mayquel González, trumpet<span><br/></span>Harold López-Nussa, piano<span><br/></span>Ruy López-Nussa, drums<span><br/></span>Yandy Martínez González, double bass<span><br/></span>Roberto Vizcaino Jr., Cuban percussion<span><br/></span>Miguel Valdés, trumpet, Cuban percussion<span><br/></span>Phil Dwyer, saxophones<span><br/></span><span><br/></span>A thrilling evening filled with the rhythm, passion and joy of Cuban music! Join Artistic Director Cosette Justo Valdés and her amazing guests for an evening of virtuosity and fun! Romantic arias from Cuban operettas, Cuban jazz standards and more will make this evening the perfect way to spend Valentine’s Day!<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-02-14T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-02-14T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/2d34f5f5-fea1-40f1-916e-cbede3edc3dc.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410328;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> .
+
+_:467a8bdbaa404e028e62b3a0e6425410328 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/30001ACDNMRPKSDRKSKCJNMSBQHCSMMMG> a
+    schema:Event;
+  schema:name "Dallas Smith and His Band Unplugged";
+  schema:description """
+	Dallas Smith, Canadian country powerhouse and three time Canadian Country Music Entertainer of the year, comes to town this fall. Dallas and his full band will be unplugged and will be performing all his hits for this “One Night Only Tour”.<span><br/></span>Dallas Smith has a track record of noteworthy success – from front man of Platinum selling rock band Default to a bona fide hit maker in country music. He has amassed 21 Gold certified singles, nine platinum certified singles and four gold certified albums, with more than 640 million global streams and over two million album equivalents to date.<span><br/></span>Adding yet another milestone, Smith made his Grand Ole Opry debut last summer.  He is a natural showman who delivers a fast paced energetic performance.  Smith never fails to have his audiences dancing in their boots all night long. That will all be on full display with his full band unplugged at the “One Night Only Tour”.<span><br/></span><span><br/></span>For more about DALLAS SMITH, visit <a target=\"_blank\" href=\"http://dallassmithmusic.com\">dallassmithmusic.com</a><span><br/></span><span><br/></span>And on this tour, an opportunity to see and hear Canadian singer-songwriter/producer  BROCK PHILLIPS who has been immersed in music all his life.<span><br/></span><span><br/></span>For more about BROCK PHILLIPS, visit his <a target=\"_blank\" href=\"http://facebook.com/BrockPhillipsMusic\">Facebook Page</a>  <span><br/></span>
+""";
+  schema:startDate "2025-10-19T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-19T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/29db687a-e30e-4572-b79d-f3df7b672aac.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410329;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/gee-dan-productions> .
+
+_:467a8bdbaa404e028e62b3a0e6425410329 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<https://spektrix.com/theporttheatre/organization/gee-dan-productions> a schema:Organization;
+  schema:name "Gee Dan Productions" .
+
+<http://www.spektrix.com/theporttheatre/event/13601ABSCMSGQNLTCLGCSNLSTLGHSDRHB> a
+    schema:Event;
+  schema:name "Dancing on Strings ";
+  schema:description """
+	CONDUCTOR: Cosette Justo Valdés<span><br/></span><span><br/></span><span><br/></span>Immerse yourself in a diverse musical journey with the Vancouver Island Symphony's upcoming concert, showcasing an exquisite blend of classical and contemporary works. <span><br/></span><span><br/></span>Under the masterful direction of Cosette Justo Valdés, experience the elegant charm of Grieg’s Holberg Suite, the vibrant rhythms of Bartok’s Romanian Folk Dances, and the playful energy of Britten’s Simple Symphony. Discover the modern vibrancy of Jessie Montgomery’s Strum and the rhythmic allure of Lopez-Gavilán’s Guaguancó. <span><br/></span><span><br/></span>Join us for an evening where tradition meets innovation in a celebration of string orchestra brilliance!<span><br/></span>
+""";
+  schema:startDate "2026-01-17T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-01-17T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/9335ba4d-e690-43e2-8646-d79752f6c56e.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410330;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> .
+
+_:467a8bdbaa404e028e62b3a0e6425410330 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/32201AJKCHKSVHJRMVGRPSJQJNPNNBBBQ> a
+    schema:Event;
+  schema:name "Family show ";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-14T14:00:00"^^xsd:dateTime;
+  schema:endDate "2026-02-14T14:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410331;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410331 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/3401ARKRNLBJKDJTKHBHRJBNHVDNSKPTR> a
+    schema:Event;
+  schema:name "FIREWORKS: A Celebration of the Tragically Hip";
+  schema:description """
+	Featuring:<span><br/></span>BLOW AT HIGH DOUGH with special guests<span><br/></span><span><br/></span>Partial proceeds to be donated to the Sunnybrook Foundation for brain cancer research.<span><br/></span><span><br/></span>After an incredible show to over 700 people at The Port Theatre in Nanaimo back in September and raising $2000 for brain cancer research, we are again bringing some very talented musicians together to celebrate the music of Canada’s favourite – The Tragically Hip! <span><br/></span><span><br/></span>You’ll hear many of the Hip’s hits, and even some b-sides too. Performances by “Blow At High Dough” – a full band tribute to The Hip, and also featuring some special guests!<span><br/></span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-09-26T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-26T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/1058251a-127a-48af-bc6c-5855cbe25ffe.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410332;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/got-pop?-concerts> .
+
+_:467a8bdbaa404e028e62b3a0e6425410332 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<https://spektrix.com/theporttheatre/organization/got-pop?-concerts> a schema:Organization;
+  schema:name "Got Pop? Concerts" .
+
+<http://www.spektrix.com/theporttheatre/event/2164AHBJPJKTNSLQKBRLQHDTNVLRKSMVG> a
+    schema:Event;
+  schema:name "FLEETWOOD MAGIC";
+  schema:description """
+	<h2>Presented by Fleetwood Magic Tribute Show</h2><span><br/></span>Fleetwood Magic Tribute Show transports audiences in sound and time on a musical journey performing Fleetwood Mac’s greatest hits from the 60’s to the 80’s. They perform in vintage costumes using period correct instrument sounds, exacting vocals and onstage character to personify this most famous line-up of Fleetwood Mac. <span><br/></span><span><br/></span>Fleetwood Mac is one of the world’s most iconic groups! They have earned their place in the rock and roll hall of fame as one of the biggest selling classic rock bands on the planet! <span><br/></span><span><br/></span>Fleetwood Magic vividly reminds audiences of all ages, what made “The Mac” legendary. Experiencing timeless classics like “Rhiannon,” “Dreams,” “You Make Loving Fun,” “Say You Love Me,” “The Chain,” “Go Your Own Way,” listeners have come to realize the rumours are true - Fleetwood Magic does indeed, deliver the magic! <span><br/></span><span><br/></span>Fleetwood Magic is comprised of the finest musicians…Twirling in chiffon and velvet, personifying Stevie Nicks is <span class=\"ItalicText\">Diane Warren</span>, the signature guitar licks and full throttle vocals of Lindsay Buckingham are performed by <span class=\"ItalicText\">Mike Luniw</span>, the silky lead and harmony vocals of the late-great Christine McVie is Songbird <span class=\"ItalicText\">Zoey Leven</span>, the iconic Mick Fleetwood drum groove is played by <span class=\"ItalicText\">Curtis Michael Leippi</span>, the steady and underrated bass anchor of John McVie is <span class=\"ItalicText\">Dave Kalancha</span>, and ambient keyboard sounds are created by <span class=\"ItalicText\">Steve Bush</span>.<span><br/></span><span><br/></span>Fleetwood Magic continually plays sold out shows to thousands of Fleetwood Mac music fans! This show is a must see for all ages! <span><br/></span><span><br/></span>For more information about Fleetwood Magic, please visit
+<a target=\"_blank\" href=\"https://www.fleetwoodmagic.ca/\">www.fleetwoodmagic.ca</a><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-09-20T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-20T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/40d4fb89-3d16-4640-b1a4-2dd6b1699715.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410333;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410333 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<http://www.spektrix.com/theporttheatre/event/29001ALLPBTHVNSHLVJMKCMRSHGJJGQBT> a
+    schema:Event;
+  schema:name "Fringe Festival - PREVIEW";
+  schema:description """
+	This Free event kicks off the 2025 Nanaimo Fringe Festival with a special preview that highlights a few minutes of each Fringe production. You must <span class=\"BoldText\">Book a FREE ticket</span> to the preview for entry.<span><br/></span><span><br/></span><span class=\"BoldText\">A $5 Fringe button</span> is required for entry to the Fringe Preview Night and is available for purchase at the Fringe Festival Port Theatre Lobby Table.
+""";
+  schema:startDate "2025-08-07T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-08-07T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/e98e708f-9ab8-437d-9d66-eab6af4f5ec3.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410334;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410334 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/28401ALHCVVGBRSQJPRCNLLHLGCQGLNBC> a
+    schema:Event;
+  schema:name "Fringe Festival 5 Show Pass";
+  schema:description """
+	<h2>Available through to August 17th, 2025</h2><span><br/></span><span class=\"BoldText\">Purchase</span> a 5-Show Pass, here's how it works:<span><br/></span>1. Purchase a pass by clicking the <span class=\"BoldText\">BUY PASS</span> button<span><br/></span>2. Redeem pass for up to 5 tickets <span><br/></span><span><br/></span><span class=\"BoldText\">Redeem</span> a 5-Show Pass, here's how it works:<span><br/></span>You can decide at time of purchasing the pass to add up to 5 tickets to your cart <span><br/></span>or<span><br/></span>You can <a target=\"_blank\" href=\"https://www.porttheatre.com/login/\">Login</a> to the same user account at a later date to redeem the pass any time prior to August 17th   <span><br/></span><span><br/></span><span><br/></span>If you prefer, you can contact The Port Theatre Ticket Centre at <span class=\"BoldText\">250-754-8550</span> and a Ticket Clerk can help you redeem your 5-Show Pass.  They can also provide you with information regarding accessible seating.<span><br/></span><span><br/></span>All passes are sold through the Port Theatre Ticket Centre, online & by phone.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-17T17:15:00"^^xsd:dateTime;
+  schema:endDate "2025-08-17T17:15:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/78c062b6-9f79-4f4c-acd7-ccb06b36567a.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410335;
+  schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410335 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/32801AVMKCMLRNPSSSQQTHRKHHMLJSPPT> a
+    schema:Event;
+  schema:name "GEORGE CANYON AND AARON PRITCHETT";
+  schema:description """
+	<span class=\"BoldText\">presented by Children Believe</span><span><br/></span><span><br/></span>Children Believe are proud to present CCMA winners, and beloved Canadian country superstars George Canyon and Aaron Pritchett as they unite for their Coast to Coast Cowboy Christmas Tour. With countless accolades between them, and over 25 years of hits, the pair will come together to treat fans to some of their own chart topping songs, as well as some all-time favorite Christmas classics. Truly a show not to be missed, in celebration of the Holiday season.
+""";
+  schema:startDate "2025-12-22T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-12-22T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/030dad87-25a2-4d17-943b-4c96d7716504.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410336;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/invictus-entertainment-group> .
+
+_:467a8bdbaa404e028e62b3a0e6425410336 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<https://spektrix.com/theporttheatre/organization/invictus-entertainment-group> a
+    schema:Organization;
+  schema:name "Invictus Entertainment Group" .
+
+<http://www.spektrix.com/theporttheatre/event/12801AHKJCDVHRVVMMTDLCVKNKBDKHMLM> a
+    schema:Event;
+  schema:name "Goodyear Plays Ravel  ";
+  schema:description """
+	CONDUCTOR: Cosette Justo Valdés<span><br/></span>GUEST ARTIST: Stewart Goodyear, piano<span><br/></span><span><br/></span><span><br/></span>Immerse yourself in an evening of vibrant and lively orchestral masterpieces that promise to captivate and delight. <span><br/></span><span><br/></span>Experience the playful spirit of Rossini’s “L’italiana in Algeri Overture,” where humour and energy take centre stage. Revel in Ravel’s “Piano Concerto,” a dazzling blend of jazz influences and lyrical beauty that showcases his innovative style.<span><br/></span><span><br/></span>Finally, let the cheerful and uplifting melodies of Dvorak’s “Symphony No. 8” transport you to a world rich with Bohemian folk influences and natural splendor. <span><br/></span><span><br/></span>This concert is a celebration of rhythm and colour, offering a dynamic journey through the unique voices of these master composers.<span><br/></span><span><br/></span><span><br/></span>Subscription packages available - please call the Ticket Centre: 250-754-8550
+""";
+  schema:startDate "2025-10-18T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-18T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/e5d90c4d-0c5a-4cce-92dc-fafe512c1317.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410337;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> .
+
+_:467a8bdbaa404e028e62b3a0e6425410337 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/16001ARGQQRHSBPHJPVSHSDBVGRTHPBSV> a
+    schema:Event;
+  schema:name "Holly Cole";
+  schema:description """
+	Nanaimo International Jazz Festival is proud to present <span class=\"BoldText\">Holly Cole’s Dark Moon Tour</span> as our 2025 Fall Festival Headliner. <span><br/></span><span><br/></span>Holly Cole is a renowned Canadian/International jazz singer who began her career in 1989 with the release of her 4-song EP ‘Christmas Blues’ under indie label Alert Music, followed by her debut album ‘Girl Talk’ in 1990.<span><br/></span><span><br/></span>In 1992, she signed with Blue Note’s Manhattan imprint and released ‘Blame It on My Youth’ which achieved Platinum + sales in Canada, over 200,000 copies internationally, and based on the success of the single “Calling You”, a number 1 charted single and album in Japan. The next album based on her hit rendition of Johnny Nash’s, “I Can See Clearly Now” and its accompanying video cemented her success internationally setting up her following release, the critically acclaimed, Temptation, an album made up of material exclusively written by Tom Waits, one of Holly favourite songwriters.<span><br/></span><span><br/></span>With 12 albums to her name, Cole has achieved multi-platinum sales and received numerous awards, including 2 Juno Awards (out of 8 nominations) and 2 Gemini Awards. She has also won 2 Japanese Grand Prix Gold Disc Awards and the prestigious Ella Fitzgerald Award from the Montreal Jazz Festival, joining the ranks of Aretha Franklin, Diana Krall and Etta James. In 2014, she was awarded an honorary doctorate from Queen’s University.<span><br/></span><span><br/></span>In 2019, Holly Cole reunited the original Holly Cole Trio, with David Pitch on bass and Aaron Davis on piano, to celebrate the 40th anniversary of the Festival International de Jazz de Montreal. They performed at the cabaret Lion d'Or in Montreal, and these special shows were recorded and became the 2021 album ‘Montreal’.<span><br/></span><span><br/></span>For Christmas 2022, Cole released a remastered compilation combining her holiday releases from 1989 and 2001, titled anew ‘Baby It’s Cold Outside and I Have the Christmas Blues’.<span><br/></span><span><br/></span>‘Dark Moon’ is available via Rumpus Room/Universal Music Canada. <span><br/></span><a target=\"_blank\" href=\"https://www.hollycole.com/\">www.hollycole.com</a><span><br/></span><span><br/></span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-09-13T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-09-13T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/1a398971-d72f-4038-9694-cb0443d9ebdc.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410338;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/nanaimo-international-jazz-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410338 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<https://spektrix.com/theporttheatre/organization/nanaimo-international-jazz-festival>
+  a schema:Organization;
+  schema:name "Nanaimo International Jazz Festival" .
+
+<http://www.spektrix.com/theporttheatre/event/31401ACGSQBSNGJMMSMSJDBKPVTCCSKMC> a
+    schema:Event;
+  schema:name "Honouring Bruce Halliday ";
+  schema:description """
+	It is with great sadness that we share the passing of Bruce Halliday, our fearless General Manager for more than twenty years, who retired in 2022. Bruce was instrumental in opening the Port Theatre and shaped our community through his vision, steady leadership, and deep love of the arts. A true champion of the arts for over 40 years, we will miss him dearly. We are holding Bruce’s family, loved ones, and friends close in our thoughts, including many who are part of the Port Theatre family.
+""";
+  schema:startDate "2025-09-21T14:00:00"^^xsd:dateTime;
+  schema:endDate "2025-09-21T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/3394ea94-ec08-43c4-99a0-753a9121a4cc.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410339;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410339 a skos:Concept;
+  skos:prefLabel "" .
+
+<http://www.spektrix.com/theporttheatre/event/18601AGJVHRJDDNTMMMDTKPLTNBGVTLHV> a
+    schema:Event;
+  schema:name "Ikons of Rock";
+  schema:description """
+	IKONS OF ROCK was founded in Winnipeg, Canada. All the musicians engaged in the tour are Canadian, but they are now corporately based in Las Vegas, although most still reside in Canada. They can’t wait to tour Canada and revisit places they haven’t seen for some time. Several performers are proud to be past members of great Western Canadian classic rockers Harlequin, Kenny Shields, and Streetheart.<span><br/></span><span><br/></span>Their performance is impeccable. They cover hits of many classic artists in full costume and impersonation. Hit after hit portrays artists from the entire classic rock genre, including Alice Cooper, the Eagles, Fleetwood Mac, Queen, Tom Petty, Heart, Kiss, Cher, Def Leppard, Van Halen, Joan Jett, Pat Benatar, Ozzy Osbourne, and more. Each performance is designed uniquely for each venue; no two shows are the same.<span><br/></span><span><br/></span>They have earned rave reviews all over North America for their impeccable ability to impersonate rock stars musically and visually—all in one ultimate performance!<span><br/></span>They perform in spectacular costumes, with an array of special effects and significant audience interaction. It’s impeccable. They look like them, talk like them, walk like them, and most importantly, sing like them, with over-the-top theatrics. Ikons has an outstanding cast of male and female performers to ensure an all-encompassing, authentic 70s, 80s, and 90s classic arena rock show experience.<span><br/></span><span><br/></span>From these humble beginnings they have gone on to share concert stages across America with; The Beach Boys, Whitesnake, Starship, Cheap Trick, Night Ranger, Rick Springfield, The Guess Who, Blue Oyster Cult, Winger, Sebastian Bach, David Lee Roth, Slaughter, Great White, Warrant, Bret Michaels, Dee Snider, Ratt and many other notable groups. <span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://relivethemusic.ca/ikons-of-rock-2/\">Relive The Music IKONS OF ROCK</a><span><br/></span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-09-15T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-15T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/908fdbc6-bce4-4095-9648-48ff41c1f408.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410340;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/s.-a.-m.-productions-ltd.> .
+
+_:467a8bdbaa404e028e62b3a0e6425410340 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<https://spektrix.com/theporttheatre/organization/s.-a.-m.-productions-ltd.> a schema:Organization;
+  schema:name "S. A. M. Productions Ltd." .
+
+<http://www.spektrix.com/theporttheatre/event/28601APDRTPPTPHLHSRDRCLCHBTNJRVPM> a
+    schema:Event;
+  schema:name "Infinity RUSH - The RUSH Experience";
+  schema:description """
+	<span class=\"ItalicText\"><span class=\"BoldText\">Infinity RUSH</span></span> deliver an authentic concert experience that captures the spirit of one of the world’s most successful musical groups of all-time.  A <span class=\"ItalicText\">RUSH</span> tribute show that embodies an energy that is greater than the sum of its parts, that is as close as it gets to the real thing.  <span><br/></span> <span><br/></span>This compelling tribute show accurately emulates <span class=\"ItalicText\">RUSH</span> both vocally and instrumentally, in a show laden with impressive renditions of the very best hit songs and fan favorites. An audio and visual extravaganza that fully and completely satisfies!<span><br/></span> <span><br/></span>Members of <span class=\"ItalicText\"><span class=\"BoldText\">Infinity RUSH</span></span> have performed on marquee stages with members of: Asia, Journey, Foreigner, Kansas, Santana, Chicago, Boston, The Tubes, Van Halen, Styx, Toto, Starship, The Who, Judas Priest, Jeff Beck and other acclaimed recording artists, and have shared the stage with Charlie Pride, Steve Vai, Tommy Shaw, Neal Schon, Steve Lukather, Sammy Hagar, Lou Gramm, Bill Champlain and Fee Waybill.<span><br/></span><span><br/></span><span class=\"ItalicText\">\"When I close my eyes, it's hard to tell the difference\"</span> - Tony Geranios (Geddy Lee – Keyboard Tech) <span><br/></span><span><br/></span>Enjoy this memorable and captivating note-for-note event, that captures the magic of <span class=\"ItalicText\">RUSH</span>. 
+""";
+  schema:startDate "2026-03-28T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-03-28T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/a35e27d0-d36d-4b74-b697-a49280c1e085.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410341;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/rr-music-productions> .
+
+_:467a8bdbaa404e028e62b3a0e6425410341 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<https://spektrix.com/theporttheatre/organization/rr-music-productions> a schema:Organization;
+  schema:name "RR Music Productions" .
+
+<http://www.spektrix.com/theporttheatre/event/29601AVVVGLGMQTHTLNRNLGJBCQJTVHSN> a
+    schema:Event;
+  schema:name "Led ZepAgain";
+  schema:description """
+	Jimmy Page Says, “It's as close as you'll ever get to the real deal”<span><br/></span><span><br/></span>Marking their 40th year, Sony recording artists LED ZEPAGAIN have become highly regarded as the most accurate and authentic replication of Led Zeppelin in the world today. With well over a million downloads on iTunes to their credit, their popularity has also seeped into pop culture, having been mentioned on the network TV shows “The Gilmore Girls”, “Chicago Fire” and “Bad Judge”!<span><br/></span><span><br/></span>In January, 2004, Led Zeppelin guitarist Jimmy Page himself attended a Led Zepagain show at the House of Blues in Los Angeles. He was absolutely astonished at the band’s accuracy stating “It’s amazing how much you sound like us. You must have grown up on this because you were inside the music, and you paid attention to detail in your presentation…I can tell you guys really love our music!”<span><br/></span><span><br/></span>This encounter led to the members of Led Zepagain attending Led Zeppelin's 2007 Reunion Concert at London's O2 Arena by invitation of Mr. Page as well as a surprise visit from Jason Bonham in March, 2009 as he sat in with the band on their encore performance of the song “Rock and Roll” - <a target=\"_blank\" href=\"http://www.youtube.com/watch?v=2w6noToYSqQ\">Watch the video here</a><span><br/></span><span><br/></span>Led Zepagain was honored to have been featured on AXS TV’s “World’s Greatest Tribute Bands” in 2014 and were asked to come back for an encore performance in March, 2017 to perform the iconic Led Zeppelin “lV” album in its entirety.<span><br/></span><span><br/></span>Having played nationally and internationally, from Japan to Paraguay and Germany to Mexico City, Led Zepagain regularly performs to packed houses all over the world. We guarantee that from the sound, and the look, to the vintage equipment and costuming, LED ZEPAGAIN will be the closest thing that you will ever see to a live Led Zeppelin performance! Come on out and see what Jimmy Page was talking about.<span><br/></span><span><br/></span>For more about LED ZEPAGAIN please visit: <a target=\"_blank\" href=\"http://LinkUrl.com\">www.zepagain.com</a>
+""";
+  schema:startDate "2025-10-25T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-25T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/76fac0d0-fd8e-4179-ae94-31755828d36d.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410342;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/rock.it-boy-entertainment> .
+
+_:467a8bdbaa404e028e62b3a0e6425410342 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<http://www.spektrix.com/theporttheatre/event/18201AHGNDCRVCPJBPPJCHBJKBJSRNNKN> a
+    schema:Event;
+  schema:name "Let's Go Surfin'! A Salute to the Beach Boys";
+  schema:description """
+	Get ready to be swept away by the timeless melodies of the Beach Boys! Join us for a nostalgic evening filled with their iconic hits and concert favorites.  Let’s Go Surfin' is performed by BACKBEAT, Canada's most authentic musical tribute to the 60's. They nail the incredibly intricate Beach Boys harmonies perfectly!  All the genius of Brian Wilson’s songwriting and studio wizardry blossoms on stage in a spectacular musical salute to one of the greatest pop groups of all time! <span><br/></span>  <span><br/></span>All the hits are here!  From the energetic “Fun, Fun, Fun” and \"Surfin' USA\" to the emotional masterpieces like “Don’t Worry, Baby” and \"God Only Knows\", this show will take you on a musical journey through the sunshine-soaked sounds of California. Feel the sand between your toes and the warmth of the summer sun as you sing along to your favorite Beach Boys classics. <span><br/></span>  <span><br/></span>Don't miss this unforgettable opportunity to relive the music and the magic of The Beach Boys… in a spectacular tribute of both sight and sound.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-09-27T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-27T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/73fcb20a-eeaa-430e-9c2a-9ad989d79614.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410343;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410343 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<http://www.spektrix.com/theporttheatre/event/6601AQMNQNHRQGLJKCSPPPSGMQSBMDCJM> a
+    schema:Event;
+  schema:name "LUKE COMBS UK - A Tribute to Luke Combs";
+  schema:description """
+	<span><br/></span>Dust off your hats and boots, Luke Combs UK (the worlds leading tribute to Luke Combs and is endorsed by the man himself) is coming to town for an unforgettable night of country music with his full band.<span><br/></span><span><br/></span>Luke Combs UK is the closest you’ll get to the real deal with the look and authentic sound of the GRAMMY nominated country music megastar.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-10-07T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-07T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/a5d4c4a1-aef5-4616-9421-c8bdbb046f24.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410344;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/forrest-jones-entertainment> .
+
+_:467a8bdbaa404e028e62b3a0e6425410344 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<http://www.spektrix.com/theporttheatre/event/13402ACQRVGJDVDKKHSRNLJHKSMDPVCCS> a
+    schema:Event;
+  schema:name "Majestic Mozart ";
+  schema:description """
+	CONDUCTOR: Cosette Justo Valdés<span><br/></span>GUEST ARTISTS: Paolo Bortolussi, flute; Hannah Addario-Berry, cello; Lani Krantz, harp; Christopher Lee, clarinet<span><br/></span><span><br/></span><span><br/></span>Join the Vancouver Island Symphony for an exhilarating evening as they unveil the world premiere of Dorothy Chang's newest work which showcases the virtuosic playing for our own principal musicians. The program intensifies with \"Sepulchre,\" crafted by celebrated Canadian composer Nicole Lizée, renowned for her breathtakingly inventive style. Concluding the dynamic lineup is Mozart's illustrious Symphony No. 41, ensuring a captivating musical experience throughout.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-03-14T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-03-14T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/eac5763b-7b5d-496a-9cc4-1d5e3ff58cb6.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410345;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> .
+
+_:467a8bdbaa404e028e62b3a0e6425410345 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/27801AGBRBTMKNGSLNDRVNGSHQJPSLPHH> a
+    schema:Event;
+  schema:name "Mark 1";
+  schema:description """
+	Don't miss out on a unique theatre experience, where you will see and hear the gospel of Mark, this ancient story full of love and betrayal, and the adventure of a group of people from 2000 years ago! If you like counter-culture, this is for you. Come and see and hear.<span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It’s like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)<span><br/></span>
+""";
+  schema:startDate "2025-08-13T20:00:00"^^xsd:dateTime;
+  schema:endDate "2025-08-17T13:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/63120369-7f5e-4920-93a5-be750b50230f.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410346;
+  schema:location <https://spektrix.com/theporttheatre/location/425ASSDBCKRKRDQRMPBNQJSVHNJGCRCDQ>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410346 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/17401ARMGDGRGTJBKVPBLJVRHCKNDGPTT> a
+    schema:Event;
+  schema:name "Mojo Risin' - The Doors Experience";
+  schema:description """
+	Come out and join Mojo Risin’ as they go back in time to celebrate the legacy of The Doors. Join the experience as they pay tribute to the best-known classics from one of the most influential bands in Rock history. <span><br/></span><span><br/></span>This is an all Canadian band featuring Graham White as Ray Manzarek, Jim Kraneveldt as Robbie Krieger, Art Van Volsen as John Densmore, Dave Anderosov on bass and starring Vince Warry as Jim Morrison. <span><br/></span><span><br/></span>Mojo Risin' will lead audiences in the psychedelic odyssey of songs that include Break on Through (To the Other Side), Riders on the Storm, Light My Fire, Peace Frog and many more. Don’t miss out on this electric show with Mojo Risin’ – The Doors Experience. <span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-10-04T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-04T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/35e697f8-7d53-472e-97e3-1a14645bd782.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410347;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410347 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<http://www.spektrix.com/theporttheatre/event/12401ALRBGCBJJRJTTJKHBDCPJSGMKBSL> a
+    schema:Event;
+  schema:name "NANAIMO CONCERT BAND";
+  schema:description """
+	NANAIMO CONCERT BAND will deliver what it has become best known and loved for since 1872… a program well played, always entertaining, and leaving the audience wanting more!<span><br/></span> <span><br/></span>Returning once again to the stage of the Port Theatre for their annual Fall concert, the members of the Nanaimo Concert Band will perform music from a variety of genres. Music has the power to express the full range of human emotions and can take the listener on a journey – whether the musical genre is classical, pop, show tunes, swing, jazz or a toe tapping march. As Poet Mary Oliver so aptly describes, “Music: what so many sentences aspire to be.”<span><br/></span> <span><br/></span>The members of the Nanaimo concert band (50 strong) are community members from Nanaimo and the surrounding area – your friends, family, colleagues and neighbours. A group of talented and dedicated musicians with a common purpose, to bring quality concert band music to the people of Nanaimo and the surrounding communities.<span><br/></span> <span><br/></span>Spend a Sunday afternoon at the Port Theatre, Nanaimo’s premier waterfront theatre, attending a performance which all generations can enjoy together at an extremely affordable price.<span><br/></span> <span><br/></span>Nanaimo Concert Band believes that there is nothing better than the live music experience shared with an audience. Music is powerful and live music is food for the senses.<span><br/></span> <span><br/></span>Won’t you join us?<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-11-02T14:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-02T14:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/aa5cf253-b1f3-4e1c-a1a7-94f280ff5114.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410348;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410348 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/14202AKGNMLSLSMHSPDLMJMHQSLRDBNPH> a
+    schema:Event;
+  schema:name "National Youth Orchestra of Canada  ";
+  schema:description """
+	<h1>65TH ANNIVERSARY TOUR</h1><span><br/></span>MUSIC DIRECTOR:  Naomi Woo<span><br/></span><span><br/></span><span><br/></span>PROGRAMME<span><br/></span>C. DEBUSSY: La Mer<span><br/></span>S.  PROKOFIEV: Violin Concerto No. 2 op. 63, G minor<span><br/></span>G. MAHLER: Symphony No. 5, C-sharp minor<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-07-30T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-07-30T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/fa81dcab-fc3e-4ffe-b9d2-0a203a2979ef.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410349;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> .
+
+_:467a8bdbaa404e028e62b3a0e6425410349 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/19401AJHGNGSSNHVHGVRMMRHQDRBGPQPM> a
+    schema:Event;
+  schema:name "O Christmas Tea: A British Comedy";
+  schema:description """
+	<h2>Fans of Monty Python, Mr. Bean, and Dr. Seuss… Grab your teacups!</h2><span><br/></span>Presented by James & Jamesy<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=-hfptIluoEE\">For a glimpse into the world of O Christmas Tea, click here!</a><span><br/></span><span><br/></span>Combining British propriety with an unabashed love for the unexpected, London’s 3-time Impresario Award-winning duo steep an outrageously funny and brilliantly inventive show reminiscent of classic British pantos.<span><br/></span><span><br/></span>Rich in wordplay, comic physicality, and cleverly crafted interactive elements, O Christmas Tea is uproarious fun, yet it is the duo’s boundless imagination and endearing chemistry that provide the real magic and heart of this play.<span><br/></span><span><br/></span>When catastrophe strikes at James and Jamesy’s Christmas tea party, flooding the world with tea, the duo conjure wildly funny solutions to stay afloat, and sweep the audience out to sea in a jolly aquatic escapade brimming with whimsy, action, and ingenuity in a celebration of friendship at Christmas.<span><br/></span><span><br/></span><span class=\"BoldText\">“Complete and utter fun… for all ages.”</span><span><br/></span>★★★★★ CBC<span><br/></span><span><br/></span><span class=\"BoldText\">“Outrageously funny, magnificently written, beautifully choreographed.”</span><span><br/></span>★★★★★ London Free Press<span><br/></span><span><br/></span><span class=\"BoldText\">“An ode to the idea that anything is possible.”</span><span><br/></span>★★★★★ Torontoist<span><br/></span><span><br/></span><span class=\"BoldText\">“I cannot think of a show that will leave you more profoundly happy than this.”</span><span><br/></span>★★★★★ Stage Door<span><br/></span><span><br/></span>Hailed as “a child’s imagination on steroids” by London Free Press and “a masterpiece of physical comedy” by Theatre In London, critics rave for the charismatic James & Jamesy. A must-see performance on the international comedy circuit, this unstoppable duo is regarded as “one of the most popular fringe duos ever” (CBC).<span><br/></span><span><br/></span>Can't make it on November 9? Visit <a target=\"_top\" href=\"https://ochristmastea.com/\">OChristmasTea.com</a> for the full tour!<span><br/></span><span><br/></span><span><br/></span>No babes in arms, minimum age of 4.
+""";
+  schema:startDate "2025-11-09T15:00:00"^^xsd:dateTime;
+  schema:endDate "2025-11-09T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/deb4be81-7e26-433c-ac3d-7d9759f10a80.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410350;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410350 a skos:Concept;
+  skos:prefLabel "Comedy" .
+
+<http://www.spektrix.com/theporttheatre/event/28001ATQBPNCNMQQVMPLRVTJTQRGHDNSG> a
+    schema:Event;
+  schema:name "Ocean Film Festival Canada 2025";
+  schema:description """
+	The Ocean Film Festival Tour is an annual event that showcases a selection of the world's most stunning ocean-themed films. Now in its 12th year, the festival continues to inspire, entertain, and educate audiences about the beauty and challenges of the oceans. <span><br/></span>The Ocean Film Festival was created in Australia 12 years ago. It aims to inspire the world to explore and enjoy our oceans, protect, and respect them, promote ocean conservation, and unite people to celebrate its wonders. The Film Festival worldwide has hosted more than 1200 screenings, with over 360,000 audience members and raised tens of thousands of dollars for ocean charities.<span><br/></span>The Ocean Film Festival World Tour includes a unique selection of films of varying lengths and styles covering topics such as ocean adventure and exploration, the oceanic environment, marine creatures, ocean related sports, coastal cultures and ocean lovers.<span><br/></span>
+""";
+  schema:startDate "2025-10-26T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-26T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/3ac74fa4-f69c-48cb-8757-d577bd5bac7f.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410351;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410351 a skos:Concept;
+  skos:prefLabel "Film Festival" .
+
+<http://www.spektrix.com/theporttheatre/event/9201AHVHRSJHSLBLCDVNMMJTBCSRGGTMK> a
+    schema:Event;
+  schema:name "Ocie Elliott";
+  schema:description """
+	Ocie Elliott pen tunes that feel lived-in. You can hear their memories, experiences, and emotions in the dusty acoustic guitars, the sparse production, and the graceful harmonies between Jon Middleton and Sierra Lundy. The Victoria, B.C.-based duo initially emerged with EP in 2017. Since then, they have amassed hundreds of millions of streams and have seen their songs featured multiple times in Grey’s Anatomy, in addition to sync placements on New Amsterdam, NETFLIX’s Sweet Magnolias, and more. Along the way, Ocie Elliott packed countless headline shows and shared stages with Joshua Radin, Sons of The East, Kim Churchill, and Hollow Coves. In 2022, they garnered a nomination at the JUNO Awards in the category of “Breakthrough Artist of the Year,” marking their first nod. <span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-09-24T20:00:00"^^xsd:dateTime;
+  schema:endDate "2025-09-25T20:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/e7e292f9-8f51-4974-a78e-823748e62cbe.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410352;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410352 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/26801APBDSSBSQMVTPLPRDJQMMKCLMHMP> a
+    schema:Event;
+  schema:name "Percolate";
+  schema:description """
+	<span><br/></span>PERCOLATE two plays - one café  A theatrical duet steeped in intimacy, blurring the lines between performance and reality. Conversation is brewing at White Rabbit Café. Come curious, leave stirred—and maybe laughing into your latte.<span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It’s like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-13T18:45:00"^^xsd:dateTime;
+  schema:endDate "2025-08-14T20:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/0f08a612-c083-420f-a943-1c00a514550f.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410353;
+  schema:location <https://spektrix.com/theporttheatre/location/425ASSDBCKRKRDQRMPBNQJSVHNJGCRCDQ>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410353 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/27201ATMPGJCKNGLLLPMRKRVCVBLCMPLH> a
+    schema:Event;
+  schema:name "Rock or Bust - AC/DC Tribute";
+  schema:description """
+	<h2>ROCK OR BUST is the definitive Canadian AC/DC Experience. </h2><span><br/></span>This stunning concert event captures every detail you would expect from a high-level full production rock show! <span><br/></span><span><br/></span>Lead guitarist Len Osanick powerfully embodies the essence of Angus Young while vocalist Kim Kahl transforms himself into Brian Johnson hitting every note and nuance of this revered frontman. <span><br/></span><span><br/></span>Their show includes a powerhouse band, real cannons, a bell hoisted from the ceiling, stunning lighting and a literal wall of amplifiers. <span><br/></span><span><br/></span><a target=\"_blank\" href=\"http://rockorbust.ca\">RockorBust.ca</a><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-09-06T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-06T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/13e8ff62-593f-4a95-81e0-85f737a8599f.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410354;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410354 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<http://www.spektrix.com/theporttheatre/event/14001ASQBPJTJLPNKCVSVSGCTCKBPVCGV> a
+    schema:Event;
+  schema:name "Romeo & Juliet ";
+  schema:description """
+	CONDUCTOR: Cosette Justo Valdés<span><br/></span>GUEST ARTISTS: Titlope Sonuga, Wakefield Brewster; poets<span><br/></span><span><br/></span>Prepare for an unforgettable season finale concert filled with poetry and passion. Featuring special guests, renowned Nigerian poet Titilope Sonuga and Calgary’s “People’s Poet Laureate,” Wakefield Brewster, this event brings their evocative words to life on the mainstage. <span><br/></span><span><br/></span>Paired with the music of Lili Boulanger and Gabriela Smith, the evening culminates in a captivating fusion of spoken word and the emotional depth of Prokofiev’s Romeo and Juliet Suite No. 2. Experience the timeless tale of star-crossed lovers through Prokofiev’s powerful and dramatic compositions, which vividly capture the intensity, romance, and tragedy of Shakespeare’s classic story. Don’t miss this extraordinary blend of literary and musical artistry!<span><br/></span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-04-25T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-04-25T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/bcb7d284-57c8-4ef6-bf00-c9b36deed67a.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410355;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> .
+
+_:467a8bdbaa404e028e62b3a0e6425410355 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/18001AQNDJSHVVQBLCSKTRHMGHNPJGJTM> a
+    schema:Event;
+  schema:name "SOS - The ABBA Experience";
+  schema:description """
+	The buzz is real – and it’s coming your way! This isn’t just a show, but an ABBA-charged celebration unlike anything you’ve experienced before. SOS - The ABBA Experience takes the Port Theatre by storm on September 16, 2025, and you do not want to miss it!<span><br/></span><span><br/></span>From the second the lights go up, it’s non-stop energy, iconic hits, stunning costumes, and the kind of connection that turns an evening out into an unforgettable memory. And the best part? You’re part of it. Sing. Dance. Celebrate. This is a night where the audience helps create the magic.<span><br/></span><span><br/></span>Don’t take our word for it — just ask the fans who’ve called it:<span><br/></span>✨ “a blast from start to finish!”<span><br/></span>✨ “one of the best shows we have attended in a long time!”<span><br/></span>✨ “we laughed, we cried, and we sang and danced all night!”<span><br/></span><span><br/></span>So grab your tickets, grab your people, and get ready to feel the music, the nostalgia, and the joy of SOS - The ABBA Experience!<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-09-16T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-16T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/a55593cb-9837-462c-a48f-45d9a3ed8584.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410356;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410356 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<http://www.spektrix.com/theporttheatre/event/24001ABMNLGCGVMRMGTMJKPBQCNHQQLMH> a
+    schema:Event;
+  schema:name "SPOTLIGHT: Afrique en Cirque";
+  schema:description """
+	African-influenced circus & music<span><br/></span><span><br/></span><span class=\"ItalicText\">Afrique En Cirque</span> symbolizes the strength, agility and joy of life found in African youth. A handful of daring acrobats perform accompanied by the pulsating rhythm of the djembes of Guinea, and the melodious sound of the Kora. Take a trip to Africa where the sets and costumes pay homage to the Guinean diaspora through high level acrobatics, innovative choreography and colourful rhythms.<span><br/></span><span><br/></span>Cirque Kalabanté is a group of amazing acrobats and live musicians celebrating the diversity of traditional African arts combined with the virtuosity of the North American modern circus. The company was created by Yamoussa Bangoura, a multidisciplinary artist of Guinean origin. As a child, Yamoussa studied the circus performers he saw on European TV and the Nyamakala tradition of circus, practiced by the Fula people of West Africa. He eventually joined Guinea’s original circus company, Circus Baobob, with whom he toured Africa and Europe. Then, in the early 2000's, he was recruited to come to Canada with Cirque Eloize, a Montreal based company, and he also performed with Cirque du Soleil and Cavalia (cirque with horses).<span><br/></span><span><br/></span>Yamoussa works to pass on and share his values and passions in the circus arts through his school. He teaches various artistic disciplines, such as African dance and traditional music of West Africa, that in turn helps one to master the circus arts. Kalabante Productions is proud to be able to share their original work, achievements, and also assist with the humanitarian mission to help the Guinean community of which Yamoussa and many of his company members come from.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-10-03T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-03T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/d90f9569-239e-4bd4-bebe-e42d386dfcc4.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410357;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410357 a skos:Concept;
+  skos:prefLabel "Family" .
+
+<http://www.spektrix.com/theporttheatre/event/26001APLNVRTPLBBPSVMJQSVGGNQMBRBG> a
+    schema:Event;
+  schema:name "SPOTLIGHT: Alice in Wonderland";
+  schema:description """
+	CANADIAN CONTEMPORARY BALLET<span><br/></span><span><br/></span>This bold interpretation takes the audience down the rabbit hole, further than ever before. Wonderland has always been a place to expect the unexpected, but Paul Destrooper takes it a little further where humour and surrealism blend seamlessly.<span><br/></span><span><br/></span>Ballet Victoria’s full-length ballet,  Alice in Wonderland is rich with animated projections, clever sets, and beautiful costumes. The choreography is imaginative and playful while showcasing classical bravura and pantomime. Expect all the iconic characters of the story and a few surprises. The score by B. Britten affords the production British flair, eccentricities and humorous notes that permeate the work. Several characters such as the Queen of Hearts and the Mad Hatter as well as smaller roles instantly became both audiences' and dancers’ favorites. Prepare to enjoy a bit of folly and some stellar dancing and acting. <span><br/></span><span><br/></span>\"Ballet Victoria’s Alice is simply a ballet tour de force!\"<span><br/></span><span><br/></span>Music – Benjamin Britten<span><br/></span><span><br/></span>Choreography – Paul Destrooper<span><br/></span><span><br/></span>Costume Design – Jane Wood<span><br/></span><span><br/></span>Projection Design – Jason King<span><br/></span><span><br/></span>Lighting Design – Paul Destrooper
+""";
+  schema:startDate "2026-05-20T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-05-20T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/191736fb-0fb7-4488-a2e5-04b70380ab93.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410358;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410358 a skos:Concept;
+  skos:prefLabel "Dance" .
+
+<http://www.spektrix.com/theporttheatre/event/24602AJDTTVGKBVTLBSHLHNJTQTSPGVDD> a
+    schema:Event;
+  schema:name "SPOTLIGHT: Ballet Kelowna";
+  schema:description """
+	CANADIAN CONTEMPORARY BALLET<span><br/></span><span><br/></span>The <span class=\"ItalicText\">Vividus: Full of Life</span> program features a stunning lineup of signature works from Ballet Kelowna’s contemporary ballet repertoire. With Alysa Pires’ striking <span class=\"ItalicText\">Vestiges</span>, Kirsten Wicklund’s ethereal <span class=\"ItalicText\">The Forever Part</span>, and Guillaume Côté’s electrifying <span class=\"ItalicText\">Le Carnaval des Animaux</span>, this high-energy program from Canada’s leading dancemakers promises to please a wide range of spectators.<span><br/></span><span><br/></span>Award-winning choreographer Alysa Pires constructs a striking commentary on the search for true connection and meaning amid disorder. Set to the cinematic melodies of violinist Hilary Hahn and composer Hauschka, <span class=\"ItalicText\">Vestiges</span> highlights the virtuosity of Pires’ bold and lively choreography.<span><br/></span><span><br/></span>Inspired by daydreams and longing, Kirsten Wicklund’s <span class=\"ItalicText\">The Forever Part</span> is a poignant ensemble piece exploring the inherent tension of the permanence of forever. With rhythmic group sections and stirring duets, this piece meditates on both yearning and desire as well as anxiety and restriction.<span><br/></span><span><br/></span>Rounding out the program, Guillaume Côté, Principal Dancer and Chorographic Associate with The National Ballet of Canada, applies his fresh, artistic vision to a jovial rendition of Camille Saint-Saëns’ <span class=\"ItalicText\">Le Carnaval des Animaux</span>, regarded as one of the French composer’s best-known works. Full of whimsical ornamentation, this upbeat ensemble piece pushes the limits of contemporary ballet and promises to delight audiences with its exuberant energy of frolicking and fun.<span><br/></span><span><br/></span>Ballet Kelowna's Vancouver-Island debut was on the 2023-2024 Spotlight Season.<span><br/></span><span><br/></span><span class=\"UnderlineText\">PROGRAMME</span><span><br/></span><span><br/></span><span class=\"ItalicText\">Vestiges</span><span><br/></span><span class=\"BoldText\">Choreography:</span> Alysa Pires<span><br/></span><span class=\"BoldText\">Music:</span> Hilary Hahn and Hauschka<span><br/></span><span class=\"BoldText\">Lighting Design:</span> Rylee Block<span><br/></span><span class=\"BoldText\">Costume Concept:</span> Alysa Pires<span><br/></span><span class=\"BoldText\">Costume Couturier:</span> Colleen Bryant | KOCO<span><br/></span><span><br/></span><span class=\"UnderlineText\">Pause</span><span><br/></span><span><br/></span><span class=\"ItalicText\">The Forever Part</span> <span><br/></span><span class=\"BoldText\">Choreography:</span> Kirsten Wicklund<span><br/></span><span class=\"BoldText\">Music:</span> J.S. Bach, <span class=\"ItalicText\">Toccata and Fugue in D Minor, Goldberg Variations, BWV 988: Aria da capo</span>, and Kirsten Wicklund<span><br/></span><span class=\"BoldText\">Lighting Design:</span> Rylee Block<span><br/></span><span class=\"BoldText\">Costume Concept:</span> Kirsten Wicklund<span><br/></span><span class=\"BoldText\">Costume Assistants:</span> Lori Lawler and Hazel Rodgers<span><br/></span><span><br/></span><span class=\"UnderlineText\">Intermission</span><span><br/></span><span><br/></span><span class=\"ItalicText\">Le Carnaval des Animaux</span><span><br/></span><span class=\"BoldText\">Choreography:</span> Guillaume Côté<span><br/></span><span class=\"BoldText\">Music:</span> Camille Saint-Saëns, Le Carnaval des animaux<span><br/></span><span class=\"BoldText\">Lighting Design:</span> Rylee Block<span><br/></span><span class=\"BoldText\">Costumes:</span> Christopher Read<span><br/></span><span><br/></span><span><br/></span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-03-20T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/b2a74e21-910d-4380-a088-763c0974427b.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410359;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410359 a skos:Concept;
+  skos:prefLabel "Dance" .
+
+<http://www.spektrix.com/theporttheatre/event/24601AQBNLBQCHKVGDVHQJVMMGKLGNBDJ> a
+    schema:Event;
+  schema:name "SPOTLIGHT: Bear Grease The Musical ";
+  schema:description """
+	CANADIAN-INDIGENOUS MUSICAL THEATRE<span><br/></span><span><br/></span>Directed by Crystle Lightning<span><br/></span><span><br/></span>It’s not the Grease you expect to see, it’s the Grease you need to see.<span><br/></span><span><br/></span>Bear Grease reimagines the iconic 1972 musical Grease through a bold and comedic native lens. With a rip-roaring score by Crystle Lightning and Henry Cloud Andrade, and direction by Crystle Lightning, this all-Indigenous concert-style musical infuses hip-hop and comedy into a pow wow-powered love story that’s equal parts hilarious homage and cultural celebration. Captivating audiences across North America, Bear Grease has had over 200 successful performances over 4 incredible years and is currently running Off-Broadway at the St. Luke’s Theatre, New York City until September 7, 2025. <span><br/></span><span><br/></span>The beloved songs of Grease are revitalized with vibrant cultural expression and Cree (Nêhiyawêwin) language: “Hopelessly Devoted” becomes a soul-stirring Round Dance, “Bear Grease Lightning” bursts with Traditional, Grass, Chicken, and Fancy footwork, and “Wichihin” delivers a powerful new take on “Stand by Me”.<span><br/></span><span><br/></span>This production takes the audience on an Indigenous joyride through a parallel universe where colonization never existed. While staying true to some aspects of the original musical, the show revamps certain elements: Sandy wears a ribbon skirt, it’s the Pink Aunties (not the Pink Ladies), Rizzo is Rezzo, and Summer Lovin’ turns into Summer Snaggin’. Bear Grease cleverly fuses Doo Wop, Hip-Hop, and Pow Wow styles with Indigenous fashion, history, and humour, and makes each show reflective of the community it is performed in. If laughter is the best medicine, Bear Grease – also the name of a sacred Indigenous medicine – is just what the doctor ordered.<span><br/></span><span><br/></span><span class=\"ItalicText\">\"I will see you on Broadway!\" – George R.R. Martin (Game of Thrones author)</span>
+""";
+  schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-12-06T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/d18ebe8c-8f83-4a47-83be-20e1e5eb907d.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410360;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410360 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/24202AQGRJSLLJMHKMPKDJPRMKTGQTGHJ> a
+    schema:Event;
+  schema:name "SPOTLIGHT: Carmina Burana & T'əl ";
+  schema:description """
+	CANADIAN CONTEMPORARY BALLET <span><br/></span><span><br/></span><h2>Carmina Burana </h2><span><br/></span>\"[This] work never fails to get the heart pumping with its high-octane blend of athletic and sensual choreography exploding with joy.\" - Winnipeg Free Press<span><br/></span><span><br/></span>One of the Royal Winnipeg Ballet’s most requested productions, Carmina Burana is a feast for the senses - visually stunning, musically absorbing, and emotionally pounding. Choreographed by internationally acclaimed artist Mauricio Wainrot, this electrifying work fuses bold, athletic movement with Carl Orff’s cantata to create a visceral experience that transcends traditional storytelling.<span><br/></span><span><br/></span>Set to Orff’s thunderous and evocative score, Wainrot’s choreography unfolds through a series of vignettes that mirror the music’s five movements. Each scene pulses with energy and emotion, shifting seamlessly between moments of erratic intensity, tender romanticism, and unabashed sensuality. With sculptural lighting and costuming, and an ensemble of dancers moving as one powerful organism, Carmina Burana becomes more than performance - it becomes like ritual.<span><br/></span><span><br/></span>What emerges is a celebration of the human spirit in all its complexity: raw passion, vulnerability, desire, and joy. It’s a work that demands everything of its dancers and leaves audiences exhilarated, moved, and inspired - proving why it remains a standout in the RWB’s repertoire.<span><br/></span><span><br/></span><span class=\"BoldText\">Choreography:</span> Mauricio Wainrot<span><br/></span><span class=\"BoldText\">Music:</span> Carl Orff, Carmina Burana<span><br/></span><span class=\"BoldText\">Set & Costume Design:</span> Carlos Gallardo<span><br/></span><span class=\"BoldText\">Lighting Design:</span> David Morrison<span><br/></span><span class=\"BoldText\">Associate Lighting Design:</span> Robert Mravnik<span><br/></span><span><br/></span><h2>T’əl: The Wild Man of the Woods</h2><span><br/></span>“T’əl is a powerful fusion of Indigenous storytelling, contemporary ballet, and classical music - rooted in tradition and elevated for the stage.” - The Globe and Mail<span><br/></span><span><br/></span>T’əl: The Wild Man of the Woods marks a bold new chapter in the Royal Winnipeg Ballet’s repertoire. Choreographed by RWB School alumnus, choreographer Cameron Fraser-Monroe, this West Coast première unfolds an Indigenous legend through the lens of a fully Indigenous creative team.<span><br/></span><span><br/></span>Narrated in both English and Ayajuthem by Elder Elsie Paul, the story follows a fearless young woman who sets out to rescue her sister from T’əl, a dark figure who steals children under the cover of night.<span><br/></span><span><br/></span>The evocative original score is composed by Cris Derksen, a JUNO-nominated, Two-Spirit cellist and composer. With stunning costume design by Asa Benally (Navajo designer and Yale alumnus), T’əl is a powerful fusion of movement, music, and storytelling that honours the richness of oral tradition.<span><br/></span><span><br/></span><span class=\"BoldText\">Choreography:</span> Cameron sinkʷə Fraser-Monroe<span><br/></span><span class=\"BoldText\">Oral History Storyteller:</span> Elder Elsie Paul<span><br/></span><span class=\"BoldText\">Composer:</span> Cris Derksen, Featuring Northern Voice Recording as well as Sheldon & Frazer Sundown<span><br/></span><span class=\"BoldText\">Costume Design:</span> Asa Benally<span><br/></span><span class=\"BoldText\">Lighting Design:</span> Scott Henderson<span><br/></span><span><br/></span>Cameron Fraser-Monroe is a member of the Tla'amin First Nation, located on British Columbia’s Sunshine Coast. He grew up in Vernon, British Columbia, where he began his dance training in Ukrainian dance at the age of three. At 15, he moved to Winnipeg to attend the Royal Winnipeg Ballet School, marking the beginning of his professional ballet journey.
+""";
+  schema:startDate "2026-02-06T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-02-06T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/ead8fe04-ce13-4726-9ef6-24be90a5b2f7.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410361;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410361 a skos:Concept;
+  skos:prefLabel "Dance" .
+
+<http://www.spektrix.com/theporttheatre/event/25001ADDVSKQBVSNBTBDPCMQTVGBHJDPN> a
+    schema:Event;
+  schema:name "SPOTLIGHT: International Guitar Night";
+  schema:description """
+	THE WORLD'S BEST GUITAR MUSICIANS!<span><br/></span><span><br/></span>The 26th Canadian Tour of International Guitar Night features:<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.youtube.com/channel/UC7UVcRMeR-Zw4fPmkixKGew\">Caroline Plant&#233;</a>, <a target=\"_blank\" href=\"https://www.itamarerez.com/\">Itamar Erez</a>, <a target=\"_blank\" href=\"https://www.jamiedupuismusic.com/\">Jamie Dupuis</a> and <a target=\"_blank\" href=\"https://jocelyngould.com/\">Jocelyn Gould</a>.<span><br/></span><span><br/></span>IGN is the world’s premier touring guitar festival, each show bringing together the most interesting and innovative acoustic guitarists to exchange musical ideas in a public concert setting. For each tour, IGN founder Brian Gore brings together a new cast of guitar luminaries for special evenings of solos, duets, and quartets that highlight the dexterity and diversity within the world of acoustic guitar. Brian founded IGN in 1995 as a forum for the world’s finest guitarists/composers to play their latest original songs and share musical ideas and talent with their peers.<span><br/></span><span><br/></span><span class=\"BoldText\">CAROLINE PLANTÉ</span> began her musical studies in Montréal, at a very young age. Her father, the flamenco guitarist Marcel 'El Rubio', transmitted his knowledge and love of music to her. Awarded many bursaries both by Canada Council for the Arts and Arts and Letters Council of Quebec, she perfected her skills in Spain with several master guitarists, singers and dancers. With over 32 years of experience as a composer and flamenco guitarist, she participated in the composition and interpretation of several important productions in Canada, USA and Spain, where she was also musical director and composer of  Cruceta Flamenco (Madrid) from 2005 to 2013. The first female flamenco guitarist to ever compose and record a CD, 8 reflexiones was launched in 2010 with great international success. Since she came back to her hometown in 2013, she creates and presents several projects and collaborates with different flamenco artists from various horizons.<span><br/></span><span><br/></span><span class=\"BoldText\">ITAMAR EREZ</span>’s music holds a depth and sensitivity that touches listeners deeply. It blends the delicateness of Middle Eastern music, the freedom found in jazz and the passion of flamenco, creating a unique sound all his own. Recipient of the 2014 ACUM Prize for Special Achievement in Jazz and the prestigious 2014 Landau Prize, Itamar Erez is an internationally renowned composer and guitarist who has shared the stage with such musicians as Omar Faruk Tekbilek, Tomatito, Avishai Cohen, Jean Louis Matinier, Zohar Fresco, and others. <span><br/></span><span><br/></span><span class=\"BoldText\">JAMIE DUPIS</span> (born in New Liskeard, Ontario, Canada), is a Canadian guitarist/composer and producer, best known for his complex fingerstyle technique, energetic performances, and his arrangements on the guitar and harp guitar. In 2016, Jamie's arrangement of Comfortably Numb by Pink Floyd on the harp guitar has gotten over 19 million views on Facebook, gaining international recognition. Also winning 1st place at the Canadian Guitar Festival Competition (2016), one of the finest guitar competitions in the world (2016) Dupuis has successfully carved out his own style as a solo artist worldwide.<span><br/></span><span><br/></span><span class=\"BoldText\">JOCELYN GOULD</span> - 2021 JUNO Award winner Jocelyn Gould “has quickly become an “international favorite with her hard swinging, imaginative approach and technical mastery” (Joe Lang, Jersey Jazz Magazine). Her joyful energy has captivated audiences around the world and her passion for music is as infectious as her unique ability to connect with audiences. Jocelyn has absorbed the influences of the jazz guitar greats and has woven them into an exciting personal sound.<span><br/></span>
+""";
+  schema:startDate "2026-01-30T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-01-30T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/d2989246-9fd3-4ec6-9673-697bb10c5a73.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410362;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410362 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/25601AQKSSGTVJVSMNNRKRHMGHGVLKJGV> a
+    schema:Event;
+  schema:name "SPOTLIGHT: Juliet & Romeo";
+  schema:description """
+	UNITED KINGDOM THEATRE<span><br/></span><span><br/></span><span class=\"ItalicText\">A humorous and heartfelt duet about love, loss and longevity.</span><span><br/></span> <span><br/></span>It turns out that Romeo and Juliet didn’t die in a tragic misunderstanding… even worse, they got married.  <span><br/></span> <span><br/></span>With Lost Dog’s unique blend of dance, theatre and comedy this duet reveals the real story of Romeo and Juliet. Now they’re in their 40s, at least one of them is in the grips of a mid-life crisis, and they feel constantly mocked by their teenage selves and haunted by the pressures of being the poster couple for romantic love.  <span><br/></span> <span><br/></span>To confront their current struggles, they have decided to put on a performance — about themselves. Their therapist told them it was a terrible idea. <span><br/></span><span><br/></span>Directed by Olivier Award-nominated Ben Duke,  Juliet & Romeo takes on our cultural obsession with youth and our inevitable issues with longevity. <span><br/></span><span><br/></span>★★★★★ <span><br/></span><span class=\"ItalicText\">“Smart, wryly subversive and sexy…they dance and talk their way through a blissfully wry, subverted version of Romeo and Juliet.”</span> <span><br/></span><span><br/></span>–Judith Mackrell, The Guardian<span><br/></span> 
+""";
+  schema:startDate "2026-05-06T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-05-06T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/94382122-e003-4483-b524-fd1e559ecf10.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410363;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410363 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/24603AVDQVSJPGQKPNHHSSCVRVBBJPJSK> a
+    schema:Event;
+  schema:name "SPOTLIGHT: Netflix's The Making of Life on Our Planet";
+  schema:description """
+	UNITED KINGDOM SPEAKER SERIES<span><br/></span><span><br/></span>Four billion years. Millions of species. Five mass extinction events (and counting). It’s the story of Life on Our Planet. From the Emmy® Award-winning team behind Netflix’s Our Planet series, comes a new natural history speaker series event: <span class=\"ItalicText\">The Making of Our Planet.</span>  <span><br/></span><span><br/></span>Step into the breathtaking world of <span class=\"ItalicText\">Life on Our Planet</span> in this special big-screen talk, featuring highlights from the acclaimed Netflix documentary, with expert insights, and behind-the-scenes footage from eight-time Emmy-nominated series showrunner, <span class=\"BoldText\">Dan Tapster</span>.  <span><br/></span><span><br/></span>With a background in natural history filmmaking at the BBC and a decade leading the TV sensation MythBusters, Dan brings a unique blend of scientific storytelling and cinematic innovation. During his time with Silverback, the renowned studio behind The Hunt and <span class=\"ItalicText\">David Attenborough: A Life on Our Planet</span>, he has overseen the fusion of advanced visual effects with stunning wildlife cinematography, bringing Earth’s 4-billion-year evolutionary saga to life like never before.  <span><br/></span><span><br/></span>At <span class=\"ItalicText\">The Making of Our Planet</span>, join Dan for an exclusive look into this ambitious project –from the science behind Earth’s previous extinction events to the groundbreaking techniques used to recreate prehistoric creatures and landscapes – followed by a live Q&A with <span class=\"BoldText\">Sophia Maher</span>, Nanaimo Museum.  <span><br/></span><span><br/></span>At a time when the natural world faces unprecedented challenges, this is a rare chance to explore Earth’s history of resilience and discuss the importance of conservation and a sustainable future.  <span><br/></span><span><br/></span><span class=\"ItalicText\">“This has been a true labour of love for hundreds of filmmakers, cinematographers, conservationists, editors, musicians and production teams, all of whom have brought their best work to the most important story that there is – a story that could not be more universal or more timely.”</span>  <span><br/></span><span><br/></span> – David Attenborough <span><br/></span>
+""";
+  schema:startDate "2026-04-12T14:00:00"^^xsd:dateTime;
+  schema:endDate "2026-04-12T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/0b3a75d9-79e7-4134-b622-361519c7df95.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410364;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410364 a skos:Concept;
+  skos:prefLabel "Special Events" .
+
+<http://www.spektrix.com/theporttheatre/event/24401ANRSMNVVNPTCKDHLSQSTGQBDDKHJ> a
+    schema:Event;
+  schema:name "SPOTLIGHT: Pisuwin";
+  schema:description """
+	CANADIAN-INDIGENOUS BALLET<span><br/></span><span><br/></span>From award-winning director and choreographer <span class=\"BoldText\">Igor Dobrovolskiy</span>, and multi-disciplinary artist <span class=\"BoldText\">Nipahtuwet Naka Wespahtuwet (Possesom) Paul</span> (Wolastoqiyik, Sitansisk First Nation), Pisuwin is an epic first ever Wolastoq story-ballet set to the soaring music of Polaris Prize and Juno award-winning composer <span class=\"BoldText\">Jeremy Dutcher</span> (Wolastoqiyik, Neqotkuk First Nation).<span><br/></span><span><br/></span>Based on a Wolastoq tale, this multidisciplinary piece reflects on the current state of dis-ease in our world, illuminating a path to wholeness and rebalance. The project features eight dancers and blends Indigenous storytelling and ballet, redefining this classical form for a diverse, savvy and contemporary audience. Electronic sound, industrial landscapes and digital projection, juxtaposed with Wolastoq visual motifs of the spiritual and natural world, create the Indigenous cosmology within which the story takes place. “Why does the water no longer quench our thirst?” Pisuwin pushes us to confront our greed and alienation, while inspiring us to take a different path; one of connection, community, and wholeness.<span><br/></span><span><br/></span><span class=\"BoldText\">Choreographer:</span> Igor Dobrovolskiy, MSM, OM<span><br/></span><span class=\"BoldText\">Director:</span> Nipahtuwet Naak Wespahtuwet Possesom<span><br/></span><span class=\"BoldText\">Composer:</span> Jeremy Dutcher<span><br/></span><span class=\"BoldText\">Principal:</span> Jera Wolfe<span><br/></span><span class=\"BoldText\">Costume, Scenic, and Projection:</span> Andy Moro<span><br/></span><span class=\"BoldText\">Lighting Design:</span> Pierre Lavoie<span><br/></span><span class=\"BoldText\">Costume Design:</span> Emma Hassencahl-Perley<span><br/></span><span class=\"BoldText\">Beading & Costume:</span> Oakley Rain Wysote Gray<span><br/></span><span class=\"BoldText\">Sound:</span> Dawson Sacobie (M3D14)<span><br/></span>
+""";
+  schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-14T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/c4bf89d8-ed3b-4113-a766-54a441310cb9.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410365;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410365 a skos:Concept;
+  skos:prefLabel "Dance" .
+
+<http://www.spektrix.com/theporttheatre/event/24201AQBJSCTMKBQRHSLCPQSBDTRMBNBT> a
+    schema:Event;
+  schema:name "SPOTLIGHT: Take This Waltz";
+  schema:description """
+	CANADIAN OPERA & DANCE<span><br/></span><span><br/></span><span class=\"ItalicText\">Take this Waltz: Celebrating the Music of Leonard Cohen</span> is an operatic and contemporary dance performance, inspired by the music of the Canadian legend Leonard Cohen.<span><br/></span><span><br/></span>Daniel Okulitch - one of Canada’s most celebrated operatic voices - is joined onstage by a classical chamber ensemble composed of Violin/Viola, Cello, and Accordion; along with, dancer/musician Ted Littlemore, an artist of many talents who plays the accordion while dancing.<span><br/></span><span><br/></span>“Take this Waltz” aims to broaden the idea of how vocalism, contemporary dance, instrumentation, and the visual arts can be applied to well-established works, without diluting their unique qualities. <span><br/></span><span><br/></span><span class=\"BoldText\">World premiere on September 10th, 2022 and sold out run as a co-presentation between Vancouver Opera, Pacific Opera Victoria and Chutzpah! Festival.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Director & Choreographer:</span> Idan Cohen<span><br/></span><span class=\"BoldText\">Soloist:</span> Daniel Okulitch<span><br/></span><span class=\"BoldText\">Dancer/musician:</span> Ted Littlemore<span><br/></span><span class=\"BoldText\">Scenic Design:</span> Amir Ofek<span><br/></span><span class=\"BoldText\">Lighting Design:</span> Itai Erdal<span><br/></span><span class=\"BoldText\">Music arrangements:</span> Adrian Dolan<span><br/></span><span class=\"BoldText\">Production:</span> Jason Dubois/New Works<span><br/></span><span><br/></span><span class=\"BoldText\">Photo credit:</span> Chris Randle<span><br/></span>
+""";
+  schema:startDate "2025-10-29T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-29T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/92b6fadb-8c34-462f-982a-069ddb49fcf9.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410366;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410366 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/12601ADHGSMRHJGRGJSDPTNTCRCGQHPQN> a
+    schema:Event;
+  schema:name "SPOTLIGHT: The Lightfoot Band";
+  schema:description """
+	<span><br/></span><span><br/></span>The Lightfoot Band features the original band members who recorded many memorable hits and toured internationally with the late, great Gordon Lightfoot. Together, they are keeping Gordon’s music alive; playing such hits, as “Sundown”, “Carefree Highway”, “the Wreck of the Edmund Fitzgerald”, “Beautiful”, “Early Morning Rain”, as well as some deeper cuts, not heard live for decades.<span><br/></span><span><br/></span>The band includes veterans Rick Haynes on bass, Barry Keane on drums and percussion, Mike Heffernan on keyboards and Carter Lancaster on the lead guitars. The Lightfoot Band is proud to introduce Andy Mauck as their lead vocalist. Andy is a student of Gord’s craft and was his personal friend for almost 50 years. He even plays the same guitars as Gord.<span><br/></span><span><br/></span>Join the band in concert for an authentic experience of The Songs of Gordon Lightfoot. An evening with the original Gordon Lightfoot musicians that recorded in studio and performed on stage with Gordon for decades. Band members will share their history of “stories of the road” and will be available to meet the audience afterwards in the lobby area.<span><br/></span><span><br/></span>Praise from Gordon Lightfoot fans…<span><br/></span><span class=\"ItalicText\">“I loved the concert and hearing all of Gord’s great songs again so well performed. The highlight that has stayed with me all day today was hearing the Canadian Railroad Trilogy live again after so many years. And it was great to be able to say hello to some of the band members afterward.”</span><span><br/></span><span><br/></span><span class=\"ItalicText\">“Tonight’s performance by The Lightfoot Band was absolutely mind-blowing. It was the nicest walk down memory lane, Gordon would be proud. The Legend Lives On.”</span><span><br/></span><span><br/></span><span class=\"ItalicText\">“What a wonderful night this was! The show was fantastic, and the band was so kind to take the time to speak with the audience afterwards. Andy is a revelation, and immediately inhabits Gordon’s music from the first song – it feels like a seamless transition, the music and the spirit live on.”</span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-11-11T20:00:00"^^xsd:dateTime;
+  schema:endDate "2025-11-11T20:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/02432f0a-807b-4a6f-9755-71ea40c609bd.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410367;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410367 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/24604AGCDJCMNNVDGVNGVRJPDRGVLHKDD> a
+    schema:Event;
+  schema:name "SPOTLIGHT: UPU";
+  schema:description """
+	NEW ZEALAND POETRY & THEATRE<span><br/></span><span><br/></span>UPU - A journey through the heartbeat of Pacific poetry<span><br/></span><span><br/></span>An electrifying celebration of Māori and Pasifika literature brings the powerful voices of Oceania to life by international award-winning collective UPU.<span><br/></span><span><br/></span>Curated by poet Grace Iwashita-Taylor and led by powerhouse director Fasitua Amosa, this acclaimed theatrical work consists of the upu (meaning ‘words’) from 23 poets, including young activists, Poet Laureates and literary prize winners. <span><br/></span><span><br/></span>Spanning five decades and over a dozen cultures across Te Moana nui a Kiwa (the Pacific Ocean), the poems share the myriad of stories and perspectives of people connected by the largest body of water on earth. UPU is performed in English by six of Aotearoa New Zealand’s most celebrated actors, who masterfully create a snapshot of experiences as broad and deep as the Pacific Ocean.<span><br/></span><span><br/></span>Enhanced by evocative lights, projections, and a multi-layered soundscape, UPU is a celebration of the Pacific, its people, and their stories.<span><br/></span><span><br/></span><span class=\"BoldText\">UPU’s Canadian tour follows its sold-out run at the Sydney Opera House!</span><span><br/></span><span><br/></span><span class=\"UnderlineText\">The Port Theatre wrote the Canada Council for the Arts grant to bring this production to Canada.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Artistic Director & Co-Creator:</span> Fasitua Amosa<span><br/></span><span class=\"BoldText\">Curator & Co-Creator:</span> Grace Iwashita-Taylor<span><br/></span><span class=\"BoldText\">Producer:</span> Ana Corbett<span><br/></span><span><br/></span><span class=\"BoldText\">Production Manager & Sound Engineer:</span> Emily Hakaraia<span><br/></span><span class=\"BoldText\">Lighting & Projection Design & Technical Operator:</span> Rowan Pierce<span><br/></span><span class=\"BoldText\">Soundscape Design & Original Composition:</span> Faiumu Matthew Salapu<span><br/></span><span class=\"BoldText\">Set Design:</span> Michael McCabe <span><br/></span><span><br/></span><span class=\"BoldText\">Costume Design:</span> Kristen Seth<span><br/></span><span class=\"BoldText\">Artist & Cultural Design Elements (Mamanu Design):</span> Tyla Vaeau<span><br/></span><span class=\"BoldText\">Movement & Choreography:</span> Joash Fahitua<span><br/></span><span><br/></span><span class=\"BoldText\">UPU features the work of the following poets:</span><span><br/></span>Tusiata Avia, Ben Brown, Brandy Nālani McDougall, Craig Santos Perez, Sia Figiel, Briar Grace-Smith, Daren Kamali, Karlo Mila, Grace Mera Molisa, Noʻu Revilla, Celestine Kulagoe, John Pule, Tafea Polamalu, Leilani Tamu, Apirana Taylor, Teresia Teaiwa, Hone Tuwhare, Selina Tusitala Marsh, Kathy Jetñil-Kijiner, Konai Helu Thaman, Albert Leomala, Maualaivao Albert Wendt and Lyz Soto.<span><br/></span><span><br/></span>“It swept the audience up in wave after wave after wave of passion, emotion, of storytelling at its finest that pulled at the soul.”  – NZ Herald<span><br/></span>
+""";
+  schema:startDate "2026-02-24T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-02-24T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/8bc5998e-b57b-4ae1-b1db-f2905bd7ff38.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410368;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410368 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/24801AHGPCJBMGMVRBNKLDDDHKTKTNBQS> a
+    schema:Event;
+  schema:name "SPOTLIGHT: Winter Harp";
+  schema:description """
+	CANADIAN MEDIEVAL MUSIC<span><br/></span><span><br/></span>Celebrate Christmas and the holiday season with the Winter Harp ensemble. Glorious music and song combine with festive stories to warm your heart and wrap you in the Christmas spirit.<span><br/></span><span><br/></span>Winter Harp is a Christmas masterpiece. Velvet gowns, golden instruments, candles, and backdrops of cathedrals and snow combine to transport you to another time and place. Classical and Celtic harps, flutes and rare medieval instruments, percussion, poetry and song envelop you in the silken cloak of Christmas. Familiar carols, along with songs ancient and rare, celebrate the season and set your heart singing.<span><br/></span><span><br/></span>Don't miss this journey of pure magic! Winter Harp - where Christmas begins.<span><br/></span><span><br/></span><span class=\"ItalicText\">“Winter Harp’s annual Christmas concerts are a treat” – Jurgen Gothe, CBC Radio</span>
+""";
+  schema:startDate "2025-12-13T15:30:00"^^xsd:dateTime;
+  schema:endDate "2025-12-13T15:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/96e76248-d884-4d08-a1c7-3c53fc52335e.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410369;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410369 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/32401ANQMVQVNTGTQHTSGSGJCPVKHDGKP> a
+    schema:Event;
+  schema:name "Standing Outside the Fire:";
+  schema:description """
+	<span class=\"BoldText\">Standing Outside The Fire is a <span class=\"UnderlineText\">representation</span> of the Garth Brooks live concert experience.</span><span><br/></span><span><br/></span>Starring as Garth Brooks is Vancouver Island's own Wayne Montgomery. As the lead singer for the country band Montgomery County, Wayne’s high energy show stylings have drawn comparisons to Garth Brooks for the past 15 years.<span><br/></span><span><br/></span><span class=\"ItalicText\">Standing Outside the Fire: A Garth Brooks Live Concert Experience</span> features an 8-piece band and a high energy performance with many of Garth Brooks biggest hits and surprise cuts from his music catalogue.  <span><br/></span><span><br/></span>Guests are encouraged to sing and and respond the same way they would at an actual Garth Brooks concert.  In fact, bring a sign requesting your favourite Garth song and it might just be played!<span><br/></span>
+""";
+  schema:startDate "2025-11-01T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-01T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/d092df11-0e3b-448e-ba70-ad7fbce30b19.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410370;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410370 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<http://www.spektrix.com/theporttheatre/event/8401ACDNQDNDVRQCTJQRQPHVTKLNTCVJH> a
+    schema:Event;
+  schema:name "STEVE-O Crash and Burn Tour";
+  schema:description """
+	<h2>Jackass Superstar STEVE-O Live In Nanaimo October 6th @ Port Theatre On His Brand New Multimedia Comedy Tour “Crash And Burn!”</h2><span><br/></span>\"I’ve made a lot of bad decisions, and few were worse than the ones I made for my new “Crash And Burn” tour. What’s so fun about this new multimedia show is that you don’t just hear the ridiculous stories of my latest, dumbest, unbelievably naughty exploits… you see them happen for yourself… completely uncensored!\"<span><br/></span><span><br/></span>Steve-O, born Stephen Gilchrist Glover on June 13, 1974, is a renowned stunt performer, actor, and television personality. He gained fame as a member of the cast of the hit MTV show \"Jackass,\" where he performed a variety of dangerous and outrageous stunts. Known for his fearlessness and wild sense of humor, Steve-O quickly became a fan favorite on the show. <span><br/></span><span><br/></span>In addition to his work on \"Jackass,\" Steve-O has appeared in numerous films and television shows, showcasing his unique brand of comedy and willingness to push the boundaries of entertainment. He has also embarked on a successful stand-up comedy career, touring around the world and gaining a loyal following of fans. <span><br/></span><span><br/></span>Despite his wild antics and larger-than-life persona, Steve-O has also been open about his struggles with addiction and has worked to overcome these challenges through sobriety and self-improvement. He has used his platform to raise awareness about mental health and addiction issues, inspiring others to seek help and make positive changes in their lives. <span><br/></span><span><br/></span>Steve-O continues to entertain audiences with his daring stunts, comedic talents, and larger-than-life personality. He remains a beloved figure in the entertainment industry, known for his infectious energy and unapologetic approach to life.<span><br/></span><span><br/></span><h2>This event is Strictly 19+</h2><span><br/></span>
+""";
+  schema:startDate "2025-10-06T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-06T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/27e30e1c-bf64-4c72-ac7b-32fe8d831ac5.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410371;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410371 a skos:Concept;
+  skos:prefLabel "Comedy" .
+
+<http://www.spektrix.com/theporttheatre/event/28002AJQKLGCDRSJRKNDKMNMHDQCPPKNH> a
+    schema:Event;
+  schema:name "Suddenly 50 (Black Rabbit Attic)";
+  schema:description """
+	SUDDENLY 50, written and performed by playwright Nicolle Nattrass (Playwrights Guild of Canada). Directed by T.J. Dawe. This is a staged reading of a funny and authentic solo show about a woman coming to terms with a mid-life crisis as she enters \"Season\" 50 of her incredible life. <span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It’s like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-10T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-08-10T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/a94bacf5-09ab-44c8-935e-9cfc79dffe49.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410372;
+  schema:location <https://spektrix.com/theporttheatre/location/425ASSDBCKRKRDQRMPBNQJSVHNJGCRCDQ>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410372 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/28201ANLRQMDQPKBCRBQJSVDBPMCHQKNS> a
+    schema:Event;
+  schema:name "Suddenly 50 (Selby Station Stage)";
+  schema:description """
+	SUDDENLY 50, written and performed by playwright Nicolle Nattrass (Playwrights Guild of Canada). Directed by T.J. Dawe. This is a staged reading of a funny and authentic solo show about a woman coming to terms with a mid-life crisis as she enters \"Season\" 50 of her incredible life. <span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It’s like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-16T17:00:00"^^xsd:dateTime;
+  schema:endDate "2025-08-17T16:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/cb826948-962b-42bd-93b8-a13c525101ab.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410373;
+  schema:location <https://spektrix.com/theporttheatre/location/425ASSDBCKRKRDQRMPBNQJSVHNJGCRCDQ>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410373 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/23801AJTHHRQPTBGSQKNGJHMKGQMHTHHM> a
+    schema:Event;
+  schema:name "SuperLiminal";
+  schema:description """
+	Ask For Improv presents: SuperLiminal - A completely improvised in front of your very eyes and ears show! You will laugh, cry, and maybe - even be exhale from your nostril lightly.<span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It’s like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-08T16:30:00"^^xsd:dateTime;
+  schema:endDate "2025-08-16T15:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/a78e5e4a-bd22-47bd-9798-de46754c727b.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410374;
+  schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410374 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/19201ACDMCRSLDRKDVBCRLQTJMQBCSLCD> a
+    schema:Event;
+  schema:name "Sweet and Sour - The Ultimate Tribute";
+  schema:description """
+	Get ready for an electrifying night of pop anthems, heartbreak hits, and fierce rival vibes at Sweet and Sour – the ultimate Olivia Rodrigo vs. Sabrina Carpenter tribute show! Featuring a powerhouse live band and dynamic dancers, this show brings every beat and lyric to life, immersing you in the stories, sass, and soul of two of pop’s biggest sensations.<span><br/></span>Feel the intensity of Olivia’s raw, emotional ballads like <span class=\"ItalicText\">Drivers License</span> and <span class=\"ItalicText\">Vampire</span>, and let loose to Sabrina’s unapologetic anthems like <span class=\"ItalicText\">Please, Please, Please</span> and <span class=\"ItalicText\">Nonsense</span>. With every note and move, our performers channel the sweetness and sting of young love, breakups, and finding your voice.<span><br/></span>From captivating vocals to striking visuals, Sweet and Sour delivers the ultimate showdown that’ll make you sing, dance, and relive every bittersweet moment. Whether you’re Team Rodrigo, Team Carpenter, or somewhere in between, this tribute show is an unforgettable experience!<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-11-10T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-10T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/6c0d9601-cc27-4d2c-b74d-94a601032703.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410375;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/got-pop?-concerts> .
+
+_:467a8bdbaa404e028e62b3a0e6425410375 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<http://www.spektrix.com/theporttheatre/event/18401APQBVKHJSJNGJQKHRTGTLCTRJBBR> a
+    schema:Event;
+  schema:name "Synchronicity Four";
+  schema:description """
+	<span><br/></span>\"Synchronicity Four\" is a Canadian tribute band celebrating the music of the legendary popular singing group, The Police.<span><br/></span><span><br/></span>Expanding on the traditional power trio format, Synchronicity Four has added the vocal stylings of Taylor Kate Manns and Tina Jones as well James Darling on Keyboards. Lee Worden’s immensely long professional resume is truly impressive. Lee will be covering guitar and vocal parts. Pierre Komen is on bass and vocals. The group is centered around the brilliant musical talent of  Bill Hicks on drums and vocals. Stuart Copeland was Bill’s biggest influence and this is the secret ingredient that makes this project pop. <span><br/></span><span><br/></span>The working relationship of the core group dates back to the 80s itself. The thrash and passion of punk added to the jazz and reggae influence are attributes we hold dear to our hearts. It’s an honour to draw from their extensive collection of smash hits and play them live. We are truly excited.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-09-14T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-09-14T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/aa591b84-001e-429a-be2e-af6e6d03f5bf.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410376;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410376 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<http://www.spektrix.com/theporttheatre/event/14201ARTVMVMMBMSJNNDBHCBBRVSCTRNG> a
+    schema:Event;
+  schema:name "Tafelmusik Baroque Orchestra ";
+  schema:description """
+	<h1>BRILLIANT BAROQUE</h1><span><br/></span>CONDUCTOR: Rachel Podger, violin<span><br/></span><span><br/></span>Experience Canada’s world renowned Tafelmusik Baroque Orchestra celebrated for its authentic performances of Baroque repertoire, utilizing period instruments. Music by Handel, Avison, Purcell, J.S. Bach, Pisendel and Reichenauer will be performed.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-11-17T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-17T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/7490d8de-09b9-44ef-850c-8d08103c6458.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410377;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> .
+
+_:467a8bdbaa404e028e62b3a0e6425410377 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/16801ANHJRBJLNRBNVQDKPGNSLJNKRTQV> a
+    schema:Event;
+  schema:name "Terri Clark and Paul Brandt";
+  schema:description """
+	Two of Canada’s most iconic country music stars, Terri Clark and Paul Brandt, are reuniting for an encore run of their wildly successful co-headlining acoustic tour, Homecoming Tour 2.0. Following the overwhelming response to their 2023 collaboration, the legendary duo will once again share the stage for an intimate, stripped-down concert experience that spans generations of beloved country hits.<span><br/></span><span><br/></span>Fans can expect a night of unforgettable music and storytelling as Clark and Brandt perform their most celebrated songs, trading stories and personal reflections that shaped their remarkable careers. Sharing the spotlight for the entire show, the pair brings undeniable chemistry and heartfelt connection to every note.<span><br/></span><span><br/></span>“Being on tour with Terri Clark has been a highlight of my career; it’s hard to recall the last time I had so much fun,” says Brandt. “When you find a chemistry that is so natural and powerful, you just want more. The fans have spoken—the demand is there—so here we come. I can’t wait to bring Homecoming Tour 2.0 to stages across Canada.”<span><br/></span><span><br/></span>“Paul and I had been friends for years, but the Homecoming Tour was our first time sharing the stage—and the magic and chemistry were beyond what we imagined,” says Clark. “We thought it might be a one-time thing, and I was genuinely sad when it ended. I’m thrilled we get to do it again, and to go coast to coast with one of Canada’s finest talents.”<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-11-26T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-11-26T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/c50bb9dc-74e1-46ef-aba1-543be4992b17.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410378;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410378 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/19801AHJMMDKNMDJQSLCTGNDLGNGMJGHK> a
+    schema:Event;
+  schema:name "The Barra MacNeils East Coast Christmas";
+  schema:description """
+	<span class=\"BoldText\">This year we are celebrating the band’s 25 years of “An East Coast Christmas\", alongside the 25th anniversary of CeltFest Vancouver Island!</span><span><br/></span><span><br/></span><span class=\"ItalicText\">Warning: Heartwarming, Festive Fun Alert!</span><span><br/></span><span><br/></span>The band has sold out small and large venues across our country for a quarter of a century, and we are thrilled to again present the Barra MacNeils’ inaugural performance of this deeply rich Canadian Celtic festive experience as they kick off their 2025 coast-to-coast tour here, on Vancouver Island.<span><br/></span><span><br/></span>Steeped in Atlantic tradition with strong Celtic roots and musical artistry, this diversely talented group of four brothers and a sister from Cape Breton Island, Nova Scotia, is widely regarded as one of the greatest live acts in the Celtic world. Their captivating vocals, harmonies and extraordinary musicianship are famously featured in their Christmas TV specials which continue to be broadcast on CMT and PBS TV stations. Their numerous critically acclaimed recordings have included their own original songs as well as tried and true standards, both instrumental and vocal. They are 5-time East Coast Music Award winners, and among the many icons they have performed with, they have been the opening act for Celine Dion.<span><br/></span><span><br/></span>A universal favourite, Barra MacNeils’ East Coast Christmas is a treat for all ages and persuasions. The five siblings are known for their brilliant instrumentals, ringing harmonies and delightful flair for storytelling. Their unique seasonal show is crafted each year to bring a special Celtic spin on traditional favourites and original east coast treasures with songs, stories and dance. Their stunning rendition of “O Holy Night” is just one of the many highlights that brings audiences to their feet. Fans look forward to musical gems like “Ave Maria”, “Christmas in Killarney”, and “Auld Lang Syne” among an array of seasonal delights and originals.<span><br/></span><span><br/></span>Nothing says Christmas like this uplifting family concert! A collection of soulful seasonal favourites - and so much more – is sure to be a hit with your family, friends or co-workers. Whether this is your first, or your millionth Barra MacNeils live concert experience, it is sure to leave joyous memories that will last you well beyond the season.<span><br/></span><span><br/></span>On this banner year for both the band and CeltFest, appearing with the Barra MacNeils will be an even more impressive array of local favourites: among them, master piper René Cusson, a dynamic dance troupe, and “surprise” BC guest artists are sure to join in.<span><br/></span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-11-16T15:00:00"^^xsd:dateTime;
+  schema:endDate "2025-11-16T15:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/79fa2aca-1fee-4640-8a84-f05696e46c04.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410379;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410379 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/31601AJQCKSMKVPVHKSNQGKNCQPTMVGLL> a
+    schema:Event;
+  schema:name "The Beloved Colour";
+  schema:description """
+	Can sound have colour?  Does colour vibrate?  Explore these ideas in a thrilling recital for violin and piano - a programme enhanced by meaningful projected images.  Set in the beautifully resonant space of St. Andrew’s United Church in the heart of the Old City Quarter, this event invites you to see - and hear - how music and art intertwine.<span><br/></span><span><br/></span>Experience Brahms’ romantic Violin Sonata in G major, a Moroccan-inspired caprice of Sophie Eckhardt-Gramatté, Vaughan Williams’ evocative Pastoral, and Messiaen’s divine Louange.  And, among others, of course there will be a bit of Bach.<span><br/></span><span><br/></span>A native of Ottawa, <span class=\"BoldText\">Nicholas Ross</span> studied both violin and trumpet at the University of Ottawa with John Gomez and Pace Sturdevant.  He performs regularly as a violinist with the Victoria Symphony and Vancouver Island Symphony.  With experience teaching and adjudicating in many Canadian communities, Nicholas completed Suzuki Violin Instructor training in Chicago.  He has extensive professional orchestral experience: Thunder Bay Symphony, Ottawa Symphony, Charlottetown Festival Orchestra, and North Bay Symphony.  He has been featured as a soloist with the Elmer Iseler Singers and delivered a violin lecture-recital at Laurentian University.  Since moving  to Nanaimo, he has appeared as soloist with the Nanaimo Chamber Orchestra and presented the sold out Nanaimo recital, \"Bach in the Harbour\". His violin was made in Toronto by Masa Inokuchi.<span><br/></span><span><br/></span>Frances Armstrong, originally from Surrey, BC, is a collaborative pianist known for her intuitive and sensitive playing. She holds a Master’s in Collaborative Piano from the University of Toronto, where she studied with esteemed Canadian pianist Steven Philcox, and a Bachelor’s in Piano Performance (with Distinction) from the University of Victoria. Frances has trained at prestigious programs including the Franz Schubert Institute, Toronto Summer Music, and the Music Academy of the West, and has apprenticed with l’Opéra de Montréal and the Canadian Opera Company. She has served as Head Coach at Edmonton Opera and continues to collaborate regularly with companies across Canada, including City Opera Vancouver, the Banff Centre, and Highlands Opera Studio. When she is not busy as a performer, coach, and répétiteur, she can be found enjoying a quiet life by the Pacific Ocean on Gabriola Island.<span><br/></span>
+""";
+  schema:startDate "2025-10-05T14:30:00"^^xsd:dateTime;
+  schema:endDate "2025-10-05T14:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/fc91579b-20e6-43f6-b1b6-8f32a5aada97.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410380;
+  schema:location <https://spektrix.com/theporttheatre/location/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410380 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<https://spektrix.com/theporttheatre/location/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> a
+    schema:Place;
+  schema:name "St. Andrew's United Church";
+  schema:address <https://spektrix.com/theporttheatre/address/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> .
+
+<https://spektrix.com/theporttheatre/address/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> a
+    schema:PostalAddress;
+  schema:streetAddress "315 Fitzwilliam Street";
+  schema:addressLocality "Nanaimo";
+  schema:addressRegion "BC";
+  schema:postalCode "V9R 3A6";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/theporttheatre/event/13201ACQQNNPSNRJMNQRQRCSJCCGPQLHJ> a
+    schema:Event;
+  schema:name "The Celtic Tenors";
+  schema:description """
+	CONDUCTOR: Cosette Justo Valdés<span><br/></span>GUEST ARTISTS: The Celtic Tenors<span><br/></span><span><br/></span><span><br/></span>Join the Celtic Tenors for an unforgettable performance of vocal brilliance and festive cheer. Enjoy their enchanting blend of Celtic charm with timeless favourites and modern hits, alongside a heartwarming selection of Christmas favourites. <span><br/></span><span><br/></span>This special concert promises to be a mesmerizing celebration of Celtic culture and the joyous spirit of Christmas, leaving your heart soaring and your spirit uplifted!<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-11-29T14:00:00"^^xsd:dateTime;
+  schema:endDate "2025-11-29T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/6d1d0ed1-0522-4fdf-8f15-9d485243174d.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410381;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> .
+
+_:467a8bdbaa404e028e62b3a0e6425410381 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/19001AGPSVSHKKJGHGMBKJNKLNQCSNLPR> a
+    schema:Event;
+  schema:name "The Comic Strippers (19+ Only)";
+  schema:description """
+	<h2>A male stripper parody and improv comedy show</h2><span><br/></span><span><br/></span>The award winning improv comedians are back with a new show, more moves and even quicker wits.<span><br/></span>A SHOW FOR ALL GENDERS… 19+ ONLY<span><br/></span>WARNING! No extreme nudity, just extreme hilarity.<span><br/></span><span><br/></span>A fictitious male stripper troupe (played by a cast of some of Canada’s best improvisational comedians) performs a sexylarious improv comedy show. They try to be sexy… it just comes out funny. Constantly grooving and gyrating in between scenes they banter with the crowd and perform their hilarious twist on improv sketches. They sing, they “dance”, and they are ready to make you laugh. Semi undressed and completely unscripted, The Comic Strippers take off their shirts and take on your suggestions to create a whole new genre of comedy.<span><br/></span><span><br/></span>'BEST LIVE PRODUCTION' Canadian Comedy Award Winner<span><br/></span>★★★★★ “Extremely Funny!” - UK Fringe Review<span><br/></span><span class=\"ItalicText\"> “The show is suitable for both men and women. An entertaining ride where anything goes.”</span> – Rip It Up Magazine<span><br/></span><span class=\"ItalicText\">\"One of the most hilarious shows I've ever seen.\"</span> - Vancouver Sun<span><br/></span><span><br/></span><a target=\"_blank\" href=\"http://www.thecomicstrippers.com\">Visit the Comic Strippers website</a><span><br/></span>
+""";
+  schema:startDate "2026-01-31T20:00:00"^^xsd:dateTime;
+  schema:endDate "2026-01-31T20:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/017a3d57-9d3b-43ab-9034-05eade89ca23.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410382;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410382 a skos:Concept;
+  skos:prefLabel "Comedy" .
+
+<http://www.spektrix.com/theporttheatre/event/26201AGBHCTNMDGTRMRCVQPKJNVHQTBBK> a
+    schema:Event;
+  schema:name "The Debaters Live";
+  schema:description """
+	<h2>20th Anniversary Holiday Special</h2><span><br/></span>The Debaters have been entertaining Canadians on the airwaves for 20 years this September. To celebrate all the great laughs and questionable facts from the past two decades we’re crossing the country with a holiday tour for all ye faithful fans and listeners.<span><br/></span><span><br/></span>Joining host Steve Patterson on this hilarious sleigh ride are a couple of his favourite debating elves ready to deliver a delightful evening of stand-up comedy and two joke-filled debates in the format made famous on CBC Radio. Book your tickets now to avoid the holiday rush!<span><br/></span><span><br/></span>These special shows are just for live audiences and aren’t recorded for broadcast.<span><br/></span>
+""";
+  schema:startDate "2025-12-09T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-12-09T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/c92b7ac2-8308-4fa0-94a2-310baf5d82d5.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410383;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/modo-live> .
+
+_:467a8bdbaa404e028e62b3a0e6425410383 a skos:Concept;
+  skos:prefLabel "Comedy" .
+
+<http://www.spektrix.com/theporttheatre/event/23001ARCVCNHNNNCLVMBNCMRGPKGBRCSK> a
+    schema:Event;
+  schema:name "The First to Stand";
+  schema:description """
+	A gripping psychosexual drama following a young actress on the brink of her off-Broadway debut. As her relationship with a powerful man fractures, the line between her role and reality violently dissolves.<span><br/></span><span><br/></span><span class=\"BoldText\">The Friday August 8, 2025 6:00 pm performance is an ASL Performance.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It’s like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-08T18:00:00"^^xsd:dateTime;
+  schema:endDate "2025-08-15T17:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/80f949ae-195a-4606-a25f-3bb3837e7c91.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410384;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410384 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/19601ASQHGTDLVRHPVGMRMDVHLHMGNGQV> a
+    schema:Event;
+  schema:name "The Men in Black";
+  schema:description """
+	<h2>Department of Corrections presents Canada’s premiere Johnny Cash tribute band, The Men In Black</h2><span><br/></span>Johnny Cash recorded 96 albums and over 1,500 songs throughout a career that spanned over five decades. He was one of the first artists to successfully cross over many genres of music from country, to rockabilly, gospel and rock & roll. <span><br/></span><span><br/></span>The Men In Black bring passion and respect to the musical legacy of the Man in Black, Johnny Cash, with Gary Coad - lead vocals, Aaron Murray - guitar, Wayne Cox – bass, Jon Baglo – multi-instrumentalist and Tim David - drums. <span><br/></span><span><br/></span>This two hour performance includes all the hits such as Folsom Prison Blues, Ring of Fire, Orange Blossom Special and the rest of your favourite songs played against a backdrop of video and photographs depicting pivotal moments in Johnny’s life and career.<span><br/></span><span><br/></span>This performance is a must see for Johnny Cash admirers, or simply fans of songs about trains and prisons! <span><br/></span><span><br/></span>
+""";
+  schema:startDate "2025-10-05T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-10-05T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/7bc54ed5-c0f8-4f95-aa5c-9e7436fc747c.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410385;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410385 a skos:Concept;
+  skos:prefLabel "Tribute" .
+
+<http://www.spektrix.com/theporttheatre/event/23401AHHMQSVVPPKJGSDQCLPJRGKVPLMQ> a
+    schema:Event;
+  schema:name "The Most Important Job in the World";
+  schema:description """
+	After an unexpected guest is brought in to speak at a high school’s career day, a group of high-achieving young women is asked to challenge their perceptions of society and each other by asking one, simple question; What really is the most important job in the world?<span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It’s like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)<span><br/></span>
+""";
+  schema:startDate "2025-08-09T15:30:00"^^xsd:dateTime;
+  schema:endDate "2025-08-17T17:15:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/1604c3ff-bfdd-4b07-8589-34bbd35ee08f.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410386;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410386 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/27001AHPHSDCGHGCCRQCHCPMCLLSSSQJG> a
+    schema:Event;
+  schema:name "The Storyteller's Smithy: Forging Narratives";
+  schema:description """
+	No two shows are the same in this unique performance. Spokenword artist and edutainer Danika Dinsmore weaves audience input into a one-of-a-kind collective tale. An improvisational, insightful, and interactive journey into the storytelling process<span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It’s like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-08T17:30:00"^^xsd:dateTime;
+  schema:endDate "2025-08-16T18:45:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/5f011139-16bb-4604-a198-96a3571d1485.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410387;
+  schema:location <https://spektrix.com/theporttheatre/location/425ASSDBCKRKRDQRMPBNQJSVHNJGCRCDQ>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410387 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/30401AVTJMSJLDVLNKKKDPCPPRDDJCLRT> a
+    schema:Event;
+  schema:name "The Strumbellas";
+  schema:description """
+	The Strumbellas know that misery loves company, and that if we’re together, even in dark times, there’s some joy in that. Their songs of suffering and celebration date back to their 2012 debut My Father And The Hunter, and the band have obsessively chased big hooks, group vocal exuberance, and folk-rock propulsion through their 2016 breakthrough Hope to 2024’s Part Time Believer. The Juno and iHeartRadio Music Award-winning group’s new song Hard Lines gives listeners an urgent, new take on their iconic mix of intimate feelings with stadium folk sounds.<span><br/></span><span><br/></span>Determined to use every tool in their arsenal to write a good song, The Strumbellas started by looking inward: random song titles, non-sequitur ideas, scraps of paper, and voice memos of half-sung melodies came from everyone in the band. They then connected with their favourite collaborators, songwriters and producers anywhere from their home in Toronto to Vancouver, Nashville, or LA, to create demos that ranged from campfire-chord whispers to radio-ready productions. The long list was then whittled down by the band along with producer Chad Copelin (LANY, Sasha Sloan, Colony House), who recorded the band at his studio in Norman, Oklahoma. Copelin’s finely honed sonic instincts bring out a newly textured, insistently edgy side to The Strumbellas’ alt-folk stomp.<span><br/></span><span><br/></span>“We’re living in a lonely world,” says keyboardist Dave Ritter. “Whether it’s work or our home life or our screens, life seems cut up into smaller and smaller pieces all disconnected from each other. Hard Lines is about picking your way through the rubble of contemporary life and the hope that we can build things together again. It’s something we’re reminded of when we gather to write or rehearse songs, and when we get to play for people, that music brings us together, gives us some moments of connection that are hard to find these days.”<span><br/></span>
+""";
+  schema:startDate "2025-12-03T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-12-03T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/37223a38-60ac-470b-93d7-d315fd704929.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410388;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/got-pop?-concerts> .
+
+_:467a8bdbaa404e028e62b3a0e6425410388 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/30801ARPRRSKJDTQHHJTDRTPHSSSJNCJP> a
+    schema:Event;
+  schema:name "The Strumbellas Super VIP Tour Bus Experience Add-On";
+  schema:description """
+	<h2>The Strumbellas Super VIP Tour Bus Experience Add-On (VIP 1)</h2>$273.60 Add-on <span class=\"BoldText\">PER</span> regular priced ticket.<span><br/></span><span><br/></span><span class=\"UnderlineText\"><span class=\"BoldText\">Details</span></span> <span><br/></span>-One <span class=\"BoldText\">VIP Tour Bus</span> general admission ticket to see The Strumbellas Live <span><br/></span>-Early entry into the venue <span><br/></span>-Access to an intimate pre-show hang with the band on their tour bus <span><br/></span>-Pre-show acoustic set by The Strumbellas (playing songs not part of their set) <span><br/></span>-Q&A session with The Strumbellas <span><br/></span>-Group photograph in front of the stage with The Strumbellas <span><br/></span>-Limited edition tour poster; autographed by The Strumbellas <span><br/></span>-Commemorative VIP laminate & lanyard <span><br/></span>-Priority merchandise shopping before general doors<span><br/></span><span><br/></span><span class=\"BoldText\">Very Limited Quantity Available</span>
+""";
+  schema:startDate "2025-12-03T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-12-03T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410389;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/got-pop?-concerts> .
+
+_:467a8bdbaa404e028e62b3a0e6425410389 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/30601ASVMNTVBQGPSKCLTTHTBBRPCLTLM> a
+    schema:Event;
+  schema:name "The Strumbellas VIP Acoustic Experience Add-On";
+  schema:description """
+	<h2>The Strumbellas VIP Acoustic Experience (VIP 2)</h2><span><br/></span>$89.37 Add-on <span class=\"BoldText\">PER</span> regular priced ticket.<span><br/></span><span><br/></span><span class=\"UnderlineText\"><span class=\"BoldText\">Details</span></span> <span><br/></span>-One <span class=\"BoldText\">VIP Acoustic</span> general admission ticket to see The Strumbellas Live <span><br/></span>-Early entry into the venue <span><br/></span>-Pre-show acoustic set by The Strumbellas (playing songs not part of their set) <span><br/></span>-Q&A session with The Strumbellas <span><br/></span>-Group photograph in front of the stage with The Strumbellas <span><br/></span>-Limited edition tour poster; autographed by The Strumbellas <span><br/></span>-Commemorative VIP laminate & lanyard <span><br/></span>-Priority merchandise shopping before general doors 
+""";
+  schema:startDate "2025-12-03T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-12-03T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410390;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/got-pop?-concerts> .
+
+_:467a8bdbaa404e028e62b3a0e6425410390 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/23002ABJMVTNSJQRHJNVJTQPLQDCPNMMV> a
+    schema:Event;
+  schema:name "The Syllabus";
+  schema:description """
+	Public displays of affection! Mass shootings! Drugs, deities - it's the first day of college, and Prof. G explains why you can't send naughty photos to your classmates and how to out-run the criminology students.<span><br/></span><span><br/></span><span class=\"BoldText\">The Sunday August 10, 2025 6:15 pm performance is an ASL Performance.</span><span><br/></span><span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It’s like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)<span><br/></span>
+""";
+  schema:startDate "2025-08-08T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-08-17T15:45:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/9e96870d-81ae-4e36-8c72-eeb2c99d7dc1.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410391;
+  schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410391 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/22601ARRLHTVCDDNCQVPHHJKHRLVJHGRP> a
+    schema:Event;
+  schema:name "Theoxenia";
+  schema:description """
+	A dysfunctional throuple gets thrown into chaos when a trio of sadistic gods: Widdershins, Klondike, and Ha-Ha Main, invades their apartment and demands hospitality. <span><br/></span><span><br/></span><span class=\"BoldText\">The Friday August 8, 2025 3:00 pm performance is an ASL Performance.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Encore Tickets $25</span> - Throw a little extra love to a Fringe Artist. - It's like tipping your favorite server, but with way more glitter and a lot less drama!  Our Fringe Artist wallets thank you.<span><br/></span><span><br/></span>All patrons are required to purchase a <span class=\"BoldText\">$5.00 FRINGE FESTIVAL BUTTON</span> to see any shows.  Proceeds support the operating costs of the Nanaimo Fringe Festival. (If you lose or forget your button you will need to purchase another)
+""";
+  schema:startDate "2025-08-08T15:00:00"^^xsd:dateTime;
+  schema:endDate "2025-08-16T17:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/ac7ba9d3-083b-4c83-a197-36f95e437344.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410392;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-nanaimo-fringe-festival> .
+
+_:467a8bdbaa404e028e62b3a0e6425410392 a skos:Concept;
+  skos:prefLabel "Theatre" .
+
+<http://www.spektrix.com/theporttheatre/event/20601ABGSVVQHCDMLPVSSHGJPQKDMCGQD> a
+    schema:Event;
+  schema:name "TOM GREEN";
+  schema:description """
+	Tom Green is a groundbreaking Canadian comedian, actor, and media pioneer known for his unpredictable MTV show, cult-classic films like Freddy Got Fingered, and for inspiring a generation through his early Internet talk show and podcasting. <span><br/></span><span><br/></span>In addition to his return to Canada with a wave of new projects —including a documentary, comedy special, reality series, country album and his upcoming new Crave Original Series, Tom Green’s Funny Farm, which marks the first project in his new co-development deal with Bell Media — Tom is back on the road performing live stand-up comedy, bringing his signature style of humor to audiences worldwide.<span><br/></span><span><br/></span>Don’t miss an evening of Green’s hysterical comedy, along with stories about his career and a selection of original songs live. <span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.youtube.com/shorts/ilQSNJ9U18U\">Watch Tom Green GREAT TIME</a><span><br/></span>
+""";
+  schema:startDate "2026-01-24T19:00:00"^^xsd:dateTime;
+  schema:endDate "2026-01-24T19:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/06480c1b-9b38-43e8-af47-6a1dd5b070bf.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410393;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/outback-presents> .
+
+_:467a8bdbaa404e028e62b3a0e6425410393 a skos:Concept;
+  skos:prefLabel "Comedy" .
+
+<https://spektrix.com/theporttheatre/organization/outback-presents> a schema:Organization;
+  schema:name "Outback Presents" .
+
+<https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> a
+    schema:Place;
+  schema:name "The Port Theatre";
+  schema:address <https://spektrix.com/theporttheatre/address/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> .
+
+<https://spektrix.com/theporttheatre/address/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> a
+    schema:PostalAddress;
+  schema:streetAddress "125 Front Street";
+  schema:addressLocality "Nanaimo";
+  schema:addressRegion "BC V9R 6Z4";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/theporttheatre/event/21001AHGQKHHCBJDNTTTMDTTPLSBDJSQB> a
+    schema:Event;
+  schema:name "Tom Green Meet & Greet VIP Package Add-On";
+  schema:description """
+	Tom Green Meet & Greet VIP Package <span><br/></span>$50 Add-on <span class=\"BoldText\">PER</span> regular priced ticket.<span><br/></span><span><br/></span>Meet & Greet will take place <span class=\"BoldText\">after</span> the show.<span><br/></span>Please note there is no physical ticket for the Meet & Greet event. Further information on how to redeem your VIP Package will be provided closer to the event date to the e-mail address on file.<span><br/></span><span><br/></span><span class=\"BoldText\">Limited Quantity Available</span>
+""";
+  schema:startDate "2026-01-24T19:00:00"^^xsd:dateTime;
+  schema:endDate "2026-01-24T19:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410394;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/> .
+
+_:467a8bdbaa404e028e62b3a0e6425410394 a skos:Concept;
+  skos:prefLabel "" .
+
+<https://spektrix.com/theporttheatre/organization/> a schema:Organization;
+  schema:name "" .
+
+<http://www.spektrix.com/theporttheatre/event/13802AVQGJKSMHBTMGDVMLSLVTKMPMLPN> a
+    schema:Event;
+  schema:name "Victoria Symphony ";
+  schema:description """
+	<h1>THE PLANETS - SYMPHONY IN SPACE</h1><span><br/></span>CONDUCTOR: Sean O'Loughlin<span><br/></span><span><br/></span>Prepare to blast off as our special guests, the Victoria Symphony brings you music from out of this world. Expect to visit a few of The Planets as depicted by Gustav Holst, Mozart, and Strauss. Enjoy favourite themes by John Williams from Star Wars, recall the drama of Apollo 13, relive Star Trek through the years, and more! From concert classics to inspired film scores, your imagination will take flight.<span><br/></span>
+""";
+  schema:startDate "2026-01-23T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-01-23T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/add773c4-ebcc-4419-84e1-823d0c5409c0.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410395;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> .
+
+_:467a8bdbaa404e028e62b3a0e6425410395 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> a schema:Organization;
+  schema:name "Vancouver Island Symphony" .
+
+<http://www.spektrix.com/theporttheatre/event/32001ABCGNLKMHMQDQQTTRQRNTSNGPVMC> a
+    schema:Event;
+  schema:name "Waves of Latin Jazz ";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-02-13T19:30:00"^^xsd:dateTime;
+  schema:image "";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410396;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> .
+
+_:467a8bdbaa404e028e62b3a0e6425410396 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<http://www.spektrix.com/theporttheatre/event/20201AVQHKKMVCNSSQSPNTVCQPQCKBBPV> a
+    schema:Event;
+  schema:name "Website Integration Test show";
+  schema:description """
+	Website Content<span><br/></span><span><br/></span><span class=\"BoldText\">Preshow Chat 6:45pm</span><span><br/></span><span><br/></span>This is a <span class=\"ItalicText\">description for the</span> Port Theatre ticketing website<span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">bold italic</span></span><span><br/></span><span><br/></span><span class=\"UnderlineText\">underlined</span><span><br/></span><span><br/></span><ul><li>first item</li><li>second item</li></ul><span><br/></span><ol><li>first item</li><li>sedcond item</li></ol><span><br/></span><a target=\"_top\" href=\"http://www.formulate.ca\">link test</a><span><br/></span>
+""";
+  schema:startDate "2026-06-05T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-06-05T19:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/cd4ecf75-2cb2-4f8b-abed-2a7104366235.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410397;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> .
+
+_:467a8bdbaa404e028e62b3a0e6425410397 a skos:Concept;
+  skos:prefLabel "Music" .
+
+<https://spektrix.com/theporttheatre/organization/the-port-theatre-society> a schema:Organization;
+  schema:name "The Port Theatre Society" .
+
+<http://www.spektrix.com/theporttheatre/event/29801AKHGBCBQNDCCBHCDGNPLGJBDMJSD> a
+    schema:Event;
+  schema:name "Yellowpoint Christmas Spectacular";
+  schema:description """
+	The Yellowpoint Christmas Spectacular is a celebration of music, dance, lights and decorations.  Now in its 17th season, it has become a holiday tradition for many across Vancouver Island. <span><br/></span><span><br/></span>What better way to celebrate the season than with tickets to this dazzling spectacle.  It’s fast moving and colorful.  It will take you on an emotional journey through a wide variety of music and dance from rock & roll to Broadway, jazz and classical, tap, interwoven with touching readings and stories.<span><br/></span><span><br/></span>This year's singing and dancing extravaganza includes medleys of well-known songs by Bobby Darrin, a selection of musical numbers from Mary Poppins and Frozen, a classic 80's rock band tribute, a disco set including Stayin' Alive, a fun collection of Canadian songs, an audience sing-along, Bing Crosby's classic White Christmas as well as many more classical hits and Christmas favorites.<span><br/></span><span><br/></span>Three weeks before opening night, a team of 19 professional singers, dancers, musicians and theatre artists will begin rehearsals in preparation for opening night!<span><br/></span><span><br/></span>Tickets on sale August 6th, 2025.  This show is in popular demand. A favorite among bus tour groups, staff parties, family and friend reunions, and festive celebrations.  Book early so you don’t miss this exciting holiday event!<span><br/></span><span><br/></span>ARTISTIC DIRECTOR & PRODUCER: Katy Bowen-Roberts<span><br/></span><span><br/></span>MUSICAL DIRECTOR & ARRANGER: James Mark<span><br/></span><span><br/></span>CO-DIRECTOR & CHOREOGRAPHER: Lindsay Sterk<span><br/></span><span><br/></span>LIGHTING: Hilary Britton-Foster<span><br/></span><span><br/></span>SOUND: Steve Adamson<span><br/></span><span><br/></span>STAGE MANAGER: Shelby Matthews<span><br/></span>
+""";
+  schema:startDate "2025-12-16T19:00:00"^^xsd:dateTime;
+  schema:endDate "2025-12-21T14:00:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4554f45f-b2b6-4751-8589-c24784b17eb4.jpg";
+  schema:additionalType _:467a8bdbaa404e028e62b3a0e6425410398;
+  schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:organizer <https://spektrix.com/theporttheatre/organization/razzle-dazzle-productions> .
+
+_:467a8bdbaa404e028e62b3a0e6425410398 a skos:Concept;
+  skos:prefLabel "Special Events" .
+
+<https://spektrix.com/theporttheatre/organization/razzle-dazzle-productions> a schema:Organization;
+  schema:name "Razzle Dazzle Productions" .

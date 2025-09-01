@@ -180,26 +180,6 @@
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theatreaquarius/files/3a8d784a-a75e-4049-b443-2f34c892f660.jpg";
   schema:location <https://spektrix.com/theatreaquarius/location/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> .
 
-<http://www.spektrix.com/theatreaquarius/event/11401ADJMJHLSTCBJCSJGTJRVLDRSDLQV>
-  a schema:Event;
-  schema:name "B Sides: The One That Got Away";
-  schema:description """
-	<h1>Studio Series </h1><h1>B Sides, The One That Got Away</h1><h2>Directed by Mary Francis Moore </h2><span><br/></span>B Sides, The One That Got Away is a stripped-down concert series dedicated to the songs that almost slipped through the cracks—the unreleased gems, forgotten demos, and deep cuts that never made the main stage.<span><br/></span>
-""";
-  schema:startDate "2026-05-08T19:30:00"^^xsd:dateTime;
-  schema:endDate "2026-05-10T13:30:00"^^xsd:dateTime;
-  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theatreaquarius/files/15c0dc7b-e8d1-4570-83bb-c23e455e1276.jpg";
-  schema:location <https://spektrix.com/theatreaquarius/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-<https://spektrix.com/theatreaquarius/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
-  a schema:Place;
-  schema:name "Studio";
-  schema:address <https://spektrix.com/theatreaquarius/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-<https://spektrix.com/theatreaquarius/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a
-    schema:PostalAddress;
-  schema:addressCountry "CA" .
-
 <http://www.spektrix.com/theatreaquarius/event/8601AVPPNNBTVGDHCLBCTPRSLGQPDSBRD>
   a schema:Event;
   schema:name "Boom X";
@@ -237,6 +217,26 @@
   schema:address <https://spektrix.com/theatreaquarius/address/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> .
 
 <https://spektrix.com/theatreaquarius/address/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> a
+    schema:PostalAddress;
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/theatreaquarius/event/11401ADJMJHLSTCBJCSJGTJRVLDRSDLQV>
+  a schema:Event;
+  schema:name "B-Sides: The One That Got Away";
+  schema:description """
+	<h1>Studio Series </h1><h1>B Sides, The One That Got Away</h1><h2>Directed by Mary Francis Moore </h2><span><br/></span>B Sides, The One That Got Away is a stripped-down concert series dedicated to the songs that almost slipped through the cracks—the unreleased gems, forgotten demos, and deep cuts that never made the main stage.<span><br/></span>
+""";
+  schema:startDate "2026-05-08T19:30:00"^^xsd:dateTime;
+  schema:endDate "2026-05-10T13:30:00"^^xsd:dateTime;
+  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theatreaquarius/files/15c0dc7b-e8d1-4570-83bb-c23e455e1276.jpg";
+  schema:location <https://spektrix.com/theatreaquarius/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/theatreaquarius/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:Place;
+  schema:name "Studio";
+  schema:address <https://spektrix.com/theatreaquarius/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/theatreaquarius/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a
     schema:PostalAddress;
   schema:addressCountry "CA" .
 
@@ -460,25 +460,14 @@
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theatreaquarius/files/7178406d-8ebe-4193-86b6-e5c3996669fb.jpg";
   schema:location <https://spektrix.com/theatreaquarius/location/602AMNRTHHBLJSTLSJRDJBQTLQHMVHVVR> .
 
-<http://www.spektrix.com/theatreaquarius/event/15801AMKKPNSMSJBRKTDKDKJVGCKCBJKN>
-  a schema:Event;
-  schema:name "Hamilton Sings Vol. 1";
-  schema:description """
-
-""";
-  schema:startDate "2025-08-23T19:00:00"^^xsd:dateTime;
-  schema:endDate "2025-08-23T19:00:00"^^xsd:dateTime;
-  schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theatreaquarius/files/03addab0-14ce-45bd-a020-6404cb3cfd05.jpg";
-  schema:location <https://spektrix.com/theatreaquarius/location/602AMNRTHHBLJSTLSJRDJBQTLQHMVHVVR> .
-
 <http://www.spektrix.com/theatreaquarius/event/16401ABVRRCMPGBBKHVKSLVNQTBRMLVRH>
   a schema:Event;
   schema:name "Have Jokes, Will Travel";
   schema:description """
 
 """;
-  schema:startDate "2025-09-19T19:00:00"^^xsd:dateTime;
-  schema:endDate "2025-09-19T19:00:00"^^xsd:dateTime;
+  schema:startDate "2025-09-19T19:30:00"^^xsd:dateTime;
+  schema:endDate "2025-09-19T19:30:00"^^xsd:dateTime;
   schema:image "https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theatreaquarius/files/a0d5e7b2-bf09-41e1-8146-21bef0bcbcc3.jpg";
   schema:location <https://spektrix.com/theatreaquarius/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
