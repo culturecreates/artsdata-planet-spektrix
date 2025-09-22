@@ -1,4 +1,5 @@
 import requests, json, os
+import util
 
 source = os.environ.get('SOURCE').strip()
 
@@ -12,6 +13,10 @@ def get_entities(entity):
 
 def enrich_event_with_location(event, venues, instances, plans):
     print(f"Enriching event {event.get('id')} with location...")
+
+    for venue_data in venues:
+        venue_data["address"] = util.split_address(venue_data.get('address', ''))           
+
     event_id = event.get("id")
     if not event_id:
         return event
@@ -32,7 +37,7 @@ def enrich_event_with_location(event, venues, instances, plans):
             plan = next((plan for plan in plans if plan.get("id") == plan_id), None)
             venue_id = plan.get("venue", {}).get("id") if plan else None
 
-            new_event['locations'] = list(event.get('locations', []))  
+            new_event['locations'] = []
 
             if venue_id and not any(location.get("id") == venue_id for location in new_event['locations']):
                 venue_info = next((venue for venue in venues if venue.get("id") == venue_id), None)
@@ -66,7 +71,7 @@ def main():
     with open(f"json_data/{source}.json", "w") as file:
         file.write(json_data)
 
-    print(f"Events have been saved to ${source}.json")
+    print(f"Events have been saved to {source}.json")
 
 if __name__ == "__main__":
     main()

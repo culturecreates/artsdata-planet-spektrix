@@ -497,11 +497,8 @@
                 "values": [
                   {
                     "valueSource": {
-                      "source": "row_index"
-                    },
-                    "transformation": {
-                      "language": "grel",
-                      "expression": "cells[\"_ - locations - _ - address\"].value.split(\",\")[0].trim()"
+                      "source": "column",
+                      "columnName": "_ - locations - _ - address - streetAddress"
                     },
                     "valueType": {
                       "type": "literal"
@@ -523,11 +520,8 @@
                 "values": [
                   {
                     "valueSource": {
-                      "source": "row_index"
-                    },
-                    "transformation": {
-                      "language": "grel",
-                      "expression": "cells[\"_ - locations - _ - address\"].value.split(\",\")[1].trim()"
+                      "source": "column",
+                      "columnName": "_ - locations - _ - address - addressLocality"
                     },
                     "valueType": {
                       "type": "literal"
@@ -549,11 +543,8 @@
                 "values": [
                   {
                     "valueSource": {
-                      "source": "row_index"
-                    },
-                    "transformation": {
-                      "language": "grel",
-                      "expression": "cells[\"_ - locations - _ - address\"].value.split(\",\")[2].trim()"
+                      "source": "column",
+                      "columnName": "_ - locations - _ - address - addressRegion"
                     },
                     "valueType": {
                       "type": "literal"
@@ -575,11 +566,8 @@
                 "values": [
                   {
                     "valueSource": {
-                      "source": "row_index"
-                    },
-                    "transformation": {
-                      "language": "grel",
-                      "expression": "cells[\"_ - locations - _ - address\"].value.split(\",\")[3].trim()"
+                      "source": "column",
+                      "columnName": "_ - locations - _ - address - postalCode"
                     },
                     "valueType": {
                       "type": "literal"
