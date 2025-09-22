@@ -27,7 +27,8 @@
   a schema:PostalAddress;
   schema:streetAddress "850 4th Street SE";
   schema:addressLocality "Calgary";
-  schema:addressRegion "AB T2G 0L8";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 0L8";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/95402ASRVRMLDCHQMCRLKCVQCNRBTMMDV>
@@ -49,7 +50,8 @@
   a schema:PostalAddress;
   schema:streetAddress "850 4th Street SE";
   schema:addressLocality "Calgary";
-  schema:addressRegion "AB T2G 0L8";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 0L8";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/110401AVTRJSJPKNRVVHGRGMRTCCVGSHJ>
@@ -1681,7 +1683,8 @@
   a schema:PostalAddress;
   schema:streetAddress "850 4th Street SE";
   schema:addressLocality "Calgary";
-  schema:addressRegion "AB T2G 0L8";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 0L8";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/139001AKDJRRGHJGTBHRTTJLPLRHDCGMK>
@@ -1833,7 +1836,8 @@
   a schema:PostalAddress;
   schema:streetAddress "850 4th Street SE";
   schema:addressLocality "Calgary";
-  schema:addressRegion "AB T2G 0L8";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 0L8";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/141802AKPPSVLDMGHKHDBKCCQKHTMBGCM>
@@ -1894,7 +1898,6 @@
 <https://spektrix.com/nationalmusiccentre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
   a schema:PostalAddress;
   schema:streetAddress "438 9th Avenue SE";
-  schema:addressLocality "Calgary";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/86801AQGMPJRRVSCVQHBPPKJPHDCLBDJG>
@@ -2216,7 +2219,8 @@
   a schema:PostalAddress;
   schema:streetAddress "850 4th Street SE";
   schema:addressLocality "Calgary";
-  schema:addressRegion "AB T2G 0L8";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 0L8";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/87001ATNHRQCRQHKBKPTBSRTPVHCMNHHK>
@@ -3329,16 +3333,6 @@
   schema:image "";
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
-<http://www.spektrix.com/nationalmusiccentre/event/91030AQPPNHSPKJSPHDPLQKBMPSVMSRKS>
-  a schema:Event;
-  schema:name "Studio Bell Admission";
-  schema:description """
-
-""";
-  schema:startDate "2025-02-18T10:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
-
 <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
   a schema:Place;
   schema:name "Studio Bell";
@@ -3348,8 +3342,19 @@
   a schema:PostalAddress;
   schema:streetAddress "850 4th Street SE";
   schema:addressLocality "Calgary";
-  schema:addressRegion "AB T2G 0L8";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 0L8";
   schema:addressCountry "CA" .
+
+<http://www.spektrix.com/nationalmusiccentre/event/91030AQPPNHSPKJSPHDPLQKBMPSVMSRKS>
+  a schema:Event;
+  schema:name "Studio Bell Admission";
+  schema:description """
+
+""";
+  schema:startDate "2025-02-18T10:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
 <http://www.spektrix.com/nationalmusiccentre/event/91031ATJGRCGPCQBGJJLBBQHMTGVRVRMH>
   a schema:Event;
@@ -4991,16 +4996,6 @@
   schema:image "";
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
-<http://www.spektrix.com/nationalmusiccentre/event/102326ARNTVMBHKCDMQRVNLCCKLBQQBGH>
-  a schema:Event;
-  schema:name "Studio Bell Admission";
-  schema:description """
-
-""";
-  schema:startDate "2025-08-04T10:00:00"^^xsd:dateTime;
-  schema:image "";
-  schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
-
 <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
   a schema:Place;
   schema:name "Studio Bell";
@@ -5010,8 +5005,19 @@
   a schema:PostalAddress;
   schema:streetAddress "850 4th Street SE";
   schema:addressLocality "Calgary";
-  schema:addressRegion "AB T2G 0L8";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 0L8";
   schema:addressCountry "CA" .
+
+<http://www.spektrix.com/nationalmusiccentre/event/102326ARNTVMBHKCDMQRVNLCCKLBQQBGH>
+  a schema:Event;
+  schema:name "Studio Bell Admission";
+  schema:description """
+
+""";
+  schema:startDate "2025-08-04T10:00:00"^^xsd:dateTime;
+  schema:image "";
+  schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
 
 <http://www.spektrix.com/nationalmusiccentre/event/102327AKMSCMCMPHCLRJVRPLJJLDDRVLK>
   a schema:Event;
@@ -6532,7 +6538,8 @@
   a schema:PostalAddress;
   schema:streetAddress "850 4th Street SE";
   schema:addressLocality "Calgary";
-  schema:addressRegion "AB T2G 0L8";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 0L8";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/96801ADHLKNLHKQQPHHDBRLVLVNSHTGBL>

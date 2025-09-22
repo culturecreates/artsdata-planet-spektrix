@@ -3766,6 +3766,7 @@
   schema:address <https://spektrix.com/rcmusic/address/1802ARGRKTLMNQKVDQSCGBCSGTHTTCNNB> .
 
 <https://spektrix.com/rcmusic/address/1802ARGRKTLMNQKVDQSCGBCSGTHTTCNNB> a schema:PostalAddress;
+  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/rcmusic/event/353802AJBRGGJSJJNKSHVVCDLGBHTTDTG> a schema:Event;
@@ -3884,7 +3885,8 @@
 
 <https://spektrix.com/rcmusic/address/10602AHDMNLCMHMSNTLVGHPDPDHSBSRLM> a schema:PostalAddress;
   schema:streetAddress "59 St George St";
-  schema:addressLocality "Toronto ON";
+  schema:addressLocality "Toronto";
+  schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/rcmusic/event/419601ACDPJGLNLQNBKHCRDHNRMPGLQVR> a schema:Event;
@@ -4034,7 +4036,7 @@
 <https://spektrix.com/rcmusic/address/9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH> a schema:PostalAddress;
   schema:streetAddress "Accolade East Building";
   schema:addressLocality "83 York Blvd";
-  schema:addressRegion "Toronto ON";
+  schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/rcmusic/event/361001ATPTMLPLTDTLTLDBHVRGQQNPVJJ> a schema:Event;
@@ -4277,6 +4279,20 @@
   schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
+<https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music>
+  a schema:Organization;
+  schema:name "University of Toronto Faculty of Music" .
+
+<https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:Place;
+  schema:name "Edward Johnson Building";
+  schema:address <https://spektrix.com/rcmusic/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/rcmusic/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:PostalAddress;
+  schema:streetAddress "80 Queen's Park";
+  schema:addressLocality "Toronto";
+  schema:addressRegion "ON";
+  schema:addressCountry "CA" .
+
 <http://www.spektrix.com/rcmusic/event/413402AHJJQLLLSJRJRCKHRSPCQBMMPJP> a schema:Event;
   schema:name "U of T presents Wind Ensemble";
   schema:description """
@@ -4287,10 +4303,6 @@
   schema:location <https://spektrix.com/rcmusic/location/9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH>;
   schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
 
-<https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music>
-  a schema:Organization;
-  schema:name "University of Toronto Faculty of Music" .
-
 <https://spektrix.com/rcmusic/location/9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH> a schema:Place;
   schema:name "York University";
   schema:address <https://spektrix.com/rcmusic/address/9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH> .
@@ -4298,7 +4310,7 @@
 <https://spektrix.com/rcmusic/address/9602ACVHCKNRTRHBHPRRGHNNQMVKVKPVH> a schema:PostalAddress;
   schema:streetAddress "Accolade East Building";
   schema:addressLocality "83 York Blvd";
-  schema:addressRegion "Toronto ON";
+  schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/rcmusic/event/414401ABDGKKVVMPBTVPLSQDPCLKNCBMV> a schema:Event;
@@ -4310,16 +4322,6 @@
   schema:image "";
   schema:location <https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/rcmusic/organization/university-of-toronto-faculty-of-music> .
-
-<https://spektrix.com/rcmusic/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:Place;
-  schema:name "Edward Johnson Building";
-  schema:address <https://spektrix.com/rcmusic/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
-
-<https://spektrix.com/rcmusic/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:PostalAddress;
-  schema:streetAddress "80 Queen's Park";
-  schema:addressLocality "Toronto";
-  schema:addressRegion "ON";
-  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/rcmusic/event/413602ALVGHSKNJJKRKVNSLMKTLTMRGSP> a schema:Event;
   schema:name "U of T presents Wind Ensemble";
@@ -4346,6 +4348,7 @@
   schema:address <https://spektrix.com/rcmusic/address/1802ARGRKTLMNQKVDQSCGBCSGTHTTCNNB> .
 
 <https://spektrix.com/rcmusic/address/1802ARGRKTLMNQKVDQSCGBCSGTHTTCNNB> a schema:PostalAddress;
+  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/rcmusic/event/414801ADDKKTPCTQJJPCKVBNRBCJSJLDC> a schema:Event;
@@ -4571,8 +4574,7 @@
 <https://spektrix.com/rcmusic/address/10202ADJGHVCGKNPSMBBSGCQGHLJSLGTS> a schema:PostalAddress;
   schema:streetAddress "947 Queen St E";
   schema:addressLocality "2nd Floor";
-  schema:addressRegion "Toronto";
-  schema:postalCode "ON";
+  schema:addressRegion "ON";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/rcmusic/event/409201ATMBBQCLMQJNKGGNMCNSLPBDRMS> a schema:Event;
