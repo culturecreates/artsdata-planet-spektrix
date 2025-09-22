@@ -21,15 +21,27 @@ def enrich_event_with_location(event, venues, instances, plans):
     event['source'] = source
 
     if event_instances:
+        split_events = []
         for instance in event_instances:
+            new_event = dict(event)  
+            
+            new_event['id'] = instance.get('id')
+            new_event['firstInstanceDateTime'] = instance.get("start")
+            
             plan_id = instance.get("planId")
             plan = next((plan for plan in plans if plan.get("id") == plan_id), None)
-            venue_id = plan.get("venue", {}).get("id")
-            if any(location.get("id") == venue_id for location in event['locations']):
-                continue
-            venue_info = next((venue for venue in venues if venue.get("id") == venue_id), None)
-            event['locations'].append(venue_info) 
-        return event
+            venue_id = plan.get("venue", {}).get("id") if plan else None
+
+            new_event['locations'] = list(event.get('locations', []))  
+
+            if venue_id and not any(location.get("id") == venue_id for location in new_event['locations']):
+                venue_info = next((venue for venue in venues if venue.get("id") == venue_id), None)
+                if venue_info:
+                    new_event['locations'].append(venue_info)
+
+            split_events.append(new_event)
+
+        return split_events
 
 def main():
     try:
@@ -40,7 +52,11 @@ def main():
     except requests.exceptions.RequestException as e:
         print(f"Error: {e}")
         exit(0)
-    enriched_events = [enrich_event_with_location(event, venues, instances, plans) for event in events]
+    enriched_events = [
+        enriched_event
+        for event in events
+        for enriched_event in enrich_event_with_location(event, venues, instances, plans)
+    ]
 
     json_data = json.dumps(enriched_events, indent=4)
 

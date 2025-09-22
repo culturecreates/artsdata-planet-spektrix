@@ -143,39 +143,6 @@
                 "property": {
                   "valueSource": {
                     "source": "constant",
-                    "constant": "endDate"
-                  },
-                  "transformation": {
-                    "language": "prefix",
-                    "expression": "schema"
-                  }
-                },
-                "values": [
-                  {
-                    "valueSource": {
-                      "source": "column",
-                      "columnName": "_ - lastInstanceDateTime"
-                    },
-                    "valueType": {
-                      "type": "datatype_literal",
-                      "datatype": {
-                        "valueSource": {
-                          "source": "constant",
-                          "constant": "dateTime"
-                        },
-                        "transformation": {
-                          "language": "prefix",
-                          "expression": "xsd"
-                        }
-                      }
-                    }
-                  }
-                ]
-              },
-              {
-                "property": {
-                  "valueSource": {
-                    "source": "constant",
                     "constant": "image"
                   },
                   "transformation": {
