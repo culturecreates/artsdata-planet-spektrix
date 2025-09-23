@@ -5,7 +5,9 @@ config_file="ontorefine/configuration.json"
 column_additions_file="ontorefine/columns.json"
 jq '.operations |= (input + .)' $config_file $column_additions_file > updated-configuration.json
 
+source .venv/bin/activate # activate the virtual environment if applicable
 SOURCE=kaymeekcentre python3 main.py
+deactivate
 
 # Start the services in the background
 sudo docker compose up -d
