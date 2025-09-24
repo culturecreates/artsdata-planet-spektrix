@@ -1,6 +1,4 @@
-import requests, json, os
-import util
-
+import requests, json, os, util, yaml
 source = os.environ.get('SOURCE').strip()
 
 base_url = f"https://system.spektrix.com/{source}/api/v3"
@@ -11,7 +9,7 @@ def get_entities(entity):
     response.raise_for_status()
     return response.json()
 
-def enrich_event_with_location(event, venues, instances, plans):
+def enrich_event(event, venues, instances, plans, additional_info):
     print(f"Enriching event {event.get('id')} with location...")
 
     for venue_data in venues:
@@ -31,7 +29,9 @@ def enrich_event_with_location(event, venues, instances, plans):
             new_event = dict(event)  
             
             new_event['id'] = instance.get('id')
+            new_event['webInstanceId'] = instance.get('webInstanceId')
             new_event['firstInstanceDateTime'] = instance.get("start")
+            new_event = util.add_additional_info(new_event, additional_info)
             
             plan_id = instance.get("planId")
             plan = next((plan for plan in plans if plan.get("id") == plan_id), None)
@@ -57,10 +57,14 @@ def main():
     except requests.exceptions.RequestException as e:
         print(f"Error: {e}")
         exit(0)
+    with open("additional_info.yaml") as f:
+        additional_info = yaml.safe_load(f)
+
+    additional_info_for_source = additional_info.get(source, {})
     enriched_events = [
         enriched_event
         for event in events
-        for enriched_event in enrich_event_with_location(event, venues, instances, plans)
+        for enriched_event in enrich_event(event, venues, instances, plans, additional_info_for_source)
     ]
 
     json_data = json.dumps(enriched_events, indent=4)

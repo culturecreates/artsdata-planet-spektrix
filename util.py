@@ -54,6 +54,22 @@ def extract_locality(address: str) -> str:
             return locality
     return None
 
+def add_additional_info(event: dict, additional_info: dict) -> dict:
+    # loop throufgh additional_info keys and add to event if not present
+    for key, value in additional_info.items():
+        if event.get(key) is None and value:
+            placeholders = extract_placeholders(value)
+            for placeholder in placeholders:
+                placeholder_value = event.get(placeholder)
+                if placeholder_value:
+                    value = value.replace(f"{{{placeholder}}}", str(placeholder_value))
+            event[key] = value
+    return event
+
+def extract_placeholders(s: str) -> list[str]:
+    # find all substrings inside {}
+    return re.findall(r"\{([^}]+)\}", s)
+
 if __name__ == "__main__":
     # Example usage
     address = "123 Main St., Vancouver, BC V5K 0A1"

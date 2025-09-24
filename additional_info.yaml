@@ -1,0 +1,20 @@
+# To add a new source, copy the structure below and replace the key ("albertatheatreprojects") 
+# with the source identifier (usually the organization's slug or name). 
+# Each source can define its own attributes, such as:
+#   - attribute_EventUrl: the URL where events are listed
+#   - offerUrl: a booking/purchase URL that may include placeholders (e.g., {webInstanceId})
+# Add additional attributes as needed for that source.
+#
+# Example structure:
+#
+# sourcename1:
+#   attribute_EventUrl: "https://example.com/events1"
+#   offerUrl: "https://example.com/book/?id={eventId1}"
+#
+# sourcename2:
+#   attribute_EventUrl: "https://example.com/events2"
+#   offerUrl: "https://example.com/tickets/?event={eventId2}"
+
+albertatheatreprojects:
+  attribute_EventUrl: "https://albertatheatreprojects.com/whats-on/"
+  offerUrl: "https://albertatheatreprojects.com/book/?web_instance_id={webInstanceId}"
