@@ -55,7 +55,7 @@ def extract_locality(address: str) -> str:
     return None
 
 def add_additional_info(event: dict, additional_info: dict) -> dict:
-    # loop throufgh additional_info keys and add to event if not present
+    # loop through additional_info keys and add to event if not present
     for key, value in additional_info.items():
         if event.get(key) is None and value:
             placeholders = extract_placeholders(value)

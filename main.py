@@ -61,6 +61,8 @@ def main():
         additional_info = yaml.safe_load(f)
 
     additional_info_for_source = additional_info.get(source, {})
+    default_additional_info = additional_info.get("default", {})
+    additional_info_for_source = {**default_additional_info, **additional_info_for_source}
     enriched_events = [
         enriched_event
         for event in events
