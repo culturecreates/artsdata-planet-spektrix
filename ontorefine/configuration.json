@@ -329,7 +329,7 @@
                             {
                               "valueSource": {
                                 "source": "column",
-                                "columnName": "attribute_PerformerSameAs"
+                                "columnName": "_ - attribute_PresentedBySameAs"
                               },
                               "transformation": {
                                 "language": "raw"
@@ -420,7 +420,7 @@
                             {
                               "valueSource": {
                                 "source": "column",
-                                "columnName": "attribute_PerformerSameAs"
+                                "columnName": "_ - attribute_PerformerSameAs"
                               },
                               "transformation": {
                                 "language": "raw"
@@ -525,6 +525,29 @@
                               }
                             }
                           ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "price"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - attribute_LowestPrice"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
                         }
                       ]
                     }
@@ -621,6 +644,34 @@
                     "transformation": {
                       "language": "grel",
                       "expression": "\"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/address/\" + cells[\"_ - locations - _ - id\"].value"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "sameAs"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - attribute_VenueSameAs"
+                    },
+                    "transformation": {
+                      "language": "raw"
                     },
                     "valueType": {
                       "type": "iri",
