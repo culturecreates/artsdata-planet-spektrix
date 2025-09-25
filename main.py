@@ -33,7 +33,7 @@ def enrich_event(event, venues, instances, plans, additional_info):
             new_event['id'] = instance.get('id')
             new_event['webInstanceId'] = instance.get('webInstanceId')
             new_event['firstInstanceDateTime'] = instance.get("start")
-            event_duration = event.get("duration", 60)
+            event_duration = event.get("duration", 0) or 60
             new_event['duration'] = "PT" + str(event_duration) + "M"
             new_event['lastInstanceDateTime'] = (
                 datetime.fromisoformat(new_event['firstInstanceDateTime']) + 
