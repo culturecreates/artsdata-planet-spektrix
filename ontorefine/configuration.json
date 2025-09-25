@@ -576,6 +576,52 @@
                     }
                   }
                 ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "duration"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - duration"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "endDate"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - lastInstanceDateTime"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
               }
             ]
           },

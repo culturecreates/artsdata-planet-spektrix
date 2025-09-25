@@ -1,4 +1,6 @@
 import requests, json, os, util, yaml
+from datetime import datetime, timedelta
+
 source = os.environ.get('SOURCE').strip()
 
 base_url = f"https://system.spektrix.com/{source}/api/v3"
@@ -31,6 +33,12 @@ def enrich_event(event, venues, instances, plans, additional_info):
             new_event['id'] = instance.get('id')
             new_event['webInstanceId'] = instance.get('webInstanceId')
             new_event['firstInstanceDateTime'] = instance.get("start")
+            event_duration = event.get("duration", 60)
+            new_event['duration'] = "PT" + str(event_duration) + "M"
+            new_event['lastInstanceDateTime'] = (
+                datetime.fromisoformat(new_event['firstInstanceDateTime']) + 
+                timedelta(minutes=event_duration)
+            ).isoformat()
             new_event = util.add_additional_info(new_event, additional_info)
             
             plan_id = instance.get("planId")
