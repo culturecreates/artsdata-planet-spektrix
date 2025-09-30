@@ -51,10 +51,8 @@ def enrich_event(event, venues, instances, plans, additional_info):
         split_events = []
         for instance in event_instances:
             new_event = dict(event)  
-
-            new_event['id'] = instance.get('id')
-            new_event['webInstanceId'] = instance.get('webInstanceId')
-            new_event['firstInstanceDateTime'] = instance.get("start")
+            for key, value in instance.items():
+                new_event[f"instance_{key}"] = value
             event_duration = event.get("duration", 0) or 60
             new_event['duration'] = "PT" + str(event_duration) + "M"
             new_event['lastInstanceDateTime'] = (

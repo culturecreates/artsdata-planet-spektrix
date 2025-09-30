@@ -41,7 +41,7 @@
               },
               "transformation": {
                 "language": "grel",
-                "expression": "\"http://www.spektrix.com/\" + cells[\"_ - source\"].value+\"/event/\"+cells[\"_ - id\"].value"
+                "expression": "\"http://www.spektrix.com/\" + cells[\"_ - source\"].value+\"/event/\"+cells[\"_ - instance_id\"].value"
               }
             },
             "typeMappings": [
