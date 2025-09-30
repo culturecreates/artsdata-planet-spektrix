@@ -22,7 +22,7 @@
     {
       "op": "mapping-editor/save-rdf-mapping",
       "mapping": {
-        "baseIRI": "https://www.spektrix.com/",
+        "baseIRI": "http://example.com/base/",
         "namespaces": {
           "event": "https://spektrix.com/event/",
           "schema": "http://schema.org/",
@@ -160,7 +160,9 @@
                       "language": "raw"
                     },
                     "valueType": {
-                      "type": "literal"
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
                     }
                   }
                 ]
@@ -470,7 +472,7 @@
                 "property": {
                   "valueSource": {
                     "source": "constant",
-                    "constant": "offer"
+                    "constant": "offers"
                   },
                   "transformation": {
                     "language": "prefix",
@@ -480,23 +482,14 @@
                 "values": [
                   {
                     "valueSource": {
-                      "source": "column",
-                      "columnName": "_ - offerUrl"
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "if(cells[\"_ - attribute_LowestPrice\"].value == \"\", \n  null, \n  cells[\"_ - attribute_LowestPrice\"].value\n)"
                     },
                     "valueType": {
-                      "type": "value_bnode",
-                      "typeMappings": [
-                        {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "Offer"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "schema"
-                          }
-                        }
-                      ],
+                      "type": "unique_bnode",
                       "propertyMappings": [
                         {
                           "property": {
