@@ -70,6 +70,16 @@ def extract_placeholders(s: str) -> list[str]:
     # find all substrings inside {}
     return re.findall(r"\{([^}]+)\}", s)
 
+def replace_empty_with_null(obj):
+    if isinstance(obj, dict):
+        return {k: replace_empty_with_null(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [replace_empty_with_null(v) for v in obj]
+    elif obj == "":
+        return None
+    else:
+        return obj
+
 if __name__ == "__main__":
     # Example usage
     address = "123 Main St., Vancouver, BC V5K 0A1"

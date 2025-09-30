@@ -118,5 +118,18 @@
         "onError": "set-to-blank",
         "newColumnName": "_ - attribute_PerformanceSponsor",
         "columnInsertIndex": 1
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "_ - id",
+        "expression": "set-to-blank",
+        "onError": "set-to-blank",
+        "onEmpty": "set-to-blank",
+        "newColumnName": "_ - imageUrl",
+        "columnInsertIndex": 1
     }
 ]

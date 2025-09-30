@@ -75,6 +75,8 @@ def main():
         for enriched_event in enrich_event(event, venues, instances, plans, additional_info_for_source)
     ]
 
+    enriched_events = util.replace_empty_with_null(enriched_events)
+
     json_data = json.dumps(enriched_events, indent=4)
 
     if not os.path.exists("json_data"):
