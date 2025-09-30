@@ -1,4 +1,4 @@
-import requests, json, os, util, yaml
+import requests, json, os, util, yaml, time
 from datetime import datetime, timedelta
 
 source = os.environ.get('SOURCE').strip()
@@ -10,6 +10,28 @@ def get_entities(entity):
     response = requests.get(f"{base_url}/{entity}")
     response.raise_for_status()
     return response.json()
+
+def get_minimum_price(instance_id, retries=3, backoff=2):
+    url = f"{base_url}/instances/{instance_id}/price-list"
+
+    for attempt in range(1, retries + 1):
+        try:
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            data = response.json()
+            prices = data.get('prices', [])
+            
+            return min(
+                (price.get('amount', float('inf')) for price in prices if price.get('amount') is not None),
+                default=None
+            )
+        
+        except (requests.RequestException, ValueError) as e:
+            if attempt < retries:
+                time.sleep(backoff ** attempt)
+            else:
+                print(f"Failed to fetch price list after {retries} attempts: {e}")
+                return None
 
 def enrich_event(event, venues, instances, plans, additional_info):
     print(f"Enriching event {event.get('id')} with location...")
@@ -29,7 +51,7 @@ def enrich_event(event, venues, instances, plans, additional_info):
         split_events = []
         for instance in event_instances:
             new_event = dict(event)  
-            
+
             new_event['id'] = instance.get('id')
             new_event['webInstanceId'] = instance.get('webInstanceId')
             new_event['firstInstanceDateTime'] = instance.get("start")
@@ -39,6 +61,8 @@ def enrich_event(event, venues, instances, plans, additional_info):
                 datetime.fromisoformat(new_event['firstInstanceDateTime']) + 
                 timedelta(minutes=event_duration)
             ).isoformat()
+            if new_event.get('attribute_LowestPrice') is None:
+                new_event['attribute_LowestPrice'] = get_minimum_price(instance.get('id'))
             new_event = util.add_additional_info(new_event, additional_info)
             
             plan_id = instance.get("planId")
