@@ -27,7 +27,6 @@
 
 <https://spektrix.com/theatreaquarius/address/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/28801AVBKQSCSGSCMSTRKBBJTVJRJMRQJ>
@@ -145,7 +144,6 @@
 
 <https://spektrix.com/theatreaquarius/address/602AMNRTHHBLJSTLSJRDJBQTLQHMVHVVR> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/1998APQQTVPKMPGCNSCPPTTDCQNHGGSSP>
@@ -479,7 +477,6 @@
 
 <https://spektrix.com/theatreaquarius/address/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/14862AJDVHGBTVPPVTHLQQQMLRCDBPRHD>
@@ -705,7 +702,6 @@
 
 <https://spektrix.com/theatreaquarius/address/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/17804ADGSCLGLMKMTTBLMHMRDRGDPSRPL>
@@ -727,7 +723,6 @@
 
 <https://spektrix.com/theatreaquarius/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/17805ADVPBLTQCBRRCTDTJCBBLJNHGPBL>
@@ -1529,7 +1524,6 @@
 
 <https://spektrix.com/theatreaquarius/address/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/1878AVLSRNCHNDQDJKMBLVHSVNKNRSHLV>
@@ -1575,7 +1569,6 @@
 
 <https://spektrix.com/theatreaquarius/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/20602AVBBCJSPSGLQMNGMHPRPJBHCBTJB>
@@ -1645,7 +1638,6 @@
 
 <https://spektrix.com/theatreaquarius/address/602AMNRTHHBLJSTLSJRDJBQTLQHMVHVVR> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/1815AHMRNTGRCTRPNTHLDMDBLNSVGQCBR>
@@ -1919,7 +1911,6 @@
 
 <https://spektrix.com/theatreaquarius/address/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/15402ALRVRKNRMTSRQHRNGCCDJJDLJMQV>
@@ -2253,7 +2244,6 @@
 
 <https://spektrix.com/theatreaquarius/address/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/26001APLNVRTPLBBPSVMJQSVGGNQMBRBG>
@@ -3024,16 +3014,6 @@
   schema:duration "PT60M";
   schema:endDate "2025-01-30T20:00:00" .
 
-<https://spektrix.com/theatreaquarius/location/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP>
-  a schema:Place;
-  schema:name "Theatre Aquarius Arts Centre";
-  schema:address <https://spektrix.com/theatreaquarius/address/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> .
-
-<https://spektrix.com/theatreaquarius/address/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> a
-    schema:PostalAddress;
-  schema:streetAddress "";
-  schema:addressCountry "CA" .
-
 <http://www.spektrix.com/theatreaquarius/event/8402AVJSBPSSNJKQKBMKQQJRDHSMLLGBD>
   a schema:Event;
   schema:name "Stage & Song: Adult Musical Theatre";
@@ -3045,6 +3025,15 @@
   schema:location <https://spektrix.com/theatreaquarius/location/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP>;
   schema:duration "PT60M";
   schema:endDate "2025-01-27T20:00:00" .
+
+<https://spektrix.com/theatreaquarius/location/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP>
+  a schema:Place;
+  schema:name "Theatre Aquarius Arts Centre";
+  schema:address <https://spektrix.com/theatreaquarius/address/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> .
+
+<https://spektrix.com/theatreaquarius/address/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> a
+    schema:PostalAddress;
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM>
   a schema:Event;
@@ -3065,7 +3054,6 @@
 
 <https://spektrix.com/theatreaquarius/address/602AMNRTHHBLJSTLSJRDJBQTLQHMVHVVR> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/1948ASGCPGJNLJKTGQKCGGLSGNJVTNPVB>
@@ -3315,7 +3303,6 @@
 
 <https://spektrix.com/theatreaquarius/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/4402ADKKSLLMJLTHCKGPTBCHJLLSLRQKC>
@@ -3433,7 +3420,6 @@
 
 <https://spektrix.com/theatreaquarius/address/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> a
     schema:PostalAddress;
-  schema:streetAddress "";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theatreaquarius/event/12002ATQLCBVCLDMVQRLCPTRMVPNVJGLQ>
