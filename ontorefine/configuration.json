@@ -171,66 +171,6 @@
                 "property": {
                   "valueSource": {
                     "source": "constant",
-                    "constant": "additionalType"
-                  },
-                  "transformation": {
-                    "language": "prefix",
-                    "expression": "schema"
-                  }
-                },
-                "values": [
-                  {
-                    "valueSource": {
-                      "source": "column",
-                      "columnName": "_ - attribute_Genre"
-                    },
-                    "valueType": {
-                      "type": "unique_bnode",
-                      "typeMappings": [
-                        {
-                          "valueSource": {
-                            "source": "constant",
-                            "constant": "Concept"
-                          },
-                          "transformation": {
-                            "language": "prefix",
-                            "expression": "skos"
-                          }
-                        }
-                      ],
-                      "propertyMappings": [
-                        {
-                          "property": {
-                            "valueSource": {
-                              "source": "constant",
-                              "constant": "prefLabel"
-                            },
-                            "transformation": {
-                              "language": "prefix",
-                              "expression": "skos"
-                            }
-                          },
-                          "values": [
-                            {
-                              "valueSource": {
-                                "source": "column",
-                                "columnName": "_ - attribute_Genre"
-                              },
-                              "valueType": {
-                                "type": "literal"
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "property": {
-                  "valueSource": {
-                    "source": "constant",
                     "constant": "location"
                   },
                   "transformation": {
@@ -490,6 +430,18 @@
                     },
                     "valueType": {
                       "type": "unique_bnode",
+                      "typeMappings": [
+                        {
+                          "valueSource": {
+                            "source": "constant",
+                            "constant": "Offer"
+                          },
+                          "transformation": {
+                            "language": "prefix",
+                            "expression": "schema"
+                          }
+                        }
+                      ],
                       "propertyMappings": [
                         {
                           "property": {
