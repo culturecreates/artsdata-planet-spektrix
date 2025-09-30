@@ -16,21 +16,18 @@
 """;
   schema:startDate "2026-02-12T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/00286dd6-508e-4dbc-9b92-f9c2fc5049a4.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735476;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735477;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c64993;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2026-02-12T21:00:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735476 a skos:Concept;
-  skos:prefLabel "Music" .
-
 <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> a schema:Organization;
   schema:name "Vancouver Island Symphony" .
 
-_:5aa29e6207b44711a3eb882764a46f735477 schema:price "45.5" .
+_:f341194863f544dfbcc06b29e17fa0c64993 a schema:AggregateOffer;
+  schema:lowPrice "45.5" .
 
 <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> a
     schema:Place;
@@ -53,21 +50,18 @@ _:5aa29e6207b44711a3eb882764a46f735477 schema:price "45.5" .
 """;
   schema:startDate "2025-10-05T23:59:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4f80e45b-9462-4ce8-a221-d39edd99c403.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735478;
   schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735479;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c64994;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2025-10-06T00:59:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735478 a skos:Concept;
-  skos:prefLabel "Music" .
-
 <https://spektrix.com/theporttheatre/organization/the-port-theatre-society> a schema:Organization;
   schema:name "The Port Theatre Society" .
 
-_:5aa29e6207b44711a3eb882764a46f735479 schema:price "116.5" .
+_:f341194863f544dfbcc06b29e17fa0c64994 a schema:AggregateOffer;
+  schema:lowPrice "116.5" .
 
 <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP> a
     schema:Place;
@@ -86,17 +80,14 @@ _:5aa29e6207b44711a3eb882764a46f735479 schema:price "116.5" .
 """;
   schema:startDate "2025-12-12T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/7f6cd71f-9e82-433f-b052-bfbb192b7163.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735480;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735481;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c64995;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2025-12-12T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735480 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735481 schema:price "46.0" .
+_:f341194863f544dfbcc06b29e17fa0c64995 a schema:AggregateOffer;
+  schema:lowPrice "46.0" .
 
 <http://www.spektrix.com/theporttheatre/event/40201AJMHGMLBHTGVNKHNPGVSVHHPSMBQ> a
     schema:Event;
@@ -106,22 +97,19 @@ _:5aa29e6207b44711a3eb882764a46f735481 schema:price "46.0" .
 """;
   schema:startDate "2025-12-10T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/9cf1317f-c9db-4780-947a-5ecb3b07a057.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735482;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/piano-heist---nico-rhodes-&-patrick-courtin>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735483;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c64996;
   schema:keywords "Music";
   schema:duration "PT110M";
   schema:endDate "2025-12-10T15:50:00" .
-
-_:5aa29e6207b44711a3eb882764a46f735482 a skos:Concept;
-  skos:prefLabel "Music" .
 
 <https://spektrix.com/theporttheatre/organization/piano-heist---nico-rhodes-&-patrick-courtin>
   a schema:Organization;
   schema:name "PIANO HEIST - Nico Rhodes & Patrick Courtin" .
 
-_:5aa29e6207b44711a3eb882764a46f735483 schema:price "16.5" .
+_:f341194863f544dfbcc06b29e17fa0c64996 a schema:AggregateOffer;
+  schema:lowPrice "16.5" .
 
 <http://www.spektrix.com/theporttheatre/event/40401AJTHBLMVMBVCCLGRTCHHQHMCLTQK> a
     schema:Event;
@@ -129,20 +117,17 @@ _:5aa29e6207b44711a3eb882764a46f735483 schema:price "16.5" .
   schema:description """
 	<span class=\"BoldText\">Piano Heist</span> returns with a dazzling new holiday production: <span class=\"ItalicText\">A Very Merry Heistmas</span>! A festive romp through Christmas classics interlaced with their own brand of musical and comedic shenanigans, Nico Rhodes & Patrick Courtin tackle everything “Christmas”. <span><br/></span><span><br/></span>Whether it’s the nostalgic charm of Charlie Brown Christmas, a rock & roll styled Nutcracker Suite; The Messiah on melodicas, or a rollicking ragtime Rudolph the Red Nose Reindeer, get ready for a holiday experience that’s truly one-of-a-kind! Bring your festive spirit and prepare to sing-a-long for A Very Merry Heistmas!<span><br/></span><span><br/></span><span class=\"ItalicText\">WHO IS PIANO HEIST?</span><span><br/></span><span><br/></span>In 2022, lifelong friends Nico Rhodes and Patrick Courtin were taken aback by the stark realization that the piano had fallen out of favour. Determined to restore its luster and reclaim its title as the ultimate instrument, they embarked on an exhilarating journey. <span><br/></span><span><br/></span>Drawing inspiration from the masterpieces of legendary composers, songwriters, and performers over the last three centuries, they crafted a mesmerizing show that spans the spectrum from classical piano masterpieces to vibrant boogie-woogie, romantic ballads, and epic 80s synth battles in Piano Heist: Keys are the Champions! Tours have taken them across Canada and the Western U.S., captivating audiences with over 140 performances in both quaint towns and bustling cities.<span><br/></span><span><br/></span>This show is appropriate for all ages. Family Friendly.<span><br/></span><span><br/></span>For more information on Piano Heist, please <a target=\"_blank\" href=\"http://www.pianoheist.com\">Visit Their Website</a>  <span><br/></span>
 """;
-  schema:startDate "2025-12-10T19:00:00"^^xsd:dateTime;
+  schema:startDate "2025-12-10T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/9cf1317f-c9db-4780-947a-5ecb3b07a057.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735484;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/piano-heist---nico-rhodes-&-patrick-courtin>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735485;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c64997;
   schema:keywords "Music";
   schema:duration "PT110M";
-  schema:endDate "2025-12-10T20:50:00" .
+  schema:endDate "2025-12-10T15:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735484 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735485 schema:price "16.5" .
+_:f341194863f544dfbcc06b29e17fa0c64997 a schema:AggregateOffer;
+  schema:lowPrice "16.5" .
 
 <http://www.spektrix.com/theporttheatre/event/34401AVSCHHTDLGCSLVJRSQLBPTLHDKLB> a
     schema:Event;
@@ -152,21 +137,18 @@ _:5aa29e6207b44711a3eb882764a46f735485 schema:price "16.5" .
 """;
   schema:startDate "2025-12-23T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/5055f1a8-3103-4b68-a346-4cecbc1a1eb5.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735486;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/wonderheads-theatre>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735487;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c64998;
   schema:keywords "Family";
   schema:duration "PT75M";
   schema:endDate "2025-12-23T20:45:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735486 a skos:Concept;
-  skos:prefLabel "Family" .
-
 <https://spektrix.com/theporttheatre/organization/wonderheads-theatre> a schema:Organization;
   schema:name "WONDERHEADS Theatre" .
 
-_:5aa29e6207b44711a3eb882764a46f735487 schema:price "28.5" .
+_:f341194863f544dfbcc06b29e17fa0c64998 a schema:AggregateOffer;
+  schema:lowPrice "28.5" .
 
 <http://www.spektrix.com/theporttheatre/event/34601ALVSBJCTDPKVRHHHNJPRRSBQSGSH> a
     schema:Event;
@@ -174,20 +156,17 @@ _:5aa29e6207b44711a3eb882764a46f735487 schema:price "28.5" .
   schema:description """
 	Back by popular demand! Visual storytelling virtuosos, the WONDERHEADS, present their signature reimagining of Charles Dickens’ classic <span class=\"ItalicText\">A Christmas Carol</span>. Bringing the magic of imagination to the stage, this unforgettable live experience features spectacular giant masks, whimsical puppets, and wondrous theatrical invention.<span><br/></span><span><br/></span>A feast for the eyes, ears, and heart, with a generous kick to the funny bone; this astonishing production showcases larger than life characters, glowing ghosts, and 10-foot-tall puppets – to name just a few of the treats in store for audiences as they are whisked away with Ebenezer Scrooge on his magical Christmas Eve adventure. Prepare to laugh, cry, and be utterly enchanted this holiday season!<span><br/></span><span><br/></span>The WONDERHEADS have spent more than a decade touring the world to critical acclaim and sold-out audiences who describe the experience as watching animation come to life. Performed entirely without dialogue, their enchanting work has earned widespread praise, including six Critics’ Choice Awards and twelve Best of Fest honors. In what the CBC describes as <span class=\"ItalicText\">“Pure magic”</span> and the Globe and Mail as <span class=\"ItalicText\">“Powerful, surprising, and moving,”</span> the unforgettable experience of a WONDERHEADS show is not to be missed.<span><br/></span>
 """;
-  schema:startDate "2025-12-24T12:00:00"^^xsd:dateTime;
+  schema:startDate "2025-12-23T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/5055f1a8-3103-4b68-a346-4cecbc1a1eb5.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735488;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/wonderheads-theatre>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735489;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c64999;
   schema:keywords "Family";
   schema:duration "PT75M";
-  schema:endDate "2025-12-24T13:15:00" .
+  schema:endDate "2025-12-23T20:45:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735488 a skos:Concept;
-  skos:prefLabel "Family" .
-
-_:5aa29e6207b44711a3eb882764a46f735489 schema:price "28.5" .
+_:f341194863f544dfbcc06b29e17fa0c64999 a schema:AggregateOffer;
+  schema:lowPrice "28.5" .
 
 <http://www.spektrix.com/theporttheatre/event/35201AQQRSLKMCNNBJNMJCGMJTGPJQHBV> a
     schema:Event;
@@ -197,21 +176,18 @@ _:5aa29e6207b44711a3eb882764a46f735489 schema:price "28.5" .
 """;
   schema:startDate "2025-10-11T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/77d62ddc-f250-453d-97f6-91962355491d.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735490;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/punchline-nutrition>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735491;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65000;
   schema:keywords "Comedy";
   schema:duration "PT120M";
   schema:endDate "2025-10-11T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735490 a skos:Concept;
-  skos:prefLabel "Comedy" .
-
 <https://spektrix.com/theporttheatre/organization/punchline-nutrition> a schema:Organization;
   schema:name "Punchline Nutrition" .
 
-_:5aa29e6207b44711a3eb882764a46f735491 schema:price "46.45" .
+_:f341194863f544dfbcc06b29e17fa0c65000 a schema:AggregateOffer;
+  schema:lowPrice "46.45" .
 
 <http://www.spektrix.com/theporttheatre/event/35401APNVLPNRJRDCGRRCTSSJTSMNRNQD> a
     schema:Event;
@@ -220,21 +196,18 @@ _:5aa29e6207b44711a3eb882764a46f735491 schema:price "46.45" .
 
 """;
   schema:startDate "2026-03-27T19:30:00"^^xsd:dateTime;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735492;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/rock.it-boy-entertainment>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735493;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65001;
   schema:keywords "Tribute";
   schema:duration "PT120M";
   schema:endDate "2026-03-27T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735492 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
 <https://spektrix.com/theporttheatre/organization/rock.it-boy-entertainment> a schema:Organization;
   schema:name "Rock.It Boy Entertainment" .
 
-_:5aa29e6207b44711a3eb882764a46f735493 schema:price "55.5" .
+_:f341194863f544dfbcc06b29e17fa0c65001 a schema:AggregateOffer;
+  schema:lowPrice "55.5" .
 
 <http://www.spektrix.com/theporttheatre/event/24201AQBJSCTMKBQRHSLCPQSBDTRMBNBT> a
     schema:Event;
@@ -244,17 +217,14 @@ _:5aa29e6207b44711a3eb882764a46f735493 schema:price "55.5" .
 """;
   schema:startDate "2026-02-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/e30fbb41-1b76-44b6-a88d-9ba814282bed.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735494;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735495;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65002;
   schema:keywords "Music";
   schema:duration "PT140M";
   schema:endDate "2026-02-15T22:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735494 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735495 schema:price "52.0" .
+_:f341194863f544dfbcc06b29e17fa0c65002 a schema:AggregateOffer;
+  schema:lowPrice "52.0" .
 
 <http://www.spektrix.com/theporttheatre/event/8001ARTDCCTGLQPKPGKVDJPJMKTGHTJJP> a
     schema:Event;
@@ -264,21 +234,18 @@ _:5aa29e6207b44711a3eb882764a46f735495 schema:price "52.0" .
 """;
   schema:startDate "2025-09-23T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/86479796-1097-4c12-abc5-8325b0264c44.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735496;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/forrest-jones-entertainment>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735497;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65003;
   schema:keywords "Special Events";
   schema:duration "PT75M";
   schema:endDate "2025-09-23T20:45:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735496 a skos:Concept;
-  skos:prefLabel "Special Events" .
-
 <https://spektrix.com/theporttheatre/organization/forrest-jones-entertainment> a schema:Organization;
   schema:name "Forrest Jones Entertainment" .
 
-_:5aa29e6207b44711a3eb882764a46f735497 schema:price "46.5" .
+_:f341194863f544dfbcc06b29e17fa0c65003 a schema:AggregateOffer;
+  schema:lowPrice "46.5" .
 
 <http://www.spektrix.com/theporttheatre/event/14001ASQBPJTJLPNKCVSVSGCTCKBPVCGV> a
     schema:Event;
@@ -288,18 +255,15 @@ _:5aa29e6207b44711a3eb882764a46f735497 schema:price "46.5" .
 """;
   schema:startDate "2025-11-08T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/07e8ad75-f379-4bd7-9554-b6778f644474.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735498;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735499;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65004;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2025-11-08T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735498 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735499 schema:price "36.0" .
+_:f341194863f544dfbcc06b29e17fa0c65004 a schema:AggregateOffer;
+  schema:lowPrice "36.0" .
 
 <http://www.spektrix.com/theporttheatre/event/10801ADHCBQTDNRNBLLTSCPBVDKMJGHCJ> a
     schema:Event;
@@ -309,21 +273,18 @@ _:5aa29e6207b44711a3eb882764a46f735499 schema:price "36.0" .
 """;
   schema:startDate "2025-09-19T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/633d6aa9-0469-47f7-90e7-330a10473473.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735500;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/modo-live>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735501;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65005;
   schema:keywords "Comedy";
   schema:duration "PT60M";
   schema:endDate "2025-09-19T21:00:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735500 a skos:Concept;
-  skos:prefLabel "Comedy" .
-
 <https://spektrix.com/theporttheatre/organization/modo-live> a schema:Organization;
   schema:name "MODO-LIVE" .
 
-_:5aa29e6207b44711a3eb882764a46f735501 schema:price "46.5" .
+_:f341194863f544dfbcc06b29e17fa0c65005 a schema:AggregateOffer;
+  schema:lowPrice "46.5" .
 
 <http://www.spektrix.com/theporttheatre/event/25201ANDKMVTTJTBHCHVPRBNBQSNTLMKN> a
     schema:Event;
@@ -333,18 +294,15 @@ _:5aa29e6207b44711a3eb882764a46f735501 schema:price "46.5" .
 """;
   schema:startDate "2026-04-21T10:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/6283b79f-ed1e-4e4d-a4b1-02dbb77ece47.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735502;
   schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735503;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65006;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2026-04-21T11:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735502 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735503 schema:price "21.5" .
+_:f341194863f544dfbcc06b29e17fa0c65006 a schema:AggregateOffer;
+  schema:lowPrice "21.5" .
 
 <http://www.spektrix.com/theporttheatre/event/24801AHGPCJBMGMVRBNKLDDDHKTKTNBQS> a
     schema:Event;
@@ -354,18 +312,15 @@ _:5aa29e6207b44711a3eb882764a46f735503 schema:price "21.5" .
 """;
   schema:startDate "2025-10-07T10:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/10055189-f255-4f84-a0a8-8156eaffabdd.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735504;
   schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735505;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65007;
   schema:keywords "Music";
   schema:duration "PT75M";
   schema:endDate "2025-10-07T11:45:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735504 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735505 schema:price "21.5" .
+_:f341194863f544dfbcc06b29e17fa0c65007 a schema:AggregateOffer;
+  schema:lowPrice "21.5" .
 
 <http://www.spektrix.com/theporttheatre/event/25401ADKDNDVMDKDPLNQQVHNPHGRHDJGH> a
     schema:Event;
@@ -375,18 +330,15 @@ _:5aa29e6207b44711a3eb882764a46f735505 schema:price "21.5" .
 """;
   schema:startDate "2026-03-03T10:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/c51ab352-1ece-4d8b-84d0-71fb3d6f3440.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735506;
   schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735507;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65008;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2026-03-03T11:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735506 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735507 schema:price "21.5" .
+_:f341194863f544dfbcc06b29e17fa0c65008 a schema:AggregateOffer;
+  schema:lowPrice "21.5" .
 
 <http://www.spektrix.com/theporttheatre/event/25001ADDVSKQBVSNBTBDPCMQTVGBHJDPN> a
     schema:Event;
@@ -396,18 +348,15 @@ _:5aa29e6207b44711a3eb882764a46f735507 schema:price "21.5" .
 """;
   schema:startDate "2025-11-25T10:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/c65c987f-9fd9-4a1c-a622-0a6876a1ee4b.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735508;
   schema:location <https://spektrix.com/theporttheatre/location/434ASSSTCLPQKDRBDQDBJBTCBPPKVNJHP>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735509;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65009;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2025-11-25T11:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735508 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735509 schema:price "21.5" .
+_:f341194863f544dfbcc06b29e17fa0c65009 a schema:AggregateOffer;
+  schema:lowPrice "21.5" .
 
 <http://www.spektrix.com/theporttheatre/event/8401ACDNQDNDVRQCTJQRQPHVTKLNTCVJH> a
     schema:Event;
@@ -417,17 +366,14 @@ _:5aa29e6207b44711a3eb882764a46f735509 schema:price "21.5" .
 """;
   schema:startDate "2025-12-05T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/99dd49eb-e458-4d8b-9834-2de280a1968f.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735510;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735511;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65010;
   schema:keywords "Tribute";
   schema:duration "PT140M";
   schema:endDate "2025-12-05T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735510 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735511 schema:price "50.0" .
+_:f341194863f544dfbcc06b29e17fa0c65010 a schema:AggregateOffer;
+  schema:lowPrice "50.0" .
 
 <http://www.spektrix.com/theporttheatre/event/37801AKCRRQNMLVLKQJBSQBHRPCKVJJNK> a
     schema:Event;
@@ -437,21 +383,18 @@ _:5aa29e6207b44711a3eb882764a46f735511 schema:price "50.0" .
 """;
   schema:startDate "2025-10-09T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/2c1e5ebc-3603-4794-b33f-e3fc27cd0128.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735512;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/crimson-coast-dance-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735513;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65011;
   schema:keywords "Dance";
   schema:duration "PT70M";
   schema:endDate "2025-10-09T20:40:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735512 a skos:Concept;
-  skos:prefLabel "Dance" .
-
 <https://spektrix.com/theporttheatre/organization/crimson-coast-dance-society> a schema:Organization;
   schema:name "Crimson Coast Dance Society" .
 
-_:5aa29e6207b44711a3eb882764a46f735513 schema:price "25.0" .
+_:f341194863f544dfbcc06b29e17fa0c65011 a schema:AggregateOffer;
+  schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/theporttheatre/event/37802AKQMQCRDGQHPRGHGDKTDKDVRVDTT> a
     schema:Event;
@@ -459,20 +402,17 @@ _:5aa29e6207b44711a3eb882764a46f735513 schema:price "25.0" .
   schema:description """
 	Crimson Coast Dance opens their Season 2025 – 2026 with Confession Publique.<span><br/></span><span><br/></span>Ideated, directed, and choreographed by Mélanie Demers and brought to life on stage by Angélique Willkie with Marie Jourdenais’ participation, this thought provoking show will grip your sensibilities as it weaves together music, theatre, spoken word and dance in a powerful reflection on humanity’s yearning for validation and the complex interplay of power and vulnerability that evokes. Original score by Frannie Holder.<span><br/></span><span><br/></span><span class=\"ItalicText\">\"This confession... confronts us with the fascinating abysses of devouring and vulnerability. It is the uncompromising affirmation of a female body that no longer has to apologize for aging, for experiencing pleasure, for suffering, or even for being a disturbance. The dance is anything but decorative: it is an expiation, a living archaeology. CONFESSION PUBLIQUE is not to be watched, it is to be received, in a shudder of both trespass and gratitude. A score of paradoxes, where brutality coexists with an almost maternal tenderness.\"</span> - THE ARTCHEMISTS - Peter Loquen<span><br/></span><span><br/></span>Post show Audience to Artist chat takes place in the lobby and is facilitated by local vocalist, poet and educator, Sonnet L’Abbe.<span><br/></span><span><br/></span><span class=\"BoldText\">Content Advisory:</span> This show is for mature audiences (18+). It is based on a series of stories referencing racism, sexual violation, living in an aging body, and the power of transformation. It contains nudity and mature content.
 """;
-  schema:startDate "2025-10-10T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-10-09T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/2c1e5ebc-3603-4794-b33f-e3fc27cd0128.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735514;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/crimson-coast-dance-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735515;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65012;
   schema:keywords "Dance";
   schema:duration "PT70M";
-  schema:endDate "2025-10-10T20:40:00" .
+  schema:endDate "2025-10-09T20:40:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735514 a skos:Concept;
-  skos:prefLabel "Dance" .
-
-_:5aa29e6207b44711a3eb882764a46f735515 schema:price "25.0" .
+_:f341194863f544dfbcc06b29e17fa0c65012 a schema:AggregateOffer;
+  schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/theporttheatre/event/14801ALJMRBKMVHTKGLRNMTGKCGDBTVSP> a
     schema:Event;
@@ -482,18 +422,15 @@ _:5aa29e6207b44711a3eb882764a46f735515 schema:price "25.0" .
 """;
   schema:startDate "2026-02-14T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/2d34f5f5-fea1-40f1-916e-cbede3edc3dc.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735516;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735517;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65013;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-02-14T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735516 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735517 schema:price "40.5" .
+_:f341194863f544dfbcc06b29e17fa0c65013 a schema:AggregateOffer;
+  schema:lowPrice "40.5" .
 
 <http://www.spektrix.com/theporttheatre/event/36201ASKGPVLCNJNCMBLVSLJHKQPCHTRV> a
     schema:Event;
@@ -503,21 +440,18 @@ _:5aa29e6207b44711a3eb882764a46f735517 schema:price "40.5" .
 """;
   schema:startDate "2025-10-19T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/29db687a-e30e-4572-b79d-f3df7b672aac.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735518;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/gee-dan-productions>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735519;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65014;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2025-10-19T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735518 a skos:Concept;
-  skos:prefLabel "Music" .
-
 <https://spektrix.com/theporttheatre/organization/gee-dan-productions> a schema:Organization;
   schema:name "Gee Dan Productions" .
 
-_:5aa29e6207b44711a3eb882764a46f735519 schema:price "60.5" .
+_:f341194863f544dfbcc06b29e17fa0c65014 a schema:AggregateOffer;
+  schema:lowPrice "60.5" .
 
 <http://www.spektrix.com/theporttheatre/event/14002AJLHTMKCRKHSQMKRQLMBKPQPVQDP> a
     schema:Event;
@@ -527,18 +461,15 @@ _:5aa29e6207b44711a3eb882764a46f735519 schema:price "60.5" .
 """;
   schema:startDate "2026-01-17T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/9335ba4d-e690-43e2-8646-d79752f6c56e.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735520;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735521;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65015;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-01-17T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735520 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735521 schema:price "36.0" .
+_:f341194863f544dfbcc06b29e17fa0c65015 a schema:AggregateOffer;
+  schema:lowPrice "36.0" .
 
 <http://www.spektrix.com/theporttheatre/event/41601AVNPVJKVCKMRJHHMRKVNNMTGJHSV> a
     schema:Event;
@@ -548,17 +479,14 @@ _:5aa29e6207b44711a3eb882764a46f735521 schema:price "36.0" .
 """;
   schema:startDate "2025-11-09T15:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/a756d57f-234e-4317-a514-d8ecdf929fce.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735522;
   schema:location <https://spektrix.com/theporttheatre/location/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735523;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65016;
   schema:keywords "Music";
   schema:duration "PT135M";
   schema:endDate "2025-11-09T17:15:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735522 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735523 schema:price "0.0" .
+_:f341194863f544dfbcc06b29e17fa0c65016 a schema:AggregateOffer;
+  schema:lowPrice "0.0" .
 
 <https://spektrix.com/theporttheatre/location/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> a
     schema:Place;
@@ -581,21 +509,18 @@ _:5aa29e6207b44711a3eb882764a46f735523 schema:price "0.0" .
 """;
   schema:startDate "2026-01-15T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/387ae4bf-8e2b-4f87-a5c3-201b5c1d01cf.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735524;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/mur-man-productions>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735525;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65017;
   schema:keywords "Tribute";
   schema:duration "PT120M";
   schema:endDate "2026-01-15T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735524 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
 <https://spektrix.com/theporttheatre/organization/mur-man-productions> a schema:Organization;
   schema:name "Mur-Man Productions" .
 
-_:5aa29e6207b44711a3eb882764a46f735525 schema:price "56.25" .
+_:f341194863f544dfbcc06b29e17fa0c65017 a schema:AggregateOffer;
+  schema:lowPrice "56.25" .
 
 <http://www.spektrix.com/theporttheatre/event/41801AVTMRHQTMCCLMJSHHVVQTNHJPGQB> a
     schema:Event;
@@ -605,21 +530,18 @@ _:5aa29e6207b44711a3eb882764a46f735525 schema:price "56.25" .
 """;
   schema:startDate "2026-02-17T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/bf992add-dd41-411a-95d6-19ae8537dc2a.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735526;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/theatreone>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735527;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65018;
   schema:keywords "Music";
   schema:duration "PT140M";
   schema:endDate "2026-02-17T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735526 a skos:Concept;
-  skos:prefLabel "Music" .
-
 <https://spektrix.com/theporttheatre/organization/theatreone> a schema:Organization;
   schema:name "TheatreOne" .
 
-_:5aa29e6207b44711a3eb882764a46f735527 schema:price "46.5" .
+_:f341194863f544dfbcc06b29e17fa0c65018 a schema:AggregateOffer;
+  schema:lowPrice "46.5" .
 
 <http://www.spektrix.com/theporttheatre/event/39201APPPJQSCBDBPCLLVKSNCLNHTDTRQ> a
     schema:Event;
@@ -628,18 +550,15 @@ _:5aa29e6207b44711a3eb882764a46f735527 schema:price "46.5" .
 
 """;
   schema:startDate "2026-02-14T14:00:00"^^xsd:dateTime;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735528;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735529;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65019;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2026-02-14T15:00:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735528 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735529 schema:price "20.5" .
+_:f341194863f544dfbcc06b29e17fa0c65019 a schema:AggregateOffer;
+  schema:lowPrice "20.5" .
 
 <http://www.spektrix.com/theporttheatre/event/4001APBPRCSHVVMHTCBMSPSJRNDMCHHLV> a
     schema:Event;
@@ -649,21 +568,18 @@ _:5aa29e6207b44711a3eb882764a46f735529 schema:price "20.5" .
 """;
   schema:startDate "2025-09-26T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/1058251a-127a-48af-bc6c-5855cbe25ffe.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735530;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/got-pop?-concerts>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735531;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65020;
   schema:keywords "Tribute";
   schema:duration "PT60M";
   schema:endDate "2025-09-26T20:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735530 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
 <https://spektrix.com/theporttheatre/organization/got-pop?-concerts> a schema:Organization;
   schema:name "Got Pop? Concerts" .
 
-_:5aa29e6207b44711a3eb882764a46f735531 schema:price "41.5" .
+_:f341194863f544dfbcc06b29e17fa0c65020 a schema:AggregateOffer;
+  schema:lowPrice "41.5" .
 
 <http://www.spektrix.com/theporttheatre/event/3126AMLHLNGTKJQPPVBGCRVCRLLQGRBSS> a
     schema:Event;
@@ -674,17 +590,14 @@ _:5aa29e6207b44711a3eb882764a46f735531 schema:price "41.5" .
 """;
   schema:startDate "2025-09-20T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/40d4fb89-3d16-4640-b1a4-2dd6b1699715.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735532;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735533;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65021;
   schema:keywords "Tribute";
   schema:duration "PT130M";
   schema:endDate "2025-09-20T21:40:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735532 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735533 schema:price "55.5" .
+_:f341194863f544dfbcc06b29e17fa0c65021 a schema:AggregateOffer;
+  schema:lowPrice "55.5" .
 
 <http://www.spektrix.com/theporttheatre/event/39602ADJGBBDTSCHMNLJTKBSQMMMGMGHD> a
     schema:Event;
@@ -694,22 +607,19 @@ _:5aa29e6207b44711a3eb882764a46f735533 schema:price "55.5" .
 """;
   schema:startDate "2025-12-22T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/030dad87-25a2-4d17-943b-4c96d7716504.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735534;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/invictus-entertainment-group>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735535;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65022;
   schema:keywords "Music";
   schema:duration "PT90M";
   schema:endDate "2025-12-22T21:00:00" .
-
-_:5aa29e6207b44711a3eb882764a46f735534 a skos:Concept;
-  skos:prefLabel "Music" .
 
 <https://spektrix.com/theporttheatre/organization/invictus-entertainment-group> a
     schema:Organization;
   schema:name "Invictus Entertainment Group" .
 
-_:5aa29e6207b44711a3eb882764a46f735535 schema:price "67.5" .
+_:f341194863f544dfbcc06b29e17fa0c65022 a schema:AggregateOffer;
+  schema:lowPrice "67.5" .
 
 <http://www.spektrix.com/theporttheatre/event/13801AGMJPLQGHBSJHBGMRNCQQKGVHKBV> a
     schema:Event;
@@ -719,18 +629,15 @@ _:5aa29e6207b44711a3eb882764a46f735535 schema:price "67.5" .
 """;
   schema:startDate "2025-10-18T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/e5d90c4d-0c5a-4cce-92dc-fafe512c1317.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735536;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735537;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65023;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2025-10-18T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735536 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735537 schema:price "36.0" .
+_:f341194863f544dfbcc06b29e17fa0c65023 a schema:AggregateOffer;
+  schema:lowPrice "36.0" .
 
 <http://www.spektrix.com/theporttheatre/event/18401APQBVKHJSJNGJQKHRTGTLCTRJBBR> a
     schema:Event;
@@ -740,22 +647,19 @@ _:5aa29e6207b44711a3eb882764a46f735537 schema:price "36.0" .
 """;
   schema:startDate "2025-09-13T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/1a398971-d72f-4038-9694-cb0443d9ebdc.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735538;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/nanaimo-international-jazz-festival>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735539;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65024;
   schema:keywords "Music";
   schema:duration "PT140M";
   schema:endDate "2025-09-13T21:20:00" .
-
-_:5aa29e6207b44711a3eb882764a46f735538 a skos:Concept;
-  skos:prefLabel "Music" .
 
 <https://spektrix.com/theporttheatre/organization/nanaimo-international-jazz-festival>
   a schema:Organization;
   schema:name "Nanaimo International Jazz Festival" .
 
-_:5aa29e6207b44711a3eb882764a46f735539 schema:price "71.5" .
+_:f341194863f544dfbcc06b29e17fa0c65024 a schema:AggregateOffer;
+  schema:lowPrice "71.5" .
 
 <http://www.spektrix.com/theporttheatre/event/38001AJMJGLMVGBGPDQNMJJMCJDLNBDQB> a
     schema:Event;
@@ -765,21 +669,18 @@ _:5aa29e6207b44711a3eb882764a46f735539 schema:price "71.5" .
 """;
   schema:startDate "2025-12-08T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/e113259f-ddb2-406e-9e54-dbc11abccd2a.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735540;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/zachery-stevenson-music>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735541;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65025;
   schema:keywords "Tribute";
   schema:duration "PT140M";
   schema:endDate "2025-12-08T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735540 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
 <https://spektrix.com/theporttheatre/organization/zachery-stevenson-music> a schema:Organization;
   schema:name "Zachery Stevenson Music" .
 
-_:5aa29e6207b44711a3eb882764a46f735541 schema:price "50.5" .
+_:f341194863f544dfbcc06b29e17fa0c65025 a schema:AggregateOffer;
+  schema:lowPrice "50.5" .
 
 <http://www.spektrix.com/theporttheatre/event/38201AHNBNPJGLCLVNBPRCDPTCCSQSKKV> a
     schema:Event;
@@ -790,11 +691,12 @@ _:5aa29e6207b44711a3eb882764a46f735541 schema:price "50.5" .
   schema:startDate "2025-09-21T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/3394ea94-ec08-43c4-99a0-753a9121a4cc.jpg>;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735542;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65026;
   schema:duration "PT60M";
   schema:endDate "2025-09-21T15:00:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735542 schema:price "0.0" .
+_:f341194863f544dfbcc06b29e17fa0c65026 a schema:AggregateOffer;
+  schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/theporttheatre/event/40601AVRVRQNNTTMJRHQKDLRCKSKHBGKP> a
     schema:Event;
@@ -804,17 +706,14 @@ _:5aa29e6207b44711a3eb882764a46f735542 schema:price "0.0" .
 """;
   schema:startDate "2026-01-24T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4e7d7faa-b723-4cd2-b5b3-5997b083264c.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735543;
   schema:location <https://spektrix.com/theporttheatre/location/442ADCKMHVPLDKBGVGJDDBQTSNBQHJJPL>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735544;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65027;
   schema:keywords "Theatre";
   schema:duration "PT90M";
   schema:endDate "2026-01-24T15:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735543 a skos:Concept;
-  skos:prefLabel "Theatre" .
-
-_:5aa29e6207b44711a3eb882764a46f735544 schema:price "16.5" .
+_:f341194863f544dfbcc06b29e17fa0c65027 a schema:AggregateOffer;
+  schema:lowPrice "16.5" .
 
 <https://spektrix.com/theporttheatre/location/442ADCKMHVPLDKBGVGJDDBQTSNBQHJJPL> a
     schema:Place;
@@ -834,19 +733,16 @@ _:5aa29e6207b44711a3eb882764a46f735544 schema:price "16.5" .
   schema:description """
 	A tender journey through loss of identity, the absurdities of life, and the importance of connection.<span><br/></span><span><br/></span>A moving new Canadian play by Joëlle Rabu & Kelly Wyatt. Directed by Kymme Patrick, with music direction by Nico Rhodes.  <span><br/></span><span><br/></span>Set in a dementia care facility, the play blends humour, grief, and humanity, featuring songs of Harry Nilsson. Joëlle Rabu embodies over a dozen characters alongside Wyatt and Rhodes, bringing to life residents, families, and care aides with honesty and heart.  Not bleak, but deeply human. It is a celebration of connection - reminding us that even at the brink of forgetting, the bonds we share are profoundly meaningful.<span><br/></span><span><br/></span>Join us for an unforgettable experience that balances light and darkness and invites you to reflect on the beauty of relationships.<span><br/></span> <span><br/></span>The cast invites you to bring your friends and family, snap a photo at the lobby's photo booth, and make lasting memories together at the performance.<span><br/></span> <span><br/></span>*Mature subject matter and language - not recommended for young audiences.*<span><br/></span><span><br/></span>Talk Back with Cast & Audience following the Saturday Night and Sunday afternoon performances.<span><br/></span><span><br/></span><span class=\"BoldText\">The Creative Team</span><span><br/></span><span><br/></span><span class=\"BoldText\">Joëlle Rabu</span> (Nanaimo, BC) – Concept Originator, Co-Writer, Performer<span><br/></span>With over four decades in theatre and music, Joëlle Rabu has captivated audiences on stages across five continents. Her theatrical roles include Piaf, Her Songs, Her Loves, Marion Bridge, Anything Goes, John Gray’s Don Messer’s Jubilee, Lies & Legends: The Music of Harry Chapin, Tonight…Piaf, Murder on the Nile, Hot Flashes, Cabaret, and Irma la Douce. She is the recipient of two Jessie Richardson Theatre Awards (with a third nomination), a Juno nomination, the BC Touring Council’s Artist of the Year Award, and the BC Governor General’s “Queen Elizabeth II Platinum Jubilee Award for Excellence in the Arts and Music.” <span><br/></span>A passionate advocate for mental health awareness, Joëlle drew deeply from her personal experiences with friends and loved ones affected by dementia when creating this play. On stage, she brings to life more than a dozen characters - residents, care aides, and visiting family members - capturing their humour and humanity. Joëlle has released eight independent albums, and her three unpublished children’s books await her in retirement.  <a target=\"_blank\" href=\"https://joellerabu.com/\">joellerabu.com</a>   <span><br/></span><span><br/></span><span class=\"BoldText\">Kelly Wyatt</span> (Victoria, BC) – Co-Writer, Performer<span><br/></span>Kelly has always had a natural gift for telling stories, writing with  honesty, heart, and having the ability to illuminate the essence of human nature. A lifelong friend of Joëlle Rabu for over 55 years, she was a natural choice to collaborate on this project. In her early years, Kelly explored modelling and film in Vancouver before devoting herself to family life and a long career in the Victoria school system. Now, she returns to one of her first passions, the stage, where she embodies her half dozen characters with grace and charm, while adding rich vocal harmonies to the ensemble. Kelly is celebrating two exciting 'firsts' this year: co-writing and acting in a play and seeing her debut novel published.  'I Am Enough' by Kelly L. Wyatt was released in September of 2025 to rave reviews and is available through major online platforms and her website: <a target=\"_blank\" href=\"https://kellywyattwrites.com/\">kellywyattwrites.com</a>   <span><br/></span><span><br/></span><span class=\"BoldText\">Nico Rhodes</span> (Nanaimo, BC) – Music Director, Arranger, Performer<span><br/></span>One of Canada’s most sought-after arrangers and music directors, Nico Rhodes brings Harry Nilsson’s timeless songs vividly to life through inventive arrangements that flow seamlessly into the narrative. With more than 50 stage musicals, four original musicals, and over 500 compositions to his credit, Nico’s versatility spans stage, screen, choirs, jazz, and classical ensembles. He has been nominated for two Jessie Awards and five Ovation Awards and is the recipient of Nanaimo’s Emerging Cultural Leader Award. Nico has also produced and performed on Joëlle Rabu’s two most recent recordings. His current touring show Piano Heist has been a runaway hit across Canada and the U.S., and most recently, Nico created Hullabaloo, an annual joy-infused choral production featuring a 100+ voice choir, 5-piece band and guest soloists, performing songs that cross stylistic boundaries in an exhilarating celebration of music. <a target=\"_blank\" href=\"https://nicorhodesmusic.com/\">nicorhodesmusic.com</a>   <span><br/></span><span><br/></span><span class=\"BoldText\">Kymme Patrick</span> (Courtenay, BC) – Director<span><br/></span>An award-winning actor, playwright, director, and teacher, Kymme Patrick has built an <span><br/></span>impressive career in theatre, film, and commercials across North America. She founded her own casting agency and created the TheatreWorks Centre for Performing Arts, offering professional theatre training for youth in the Comox Valley. She is the recipient of Theatre BC’s Donna Lamb Award for outstanding work with youth and contributions to community theatre and continues to tour her one-woman hit show A Generation of Women, which explores a century of women’s history on Vancouver Island. Having personally travelled the Alzheimer’s journey with a loved one, Kymme brings sensitivity, humour, and deep humanity to her direction of this production.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://ah.viu.ca/theatre/parking\">Parking at VIU</a><span><br/></span>
 """;
-  schema:startDate "2026-01-24T19:30:00"^^xsd:dateTime;
+  schema:startDate "2026-01-24T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4e7d7faa-b723-4cd2-b5b3-5997b083264c.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735545;
   schema:location <https://spektrix.com/theporttheatre/location/442ADCKMHVPLDKBGVGJDDBQTSNBQHJJPL>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735546;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65028;
   schema:keywords "Theatre";
   schema:duration "PT90M";
-  schema:endDate "2026-01-24T21:00:00" .
+  schema:endDate "2026-01-24T15:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735545 a skos:Concept;
-  skos:prefLabel "Theatre" .
-
-_:5aa29e6207b44711a3eb882764a46f735546 schema:price "16.5" .
+_:f341194863f544dfbcc06b29e17fa0c65028 a schema:AggregateOffer;
+  schema:lowPrice "16.5" .
 
 <http://www.spektrix.com/theporttheatre/event/41002ABLNLPBSPQSBSLJJVDMQRGKTLCHJ> a
     schema:Event;
@@ -854,19 +750,16 @@ _:5aa29e6207b44711a3eb882764a46f735546 schema:price "16.5" .
   schema:description """
 	A tender journey through loss of identity, the absurdities of life, and the importance of connection.<span><br/></span><span><br/></span>A moving new Canadian play by Joëlle Rabu & Kelly Wyatt. Directed by Kymme Patrick, with music direction by Nico Rhodes.  <span><br/></span><span><br/></span>Set in a dementia care facility, the play blends humour, grief, and humanity, featuring songs of Harry Nilsson. Joëlle Rabu embodies over a dozen characters alongside Wyatt and Rhodes, bringing to life residents, families, and care aides with honesty and heart.  Not bleak, but deeply human. It is a celebration of connection - reminding us that even at the brink of forgetting, the bonds we share are profoundly meaningful.<span><br/></span><span><br/></span>Join us for an unforgettable experience that balances light and darkness and invites you to reflect on the beauty of relationships.<span><br/></span> <span><br/></span>The cast invites you to bring your friends and family, snap a photo at the lobby's photo booth, and make lasting memories together at the performance.<span><br/></span> <span><br/></span>*Mature subject matter and language - not recommended for young audiences.*<span><br/></span><span><br/></span>Talk Back with Cast & Audience following the Saturday Night and Sunday afternoon performances.<span><br/></span><span><br/></span><span class=\"BoldText\">The Creative Team</span><span><br/></span><span><br/></span><span class=\"BoldText\">Joëlle Rabu</span> (Nanaimo, BC) – Concept Originator, Co-Writer, Performer<span><br/></span>With over four decades in theatre and music, Joëlle Rabu has captivated audiences on stages across five continents. Her theatrical roles include Piaf, Her Songs, Her Loves, Marion Bridge, Anything Goes, John Gray’s Don Messer’s Jubilee, Lies & Legends: The Music of Harry Chapin, Tonight…Piaf, Murder on the Nile, Hot Flashes, Cabaret, and Irma la Douce. She is the recipient of two Jessie Richardson Theatre Awards (with a third nomination), a Juno nomination, the BC Touring Council’s Artist of the Year Award, and the BC Governor General’s “Queen Elizabeth II Platinum Jubilee Award for Excellence in the Arts and Music.” <span><br/></span>A passionate advocate for mental health awareness, Joëlle drew deeply from her personal experiences with friends and loved ones affected by dementia when creating this play. On stage, she brings to life more than a dozen characters - residents, care aides, and visiting family members - capturing their humour and humanity. Joëlle has released eight independent albums, and her three unpublished children’s books await her in retirement.  <a target=\"_blank\" href=\"https://joellerabu.com/\">joellerabu.com</a>   <span><br/></span><span><br/></span><span class=\"BoldText\">Kelly Wyatt</span> (Victoria, BC) – Co-Writer, Performer<span><br/></span>Kelly has always had a natural gift for telling stories, writing with  honesty, heart, and having the ability to illuminate the essence of human nature. A lifelong friend of Joëlle Rabu for over 55 years, she was a natural choice to collaborate on this project. In her early years, Kelly explored modelling and film in Vancouver before devoting herself to family life and a long career in the Victoria school system. Now, she returns to one of her first passions, the stage, where she embodies her half dozen characters with grace and charm, while adding rich vocal harmonies to the ensemble. Kelly is celebrating two exciting 'firsts' this year: co-writing and acting in a play and seeing her debut novel published.  'I Am Enough' by Kelly L. Wyatt was released in September of 2025 to rave reviews and is available through major online platforms and her website: <a target=\"_blank\" href=\"https://kellywyattwrites.com/\">kellywyattwrites.com</a>   <span><br/></span><span><br/></span><span class=\"BoldText\">Nico Rhodes</span> (Nanaimo, BC) – Music Director, Arranger, Performer<span><br/></span>One of Canada’s most sought-after arrangers and music directors, Nico Rhodes brings Harry Nilsson’s timeless songs vividly to life through inventive arrangements that flow seamlessly into the narrative. With more than 50 stage musicals, four original musicals, and over 500 compositions to his credit, Nico’s versatility spans stage, screen, choirs, jazz, and classical ensembles. He has been nominated for two Jessie Awards and five Ovation Awards and is the recipient of Nanaimo’s Emerging Cultural Leader Award. Nico has also produced and performed on Joëlle Rabu’s two most recent recordings. His current touring show Piano Heist has been a runaway hit across Canada and the U.S., and most recently, Nico created Hullabaloo, an annual joy-infused choral production featuring a 100+ voice choir, 5-piece band and guest soloists, performing songs that cross stylistic boundaries in an exhilarating celebration of music. <a target=\"_blank\" href=\"https://nicorhodesmusic.com/\">nicorhodesmusic.com</a>   <span><br/></span><span><br/></span><span class=\"BoldText\">Kymme Patrick</span> (Courtenay, BC) – Director<span><br/></span>An award-winning actor, playwright, director, and teacher, Kymme Patrick has built an <span><br/></span>impressive career in theatre, film, and commercials across North America. She founded her own casting agency and created the TheatreWorks Centre for Performing Arts, offering professional theatre training for youth in the Comox Valley. She is the recipient of Theatre BC’s Donna Lamb Award for outstanding work with youth and contributions to community theatre and continues to tour her one-woman hit show A Generation of Women, which explores a century of women’s history on Vancouver Island. Having personally travelled the Alzheimer’s journey with a loved one, Kymme brings sensitivity, humour, and deep humanity to her direction of this production.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://ah.viu.ca/theatre/parking\">Parking at VIU</a><span><br/></span>
 """;
-  schema:startDate "2026-01-25T14:00:00"^^xsd:dateTime;
+  schema:startDate "2026-01-24T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4e7d7faa-b723-4cd2-b5b3-5997b083264c.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735547;
   schema:location <https://spektrix.com/theporttheatre/location/442ADCKMHVPLDKBGVGJDDBQTSNBQHJJPL>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735548;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65029;
   schema:keywords "Theatre";
   schema:duration "PT90M";
-  schema:endDate "2026-01-25T15:30:00" .
+  schema:endDate "2026-01-24T15:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735547 a skos:Concept;
-  skos:prefLabel "Theatre" .
-
-_:5aa29e6207b44711a3eb882764a46f735548 schema:price "16.5" .
+_:f341194863f544dfbcc06b29e17fa0c65029 a schema:AggregateOffer;
+  schema:lowPrice "16.5" .
 
 <http://www.spektrix.com/theporttheatre/event/22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM> a
     schema:Event;
@@ -876,21 +769,18 @@ _:5aa29e6207b44711a3eb882764a46f735548 schema:price "16.5" .
 """;
   schema:startDate "2025-09-15T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/908fdbc6-bce4-4095-9648-48ff41c1f408.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735549;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/s.-a.-m.-productions-ltd.>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735550;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65030;
   schema:keywords "Tribute";
   schema:duration "PT130M";
   schema:endDate "2025-09-15T21:40:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735549 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
 <https://spektrix.com/theporttheatre/organization/s.-a.-m.-productions-ltd.> a schema:Organization;
   schema:name "S. A. M. Productions Ltd." .
 
-_:5aa29e6207b44711a3eb882764a46f735550 schema:price "65.5" .
+_:f341194863f544dfbcc06b29e17fa0c65030 a schema:AggregateOffer;
+  schema:lowPrice "65.5" .
 
 <http://www.spektrix.com/theporttheatre/event/34201ASMCSDCJKPKGCLJTKVRDGQJPPMJH> a
     schema:Event;
@@ -900,21 +790,18 @@ _:5aa29e6207b44711a3eb882764a46f735550 schema:price "65.5" .
 """;
   schema:startDate "2026-03-28T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/a35e27d0-d36d-4b74-b697-a49280c1e085.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735551;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/rr-music-productions>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735552;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65031;
   schema:keywords "Tribute";
   schema:duration "PT130M";
   schema:endDate "2026-03-28T21:40:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735551 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
 <https://spektrix.com/theporttheatre/organization/rr-music-productions> a schema:Organization;
   schema:name "RR Music Productions" .
 
-_:5aa29e6207b44711a3eb882764a46f735552 schema:price "41.5" .
+_:f341194863f544dfbcc06b29e17fa0c65031 a schema:AggregateOffer;
+  schema:lowPrice "41.5" .
 
 <http://www.spektrix.com/theporttheatre/event/42201AQKKRSPRKRLQJDDCVRBGKSTCCBDJ> a
     schema:Event;
@@ -924,17 +811,14 @@ _:5aa29e6207b44711a3eb882764a46f735552 schema:price "41.5" .
 """;
   schema:startDate "2025-11-30T15:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/a5a2755a-4c53-445e-b1a8-d4067c48e011.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735553;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735554;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65032;
   schema:keywords "Music";
   schema:duration "PT140M";
   schema:endDate "2025-11-30T17:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735553 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735554 schema:price "7.5" .
+_:f341194863f544dfbcc06b29e17fa0c65032 a schema:AggregateOffer;
+  schema:lowPrice "7.5" .
 
 <http://www.spektrix.com/theporttheatre/event/35601ALVJGKRTKBQLPHGRMJPNQQKSPRPT> a
     schema:Event;
@@ -944,18 +828,15 @@ _:5aa29e6207b44711a3eb882764a46f735554 schema:price "7.5" .
 """;
   schema:startDate "2025-10-25T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/76fac0d0-fd8e-4179-ae94-31755828d36d.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735555;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/rock.it-boy-entertainment>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735556;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65033;
   schema:keywords "Tribute";
   schema:duration "PT90M";
   schema:endDate "2025-10-25T21:00:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735555 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735556 schema:price "52.5" .
+_:f341194863f544dfbcc06b29e17fa0c65033 a schema:AggregateOffer;
+  schema:lowPrice "52.5" .
 
 <http://www.spektrix.com/theporttheatre/event/21601ATQCRBPJGGKQCSQSNJJDGKGBDPBP> a
     schema:Event;
@@ -965,17 +846,14 @@ _:5aa29e6207b44711a3eb882764a46f735556 schema:price "52.5" .
 """;
   schema:startDate "2025-09-27T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/73fcb20a-eeaa-430e-9c2a-9ad989d79614.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735557;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735558;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65034;
   schema:keywords "Tribute";
   schema:duration "PT140M";
   schema:endDate "2025-09-27T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735557 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735558 schema:price "46.0" .
+_:f341194863f544dfbcc06b29e17fa0c65034 a schema:AggregateOffer;
+  schema:lowPrice "46.0" .
 
 <http://www.spektrix.com/theporttheatre/event/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> a
     schema:Event;
@@ -985,18 +863,15 @@ _:5aa29e6207b44711a3eb882764a46f735558 schema:price "46.0" .
 """;
   schema:startDate "2025-10-07T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/a5d4c4a1-aef5-4616-9421-c8bdbb046f24.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735559;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/forrest-jones-entertainment>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735560;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65035;
   schema:keywords "Tribute";
   schema:duration "PT140M";
   schema:endDate "2025-10-07T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735559 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735560 schema:price "45.5" .
+_:f341194863f544dfbcc06b29e17fa0c65035 a schema:AggregateOffer;
+  schema:lowPrice "45.5" .
 
 <http://www.spektrix.com/theporttheatre/event/15001AMKBTPKPRJBCVBMQKCKPSNVVCTJT> a
     schema:Event;
@@ -1006,18 +881,15 @@ _:5aa29e6207b44711a3eb882764a46f735560 schema:price "45.5" .
 """;
   schema:startDate "2026-03-14T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/eac5763b-7b5d-496a-9cc4-1d5e3ff58cb6.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735561;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735562;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65036;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-03-14T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735561 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735562 schema:price "36.0" .
+_:f341194863f544dfbcc06b29e17fa0c65036 a schema:AggregateOffer;
+  schema:lowPrice "36.0" .
 
 <http://www.spektrix.com/theporttheatre/event/20401AHPLRCCNVVRTBBQTNVLNPCCJVRGB> a
     schema:Event;
@@ -1027,17 +899,14 @@ _:5aa29e6207b44711a3eb882764a46f735562 schema:price "36.0" .
 """;
   schema:startDate "2025-10-04T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/35e697f8-7d53-472e-97e3-1a14645bd782.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735563;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735564;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65037;
   schema:keywords "Tribute";
   schema:duration "PT140M";
   schema:endDate "2025-10-04T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735563 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735564 schema:price "44.5" .
+_:f341194863f544dfbcc06b29e17fa0c65037 a schema:AggregateOffer;
+  schema:lowPrice "44.5" .
 
 <http://www.spektrix.com/theporttheatre/event/39601AJRRLKSVBMNJSKBSJSPPVNLVSKDK> a
     schema:Event;
@@ -1047,17 +916,14 @@ _:5aa29e6207b44711a3eb882764a46f735564 schema:price "44.5" .
 """;
   schema:startDate "2025-11-15T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/29ad551a-62d8-40cf-ab22-4163f4214fed.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735565;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735566;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65038;
   schema:keywords "Tribute";
   schema:duration "PT120M";
   schema:endDate "2025-11-15T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735565 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735566 schema:price "44.5" .
+_:f341194863f544dfbcc06b29e17fa0c65038 a schema:AggregateOffer;
+  schema:lowPrice "44.5" .
 
 <http://www.spektrix.com/theporttheatre/event/13201ACQQNNPSNRJMNQRQRCSJCCGPQLHJ> a
     schema:Event;
@@ -1067,17 +933,14 @@ _:5aa29e6207b44711a3eb882764a46f735566 schema:price "44.5" .
 """;
   schema:startDate "2025-11-02T14:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/aa5cf253-b1f3-4e1c-a1a7-94f280ff5114.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735567;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735568;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65039;
   schema:keywords "Music";
   schema:duration "PT110M";
   schema:endDate "2025-11-02T16:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735567 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735568 schema:price "11.5" .
+_:f341194863f544dfbcc06b29e17fa0c65039 a schema:AggregateOffer;
+  schema:lowPrice "11.5" .
 
 <http://www.spektrix.com/theporttheatre/event/22801AGSKTJDCRVHCKQCVVHGLQCVGCCGM> a
     schema:Event;
@@ -1087,17 +950,14 @@ _:5aa29e6207b44711a3eb882764a46f735568 schema:price "11.5" .
 """;
   schema:startDate "2025-11-09T15:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/deb4be81-7e26-433c-ac3d-7d9759f10a80.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735569;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735570;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65040;
   schema:keywords "Comedy";
   schema:duration "PT90M";
   schema:endDate "2025-11-09T16:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735569 a skos:Concept;
-  skos:prefLabel "Comedy" .
-
-_:5aa29e6207b44711a3eb882764a46f735570 schema:price "23.0" .
+_:f341194863f544dfbcc06b29e17fa0c65040 a schema:AggregateOffer;
+  schema:lowPrice "23.0" .
 
 <http://www.spektrix.com/theporttheatre/event/23201APGCMPGJNLTBJBBRLRLRBCKNMGMV> a
     schema:Event;
@@ -1105,19 +965,16 @@ _:5aa29e6207b44711a3eb882764a46f735570 schema:price "23.0" .
   schema:description """
 	<h2>Fans of Monty Python, Mr. Bean, and Dr. Seuss… Grab your teacups!</h2><span><br/></span>Presented by James & Jamesy<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=-hfptIluoEE\">For a glimpse into the world of O Christmas Tea, click here!</a><span><br/></span><span><br/></span>Combining British propriety with an unabashed love for the unexpected, London’s 3-time Impresario Award-winning duo steep an outrageously funny and brilliantly inventive show reminiscent of classic British pantos.<span><br/></span><span><br/></span>Rich in wordplay, comic physicality, and cleverly crafted interactive elements, O Christmas Tea is uproarious fun, yet it is the duo’s boundless imagination and endearing chemistry that provide the real magic and heart of this play.<span><br/></span><span><br/></span>When catastrophe strikes at James and Jamesy’s Christmas tea party, flooding the world with tea, the duo conjure wildly funny solutions to stay afloat, and sweep the audience out to sea in a jolly aquatic escapade brimming with whimsy, action, and ingenuity in a celebration of friendship at Christmas.<span><br/></span><span><br/></span><span class=\"BoldText\">“Complete and utter fun… for all ages.”</span><span><br/></span>★★★★★ CBC<span><br/></span><span><br/></span><span class=\"BoldText\">“Outrageously funny, magnificently written, beautifully choreographed.”</span><span><br/></span>★★★★★ London Free Press<span><br/></span><span><br/></span><span class=\"BoldText\">“An ode to the idea that anything is possible.”</span><span><br/></span>★★★★★ Torontoist<span><br/></span><span><br/></span><span class=\"BoldText\">“I cannot think of a show that will leave you more profoundly happy than this.”</span><span><br/></span>★★★★★ Stage Door<span><br/></span><span><br/></span>Hailed as “a child’s imagination on steroids” by London Free Press and “a masterpiece of physical comedy” by Theatre In London, critics rave for the charismatic James & Jamesy. A must-see performance on the international comedy circuit, this unstoppable duo is regarded as “one of the most popular fringe duos ever” (CBC).<span><br/></span><span><br/></span>Can't make it on November 9? Visit <a target=\"_top\" href=\"https://ochristmastea.com/\">OChristmasTea.com</a> for the full tour!<span><br/></span><span><br/></span><span><br/></span>No babes in arms, minimum age of 4.
 """;
-  schema:startDate "2025-11-09T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-11-09T15:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/deb4be81-7e26-433c-ac3d-7d9759f10a80.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735571;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735572;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65041;
   schema:keywords "Comedy";
   schema:duration "PT90M";
-  schema:endDate "2025-11-09T21:00:00" .
+  schema:endDate "2025-11-09T16:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735571 a skos:Concept;
-  skos:prefLabel "Comedy" .
-
-_:5aa29e6207b44711a3eb882764a46f735572 schema:price "23.0" .
+_:f341194863f544dfbcc06b29e17fa0c65041 a schema:AggregateOffer;
+  schema:lowPrice "23.0" .
 
 <http://www.spektrix.com/theporttheatre/event/33401ASQTDQSSBKHDTGJNVLMTDQJCSHNC> a
     schema:Event;
@@ -1127,17 +984,14 @@ _:5aa29e6207b44711a3eb882764a46f735572 schema:price "23.0" .
 """;
   schema:startDate "2025-10-26T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/3ac74fa4-f69c-48cb-8757-d577bd5bac7f.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735573;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735574;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65042;
   schema:keywords "Film Festival";
   schema:duration "PT170M";
   schema:endDate "2025-10-26T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735573 a skos:Concept;
-  skos:prefLabel "Film Festival" .
-
-_:5aa29e6207b44711a3eb882764a46f735574 schema:price "24.5" .
+_:f341194863f544dfbcc06b29e17fa0c65042 a schema:AggregateOffer;
+  schema:lowPrice "24.5" .
 
 <http://www.spektrix.com/theporttheatre/event/19201ACDMCRSLDRKDVBCRLQTJMQBCSLCD> a
     schema:Event;
@@ -1147,17 +1001,14 @@ _:5aa29e6207b44711a3eb882764a46f735574 schema:price "24.5" .
 """;
   schema:startDate "2025-09-24T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/e7e292f9-8f51-4974-a78e-823748e62cbe.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735575;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735576;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65043;
   schema:keywords "Music";
   schema:duration "PT140M";
   schema:endDate "2025-09-24T22:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735575 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735576 schema:price "41.5" .
+_:f341194863f544dfbcc06b29e17fa0c65043 a schema:AggregateOffer;
+  schema:lowPrice "41.5" .
 
 <http://www.spektrix.com/theporttheatre/event/9801ASMPJNGDQLTQPCPCCHKQQRGTTRTJM> a
     schema:Event;
@@ -1165,19 +1016,16 @@ _:5aa29e6207b44711a3eb882764a46f735576 schema:price "41.5" .
   schema:description """
 	Ocie Elliott pen tunes that feel lived-in. You can hear their memories, experiences, and emotions in the dusty acoustic guitars, the sparse production, and the graceful harmonies between Jon Middleton and Sierra Lundy. The Victoria, B.C.-based duo initially emerged with EP in 2017. Since then, they have amassed hundreds of millions of streams and have seen their songs featured multiple times in Grey’s Anatomy, in addition to sync placements on New Amsterdam, NETFLIX’s Sweet Magnolias, and more. Along the way, Ocie Elliott packed countless headline shows and shared stages with Joshua Radin, Sons of The East, Kim Churchill, and Hollow Coves. In 2022, they garnered a nomination at the JUNO Awards in the category of “Breakthrough Artist of the Year,” marking their first nod. <span><br/></span><span><br/></span>
 """;
-  schema:startDate "2025-09-25T20:00:00"^^xsd:dateTime;
+  schema:startDate "2025-09-24T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/e7e292f9-8f51-4974-a78e-823748e62cbe.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735577;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735578;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65044;
   schema:keywords "Music";
   schema:duration "PT140M";
-  schema:endDate "2025-09-25T22:20:00" .
+  schema:endDate "2025-09-24T22:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735577 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735578 schema:price "41.5" .
+_:f341194863f544dfbcc06b29e17fa0c65044 a schema:AggregateOffer;
+  schema:lowPrice "41.5" .
 
 <http://www.spektrix.com/theporttheatre/event/32203AKLKNHJLQDKBNRHBSRLDKPKPJGHN> a
     schema:Event;
@@ -1187,17 +1035,14 @@ _:5aa29e6207b44711a3eb882764a46f735578 schema:price "41.5" .
 """;
   schema:startDate "2025-09-06T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/13e8ff62-593f-4a95-81e0-85f737a8599f.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735579;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735580;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65045;
   schema:keywords "Tribute";
   schema:duration "PT170M";
   schema:endDate "2025-09-06T22:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735579 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735580 schema:price "52.0" .
+_:f341194863f544dfbcc06b29e17fa0c65045 a schema:AggregateOffer;
+  schema:lowPrice "52.0" .
 
 <http://www.spektrix.com/theporttheatre/event/15201AJRGPHRLRVGVLSMBRKVQSJMVJBSH> a
     schema:Event;
@@ -1207,18 +1052,15 @@ _:5aa29e6207b44711a3eb882764a46f735580 schema:price "52.0" .
 """;
   schema:startDate "2026-04-25T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/bcb7d284-57c8-4ef6-bf00-c9b36deed67a.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735581;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735582;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65046;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-04-25T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735581 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735582 schema:price "36.0" .
+_:f341194863f544dfbcc06b29e17fa0c65046 a schema:AggregateOffer;
+  schema:lowPrice "36.0" .
 
 <http://www.spektrix.com/theporttheatre/event/21401ATBPGTQKVRDDCCQRVVVPPKQMSKBM> a
     schema:Event;
@@ -1228,17 +1070,14 @@ _:5aa29e6207b44711a3eb882764a46f735582 schema:price "36.0" .
 """;
   schema:startDate "2025-09-16T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/a55593cb-9837-462c-a48f-45d9a3ed8584.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735583;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735584;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65047;
   schema:keywords "Tribute";
   schema:duration "PT140M";
   schema:endDate "2025-09-16T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735583 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735584 schema:price "51.5" .
+_:f341194863f544dfbcc06b29e17fa0c65047 a schema:AggregateOffer;
+  schema:lowPrice "51.5" .
 
 <http://www.spektrix.com/theporttheatre/event/28803AQJHJQLHGLSKGQSCKDBCHGGBNDDH> a
     schema:Event;
@@ -1248,18 +1087,15 @@ _:5aa29e6207b44711a3eb882764a46f735584 schema:price "51.5" .
 """;
   schema:startDate "2025-10-03T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/d90f9569-239e-4bd4-bebe-e42d386dfcc4.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735585;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735586;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65048;
   schema:keywords "Family";
   schema:duration "PT90M";
   schema:endDate "2025-10-03T21:00:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735585 a skos:Concept;
-  skos:prefLabel "Family" .
-
-_:5aa29e6207b44711a3eb882764a46f735586 schema:price "36.5" .
+_:f341194863f544dfbcc06b29e17fa0c65048 a schema:AggregateOffer;
+  schema:lowPrice "36.5" .
 
 <http://www.spektrix.com/theporttheatre/event/29209ATDNHVDGLDSSSGPKQLTHGGMHCLRM> a
     schema:Event;
@@ -1269,18 +1105,15 @@ _:5aa29e6207b44711a3eb882764a46f735586 schema:price "36.5" .
 """;
   schema:startDate "2026-05-20T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/191736fb-0fb7-4488-a2e5-04b70380ab93.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735587;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735588;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65049;
   schema:keywords "Dance";
   schema:duration "PT140M";
   schema:endDate "2026-05-20T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735587 a skos:Concept;
-  skos:prefLabel "Dance" .
-
-_:5aa29e6207b44711a3eb882764a46f735588 schema:price "31.5" .
+_:f341194863f544dfbcc06b29e17fa0c65049 a schema:AggregateOffer;
+  schema:lowPrice "31.5" .
 
 <http://www.spektrix.com/theporttheatre/event/28602ANLPVHQNKPKMTKMVBQPLMHBQTNGH> a
     schema:Event;
@@ -1290,18 +1123,15 @@ _:5aa29e6207b44711a3eb882764a46f735588 schema:price "31.5" .
 """;
   schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/b2a74e21-910d-4380-a088-763c0974427b.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735589;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735590;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65050;
   schema:keywords "Dance";
   schema:duration "PT240M";
   schema:endDate "2026-03-20T23:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735589 a skos:Concept;
-  skos:prefLabel "Dance" .
-
-_:5aa29e6207b44711a3eb882764a46f735590 schema:price "31.5" .
+_:f341194863f544dfbcc06b29e17fa0c65050 a schema:AggregateOffer;
+  schema:lowPrice "31.5" .
 
 <http://www.spektrix.com/theporttheatre/event/30001ACDNMRPKSDRKSKCJNMSBQHCSMMMG> a
     schema:Event;
@@ -1311,18 +1141,15 @@ _:5aa29e6207b44711a3eb882764a46f735590 schema:price "31.5" .
 """;
   schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/d18ebe8c-8f83-4a47-83be-20e1e5eb907d.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735591;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735592;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65051;
   schema:keywords "Theatre";
   schema:duration "PT140M";
   schema:endDate "2025-12-06T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735591 a skos:Concept;
-  skos:prefLabel "Theatre" .
-
-_:5aa29e6207b44711a3eb882764a46f735592 schema:price "21.5" .
+_:f341194863f544dfbcc06b29e17fa0c65051 a schema:AggregateOffer;
+  schema:lowPrice "21.5" .
 
 <http://www.spektrix.com/theporttheatre/event/30202ATSJVPNTLTJHQTHBLLRGVHHNKPMJ> a
     schema:Event;
@@ -1332,18 +1159,15 @@ _:5aa29e6207b44711a3eb882764a46f735592 schema:price "21.5" .
 """;
   schema:startDate "2026-02-06T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/ead8fe04-ce13-4726-9ef6-24be90a5b2f7.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735593;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735594;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65052;
   schema:keywords "Dance";
   schema:duration "PT140M";
   schema:endDate "2026-02-06T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735593 a skos:Concept;
-  skos:prefLabel "Dance" .
-
-_:5aa29e6207b44711a3eb882764a46f735594 schema:price "36.5" .
+_:f341194863f544dfbcc06b29e17fa0c65052 a schema:AggregateOffer;
+  schema:lowPrice "36.5" .
 
 <http://www.spektrix.com/theporttheatre/event/30401AVTJMSJLDVLNKKKDPCPPRDDJCLRT> a
     schema:Event;
@@ -1353,18 +1177,15 @@ _:5aa29e6207b44711a3eb882764a46f735594 schema:price "36.5" .
 """;
   schema:startDate "2026-01-30T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/d2989246-9fd3-4ec6-9673-697bb10c5a73.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735595;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735596;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65053;
   schema:keywords "Music";
   schema:duration "PT110M";
   schema:endDate "2026-01-30T21:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735595 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735596 schema:price "31.5" .
+_:f341194863f544dfbcc06b29e17fa0c65053 a schema:AggregateOffer;
+  schema:lowPrice "31.5" .
 
 <http://www.spektrix.com/theporttheatre/event/30203AVTTBGLVNBTMVMTVKGTBPSSBTSKS> a
     schema:Event;
@@ -1374,18 +1195,15 @@ _:5aa29e6207b44711a3eb882764a46f735596 schema:price "31.5" .
 """;
   schema:startDate "2026-05-06T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/94382122-e003-4483-b524-fd1e559ecf10.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735597;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735598;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65054;
   schema:keywords "Music";
   schema:duration "PT80M";
   schema:endDate "2026-05-06T20:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735597 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735598 schema:price "21.5" .
+_:f341194863f544dfbcc06b29e17fa0c65054 a schema:AggregateOffer;
+  schema:lowPrice "21.5" .
 
 <http://www.spektrix.com/theporttheatre/event/27603ASJPRVVNTMJVSQSBVLJPBCJQCSQT> a
     schema:Event;
@@ -1395,18 +1213,15 @@ _:5aa29e6207b44711a3eb882764a46f735598 schema:price "21.5" .
 """;
   schema:startDate "2026-04-12T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/0b3a75d9-79e7-4134-b622-361519c7df95.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735599;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735600;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65055;
   schema:keywords "Special Events";
   schema:duration "PT120M";
   schema:endDate "2026-04-12T16:00:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735599 a skos:Concept;
-  skos:prefLabel "Special Events" .
-
-_:5aa29e6207b44711a3eb882764a46f735600 schema:price "21.5" .
+_:f341194863f544dfbcc06b29e17fa0c65055 a schema:AggregateOffer;
+  schema:lowPrice "21.5" .
 
 <http://www.spektrix.com/theporttheatre/event/29801AKHGBCBQNDCCBHCDGNPLGJBDMJSD> a
     schema:Event;
@@ -1416,31 +1231,15 @@ _:5aa29e6207b44711a3eb882764a46f735600 schema:price "21.5" .
 """;
   schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/c4bf89d8-ed3b-4113-a766-54a441310cb9.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735601;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735602;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65056;
   schema:keywords "Dance";
   schema:duration "PT140M";
   schema:endDate "2025-11-14T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735601 a skos:Concept;
-  skos:prefLabel "Dance" .
-
-_:5aa29e6207b44711a3eb882764a46f735602 schema:price "31.5" .
-
-<https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> a
-    schema:Place;
-  schema:name "The Port Theatre";
-  schema:address <https://spektrix.com/theporttheatre/address/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> .
-
-<https://spektrix.com/theporttheatre/address/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> a
-    schema:PostalAddress;
-  schema:streetAddress "125 Front Street";
-  schema:addressLocality "Nanaimo";
-  schema:addressRegion "BC";
-  schema:postalCode "V9R 6Z4";
-  schema:addressCountry "CA" .
+_:f341194863f544dfbcc06b29e17fa0c65056 a schema:AggregateOffer;
+  schema:lowPrice "31.5" .
 
 <http://www.spektrix.com/theporttheatre/event/28402ALHCMMMTSMMTQKDLQLCLGMPJGCBT> a
     schema:Event;
@@ -1450,21 +1249,15 @@ _:5aa29e6207b44711a3eb882764a46f735602 schema:price "31.5" .
 """;
   schema:startDate "2025-10-29T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/92b6fadb-8c34-462f-982a-069ddb49fcf9.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735603;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735604;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65057;
   schema:keywords "Music";
   schema:duration "PT55M";
   schema:endDate "2025-10-29T20:25:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735603 a skos:Concept;
-  skos:prefLabel "Music" .
-
-<https://spektrix.com/theporttheatre/organization/the-port-theatre-society> a schema:Organization;
-  schema:name "The Port Theatre Society" .
-
-_:5aa29e6207b44711a3eb882764a46f735604 schema:price "31.5" .
+_:f341194863f544dfbcc06b29e17fa0c65057 a schema:AggregateOffer;
+  schema:lowPrice "31.5" .
 
 <http://www.spektrix.com/theporttheatre/event/13601ABSCMSGQNLTCLGCSNLSTLGHSDRHB> a
     schema:Event;
@@ -1474,18 +1267,15 @@ _:5aa29e6207b44711a3eb882764a46f735604 schema:price "31.5" .
 """;
   schema:startDate "2025-11-11T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/02432f0a-807b-4a6f-9755-71ea40c609bd.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735605;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735606;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65058;
   schema:keywords "Music";
   schema:duration "PT110M";
   schema:endDate "2025-11-11T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735605 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735606 schema:price "55.5" .
+_:f341194863f544dfbcc06b29e17fa0c65058 a schema:AggregateOffer;
+  schema:lowPrice "55.5" .
 
 <http://www.spektrix.com/theporttheatre/event/30801ARPRRSKJDTQHHJTDRTPHSSSJNCJP> a
     schema:Event;
@@ -1495,18 +1285,15 @@ _:5aa29e6207b44711a3eb882764a46f735606 schema:price "55.5" .
 """;
   schema:startDate "2026-02-24T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/8bc5998e-b57b-4ae1-b1db-f2905bd7ff38.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735607;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735608;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65059;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2026-02-24T20:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735607 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735608 schema:price "21.5" .
+_:f341194863f544dfbcc06b29e17fa0c65059 a schema:AggregateOffer;
+  schema:lowPrice "21.5" .
 
 <http://www.spektrix.com/theporttheatre/event/30201AHVTMBBQKSVNPBBRMTKPDQPRMHJC> a
     schema:Event;
@@ -1516,18 +1303,15 @@ _:5aa29e6207b44711a3eb882764a46f735608 schema:price "21.5" .
 """;
   schema:startDate "2025-12-13T15:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/96e76248-d884-4d08-a1c7-3c53fc52335e.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735609;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735610;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65060;
   schema:keywords "Music";
   schema:duration "PT140M";
   schema:endDate "2025-12-13T17:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735609 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735610 schema:price "31.5" .
+_:f341194863f544dfbcc06b29e17fa0c65060 a schema:AggregateOffer;
+  schema:lowPrice "31.5" .
 
 <http://www.spektrix.com/theporttheatre/event/39401AHHBKTRJHJPLGBDBSTVVRJPBTKLC> a
     schema:Event;
@@ -1537,17 +1321,14 @@ _:5aa29e6207b44711a3eb882764a46f735610 schema:price "31.5" .
 """;
   schema:startDate "2025-11-01T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/d092df11-0e3b-448e-ba70-ad7fbce30b19.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735611;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735612;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65061;
   schema:keywords "Tribute";
   schema:duration "PT120M";
   schema:endDate "2025-11-01T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735611 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735612 schema:price "51.5" .
+_:f341194863f544dfbcc06b29e17fa0c65061 a schema:AggregateOffer;
+  schema:lowPrice "51.5" .
 
 <http://www.spektrix.com/theporttheatre/event/9001AGHDBMPJDRPSRMKLRCJGBJJMTQGDH> a
     schema:Event;
@@ -1557,17 +1338,14 @@ _:5aa29e6207b44711a3eb882764a46f735612 schema:price "51.5" .
 """;
   schema:startDate "2025-10-06T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/27e30e1c-bf64-4c72-ac7b-32fe8d831ac5.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735613;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735614;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65062;
   schema:keywords "Comedy";
   schema:duration "PT90M";
   schema:endDate "2025-10-06T20:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735613 a skos:Concept;
-  skos:prefLabel "Comedy" .
-
-_:5aa29e6207b44711a3eb882764a46f735614 schema:price "47.0" .
+_:f341194863f544dfbcc06b29e17fa0c65062 a schema:AggregateOffer;
+  schema:lowPrice "47.0" .
 
 <http://www.spektrix.com/theporttheatre/event/42001AQJJQTSKLLKMRKNHHDRNVHRLPNPB> a
     schema:Event;
@@ -1577,17 +1355,14 @@ _:5aa29e6207b44711a3eb882764a46f735614 schema:price "47.0" .
 """;
   schema:startDate "2026-02-20T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/c5342004-cbd8-43f0-b180-2259c5bbac25.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735615;
   schema:location <https://spektrix.com/theporttheatre/location/422ANRNNSBDGRLPRGTPLCJJQGNMGPVTKQ>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735616;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65063;
   schema:keywords "Tribute";
   schema:duration "PT120M";
   schema:endDate "2026-02-20T21:00:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735615 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735616 schema:price "36.0" .
+_:f341194863f544dfbcc06b29e17fa0c65063 a schema:AggregateOffer;
+  schema:lowPrice "36.0" .
 
 <https://spektrix.com/theporttheatre/location/422ANRNNSBDGRLPRGTPLCJJQGNMGPVTKQ> a
     schema:Place;
@@ -1610,21 +1385,15 @@ _:5aa29e6207b44711a3eb882764a46f735616 schema:price "36.0" .
 """;
   schema:startDate "2025-11-10T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/6c0d9601-cc27-4d2c-b74d-94a601032703.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735617;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/got-pop?-concerts>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735618;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65064;
   schema:keywords "Tribute";
   schema:duration "PT140M";
   schema:endDate "2025-11-10T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735617 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-<https://spektrix.com/theporttheatre/organization/got-pop?-concerts> a schema:Organization;
-  schema:name "Got Pop? Concerts" .
-
-_:5aa29e6207b44711a3eb882764a46f735618 schema:price "52.5" .
+_:f341194863f544dfbcc06b29e17fa0c65064 a schema:AggregateOffer;
+  schema:lowPrice "52.5" .
 
 <http://www.spektrix.com/theporttheatre/event/21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC> a
     schema:Event;
@@ -1634,17 +1403,14 @@ _:5aa29e6207b44711a3eb882764a46f735618 schema:price "52.5" .
 """;
   schema:startDate "2025-09-14T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/aa591b84-001e-429a-be2e-af6e6d03f5bf.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735619;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735620;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65065;
   schema:keywords "Tribute";
   schema:duration "PT130M";
   schema:endDate "2025-09-14T21:10:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735619 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735620 schema:price "45.5" .
+_:f341194863f544dfbcc06b29e17fa0c65065 a schema:AggregateOffer;
+  schema:lowPrice "45.5" .
 
 <http://www.spektrix.com/theporttheatre/event/14802ADBVQNBCDVGDPTVQLHVRRCVDJBVH> a
     schema:Event;
@@ -1654,21 +1420,31 @@ _:5aa29e6207b44711a3eb882764a46f735620 schema:price "45.5" .
 """;
   schema:startDate "2025-11-17T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/7490d8de-09b9-44ef-850c-8d08103c6458.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735621;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735622;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65066;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2025-11-17T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735621 a skos:Concept;
-  skos:prefLabel "Music" .
-
 <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony> a schema:Organization;
   schema:name "Vancouver Island Symphony" .
 
-_:5aa29e6207b44711a3eb882764a46f735622 schema:price "36.0" .
+_:f341194863f544dfbcc06b29e17fa0c65066 a schema:AggregateOffer;
+  schema:lowPrice "36.0" .
+
+<https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> a
+    schema:Place;
+  schema:name "The Port Theatre";
+  schema:address <https://spektrix.com/theporttheatre/address/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> .
+
+<https://spektrix.com/theporttheatre/address/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> a
+    schema:PostalAddress;
+  schema:streetAddress "125 Front Street";
+  schema:addressLocality "Nanaimo";
+  schema:addressRegion "BC";
+  schema:postalCode "V9R 6Z4";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/theporttheatre/event/19801AHJMMDKNMDJQSLCTGNDLGNGMJGHK> a
     schema:Event;
@@ -1678,17 +1454,14 @@ _:5aa29e6207b44711a3eb882764a46f735622 schema:price "36.0" .
 """;
   schema:startDate "2025-11-26T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/c50bb9dc-74e1-46ef-aba1-543be4992b17.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735623;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735624;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65067;
   schema:keywords "Music";
   schema:duration "PT140M";
   schema:endDate "2025-11-26T21:50:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735623 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735624 schema:price "68.0" .
+_:f341194863f544dfbcc06b29e17fa0c65067 a schema:AggregateOffer;
+  schema:lowPrice "68.0" .
 
 <http://www.spektrix.com/theporttheatre/event/23601ABQMTDMTTDQVVNJCNJPSQCSVMLHB> a
     schema:Event;
@@ -1698,17 +1471,14 @@ _:5aa29e6207b44711a3eb882764a46f735624 schema:price "68.0" .
 """;
   schema:startDate "2025-11-16T15:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/79fa2aca-1fee-4640-8a84-f05696e46c04.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735625;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735626;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65068;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2025-11-16T17:00:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735625 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735626 schema:price "42.0" .
+_:f341194863f544dfbcc06b29e17fa0c65068 a schema:AggregateOffer;
+  schema:lowPrice "42.0" .
 
 <http://www.spektrix.com/theporttheatre/event/38401ANGTJSBMBHBQLHQPNRBLQSPPBRDN> a
     schema:Event;
@@ -1718,17 +1488,14 @@ _:5aa29e6207b44711a3eb882764a46f735626 schema:price "42.0" .
 """;
   schema:startDate "2025-10-05T14:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/fc91579b-20e6-43f6-b1b6-8f32a5aada97.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735627;
   schema:location <https://spektrix.com/theporttheatre/location/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735628;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65069;
   schema:keywords "Music";
   schema:duration "PT135M";
   schema:endDate "2025-10-05T16:45:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735627 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735628 schema:price "11.5" .
+_:f341194863f544dfbcc06b29e17fa0c65069 a schema:AggregateOffer;
+  schema:lowPrice "11.5" .
 
 <https://spektrix.com/theporttheatre/location/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> a
     schema:Place;
@@ -1751,18 +1518,15 @@ _:5aa29e6207b44711a3eb882764a46f735628 schema:price "11.5" .
 """;
   schema:startDate "2025-11-28T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/395de5e7-dd42-420b-80c6-3064eeebb755.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735629;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735630;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65070;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2025-11-28T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735629 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735630 schema:price "40.5" .
+_:f341194863f544dfbcc06b29e17fa0c65070 a schema:AggregateOffer;
+  schema:lowPrice "40.5" .
 
 <http://www.spektrix.com/theporttheatre/event/18801AQTCDTTRMRJKMBPNNPMJSBLMGVQP> a
     schema:Event;
@@ -1770,20 +1534,17 @@ _:5aa29e6207b44711a3eb882764a46f735630 schema:price "40.5" .
   schema:description """
 	CONDUCTOR: Cosette Justo Valdés<span><br/></span>GUEST ARTISTS: The Celtic Tenors<span><br/></span><span><br/></span><span><br/></span>Join the Celtic Tenors for an unforgettable performance of vocal brilliance and festive cheer. Enjoy their enchanting blend of Celtic charm with timeless favourites and modern hits, alongside a heartwarming selection of Christmas favourites. <span><br/></span><span><br/></span>This special concert promises to be a mesmerizing celebration of Celtic culture and the joyous spirit of Christmas, leaving your heart soaring and your spirit uplifted!<span><br/></span><span><br/></span>
 """;
-  schema:startDate "2025-11-29T14:00:00"^^xsd:dateTime;
+  schema:startDate "2025-11-28T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/395de5e7-dd42-420b-80c6-3064eeebb755.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735631;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735632;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65071;
   schema:keywords "Music";
   schema:duration "PT120M";
-  schema:endDate "2025-11-29T16:00:00" .
+  schema:endDate "2025-11-28T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735631 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735632 schema:price "40.5" .
+_:f341194863f544dfbcc06b29e17fa0c65071 a schema:AggregateOffer;
+  schema:lowPrice "40.5" .
 
 <http://www.spektrix.com/theporttheatre/event/14201ARTVMVMMBMSJNNDBHCBBRVSCTRNG> a
     schema:Event;
@@ -1791,20 +1552,17 @@ _:5aa29e6207b44711a3eb882764a46f735632 schema:price "40.5" .
   schema:description """
 	CONDUCTOR: Cosette Justo Valdés<span><br/></span>GUEST ARTISTS: The Celtic Tenors<span><br/></span><span><br/></span><span><br/></span>Join the Celtic Tenors for an unforgettable performance of vocal brilliance and festive cheer. Enjoy their enchanting blend of Celtic charm with timeless favourites and modern hits, alongside a heartwarming selection of Christmas favourites. <span><br/></span><span><br/></span>This special concert promises to be a mesmerizing celebration of Celtic culture and the joyous spirit of Christmas, leaving your heart soaring and your spirit uplifted!<span><br/></span><span><br/></span>
 """;
-  schema:startDate "2025-11-29T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-11-28T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/395de5e7-dd42-420b-80c6-3064eeebb755.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735633;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735634;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65072;
   schema:keywords "Music";
   schema:duration "PT120M";
-  schema:endDate "2025-11-29T21:30:00" .
+  schema:endDate "2025-11-28T21:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735633 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735634 schema:price "40.5" .
+_:f341194863f544dfbcc06b29e17fa0c65072 a schema:AggregateOffer;
+  schema:lowPrice "40.5" .
 
 <http://www.spektrix.com/theporttheatre/event/22401AHNCPNVTKJTRNRHMVHTTDRBJQHGK> a
     schema:Event;
@@ -1814,17 +1572,14 @@ _:5aa29e6207b44711a3eb882764a46f735634 schema:price "40.5" .
 """;
   schema:startDate "2026-01-31T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/017a3d57-9d3b-43ab-9034-05eade89ca23.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735635;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735636;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65073;
   schema:keywords "Comedy";
   schema:duration "PT140M";
   schema:endDate "2026-01-31T22:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735635 a skos:Concept;
-  skos:prefLabel "Comedy" .
-
-_:5aa29e6207b44711a3eb882764a46f735636 schema:price "56.0" .
+_:f341194863f544dfbcc06b29e17fa0c65073 a schema:AggregateOffer;
+  schema:lowPrice "56.0" .
 
 <http://www.spektrix.com/theporttheatre/event/30601ASVMNTVBQGPSKCLTTHTBBRPCLTLM> a
     schema:Event;
@@ -1834,21 +1589,18 @@ _:5aa29e6207b44711a3eb882764a46f735636 schema:price "56.0" .
 """;
   schema:startDate "2025-12-09T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/c92b7ac2-8308-4fa0-94a2-310baf5d82d5.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735637;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/modo-live>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735638;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65074;
   schema:keywords "Comedy";
   schema:duration "PT170M";
   schema:endDate "2025-12-09T22:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735637 a skos:Concept;
-  skos:prefLabel "Comedy" .
-
 <https://spektrix.com/theporttheatre/organization/modo-live> a schema:Organization;
   schema:name "MODO-LIVE" .
 
-_:5aa29e6207b44711a3eb882764a46f735638 schema:price "58.0" .
+_:f341194863f544dfbcc06b29e17fa0c65074 a schema:AggregateOffer;
+  schema:lowPrice "58.0" .
 
 <http://www.spektrix.com/theporttheatre/event/23001ARCVCNHNNNCLVMBNCMRGPKGBRCSK> a
     schema:Event;
@@ -1858,17 +1610,14 @@ _:5aa29e6207b44711a3eb882764a46f735638 schema:price "58.0" .
 """;
   schema:startDate "2025-10-05T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/7bc54ed5-c0f8-4f95-aa5c-9e7436fc747c.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735639;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735640;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65075;
   schema:keywords "Tribute";
   schema:duration "PT140M";
   schema:endDate "2025-10-05T21:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735639 a skos:Concept;
-  skos:prefLabel "Tribute" .
-
-_:5aa29e6207b44711a3eb882764a46f735640 schema:price "51.5" .
+_:f341194863f544dfbcc06b29e17fa0c65075 a schema:AggregateOffer;
+  schema:lowPrice "51.5" .
 
 <http://www.spektrix.com/theporttheatre/event/37001ARJRQBSGKJPNKCLJJTNSVJDCDBHT> a
     schema:Event;
@@ -1878,18 +1627,18 @@ _:5aa29e6207b44711a3eb882764a46f735640 schema:price "51.5" .
 """;
   schema:startDate "2025-12-03T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/37223a38-60ac-470b-93d7-d315fd704929.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735641;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/got-pop?-concerts>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735642;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65076;
   schema:keywords "Music";
   schema:duration "PT150M";
   schema:endDate "2025-12-03T22:00:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735641 a skos:Concept;
-  skos:prefLabel "Music" .
+<https://spektrix.com/theporttheatre/organization/got-pop?-concerts> a schema:Organization;
+  schema:name "Got Pop? Concerts" .
 
-_:5aa29e6207b44711a3eb882764a46f735642 schema:price "42.5" .
+_:f341194863f544dfbcc06b29e17fa0c65076 a schema:AggregateOffer;
+  schema:lowPrice "42.5" .
 
 <http://www.spektrix.com/theporttheatre/event/37401ACMVCJPTCNKQSKTHCVRCQVKKGRPH> a
     schema:Event;
@@ -1898,18 +1647,15 @@ _:5aa29e6207b44711a3eb882764a46f735642 schema:price "42.5" .
 	<h2>The Strumbellas Super VIP Tour Bus Experience Add-On (VIP 1)</h2>$273.60 Add-on <span class=\"BoldText\">PER</span> regular priced ticket.<span><br/></span><span><br/></span><span class=\"UnderlineText\"><span class=\"BoldText\">Details</span></span> <span><br/></span>-One <span class=\"BoldText\">VIP Tour Bus</span> general admission ticket to see The Strumbellas Live <span><br/></span>-Early entry into the venue <span><br/></span>-Access to an intimate pre-show hang with the band on their tour bus <span><br/></span>-Pre-show acoustic set by The Strumbellas (playing songs not part of their set) <span><br/></span>-Q&A session with The Strumbellas <span><br/></span>-Group photograph in front of the stage with The Strumbellas <span><br/></span>-Limited edition tour poster; autographed by The Strumbellas <span><br/></span>-Commemorative VIP laminate & lanyard <span><br/></span>-Priority merchandise shopping before general doors<span><br/></span><span><br/></span><span class=\"BoldText\">Very Limited Quantity Available</span>
 """;
   schema:startDate "2025-12-03T19:30:00"^^xsd:dateTime;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735643;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/got-pop?-concerts>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735644;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65077;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2025-12-03T20:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735643 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735644 schema:price "296.64" .
+_:f341194863f544dfbcc06b29e17fa0c65077 a schema:AggregateOffer;
+  schema:lowPrice "296.64" .
 
 <http://www.spektrix.com/theporttheatre/event/37201ANNHRQCTNHTBVHBGGJGJCBQDGBJG> a
     schema:Event;
@@ -1918,18 +1664,15 @@ _:5aa29e6207b44711a3eb882764a46f735644 schema:price "296.64" .
 	<h2>The Strumbellas VIP Acoustic Experience (VIP 2)</h2><span><br/></span>$89.37 Add-on <span class=\"BoldText\">PER</span> regular priced ticket.<span><br/></span><span><br/></span><span class=\"UnderlineText\"><span class=\"BoldText\">Details</span></span> <span><br/></span>-One <span class=\"BoldText\">VIP Acoustic</span> general admission ticket to see The Strumbellas Live <span><br/></span>-Early entry into the venue <span><br/></span>-Pre-show acoustic set by The Strumbellas (playing songs not part of their set) <span><br/></span>-Q&A session with The Strumbellas <span><br/></span>-Group photograph in front of the stage with The Strumbellas <span><br/></span>-Limited edition tour poster; autographed by The Strumbellas <span><br/></span>-Commemorative VIP laminate & lanyard <span><br/></span>-Priority merchandise shopping before general doors 
 """;
   schema:startDate "2025-12-03T19:30:00"^^xsd:dateTime;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735645;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/got-pop?-concerts>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735646;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65078;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2025-12-03T20:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735645 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735646 schema:price "96.89" .
+_:f341194863f544dfbcc06b29e17fa0c65078 a schema:AggregateOffer;
+  schema:lowPrice "96.89" .
 
 <http://www.spektrix.com/theporttheatre/event/24401ANRSMNVVNPTCKDHLSQSTGQBDDKHJ> a
     schema:Event;
@@ -1939,21 +1682,18 @@ _:5aa29e6207b44711a3eb882764a46f735646 schema:price "96.89" .
 """;
   schema:startDate "2026-01-24T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/06480c1b-9b38-43e8-af47-6a1dd5b070bf.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735647;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/outback-presents>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735648;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65079;
   schema:keywords "Comedy";
   schema:duration "PT90M";
   schema:endDate "2026-01-24T20:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735647 a skos:Concept;
-  skos:prefLabel "Comedy" .
-
 <https://spektrix.com/theporttheatre/organization/outback-presents> a schema:Organization;
   schema:name "Outback Presents" .
 
-_:5aa29e6207b44711a3eb882764a46f735648 schema:price "47.25" .
+_:f341194863f544dfbcc06b29e17fa0c65079 a schema:AggregateOffer;
+  schema:lowPrice "47.25" .
 
 <http://www.spektrix.com/theporttheatre/event/26001APLNVRTPLBBPSVMJQSVGGNQMBRBG> a
     schema:Event;
@@ -1963,11 +1703,12 @@ _:5aa29e6207b44711a3eb882764a46f735648 schema:price "47.25" .
 """;
   schema:startDate "2026-01-24T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735649;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65080;
   schema:duration "PT60M";
   schema:endDate "2026-01-24T20:00:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735649 schema:price "50.0" .
+_:f341194863f544dfbcc06b29e17fa0c65080 a schema:AggregateOffer;
+  schema:lowPrice "50.0" .
 
 <http://www.spektrix.com/theporttheatre/event/15401AGBHLPJQSLGSGPTPRKHBGTDKGKJN> a
     schema:Event;
@@ -1977,18 +1718,15 @@ _:5aa29e6207b44711a3eb882764a46f735649 schema:price "50.0" .
 """;
   schema:startDate "2026-01-23T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/add773c4-ebcc-4419-84e1-823d0c5409c0.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735650;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735651;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65081;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2026-01-23T20:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735650 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735651 schema:price "36.0" .
+_:f341194863f544dfbcc06b29e17fa0c65081 a schema:AggregateOffer;
+  schema:lowPrice "36.0" .
 
 <http://www.spektrix.com/theporttheatre/event/38801AQDNRKLTDJNRGTHNNSDTQVMLRTCD> a
     schema:Event;
@@ -1998,18 +1736,15 @@ _:5aa29e6207b44711a3eb882764a46f735651 schema:price "36.0" .
 """;
   schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/2362fd25-154f-46bb-afb4-504e150284bf.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735652;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/vancouver-island-symphony>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735653;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65082;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2026-02-13T20:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735652 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735653 schema:price "45.5" .
+_:f341194863f544dfbcc06b29e17fa0c65082 a schema:AggregateOffer;
+  schema:lowPrice "45.5" .
 
 <http://www.spektrix.com/theporttheatre/event/42601AHHMJKDLCSMPCMNQQTLCLBJSNVCP> a
     schema:Event;
@@ -2019,18 +1754,18 @@ _:5aa29e6207b44711a3eb882764a46f735653 schema:price "45.5" .
 """;
   schema:startDate "2025-10-01T10:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/cd4ecf75-2cb2-4f8b-abed-2a7104366235.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735654;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735655;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65083;
   schema:keywords "Music";
   schema:duration "PT90M";
   schema:endDate "2025-10-01T11:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735654 a skos:Concept;
-  skos:prefLabel "Music" .
+<https://spektrix.com/theporttheatre/organization/the-port-theatre-society> a schema:Organization;
+  schema:name "The Port Theatre Society" .
 
-_:5aa29e6207b44711a3eb882764a46f735655 schema:price "100.0" .
+_:f341194863f544dfbcc06b29e17fa0c65083 a schema:AggregateOffer;
+  schema:lowPrice "100.0" .
 
 <http://www.spektrix.com/theporttheatre/event/24001ABMNLGCGVMRMGTMJKPBQCNHQQLMH> a
     schema:Event;
@@ -2038,20 +1773,17 @@ _:5aa29e6207b44711a3eb882764a46f735655 schema:price "100.0" .
   schema:description """
 	Website Content<span><br/></span><span><br/></span><span class=\"BoldText\">Preshow Chat 6:45pm</span><span><br/></span><span><br/></span>This is a <span class=\"ItalicText\">description for the</span> Port Theatre ticketing website<span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">bold italic</span></span><span><br/></span><span><br/></span><span class=\"UnderlineText\">underlined</span><span><br/></span><span><br/></span><ul><li>first item</li><li>second item</li></ul><span><br/></span><ol><li>first item</li><li>sedcond item</li></ol><span><br/></span><a target=\"_top\" href=\"http://www.formulate.ca\">link test</a><span><br/></span>
 """;
-  schema:startDate "2026-06-05T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-10-01T10:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/cd4ecf75-2cb2-4f8b-abed-2a7104366235.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735656;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/the-port-theatre-society>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735657;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65084;
   schema:keywords "Music";
   schema:duration "PT90M";
-  schema:endDate "2026-06-05T21:00:00" .
+  schema:endDate "2025-10-01T11:30:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735656 a skos:Concept;
-  skos:prefLabel "Music" .
-
-_:5aa29e6207b44711a3eb882764a46f735657 schema:price "30.5" .
+_:f341194863f544dfbcc06b29e17fa0c65084 a schema:AggregateOffer;
+  schema:lowPrice "30.5" .
 
 <http://www.spektrix.com/theporttheatre/event/35801AHSQHGLDRQDGJQNMNBKJMSLGBGCB> a
     schema:Event;
@@ -2061,21 +1793,18 @@ _:5aa29e6207b44711a3eb882764a46f735657 schema:price "30.5" .
 """;
   schema:startDate "2025-12-16T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4554f45f-b2b6-4751-8589-c24784b17eb4.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735658;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/razzle-dazzle-productions>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735659;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65085;
   schema:keywords "Special Events";
   schema:duration "PT140M";
   schema:endDate "2025-12-16T21:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735658 a skos:Concept;
-  skos:prefLabel "Special Events" .
-
 <https://spektrix.com/theporttheatre/organization/razzle-dazzle-productions> a schema:Organization;
   schema:name "Razzle Dazzle Productions" .
 
-_:5aa29e6207b44711a3eb882764a46f735659 schema:price "51.5" .
+_:f341194863f544dfbcc06b29e17fa0c65085 a schema:AggregateOffer;
+  schema:lowPrice "51.5" .
 
 <http://www.spektrix.com/theporttheatre/event/35802AMJSRHBJBGHPMDNRMQLTJQHLDLQL> a
     schema:Event;
@@ -2083,20 +1812,17 @@ _:5aa29e6207b44711a3eb882764a46f735659 schema:price "51.5" .
   schema:description """
 	The Yellowpoint Christmas Spectacular is a celebration of music, dance, lights and decorations.  Now in its 17th season, it has become a holiday tradition for many across Vancouver Island. <span><br/></span><span><br/></span>What better way to celebrate the season than with tickets to this dazzling spectacle.  It’s fast moving and colorful.  It will take you on an emotional journey through a wide variety of music and dance from rock & roll to Broadway, jazz and classical, tap, interwoven with touching readings and stories.<span><br/></span><span><br/></span>This year's singing and dancing extravaganza includes medleys of well-known songs by Bobby Darrin, a selection of musical numbers from Mary Poppins and Frozen, a classic 80's rock band tribute, a disco set including Stayin' Alive, a fun collection of Canadian songs, an audience sing-along, Bing Crosby's classic White Christmas as well as many more classical hits and Christmas favorites.<span><br/></span><span><br/></span>Three weeks before opening night, a team of 19 professional singers, dancers, musicians and theatre artists will begin rehearsals in preparation for opening night!<span><br/></span><span><br/></span>Tickets on sale August 6th, 2025.  This show is in popular demand. A favorite among bus tour groups, staff parties, family and friend reunions, and festive celebrations.  Book early so you don’t miss this exciting holiday event!<span><br/></span><span><br/></span>ARTISTIC DIRECTOR & PRODUCER: Katy Bowen-Roberts<span><br/></span><span><br/></span>MUSICAL DIRECTOR & ARRANGER: James Mark<span><br/></span><span><br/></span>CO-DIRECTOR & CHOREOGRAPHER: Lindsay Sterk<span><br/></span><span><br/></span>LIGHTING: Hilary Britton-Foster<span><br/></span><span><br/></span>SOUND: Steve Adamson<span><br/></span><span><br/></span>STAGE MANAGER: Shelby Matthews<span><br/></span>
 """;
-  schema:startDate "2025-12-17T19:00:00"^^xsd:dateTime;
+  schema:startDate "2025-12-16T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4554f45f-b2b6-4751-8589-c24784b17eb4.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735660;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/razzle-dazzle-productions>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735661;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65086;
   schema:keywords "Special Events";
   schema:duration "PT140M";
-  schema:endDate "2025-12-17T21:20:00" .
+  schema:endDate "2025-12-16T21:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735660 a skos:Concept;
-  skos:prefLabel "Special Events" .
-
-_:5aa29e6207b44711a3eb882764a46f735661 schema:price "51.5" .
+_:f341194863f544dfbcc06b29e17fa0c65086 a schema:AggregateOffer;
+  schema:lowPrice "51.5" .
 
 <http://www.spektrix.com/theporttheatre/event/35803ARJRLHRTDMRKTPSJTKMGNDPJKRLC> a
     schema:Event;
@@ -2104,20 +1830,17 @@ _:5aa29e6207b44711a3eb882764a46f735661 schema:price "51.5" .
   schema:description """
 	The Yellowpoint Christmas Spectacular is a celebration of music, dance, lights and decorations.  Now in its 17th season, it has become a holiday tradition for many across Vancouver Island. <span><br/></span><span><br/></span>What better way to celebrate the season than with tickets to this dazzling spectacle.  It’s fast moving and colorful.  It will take you on an emotional journey through a wide variety of music and dance from rock & roll to Broadway, jazz and classical, tap, interwoven with touching readings and stories.<span><br/></span><span><br/></span>This year's singing and dancing extravaganza includes medleys of well-known songs by Bobby Darrin, a selection of musical numbers from Mary Poppins and Frozen, a classic 80's rock band tribute, a disco set including Stayin' Alive, a fun collection of Canadian songs, an audience sing-along, Bing Crosby's classic White Christmas as well as many more classical hits and Christmas favorites.<span><br/></span><span><br/></span>Three weeks before opening night, a team of 19 professional singers, dancers, musicians and theatre artists will begin rehearsals in preparation for opening night!<span><br/></span><span><br/></span>Tickets on sale August 6th, 2025.  This show is in popular demand. A favorite among bus tour groups, staff parties, family and friend reunions, and festive celebrations.  Book early so you don’t miss this exciting holiday event!<span><br/></span><span><br/></span>ARTISTIC DIRECTOR & PRODUCER: Katy Bowen-Roberts<span><br/></span><span><br/></span>MUSICAL DIRECTOR & ARRANGER: James Mark<span><br/></span><span><br/></span>CO-DIRECTOR & CHOREOGRAPHER: Lindsay Sterk<span><br/></span><span><br/></span>LIGHTING: Hilary Britton-Foster<span><br/></span><span><br/></span>SOUND: Steve Adamson<span><br/></span><span><br/></span>STAGE MANAGER: Shelby Matthews<span><br/></span>
 """;
-  schema:startDate "2025-12-18T19:00:00"^^xsd:dateTime;
+  schema:startDate "2025-12-16T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4554f45f-b2b6-4751-8589-c24784b17eb4.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735662;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/razzle-dazzle-productions>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735663;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65087;
   schema:keywords "Special Events";
   schema:duration "PT140M";
-  schema:endDate "2025-12-18T21:20:00" .
+  schema:endDate "2025-12-16T21:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735662 a skos:Concept;
-  skos:prefLabel "Special Events" .
-
-_:5aa29e6207b44711a3eb882764a46f735663 schema:price "51.5" .
+_:f341194863f544dfbcc06b29e17fa0c65087 a schema:AggregateOffer;
+  schema:lowPrice "51.5" .
 
 <http://www.spektrix.com/theporttheatre/event/36001AVSBSKQTBCMJCHVTHSQVQCNPBTLJ> a
     schema:Event;
@@ -2125,20 +1848,17 @@ _:5aa29e6207b44711a3eb882764a46f735663 schema:price "51.5" .
   schema:description """
 	The Yellowpoint Christmas Spectacular is a celebration of music, dance, lights and decorations.  Now in its 17th season, it has become a holiday tradition for many across Vancouver Island. <span><br/></span><span><br/></span>What better way to celebrate the season than with tickets to this dazzling spectacle.  It’s fast moving and colorful.  It will take you on an emotional journey through a wide variety of music and dance from rock & roll to Broadway, jazz and classical, tap, interwoven with touching readings and stories.<span><br/></span><span><br/></span>This year's singing and dancing extravaganza includes medleys of well-known songs by Bobby Darrin, a selection of musical numbers from Mary Poppins and Frozen, a classic 80's rock band tribute, a disco set including Stayin' Alive, a fun collection of Canadian songs, an audience sing-along, Bing Crosby's classic White Christmas as well as many more classical hits and Christmas favorites.<span><br/></span><span><br/></span>Three weeks before opening night, a team of 19 professional singers, dancers, musicians and theatre artists will begin rehearsals in preparation for opening night!<span><br/></span><span><br/></span>Tickets on sale August 6th, 2025.  This show is in popular demand. A favorite among bus tour groups, staff parties, family and friend reunions, and festive celebrations.  Book early so you don’t miss this exciting holiday event!<span><br/></span><span><br/></span>ARTISTIC DIRECTOR & PRODUCER: Katy Bowen-Roberts<span><br/></span><span><br/></span>MUSICAL DIRECTOR & ARRANGER: James Mark<span><br/></span><span><br/></span>CO-DIRECTOR & CHOREOGRAPHER: Lindsay Sterk<span><br/></span><span><br/></span>LIGHTING: Hilary Britton-Foster<span><br/></span><span><br/></span>SOUND: Steve Adamson<span><br/></span><span><br/></span>STAGE MANAGER: Shelby Matthews<span><br/></span>
 """;
-  schema:startDate "2025-12-19T14:00:00"^^xsd:dateTime;
+  schema:startDate "2025-12-16T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4554f45f-b2b6-4751-8589-c24784b17eb4.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735664;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/razzle-dazzle-productions>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735665;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65088;
   schema:keywords "Special Events";
   schema:duration "PT140M";
-  schema:endDate "2025-12-19T16:20:00" .
+  schema:endDate "2025-12-16T21:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735664 a skos:Concept;
-  skos:prefLabel "Special Events" .
-
-_:5aa29e6207b44711a3eb882764a46f735665 schema:price "51.5" .
+_:f341194863f544dfbcc06b29e17fa0c65088 a schema:AggregateOffer;
+  schema:lowPrice "51.5" .
 
 <http://www.spektrix.com/theporttheatre/event/35804AVVVRMBKLRGRNNRMRPGLSBTRTJNB> a
     schema:Event;
@@ -2146,20 +1866,17 @@ _:5aa29e6207b44711a3eb882764a46f735665 schema:price "51.5" .
   schema:description """
 	The Yellowpoint Christmas Spectacular is a celebration of music, dance, lights and decorations.  Now in its 17th season, it has become a holiday tradition for many across Vancouver Island. <span><br/></span><span><br/></span>What better way to celebrate the season than with tickets to this dazzling spectacle.  It’s fast moving and colorful.  It will take you on an emotional journey through a wide variety of music and dance from rock & roll to Broadway, jazz and classical, tap, interwoven with touching readings and stories.<span><br/></span><span><br/></span>This year's singing and dancing extravaganza includes medleys of well-known songs by Bobby Darrin, a selection of musical numbers from Mary Poppins and Frozen, a classic 80's rock band tribute, a disco set including Stayin' Alive, a fun collection of Canadian songs, an audience sing-along, Bing Crosby's classic White Christmas as well as many more classical hits and Christmas favorites.<span><br/></span><span><br/></span>Three weeks before opening night, a team of 19 professional singers, dancers, musicians and theatre artists will begin rehearsals in preparation for opening night!<span><br/></span><span><br/></span>Tickets on sale August 6th, 2025.  This show is in popular demand. A favorite among bus tour groups, staff parties, family and friend reunions, and festive celebrations.  Book early so you don’t miss this exciting holiday event!<span><br/></span><span><br/></span>ARTISTIC DIRECTOR & PRODUCER: Katy Bowen-Roberts<span><br/></span><span><br/></span>MUSICAL DIRECTOR & ARRANGER: James Mark<span><br/></span><span><br/></span>CO-DIRECTOR & CHOREOGRAPHER: Lindsay Sterk<span><br/></span><span><br/></span>LIGHTING: Hilary Britton-Foster<span><br/></span><span><br/></span>SOUND: Steve Adamson<span><br/></span><span><br/></span>STAGE MANAGER: Shelby Matthews<span><br/></span>
 """;
-  schema:startDate "2025-12-19T19:00:00"^^xsd:dateTime;
+  schema:startDate "2025-12-16T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4554f45f-b2b6-4751-8589-c24784b17eb4.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735666;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/razzle-dazzle-productions>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735667;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65089;
   schema:keywords "Special Events";
   schema:duration "PT140M";
-  schema:endDate "2025-12-19T21:20:00" .
+  schema:endDate "2025-12-16T21:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735666 a skos:Concept;
-  skos:prefLabel "Special Events" .
-
-_:5aa29e6207b44711a3eb882764a46f735667 schema:price "51.5" .
+_:f341194863f544dfbcc06b29e17fa0c65089 a schema:AggregateOffer;
+  schema:lowPrice "51.5" .
 
 <http://www.spektrix.com/theporttheatre/event/35602AVSGTMGDTTMMTVPLVNVCQKGJTSQK> a
     schema:Event;
@@ -2167,20 +1884,17 @@ _:5aa29e6207b44711a3eb882764a46f735667 schema:price "51.5" .
   schema:description """
 	The Yellowpoint Christmas Spectacular is a celebration of music, dance, lights and decorations.  Now in its 17th season, it has become a holiday tradition for many across Vancouver Island. <span><br/></span><span><br/></span>What better way to celebrate the season than with tickets to this dazzling spectacle.  It’s fast moving and colorful.  It will take you on an emotional journey through a wide variety of music and dance from rock & roll to Broadway, jazz and classical, tap, interwoven with touching readings and stories.<span><br/></span><span><br/></span>This year's singing and dancing extravaganza includes medleys of well-known songs by Bobby Darrin, a selection of musical numbers from Mary Poppins and Frozen, a classic 80's rock band tribute, a disco set including Stayin' Alive, a fun collection of Canadian songs, an audience sing-along, Bing Crosby's classic White Christmas as well as many more classical hits and Christmas favorites.<span><br/></span><span><br/></span>Three weeks before opening night, a team of 19 professional singers, dancers, musicians and theatre artists will begin rehearsals in preparation for opening night!<span><br/></span><span><br/></span>Tickets on sale August 6th, 2025.  This show is in popular demand. A favorite among bus tour groups, staff parties, family and friend reunions, and festive celebrations.  Book early so you don’t miss this exciting holiday event!<span><br/></span><span><br/></span>ARTISTIC DIRECTOR & PRODUCER: Katy Bowen-Roberts<span><br/></span><span><br/></span>MUSICAL DIRECTOR & ARRANGER: James Mark<span><br/></span><span><br/></span>CO-DIRECTOR & CHOREOGRAPHER: Lindsay Sterk<span><br/></span><span><br/></span>LIGHTING: Hilary Britton-Foster<span><br/></span><span><br/></span>SOUND: Steve Adamson<span><br/></span><span><br/></span>STAGE MANAGER: Shelby Matthews<span><br/></span>
 """;
-  schema:startDate "2025-12-20T14:00:00"^^xsd:dateTime;
+  schema:startDate "2025-12-16T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4554f45f-b2b6-4751-8589-c24784b17eb4.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735668;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/razzle-dazzle-productions>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735669;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65090;
   schema:keywords "Special Events";
   schema:duration "PT140M";
-  schema:endDate "2025-12-20T16:20:00" .
+  schema:endDate "2025-12-16T21:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735668 a skos:Concept;
-  skos:prefLabel "Special Events" .
-
-_:5aa29e6207b44711a3eb882764a46f735669 schema:price "51.5" .
+_:f341194863f544dfbcc06b29e17fa0c65090 a schema:AggregateOffer;
+  schema:lowPrice "51.5" .
 
 <http://www.spektrix.com/theporttheatre/event/35805ABHRHKCCKCQRTDSRBDRGGJVTQCGP> a
     schema:Event;
@@ -2188,20 +1902,17 @@ _:5aa29e6207b44711a3eb882764a46f735669 schema:price "51.5" .
   schema:description """
 	The Yellowpoint Christmas Spectacular is a celebration of music, dance, lights and decorations.  Now in its 17th season, it has become a holiday tradition for many across Vancouver Island. <span><br/></span><span><br/></span>What better way to celebrate the season than with tickets to this dazzling spectacle.  It’s fast moving and colorful.  It will take you on an emotional journey through a wide variety of music and dance from rock & roll to Broadway, jazz and classical, tap, interwoven with touching readings and stories.<span><br/></span><span><br/></span>This year's singing and dancing extravaganza includes medleys of well-known songs by Bobby Darrin, a selection of musical numbers from Mary Poppins and Frozen, a classic 80's rock band tribute, a disco set including Stayin' Alive, a fun collection of Canadian songs, an audience sing-along, Bing Crosby's classic White Christmas as well as many more classical hits and Christmas favorites.<span><br/></span><span><br/></span>Three weeks before opening night, a team of 19 professional singers, dancers, musicians and theatre artists will begin rehearsals in preparation for opening night!<span><br/></span><span><br/></span>Tickets on sale August 6th, 2025.  This show is in popular demand. A favorite among bus tour groups, staff parties, family and friend reunions, and festive celebrations.  Book early so you don’t miss this exciting holiday event!<span><br/></span><span><br/></span>ARTISTIC DIRECTOR & PRODUCER: Katy Bowen-Roberts<span><br/></span><span><br/></span>MUSICAL DIRECTOR & ARRANGER: James Mark<span><br/></span><span><br/></span>CO-DIRECTOR & CHOREOGRAPHER: Lindsay Sterk<span><br/></span><span><br/></span>LIGHTING: Hilary Britton-Foster<span><br/></span><span><br/></span>SOUND: Steve Adamson<span><br/></span><span><br/></span>STAGE MANAGER: Shelby Matthews<span><br/></span>
 """;
-  schema:startDate "2025-12-20T19:00:00"^^xsd:dateTime;
+  schema:startDate "2025-12-16T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4554f45f-b2b6-4751-8589-c24784b17eb4.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735670;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/razzle-dazzle-productions>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735671;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65091;
   schema:keywords "Special Events";
   schema:duration "PT140M";
-  schema:endDate "2025-12-20T21:20:00" .
+  schema:endDate "2025-12-16T21:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735670 a skos:Concept;
-  skos:prefLabel "Special Events" .
-
-_:5aa29e6207b44711a3eb882764a46f735671 schema:price "51.5" .
+_:f341194863f544dfbcc06b29e17fa0c65091 a schema:AggregateOffer;
+  schema:lowPrice "51.5" .
 
 <http://www.spektrix.com/theporttheatre/event/35806ATKGKRPSPRMJNPQKDCJMTTDSKQQM> a
     schema:Event;
@@ -2209,17 +1920,14 @@ _:5aa29e6207b44711a3eb882764a46f735671 schema:price "51.5" .
   schema:description """
 	The Yellowpoint Christmas Spectacular is a celebration of music, dance, lights and decorations.  Now in its 17th season, it has become a holiday tradition for many across Vancouver Island. <span><br/></span><span><br/></span>What better way to celebrate the season than with tickets to this dazzling spectacle.  It’s fast moving and colorful.  It will take you on an emotional journey through a wide variety of music and dance from rock & roll to Broadway, jazz and classical, tap, interwoven with touching readings and stories.<span><br/></span><span><br/></span>This year's singing and dancing extravaganza includes medleys of well-known songs by Bobby Darrin, a selection of musical numbers from Mary Poppins and Frozen, a classic 80's rock band tribute, a disco set including Stayin' Alive, a fun collection of Canadian songs, an audience sing-along, Bing Crosby's classic White Christmas as well as many more classical hits and Christmas favorites.<span><br/></span><span><br/></span>Three weeks before opening night, a team of 19 professional singers, dancers, musicians and theatre artists will begin rehearsals in preparation for opening night!<span><br/></span><span><br/></span>Tickets on sale August 6th, 2025.  This show is in popular demand. A favorite among bus tour groups, staff parties, family and friend reunions, and festive celebrations.  Book early so you don’t miss this exciting holiday event!<span><br/></span><span><br/></span>ARTISTIC DIRECTOR & PRODUCER: Katy Bowen-Roberts<span><br/></span><span><br/></span>MUSICAL DIRECTOR & ARRANGER: James Mark<span><br/></span><span><br/></span>CO-DIRECTOR & CHOREOGRAPHER: Lindsay Sterk<span><br/></span><span><br/></span>LIGHTING: Hilary Britton-Foster<span><br/></span><span><br/></span>SOUND: Steve Adamson<span><br/></span><span><br/></span>STAGE MANAGER: Shelby Matthews<span><br/></span>
 """;
-  schema:startDate "2025-12-21T14:00:00"^^xsd:dateTime;
+  schema:startDate "2025-12-16T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/theporttheatre/files/4554f45f-b2b6-4751-8589-c24784b17eb4.jpg>;
-  schema:additionalType _:5aa29e6207b44711a3eb882764a46f735672;
   schema:location <https://spektrix.com/theporttheatre/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
   schema:organizer <https://spektrix.com/theporttheatre/organization/razzle-dazzle-productions>;
-  schema:offers _:5aa29e6207b44711a3eb882764a46f735673;
+  schema:offers _:f341194863f544dfbcc06b29e17fa0c65092;
   schema:keywords "Special Events";
   schema:duration "PT140M";
-  schema:endDate "2025-12-21T16:20:00" .
+  schema:endDate "2025-12-16T21:20:00" .
 
-_:5aa29e6207b44711a3eb882764a46f735672 a skos:Concept;
-  skos:prefLabel "Special Events" .
-
-_:5aa29e6207b44711a3eb882764a46f735673 schema:price "51.5" .
+_:f341194863f544dfbcc06b29e17fa0c65092 a schema:AggregateOffer;
+  schema:lowPrice "51.5" .
