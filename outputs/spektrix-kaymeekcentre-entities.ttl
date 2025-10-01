@@ -1,0 +1,1343 @@
+@base <http://example.com/base/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/kaymeekcentre/event/284401ALQBLGCMMGQSCQGQCLJTQDMHVRQ> a
+    schema:Event;
+  schema:name "An Evening With John Vaillant - Fire Weather";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-24T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef279;
+  schema:keywords "Rental";
+  schema:duration "PT90M";
+  schema:endDate "2025-10-24T21:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef279 a schema:AggregateOffer;
+  schema:lowPrice "0.0" .
+
+<https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a
+    schema:Place;
+  schema:name "Kay Meek Arts Centre" .
+
+<http://www.spektrix.com/kaymeekcentre/event/280401AGLBQGDSVTNGMSRPPTGLRSGCPVV> a
+    schema:Event;
+  schema:name "Barra MacNeils - An East Coast Christmas";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-18T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef280;
+  schema:keywords "Rental";
+  schema:duration "PT110M";
+  schema:endDate "2025-11-18T21:20:00" .
+
+_:e70931fcb28847b88ef2132d045511ef280 a schema:AggregateOffer;
+  schema:lowPrice "49.5" .
+
+<http://www.spektrix.com/kaymeekcentre/event/283801AQSNJHQPGPBHBGSDNRKQCDGNSHJ> a
+    schema:Event;
+  schema:name "Black Bear Band Winter Concert";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-08T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef281;
+  schema:keywords "Rental";
+  schema:duration "PT90M";
+  schema:endDate "2025-12-08T21:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef281 a schema:AggregateOffer;
+  schema:lowPrice "0.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/281001ADGCTCHCKSNTBJTNGHCLMHRTJLB> a
+    schema:Event;
+  schema:name "Bob Trevino Likes It";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-20T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef282;
+  schema:keywords "Film";
+  schema:duration "PT102M";
+  schema:endDate "2025-10-20T20:42:00" .
+
+_:e70931fcb28847b88ef2132d045511ef282 a schema:AggregateOffer;
+  schema:lowPrice "9.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276601ACTSJMMJNTBCNKTKLVPKQJGCTHN> a
+    schema:Event;
+  schema:name "Burning Mom";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-08T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef283;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-01-08T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef283 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276602AJBGQRKMKCCJVPRVPPKVVKQNCVN> a
+    schema:Event;
+  schema:name "Burning Mom";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-08T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef284;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-01-08T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef284 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/273401AHBRSVBJMQPGPGQQMJNRVPPBPTP> a
+    schema:Event;
+  schema:name "Car Wheels on a Gravel Road Reimagined";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-17T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef285;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-10-17T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef285 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/273402ABDKMSGNJMKSMJHNJHPJQLKQKTQ> a
+    schema:Event;
+  schema:name "Car Wheels on a Gravel Road Reimagined";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-17T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef286;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-10-17T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef286 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/278801ARMMVDSHSSGHKNLKDVBDSKVDDJP> a
+    schema:Event;
+  schema:name "Casey Thomas-Burns: Home for the Holidays";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef287;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-12-06T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef287 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/274201AHNKHQGDDRKJVGDSGQMRDBDHBTP> a
+    schema:Event;
+  schema:name "Cassie and Maggie";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-15T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef288;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-01-15T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef288 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/274202ALVKGHRJPKDPJHVGRJSLCTHVHBL> a
+    schema:Event;
+  schema:name "Cassie and Maggie";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-15T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef289;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-01-15T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef289 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/274203ACVJMMKTBSTTPDGBCMSNGDCDRVR> a
+    schema:Event;
+  schema:name "Cassie and Maggie";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-15T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef290;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-01-15T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef290 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/272401ASSJSQCTBDCBHGMHVMGBJLJHSPV> a
+    schema:Event;
+  schema:name "Cheng² Duo: Unravelling Ravel";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-19T15:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef291;
+  schema:keywords "Classical";
+  schema:duration "PT60M";
+  schema:endDate "2025-10-19T16:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef291 a schema:AggregateOffer;
+  schema:lowPrice "16.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/280601ACLMTGTMKHKSTGKGJPDPDNVSPTD> a
+    schema:Event;
+  schema:name "Electric Elton – A Tribute To Elton John";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-29T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef292;
+  schema:keywords "Rental";
+  schema:duration "PT125M";
+  schema:endDate "2026-03-29T21:35:00" .
+
+_:e70931fcb28847b88ef2132d045511ef292 a schema:AggregateOffer;
+  schema:lowPrice "62.5" .
+
+<http://www.spektrix.com/kaymeekcentre/event/275801ARMNRBMPMPDDLJDCTGNGMJJKLJB> a
+    schema:Event;
+  schema:name "Emmet Cohen: Miles and Coltrane at 100";
+  schema:description """
+
+""";
+  schema:startDate "2026-04-21T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef293;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-04-21T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef293 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/277801ANGCPRHSJVQJKCDPLJTQRHKTMMG> a
+    schema:Event;
+  schema:name "Fascinating Rhythms: The Gershwin Songbook";
+  schema:description """
+
+""";
+  schema:startDate "2026-04-11T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef294;
+  schema:keywords "Talk";
+  schema:duration "PT60M";
+  schema:endDate "2026-04-11T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef294 a schema:AggregateOffer;
+  schema:lowPrice "16.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/266401AMCJPBSCBJSPCHNSPDKLLMPNKMS> a
+    schema:Event;
+  schema:name "Fleetwood Magic: The Authentic Tribute to Fleetwood Mac";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-22T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef295;
+  schema:keywords "Rental";
+  schema:duration "PT120M";
+  schema:endDate "2025-11-22T21:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef295 a schema:AggregateOffer;
+  schema:lowPrice "54.1" .
+
+<http://www.spektrix.com/kaymeekcentre/event/272601AKMBNJSKQHNSMRNMHHNBSKDNJPG> a
+    schema:Event;
+  schema:name "Gryphon Trio";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-16T15:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef296;
+  schema:keywords "Classical";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-16T16:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef296 a schema:AggregateOffer;
+  schema:lowPrice "16.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276004ADHGMMBVVNBCSVBHMVDHRGDCHQK> a
+    schema:Event;
+  schema:name "Hollywood Harmonies for the Holidays";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-09T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef297;
+  schema:keywords "Talk";
+  schema:duration "PT60M";
+  schema:endDate "2025-12-09T20:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef297 a schema:AggregateOffer;
+  schema:lowPrice "16.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/278001AVQBLRCTQCTDPTVLRHKQHJLPTRH> a
+    schema:Event;
+  schema:name "Howl, a Musical Masquerade with Norman Foote";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-29T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef298;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-10-29T20:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef298 a schema:AggregateOffer;
+  schema:lowPrice "12.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/278601ABBJBKGQRDLHCCRMRLNMPBGBPTT> a
+    schema:Event;
+  schema:name "Ian Parker & Kerson Leong";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-11T15:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef299;
+  schema:keywords "Classical";
+  schema:duration "PT60M";
+  schema:endDate "2026-01-11T16:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef299 a schema:AggregateOffer;
+  schema:lowPrice "16.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/282801AHQRRLVVGDGBLSPGBPNGVVNLGQD> a
+    schema:Event;
+  schema:name "Invaluable Analogies";
+  schema:description """
+
+""";
+  schema:startDate "2025-09-09T10:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:duration "PT60M";
+  schema:endDate "2025-09-09T11:00:00" .
+
+<http://www.spektrix.com/kaymeekcentre/event/283001AHQVDLGBQVTTVMHBKTVRKPQBDQJ> a
+    schema:Event;
+  schema:name "Invaluable Analogies";
+  schema:description """
+
+""";
+  schema:startDate "2025-09-09T10:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:duration "PT60M";
+  schema:endDate "2025-09-09T11:00:00" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276201ASTQGKLNBJTPDSKRLRHKMMLGJBL> a
+    schema:Event;
+  schema:name "Jade Circle";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-20T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef300;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-05-20T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef300 a schema:AggregateOffer;
+  schema:lowPrice "12.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276202ADJCKQNVMSPRSVMHGJJQSJBVPSM> a
+    schema:Event;
+  schema:name "Jade Circle";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-20T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef301;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-05-20T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef301 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276203ACDVHVTDNJMKGNQKCPDCKBRDKLT> a
+    schema:Event;
+  schema:name "Jade Circle";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-20T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef302;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-05-20T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef302 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276401AGTBMBHJLDKHMPCGJCVBBKHTHDK> a
+    schema:Event;
+  schema:name "Jade Circle";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-20T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef303;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-05-20T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef303 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276204ARJBDLRBDJBTSDBCVCGNGTKHQVJ> a
+    schema:Event;
+  schema:name "Jade Circle";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-20T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef304;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-05-20T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef304 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276205ARCHKDLHDCVKBVQNVTHGDLPSSCT> a
+    schema:Event;
+  schema:name "Jade Circle";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-20T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef305;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-05-20T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef305 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/277601AKHTMMNHGGRMVMLTKGPMPTBSPBQ> a
+    schema:Event;
+  schema:name "Jazz on a Beam of Light";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-11T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef306;
+  schema:keywords "Talk";
+  schema:duration "PT60M";
+  schema:endDate "2026-02-11T20:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef306 a schema:AggregateOffer;
+  schema:lowPrice "16.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/275001ASPDQKLJJDPMQNHMSLCLBCSHQQJ> a
+    schema:Event;
+  schema:name "Jeremy Dutcher";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-13T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef307;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-13T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef307 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/275601ASVQMJDNTNRRJVTNQLCRNVLQSJL> a
+    schema:Event;
+  schema:name "JigJam";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-17T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef308;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-03-17T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef308 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/274401AJQGJGTLBQLCBTMTDPKMSQRMBTT> a
+    schema:Event;
+  schema:name "Joe Grass Trio";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-19T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef309;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-02-19T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef309 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/274402ATRCNQHDBJMBGTRBVGHNLGRHNDD> a
+    schema:Event;
+  schema:name "Joe Grass Trio";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-19T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef310;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-02-19T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef310 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276801ATGSPSPVGQKKSCNCHBSMHJCVLLB> a
+    schema:Event;
+  schema:name "Josephine";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-25T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef311;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-02-25T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef311 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276802AGTTJMHHVNTPTKPQTBBLLNVPPPR> a
+    schema:Event;
+  schema:name "Josephine";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-25T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef312;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-02-25T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef312 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276803ACHSDMKVBQLNCNSMHMJMGQLSTMM> a
+    schema:Event;
+  schema:name "Josephine";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-25T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef313;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-02-25T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef313 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/277001AHHGNTPSJCHHDLHMQSCDPVDNGTD> a
+    schema:Event;
+  schema:name "Josephine";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-25T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef314;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-02-25T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef314 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276804AHTJPGPVDBTGPKHRRVQGTVCSVPC> a
+    schema:Event;
+  schema:name "Josephine";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-25T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef315;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-02-25T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef315 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276805ANDLVHJVNTNNTKMHKGBMHDLDLLD> a
+    schema:Event;
+  schema:name "Josephine";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-25T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef316;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-02-25T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef316 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/273604AQRHKNJTPMKMQGBCSCDSMLCLPHL> a
+    schema:Event;
+  schema:name "Kings Return";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-18T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef317;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-01-18T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef317 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/274601AKJHDHHHPRHTQLTMLLKBNHCLJKG> a
+    schema:Event;
+  schema:name "Lara Wong and Melón Jiménez";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-19T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef318;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-03-19T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef318 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/274602ABRBJJTHGMTRVBMDGDRQNMLNKLM> a
+    schema:Event;
+  schema:name "Lara Wong and Melón Jiménez";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-19T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef319;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-03-19T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef319 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/274603ANTNCPVHSDHNDKHDVLCGSHRQKDD> a
+    schema:Event;
+  schema:name "Lara Wong and Melón Jiménez";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-19T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef320;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-03-19T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef320 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/273601AMCVMHHKSHVPBLLNSVLPLDCRHGD> a
+    schema:Event;
+  schema:name "Luke Wallace";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-22T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef321;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-10-22T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef321 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/273602ASPPVPMPGJBMBRGGLTTSPNDBCLV> a
+    schema:Event;
+  schema:name "Luke Wallace";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-22T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef322;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-10-22T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef322 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/273603ABLGTNNSMQLDRMVGMGPQKBQSTRK> a
+    schema:Event;
+  schema:name "Luke Wallace";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-22T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef323;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-10-22T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef323 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/273801ANRSRHDBKCQJHJKNDNDLVDTMJCS> a
+    schema:Event;
+  schema:name "Mary Ancheta Quartet";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-20T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef324;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-20T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef324 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/273802APKCHMQSNTCTSPDVSHTNTPJRPPN> a
+    schema:Event;
+  schema:name "Mary Ancheta Quartet";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-20T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef325;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-20T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef325 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/273803ADCJQJQTJQTCQKHRNNGQNJCPRDB> a
+    schema:Event;
+  schema:name "Mary Ancheta Quartet";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-20T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef326;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-20T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef326 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/283201ATVPTLHMPPKSMQQPVVDHVGJTGHR> a
+    schema:Event;
+  schema:name "Menopause Matters";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-21T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef327;
+  schema:keywords "Rental";
+  schema:duration "PT150M";
+  schema:endDate "2025-10-21T21:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef327 a schema:AggregateOffer;
+  schema:lowPrice "30.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/281201ABPCMNVJVTRHHLJKHPPSHCDTPHK> a
+    schema:Event;
+  schema:name "Ninan Auassat: We, the Children";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-03T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef328;
+  schema:keywords "Film";
+  schema:duration "PT91M";
+  schema:endDate "2025-11-03T20:31:00" .
+
+_:e70931fcb28847b88ef2132d045511ef328 a schema:AggregateOffer;
+  schema:lowPrice "9.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/284801APKNCHRSQLSBQTTPRKNRBHQMBJG> a
+    schema:Event;
+  schema:name "Nutcracker";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-13T17:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef329;
+  schema:keywords "Rental";
+  schema:duration "PT90M";
+  schema:endDate "2025-12-13T18:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef329 a schema:AggregateOffer;
+  schema:lowPrice "25.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/283601ANDLHBJCDDDTLBRKLBTVCLBSLTD> a
+    schema:Event;
+  schema:name "PIANO HEIST: A Very Merry Heistmas!";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-21T14:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef330;
+  schema:keywords "Rental";
+  schema:duration "PT120M";
+  schema:endDate "2025-12-21T16:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef330 a schema:AggregateOffer;
+  schema:lowPrice "16.5" .
+
+<http://www.spektrix.com/kaymeekcentre/event/273001ABRLQMNRKCMTSPKQVTNJSBQMRMM> a
+    schema:Event;
+  schema:name "Rachel Fenlon";
+  schema:description """
+
+""";
+  schema:startDate "2026-04-12T15:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef331;
+  schema:keywords "Classical";
+  schema:duration "PT60M";
+  schema:endDate "2026-04-12T16:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef331 a schema:AggregateOffer;
+  schema:lowPrice "16.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/282201AQRCTHPLNSMVBJMJGDQVMDKPMVS> a
+    schema:Event;
+  schema:name "Sadegh Nojouki";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-01T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef332;
+  schema:keywords "Rental";
+  schema:duration "PT150M";
+  schema:endDate "2025-11-01T22:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef332 a schema:AggregateOffer;
+  schema:lowPrice "60.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/279401AVTKLQJKPKDHRGRNGMLBCTCGMPC> a
+    schema:Event;
+  schema:name "Same Same Different";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-05T13:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef333;
+  schema:keywords "Theatre";
+  schema:duration "PT50M";
+  schema:endDate "2026-03-05T13:50:00" .
+
+_:e70931fcb28847b88ef2132d045511ef333 a schema:AggregateOffer;
+  schema:lowPrice "12.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276001AKPTDBVCBKPVQPLMJPJMQDGNGPP> a
+    schema:Event;
+  schema:name "Secret Ingredients";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-27T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef334;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-27T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef334 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276002ALLSPMLGRJLJGBVQBQMTKMDDRRS> a
+    schema:Event;
+  schema:name "Secret Ingredients";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-27T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef335;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-27T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef335 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/276003AGJCQNHDDQNDCTPGVRPRPQSTNTC> a
+    schema:Event;
+  schema:name "Secret Ingredients";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-27T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef336;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-27T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef336 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/282601ANNKKKGDHKGSSBBJJNLDKGJKGQR> a
+    schema:Event;
+  schema:name "Shanbeh Zadeh's Live";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-08T20:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef337;
+  schema:keywords "Rental";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-08T21:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef337 a schema:AggregateOffer;
+  schema:lowPrice "45.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/284601AGHDRDCMKNVJSMPVSHJRMQJJDDQ> a
+    schema:Event;
+  schema:name "SHIAMAK Vancouver - Winter Funk 2025";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-28T18:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef338;
+  schema:keywords "Rental";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-28T19:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef338 a schema:AggregateOffer;
+  schema:lowPrice "28.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/275401AQJPHTNDGJJDDBLDPMVLNLRSPDL> a
+    schema:Event;
+  schema:name "Sister Jazz Orchestra feat. Jennifer Scott";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-07T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef339;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-03-07T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef339 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/272801AGMVKKSTHQSQGNBVBTLHNVTHDHG> a
+    schema:Event;
+  schema:name "Standing Wave";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-08T15:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef340;
+  schema:keywords "Classical";
+  schema:duration "PT60M";
+  schema:endDate "2026-03-08T16:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef340 a schema:AggregateOffer;
+  schema:lowPrice "16.5" .
+
+<http://www.spektrix.com/kaymeekcentre/event/281801ALGDKNRQDKMCHJGTPQKDBRSRBVM> a
+    schema:Event;
+  schema:name "TEDxWestVancouver: Re.Awaken";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-11T14:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef341;
+  schema:keywords "Rental";
+  schema:duration "PT60M";
+  schema:endDate "2025-10-11T15:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef341 a schema:AggregateOffer;
+  schema:lowPrice "117.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/274001APPTJPJLJCBTSDGHNDCCBVLQCTD> a
+    schema:Event;
+  schema:name "The Arab Blues";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-11T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef342;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-12-11T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef342 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/274002AMNNTVSNTMHCQCBRBGNGPDMCNJV> a
+    schema:Event;
+  schema:name "The Arab Blues";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-11T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef343;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-12-11T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef343 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/274003AMNHGRCMSSBRMTVCHJQJPKDVVHD> a
+    schema:Event;
+  schema:name "The Arab Blues";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-11T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef344;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-12-11T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef344 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/275201AGPPGVGBPNHNCKPBGSJLBDNQCTK> a
+    schema:Event;
+  schema:name "The Fretless feat. Madeleine Roger";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-25T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef345;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-01-25T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef345 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/280801AVTDSRHLMHKLMJSGTKQDNTTQVPM> a
+    schema:Event;
+  schema:name "The Friend";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-06T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef346;
+  schema:keywords "Film";
+  schema:duration "PT123M";
+  schema:endDate "2025-10-06T21:03:00" .
+
+_:e70931fcb28847b88ef2132d045511ef346 a schema:AggregateOffer;
+  schema:lowPrice "9.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/275402AMLTGDKMPLNBNGMBSKPCQBMPKBV> a
+    schema:Event;
+  schema:name "The Golden Anniversaries";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-26T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef347;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-03-26T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef347 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/275403AHQDMMTTDBMJDLNQGNBBDSQHPDJ> a
+    schema:Event;
+  schema:name "The Golden Anniversaries";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-26T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef348;
+  schema:keywords "Theatre";
+  schema:duration "PT60M";
+  schema:endDate "2026-03-26T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef348 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/280201AKTVQJKJHTQRDNJPPJPVNLKCLPL> a
+    schema:Event;
+  schema:name "The Music of Hans Zimmer & Others - A Celebration of Film Music";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-04T20:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef349;
+  schema:keywords "Rental";
+  schema:duration "PT120M";
+  schema:endDate "2025-12-04T22:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef349 a schema:AggregateOffer;
+  schema:lowPrice "58.9" .
+
+<http://www.spektrix.com/kaymeekcentre/event/280001ARCJBRHMRJKHJBBRCNLSCCRTTPR> a
+    schema:Event;
+  schema:name "The Music of Lord of the Rings, The Hobbit and Rings of Power - In Concert";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-04T16:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef350;
+  schema:keywords "Rental";
+  schema:duration "PT120M";
+  schema:endDate "2025-12-04T18:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef350 a schema:AggregateOffer;
+  schema:lowPrice "58.9" .
+
+<http://www.spektrix.com/kaymeekcentre/event/269601APDMKCPDNGQRVNPDTDPQSKDHRQS> a
+    schema:Event;
+  schema:name "The Passion Of Amy Winehouse Featuring Heidi Munro";
+  schema:description """
+
+""";
+  schema:startDate "2025-09-26T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef351;
+  schema:keywords "Rental";
+  schema:duration "PT60M";
+  schema:endDate "2025-09-26T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef351 a schema:AggregateOffer;
+  schema:lowPrice "47.7" .
+
+<http://www.spektrix.com/kaymeekcentre/event/274801APSRPBMRVLTSMPGHPKQGHJTNBQV> a
+    schema:Event;
+  schema:name "Too Many Zooz";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-05T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef352;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2025-10-05T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef352 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/273201AKQBSCCMTCSDTNVHJJKRDTSTPVK> a
+    schema:Event;
+  schema:name "VAM Chamber Players: Prodigious Felix";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-10T15:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef353;
+  schema:keywords "Classical";
+  schema:duration "PT60M";
+  schema:endDate "2026-05-10T16:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef353 a schema:AggregateOffer;
+  schema:lowPrice "16.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/277201ACBQVKDPRTBPVBCBDTCNPRQRPJN> a
+    schema:Event;
+  schema:name "VAM Symphony Orchestra: A Musical Storybook";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-30T14:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef354;
+  schema:keywords "Classical";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-30T15:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef354 a schema:AggregateOffer;
+  schema:lowPrice "12.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/275802AGGKDJKPLRTCNPPCTNSDTKDKRKJ> a
+    schema:Event;
+  schema:name "VAM Symphony Orchestra: Jaeden Izik-Dzurko performs Rachmaninoff's Piano Concerto No. 3";
+  schema:description """
+
+""";
+  schema:startDate "2026-04-25T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef355;
+  schema:keywords "Classical";
+  schema:duration "PT60M";
+  schema:endDate "2026-04-25T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef355 a schema:AggregateOffer;
+  schema:lowPrice "12.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/277401APPKJBLKRMSVCSBRQTJCJRNJCCC> a
+    schema:Event;
+  schema:name "VAM Symphony Orchestra: Kay Meek Competition Winner & Tchaikovsky's Symphony No. 6";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-22T14:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef356;
+  schema:keywords "Classical";
+  schema:duration "PT60M";
+  schema:endDate "2026-02-22T15:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef356 a schema:AggregateOffer;
+  schema:lowPrice "12.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/278401ATSTMRNLKVBNRKPLJJLSRKMQCQC> a
+    schema:Event;
+  schema:name "Voices Unveiled II";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-23T18:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef357;
+  schema:keywords "Rental";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-23T19:00:00" .
+
+_:e70931fcb28847b88ef2132d045511ef357 a schema:AggregateOffer;
+  schema:lowPrice "36.0" .
+
+<http://www.spektrix.com/kaymeekcentre/event/283401ABCMNPTCSRQKBHLQQLSHNRGLRDM> a
+    schema:Event;
+  schema:name "Wellness Fest";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-10T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef358;
+  schema:keywords "Rental";
+  schema:duration "PT150M";
+  schema:endDate "2025-10-10T21:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef358 a schema:AggregateOffer;
+  schema:lowPrice "33.5" .
+
+<http://www.spektrix.com/kaymeekcentre/event/284001AHJSCVQLCTCJKVNRPGJSNKDBBLC> a
+    schema:Event;
+  schema:name "West Van Comedy Classic";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-29T20:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:keywords "Rental";
+  schema:duration "PT100M";
+  schema:endDate "2025-11-29T21:40:00" .
+
+<http://www.spektrix.com/kaymeekcentre/event/279001ABTRKRMGMNVMRJDNBSNPPRRSSQJ> a
+    schema:Event;
+  schema:name "Yagódy";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-29T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/kaymeekcentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:e70931fcb28847b88ef2132d045511ef359;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-01-29T20:30:00" .
+
+_:e70931fcb28847b88ef2132d045511ef359 a schema:AggregateOffer;
+  schema:lowPrice "26.0" .
