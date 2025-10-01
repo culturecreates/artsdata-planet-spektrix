@@ -17,16 +17,24 @@
   schema:startDate "2025-09-27T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/dbc616f7-35cc-42ff-ba4b-c05c33f23bc5.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3763;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43763;
   schema:duration "PT60M";
   schema:endDate "2025-09-27T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3763 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43763 a schema:AggregateOffer;
   schema:lowPrice "19.0" .
 
 <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a
     schema:Place;
-  schema:name "Centaur Theatre" .
+  schema:name "Centaur Theatre";
+  schema:address <https://spektrix.com/centaurtheatre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/centaurtheatre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a
+    schema:PostalAddress;
+  schema:streetAddress "453 St. Francois-Xavier";
+  schema:addressLocality "Montreal";
+  schema:addressRegion "QC";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/centaurtheatre/event/59203APRQBPGHRLNSGTDRGLGGMLPKMVMN> a
     schema:Event;
@@ -37,11 +45,11 @@ _:e70931fcb28847b88ef2132d045511ef3763 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3764;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43764;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3764 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43764 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/58203AJNDTPVKBTBSRHBQGKHPCQMJDNCG> a
@@ -53,11 +61,11 @@ _:e70931fcb28847b88ef2132d045511ef3764 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3765;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43765;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3765 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43765 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/59601AVKDPHNNKSRGJLHVHKTKQPTKMSDT> a
@@ -69,11 +77,11 @@ _:e70931fcb28847b88ef2132d045511ef3765 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3766;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43766;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3766 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43766 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/57805AHKKBRGQDKLVQPKVRKBQVPCRCDJT> a
@@ -85,11 +93,11 @@ _:e70931fcb28847b88ef2132d045511ef3766 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3767;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43767;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3767 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43767 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/59402AGJCQQLMJRLRNNHMMRKJSBMDPVCS> a
@@ -101,11 +109,11 @@ _:e70931fcb28847b88ef2132d045511ef3767 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3768;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43768;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3768 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43768 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/56603ANRQMCBBQSHCLNHDHQRNNJCBTHGQ> a
@@ -117,11 +125,11 @@ _:e70931fcb28847b88ef2132d045511ef3768 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3769;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43769;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3769 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43769 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/60001AQMCNPHJDPMRBPJPHQTSVTJDCRKQ> a
@@ -133,11 +141,11 @@ _:e70931fcb28847b88ef2132d045511ef3769 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3770;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43770;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3770 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43770 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/56604ADVPPMSSSVMSQNQRBRVMLJDNHMHK> a
@@ -149,11 +157,11 @@ _:e70931fcb28847b88ef2132d045511ef3770 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3771;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43771;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3771 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43771 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/59002APBSPSRBCPCRDCSHQNDPVNBCNQPQ> a
@@ -165,11 +173,11 @@ _:e70931fcb28847b88ef2132d045511ef3771 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3772;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43772;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3772 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43772 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/60201ANRDGSBSTNSDPCQLQLGLJPGGMRSQ> a
@@ -181,11 +189,11 @@ _:e70931fcb28847b88ef2132d045511ef3772 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3773;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43773;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3773 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43773 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/57402AQTQGQVNMDDSPCHHLPRQSHHDCJGK> a
@@ -197,11 +205,11 @@ _:e70931fcb28847b88ef2132d045511ef3773 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3774;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43774;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3774 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43774 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/59204ALPTBDCBDGSCMCGMGRVTTRTTDPBH> a
@@ -213,11 +221,11 @@ _:e70931fcb28847b88ef2132d045511ef3774 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3775;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43775;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3775 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43775 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/58802AMDGSDDLPVSJNMCHGHMVVSJVRRTR> a
@@ -229,11 +237,11 @@ _:e70931fcb28847b88ef2132d045511ef3775 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3776;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43776;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3776 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43776 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/58204AKBNMTRQSTCLCMNCLCLNCQVMKLTS> a
@@ -245,11 +253,11 @@ _:e70931fcb28847b88ef2132d045511ef3776 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3777;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43777;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3777 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43777 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/59602AQVNQSLDJBSDBSLQPLTKBSJQRLJM> a
@@ -261,11 +269,11 @@ _:e70931fcb28847b88ef2132d045511ef3777 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3778;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43778;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3778 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43778 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/59802ADSTVDBRVSNKBKDMQVMVJNQRJSJM> a
@@ -277,11 +285,11 @@ _:e70931fcb28847b88ef2132d045511ef3778 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3779;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43779;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3779 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43779 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/59003AJKPKGVDCHLRRQLCBNDPGGQBHCKT> a
@@ -293,11 +301,11 @@ _:e70931fcb28847b88ef2132d045511ef3779 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3780;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43780;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3780 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43780 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/59205AVSKTVKCCDSKHLPMQLTBLSHMPCGH> a
@@ -309,11 +317,11 @@ _:e70931fcb28847b88ef2132d045511ef3780 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3781;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43781;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3781 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43781 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/58602AJMJVVDDTKNGRJTRVDDMTPVHKQNL> a
@@ -325,11 +333,11 @@ _:e70931fcb28847b88ef2132d045511ef3781 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3782;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43782;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3782 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43782 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/57602APKBQRSDSDKNPBGCCLJLMSLPSMDG> a
@@ -341,11 +349,11 @@ _:e70931fcb28847b88ef2132d045511ef3782 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3783;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43783;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3783 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43783 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/59603APDCKVNQSDRLTTSPTSHTTMBVHKSG> a
@@ -357,11 +365,11 @@ _:e70931fcb28847b88ef2132d045511ef3783 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3784;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43784;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3784 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43784 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/60202APRRBRDGPMNVHBPVLKCKNGQVDCBR> a
@@ -373,11 +381,11 @@ _:e70931fcb28847b88ef2132d045511ef3784 a schema:AggregateOffer;
   schema:startDate "2026-03-04T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/ec375ade-724e-4f1f-ad41-b3754e650516.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3785;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43785;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3785 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43785 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/55801ACGDGDJSRRGCLCBTPCSLTJTBNGSM> a
@@ -389,11 +397,11 @@ _:e70931fcb28847b88ef2132d045511ef3785 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3786;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43786;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3786 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43786 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/54804ANKDSVSQJLCPKQBRHHCRSCNRDVKQ> a
@@ -405,11 +413,11 @@ _:e70931fcb28847b88ef2132d045511ef3786 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3787;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43787;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3787 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43787 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/52803ADMGKKCKBGJQHTDHQMJCPDKDJVKV> a
@@ -421,11 +429,11 @@ _:e70931fcb28847b88ef2132d045511ef3787 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3788;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43788;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3788 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43788 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/55002AHMGTCLHGKTLCCHTHPPDMGVNPSNR> a
@@ -437,11 +445,11 @@ _:e70931fcb28847b88ef2132d045511ef3788 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3789;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43789;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3789 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43789 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/56001APNJBQMGSPLVLVDSPKGGCMCMVLTQ> a
@@ -453,11 +461,11 @@ _:e70931fcb28847b88ef2132d045511ef3789 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3790;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43790;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3790 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43790 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/55402ASQRQMHHPMKHQGCSGPMLMQDLHGPB> a
@@ -469,11 +477,11 @@ _:e70931fcb28847b88ef2132d045511ef3790 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3791;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43791;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3791 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43791 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/55802AGDQTSCCLKGNMLKSHRLQGNVNDSDP> a
@@ -485,11 +493,11 @@ _:e70931fcb28847b88ef2132d045511ef3791 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3792;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43792;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3792 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43792 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/52603AKGTVPBGSBDMJVKTPKJLVSPQKSSJ> a
@@ -501,11 +509,11 @@ _:e70931fcb28847b88ef2132d045511ef3792 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3793;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43793;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3793 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43793 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/56201AGSGSGJVVGPLSGRNJSLQQTTQHHRQ> a
@@ -517,11 +525,11 @@ _:e70931fcb28847b88ef2132d045511ef3793 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3794;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43794;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3794 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43794 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/54602APPJJHTGTPJRJGSMDQMJPHDVPDTR> a
@@ -533,11 +541,11 @@ _:e70931fcb28847b88ef2132d045511ef3794 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3795;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43795;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3795 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43795 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/52604AHLJRRPJQNVBDJSMCPMCCDHHLPQM> a
@@ -549,11 +557,11 @@ _:e70931fcb28847b88ef2132d045511ef3795 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3796;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43796;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3796 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43796 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/55604AJTCPQHQHGKBRNNSGLSKDJPVSQSP> a
@@ -565,11 +573,11 @@ _:e70931fcb28847b88ef2132d045511ef3796 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3797;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43797;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3797 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43797 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/56401ANGTJBPDPBRQJTCNQMGHRLLHLQJK> a
@@ -581,11 +589,11 @@ _:e70931fcb28847b88ef2132d045511ef3797 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3798;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43798;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3798 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43798 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/54805APBLLRKDGLLMMJHTTBVDMJLQJTLD> a
@@ -597,11 +605,11 @@ _:e70931fcb28847b88ef2132d045511ef3798 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3799;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43799;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3799 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43799 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/55202ATTGVPSQQJLVHBKPJCKMRMHLBCDT> a
@@ -613,11 +621,11 @@ _:e70931fcb28847b88ef2132d045511ef3799 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3800;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43800;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3800 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43800 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/54806ATQVCVQBDLNBGBMJSQGHNLJBPGBP> a
@@ -629,11 +637,11 @@ _:e70931fcb28847b88ef2132d045511ef3800 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3801;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43801;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3801 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43801 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/53603AVKVSRDQNLVSLSQCVDDSJTNQJGDN> a
@@ -645,11 +653,11 @@ _:e70931fcb28847b88ef2132d045511ef3801 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3802;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43802;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3802 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43802 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/52004AKMCQKHHGNCVKPMHCHDPDCLBJRJS> a
@@ -661,11 +669,11 @@ _:e70931fcb28847b88ef2132d045511ef3802 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3803;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43803;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3803 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43803 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/52605AKGSLGTBKSLTBLDPRRKKDTTQCLBP> a
@@ -677,11 +685,11 @@ _:e70931fcb28847b88ef2132d045511ef3803 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3804;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43804;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3804 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43804 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/53802AJHLKLDHPHVTGNKRPNTGKJHSBJLB> a
@@ -693,11 +701,11 @@ _:e70931fcb28847b88ef2132d045511ef3804 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3805;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43805;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3805 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43805 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/52403AMHRQBCVMBVGMCJLSPDMDVMGDJBT> a
@@ -709,11 +717,11 @@ _:e70931fcb28847b88ef2132d045511ef3805 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3806;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43806;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3806 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43806 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/54603ASRRJHNHJLNRGJDLQDDVGLNQJQRD> a
@@ -725,11 +733,11 @@ _:e70931fcb28847b88ef2132d045511ef3806 a schema:AggregateOffer;
   schema:startDate "2025-11-26T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/2eecd925-5895-430d-9c8a-2299754262e2.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3807;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43807;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3807 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43807 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/56602AVVMKPPNMSGQJTLGDHVDCQQSTVVM> a
@@ -741,11 +749,11 @@ _:e70931fcb28847b88ef2132d045511ef3807 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3808;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43808;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3808 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43808 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/57201AVHSVBLCRCLQGNRQCCGBRSLVVRBN> a
@@ -757,11 +765,11 @@ _:e70931fcb28847b88ef2132d045511ef3808 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3809;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43809;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3809 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43809 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/56601ACCRKSPGKVDGHVRNMKGTVPHPQPBK> a
@@ -773,11 +781,11 @@ _:e70931fcb28847b88ef2132d045511ef3809 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3810;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43810;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3810 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43810 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/57202AQGCMHKGQNMQNRDBGKLJTCQQBTTG> a
@@ -789,11 +797,11 @@ _:e70931fcb28847b88ef2132d045511ef3810 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3811;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43811;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3811 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43811 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/57401ANHTKSRPPTMGTRKPHLCBHVSMPJSK> a
@@ -805,11 +813,11 @@ _:e70931fcb28847b88ef2132d045511ef3811 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3812;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43812;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3812 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43812 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/57601AQJJQDCVDJJQRVDBQNBJSTHDGGLC> a
@@ -821,11 +829,11 @@ _:e70931fcb28847b88ef2132d045511ef3812 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3813;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43813;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3813 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43813 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/57801ABQVHGQHVHPVLHTTSHSNCRVSJPRB> a
@@ -837,11 +845,11 @@ _:e70931fcb28847b88ef2132d045511ef3813 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3814;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43814;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3814 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43814 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/57802AKBHVTQVDVMKTCVSMCLMPNTTQJVL> a
@@ -853,11 +861,11 @@ _:e70931fcb28847b88ef2132d045511ef3814 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3815;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43815;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3815 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43815 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/57002AQDPTDNSHLBJVLHVTTNPHBCGRLDS> a
@@ -869,11 +877,11 @@ _:e70931fcb28847b88ef2132d045511ef3815 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3816;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43816;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3816 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43816 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/58001AHVKTQNTHCMDPHPJMNRHLKSPJCPS> a
@@ -885,11 +893,11 @@ _:e70931fcb28847b88ef2132d045511ef3816 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3817;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43817;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3817 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43817 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/58201ACHPVPJQDRHMDKGQPRQGVJJJGVJV> a
@@ -901,11 +909,11 @@ _:e70931fcb28847b88ef2132d045511ef3817 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3818;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43818;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3818 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43818 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/58401ABJPVQMJDTRSGPPTQCLRCSRLSTSQ> a
@@ -917,11 +925,11 @@ _:e70931fcb28847b88ef2132d045511ef3818 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3819;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43819;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3819 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43819 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/58601AJJQLQQNQQDJSRQPDLNHTRMRQCHK> a
@@ -933,11 +941,11 @@ _:e70931fcb28847b88ef2132d045511ef3819 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3820;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43820;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3820 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43820 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/58202AKBQNPKNGNTRBMJNLLVGPLNHJJCK> a
@@ -949,11 +957,11 @@ _:e70931fcb28847b88ef2132d045511ef3820 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3821;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43821;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3821 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43821 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/58801APCQRNRNLVGLCTCTDLCDQBPMLGPR> a
@@ -965,11 +973,11 @@ _:e70931fcb28847b88ef2132d045511ef3821 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3822;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43822;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3822 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43822 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/59001ADRHPMLQBVBGVNGSJHSJTLJPJNQT> a
@@ -981,11 +989,11 @@ _:e70931fcb28847b88ef2132d045511ef3822 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3823;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43823;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3823 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43823 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/58402ALBKQDBHNKPKSMSTKQKDCBPVMCGT> a
@@ -997,11 +1005,11 @@ _:e70931fcb28847b88ef2132d045511ef3823 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3824;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43824;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3824 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43824 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/59201ANQRMQQHPMKRBHKNCGQLPCVGCBKN> a
@@ -1013,11 +1021,11 @@ _:e70931fcb28847b88ef2132d045511ef3824 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3825;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43825;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3825 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43825 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/59401AVPBDGTDRSCSDKLHRHSTPMLPGGSV> a
@@ -1029,11 +1037,11 @@ _:e70931fcb28847b88ef2132d045511ef3825 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3826;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43826;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3826 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43826 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/57803ARCTPQQMLMPGHQBVTVRVRVVJTMKD> a
@@ -1045,11 +1053,11 @@ _:e70931fcb28847b88ef2132d045511ef3826 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3827;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43827;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3827 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43827 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/57804ACLCCPVNKQTRJBVBSTQKQNVKHRBS> a
@@ -1061,11 +1069,11 @@ _:e70931fcb28847b88ef2132d045511ef3827 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3828;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43828;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3828 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43828 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/58002ABDPLMGSVGKPJLNQNLBDJKQSKHNG> a
@@ -1077,11 +1085,11 @@ _:e70931fcb28847b88ef2132d045511ef3828 a schema:AggregateOffer;
   schema:startDate "2026-04-15T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/76179685-0cbe-431f-898f-704a38b508ce.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3829;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43829;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3829 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43829 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/52601ALNQMVKQDJJCGKRVQDPBPDVCPDPT> a
@@ -1093,11 +1101,11 @@ _:e70931fcb28847b88ef2132d045511ef3829 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3830;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43830;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3830 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43830 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/52801ANDDVVVVLHPQNVDLNNNCBBSTGNKP> a
@@ -1109,11 +1117,11 @@ _:e70931fcb28847b88ef2132d045511ef3830 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3831;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43831;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3831 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43831 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/53001ACMLBMKGCRKLTKVJLVJTHVVQTDSS> a
@@ -1125,11 +1133,11 @@ _:e70931fcb28847b88ef2132d045511ef3831 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3832;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43832;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3832 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43832 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/53201AKJTJLSKDPDLPTMDVPTDGSNGNBPL> a
@@ -1141,11 +1149,11 @@ _:e70931fcb28847b88ef2132d045511ef3832 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3833;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43833;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3833 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43833 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/53401ABPVVPPBPJCQVLMKKHHLLVGLBJJB> a
@@ -1157,11 +1165,11 @@ _:e70931fcb28847b88ef2132d045511ef3833 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3834;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43834;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3834 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43834 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/53601AHTLLGLRDMLTLNLGVRKSBJRRTMLG> a
@@ -1173,11 +1181,11 @@ _:e70931fcb28847b88ef2132d045511ef3834 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3835;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43835;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3835 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43835 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/53402AQQVPCBJLJRDGHKHCKCPQRSBPKNC> a
@@ -1189,11 +1197,11 @@ _:e70931fcb28847b88ef2132d045511ef3835 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3836;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43836;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3836 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43836 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/53801AKGMPDLHTQMBLGCMLLSBPRBQDTHL> a
@@ -1205,11 +1213,11 @@ _:e70931fcb28847b88ef2132d045511ef3836 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3837;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43837;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3837 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43837 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/54001ABPSKBMMLLGTRJBVNRVDRDQRLGJK> a
@@ -1221,11 +1229,11 @@ _:e70931fcb28847b88ef2132d045511ef3837 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3838;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43838;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3838 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43838 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/54201ATDGHQSBGRJPLVKLMRQMLSGRSDLV> a
@@ -1237,11 +1245,11 @@ _:e70931fcb28847b88ef2132d045511ef3838 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3839;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43839;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3839 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43839 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/54202AGLKKVDDHGHTTDQJNKTSNJNTNVBK> a
@@ -1253,11 +1261,11 @@ _:e70931fcb28847b88ef2132d045511ef3839 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3840;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43840;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3840 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43840 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/52202AQQDNQDKDBGJMGRHQCGKHSGVRQBM> a
@@ -1269,11 +1277,11 @@ _:e70931fcb28847b88ef2132d045511ef3840 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3841;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43841;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3841 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43841 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/54002AKMLBTCVHDQHGBGSDMCJVDKPRJHT> a
@@ -1285,11 +1293,11 @@ _:e70931fcb28847b88ef2132d045511ef3841 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3842;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43842;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3842 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43842 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/52003AQCCLNKCMJTDBLQDCQKHSKLLLQCM> a
@@ -1301,11 +1309,11 @@ _:e70931fcb28847b88ef2132d045511ef3842 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3843;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43843;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3843 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43843 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/centaurtheatre/event/54401AVRJSJSMPPPTPSPMTMDGVPJBQJVD> a
@@ -1317,9 +1325,9 @@ _:e70931fcb28847b88ef2132d045511ef3843 a schema:AggregateOffer;
   schema:startDate "2025-10-15T12:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/centaurtheatre/files/1371144a-9b8f-4a1a-8f86-a1ebd01fa6ff.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3844;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43844;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3844 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43844 a schema:AggregateOffer;
   schema:lowPrice "15.0" .

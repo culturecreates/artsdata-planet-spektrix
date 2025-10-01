@@ -16,16 +16,25 @@
 """;
   schema:startDate "2023-09-17T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41;
   schema:duration "PT180M";
   schema:endDate "2023-09-17T16:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41 a schema:AggregateOffer;
   schema:lowPrice "1259.0" .
 
 <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a
     schema:Place;
-  schema:name "Gateway Theatre" .
+  schema:name "Gateway Theatre";
+  schema:address <https://spektrix.com/gatewaytheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/gatewaytheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a
+    schema:PostalAddress;
+  schema:streetAddress "6500 Gilbert Road";
+  schema:addressLocality "Richmond";
+  schema:addressRegion "BC";
+  schema:postalCode "V7C 3V4";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/gatewaytheatre/event/21602AQNNLHVHMJSNKSLRRSBVJPHPMCVC> a
     schema:Event;
@@ -35,11 +44,11 @@ _:e70931fcb28847b88ef2132d045511ef1 a schema:AggregateOffer;
 """;
   schema:startDate "2023-09-21T17:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42;
   schema:duration "PT90M";
   schema:endDate "2023-09-21T18:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42 a schema:AggregateOffer;
   schema:lowPrice "619.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/34202AGCPPQTMBCHGRKRSDVLTGGKTMQKH> a
@@ -50,11 +59,11 @@ _:e70931fcb28847b88ef2132d045511ef2 a schema:AggregateOffer;
 """;
   schema:startDate "2023-09-17T10:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43;
   schema:duration "PT90M";
   schema:endDate "2023-09-17T12:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43 a schema:AggregateOffer;
   schema:lowPrice "619.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/23001ARCVCNHNNNCLVMBNCMRGPKGBRCSK> a
@@ -65,11 +74,11 @@ _:e70931fcb28847b88ef2132d045511ef3 a schema:AggregateOffer;
 """;
   schema:startDate "2023-09-21T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef4;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb44;
   schema:duration "PT120M";
   schema:endDate "2023-09-21T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef4 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb44 a schema:AggregateOffer;
   schema:lowPrice "829.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/22601ARRLHTVCDDNCQVPHHJKHRLVJHGRP> a
@@ -80,11 +89,11 @@ _:e70931fcb28847b88ef2132d045511ef4 a schema:AggregateOffer;
 """;
   schema:startDate "2023-09-19T17:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef5;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb45;
   schema:duration "PT90M";
   schema:endDate "2023-09-19T18:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef5 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb45 a schema:AggregateOffer;
   schema:lowPrice "649.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/34601ALVSBJCTDPKVRHHHNJPRRSBQSGSH> a
@@ -95,11 +104,11 @@ _:e70931fcb28847b88ef2132d045511ef5 a schema:AggregateOffer;
 """;
   schema:startDate "2023-09-16T14:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef6;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb46;
   schema:duration "PT60M";
   schema:endDate "2023-09-16T15:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef6 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb46 a schema:AggregateOffer;
   schema:lowPrice "649.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/22801AGSKTJDCRVHCKQCVVHGLQCVGCCGM> a
@@ -110,11 +119,11 @@ _:e70931fcb28847b88ef2132d045511ef6 a schema:AggregateOffer;
 """;
   schema:startDate "2023-09-19T18:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef7;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb47;
   schema:duration "PT120M";
   schema:endDate "2023-09-19T20:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef7 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb47 a schema:AggregateOffer;
   schema:lowPrice "869.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/22402ANNKRLTSLSKPNBGMRHTRQHLLVMQP> a
@@ -125,11 +134,11 @@ _:e70931fcb28847b88ef2132d045511ef7 a schema:AggregateOffer;
 """;
   schema:startDate "2023-09-20T17:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef8;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb48;
   schema:duration "PT180M";
   schema:endDate "2023-09-20T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef8 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb48 a schema:AggregateOffer;
   schema:lowPrice "1299.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/20801AJMTLQPSPKJDPVTSBMNNJNRPTPVH> a
@@ -140,11 +149,11 @@ _:e70931fcb28847b88ef2132d045511ef8 a schema:AggregateOffer;
 """;
   schema:startDate "2023-07-04T09:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef9;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb49;
   schema:duration "PT130M";
   schema:endDate "2023-07-04T11:40:00" .
 
-_:e70931fcb28847b88ef2132d045511ef9 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb49 a schema:AggregateOffer;
   schema:lowPrice "199.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/37201ANNHRQCTNHTBVHBGGJGJCBQDGBJG> a
@@ -155,11 +164,11 @@ _:e70931fcb28847b88ef2132d045511ef9 a schema:AggregateOffer;
 """;
   schema:startDate "2024-01-06T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef10;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb410;
   schema:duration "PT90M";
   schema:endDate "2024-01-06T14:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef10 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb410 a schema:AggregateOffer;
   schema:lowPrice "319.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM> a
@@ -170,11 +179,11 @@ _:e70931fcb28847b88ef2132d045511ef10 a schema:AggregateOffer;
 """;
   schema:startDate "2023-09-16T10:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef11;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb411;
   schema:duration "PT90M";
   schema:endDate "2023-09-16T12:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef11 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb411 a schema:AggregateOffer;
   schema:lowPrice "319.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/22201AVHLKLNNVQMTJHCGGPHJTVQHKKPM> a
@@ -185,11 +194,11 @@ _:e70931fcb28847b88ef2132d045511ef11 a schema:AggregateOffer;
 """;
   schema:startDate "2024-01-06T10:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef12;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb412;
   schema:duration "PT90M";
   schema:endDate "2024-01-06T12:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef12 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb412 a schema:AggregateOffer;
   schema:lowPrice "319.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/47401AKQNQDVQMQKDSCQGTCTQNHNCHLHR> a
@@ -200,11 +209,11 @@ _:e70931fcb28847b88ef2132d045511ef12 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-22T10:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef13;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb413;
   schema:duration "PT90M";
   schema:endDate "2024-09-22T12:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef13 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb413 a schema:AggregateOffer;
   schema:lowPrice "619.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/45802AQDRCTMRGJGCMNNHSPLNMCQBPDVJ> a
@@ -215,11 +224,11 @@ _:e70931fcb28847b88ef2132d045511ef13 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-19T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef14;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb414;
   schema:duration "PT120M";
   schema:endDate "2024-09-19T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef14 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb414 a schema:AggregateOffer;
   schema:lowPrice "829.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/47402ALBGVRNDLDHJGKMKPRPGLMLMMVGH> a
@@ -230,11 +239,11 @@ _:e70931fcb28847b88ef2132d045511ef14 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-22T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef15;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb415;
   schema:duration "PT180M";
   schema:endDate "2024-09-22T16:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef15 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb415 a schema:AggregateOffer;
   schema:lowPrice "1359.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/46401AJJTJHQJSQQVGTKDVGHPLJJBLHMJ> a
@@ -245,11 +254,11 @@ _:e70931fcb28847b88ef2132d045511ef15 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-21T09:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef16;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb416;
   schema:duration "PT60M";
   schema:endDate "2024-09-21T10:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef16 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb416 a schema:AggregateOffer;
   schema:lowPrice "189.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/46801ACDBKCSKJDBSGRJBRPHCJBLCKVCG> a
@@ -260,11 +269,11 @@ _:e70931fcb28847b88ef2132d045511ef16 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-17T17:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef17;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb417;
   schema:duration "PT90M";
   schema:endDate "2024-09-17T18:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef17 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb417 a schema:AggregateOffer;
   schema:lowPrice "649.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/47001AKGBPVRNLLTLGMHBTDTNRJQVNRCM> a
@@ -275,11 +284,11 @@ _:e70931fcb28847b88ef2132d045511ef17 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-21T14:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef18;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb418;
   schema:duration "PT90M";
   schema:endDate "2024-09-21T16:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef18 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb418 a schema:AggregateOffer;
   schema:lowPrice "649.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/47601ALRPQQGLMRHLJRSGRRTJGJKMNSGT> a
@@ -290,11 +299,11 @@ _:e70931fcb28847b88ef2132d045511ef18 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-17T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef19;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb419;
   schema:duration "PT120M";
   schema:endDate "2024-09-17T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef19 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb419 a schema:AggregateOffer;
   schema:lowPrice "869.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/45402AQMJCNJNTGNDHGQMCTBDHTRSSGVJ> a
@@ -305,11 +314,11 @@ _:e70931fcb28847b88ef2132d045511ef19 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-21T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef20;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb420;
   schema:duration "PT90M";
   schema:endDate "2024-09-21T14:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef20 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb420 a schema:AggregateOffer;
   schema:lowPrice "319.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/45801APJPHDJMJCSGNSRNCNRNHDDTHVGL> a
@@ -320,11 +329,11 @@ _:e70931fcb28847b88ef2132d045511ef20 a schema:AggregateOffer;
 """;
   schema:startDate "2025-01-04T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef21;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb421;
   schema:duration "PT90M";
   schema:endDate "2025-01-04T14:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef21 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb421 a schema:AggregateOffer;
   schema:lowPrice "319.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/45601AKQVBSQHJBQRVBTCHVPGDDNQTRGL> a
@@ -335,11 +344,11 @@ _:e70931fcb28847b88ef2132d045511ef21 a schema:AggregateOffer;
 """;
   schema:startDate "2025-01-04T10:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef22;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb422;
   schema:duration "PT90M";
   schema:endDate "2025-01-04T12:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef22 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb422 a schema:AggregateOffer;
   schema:lowPrice "319.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/46602AMJNBGMJVPNRNLDKCRHNKLMQGBQC> a
@@ -350,11 +359,11 @@ _:e70931fcb28847b88ef2132d045511ef22 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-16T17:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef23;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb423;
   schema:duration "PT180M";
   schema:endDate "2024-09-16T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef23 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb423 a schema:AggregateOffer;
   schema:lowPrice "1499.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/39801ATJCSCVLGHGKQJHSGGHGSRBRSCPQ> a
@@ -365,11 +374,11 @@ _:e70931fcb28847b88ef2132d045511ef23 a schema:AggregateOffer;
 """;
   schema:startDate "2024-07-08T09:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef24;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb424;
   schema:duration "PT420M";
   schema:endDate "2024-07-08T16:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef24 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb424 a schema:AggregateOffer;
   schema:lowPrice "529.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/40001ASPQDPHTMRMGGVKLMLRBPQNHNVSD> a
@@ -380,11 +389,11 @@ _:e70931fcb28847b88ef2132d045511ef24 a schema:AggregateOffer;
 """;
   schema:startDate "2024-07-08T09:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef25;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb425;
   schema:duration "PT420M";
   schema:endDate "2024-07-08T16:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef25 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb425 a schema:AggregateOffer;
   schema:lowPrice "529.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/39401AHHBKTRJHJPLGBDBSTVVRJPBTKLC> a
@@ -395,11 +404,11 @@ _:e70931fcb28847b88ef2132d045511ef25 a schema:AggregateOffer;
 """;
   schema:startDate "2024-07-02T12:15:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef26;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb426;
   schema:duration "PT150M";
   schema:endDate "2024-07-02T14:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef26 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb426 a schema:AggregateOffer;
   schema:lowPrice "189.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/40801ACLMJTSSJPDJLCGJNCRGTMKSPPRR> a
@@ -410,11 +419,11 @@ _:e70931fcb28847b88ef2132d045511ef26 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-30T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef27;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb427;
   schema:duration "PT60M";
   schema:endDate "2024-04-30T19:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef27 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb427 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/41001AMGNGHKLQLCLRMPJKPQBNDVJPHRD> a
@@ -425,11 +434,11 @@ _:e70931fcb28847b88ef2132d045511ef27 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-30T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef28;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb428;
   schema:duration "PT60M";
   schema:endDate "2024-04-30T19:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef28 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb428 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/41201ATDVHVNDPRBLKPLQHLVPNSCNQLLP> a
@@ -440,11 +449,11 @@ _:e70931fcb28847b88ef2132d045511ef28 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-30T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef29;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb429;
   schema:duration "PT60M";
   schema:endDate "2024-04-30T19:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef29 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb429 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/40602ARTCTGPPQKDLDCQPMHLNBJSDQLTL> a
@@ -455,11 +464,11 @@ _:e70931fcb28847b88ef2132d045511ef29 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-30T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef30;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb430;
   schema:duration "PT60M";
   schema:endDate "2024-04-30T19:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef30 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb430 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/41401ASSQNDLHNVKJRVQSRBSHHNBDDDQS> a
@@ -470,11 +479,11 @@ _:e70931fcb28847b88ef2132d045511ef30 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-30T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef31;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb431;
   schema:duration "PT60M";
   schema:endDate "2024-04-30T19:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef31 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb431 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/39001AMGJLTQNTKSVBHSJCGGLBSSLLVJK> a
@@ -485,11 +494,11 @@ _:e70931fcb28847b88ef2132d045511ef31 a schema:AggregateOffer;
 """;
   schema:startDate "2024-07-02T09:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef32;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb432;
   schema:duration "PT90M";
   schema:endDate "2024-07-02T10:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef32 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb432 a schema:AggregateOffer;
   schema:lowPrice "199.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/39201APPPJQSCBDBPCLLVKSNCLNHTDTRQ> a
@@ -500,11 +509,11 @@ _:e70931fcb28847b88ef2132d045511ef32 a schema:AggregateOffer;
 """;
   schema:startDate "2024-07-02T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef33;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb433;
   schema:duration "PT150M";
   schema:endDate "2024-07-02T17:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef33 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb433 a schema:AggregateOffer;
   schema:lowPrice "199.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/45401AJDKTHQLVSLBBVQGBPQSVNVKLQMM> a
@@ -515,11 +524,11 @@ _:e70931fcb28847b88ef2132d045511ef33 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-21T10:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef34;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb434;
   schema:duration "PT90M";
   schema:endDate "2024-09-21T12:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef34 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb434 a schema:AggregateOffer;
   schema:lowPrice "319.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/40201AJMHGMLBHTGVNKHNPGVSVHHPSMBQ> a
@@ -530,11 +539,11 @@ _:e70931fcb28847b88ef2132d045511ef34 a schema:AggregateOffer;
 """;
   schema:startDate "2024-07-15T09:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef35;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb435;
   schema:duration "PT420M";
   schema:endDate "2024-07-15T16:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef35 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb435 a schema:AggregateOffer;
   schema:lowPrice "989.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/47201AKJCKRLKLLRCPMQKNQTPDQTRPLCP> a
@@ -545,11 +554,11 @@ _:e70931fcb28847b88ef2132d045511ef35 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-19T17:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef36;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb436;
   schema:duration "PT90M";
   schema:endDate "2024-09-19T18:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef36 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb436 a schema:AggregateOffer;
   schema:lowPrice "619.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/67802ADJQJRBTTBGCCBHVGCSMVTTPPHQL> a
@@ -560,11 +569,11 @@ _:e70931fcb28847b88ef2132d045511ef36 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-18T17:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef37;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb437;
   schema:duration "PT60M";
   schema:endDate "2025-09-18T18:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef37 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb437 a schema:AggregateOffer;
   schema:lowPrice "619.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/68201ATPHPGBHMDNSHHSTPHBMQBRQBLST> a
@@ -575,11 +584,11 @@ _:e70931fcb28847b88ef2132d045511ef37 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-14T10:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef38;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb438;
   schema:duration "PT90M";
   schema:endDate "2025-09-14T12:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef38 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb438 a schema:AggregateOffer;
   schema:lowPrice "599.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/90401ABKRVKPCHSQJGNTBVSHPTCVVLSJK> a
@@ -590,11 +599,11 @@ _:e70931fcb28847b88ef2132d045511ef38 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-14T10:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef39;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb439;
   schema:duration "PT120M";
   schema:endDate "2025-09-14T12:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef39 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb439 a schema:AggregateOffer;
   schema:lowPrice "849.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/68601AQKLCDVNPLVQHKNKQBDVTKMGMSJQ> a
@@ -605,11 +614,11 @@ _:e70931fcb28847b88ef2132d045511ef39 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-14T10:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef40;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb440;
   schema:duration "PT120M";
   schema:endDate "2025-09-14T12:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef40 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb440 a schema:AggregateOffer;
   schema:lowPrice "849.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/69001AQHRKJGBJLJBVQPKPMTSHNLBBLGD> a
@@ -620,11 +629,11 @@ _:e70931fcb28847b88ef2132d045511ef40 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-14T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef41;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb441;
   schema:duration "PT210M";
   schema:endDate "2025-09-14T16:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef41 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb441 a schema:AggregateOffer;
   schema:lowPrice "1449.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/67801ATCLBJSLNJHDDQMPHBVVCKNGLMHB> a
@@ -635,11 +644,11 @@ _:e70931fcb28847b88ef2132d045511ef41 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-09T17:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef42;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb442;
   schema:duration "PT60M";
   schema:endDate "2025-09-09T18:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef42 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb442 a schema:AggregateOffer;
   schema:lowPrice "649.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/68001AVGQGHPGPGDNBSVTRMTDGHNQRSLV> a
@@ -650,11 +659,11 @@ _:e70931fcb28847b88ef2132d045511ef42 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-13T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef43;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb443;
   schema:duration "PT90M";
   schema:endDate "2025-09-13T14:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef43 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb443 a schema:AggregateOffer;
   schema:lowPrice "649.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/68801ALBSQSHRCDRCGNPHHPCVVCPMPMDD> a
@@ -665,11 +674,11 @@ _:e70931fcb28847b88ef2132d045511ef43 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-15T17:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef44;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb444;
   schema:duration "PT180M";
   schema:endDate "2025-09-15T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef44 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb444 a schema:AggregateOffer;
   schema:lowPrice "1499.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/68401ANKJDRLSGLSHHGCVSLLNTTTQRLMS> a
@@ -680,11 +689,11 @@ _:e70931fcb28847b88ef2132d045511ef44 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-09T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef45;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb445;
   schema:duration "PT60M";
   schema:endDate "2025-09-09T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef45 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb445 a schema:AggregateOffer;
   schema:lowPrice "869.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/68602AVRSPNTBNBBKGNCCBVJSBBMSHPSS> a
@@ -695,11 +704,11 @@ _:e70931fcb28847b88ef2132d045511ef45 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-29T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef46;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb446;
   schema:duration "PT60M";
   schema:endDate "2025-04-29T19:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef46 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb446 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/69601ANKVPKVRSPMHRSMLLQSTRLSKPHPR> a
@@ -710,11 +719,11 @@ _:e70931fcb28847b88ef2132d045511ef46 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-29T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef47;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb447;
   schema:duration "PT60M";
   schema:endDate "2025-04-29T19:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef47 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb447 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/69801ACHMQQPHNNNRPKGGCKPVPDJPPBTJ> a
@@ -725,11 +734,11 @@ _:e70931fcb28847b88ef2132d045511ef47 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-29T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef48;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb448;
   schema:duration "PT60M";
   schema:endDate "2025-04-29T19:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef48 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb448 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/70001AMJRQHDGBRNVCKLMQDNCHKHNLGPL> a
@@ -740,11 +749,11 @@ _:e70931fcb28847b88ef2132d045511ef48 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-29T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef49;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb449;
   schema:duration "PT60M";
   schema:endDate "2025-04-29T19:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef49 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb449 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/69002AGPHGMDSSBCDDSLGVHRNMBDJRNGC> a
@@ -755,11 +764,11 @@ _:e70931fcb28847b88ef2132d045511ef49 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-29T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef50;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb450;
   schema:duration "PT60M";
   schema:endDate "2025-04-29T19:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef50 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb450 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/69201ARPJLTNJBTLLMTLRNMQHNSVKNBHM> a
@@ -770,11 +779,11 @@ _:e70931fcb28847b88ef2132d045511ef50 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-13T10:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef51;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb451;
   schema:duration "PT90M";
   schema:endDate "2025-09-13T12:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef51 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb451 a schema:AggregateOffer;
   schema:lowPrice "319.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/69401AHRLMSBQLVDQNDHQJHGMBCGHMNBC> a
@@ -785,11 +794,11 @@ _:e70931fcb28847b88ef2132d045511ef51 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-10T10:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef52;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb452;
   schema:duration "PT60M";
   schema:endDate "2026-01-10T11:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef52 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb452 a schema:AggregateOffer;
   schema:lowPrice "319.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/60601ATNTMJGPJLLKLVBRSMHPPDCNKPMC> a
@@ -800,11 +809,11 @@ _:e70931fcb28847b88ef2132d045511ef52 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-22T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef53;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb453;
   schema:duration "PT135M";
   schema:endDate "2024-09-22T20:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef53 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb453 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/66601AGQCGDBVSBRBPDBPSKRTDHMKTVRL> a
@@ -815,11 +824,11 @@ _:e70931fcb28847b88ef2132d045511ef53 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-08T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef54;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb454;
   schema:duration "PT120M";
   schema:endDate "2025-02-08T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef54 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb454 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/67401ALTRTTRTPTSQHLNNDTGHMDRBCNBR> a
@@ -830,11 +839,11 @@ _:e70931fcb28847b88ef2132d045511ef54 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-14T09:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef55;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb455;
   schema:duration "PT360M";
   schema:endDate "2025-07-14T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef55 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb455 a schema:AggregateOffer;
   schema:lowPrice "529.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/67601AVHPCSTMMBKTGKLCGLQQCGMMBVSK> a
@@ -845,11 +854,11 @@ _:e70931fcb28847b88ef2132d045511ef55 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-14T09:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef56;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb456;
   schema:duration "PT60M";
   schema:endDate "2025-07-14T10:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef56 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb456 a schema:AggregateOffer;
   schema:lowPrice "539.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/67001APKGPVRDVBKMDCRCRMPHDNRDBKDN> a
@@ -860,11 +869,11 @@ _:e70931fcb28847b88ef2132d045511ef56 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-07T09:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef57;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb457;
   schema:duration "PT60M";
   schema:endDate "2025-07-07T10:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef57 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb457 a schema:AggregateOffer;
   schema:lowPrice "579.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/66801AQKPRHKKGQQBTMBVQVVTVMKKQTGN> a
@@ -875,11 +884,11 @@ _:e70931fcb28847b88ef2132d045511ef57 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-07T09:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef58;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb458;
   schema:duration "PT150M";
   schema:endDate "2025-07-07T11:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef58 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb458 a schema:AggregateOffer;
   schema:lowPrice "199.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/67201AVCRKQDBSGLQHRCLJQTBDLCTLNNQ> a
@@ -890,11 +899,11 @@ _:e70931fcb28847b88ef2132d045511ef58 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-21T09:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef59;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb459;
   schema:duration "PT360M";
   schema:endDate "2025-07-21T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef59 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb459 a schema:AggregateOffer;
   schema:lowPrice "995.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/63001AJJHHCCDTKKSDNHNCJHVRPDPDKLT> a
@@ -905,11 +914,11 @@ _:e70931fcb28847b88ef2132d045511ef59 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-08T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef60;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb460;
   schema:duration "PT60M";
   schema:endDate "2025-03-08T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef60 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb460 a schema:AggregateOffer;
   schema:lowPrice "140.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/85801AHLRGTDDCGCPTJSNCDVLVBKJKJNJ> a
@@ -920,11 +929,11 @@ _:e70931fcb28847b88ef2132d045511ef60 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-21T11:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef61;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb461;
   schema:duration "PT60M";
   schema:endDate "2025-06-21T12:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef61 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb461 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/86001AQMSNDTJGPGTMPLNKVBHBTGJPNHN> a
@@ -935,11 +944,11 @@ _:e70931fcb28847b88ef2132d045511ef61 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-21T11:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef62;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb462;
   schema:duration "PT60M";
   schema:endDate "2025-06-21T12:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef62 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb462 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/63201ARQTHLBSGNTKBMQBJSPDDGGNLSLL> a
@@ -950,11 +959,11 @@ _:e70931fcb28847b88ef2132d045511ef62 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-30T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef63;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb463;
   schema:duration "PT120M";
   schema:endDate "2025-05-30T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef63 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb463 a schema:AggregateOffer;
   schema:lowPrice "57.9" .
 
 <http://www.spektrix.com/gatewaytheatre/event/49001AHJBVTCVBRMRMLMCJSNSSQLBRQJR> a
@@ -965,11 +974,11 @@ _:e70931fcb28847b88ef2132d045511ef63 a schema:AggregateOffer;
 """;
   schema:startDate "2024-06-07T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef64;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb464;
   schema:duration "PT180M";
   schema:endDate "2024-06-07T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef64 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb464 a schema:AggregateOffer;
   schema:lowPrice "34.34" .
 
 <http://www.spektrix.com/gatewaytheatre/event/49201ADMHVCPDCGVCRJSKQMLVHNQNVVVH> a
@@ -980,11 +989,11 @@ _:e70931fcb28847b88ef2132d045511ef64 a schema:AggregateOffer;
 """;
   schema:startDate "2024-06-07T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef65;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb465;
   schema:duration "PT180M";
   schema:endDate "2024-06-07T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef65 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb465 a schema:AggregateOffer;
   schema:lowPrice "34.34" .
 
 <http://www.spektrix.com/gatewaytheatre/event/78201AKNQKRQLDQDJJBPGTRKDVHLTDSPD> a
@@ -995,11 +1004,11 @@ _:e70931fcb28847b88ef2132d045511ef65 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-08T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef66;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb466;
   schema:duration "PT180M";
   schema:endDate "2025-06-08T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef66 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb466 a schema:AggregateOffer;
   schema:lowPrice "38.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/75401ADCDRBNBQGSJVNCHHSSHRVJDCHLM> a
@@ -1012,14 +1021,14 @@ _:e70931fcb28847b88ef2132d045511ef66 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef67;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb467;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
 <https://spektrix.com/gatewaytheatre/organization/gateway-theatre> a schema:Organization;
   schema:name "Gateway Theatre" .
 
-_:e70931fcb28847b88ef2132d045511ef67 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb467 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/75601AGKNVPHKDKPTDVLGKTTPLGVRNSSP> a
@@ -1032,11 +1041,11 @@ _:e70931fcb28847b88ef2132d045511ef67 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef68;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb468;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef68 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb468 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/75801AMGDDQLLMQMDTGHKNVNHRDHSTBJQ> a
@@ -1049,11 +1058,11 @@ _:e70931fcb28847b88ef2132d045511ef68 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef69;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb469;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef69 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb469 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/74602AGJSRJDBKPCKMJSJGSVQCKPBRGLT> a
@@ -1066,11 +1075,11 @@ _:e70931fcb28847b88ef2132d045511ef69 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef70;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb470;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef70 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb470 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/76001ACNQBDSGGTSVDMCVRMLGHGQHVKLH> a
@@ -1083,11 +1092,11 @@ _:e70931fcb28847b88ef2132d045511ef70 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef71;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb471;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef71 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb471 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/76201ANNTCLJDJJJGJSPTQBVRJLDQTKHL> a
@@ -1100,11 +1109,11 @@ _:e70931fcb28847b88ef2132d045511ef71 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef72;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb472;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef72 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb472 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/75403ARPNTPCNTSTMKJDSQBMJBQRNSNNH> a
@@ -1117,11 +1126,11 @@ _:e70931fcb28847b88ef2132d045511ef72 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef73;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb473;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef73 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb473 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/73803APCCSSTRQPRJQNKPQRDRQPBNPDCN> a
@@ -1134,11 +1143,11 @@ _:e70931fcb28847b88ef2132d045511ef73 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef74;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb474;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef74 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb474 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/74202ADRCDVKHBLHSLMSLRSJLCLQCKHJR> a
@@ -1151,11 +1160,11 @@ _:e70931fcb28847b88ef2132d045511ef74 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef75;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb475;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef75 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb475 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/76202AGTSBHPPVGDVGCGDCNLHSRNPNJNT> a
@@ -1168,11 +1177,11 @@ _:e70931fcb28847b88ef2132d045511ef75 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef76;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb476;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef76 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb476 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/74802AGDPRRRQVGDTKRSLKHNGJVCPVTLD> a
@@ -1185,11 +1194,11 @@ _:e70931fcb28847b88ef2132d045511ef76 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef77;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb477;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef77 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb477 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/76002AVVPKPSKQNNHLBBSCPJTLMQRGDQN> a
@@ -1202,11 +1211,11 @@ _:e70931fcb28847b88ef2132d045511ef77 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef78;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb478;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef78 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb478 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/76601ATPKJGRNKVVHLSJKLRGVJNDHKVDL> a
@@ -1219,11 +1228,11 @@ _:e70931fcb28847b88ef2132d045511ef78 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef79;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb479;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef79 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb479 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/76402AGPDTKHSCGPTTQMVJJVPNCCLKBPM> a
@@ -1236,11 +1245,11 @@ _:e70931fcb28847b88ef2132d045511ef79 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef80;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb480;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef80 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb480 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/76801AGCMTKQCHDRDHQRHCBJRBDMMGKLQ> a
@@ -1253,11 +1262,11 @@ _:e70931fcb28847b88ef2132d045511ef80 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef81;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb481;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef81 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb481 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/74603AJDNKMVPPBGJMBCCJMDNHHKGJLLD> a
@@ -1270,11 +1279,11 @@ _:e70931fcb28847b88ef2132d045511ef81 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef82;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb482;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef82 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb482 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/73804ATBCRGDPKNHGCHNLDCHJTHTKCPRV> a
@@ -1287,11 +1296,11 @@ _:e70931fcb28847b88ef2132d045511ef82 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef83;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb483;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef83 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb483 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/77002AJHJVKQRBQKBMJCJCNKTSBLTPVTG> a
@@ -1304,11 +1313,11 @@ _:e70931fcb28847b88ef2132d045511ef83 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef84;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb484;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef84 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb484 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/77001ASPJSLCRLJQBKRKTCGKTBJSMBSHC> a
@@ -1321,11 +1330,11 @@ _:e70931fcb28847b88ef2132d045511ef84 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef85;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb485;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef85 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb485 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/77401ATDSDLQCDJCLVLHGVLTPSDBJPPBK> a
@@ -1338,11 +1347,11 @@ _:e70931fcb28847b88ef2132d045511ef85 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef86;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb486;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef86 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb486 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/77003AGBHDCHPTTLPQVTQCKHPBSMDPGRD> a
@@ -1355,11 +1364,11 @@ _:e70931fcb28847b88ef2132d045511ef86 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef87;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb487;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef87 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb487 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/76003AKPKPTCGVJQKJVMNDMCTRHDGSLCH> a
@@ -1372,11 +1381,11 @@ _:e70931fcb28847b88ef2132d045511ef87 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/90801395-c5d8-4846-b7fa-1dd9db4fe0fe.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef88;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb488;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef88 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb488 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/75201AGVRCJPJLNTHDCBKRGQMKMBJJLBP> a
@@ -1389,11 +1398,11 @@ _:e70931fcb28847b88ef2132d045511ef88 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/edb7e2e3-3a6f-4fa1-b6f3-88188026fda0.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef89;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb489;
   schema:duration "PT60M";
   schema:endDate "2025-12-11T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef89 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb489 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/72201AHVJHMKDPLTHSHSHMMBQTMGGKBCN> a
@@ -1404,11 +1413,11 @@ _:e70931fcb28847b88ef2132d045511ef89 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-24T09:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef90;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb490;
   schema:duration "PT480M";
   schema:endDate "2025-03-24T17:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef90 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb490 a schema:AggregateOffer;
   schema:lowPrice "95.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/65601ABJVQCQRNKJTHQGGNGBHPDGVBKKD> a
@@ -1419,11 +1428,11 @@ _:e70931fcb28847b88ef2132d045511ef90 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-12T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef91;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb491;
   schema:duration "PT100M";
   schema:endDate "2025-03-12T20:40:00" .
 
-_:e70931fcb28847b88ef2132d045511ef91 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb491 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/65801ABDQQTPTQHTDJVCCJNHQLNRJJCBG> a
@@ -1434,11 +1443,11 @@ _:e70931fcb28847b88ef2132d045511ef91 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-12T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef92;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb492;
   schema:duration "PT100M";
   schema:endDate "2025-03-12T20:40:00" .
 
-_:e70931fcb28847b88ef2132d045511ef92 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb492 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/41601AVNPVJKVCKMRJHHMRKVNNMTGJHSV> a
@@ -1449,11 +1458,11 @@ _:e70931fcb28847b88ef2132d045511ef92 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-15T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef93;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb493;
   schema:duration "PT90M";
   schema:endDate "2024-05-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef93 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb493 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/41801AVTMRHQTMCCLMJSHHVVQTNHJPGQB> a
@@ -1464,11 +1473,11 @@ _:e70931fcb28847b88ef2132d045511ef93 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-15T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef94;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb494;
   schema:duration "PT90M";
   schema:endDate "2024-05-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef94 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb494 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/72001ANHVHCLGLNCCVMNNJLHCJHVKDPJB> a
@@ -1479,16 +1488,25 @@ _:e70931fcb28847b88ef2132d045511ef94 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-15T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef95;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb495;
   schema:duration "PT90M";
   schema:endDate "2025-05-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef95 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb495 a schema:AggregateOffer;
   schema:lowPrice "9.0" .
 
 <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a
     schema:Place;
-  schema:name "Gateway Theatre" .
+  schema:name "Gateway Theatre";
+  schema:address <https://spektrix.com/gatewaytheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/gatewaytheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a
+    schema:PostalAddress;
+  schema:streetAddress "6500 Gilbert Road";
+  schema:addressLocality "Richmond";
+  schema:addressRegion "BC";
+  schema:postalCode "V7C 3V4";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/gatewaytheatre/event/49601ASJBNVSCTNMSJHKPCGQLLJSNSJJN> a
     schema:Event;
@@ -1498,11 +1516,11 @@ _:e70931fcb28847b88ef2132d045511ef95 a schema:AggregateOffer;
 """;
   schema:startDate "2024-06-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef96;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb496;
   schema:duration "PT180M";
   schema:endDate "2024-06-08T22:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef96 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb496 a schema:AggregateOffer;
   schema:lowPrice "39.88" .
 
 <http://www.spektrix.com/gatewaytheatre/event/83001AHRQMSRRDJKSVNJJNHBJRBGMRMDP> a
@@ -1513,11 +1531,11 @@ _:e70931fcb28847b88ef2132d045511ef96 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef97;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb497;
   schema:duration "PT180M";
   schema:endDate "2025-06-07T22:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef97 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb497 a schema:AggregateOffer;
   schema:lowPrice "42.21" .
 
 <http://www.spektrix.com/gatewaytheatre/event/38201AHNBNPJGLCLVNBPRCDPTCCSQSKKV> a
@@ -1528,11 +1546,11 @@ _:e70931fcb28847b88ef2132d045511ef97 a schema:AggregateOffer;
 """;
   schema:startDate "2024-02-19T10:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef98;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb498;
   schema:duration "PT60M";
   schema:endDate "2024-02-19T11:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef98 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb498 a schema:AggregateOffer;
   schema:lowPrice "12.5" .
 
 <http://www.spektrix.com/gatewaytheatre/event/38401ANGTJSBMBHBQLHQPNRBLQSPPBRDN> a
@@ -1543,11 +1561,11 @@ _:e70931fcb28847b88ef2132d045511ef98 a schema:AggregateOffer;
 """;
   schema:startDate "2024-02-19T10:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef99;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb499;
   schema:duration "PT60M";
   schema:endDate "2024-02-19T11:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef99 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb499 a schema:AggregateOffer;
   schema:lowPrice "12.5" .
 
 <http://www.spektrix.com/gatewaytheatre/event/58201ACHPVPJQDRHMDKGQPRQGVJJJGVJV> a
@@ -1558,11 +1576,11 @@ _:e70931fcb28847b88ef2132d045511ef99 a schema:AggregateOffer;
 """;
   schema:startDate "2024-06-26T14:15:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef100;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4100;
   schema:duration "PT180M";
   schema:endDate "2024-06-26T17:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef100 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4100 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/86201AJGDCKCBSDCRCTNNKMQCTKCCPJCH> a
@@ -1573,11 +1591,11 @@ _:e70931fcb28847b88ef2132d045511ef100 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-25T14:15:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef101;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4101;
   schema:duration "PT165M";
   schema:endDate "2025-06-25T17:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef101 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4101 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/38001AJMJGLMVGBGPDQNMJJMCJDLNBDQB> a
@@ -1588,11 +1606,11 @@ _:e70931fcb28847b88ef2132d045511ef101 a schema:AggregateOffer;
 """;
   schema:startDate "2024-02-29T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef102;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4102;
   schema:duration "PT95M";
   schema:endDate "2024-02-29T20:05:00" .
 
-_:e70931fcb28847b88ef2132d045511ef102 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4102 a schema:AggregateOffer;
   schema:lowPrice "18.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/83201ANNLNMTNPPCCCBCSRLVSVHPQSNDT> a
@@ -1603,11 +1621,11 @@ _:e70931fcb28847b88ef2132d045511ef102 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-06T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef103;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4103;
   schema:duration "PT195M";
   schema:endDate "2025-06-06T21:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef103 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4103 a schema:AggregateOffer;
   schema:lowPrice "36.67" .
 
 <http://www.spektrix.com/gatewaytheatre/event/83601ARJRQHJPSDPRNGGRVVHTJHNRMKRC> a
@@ -1618,11 +1636,11 @@ _:e70931fcb28847b88ef2132d045511ef103 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-06T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef104;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4104;
   schema:duration "PT195M";
   schema:endDate "2025-06-06T21:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef104 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4104 a schema:AggregateOffer;
   schema:lowPrice "36.67" .
 
 <http://www.spektrix.com/gatewaytheatre/event/71601AMRKGCHRRTHJRLKKPCDSPHMKGQPR> a
@@ -1633,11 +1651,11 @@ _:e70931fcb28847b88ef2132d045511ef104 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-11T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef105;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4105;
   schema:duration "PT60M";
   schema:endDate "2025-04-11T19:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef105 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4105 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/71801ABVJVLDBDPJBNLJVMTCQQRSJHMBM> a
@@ -1648,11 +1666,11 @@ _:e70931fcb28847b88ef2132d045511ef105 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-11T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef106;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4106;
   schema:duration "PT60M";
   schema:endDate "2025-04-11T19:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef106 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4106 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/59601AVKDPHNNKSRGJLHVHKTKQPTKMSDT> a
@@ -1663,11 +1681,11 @@ _:e70931fcb28847b88ef2132d045511ef106 a schema:AggregateOffer;
 """;
   schema:startDate "2024-07-26T15:15:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef107;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4107;
   schema:duration "PT45M";
   schema:endDate "2024-07-26T16:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef107 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4107 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/84201ACSJVSSBSNPNKGHCDPKNMJRRJDLL> a
@@ -1678,11 +1696,11 @@ _:e70931fcb28847b88ef2132d045511ef107 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-18T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef108;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4108;
   schema:duration "PT120M";
   schema:endDate "2025-06-18T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef108 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4108 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/60801AHTJHGGNNSGVTBBSHPTBHTDLSBLM> a
@@ -1693,11 +1711,11 @@ _:e70931fcb28847b88ef2132d045511ef108 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-19T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef109;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4109;
   schema:duration "PT135M";
   schema:endDate "2024-09-19T21:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef109 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4109 a schema:AggregateOffer;
   schema:lowPrice "2.1" .
 
 <http://www.spektrix.com/gatewaytheatre/event/89601AKRVVCJTBRTNVLJGHCGGBSNHMHQH> a
@@ -1708,11 +1726,11 @@ _:e70931fcb28847b88ef2132d045511ef109 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-30T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef110;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4110;
   schema:duration "PT120M";
   schema:endDate "2025-08-30T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef110 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4110 a schema:AggregateOffer;
   schema:lowPrice "2.1" .
 
 <http://www.spektrix.com/gatewaytheatre/event/82801ASNJHRMMGSTGCDGBHPMRGKRJRGVS> a
@@ -1723,11 +1741,11 @@ _:e70931fcb28847b88ef2132d045511ef110 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T12:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef111;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4111;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T13:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef111 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4111 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/42401AMGVRNMTBVGKTCVLCNVTMNDSPQQG> a
@@ -1738,11 +1756,11 @@ _:e70931fcb28847b88ef2132d045511ef111 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-29T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef112;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4112;
   schema:duration "PT180M";
   schema:endDate "2024-05-29T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef112 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4112 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/43001AKSPRSSKSHNTDHGBHCHQCHRJRSDT> a
@@ -1753,11 +1771,11 @@ _:e70931fcb28847b88ef2132d045511ef112 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-29T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef113;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4113;
   schema:duration "PT180M";
   schema:endDate "2024-05-29T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef113 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4113 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/43201AJDRNMMDNNQTNJHJVCVNCQGVJMVN> a
@@ -1768,11 +1786,11 @@ _:e70931fcb28847b88ef2132d045511ef113 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-29T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef114;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4114;
   schema:duration "PT180M";
   schema:endDate "2024-05-29T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef114 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4114 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/30803ARKHBKVJNTSDJGGMGCHKBLLGPBSL> a
@@ -1783,11 +1801,11 @@ _:e70931fcb28847b88ef2132d045511ef114 a schema:AggregateOffer;
 """;
   schema:startDate "2024-03-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef115;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4115;
   schema:duration "PT60M";
   schema:endDate "2024-03-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef115 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4115 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/30402AHVLRMMQKHVMBHDQRHLDCVNRNGLS> a
@@ -1798,11 +1816,11 @@ _:e70931fcb28847b88ef2132d045511ef115 a schema:AggregateOffer;
 """;
   schema:startDate "2024-03-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef116;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4116;
   schema:duration "PT60M";
   schema:endDate "2024-03-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef116 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4116 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/31001ANSGMCKVDLMTPSRQHVNSMPTMDPCG> a
@@ -1813,11 +1831,11 @@ _:e70931fcb28847b88ef2132d045511ef116 a schema:AggregateOffer;
 """;
   schema:startDate "2024-03-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef117;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4117;
   schema:duration "PT60M";
   schema:endDate "2024-03-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef117 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4117 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29205APVJCVMCBNDLRVNGNPKRJTRNMBDJ> a
@@ -1828,11 +1846,11 @@ _:e70931fcb28847b88ef2132d045511ef117 a schema:AggregateOffer;
 """;
   schema:startDate "2024-03-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef118;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4118;
   schema:duration "PT60M";
   schema:endDate "2024-03-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef118 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4118 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29003AQDPQLJRMTSDTSGBHDCMGKCVLVVQ> a
@@ -1843,11 +1861,11 @@ _:e70931fcb28847b88ef2132d045511ef118 a schema:AggregateOffer;
 """;
   schema:startDate "2024-03-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef119;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4119;
   schema:duration "PT60M";
   schema:endDate "2024-03-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef119 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4119 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/28204ADTTVJMHNRHMTTVRKGQJDQQCCJCP> a
@@ -1858,11 +1876,11 @@ _:e70931fcb28847b88ef2132d045511ef119 a schema:AggregateOffer;
 """;
   schema:startDate "2024-03-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef120;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4120;
   schema:duration "PT60M";
   schema:endDate "2024-03-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef120 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4120 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29402ACCJBPKKCQTSVBLVNKMQPGMQVJJD> a
@@ -1873,11 +1891,11 @@ _:e70931fcb28847b88ef2132d045511ef120 a schema:AggregateOffer;
 """;
   schema:startDate "2024-03-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef121;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4121;
   schema:duration "PT60M";
   schema:endDate "2024-03-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef121 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4121 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/30202ATSJVPNTLTJHQTHBLLRGVHHNKPMJ> a
@@ -1888,11 +1906,11 @@ _:e70931fcb28847b88ef2132d045511ef121 a schema:AggregateOffer;
 """;
   schema:startDate "2024-03-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef122;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4122;
   schema:duration "PT60M";
   schema:endDate "2024-03-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef122 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4122 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29208ARRRRTQTLHTPMMPHCRTMDQQLHMVT> a
@@ -1903,11 +1921,11 @@ _:e70931fcb28847b88ef2132d045511ef122 a schema:AggregateOffer;
 """;
   schema:startDate "2024-03-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef123;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4123;
   schema:duration "PT60M";
   schema:endDate "2024-03-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef123 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4123 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/33201AJLRJQTMSPLGKHLNMPSPGHMNLTRH> a
@@ -1918,11 +1936,11 @@ _:e70931fcb28847b88ef2132d045511ef123 a schema:AggregateOffer;
 """;
   schema:startDate "2024-03-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef124;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4124;
   schema:duration "PT60M";
   schema:endDate "2024-03-06T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef124 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4124 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29204AJGBCSVPPNQVJKLLNHSVHVLGMJQD> a
@@ -1933,11 +1951,11 @@ _:e70931fcb28847b88ef2132d045511ef124 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef125;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4125;
   schema:duration "PT60M";
   schema:endDate "2024-04-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef125 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4125 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/30401AVTJMSJLDVLNKKKDPCPPRDDJCLRT> a
@@ -1948,11 +1966,11 @@ _:e70931fcb28847b88ef2132d045511ef125 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef126;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4126;
   schema:duration "PT60M";
   schema:endDate "2024-04-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef126 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4126 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/34801AJDHTGHVDDDGHKMHBRJLKTRHLMSR> a
@@ -1963,11 +1981,11 @@ _:e70931fcb28847b88ef2132d045511ef126 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef127;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4127;
   schema:duration "PT60M";
   schema:endDate "2024-04-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef127 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4127 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/40401AJTHBLMVMBVCCLGRTCHHQHMCLTQK> a
@@ -1978,11 +1996,11 @@ _:e70931fcb28847b88ef2132d045511ef127 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef128;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4128;
   schema:duration "PT60M";
   schema:endDate "2024-04-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef128 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4128 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/30801ARPRRSKJDTQHHJTDRTPHSSSJNCJP> a
@@ -1993,11 +2011,11 @@ _:e70931fcb28847b88ef2132d045511ef128 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef129;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4129;
   schema:duration "PT60M";
   schema:endDate "2024-04-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef129 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4129 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29602ACKCQSVCQGTHTDDNLQVQSCQMHMGR> a
@@ -2008,11 +2026,11 @@ _:e70931fcb28847b88ef2132d045511ef129 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef130;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4130;
   schema:duration "PT60M";
   schema:endDate "2024-04-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef130 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4130 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29002ACNTLSKNGDCHSRHKKLPKRSQSNPMK> a
@@ -2023,11 +2041,11 @@ _:e70931fcb28847b88ef2132d045511ef130 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef131;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4131;
   schema:duration "PT60M";
   schema:endDate "2024-04-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef131 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4131 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/30003ARGQTSKQKGPMNTNCHLCJSNTQNQKB> a
@@ -2038,11 +2056,11 @@ _:e70931fcb28847b88ef2132d045511ef131 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef132;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4132;
   schema:duration "PT60M";
   schema:endDate "2024-04-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef132 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4132 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/30802ASRPJSKKSSSLHSSCTSPJHGHVNRKB> a
@@ -2053,11 +2071,11 @@ _:e70931fcb28847b88ef2132d045511ef132 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef133;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4133;
   schema:duration "PT60M";
   schema:endDate "2024-04-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef133 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4133 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/32801AVMKCMLRNPSSSQQTHRKHHMLJSPPT> a
@@ -2068,11 +2086,11 @@ _:e70931fcb28847b88ef2132d045511ef133 a schema:AggregateOffer;
 """;
   schema:startDate "2024-04-11T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef134;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4134;
   schema:duration "PT60M";
   schema:endDate "2024-04-11T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef134 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4134 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/48801AQHMRLTRLKHTVVSGQHTMLHGKSGHS> a
@@ -2083,11 +2101,11 @@ _:e70931fcb28847b88ef2132d045511ef134 a schema:AggregateOffer;
 """;
   schema:startDate "2024-06-29T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef135;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4135;
   schema:duration "PT120M";
   schema:endDate "2024-06-29T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef135 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4135 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/80002ADMLLRLKSGSCGDJSJMTKSBMCRSCC> a
@@ -2098,11 +2116,11 @@ _:e70931fcb28847b88ef2132d045511ef135 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-28T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef136;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4136;
   schema:duration "PT60M";
   schema:endDate "2026-02-28T11:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef136 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4136 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/47801AQSJJVSSQJNMDHJPPGNDTMSTPTST> a
@@ -2113,11 +2131,11 @@ _:e70931fcb28847b88ef2132d045511ef136 a schema:AggregateOffer;
 """;
   schema:startDate "2024-06-22T16:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef137;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4137;
   schema:duration "PT75M";
   schema:endDate "2024-06-22T18:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef137 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4137 a schema:AggregateOffer;
   schema:lowPrice "18.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/48201AHQBKMVGJSTQGDDLBHBMNSLMGSVN> a
@@ -2128,11 +2146,11 @@ _:e70931fcb28847b88ef2132d045511ef137 a schema:AggregateOffer;
 """;
   schema:startDate "2024-06-22T16:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef138;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4138;
   schema:duration "PT75M";
   schema:endDate "2024-06-22T18:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef138 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4138 a schema:AggregateOffer;
   schema:lowPrice "18.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/57801ABQVHGQHVHPVLHTTSHSNCRVSJPRB> a
@@ -2143,11 +2161,11 @@ _:e70931fcb28847b88ef2132d045511ef138 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-14T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef139;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4139;
   schema:duration "PT60M";
   schema:endDate "2024-09-14T19:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef139 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4139 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/82401ANQRCHDMHBNJSVRBRPLTVHSDPCTC> a
@@ -2158,11 +2176,11 @@ _:e70931fcb28847b88ef2132d045511ef139 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-31T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef140;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4140;
   schema:duration "PT180M";
   schema:endDate "2025-05-31T17:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef140 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4140 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/78401AJTHVQKCLLSCNJNQLQTRRQHGJKMK> a
@@ -2175,14 +2193,14 @@ _:e70931fcb28847b88ef2132d045511ef140 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/0ef27929-2237-4bdb-bb8f-846bb2610294.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef141;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4141;
   schema:duration "PT140M";
   schema:endDate "2025-10-17T21:50:00" .
 
 <https://spektrix.com/gatewaytheatre/organization/gateway-theatre> a schema:Organization;
   schema:name "Gateway Theatre" .
 
-_:e70931fcb28847b88ef2132d045511ef141 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4141 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/78601ARVGCQRVNKQDTCLPCBLPJJMRRLRQ> a
@@ -2195,11 +2213,11 @@ _:e70931fcb28847b88ef2132d045511ef141 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/0ef27929-2237-4bdb-bb8f-846bb2610294.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef142;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4142;
   schema:duration "PT140M";
   schema:endDate "2025-10-17T21:50:00" .
 
-_:e70931fcb28847b88ef2132d045511ef142 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4142 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/78801ALLGMGPNVLNCTKNGHCNHKQJNKVGD> a
@@ -2212,11 +2230,11 @@ _:e70931fcb28847b88ef2132d045511ef142 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/0ef27929-2237-4bdb-bb8f-846bb2610294.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef143;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4143;
   schema:duration "PT140M";
   schema:endDate "2025-10-17T21:50:00" .
 
-_:e70931fcb28847b88ef2132d045511ef143 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4143 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/79001ALMNHMLKHPPSKLMRGRNPHGQTCGQR> a
@@ -2229,11 +2247,11 @@ _:e70931fcb28847b88ef2132d045511ef143 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/0ef27929-2237-4bdb-bb8f-846bb2610294.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef144;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4144;
   schema:duration "PT140M";
   schema:endDate "2025-10-17T21:50:00" .
 
-_:e70931fcb28847b88ef2132d045511ef144 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4144 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/79201ARPJVGJDVHGPRNNRLJCTHHVGNJTL> a
@@ -2246,11 +2264,11 @@ _:e70931fcb28847b88ef2132d045511ef144 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/0ef27929-2237-4bdb-bb8f-846bb2610294.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef145;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4145;
   schema:duration "PT140M";
   schema:endDate "2025-10-17T21:50:00" .
 
-_:e70931fcb28847b88ef2132d045511ef145 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4145 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/79401APRHQVPJKKNLDNGKTCMQNHKTLSVR> a
@@ -2263,11 +2281,11 @@ _:e70931fcb28847b88ef2132d045511ef145 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/0ef27929-2237-4bdb-bb8f-846bb2610294.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef146;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4146;
   schema:duration "PT140M";
   schema:endDate "2025-10-17T21:50:00" .
 
-_:e70931fcb28847b88ef2132d045511ef146 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4146 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/79402AHJTKNHGLKSQPVCTMVBLKLDKNHHD> a
@@ -2280,11 +2298,11 @@ _:e70931fcb28847b88ef2132d045511ef146 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/0ef27929-2237-4bdb-bb8f-846bb2610294.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef147;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4147;
   schema:duration "PT140M";
   schema:endDate "2025-10-17T21:50:00" .
 
-_:e70931fcb28847b88ef2132d045511ef147 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4147 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/79601ASCTKDBCBKCCCJCJDVJJNHDMCPQK> a
@@ -2297,11 +2315,11 @@ _:e70931fcb28847b88ef2132d045511ef147 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/0ef27929-2237-4bdb-bb8f-846bb2610294.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef148;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4148;
   schema:duration "PT140M";
   schema:endDate "2025-10-17T21:50:00" .
 
-_:e70931fcb28847b88ef2132d045511ef148 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4148 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/79801AMDTQSCPLKTTHTHCSBCKQRGGLQLB> a
@@ -2314,11 +2332,11 @@ _:e70931fcb28847b88ef2132d045511ef148 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/0ef27929-2237-4bdb-bb8f-846bb2610294.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef149;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4149;
   schema:duration "PT140M";
   schema:endDate "2025-10-17T21:50:00" .
 
-_:e70931fcb28847b88ef2132d045511ef149 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4149 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/80001ADKNNLRVJJNLRCNBCHMDBTSMBPBV> a
@@ -2331,11 +2349,11 @@ _:e70931fcb28847b88ef2132d045511ef149 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/0ef27929-2237-4bdb-bb8f-846bb2610294.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef150;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4150;
   schema:duration "PT140M";
   schema:endDate "2025-10-17T21:50:00" .
 
-_:e70931fcb28847b88ef2132d045511ef150 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4150 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/79202AHHLMTMCNSDMRCLMCNKTCRLMBDVT> a
@@ -2348,11 +2366,11 @@ _:e70931fcb28847b88ef2132d045511ef150 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/ec9085b8-57d4-423f-bebe-6875dc2d2380.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef151;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4151;
   schema:duration "PT140M";
   schema:endDate "2025-10-16T21:50:00" .
 
-_:e70931fcb28847b88ef2132d045511ef151 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4151 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/73601AGTJSDMRRHHCHRQSCLRVRLDPRMQN> a
@@ -2363,11 +2381,11 @@ _:e70931fcb28847b88ef2132d045511ef151 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-12T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef152;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4152;
   schema:duration "PT120M";
   schema:endDate "2025-05-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef152 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4152 a schema:AggregateOffer;
   schema:lowPrice "22.9" .
 
 <http://www.spektrix.com/gatewaytheatre/event/88801AMLPDGCTLNTSLQPSSMVJQJDNHLSV> a
@@ -2378,11 +2396,11 @@ _:e70931fcb28847b88ef2132d045511ef152 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef153;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4153;
   schema:duration "PT120M";
   schema:endDate "2025-09-13T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef153 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4153 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/89001AJHBVGSNNCRSDJSGMLLHVGPBDRNB> a
@@ -2393,11 +2411,11 @@ _:e70931fcb28847b88ef2132d045511ef153 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef154;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4154;
   schema:duration "PT60M";
   schema:endDate "2025-11-14T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef154 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4154 a schema:AggregateOffer;
   schema:lowPrice "34.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/89201AJNRQKJVCPNLDMBQVRHGSCKHNGKK> a
@@ -2408,11 +2426,11 @@ _:e70931fcb28847b88ef2132d045511ef154 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef155;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4155;
   schema:duration "PT60M";
   schema:endDate "2025-11-14T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef155 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4155 a schema:AggregateOffer;
   schema:lowPrice "34.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/90601ASHQMPBMPNGDJRPRCQDTKGMGRQCS> a
@@ -2423,11 +2441,11 @@ _:e70931fcb28847b88ef2132d045511ef155 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef156;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4156;
   schema:duration "PT60M";
   schema:endDate "2025-11-14T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef156 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4156 a schema:AggregateOffer;
   schema:lowPrice "34.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/52602ANBHGMCCSGJPHTBMJQTSTLJMSQNV> a
@@ -2438,11 +2456,11 @@ _:e70931fcb28847b88ef2132d045511ef156 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef157;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4157;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef157 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4157 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/53201AKJTJLSKDPDLPTMDVPTDGSNGNBPL> a
@@ -2453,11 +2471,11 @@ _:e70931fcb28847b88ef2132d045511ef157 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef158;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4158;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef158 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4158 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/53002AHVPCJGJKHTBNNPKLKGVCNQPDJJH> a
@@ -2468,11 +2486,11 @@ _:e70931fcb28847b88ef2132d045511ef158 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef159;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4159;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef159 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4159 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/53401ABPVVPPBPJCQVLMKKHHLLVGLBJJB> a
@@ -2483,11 +2501,11 @@ _:e70931fcb28847b88ef2132d045511ef159 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef160;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4160;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef160 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4160 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/52002ANNJQLGDKNBJCLHCCCLRSDGKHPND> a
@@ -2498,11 +2516,11 @@ _:e70931fcb28847b88ef2132d045511ef160 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef161;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4161;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef161 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4161 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/53202AQLQPQVDNCSGLGJKSPMTLSHNHLQG> a
@@ -2513,11 +2531,11 @@ _:e70931fcb28847b88ef2132d045511ef161 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef162;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4162;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef162 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4162 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/53601AHTLLGLRDMLTLNLGVRKSBJRRTMLG> a
@@ -2528,11 +2546,11 @@ _:e70931fcb28847b88ef2132d045511ef162 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef163;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4163;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef163 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4163 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/53801AKGMPDLHTQMBLGCMLLSBPRBQDTHL> a
@@ -2543,11 +2561,11 @@ _:e70931fcb28847b88ef2132d045511ef163 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef164;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4164;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef164 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4164 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/53003ARPBBLKSDKHSNCNCLJPDKNLQDBCP> a
@@ -2558,11 +2576,11 @@ _:e70931fcb28847b88ef2132d045511ef164 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef165;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4165;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef165 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4165 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/53602APKMNVTKBKNLDCRKNGRHKHPSBPQV> a
@@ -2573,11 +2591,11 @@ _:e70931fcb28847b88ef2132d045511ef165 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef166;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4166;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef166 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4166 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/54001ABPSKBMMLLGTRJBVNRVDRDQRLGJK> a
@@ -2588,11 +2606,11 @@ _:e70931fcb28847b88ef2132d045511ef166 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef167;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4167;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef167 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4167 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/54201ATDGHQSBGRJPLVKLMRQMLSGRSDLV> a
@@ -2603,11 +2621,11 @@ _:e70931fcb28847b88ef2132d045511ef167 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef168;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4168;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef168 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4168 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/52402ABBQQBJTCVDTJGBSPTNLDHSMTHLN> a
@@ -2618,11 +2636,11 @@ _:e70931fcb28847b88ef2132d045511ef168 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef169;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4169;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef169 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4169 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/52403AMHRQBCVMBVGMCJLSPDMDVMGDJBT> a
@@ -2633,11 +2651,11 @@ _:e70931fcb28847b88ef2132d045511ef169 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef170;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4170;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef170 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4170 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/52802ASBGSGLPLGDBGVKVSJBMKCTTBTBG> a
@@ -2648,11 +2666,11 @@ _:e70931fcb28847b88ef2132d045511ef170 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef171;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4171;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef171 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4171 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/54401AVRJSJSMPPPTPSPMTMDGVPJBQJVD> a
@@ -2663,11 +2681,11 @@ _:e70931fcb28847b88ef2132d045511ef171 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef172;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4172;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef172 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4172 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/59801AKQJRVHNSMCTHJNRGJQCBCJCQDDC> a
@@ -2678,11 +2696,11 @@ _:e70931fcb28847b88ef2132d045511ef172 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef173;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4173;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef173 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4173 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/54602APPJJHTGTPJRJGSMDQMJPHDVPDTR> a
@@ -2693,11 +2711,11 @@ _:e70931fcb28847b88ef2132d045511ef173 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef174;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4174;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef174 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4174 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/53603AVKVSRDQNLVSLSQCVDDSJTNQJGDN> a
@@ -2708,11 +2726,11 @@ _:e70931fcb28847b88ef2132d045511ef174 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef175;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4175;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef175 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4175 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/54801ALMQKJGDVBDJQKPLMBMQRRRSMCNM> a
@@ -2723,11 +2741,11 @@ _:e70931fcb28847b88ef2132d045511ef175 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef176;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4176;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef176 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4176 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/54002AKMLBTCVHDQHGBGSDMCJVDKPRJHT> a
@@ -2738,11 +2756,11 @@ _:e70931fcb28847b88ef2132d045511ef176 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef177;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4177;
   schema:duration "PT60M";
   schema:endDate "2024-12-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef177 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4177 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/57201AVHSVBLCRCLQGNRQCCGBRSLVVRBN> a
@@ -2753,11 +2771,11 @@ _:e70931fcb28847b88ef2132d045511ef177 a schema:AggregateOffer;
 """;
   schema:startDate "2024-12-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef178;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4178;
   schema:duration "PT60M";
   schema:endDate "2024-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef178 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4178 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/63801ASLGTSVCPMCNVRGGPRNTHGJSNJGL> a
@@ -2768,11 +2786,11 @@ _:e70931fcb28847b88ef2132d045511ef178 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-17T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef179;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4179;
   schema:duration "PT45M";
   schema:endDate "2025-02-17T10:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef179 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4179 a schema:AggregateOffer;
   schema:lowPrice "13.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/49801AVVVJQRDHHCHGRNLMSSLHRNCVBPM> a
@@ -2783,11 +2801,11 @@ _:e70931fcb28847b88ef2132d045511ef179 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-17T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef180;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4180;
   schema:duration "PT45M";
   schema:endDate "2025-02-17T10:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef180 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4180 a schema:AggregateOffer;
   schema:lowPrice "13.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/51801AMMMQBBLVKCCNBKCBSKVNJHHMGKP> a
@@ -2798,11 +2816,11 @@ _:e70931fcb28847b88ef2132d045511ef180 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-17T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef181;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4181;
   schema:duration "PT45M";
   schema:endDate "2025-02-17T10:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef181 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4181 a schema:AggregateOffer;
   schema:lowPrice "13.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/52001ACPQTDRKBCCBJKBCLNBRPRKRMBPS> a
@@ -2813,11 +2831,11 @@ _:e70931fcb28847b88ef2132d045511ef181 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-17T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef182;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4182;
   schema:duration "PT45M";
   schema:endDate "2025-02-17T10:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef182 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4182 a schema:AggregateOffer;
   schema:lowPrice "13.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/52201AGLBQNPLVLHRQSQHGRRPVTMJCMCR> a
@@ -2828,11 +2846,11 @@ _:e70931fcb28847b88ef2132d045511ef182 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-17T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef183;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4183;
   schema:duration "PT45M";
   schema:endDate "2025-02-17T10:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef183 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4183 a schema:AggregateOffer;
   schema:lowPrice "13.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/52401AGHHMCQSLMQHGTNTVGPTNHJMVRQM> a
@@ -2843,11 +2861,11 @@ _:e70931fcb28847b88ef2132d045511ef183 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-17T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef184;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4184;
   schema:duration "PT45M";
   schema:endDate "2025-02-17T10:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef184 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4184 a schema:AggregateOffer;
   schema:lowPrice "13.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/52601ALNQMVKQDJJCGKRVQDPBPDVCPDPT> a
@@ -2858,11 +2876,11 @@ _:e70931fcb28847b88ef2132d045511ef184 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-17T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef185;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4185;
   schema:duration "PT45M";
   schema:endDate "2025-02-17T10:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef185 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4185 a schema:AggregateOffer;
   schema:lowPrice "13.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/52801ANDDVVVVLHPQNVDLNNNCBBSTGNKP> a
@@ -2873,11 +2891,11 @@ _:e70931fcb28847b88ef2132d045511ef185 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-17T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef186;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4186;
   schema:duration "PT45M";
   schema:endDate "2025-02-17T10:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef186 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4186 a schema:AggregateOffer;
   schema:lowPrice "13.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/53001ACMLBMKGCRKLTKVJLVJTHVVQTDSS> a
@@ -2888,11 +2906,11 @@ _:e70931fcb28847b88ef2132d045511ef186 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-17T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef187;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4187;
   schema:duration "PT45M";
   schema:endDate "2025-02-17T10:45:00" .
 
-_:e70931fcb28847b88ef2132d045511ef187 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4187 a schema:AggregateOffer;
   schema:lowPrice "13.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/73401APJTQRQMNDQCLBJRTVNGHRMDLQCV> a
@@ -2903,11 +2921,11 @@ _:e70931fcb28847b88ef2132d045511ef187 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-24T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef188;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4188;
   schema:duration "PT60M";
   schema:endDate "2025-05-24T19:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef188 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4188 a schema:AggregateOffer;
   schema:lowPrice "32.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/86601AMRNRGKCHGPSJKLNVJQSVMVTGNJM> a
@@ -2918,11 +2936,11 @@ _:e70931fcb28847b88ef2132d045511ef188 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-20T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef189;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4189;
   schema:duration "PT60M";
   schema:endDate "2025-09-20T14:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef189 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4189 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/86801AQGMPJRRVSCVQHBPPKJPHDCLBDJG> a
@@ -2933,11 +2951,11 @@ _:e70931fcb28847b88ef2132d045511ef189 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-20T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef190;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4190;
   schema:duration "PT60M";
   schema:endDate "2025-09-20T14:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef190 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4190 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/87001ATNHRQCRQHKBKPTBSRTPVHCMNHHK> a
@@ -2948,12 +2966,25 @@ _:e70931fcb28847b88ef2132d045511ef190 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-20T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef191;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4191;
   schema:duration "PT60M";
   schema:endDate "2025-09-20T14:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef191 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4191 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
+
+<https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a
+    schema:Place;
+  schema:name "Gateway Theatre";
+  schema:address <https://spektrix.com/gatewaytheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/gatewaytheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a
+    schema:PostalAddress;
+  schema:streetAddress "6500 Gilbert Road";
+  schema:addressLocality "Richmond";
+  schema:addressRegion "BC";
+  schema:postalCode "V7C 3V4";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/gatewaytheatre/event/55001AMSBLSDPDNMRVSMJKRHLNGCNQBMH> a
     schema:Event;
@@ -2963,11 +2994,11 @@ _:e70931fcb28847b88ef2132d045511ef191 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef192;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4192;
   schema:duration "PT150M";
   schema:endDate "2025-04-18T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef192 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4192 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/55201ACQGLDNVCCMPJHCCRNVTBRTNQTQG> a
@@ -2978,16 +3009,12 @@ _:e70931fcb28847b88ef2132d045511ef192 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef193;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4193;
   schema:duration "PT150M";
   schema:endDate "2025-04-18T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef193 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4193 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
-
-<https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a
-    schema:Place;
-  schema:name "Gateway Theatre" .
 
 <http://www.spektrix.com/gatewaytheatre/event/55401ACNDTGGQPPPTRVGVMSDRVVBMKVVG> a
     schema:Event;
@@ -2997,11 +3024,11 @@ _:e70931fcb28847b88ef2132d045511ef193 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef194;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4194;
   schema:duration "PT150M";
   schema:endDate "2025-04-18T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef194 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4194 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/55601ASTJQNJRRQPJSDBVGNRVCPBBGHJK> a
@@ -3012,11 +3039,11 @@ _:e70931fcb28847b88ef2132d045511ef194 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef195;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4195;
   schema:duration "PT150M";
   schema:endDate "2025-04-18T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef195 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4195 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/56001APNJBQMGSPLVLVDSPKGGCMCMVLTQ> a
@@ -3027,11 +3054,11 @@ _:e70931fcb28847b88ef2132d045511ef195 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef196;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4196;
   schema:duration "PT150M";
   schema:endDate "2025-04-18T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef196 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4196 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/56201AGSGSGJVVGPLSGRNJSLQQTTQHHRQ> a
@@ -3042,11 +3069,11 @@ _:e70931fcb28847b88ef2132d045511ef196 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef197;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4197;
   schema:duration "PT150M";
   schema:endDate "2025-04-18T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef197 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4197 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/56202ADDMVVLKQJHCJDNCDTBQRCTNKTGC> a
@@ -3057,11 +3084,11 @@ _:e70931fcb28847b88ef2132d045511ef197 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef198;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4198;
   schema:duration "PT150M";
   schema:endDate "2025-04-18T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef198 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4198 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/56401ANGTJBPDPBRQJTCNQMGHRLLHLQJK> a
@@ -3072,11 +3099,11 @@ _:e70931fcb28847b88ef2132d045511ef198 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef199;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4199;
   schema:duration "PT150M";
   schema:endDate "2025-04-18T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef199 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4199 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/56601ACCRKSPGKVDGHVRNMKGTVPHPQPBK> a
@@ -3087,11 +3114,11 @@ _:e70931fcb28847b88ef2132d045511ef199 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef200;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4200;
   schema:duration "PT150M";
   schema:endDate "2025-04-18T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef200 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4200 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/56801AMQDSPDMMJNCTTQJGQMCTDBSSSGM> a
@@ -3102,11 +3129,11 @@ _:e70931fcb28847b88ef2132d045511ef200 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef201;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4201;
   schema:duration "PT150M";
   schema:endDate "2025-04-17T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef201 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4201 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/65001ABJBLQTSTGTMVKPRRHSLPSVNVDBM> a
@@ -3117,11 +3144,11 @@ _:e70931fcb28847b88ef2132d045511ef201 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-29T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef202;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4202;
   schema:duration "PT90M";
   schema:endDate "2025-03-29T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef202 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4202 a schema:AggregateOffer;
   schema:lowPrice "32.9" .
 
 <http://www.spektrix.com/gatewaytheatre/event/33001ATHPSRJLTTHKPJHTBJLTTSMCRPQH> a
@@ -3132,11 +3159,11 @@ _:e70931fcb28847b88ef2132d045511ef202 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef203;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4203;
   schema:duration "PT60M";
   schema:endDate "2023-12-14T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef203 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4203 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/28201ANLRQMDQPKBCRBQJSVDBPMCHQKNS> a
@@ -3147,11 +3174,11 @@ _:e70931fcb28847b88ef2132d045511ef203 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef204;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4204;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef204 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4204 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/28401ALHCVVGBRSQJPRCNLLHLGCQGLNBC> a
@@ -3162,11 +3189,11 @@ _:e70931fcb28847b88ef2132d045511ef204 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef205;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4205;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef205 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4205 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/28601APDRTPPTPHLHSRDRCLCHBTNJRVPM> a
@@ -3177,11 +3204,11 @@ _:e70931fcb28847b88ef2132d045511ef205 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef206;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4206;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef206 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4206 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/28801AVBKQSCSGSCMSTRKBBJTVJRJMRQJ> a
@@ -3192,11 +3219,11 @@ _:e70931fcb28847b88ef2132d045511ef206 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef207;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4207;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef207 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4207 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29001ALLPBTHVNSHLVJMKCMRSHGJJGQBT> a
@@ -3207,11 +3234,11 @@ _:e70931fcb28847b88ef2132d045511ef207 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef208;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4208;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef208 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4208 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29201ACCPRBMSLVHDLHKGSRKDGGQQMTJM> a
@@ -3222,11 +3249,11 @@ _:e70931fcb28847b88ef2132d045511ef208 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef209;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4209;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef209 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4209 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29401ADJVTMPMVSKRPCKNPVMCRPLRQJRR> a
@@ -3237,11 +3264,11 @@ _:e70931fcb28847b88ef2132d045511ef209 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef210;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4210;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef210 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4210 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29601AVVVGLGMQTHTLNRNLGJBCQJTVHSN> a
@@ -3252,11 +3279,11 @@ _:e70931fcb28847b88ef2132d045511ef210 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef211;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4211;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef211 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4211 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29202ABLLNNQBSNJBTSNMLTKMSQGKRLRG> a
@@ -3267,11 +3294,11 @@ _:e70931fcb28847b88ef2132d045511ef211 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef212;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4212;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef212 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4212 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/28602ANLPVHQNKPKMTKMVBQPLMHBQTNGH> a
@@ -3282,11 +3309,11 @@ _:e70931fcb28847b88ef2132d045511ef212 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef213;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4213;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef213 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4213 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29801AKHGBCBQNDCCBHCDGNPLGJBDMJSD> a
@@ -3297,11 +3324,11 @@ _:e70931fcb28847b88ef2132d045511ef213 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef214;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4214;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef214 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4214 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/28603ACDLVNCSLGTHPJSQCTMCKPNLVLLT> a
@@ -3312,11 +3339,11 @@ _:e70931fcb28847b88ef2132d045511ef214 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef215;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4215;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef215 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4215 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/30001ACDNMRPKSDRKSKCJNMSBQHCSMMMG> a
@@ -3327,11 +3354,11 @@ _:e70931fcb28847b88ef2132d045511ef215 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef216;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4216;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef216 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4216 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/30002ABGDSNHCRNQTMKKDRNRNNPHPNQLH> a
@@ -3342,11 +3369,11 @@ _:e70931fcb28847b88ef2132d045511ef216 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef217;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4217;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef217 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4217 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/28802ABJCBGPMBSGTPLLHPPHPDBCMRJBV> a
@@ -3357,11 +3384,11 @@ _:e70931fcb28847b88ef2132d045511ef217 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef218;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4218;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef218 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4218 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/29203ANRRSNKRGMRNSDPTCHVCPRVHRMCQ> a
@@ -3372,11 +3399,11 @@ _:e70931fcb28847b88ef2132d045511ef218 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef219;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4219;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef219 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4219 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/28202APQRNGVTLSBPNPLVKTBHGMQKBMLG> a
@@ -3387,11 +3414,11 @@ _:e70931fcb28847b88ef2132d045511ef219 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef220;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4220;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef220 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4220 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/30201AHVTMBBQKSVNPBBRMTKPDQPRMHJC> a
@@ -3402,11 +3429,11 @@ _:e70931fcb28847b88ef2132d045511ef220 a schema:AggregateOffer;
 """;
   schema:startDate "2023-12-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef221;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4221;
   schema:duration "PT60M";
   schema:endDate "2023-12-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef221 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4221 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/84401ALDLRSKMCKGGQDGDJJDGKQBJLJDC> a
@@ -3417,11 +3444,11 @@ _:e70931fcb28847b88ef2132d045511ef221 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-12T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef222;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4222;
   schema:duration "PT90M";
   schema:endDate "2025-06-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef222 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4222 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/84601APCQHMGHKKSGKBJLBVSJRRCQDJTV> a
@@ -3432,11 +3459,11 @@ _:e70931fcb28847b88ef2132d045511ef222 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-12T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef223;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4223;
   schema:duration "PT90M";
   schema:endDate "2025-06-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef223 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4223 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/84801AHTTVPBHRTCDJGTTPLPKJLGTLLJD> a
@@ -3447,11 +3474,11 @@ _:e70931fcb28847b88ef2132d045511ef223 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-12T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef224;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4224;
   schema:duration "PT90M";
   schema:endDate "2025-06-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef224 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4224 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/85201AHBVGPRNHDHPSNHDVDDLDRCVPCHT> a
@@ -3462,11 +3489,11 @@ _:e70931fcb28847b88ef2132d045511ef224 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-12T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef225;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4225;
   schema:duration "PT90M";
   schema:endDate "2025-06-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef225 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4225 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/85601ATTRSQHQPBGNRTKLKJJMRLPJKPBR> a
@@ -3477,11 +3504,11 @@ _:e70931fcb28847b88ef2132d045511ef225 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-12T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef226;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4226;
   schema:duration "PT90M";
   schema:endDate "2025-06-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef226 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4226 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/85001ACHBTGLCRSPQVKRGBQRNDRPNKCVN> a
@@ -3492,11 +3519,11 @@ _:e70931fcb28847b88ef2132d045511ef226 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-12T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef227;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4227;
   schema:duration "PT90M";
   schema:endDate "2025-06-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef227 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4227 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/87401ACCQTCMTSHTBKVKQRHTPJDPHDDKM> a
@@ -3507,11 +3534,11 @@ _:e70931fcb28847b88ef2132d045511ef227 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-28T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef228;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4228;
   schema:duration "PT70M";
   schema:endDate "2026-02-28T15:10:00" .
 
-_:e70931fcb28847b88ef2132d045511ef228 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4228 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/57401ANHTKSRPPTMGTRKPHLCBHVSMPJSK> a
@@ -3522,11 +3549,11 @@ _:e70931fcb28847b88ef2132d045511ef228 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-01T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef229;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4229;
   schema:duration "PT90M";
   schema:endDate "2025-02-01T15:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef229 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4229 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/82001AHQLKTMKLKTDMQMCQTPHQCTRTTVQ> a
@@ -3537,11 +3564,11 @@ _:e70931fcb28847b88ef2132d045511ef229 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-27T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef230;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4230;
   schema:duration "PT120M";
   schema:endDate "2025-05-27T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef230 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4230 a schema:AggregateOffer;
   schema:lowPrice "27.9" .
 
 <http://www.spektrix.com/gatewaytheatre/event/60401AJBTCTVVQCDNPTHTLLCCKRPLQHLB> a
@@ -3552,11 +3579,11 @@ _:e70931fcb28847b88ef2132d045511ef230 a schema:AggregateOffer;
 """;
   schema:startDate "2024-09-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef231;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4231;
   schema:duration "PT60M";
   schema:endDate "2024-09-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef231 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4231 a schema:AggregateOffer;
   schema:lowPrice "50.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/90201APGBLJVMBRTQMNBCPTNCKVRLMPBT> a
@@ -3567,11 +3594,11 @@ _:e70931fcb28847b88ef2132d045511ef231 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-27T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef232;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4232;
   schema:duration "PT60M";
   schema:endDate "2025-09-27T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef232 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4232 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/59001ADRHPMLQBVBGVNGSJHSJTLJPJNQT> a
@@ -3582,11 +3609,11 @@ _:e70931fcb28847b88ef2132d045511ef232 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-08T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef233;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4233;
   schema:duration "PT120M";
   schema:endDate "2025-03-08T16:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef233 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4233 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/60201ANRDGSBSTNSDPCQLQLGLJPGGMRSQ> a
@@ -3597,11 +3624,11 @@ _:e70931fcb28847b88ef2132d045511ef233 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-06T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef234;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4234;
   schema:duration "PT120M";
   schema:endDate "2024-10-06T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef234 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4234 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/87801ASLQQHMPKPGBDLSGTSDTGVGLSHBK> a
@@ -3612,11 +3639,11 @@ _:e70931fcb28847b88ef2132d045511ef234 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-12T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef235;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4235;
   schema:duration "PT120M";
   schema:endDate "2026-04-12T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef235 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4235 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/87601ANPLQMNRMNHLQMLDPMSJKHLTKRCN> a
@@ -3627,11 +3654,11 @@ _:e70931fcb28847b88ef2132d045511ef235 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-11T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef236;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4236;
   schema:duration "PT60M";
   schema:endDate "2026-04-11T11:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef236 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4236 a schema:AggregateOffer;
   schema:lowPrice "180.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/60001AQMCNPHJDPMRBPJPHQTSVTJDCRKQ> a
@@ -3642,11 +3669,11 @@ _:e70931fcb28847b88ef2132d045511ef236 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-05T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef237;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4237;
   schema:duration "PT60M";
   schema:endDate "2024-10-05T11:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef237 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4237 a schema:AggregateOffer;
   schema:lowPrice "180.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/89801ALTKSQNTKRRGLGJGSSPLNBCNLDPP> a
@@ -3657,11 +3684,11 @@ _:e70931fcb28847b88ef2132d045511ef237 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-01T15:15:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef238;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4238;
   schema:duration "PT60M";
   schema:endDate "2025-08-01T16:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef238 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4238 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/83801ACBGJJMLLQRJQDMLGBDBQLGSCCJN> a
@@ -3672,11 +3699,11 @@ _:e70931fcb28847b88ef2132d045511ef238 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-28T16:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef239;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4239;
   schema:duration "PT75M";
   schema:endDate "2025-06-28T18:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef239 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4239 a schema:AggregateOffer;
   schema:lowPrice "22.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/84001ATTDKQPPGGHCBRDBMKRPNJRQPSMT> a
@@ -3687,11 +3714,11 @@ _:e70931fcb28847b88ef2132d045511ef239 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-28T16:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef240;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4240;
   schema:duration "PT75M";
   schema:endDate "2025-06-28T18:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef240 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4240 a schema:AggregateOffer;
   schema:lowPrice "22.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/87201AJBBCVJSDDKPTDJQMGVSLBVHDVPM> a
@@ -3704,14 +3731,14 @@ _:e70931fcb28847b88ef2132d045511ef240 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/2426a120-c246-4b96-b192-1db271c80a1d.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef241;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4241;
   schema:duration "PT80M";
   schema:endDate "2025-10-05T15:20:00" .
 
 <https://spektrix.com/gatewaytheatre/organization/gateway-theatre> a schema:Organization;
   schema:name "Gateway Theatre" .
 
-_:e70931fcb28847b88ef2132d045511ef241 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4241 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/48601ARPGPBJPBBJPGRVPTHVCMTBCKDRT> a
@@ -3722,11 +3749,11 @@ _:e70931fcb28847b88ef2132d045511ef241 a schema:AggregateOffer;
 """;
   schema:startDate "2024-06-01T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef242;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4242;
   schema:duration "PT120M";
   schema:endDate "2024-06-01T16:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef242 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4242 a schema:AggregateOffer;
   schema:lowPrice "5.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/43401ANGGNRSGBLDCHDJCRTGPDLNJKNPG> a
@@ -3737,11 +3764,11 @@ _:e70931fcb28847b88ef2132d045511ef242 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-25T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef243;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4243;
   schema:duration "PT120M";
   schema:endDate "2024-05-25T17:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef243 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4243 a schema:AggregateOffer;
   schema:lowPrice "32.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/48001ANTPHKKRNRQQLDJDLRNDSJJPHJLD> a
@@ -3752,11 +3779,11 @@ _:e70931fcb28847b88ef2132d045511ef243 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef244;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4244;
   schema:duration "PT120M";
   schema:endDate "2024-05-18T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef244 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4244 a schema:AggregateOffer;
   schema:lowPrice "28.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/58601AJJQLQQNQQDJSRQPDLNHTRMRQCHK> a
@@ -3767,11 +3794,11 @@ _:e70931fcb28847b88ef2132d045511ef244 a schema:AggregateOffer;
 """;
   schema:startDate "2024-08-01T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef245;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4245;
   schema:duration "PT120M";
   schema:endDate "2024-08-01T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef245 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4245 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/86401ASGLGPNTPVPNSMSDBCVPDQJHLHMN> a
@@ -3782,11 +3809,11 @@ _:e70931fcb28847b88ef2132d045511ef245 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-31T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef246;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4246;
   schema:duration "PT100M";
   schema:endDate "2025-07-31T20:40:00" .
 
-_:e70931fcb28847b88ef2132d045511ef246 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4246 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/88201ARGKKMLLRVMKPHJVBMLTPPGVHJQL> a
@@ -3797,11 +3824,11 @@ _:e70931fcb28847b88ef2132d045511ef246 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-16T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef247;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4247;
   schema:duration "PT55M";
   schema:endDate "2026-02-16T10:55:00" .
 
-_:e70931fcb28847b88ef2132d045511ef247 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4247 a schema:AggregateOffer;
   schema:lowPrice "13.5" .
 
 <http://www.spektrix.com/gatewaytheatre/event/73801ANBCGMJCHDPQBLMBCJTMLMHSQQHQ> a
@@ -3812,11 +3839,11 @@ _:e70931fcb28847b88ef2132d045511ef247 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-16T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef248;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4248;
   schema:duration "PT55M";
   schema:endDate "2026-02-16T10:55:00" .
 
-_:e70931fcb28847b88ef2132d045511ef248 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4248 a schema:AggregateOffer;
   schema:lowPrice "13.5" .
 
 <http://www.spektrix.com/gatewaytheatre/event/74001ADSVJLCKPMSPGQBKPTQSCGRSRDKK> a
@@ -3827,11 +3854,11 @@ _:e70931fcb28847b88ef2132d045511ef248 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-16T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef249;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4249;
   schema:duration "PT55M";
   schema:endDate "2026-02-16T10:55:00" .
 
-_:e70931fcb28847b88ef2132d045511ef249 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4249 a schema:AggregateOffer;
   schema:lowPrice "13.5" .
 
 <http://www.spektrix.com/gatewaytheatre/event/74201ACMVPHLJKTRRBJKKLCTRPJVKGDGS> a
@@ -3842,11 +3869,11 @@ _:e70931fcb28847b88ef2132d045511ef249 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-16T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef250;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4250;
   schema:duration "PT55M";
   schema:endDate "2026-02-16T10:55:00" .
 
-_:e70931fcb28847b88ef2132d045511ef250 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4250 a schema:AggregateOffer;
   schema:lowPrice "13.5" .
 
 <http://www.spektrix.com/gatewaytheatre/event/73802ADPDCMQDNGVBSNSDGMHDMLHSLJLN> a
@@ -3857,11 +3884,11 @@ _:e70931fcb28847b88ef2132d045511ef250 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-16T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef251;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4251;
   schema:duration "PT55M";
   schema:endDate "2026-02-16T10:55:00" .
 
-_:e70931fcb28847b88ef2132d045511ef251 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4251 a schema:AggregateOffer;
   schema:lowPrice "13.5" .
 
 <http://www.spektrix.com/gatewaytheatre/event/74401AGBSSPNCNSTSGRQKGQGNLKKTDHTV> a
@@ -3872,11 +3899,11 @@ _:e70931fcb28847b88ef2132d045511ef251 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-16T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef252;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4252;
   schema:duration "PT55M";
   schema:endDate "2026-02-16T10:55:00" .
 
-_:e70931fcb28847b88ef2132d045511ef252 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4252 a schema:AggregateOffer;
   schema:lowPrice "13.5" .
 
 <http://www.spektrix.com/gatewaytheatre/event/74601AKVNBMMSQGJNLBBTGQBNSQMLHPDK> a
@@ -3887,11 +3914,11 @@ _:e70931fcb28847b88ef2132d045511ef252 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-16T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef253;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4253;
   schema:duration "PT55M";
   schema:endDate "2026-02-16T10:55:00" .
 
-_:e70931fcb28847b88ef2132d045511ef253 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4253 a schema:AggregateOffer;
   schema:lowPrice "13.5" .
 
 <http://www.spektrix.com/gatewaytheatre/event/74801ATMBGSKMPNBVPKBRVQTPBHBSVTTR> a
@@ -3902,11 +3929,11 @@ _:e70931fcb28847b88ef2132d045511ef253 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-16T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef254;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4254;
   schema:duration "PT55M";
   schema:endDate "2026-02-16T10:55:00" .
 
-_:e70931fcb28847b88ef2132d045511ef254 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4254 a schema:AggregateOffer;
   schema:lowPrice "13.5" .
 
 <http://www.spektrix.com/gatewaytheatre/event/75001AGTQCJTJHTKDTVQBGHSKSHJRPGJN> a
@@ -3917,11 +3944,11 @@ _:e70931fcb28847b88ef2132d045511ef254 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-16T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef255;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4255;
   schema:duration "PT55M";
   schema:endDate "2026-02-16T10:55:00" .
 
-_:e70931fcb28847b88ef2132d045511ef255 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4255 a schema:AggregateOffer;
   schema:lowPrice "13.5" .
 
 <http://www.spektrix.com/gatewaytheatre/event/77601AKSPLGHBQVPSGQJSQGVKCVNQCCLM> a
@@ -3934,7 +3961,7 @@ _:e70931fcb28847b88ef2132d045511ef255 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/79242791-a39c-410b-93c4-54380724c195.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre-and-alberta-theatre-projects>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef256;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4256;
   schema:duration "PT60M";
   schema:endDate "2026-03-27T20:30:00" .
 
@@ -3942,7 +3969,7 @@ _:e70931fcb28847b88ef2132d045511ef255 a schema:AggregateOffer;
   a schema:Organization;
   schema:name "Gateway Theatre and Alberta Theatre Projects" .
 
-_:e70931fcb28847b88ef2132d045511ef256 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4256 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/75603APJKRVDRGSRLTHHPLBJRQJLJQQVQ> a
@@ -3955,11 +3982,11 @@ _:e70931fcb28847b88ef2132d045511ef256 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/79242791-a39c-410b-93c4-54380724c195.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre-and-alberta-theatre-projects>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef257;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4257;
   schema:duration "PT60M";
   schema:endDate "2026-03-27T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef257 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4257 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/75202ACQSTKHCNNKPTJVNPNSQCKNDKDVD> a
@@ -3972,11 +3999,11 @@ _:e70931fcb28847b88ef2132d045511ef257 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/79242791-a39c-410b-93c4-54380724c195.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre-and-alberta-theatre-projects>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef258;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4258;
   schema:duration "PT60M";
   schema:endDate "2026-03-27T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef258 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4258 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/76602ACSJLLBPTPTNNCLMVSCBLSDBJSNM> a
@@ -3989,11 +4016,11 @@ _:e70931fcb28847b88ef2132d045511ef258 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/79242791-a39c-410b-93c4-54380724c195.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre-and-alberta-theatre-projects>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef259;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4259;
   schema:duration "PT60M";
   schema:endDate "2026-03-27T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef259 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4259 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/77801ALGLLMQCDBGLKSDTLSHPSSRGRDGK> a
@@ -4006,11 +4033,11 @@ _:e70931fcb28847b88ef2132d045511ef259 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/79242791-a39c-410b-93c4-54380724c195.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre-and-alberta-theatre-projects>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef260;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4260;
   schema:duration "PT60M";
   schema:endDate "2026-03-27T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef260 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4260 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/78001AJVTNNMLKVVKRDSMTQKRPBBPTRNG> a
@@ -4023,11 +4050,11 @@ _:e70931fcb28847b88ef2132d045511ef260 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/79242791-a39c-410b-93c4-54380724c195.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre-and-alberta-theatre-projects>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef261;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4261;
   schema:duration "PT60M";
   schema:endDate "2026-03-27T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef261 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4261 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/77602AKRMSHHVVBGMKVMSVGJBSKHDLKMN> a
@@ -4040,11 +4067,11 @@ _:e70931fcb28847b88ef2132d045511ef261 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/79242791-a39c-410b-93c4-54380724c195.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre-and-alberta-theatre-projects>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef262;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4262;
   schema:duration "PT60M";
   schema:endDate "2026-03-27T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef262 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4262 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/77802AGRGKJRPVMBSLLPVDHVKJNKQTJHV> a
@@ -4057,11 +4084,11 @@ _:e70931fcb28847b88ef2132d045511ef262 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/79242791-a39c-410b-93c4-54380724c195.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre-and-alberta-theatre-projects>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef263;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4263;
   schema:duration "PT60M";
   schema:endDate "2026-03-27T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef263 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4263 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/73805ACNNMJSSKDSNTBSKDNJCTKTRJPJL> a
@@ -4074,11 +4101,11 @@ _:e70931fcb28847b88ef2132d045511ef263 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/79242791-a39c-410b-93c4-54380724c195.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre-and-alberta-theatre-projects>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef264;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4264;
   schema:duration "PT60M";
   schema:endDate "2026-03-27T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef264 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4264 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/76603ADCHQQQBGNNSTKVTMNNSHJQQHVPD> a
@@ -4091,11 +4118,11 @@ _:e70931fcb28847b88ef2132d045511ef264 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/79242791-a39c-410b-93c4-54380724c195.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre-and-alberta-theatre-projects>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef265;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4265;
   schema:duration "PT60M";
   schema:endDate "2026-03-27T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef265 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4265 a schema:AggregateOffer;
   schema:lowPrice "37.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/88001ADRQNDDMJRSRGPCBRBDVGTKQJCDH> a
@@ -4108,11 +4135,11 @@ _:e70931fcb28847b88ef2132d045511ef265 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/gatewaytheatre/files/69cae77d-bec2-4493-b25e-7ceedc7ca299.jpg>;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/gatewaytheatre/organization/gateway-theatre-and-alberta-theatre-projects>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef266;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4266;
   schema:duration "PT60M";
   schema:endDate "2026-03-26T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef266 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4266 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/50001ALBDLSVMDTDTMKNPPLMDQMDRBTLK> a
@@ -4123,11 +4150,11 @@ _:e70931fcb28847b88ef2132d045511ef266 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef267;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4267;
   schema:duration "PT120M";
   schema:endDate "2024-10-25T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef267 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4267 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/50201AJQJMNKPVNTVBTBMSCMBRSMTGJSS> a
@@ -4138,11 +4165,11 @@ _:e70931fcb28847b88ef2132d045511ef267 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef268;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4268;
   schema:duration "PT120M";
   schema:endDate "2024-10-25T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef268 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4268 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/59201ANQRMQQHPMKRBHKNCGQLPCVGCBKN> a
@@ -4153,11 +4180,11 @@ _:e70931fcb28847b88ef2132d045511ef268 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef269;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4269;
   schema:duration "PT120M";
   schema:endDate "2024-10-25T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef269 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4269 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/50601AKRTTBVBCHPTJTHBMBPVLKRJDRHP> a
@@ -4168,11 +4195,11 @@ _:e70931fcb28847b88ef2132d045511ef269 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef270;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4270;
   schema:duration "PT120M";
   schema:endDate "2024-10-25T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef270 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4270 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/50401ARMBCNTPHTPBVLQSVDRCMHSBBNBM> a
@@ -4183,11 +4210,11 @@ _:e70931fcb28847b88ef2132d045511ef270 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef271;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4271;
   schema:duration "PT120M";
   schema:endDate "2024-10-25T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef271 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4271 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/50801AMGQRGSCDNRCKBGRSTVMLTQRTDTT> a
@@ -4198,11 +4225,11 @@ _:e70931fcb28847b88ef2132d045511ef271 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef272;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4272;
   schema:duration "PT120M";
   schema:endDate "2024-10-25T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef272 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4272 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/51001ARVGTVPPNTBQGVCQJBVQPDQSJLSM> a
@@ -4213,11 +4240,11 @@ _:e70931fcb28847b88ef2132d045511ef272 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef273;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4273;
   schema:duration "PT120M";
   schema:endDate "2024-10-25T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef273 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4273 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/51201ANJTLKTPNSNHSSNGJHMCPQDDDKRV> a
@@ -4228,11 +4255,11 @@ _:e70931fcb28847b88ef2132d045511ef273 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef274;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4274;
   schema:duration "PT120M";
   schema:endDate "2024-10-25T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef274 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4274 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/51401AJNDJJSCSRDMGDPMBDQVCNBMPCNB> a
@@ -4243,11 +4270,11 @@ _:e70931fcb28847b88ef2132d045511ef274 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef275;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4275;
   schema:duration "PT120M";
   schema:endDate "2024-10-25T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef275 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4275 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/51601ASNDVBQVGLKLVCBQNQGNVJJTVQBG> a
@@ -4258,11 +4285,11 @@ _:e70931fcb28847b88ef2132d045511ef275 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef276;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4276;
   schema:duration "PT120M";
   schema:endDate "2024-10-25T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef276 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4276 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/57001AJRNLVRMBLNJDVNKVQMDNNSRGTGD> a
@@ -4273,11 +4300,11 @@ _:e70931fcb28847b88ef2132d045511ef276 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-24T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef277;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4277;
   schema:duration "PT60M";
   schema:endDate "2024-10-24T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef277 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4277 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/gatewaytheatre/event/61601AVSDPSGQNGMDBLSJQKNCHSPHMMLK> a
@@ -4288,9 +4315,9 @@ _:e70931fcb28847b88ef2132d045511ef277 a schema:AggregateOffer;
 """;
   schema:startDate "2024-10-13T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/gatewaytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef278;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb4278;
   schema:duration "PT60M";
   schema:endDate "2024-10-13T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef278 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb4278 a schema:AggregateOffer;
   schema:lowPrice "35.0" .

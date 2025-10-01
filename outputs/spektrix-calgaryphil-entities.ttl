@@ -15,16 +15,23 @@
 """;
   schema:startDate "2026-05-02T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2406;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42406;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-05-02T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2406 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42406 a schema:AggregateOffer;
   schema:lowPrice "45.0" .
 
 <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:Place;
-  schema:name "Jack Singer Concert Hall" .
+  schema:name "Jack Singer Concert Hall";
+  schema:address <https://spektrix.com/calgaryphil/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/calgaryphil/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:PostalAddress;
+  schema:streetAddress "Werklund Centre";
+  schema:addressLocality "formerly Arts Commons";
+  schema:addressRegion "AB";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/calgaryphil/event/75002ALSJNMMGDKRQLRJTVJHCMSHSTBHC> a schema:Event;
   schema:name "An Evening with Lang Lang ";
@@ -44,16 +51,23 @@ _:e70931fcb28847b88ef2132d045511ef2406 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2407;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42407;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-04-23T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2407 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42407 a schema:AggregateOffer;
   schema:lowPrice "97.0" .
 
 <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:Place;
-  schema:name "Bella Concert Hall" .
+  schema:name "Bella Concert Hall";
+  schema:address <https://spektrix.com/calgaryphil/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
+
+<https://spektrix.com/calgaryphil/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:PostalAddress;
+  schema:streetAddress "18 Mount Royal Circle SW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/calgaryphil/event/79601ASCTKDBCBKCCCJCJDVJJNHDMCPQK> a schema:Event;
   schema:name "Baroque at Bella with Camille Delaforge";
@@ -62,12 +76,12 @@ _:e70931fcb28847b88ef2132d045511ef2407 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2408;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42408;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-02-05T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2408 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42408 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/calgaryphil/event/79001ALMNHMLKHPPSKLMRGRNPHGQTCGQR> a schema:Event;
@@ -77,12 +91,12 @@ _:e70931fcb28847b88ef2132d045511ef2408 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2409;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42409;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-11-06T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2409 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42409 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/calgaryphil/event/73402AVNLMVHVJRLCQLBBRNHGLTBDGSCP> a schema:Event;
@@ -92,12 +106,12 @@ _:e70931fcb28847b88ef2132d045511ef2409 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2410;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42410;
   schema:keywords "Classics 3";
   schema:duration "PT90M";
   schema:endDate "2025-10-03T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2410 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42410 a schema:AggregateOffer;
   schema:lowPrice "22.0" .
 
 <http://www.spektrix.com/calgaryphil/event/85201AHBVGPRNHDHPSNHDVDDLDRCVPCHT> a schema:Event;
@@ -107,12 +121,12 @@ _:e70931fcb28847b88ef2132d045511ef2410 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2411;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42411;
   schema:keywords "Classics 3";
   schema:duration "PT90M";
   schema:endDate "2025-10-03T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2411 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42411 a schema:AggregateOffer;
   schema:lowPrice "32.0" .
 
 <http://www.spektrix.com/calgaryphil/event/77002AJHJVKQRBQKBMJCJCNKTSBLTPVTG> a schema:Event;
@@ -122,12 +136,12 @@ _:e70931fcb28847b88ef2132d045511ef2411 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2412;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42412;
   schema:keywords "Classics 3";
   schema:duration "PT90M";
   schema:endDate "2025-11-21T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2412 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42412 a schema:AggregateOffer;
   schema:lowPrice "24.0" .
 
 <http://www.spektrix.com/calgaryphil/event/71601AMRKGCHRRTHJRLKKPCDSPHMKGQPR> a schema:Event;
@@ -137,12 +151,12 @@ _:e70931fcb28847b88ef2132d045511ef2412 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-29T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2413;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42413;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-05-29T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2413 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42413 a schema:AggregateOffer;
   schema:lowPrice "24.0" .
 
 <http://www.spektrix.com/calgaryphil/event/71801ABVJVLDBDPJBNLJVMTCQQRSJHMBM> a schema:Event;
@@ -152,12 +166,12 @@ _:e70931fcb28847b88ef2132d045511ef2413 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-29T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2414;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42414;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-05-29T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2414 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42414 a schema:AggregateOffer;
   schema:lowPrice "28.0" .
 
 <http://www.spektrix.com/calgaryphil/event/71001AGBBMCNTJHLGBJRQPPQJJCSTSQBR> a schema:Event;
@@ -167,12 +181,12 @@ _:e70931fcb28847b88ef2132d045511ef2414 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2415;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42415;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-03-06T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2415 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42415 a schema:AggregateOffer;
   schema:lowPrice "23.0" .
 
 <http://www.spektrix.com/calgaryphil/event/71201AVSGMKVRTJBLJQHRLCDKPBMVPLSB> a schema:Event;
@@ -182,12 +196,12 @@ _:e70931fcb28847b88ef2132d045511ef2415 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2416;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42416;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-03-06T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2416 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42416 a schema:AggregateOffer;
   schema:lowPrice "24.0" .
 
 <http://www.spektrix.com/calgaryphil/event/81201ASDHGJQQCKCDQPRKCBRSVSHQHDDN> a schema:Event;
@@ -197,12 +211,12 @@ _:e70931fcb28847b88ef2132d045511ef2416 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-19T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2417;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42417;
   schema:keywords "Education";
   schema:duration "PT60M";
   schema:endDate "2025-11-19T11:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2417 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42417 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/calgaryphil/event/81401ABKCTVGGLVKTPQKLRVRPKVCDCVMB> a schema:Event;
@@ -212,12 +226,12 @@ _:e70931fcb28847b88ef2132d045511ef2417 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-19T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2418;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42418;
   schema:keywords "Education";
   schema:duration "PT60M";
   schema:endDate "2025-11-19T11:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2418 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42418 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/calgaryphil/event/81601ALGJMDVGMSHVCQBMQRJBKHDSGMMK> a schema:Event;
@@ -227,12 +241,12 @@ _:e70931fcb28847b88ef2132d045511ef2418 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-05T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2419;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42419;
   schema:keywords "Education";
   schema:duration "PT60M";
   schema:endDate "2026-03-05T11:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2419 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42419 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/calgaryphil/event/81801ATHJBGSKNNNRKKRCMBNCKDNKRPGD> a schema:Event;
@@ -242,12 +256,12 @@ _:e70931fcb28847b88ef2132d045511ef2419 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-05T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2420;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42420;
   schema:keywords "Education";
   schema:duration "PT60M";
   schema:endDate "2026-03-05T11:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2420 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42420 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/calgaryphil/event/81602ATQKVQCVMKQJGNNTCLRGTSBPCQGL> a schema:Event;
@@ -257,12 +271,12 @@ _:e70931fcb28847b88ef2132d045511ef2420 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-06T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2421;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42421;
   schema:keywords "Education";
   schema:duration "PT60M";
   schema:endDate "2026-05-06T11:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2421 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42421 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/calgaryphil/event/82001AHQLKTMKLKTDMQMCQTPHQCTRTTVQ> a schema:Event;
@@ -272,12 +286,12 @@ _:e70931fcb28847b88ef2132d045511ef2421 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-06T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2422;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42422;
   schema:keywords "Education";
   schema:duration "PT60M";
   schema:endDate "2026-05-06T11:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2422 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42422 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/calgaryphil/event/72001ANHVHCLGLNCCVMNNJLHCJHVKDPJB> a schema:Event;
@@ -287,12 +301,12 @@ _:e70931fcb28847b88ef2132d045511ef2422 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2423;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42423;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2025-09-12T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2423 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42423 a schema:AggregateOffer;
   schema:lowPrice "22.0" .
 
 <http://www.spektrix.com/calgaryphil/event/72201AHVJHMKDPLTHSHSHMMBQTMGGKBCN> a schema:Event;
@@ -302,12 +316,12 @@ _:e70931fcb28847b88ef2132d045511ef2423 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2424;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42424;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2025-09-12T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2424 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42424 a schema:AggregateOffer;
   schema:lowPrice "24.0" .
 
 <http://www.spektrix.com/calgaryphil/event/76801AGCMTKQCHDRDHQRHCBJRBDMMGKLQ> a schema:Event;
@@ -317,12 +331,12 @@ _:e70931fcb28847b88ef2132d045511ef2424 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-04T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2425;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42425;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-12-04T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2425 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42425 a schema:AggregateOffer;
   schema:lowPrice "22.0" .
 
 <http://www.spektrix.com/calgaryphil/event/76602ACSJLLBPTPTNNCLMVSCBLSDBJSNM> a schema:Event;
@@ -332,12 +346,12 @@ _:e70931fcb28847b88ef2132d045511ef2425 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-04T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2426;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42426;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-12-04T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2426 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42426 a schema:AggregateOffer;
   schema:lowPrice "24.0" .
 
 <http://www.spektrix.com/calgaryphil/event/77401ATDSDLQCDJCLVLHGVLTPSDBJPPBK> a schema:Event;
@@ -347,12 +361,12 @@ _:e70931fcb28847b88ef2132d045511ef2426 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2427;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42427;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2026-06-05T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2427 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42427 a schema:AggregateOffer;
   schema:lowPrice "28.0" .
 
 <http://www.spektrix.com/calgaryphil/event/77601AKSPLGHBQVPSGQJSQGVKCVNQCCLM> a schema:Event;
@@ -362,12 +376,12 @@ _:e70931fcb28847b88ef2132d045511ef2427 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2428;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42428;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2026-06-05T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2428 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42428 a schema:AggregateOffer;
   schema:lowPrice "23.0" .
 
 <http://www.spektrix.com/calgaryphil/event/80401ARTSPVHDDBJHRKBQKPHQDNLHVQMC> a schema:Event;
@@ -377,16 +391,24 @@ _:e70931fcb28847b88ef2132d045511ef2428 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-28T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2429;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42429;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2025-11-28T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2429 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42429 a schema:AggregateOffer;
   schema:lowPrice "49.0" .
 
 <https://spektrix.com/calgaryphil/location/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> a schema:Place;
-  schema:name "WinSport Event Centre" .
+  schema:name "WinSport Event Centre";
+  schema:address <https://spektrix.com/calgaryphil/address/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> .
+
+<https://spektrix.com/calgaryphil/address/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK> a schema:PostalAddress;
+  schema:streetAddress "88 Canada Olympic Road SW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:postalCode "T3B 5R5";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/calgaryphil/event/80601AKMRNLTTLLDPKKJNNMTCGCVKGPLC> a schema:Event;
   schema:name "Home Alone in Concert";
@@ -395,12 +417,12 @@ _:e70931fcb28847b88ef2132d045511ef2429 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-28T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2430;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42430;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2025-11-28T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2430 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42430 a schema:AggregateOffer;
   schema:lowPrice "49.0" .
 
 <http://www.spektrix.com/calgaryphil/event/73202ARKCSJJTNVQRSPNTNTBKGHJCNBHT> a schema:Event;
@@ -410,12 +432,12 @@ _:e70931fcb28847b88ef2132d045511ef2430 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2431;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42431;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2026-01-23T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2431 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42431 a schema:AggregateOffer;
   schema:lowPrice "28.0" .
 
 <http://www.spektrix.com/calgaryphil/event/73601AGTJSDMRRHHCHRQSCLRVRLDPRMQN> a schema:Event;
@@ -425,12 +447,12 @@ _:e70931fcb28847b88ef2132d045511ef2431 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2432;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42432;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2026-01-23T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2432 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42432 a schema:AggregateOffer;
   schema:lowPrice "38.0" .
 
 <http://www.spektrix.com/calgaryphil/event/73801ANBCGMJCHDPQBLMBCJTMLMHSQQHQ> a schema:Event;
@@ -440,12 +462,12 @@ _:e70931fcb28847b88ef2132d045511ef2432 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2433;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42433;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2026-02-27T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2433 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42433 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/calgaryphil/event/74001ADSVJLCKPMSPGQBKPTQSCGRSRDKK> a schema:Event;
@@ -455,12 +477,12 @@ _:e70931fcb28847b88ef2132d045511ef2433 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2434;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42434;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2026-02-27T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2434 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42434 a schema:AggregateOffer;
   schema:lowPrice "23.0" .
 
 <http://www.spektrix.com/calgaryphil/event/71401ARSRNJGNDQJKBJKRPKVJLLHLBTQD> a schema:Event;
@@ -470,12 +492,12 @@ _:e70931fcb28847b88ef2132d045511ef2434 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2435;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42435;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-04-10T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2435 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42435 a schema:AggregateOffer;
   schema:lowPrice "22.0" .
 
 <http://www.spektrix.com/calgaryphil/event/70202ACDHPQGGBJPKKPJRSGGJCJDPSCLD> a schema:Event;
@@ -485,12 +507,12 @@ _:e70931fcb28847b88ef2132d045511ef2435 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2436;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42436;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-04-10T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2436 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42436 a schema:AggregateOffer;
   schema:lowPrice "23.0" .
 
 <http://www.spektrix.com/calgaryphil/event/72801ATSHJLPCLMCSJGLVNVVHQRQSJNCV> a schema:Event;
@@ -500,12 +522,12 @@ _:e70931fcb28847b88ef2132d045511ef2436 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2437;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42437;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2026-05-22T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2437 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42437 a schema:AggregateOffer;
   schema:lowPrice "36.0" .
 
 <http://www.spektrix.com/calgaryphil/event/73001AVCMHLKGJVPNKDTRBKJNMCBVTBRQ> a schema:Event;
@@ -515,12 +537,12 @@ _:e70931fcb28847b88ef2132d045511ef2437 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2438;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42438;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2026-05-22T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2438 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42438 a schema:AggregateOffer;
   schema:lowPrice "23.0" .
 
 <http://www.spektrix.com/calgaryphil/event/77602AKRMSHHVVBGMKVMSVGJBSKHDLKMN> a schema:Event;
@@ -530,12 +552,12 @@ _:e70931fcb28847b88ef2132d045511ef2438 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2439;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42439;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-11-08T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2439 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42439 a schema:AggregateOffer;
   schema:lowPrice "24.0" .
 
 <http://www.spektrix.com/calgaryphil/event/79801AMDTQSCPLKTTHTHCSBCKQRGGLQLB> a schema:Event;
@@ -545,16 +567,22 @@ _:e70931fcb28847b88ef2132d045511ef2439 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-07T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2440;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42440;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2025-09-07T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2440 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42440 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <https://spektrix.com/calgaryphil/location/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> a schema:Place;
-  schema:name "Prince's Island Park" .
+  schema:name "Prince's Island Park";
+  schema:address <https://spektrix.com/calgaryphil/address/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> .
+
+<https://spektrix.com/calgaryphil/address/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC> a schema:PostalAddress;
+  schema:streetAddress "Calgary";
+  schema:addressRegion "AB";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/calgaryphil/event/76201ANNTCLJDJJJGJSPTQBVRJLDQTKHL> a schema:Event;
   schema:name "Postcards from Italy";
@@ -563,12 +591,12 @@ _:e70931fcb28847b88ef2132d045511ef2440 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2441;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42441;
   schema:keywords "Classics 3";
   schema:duration "PT90M";
   schema:endDate "2026-05-08T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2441 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42441 a schema:AggregateOffer;
   schema:lowPrice "47.0" .
 
 <http://www.spektrix.com/calgaryphil/event/78401AJTHVQKCLLSCNJNQLQTRRQHGJKMK> a schema:Event;
@@ -578,12 +606,12 @@ _:e70931fcb28847b88ef2132d045511ef2441 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2442;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42442;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-02-07T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2442 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42442 a schema:AggregateOffer;
   schema:lowPrice "40.0" .
 
 <http://www.spektrix.com/calgaryphil/event/72401ALBRMBPTSKCJBKRLLGDCPJPQJQDT> a schema:Event;
@@ -593,12 +621,12 @@ _:e70931fcb28847b88ef2132d045511ef2442 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2443;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42443;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2026-02-13T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2443 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42443 a schema:AggregateOffer;
   schema:lowPrice "23.0" .
 
 <http://www.spektrix.com/calgaryphil/event/72601AQJVHVKDHQRVMNGTMDJCDMLPKDVS> a schema:Event;
@@ -608,12 +636,12 @@ _:e70931fcb28847b88ef2132d045511ef2443 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2444;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42444;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2026-02-13T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2444 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42444 a schema:AggregateOffer;
   schema:lowPrice "23.0" .
 
 <http://www.spektrix.com/calgaryphil/event/68401ANKJDRLSGLSHHGCVSLLNTTTQRLMS> a schema:Event;
@@ -623,12 +651,12 @@ _:e70931fcb28847b88ef2132d045511ef2444 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-01T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2445;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42445;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-01-01T16:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2445 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42445 a schema:AggregateOffer;
   schema:lowPrice "69.0" .
 
 <http://www.spektrix.com/calgaryphil/event/77001ASPJSLCRLJQBKRKTCGKTBJSMBSHC> a schema:Event;
@@ -638,12 +666,12 @@ _:e70931fcb28847b88ef2132d045511ef2445 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2446;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42446;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2025-11-14T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2446 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42446 a schema:AggregateOffer;
   schema:lowPrice "23.0" .
 
 <http://www.spektrix.com/calgaryphil/event/77201ACHJGSDMKVSDQSJLPVNTKPPQRMCG> a schema:Event;
@@ -653,12 +681,12 @@ _:e70931fcb28847b88ef2132d045511ef2446 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2447;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42447;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2025-11-14T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2447 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42447 a schema:AggregateOffer;
   schema:lowPrice "22.0" .
 
 <http://www.spektrix.com/calgaryphil/event/74201ACMVPHLJKTRRBJKKLCTRPJVKGDGS> a schema:Event;
@@ -668,16 +696,24 @@ _:e70931fcb28847b88ef2132d045511ef2447 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2448;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42448;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2026-05-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2448 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42448 a schema:AggregateOffer;
   schema:lowPrice "59.0" .
 
 <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> a schema:Place;
-  schema:name "Jubilee Auditorium" .
+  schema:name "Jubilee Auditorium";
+  schema:address <https://spektrix.com/calgaryphil/address/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
+
+<https://spektrix.com/calgaryphil/address/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> a schema:PostalAddress;
+  schema:streetAddress "1415 14 Ave NW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:postalCode "T2N 1M4";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/calgaryphil/event/74401AGBSSPNCNSTSGRQKGQGNLKKTDHTV> a schema:Event;
   schema:name "Star Wars: Return of the Jedi in Concert";
@@ -686,12 +722,12 @@ _:e70931fcb28847b88ef2132d045511ef2448 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2449;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42449;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2026-05-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2449 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42449 a schema:AggregateOffer;
   schema:lowPrice "59.0" .
 
 <http://www.spektrix.com/calgaryphil/event/74601AKVNBMMSQGJNLBBTGQBNSQMLHPDK> a schema:Event;
@@ -701,12 +737,12 @@ _:e70931fcb28847b88ef2132d045511ef2449 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2450;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42450;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2026-05-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2450 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42450 a schema:AggregateOffer;
   schema:lowPrice "59.0" .
 
 <http://www.spektrix.com/calgaryphil/event/76601ATPKJGRNKVVHLSJKLRGVJNDHKVDL> a schema:Event;
@@ -716,12 +752,12 @@ _:e70931fcb28847b88ef2132d045511ef2450 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-31T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2451;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42451;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-10-31T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2451 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42451 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/calgaryphil/event/80001ADKNNLRVJJNLRCNBCHMDBTSMBPBV> a schema:Event;
@@ -731,12 +767,12 @@ _:e70931fcb28847b88ef2132d045511ef2451 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2452;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42452;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2025-12-06T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2452 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42452 a schema:AggregateOffer;
   schema:lowPrice "49.0" .
 
 <http://www.spektrix.com/calgaryphil/event/73201AGSCKBTGSBVVPVMMGBMDMVPLHBVG> a schema:Event;
@@ -746,12 +782,12 @@ _:e70931fcb28847b88ef2132d045511ef2452 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2453;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42453;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2025-10-17T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2453 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42453 a schema:AggregateOffer;
   schema:lowPrice "22.0" .
 
 <http://www.spektrix.com/calgaryphil/event/73401APJTQRQMNDQCLBJRTVNGHRMDLQCV> a schema:Event;
@@ -761,12 +797,12 @@ _:e70931fcb28847b88ef2132d045511ef2453 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2454;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42454;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2025-10-17T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2454 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42454 a schema:AggregateOffer;
   schema:lowPrice "23.0" .
 
 <http://www.spektrix.com/calgaryphil/event/74801ATMBGSKMPNBVPKBRVQTPBHBSVTTR> a schema:Event;
@@ -776,16 +812,23 @@ _:e70931fcb28847b88ef2132d045511ef2454 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/7001AGCLPBHTQLDRVGJQJGVCGDJKJPPNR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2455;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42455;
   schema:keywords "Specials";
   schema:duration "PT240M";
   schema:endDate "2025-09-05T23:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2455 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42455 a schema:AggregateOffer;
   schema:lowPrice "99.0" .
 
 <https://spektrix.com/calgaryphil/location/7001AGCLPBHTQLDRVGJQJGVCGDJKJPPNR> a schema:Place;
-  schema:name "The Big Four Roadhouse" .
+  schema:name "The Big Four Roadhouse";
+  schema:address <https://spektrix.com/calgaryphil/address/7001AGCLPBHTQLDRVGJQJGVCGDJKJPPNR> .
+
+<https://spektrix.com/calgaryphil/address/7001AGCLPBHTQLDRVGJQJGVCGDJKJPPNR> a schema:PostalAddress;
+  schema:streetAddress "Big Four";
+  schema:addressLocality "1801 Big Four Trail SE";
+  schema:addressRegion "AB";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/calgaryphil/event/81001ABQTGSMTVRBPQBNVJMCNHMKQHNNQ> a schema:Event;
   schema:name "Tenille Townes + The Calgary Philharmonic Orchestra";
@@ -794,12 +837,12 @@ _:e70931fcb28847b88ef2132d045511ef2455 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2456;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42456;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-04-25T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2456 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42456 a schema:AggregateOffer;
   schema:lowPrice "50.0" .
 
 <http://www.spektrix.com/calgaryphil/event/75001AGTQCJTJHTKDTVQBGHSKSHJRPGJN> a schema:Event;
@@ -809,12 +852,12 @@ _:e70931fcb28847b88ef2132d045511ef2456 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-21T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2457;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42457;
   schema:keywords "Symphony Sundays for Kids";
   schema:duration "PT60M";
   schema:endDate "2025-09-21T16:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2457 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42457 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/calgaryphil/event/70601ARTMQVDQNBCQNBNVCVCNCQVKTRPG> a schema:Event;
@@ -824,12 +867,12 @@ _:e70931fcb28847b88ef2132d045511ef2457 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2458;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42458;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-01-16T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2458 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42458 a schema:AggregateOffer;
   schema:lowPrice "34.0" .
 
 <http://www.spektrix.com/calgaryphil/event/70801ACCPCJTVQVGBDPKMJGLRTJJDDVBG> a schema:Event;
@@ -839,12 +882,12 @@ _:e70931fcb28847b88ef2132d045511ef2458 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2459;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42459;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-01-16T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2459 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42459 a schema:AggregateOffer;
   schema:lowPrice "57.0" .
 
 <http://www.spektrix.com/calgaryphil/event/70201ADHVPVLHCVCVCTRPRPPPJCCSKTGL> a schema:Event;
@@ -854,12 +897,12 @@ _:e70931fcb28847b88ef2132d045511ef2459 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-19T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2460;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42460;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2025-09-19T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2460 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42460 a schema:AggregateOffer;
   schema:lowPrice "23.0" .
 
 <http://www.spektrix.com/calgaryphil/event/70401ASVSQQQCRPSCNRQPCKDQQQTGLMGK> a schema:Event;
@@ -869,12 +912,12 @@ _:e70931fcb28847b88ef2132d045511ef2460 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-19T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2461;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42461;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2025-09-19T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2461 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42461 a schema:AggregateOffer;
   schema:lowPrice "22.0" .
 
 <http://www.spektrix.com/calgaryphil/event/76002AVVPKPSKQNNHLBBSCPJTLMQRGDQN> a schema:Event;
@@ -884,12 +927,12 @@ _:e70931fcb28847b88ef2132d045511ef2461 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2462;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42462;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-10-10T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2462 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42462 a schema:AggregateOffer;
   schema:lowPrice "32.0" .
 
 <http://www.spektrix.com/calgaryphil/event/76401ADQTCVSBMHNJBVTLKRDDQKCTSTRJ> a schema:Event;
@@ -899,12 +942,12 @@ _:e70931fcb28847b88ef2132d045511ef2462 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2463;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42463;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-10-10T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2463 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42463 a schema:AggregateOffer;
   schema:lowPrice "32.0" .
 
 <http://www.spektrix.com/calgaryphil/event/74202ADRCDVKHBLHSLMSLRSJLCLQCKHJR> a schema:Event;
@@ -914,16 +957,23 @@ _:e70931fcb28847b88ef2132d045511ef2463 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-09T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2464;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42464;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-12-09T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2464 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42464 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> a schema:Place;
-  schema:name "Grace Presbyterian Church" .
+  schema:name "Grace Presbyterian Church";
+  schema:address <https://spektrix.com/calgaryphil/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
+
+<https://spektrix.com/calgaryphil/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> a schema:PostalAddress;
+  schema:streetAddress "1009 15 Ave SW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/calgaryphil/event/74402ATHVGBMJPBNDVPJMLJLCTBTCHRCR> a schema:Event;
   schema:name "Traditional Christmas";
@@ -932,12 +982,12 @@ _:e70931fcb28847b88ef2132d045511ef2464 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-09T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2465;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42465;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-12-09T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2465 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42465 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/calgaryphil/event/75801AMGDDQLLMQMDTGHKNVNHRDHSTBJQ> a schema:Event;
@@ -947,12 +997,12 @@ _:e70931fcb28847b88ef2132d045511ef2465 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-09T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2466;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42466;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-12-09T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2466 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42466 a schema:AggregateOffer;
   schema:lowPrice "25.0" .
 
 <http://www.spektrix.com/calgaryphil/event/76001ACNQBDSGGTSVDMCVRMLGHGQHVKLH> a schema:Event;
@@ -962,12 +1012,12 @@ _:e70931fcb28847b88ef2132d045511ef2466 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2467;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42467;
   schema:keywords "Classics 3";
   schema:duration "PT90M";
   schema:endDate "2026-03-20T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2467 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42467 a schema:AggregateOffer;
   schema:lowPrice "39.0" .
 
 <http://www.spektrix.com/calgaryphil/event/80201ACSGMBNRJDTHKBMHPTGBKGRKVSBS> a schema:Event;
@@ -977,12 +1027,12 @@ _:e70931fcb28847b88ef2132d045511ef2467 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-28T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2468;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42468;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2026-03-28T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2468 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42468 a schema:AggregateOffer;
   schema:lowPrice "49.0" .
 
 <http://www.spektrix.com/calgaryphil/event/78201AKNQKRQLDQDJJBPGTRKDVHLTDSPD> a schema:Event;
@@ -992,12 +1042,12 @@ _:e70931fcb28847b88ef2132d045511ef2468 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2469;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42469;
   schema:keywords "Specials";
   schema:duration "PT90M";
   schema:endDate "2026-04-17T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2469 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42469 a schema:AggregateOffer;
   schema:lowPrice "50.0" .
 
 <http://www.spektrix.com/calgaryphil/event/75201AGVRCJPJLNTHDCBKRGQMKMBJJLBP> a schema:Event;
@@ -1007,12 +1057,12 @@ _:e70931fcb28847b88ef2132d045511ef2469 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-18T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2470;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42470;
   schema:keywords "Symphony Sundays for Kids";
   schema:duration "PT60M";
   schema:endDate "2026-01-18T16:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2470 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42470 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/calgaryphil/event/77801ALGLLMQCDBGLKSDTLSHPSSRGRDGK> a schema:Event;
@@ -1022,12 +1072,12 @@ _:e70931fcb28847b88ef2132d045511ef2470 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-30T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2471;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42471;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-01-30T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2471 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42471 a schema:AggregateOffer;
   schema:lowPrice "24.0" .
 
 <http://www.spektrix.com/calgaryphil/event/75601AGKNVPHKDKPTDVLGKTTPLGVRNSSP> a schema:Event;
@@ -1037,12 +1087,12 @@ _:e70931fcb28847b88ef2132d045511ef2471 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-10T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2472;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42472;
   schema:keywords "Symphony Sundays for Kids";
   schema:duration "PT60M";
   schema:endDate "2026-05-10T16:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2472 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42472 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/calgaryphil/event/75401ADCDRBNBQGSJVNCHHSSHRVJDCHLM> a schema:Event;
@@ -1052,10 +1102,10 @@ _:e70931fcb28847b88ef2132d045511ef2472 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-01T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef2473;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb42473;
   schema:keywords "Symphony Sundays for Kids";
   schema:duration "PT60M";
   schema:endDate "2026-03-01T16:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef2473 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb42473 a schema:AggregateOffer;
   schema:lowPrice "30.0" .

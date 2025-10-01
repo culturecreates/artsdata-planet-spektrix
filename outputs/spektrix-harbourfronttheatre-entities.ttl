@@ -16,16 +16,22 @@
 """;
   schema:startDate "2025-04-12T11:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1665;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41665;
   schema:duration "PT60M";
   schema:endDate "2025-04-12T12:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1665 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41665 a schema:AggregateOffer;
   schema:lowPrice "40.25" .
 
 <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
   a schema:Place;
-  schema:name "Harbourfront Theatre" .
+  schema:name "Harbourfront Theatre";
+  schema:address <https://spektrix.com/harbourfronttheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/harbourfronttheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:PostalAddress;
+  schema:streetAddress "124 Heather Moyse Drive";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/70601ARTMQVDQNBCQNBNVCVCNCQVKTRPG>
   a schema:Event;
@@ -35,11 +41,11 @@ _:e70931fcb28847b88ef2132d045511ef1665 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-11T11:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1666;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41666;
   schema:duration "PT60M";
   schema:endDate "2026-04-11T12:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1666 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41666 a schema:AggregateOffer;
   schema:lowPrice "40.25" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/58601AJJQLQQNQQDJSRQPDLNHTRMRQCHK>
@@ -50,11 +56,11 @@ _:e70931fcb28847b88ef2132d045511ef1666 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-31T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1667;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41667;
   schema:duration "PT60M";
   schema:endDate "2025-10-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1667 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41667 a schema:AggregateOffer;
   schema:lowPrice "51.75" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/58801APCQRNRNLVGLCTCTDLCDQBPMLGPR>
@@ -65,11 +71,11 @@ _:e70931fcb28847b88ef2132d045511ef1667 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-31T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1668;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41668;
   schema:duration "PT60M";
   schema:endDate "2025-10-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1668 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41668 a schema:AggregateOffer;
   schema:lowPrice "51.75" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/65401ARRMBSGBRKRMPJDLPDLGHVCMRJJP>
@@ -80,11 +86,11 @@ _:e70931fcb28847b88ef2132d045511ef1668 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-09T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1669;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41669;
   schema:duration "PT60M";
   schema:endDate "2025-10-09T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1669 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41669 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/65001ABJBLQTSTGTMVKPRRHSLPSVNVDBM>
@@ -95,11 +101,11 @@ _:e70931fcb28847b88ef2132d045511ef1669 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-13T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1670;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41670;
   schema:duration "PT60M";
   schema:endDate "2025-08-13T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1670 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41670 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/58002ABDPLMGSVGKPJLNQNLBDJKQSKHNG>
@@ -110,11 +116,11 @@ _:e70931fcb28847b88ef2132d045511ef1670 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1671;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41671;
   schema:duration "PT60M";
   schema:endDate "2025-10-03T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1671 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41671 a schema:AggregateOffer;
   schema:lowPrice "51.75" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/58401ABJPVQMJDTRSGPPTQCLRCSRLSTSQ>
@@ -125,11 +131,11 @@ _:e70931fcb28847b88ef2132d045511ef1671 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1672;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41672;
   schema:duration "PT60M";
   schema:endDate "2025-10-03T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1672 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41672 a schema:AggregateOffer;
   schema:lowPrice "51.75" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/60401AJBTCTVVQCDNPTHTLLCCKRPLQHLB>
@@ -140,11 +146,11 @@ _:e70931fcb28847b88ef2132d045511ef1672 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1673;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41673;
   schema:duration "PT60M";
   schema:endDate "2025-11-08T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1673 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41673 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/65801ABDQQTPTQHTDJVCCJNHQLNRJJCBG>
@@ -155,11 +161,11 @@ _:e70931fcb28847b88ef2132d045511ef1673 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1674;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41674;
   schema:duration "PT60M";
   schema:endDate "2026-05-08T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1674 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41674 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/69401AHRLMSBQLVDQNDHQJHGMBCGHMNBC>
@@ -170,11 +176,11 @@ _:e70931fcb28847b88ef2132d045511ef1674 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-04T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1675;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41675;
   schema:duration "PT60M";
   schema:endDate "2025-12-04T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1675 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41675 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/67201AVCRKQDBSGLQHRCLJQTBDLCTLNNQ>
@@ -185,11 +191,11 @@ _:e70931fcb28847b88ef2132d045511ef1675 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1676;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41676;
   schema:duration "PT60M";
   schema:endDate "2025-12-20T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1676 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41676 a schema:AggregateOffer;
   schema:lowPrice "45.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/69001AQHRKJGBJLJBVQPKPMTSHNLBBLGD>
@@ -200,11 +206,11 @@ _:e70931fcb28847b88ef2132d045511ef1676 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-19T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1677;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41677;
   schema:duration "PT60M";
   schema:endDate "2025-11-19T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1677 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41677 a schema:AggregateOffer;
   schema:lowPrice "75.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/68801ALBSQSHRCDRCGNPHHPCVVCPMPMDD>
@@ -215,11 +221,11 @@ _:e70931fcb28847b88ef2132d045511ef1677 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1678;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41678;
   schema:duration "PT60M";
   schema:endDate "2025-11-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1678 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41678 a schema:AggregateOffer;
   schema:lowPrice "40.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/69601ANKVPKVRSPMHRSMLLQSTRLSKPHPR>
@@ -230,11 +236,11 @@ _:e70931fcb28847b88ef2132d045511ef1678 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-28T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1679;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41679;
   schema:duration "PT60M";
   schema:endDate "2025-12-28T19:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1679 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41679 a schema:AggregateOffer;
   schema:lowPrice "5.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/70401ASVSQQQCRPSCNRQPCKDQQQTGLMGK>
@@ -245,11 +251,11 @@ _:e70931fcb28847b88ef2132d045511ef1679 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-06T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1680;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41680;
   schema:duration "PT60M";
   schema:endDate "2025-10-06T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1680 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41680 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/69801ACHMQQPHNNNRPKGGCKPVPDJPPBTJ>
@@ -260,11 +266,11 @@ _:e70931fcb28847b88ef2132d045511ef1680 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-08T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1681;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41681;
   schema:duration "PT60M";
   schema:endDate "2025-09-08T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1681 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41681 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/68401ANKJDRLSGLSHHGCVSLLNTTTQRLMS>
@@ -275,11 +281,11 @@ _:e70931fcb28847b88ef2132d045511ef1681 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-05T11:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1682;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41682;
   schema:duration "PT60M";
   schema:endDate "2025-10-05T12:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1682 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41682 a schema:AggregateOffer;
   schema:lowPrice "28.75" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/68601AQKLCDVNPLVQHKNKQBDVTKMGMSJQ>
@@ -290,11 +296,11 @@ _:e70931fcb28847b88ef2132d045511ef1682 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-05T11:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1683;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41683;
   schema:duration "PT60M";
   schema:endDate "2025-10-05T12:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1683 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41683 a schema:AggregateOffer;
   schema:lowPrice "28.75" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/65601ABJVQCQRNKJTHQGGNGBHPDGVBKKD>
@@ -305,11 +311,11 @@ _:e70931fcb28847b88ef2132d045511ef1683 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1684;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41684;
   schema:duration "PT60M";
   schema:endDate "2025-11-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1684 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41684 a schema:AggregateOffer;
   schema:lowPrice "64.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/61801AQNCMRJBHHNRRTCRVJHPDKRHCMLK>
@@ -320,11 +326,11 @@ _:e70931fcb28847b88ef2132d045511ef1684 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1685;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41685;
   schema:duration "PT60M";
   schema:endDate "2026-11-27T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1685 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41685 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/68001AVGQGHPGPGDNBSVTRMTDGHNQRSLV>
@@ -335,11 +341,11 @@ _:e70931fcb28847b88ef2132d045511ef1685 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-29T12:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1686;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41686;
   schema:duration "PT60M";
   schema:endDate "2025-12-29T13:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1686 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41686 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/56002ACDVJDVLHKLRBQGBCGKBSNGJCGLL>
@@ -350,11 +356,11 @@ _:e70931fcb28847b88ef2132d045511ef1686 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1687;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41687;
   schema:duration "PT60M";
   schema:endDate "2025-10-25T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1687 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41687 a schema:AggregateOffer;
   schema:lowPrice "51.75" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/69201ARPJLTNJBTLLMTLRNMQHNSVKNBHM>
@@ -365,11 +371,11 @@ _:e70931fcb28847b88ef2132d045511ef1687 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1688;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41688;
   schema:duration "PT90M";
   schema:endDate "2025-11-21T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1688 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41688 a schema:AggregateOffer;
   schema:lowPrice "45.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/66201ANBJCCNMNTBQVCLNSBCLHRLCHCHL>
@@ -380,11 +386,11 @@ _:e70931fcb28847b88ef2132d045511ef1688 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-09T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1689;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41689;
   schema:duration "PT60M";
   schema:endDate "2025-08-09T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1689 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41689 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/66001AJSDDCKQDHCCKMMQLSPQJHHDNNSR>
@@ -395,11 +401,11 @@ _:e70931fcb28847b88ef2132d045511ef1689 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-24T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1690;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41690;
   schema:duration "PT60M";
   schema:endDate "2025-10-24T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1690 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41690 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/62001APSGSQLCTLTNJRSTDSVSMQBNHTVL>
@@ -410,11 +416,11 @@ _:e70931fcb28847b88ef2132d045511ef1690 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1691;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41691;
   schema:duration "PT60M";
   schema:endDate "2025-08-25T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1691 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41691 a schema:AggregateOffer;
   schema:lowPrice "60.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/67401ALTRTTRTPTSQHLNNDTGHMDRBCNBR>
@@ -425,11 +431,11 @@ _:e70931fcb28847b88ef2132d045511ef1691 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1692;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41692;
   schema:duration "PT60M";
   schema:endDate "2025-11-06T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1692 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41692 a schema:AggregateOffer;
   schema:lowPrice "80.5" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/68201ATPHPGBHMDNSHHSTPHBMQBRQBLST>
@@ -440,11 +446,11 @@ _:e70931fcb28847b88ef2132d045511ef1692 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-01T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1693;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41693;
   schema:duration "PT60M";
   schema:endDate "2025-10-01T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1693 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41693 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/59001ADRHPMLQBVBGVNGSJHSJTLJPJNQT>
@@ -455,11 +461,11 @@ _:e70931fcb28847b88ef2132d045511ef1693 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1694;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41694;
   schema:duration "PT60M";
   schema:endDate "2025-12-05T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1694 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41694 a schema:AggregateOffer;
   schema:lowPrice "51.75" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/58402ALBKQDBHNKPKSMSTKQKDCBPVMCGT>
@@ -470,11 +476,11 @@ _:e70931fcb28847b88ef2132d045511ef1694 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1695;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41695;
   schema:duration "PT60M";
   schema:endDate "2025-12-05T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1695 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41695 a schema:AggregateOffer;
   schema:lowPrice "51.75" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/64001ANBSKVRHGJPQLNNPRVKMPBNDJQGG>
@@ -485,11 +491,11 @@ _:e70931fcb28847b88ef2132d045511ef1695 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1696;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41696;
   schema:duration "PT60M";
   schema:endDate "2025-10-10T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1696 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41696 a schema:AggregateOffer;
   schema:lowPrice "67.75" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/70001AMJRQHDGBRNVCKLMQDNCHKHNLGPL>
@@ -500,11 +506,11 @@ _:e70931fcb28847b88ef2132d045511ef1696 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1697;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41697;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1697 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41697 a schema:AggregateOffer;
   schema:lowPrice "20.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/63601ADMSQGRMMGQMGKKVNLRCNJTJMRNT>
@@ -515,11 +521,11 @@ _:e70931fcb28847b88ef2132d045511ef1697 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-11T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1698;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41698;
   schema:duration "PT60M";
   schema:endDate "2025-10-11T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1698 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41698 a schema:AggregateOffer;
   schema:lowPrice "44.95" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/61401ATQDMVMSLPDTKCRQGQKNDHQSBBKR>
@@ -530,11 +536,11 @@ _:e70931fcb28847b88ef2132d045511ef1698 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1699;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41699;
   schema:duration "PT60M";
   schema:endDate "2025-08-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1699 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41699 a schema:AggregateOffer;
   schema:lowPrice "55.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/67001APKGPVRDVBKMDCRCRMPHDNRDBKDN>
@@ -545,11 +551,11 @@ _:e70931fcb28847b88ef2132d045511ef1699 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-19T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1700;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41700;
   schema:duration "PT60M";
   schema:endDate "2025-10-19T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1700 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41700 a schema:AggregateOffer;
   schema:lowPrice "93.0" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/67601AVHPCSTMMBKTGKLCGLQQCGMMBVSK>
@@ -560,11 +566,11 @@ _:e70931fcb28847b88ef2132d045511ef1700 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-02T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1701;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41701;
   schema:duration "PT60M";
   schema:endDate "2025-10-02T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1701 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41701 a schema:AggregateOffer;
   schema:lowPrice "68.5" .
 
 <http://www.spektrix.com/harbourfronttheatre/event/67801ATCLBJSLNJHDDQMPHBVVCKNGLMHB>
@@ -575,9 +581,9 @@ _:e70931fcb28847b88ef2132d045511ef1701 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/harbourfronttheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef1702;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb41702;
   schema:duration "PT60M";
   schema:endDate "2025-09-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef1702 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb41702 a schema:AggregateOffer;
   schema:lowPrice "20.0" .

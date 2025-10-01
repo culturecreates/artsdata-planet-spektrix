@@ -16,16 +16,25 @@
 """;
   schema:startDate "2025-10-28T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3528;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43528;
   schema:duration "PT60M";
   schema:endDate "2025-10-28T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3528 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43528 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
   a schema:Place;
-  schema:name "Capitol Theatre" .
+  schema:name "Capitol Theatre";
+  schema:address <https://spektrix.com/capitoltheatreporthope/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/capitoltheatreporthope/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:PostalAddress;
+  schema:streetAddress "20 Queen St.";
+  schema:addressLocality "Port Hope";
+  schema:addressRegion "ON";
+  schema:postalCode "L1A2Y7";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80001ADKNNLRVJJNLRCNBCHMDBTSMBPBV>
   a schema:Event;
@@ -35,11 +44,11 @@ _:e70931fcb28847b88ef2132d045511ef3528 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3529;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43529;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3529 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43529 a schema:AggregateOffer;
   schema:lowPrice "2.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80201ACSGMBNRJDTHKBMHPTGBKGRKVSBS>
@@ -50,11 +59,11 @@ _:e70931fcb28847b88ef2132d045511ef3529 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3530;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43530;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3530 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43530 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80401ARTSPVHDDBJHRKBQKPHQDNLHVQMC>
@@ -65,11 +74,11 @@ _:e70931fcb28847b88ef2132d045511ef3530 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3531;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43531;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3531 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43531 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80601AKMRNLTTLLDPKKJNNMTCGCVKGPLC>
@@ -80,11 +89,11 @@ _:e70931fcb28847b88ef2132d045511ef3531 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3532;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43532;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3532 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43532 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80801AKDSQPQRGTSQLCDCBHGGGLPQDMLR>
@@ -95,11 +104,11 @@ _:e70931fcb28847b88ef2132d045511ef3532 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3533;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43533;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3533 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43533 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81001ABQTGSMTVRBPQBNVJMCNHMKQHNNQ>
@@ -110,11 +119,11 @@ _:e70931fcb28847b88ef2132d045511ef3533 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3534;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43534;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3534 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43534 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80602ABLQHBGSTTBNKSRJDLMLQDSTCNKD>
@@ -125,11 +134,11 @@ _:e70931fcb28847b88ef2132d045511ef3534 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3535;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43535;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3535 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43535 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/78802AKCBHDPNSRGTSVTDMCLBMHNLHTTM>
@@ -140,11 +149,11 @@ _:e70931fcb28847b88ef2132d045511ef3535 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3536;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43536;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3536 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43536 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80002ADMLLRLKSGSCGDJSJMTKSBMCRSCC>
@@ -155,11 +164,11 @@ _:e70931fcb28847b88ef2132d045511ef3536 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3537;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43537;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3537 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43537 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81002ANQGMCGHHSSJVNKDMMKVKCLSMGLT>
@@ -170,11 +179,11 @@ _:e70931fcb28847b88ef2132d045511ef3537 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3538;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43538;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3538 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43538 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80202ANJLSCVBDQVQNQBCRHRRDVKCTLVD>
@@ -185,11 +194,11 @@ _:e70931fcb28847b88ef2132d045511ef3538 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3539;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43539;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3539 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43539 a schema:AggregateOffer;
   schema:lowPrice "12.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81003ABTHRJQLGJGRLVGMKGDJCNPLLQJC>
@@ -200,11 +209,11 @@ _:e70931fcb28847b88ef2132d045511ef3539 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3540;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43540;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3540 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43540 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79602APLDNKVJJVJHNHBNMNNGMTKLBDVL>
@@ -215,11 +224,11 @@ _:e70931fcb28847b88ef2132d045511ef3540 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3541;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43541;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3541 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43541 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80603ASDQNBDLQQRRCMNKPNPBKMPKMGDL>
@@ -230,11 +239,11 @@ _:e70931fcb28847b88ef2132d045511ef3541 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3542;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43542;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3542 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43542 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79002AGCQCVDDGBJNTPLLDBRCKLSTMVLT>
@@ -245,11 +254,11 @@ _:e70931fcb28847b88ef2132d045511ef3542 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3543;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43543;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3543 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43543 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81201ASDHGJQQCKCDQPRKCBRSVSHQHDDN>
@@ -260,11 +269,11 @@ _:e70931fcb28847b88ef2132d045511ef3543 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3544;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43544;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3544 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43544 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81202ACGBPSTBNRCLKPKDMCNCVTQRBLMC>
@@ -275,11 +284,11 @@ _:e70931fcb28847b88ef2132d045511ef3544 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3545;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43545;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3545 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43545 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80203ATMTQSRCMHRPDHNHTKTLCQHDNDLG>
@@ -290,11 +299,11 @@ _:e70931fcb28847b88ef2132d045511ef3545 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3546;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43546;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3546 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43546 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81203ASDMLHCDJSQCGGHKRJSJTMPCCVNS>
@@ -305,11 +314,11 @@ _:e70931fcb28847b88ef2132d045511ef3546 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3547;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43547;
   schema:duration "PT60M";
   schema:endDate "2025-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3547 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43547 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/96801ADHLKNLHKQQPHHDBRLVLVNSHTGBL>
@@ -320,11 +329,11 @@ _:e70931fcb28847b88ef2132d045511ef3547 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-26T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3548;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43548;
   schema:duration "PT60M";
   schema:endDate "2025-09-26T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3548 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43548 a schema:AggregateOffer;
   schema:lowPrice "2.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79001ALMNHMLKHPPSKLMRGRNPHGQTCGQR>
@@ -335,11 +344,11 @@ _:e70931fcb28847b88ef2132d045511ef3548 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-26T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3549;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43549;
   schema:duration "PT60M";
   schema:endDate "2025-09-26T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3549 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43549 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79201ARPJVGJDVHGPRNNRLJCTHHVGNJTL>
@@ -350,11 +359,11 @@ _:e70931fcb28847b88ef2132d045511ef3549 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-26T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3550;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43550;
   schema:duration "PT60M";
   schema:endDate "2025-09-26T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3550 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43550 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/78601ARVGCQRVNKQDTCLPCBLPJJMRRLRQ>
@@ -365,11 +374,11 @@ _:e70931fcb28847b88ef2132d045511ef3550 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3551;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43551;
   schema:duration "PT60M";
   schema:endDate "2025-03-08T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3551 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43551 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/78801ALLGMGPNVLNCTKNGHCNHKQJNKVGD>
@@ -380,11 +389,11 @@ _:e70931fcb28847b88ef2132d045511ef3551 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3552;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43552;
   schema:duration "PT60M";
   schema:endDate "2025-03-08T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3552 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43552 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/113201AGJJKDKVSJKQSRNLGHKRPQDSHHM>
@@ -395,11 +404,11 @@ _:e70931fcb28847b88ef2132d045511ef3552 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-31T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3553;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43553;
   schema:duration "PT60M";
   schema:endDate "2025-12-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3553 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43553 a schema:AggregateOffer;
   schema:lowPrice "52.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/113801AMBVSVQHRCGBCGDJSHPBKJQPJSS>
@@ -410,11 +419,11 @@ _:e70931fcb28847b88ef2132d045511ef3553 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-21T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3554;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43554;
   schema:duration "PT60M";
   schema:endDate "2025-09-21T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3554 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43554 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/115001AQHHPRHJCTBGJLRKGKTRTJMTHVQ>
@@ -425,11 +434,11 @@ _:e70931fcb28847b88ef2132d045511ef3554 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-30T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3555;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43555;
   schema:duration "PT90M";
   schema:endDate "2025-09-30T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3555 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43555 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/86801AQGMPJRRVSCVQHBPPKJPHDCLBDJG>
@@ -440,16 +449,25 @@ _:e70931fcb28847b88ef2132d045511ef3555 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3556;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43556;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3556 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43556 a schema:AggregateOffer;
   schema:lowPrice "35.0" .
 
 <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
   a schema:Place;
-  schema:name "Capitol Theatre General Admission" .
+  schema:name "Capitol Theatre General Admission";
+  schema:address <https://spektrix.com/capitoltheatreporthope/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/capitoltheatreporthope/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:PostalAddress;
+  schema:streetAddress "20 Queen St.";
+  schema:addressLocality "Port Hope";
+  schema:addressRegion "ON";
+  schema:postalCode "L1A2Y7";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/90201APGBLJVMBRTQMNBCPTNCKVRLMPBT>
   a schema:Event;
@@ -459,11 +477,11 @@ _:e70931fcb28847b88ef2132d045511ef3556 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3557;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43557;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3557 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43557 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/90401ABKRVKPCHSQJGNTBVSHPTCVVLSJK>
@@ -474,11 +492,11 @@ _:e70931fcb28847b88ef2132d045511ef3557 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3558;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43558;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3558 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43558 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/90601ASHQMPBMPNGDJRPRCQDTKGMGRQCS>
@@ -489,11 +507,11 @@ _:e70931fcb28847b88ef2132d045511ef3558 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3559;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43559;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3559 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43559 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/90801ADCHGPKGDSJCLPHLQJMGHDMHKLCK>
@@ -504,11 +522,11 @@ _:e70931fcb28847b88ef2132d045511ef3559 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3560;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43560;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3560 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43560 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/91001AGRQVVNCNSQHCNHSNGBSKJVCSJCL>
@@ -519,11 +537,11 @@ _:e70931fcb28847b88ef2132d045511ef3560 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3561;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43561;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3561 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43561 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/91201ALKRLHGDGHKMCRKDBJKSBNPKJQGR>
@@ -534,11 +552,11 @@ _:e70931fcb28847b88ef2132d045511ef3561 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3562;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43562;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3562 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43562 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/91401AQKQGPGGPDLVJTSNQMHHHBRGBVSM>
@@ -549,11 +567,11 @@ _:e70931fcb28847b88ef2132d045511ef3562 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3563;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43563;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3563 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43563 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/91202AVKKNLMHPQPPTGHNQLVRJBKVDLMT>
@@ -564,11 +582,11 @@ _:e70931fcb28847b88ef2132d045511ef3563 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3564;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43564;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3564 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43564 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/91601AJMNHMTLBDBJLRJNVBDCQJRTDBTT>
@@ -579,11 +597,11 @@ _:e70931fcb28847b88ef2132d045511ef3564 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3565;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43565;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3565 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43565 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/91801ACPDKLNHQGVGGGJLRQCRTTBHVKGT>
@@ -594,11 +612,11 @@ _:e70931fcb28847b88ef2132d045511ef3565 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3566;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43566;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3566 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43566 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/92001ACMVVRHKQMSLNPTJRKSCQLCJBRDB>
@@ -609,11 +627,11 @@ _:e70931fcb28847b88ef2132d045511ef3566 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3567;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43567;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3567 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43567 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/92201ASMGRMRGGNSBGRTMVTKMBJNMBVNK>
@@ -624,11 +642,11 @@ _:e70931fcb28847b88ef2132d045511ef3567 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3568;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43568;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3568 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43568 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/90602ALPLLCTBDLDSSLNBGNTCTQPBRJSD>
@@ -639,11 +657,11 @@ _:e70931fcb28847b88ef2132d045511ef3568 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3569;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43569;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3569 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43569 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/90202AQTCRPRVRHMJTTDVQDQVCNGLMRCD>
@@ -654,11 +672,11 @@ _:e70931fcb28847b88ef2132d045511ef3569 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3570;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43570;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3570 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43570 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/91002ASMMMHDCRHLGSKHCBNGPQJRBGSSM>
@@ -669,11 +687,11 @@ _:e70931fcb28847b88ef2132d045511ef3570 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3571;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43571;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3571 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43571 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/92002AQHLTQLGGRKKBGNPPDJCBPBRHQDB>
@@ -684,11 +702,11 @@ _:e70931fcb28847b88ef2132d045511ef3571 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3572;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43572;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3572 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43572 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/92401AJSJQHTGHCTNCGHBVPSTGHPJLLLT>
@@ -699,11 +717,11 @@ _:e70931fcb28847b88ef2132d045511ef3572 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3573;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43573;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3573 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43573 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/92601APQCHQPJPMRPPCQQKBJGHJRQSVBP>
@@ -714,11 +732,11 @@ _:e70931fcb28847b88ef2132d045511ef3573 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3574;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43574;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3574 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43574 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/92801ABBPVVLCTHDBQJRSNTDCNSVRCNLP>
@@ -729,11 +747,11 @@ _:e70931fcb28847b88ef2132d045511ef3574 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3575;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43575;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3575 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43575 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/109401AHBTMTDQLMPLHKGRMBGGDTKBNQH>
@@ -744,11 +762,11 @@ _:e70931fcb28847b88ef2132d045511ef3575 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3576;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43576;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3576 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43576 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/109601AKCNLBPBVBJGBHHJQTBPSDDCDNG>
@@ -759,11 +777,11 @@ _:e70931fcb28847b88ef2132d045511ef3576 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3577;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43577;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3577 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43577 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/109801AVKBNCQLRRRGDBQRQNKTRHNPQML>
@@ -774,11 +792,11 @@ _:e70931fcb28847b88ef2132d045511ef3577 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3578;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43578;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3578 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43578 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/110001ACPBDDBVMJDNJCSDHRGNSGDJHGM>
@@ -789,11 +807,11 @@ _:e70931fcb28847b88ef2132d045511ef3578 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3579;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43579;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3579 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43579 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/110201AVDPCBBGHHKDVJLGNDNQLVNPNNS>
@@ -804,11 +822,11 @@ _:e70931fcb28847b88ef2132d045511ef3579 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3580;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43580;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3580 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43580 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/110401AVTRJSJPKNRVVHGRGMRTCCVGSHJ>
@@ -819,11 +837,11 @@ _:e70931fcb28847b88ef2132d045511ef3580 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3581;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43581;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3581 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43581 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/110601ARNSJLGBBVBGPPNNDHDHNQDTRKM>
@@ -834,11 +852,11 @@ _:e70931fcb28847b88ef2132d045511ef3581 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3582;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43582;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3582 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43582 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/110801ADSKLMTLQBKGSVJMJVVJTPPQTJS>
@@ -849,11 +867,11 @@ _:e70931fcb28847b88ef2132d045511ef3582 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3583;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43583;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3583 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43583 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/109802APPSJNLLVHSNJGMDPKKCVDHPLDG>
@@ -864,11 +882,11 @@ _:e70931fcb28847b88ef2132d045511ef3583 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3584;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43584;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3584 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43584 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/110802ANLKBBHMLNQDQJMMLGGGDRSJPQB>
@@ -879,11 +897,11 @@ _:e70931fcb28847b88ef2132d045511ef3584 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3585;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43585;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3585 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43585 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/111001ANTCDJDHBHGBVLDTVRJMGTJMBPQ>
@@ -894,11 +912,11 @@ _:e70931fcb28847b88ef2132d045511ef3585 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3586;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43586;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3586 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43586 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/111201ALQPSSKHLLBKDSLDDDJBBGHKGVV>
@@ -909,11 +927,11 @@ _:e70931fcb28847b88ef2132d045511ef3586 a schema:AggregateOffer;
 """;
   schema:startDate "2024-11-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3587;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43587;
   schema:duration "PT60M";
   schema:endDate "2024-11-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3587 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43587 a schema:AggregateOffer;
   schema:lowPrice "10.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/113001ADCGCPGPCTQDMKMRCLBTGKBVQTC>
@@ -924,11 +942,11 @@ _:e70931fcb28847b88ef2132d045511ef3587 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-30T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3588;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43588;
   schema:duration "PT60M";
   schema:endDate "2025-12-30T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3588 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43588 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/113601AJBCCSSRKGNLPJGTMVHNVJMNCNQ>
@@ -939,11 +957,11 @@ _:e70931fcb28847b88ef2132d045511ef3588 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3589;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43589;
   schema:duration "PT110M";
   schema:endDate "2025-12-21T21:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3589 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43589 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/84201ACSJVSSBSNPNKGHCDPKNMJRRJDLL>
@@ -954,11 +972,11 @@ _:e70931fcb28847b88ef2132d045511ef3589 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3590;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43590;
   schema:duration "PT60M";
   schema:endDate "2025-06-03T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3590 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43590 a schema:AggregateOffer;
   schema:lowPrice "2.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/83601ARJRQHJPSDPRNGGRVVHTJHNRMKRC>
@@ -969,11 +987,11 @@ _:e70931fcb28847b88ef2132d045511ef3590 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3591;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43591;
   schema:duration "PT60M";
   schema:endDate "2025-06-03T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3591 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43591 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/83801ACBGJJMLLQRJQDMLGBDBQLGSCCJN>
@@ -984,11 +1002,11 @@ _:e70931fcb28847b88ef2132d045511ef3591 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3592;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43592;
   schema:duration "PT60M";
   schema:endDate "2025-06-03T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3592 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43592 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/84001ATTDKQPPGGHCBRDBMKRPNJRQPSMT>
@@ -999,11 +1017,11 @@ _:e70931fcb28847b88ef2132d045511ef3592 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3593;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43593;
   schema:duration "PT60M";
   schema:endDate "2025-06-03T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3593 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43593 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/84401ALDLRSKMCKGGQDGDJJDGKQBJLJDC>
@@ -1014,11 +1032,11 @@ _:e70931fcb28847b88ef2132d045511ef3593 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3594;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43594;
   schema:duration "PT60M";
   schema:endDate "2025-06-03T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3594 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43594 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/84601APCQHMGHKKSGKBJLBVSJRRCQDJTV>
@@ -1029,11 +1047,11 @@ _:e70931fcb28847b88ef2132d045511ef3594 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3595;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43595;
   schema:duration "PT60M";
   schema:endDate "2025-06-03T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3595 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43595 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/83802AKSLTRKDVHPPHKCGMTDSNTRSCTKC>
@@ -1044,11 +1062,11 @@ _:e70931fcb28847b88ef2132d045511ef3595 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3596;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43596;
   schema:duration "PT60M";
   schema:endDate "2025-06-03T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3596 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43596 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/84801AHTTVPBHRTCDJGTTPLPKJLGTLLJD>
@@ -1059,11 +1077,11 @@ _:e70931fcb28847b88ef2132d045511ef3596 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3597;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43597;
   schema:duration "PT60M";
   schema:endDate "2025-06-03T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3597 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43597 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/106601ABDGMDSRMQSQSLLHHLBNPJHQMLS>
@@ -1074,11 +1092,11 @@ _:e70931fcb28847b88ef2132d045511ef3597 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3598;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43598;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3598 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43598 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/105803ATPGJPSJPTSHDLKKGHVSVNTDQNS>
@@ -1089,11 +1107,11 @@ _:e70931fcb28847b88ef2132d045511ef3598 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3599;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43599;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3599 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43599 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/109001AQVDGKQDTQBDHQTNJSBLSRDDKPC>
@@ -1104,11 +1122,11 @@ _:e70931fcb28847b88ef2132d045511ef3599 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3600;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43600;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3600 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43600 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/106602ABTKGVHQHRMDTHPSBVKLPJSBRJR>
@@ -1119,11 +1137,11 @@ _:e70931fcb28847b88ef2132d045511ef3600 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3601;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43601;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3601 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43601 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/106403AVHNTPQGKBNDQRVGLTBVNLPVMBD>
@@ -1134,11 +1152,11 @@ _:e70931fcb28847b88ef2132d045511ef3601 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3602;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43602;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3602 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43602 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/107001APCDPPVRLGLJBTJNGBPQJDPNJMQ>
@@ -1149,11 +1167,11 @@ _:e70931fcb28847b88ef2132d045511ef3602 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3603;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43603;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3603 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43603 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/107201ALHRSDHBGKRGTBPKHQNTRKCSGBS>
@@ -1164,11 +1182,11 @@ _:e70931fcb28847b88ef2132d045511ef3603 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3604;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43604;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3604 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43604 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/107002AJVBMGPNQGGQNTSSJHQPKRDGGJD>
@@ -1179,11 +1197,11 @@ _:e70931fcb28847b88ef2132d045511ef3604 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3605;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43605;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3605 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43605 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/107401APCCQDLQGPVKCVQQGDDMGCJMJRQ>
@@ -1194,11 +1212,11 @@ _:e70931fcb28847b88ef2132d045511ef3605 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3606;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43606;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3606 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43606 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/106002AQLJMRSGBSRLVKVMBJJTVVDMTKM>
@@ -1209,11 +1227,11 @@ _:e70931fcb28847b88ef2132d045511ef3606 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3607;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43607;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3607 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43607 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104004AJTHJRCTQDKLPKDVCVSKKRKTLCR>
@@ -1224,11 +1242,11 @@ _:e70931fcb28847b88ef2132d045511ef3607 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3608;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43608;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3608 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43608 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104005AMMHPCVCBRHGVHRMVRDTQNRPBNM>
@@ -1239,11 +1257,11 @@ _:e70931fcb28847b88ef2132d045511ef3608 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3609;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43609;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3609 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43609 a schema:AggregateOffer;
   schema:lowPrice "19.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104001ANLGQGDJQDKNBTPRVMHMPNMLBQP>
@@ -1254,11 +1272,11 @@ _:e70931fcb28847b88ef2132d045511ef3609 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3610;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43610;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3610 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43610 a schema:AggregateOffer;
   schema:lowPrice "2.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104201ASTLSQLVDMGPCGNPKCHHKQPHTCL>
@@ -1269,11 +1287,11 @@ _:e70931fcb28847b88ef2132d045511ef3610 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3611;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43611;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3611 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43611 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/108601AMNMMNLDMDBGDSPJJCPCHCHCDMG>
@@ -1284,11 +1302,11 @@ _:e70931fcb28847b88ef2132d045511ef3611 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3612;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43612;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3612 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43612 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104401ANKRNNLHCVDTNJGJHJRJPJMRLCG>
@@ -1299,11 +1317,11 @@ _:e70931fcb28847b88ef2132d045511ef3612 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3613;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43613;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3613 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43613 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104601AHNVRMSSQSGVJRPNSDPSHBNVQBB>
@@ -1314,11 +1332,11 @@ _:e70931fcb28847b88ef2132d045511ef3613 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3614;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43614;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3614 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43614 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/108801ALCMMPSBQHKPPPTSVMHCRCNRPVS>
@@ -1329,11 +1347,11 @@ _:e70931fcb28847b88ef2132d045511ef3614 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3615;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43615;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3615 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43615 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104002AJJKKGNBKCKKRSSTLSLHNBSCSJC>
@@ -1344,11 +1362,11 @@ _:e70931fcb28847b88ef2132d045511ef3615 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3616;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43616;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3616 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43616 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104003ANVHRNQRQDMMDKPKTQSTLPSLQHS>
@@ -1359,11 +1377,11 @@ _:e70931fcb28847b88ef2132d045511ef3616 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3617;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43617;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3617 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43617 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104801ABKCMKPKJGHDBCNKDSGKQGVKSSN>
@@ -1374,11 +1392,11 @@ _:e70931fcb28847b88ef2132d045511ef3617 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3618;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43618;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3618 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43618 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/105001AJKJTQDGDSLDHBDTSVQDPVHKCCH>
@@ -1389,11 +1407,11 @@ _:e70931fcb28847b88ef2132d045511ef3618 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3619;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43619;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3619 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43619 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104802AVGVVBGRDLSTJQBHJMBMKCSJTSM>
@@ -1404,11 +1422,11 @@ _:e70931fcb28847b88ef2132d045511ef3619 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3620;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43620;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3620 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43620 a schema:AggregateOffer;
   schema:lowPrice "21.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/105201ASGSJBSQQDKPHKRNPNHMLLTKGMH>
@@ -1419,11 +1437,11 @@ _:e70931fcb28847b88ef2132d045511ef3620 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3621;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43621;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3621 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43621 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/105401APRJVMGJLHSJCNQLVPBJJLBQLJQ>
@@ -1434,11 +1452,11 @@ _:e70931fcb28847b88ef2132d045511ef3621 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3622;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43622;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3622 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43622 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/105002ANBGSSQDQNVCPVBLHKGCPBBDVPQ>
@@ -1449,11 +1467,11 @@ _:e70931fcb28847b88ef2132d045511ef3622 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3623;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43623;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3623 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43623 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/105601APTPHLJKSMTGQBNNSHLRQNDCNSB>
@@ -1464,11 +1482,11 @@ _:e70931fcb28847b88ef2132d045511ef3623 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3624;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43624;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3624 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43624 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/105202AKRGKHMTLKCTTBJLDLSCCNHRKTM>
@@ -1479,11 +1497,11 @@ _:e70931fcb28847b88ef2132d045511ef3624 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3625;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43625;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3625 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43625 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/105402ANTQGJMPGVDQKMNGBGRCDPHRKBQ>
@@ -1494,12 +1512,25 @@ _:e70931fcb28847b88ef2132d045511ef3625 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3626;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43626;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3626 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43626 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
+
+<https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:Place;
+  schema:name "Capitol Theatre";
+  schema:address <https://spektrix.com/capitoltheatreporthope/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/capitoltheatreporthope/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:PostalAddress;
+  schema:streetAddress "20 Queen St.";
+  schema:addressLocality "Port Hope";
+  schema:addressRegion "ON";
+  schema:postalCode "L1A2Y7";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104602ABBMHQGKGGRVJBDMSNVKLPQLNHL>
   a schema:Event;
@@ -1509,18 +1540,12 @@ _:e70931fcb28847b88ef2132d045511ef3626 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3627 .
-
-_:e70931fcb28847b88ef2132d045511ef3627 a schema:AggregateOffer;
-  schema:lowPrice "37.22" .
-
-<http://www.spektrix.com/capitoltheatreporthope/event/104602ABBMHQGKGGRVJBDMSNVKLPQLNHL>
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43627;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-<https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
-  a schema:Place;
-  schema:name "Capitol Theatre" .
+_:8634a2eb944c40beb00aede27390cbb43627 a schema:AggregateOffer;
+  schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/111401ADMDSRCSTSBQKTDQBDGTLQQMHHH>
   a schema:Event;
@@ -1530,11 +1555,11 @@ _:e70931fcb28847b88ef2132d045511ef3627 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3628;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43628;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3628 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43628 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/105801ACCGLGDVDGSVQQBBJGCMQKSHRNN>
@@ -1545,11 +1570,11 @@ _:e70931fcb28847b88ef2132d045511ef3628 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3629;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43629;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3629 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43629 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/107601ARLQPLHBRRVBLRSVCJRQPCSMVTJ>
@@ -1560,11 +1585,11 @@ _:e70931fcb28847b88ef2132d045511ef3629 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3630;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43630;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3630 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43630 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104803ANTSLQJHGPSTTNCSTBMPGNKRCRL>
@@ -1575,11 +1600,11 @@ _:e70931fcb28847b88ef2132d045511ef3630 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3631;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43631;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3631 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43631 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/105802AHMNGCVMNPHPRGDHBPQBKNRMRRB>
@@ -1590,11 +1615,11 @@ _:e70931fcb28847b88ef2132d045511ef3631 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3632;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43632;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3632 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43632 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/106001AGTGDBPRPKDPLBLVJRQCRMTLGSC>
@@ -1605,11 +1630,11 @@ _:e70931fcb28847b88ef2132d045511ef3632 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3633;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43633;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3633 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43633 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/111601ABCPQMJQCGVRSGPJMMHHMGSPGSV>
@@ -1620,11 +1645,11 @@ _:e70931fcb28847b88ef2132d045511ef3633 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3634;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43634;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3634 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43634 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/104402AJLMPQLJBBRKQGHHKCNQLSDPGTG>
@@ -1635,11 +1660,11 @@ _:e70931fcb28847b88ef2132d045511ef3634 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3635;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43635;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3635 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43635 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/106201AHMHMNJTBNGTSLHDGDSRQVNBMDC>
@@ -1650,11 +1675,11 @@ _:e70931fcb28847b88ef2132d045511ef3635 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3636;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43636;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3636 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43636 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/106401ANLTCRJSLBJJLJTVGHGBPLRCVMK>
@@ -1665,11 +1690,11 @@ _:e70931fcb28847b88ef2132d045511ef3636 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3637;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43637;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3637 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43637 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/106402AGNPPKSHCJTVMKMSLTHTVLLNLGJ>
@@ -1680,11 +1705,11 @@ _:e70931fcb28847b88ef2132d045511ef3637 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3638;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43638;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3638 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43638 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/113401AGHTGBTKDDRCDKNHQPDQLDKNKVV>
@@ -1695,11 +1720,11 @@ _:e70931fcb28847b88ef2132d045511ef3638 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-01T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3639;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43639;
   schema:duration "PT60M";
   schema:endDate "2025-11-01T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3639 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43639 a schema:AggregateOffer;
   schema:lowPrice "72.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79401APRHQVPJKKNLDNGKTCMQNHKTLSVR>
@@ -1710,11 +1735,11 @@ _:e70931fcb28847b88ef2132d045511ef3639 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-24T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3640;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43640;
   schema:duration "PT60M";
   schema:endDate "2025-10-24T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3640 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43640 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79601ASCTKDBCBKCCCJCJDVJJNHDMCPQK>
@@ -1725,11 +1750,11 @@ _:e70931fcb28847b88ef2132d045511ef3640 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-24T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3641;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43641;
   schema:duration "PT60M";
   schema:endDate "2025-10-24T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3641 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43641 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79801AMDTQSCPLKTTHTHCSBCKQRGGLQLB>
@@ -1740,11 +1765,11 @@ _:e70931fcb28847b88ef2132d045511ef3641 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-24T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3642;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43642;
   schema:duration "PT60M";
   schema:endDate "2025-10-24T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3642 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43642 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79802AGJCSSDVPHTKSDQSTLCJJCSCPNHM>
@@ -1755,11 +1780,11 @@ _:e70931fcb28847b88ef2132d045511ef3642 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-24T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3643;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43643;
   schema:duration "PT60M";
   schema:endDate "2025-10-24T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3643 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43643 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/114001ANDTDRJVTVRGRSDKTSHJVNQQGPM>
@@ -1770,16 +1795,25 @@ _:e70931fcb28847b88ef2132d045511ef3643 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-01T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3644;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43644;
   schema:duration "PT60M";
   schema:endDate "2025-10-01T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3644 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43644 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
   a schema:Place;
-  schema:name "Capitol Theatre General Admission" .
+  schema:name "Capitol Theatre General Admission";
+  schema:address <https://spektrix.com/capitoltheatreporthope/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/capitoltheatreporthope/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:PostalAddress;
+  schema:streetAddress "20 Queen St.";
+  schema:addressLocality "Port Hope";
+  schema:addressRegion "ON";
+  schema:postalCode "L1A2Y7";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/114601AMDJQQDNHTGNDJTQKQSBMNVJMJP>
   a schema:Event;
@@ -1789,11 +1823,11 @@ _:e70931fcb28847b88ef2132d045511ef3644 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-05T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3645;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43645;
   schema:duration "PT135M";
   schema:endDate "2025-10-05T21:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3645 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43645 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/114801AHNJKSCMCVMHQMSKHDRJSTNCNMC>
@@ -1804,11 +1838,11 @@ _:e70931fcb28847b88ef2132d045511ef3645 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-12T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3646;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43646;
   schema:duration "PT169M";
   schema:endDate "2025-10-12T21:49:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3646 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43646 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/84602ACGRBSTNPCJVHVVVKGNPKPHPCPMR>
@@ -1819,11 +1853,11 @@ _:e70931fcb28847b88ef2132d045511ef3646 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3647;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43647;
   schema:duration "PT60M";
   schema:endDate "2025-08-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3647 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43647 a schema:AggregateOffer;
   schema:lowPrice "2.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/84603ARDCLBMTPPKHRPPSQCCPVTCLHHGV>
@@ -1834,11 +1868,11 @@ _:e70931fcb28847b88ef2132d045511ef3647 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3648;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43648;
   schema:duration "PT60M";
   schema:endDate "2025-08-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3648 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43648 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/83602AVCJPRTGRHLRJRJNHBTQCHJTPPTG>
@@ -1849,11 +1883,11 @@ _:e70931fcb28847b88ef2132d045511ef3648 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3649;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43649;
   schema:duration "PT60M";
   schema:endDate "2025-08-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3649 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43649 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/85801AHLRGTDDCGCPTJSNCDVLVBKJKJNJ>
@@ -1864,11 +1898,11 @@ _:e70931fcb28847b88ef2132d045511ef3649 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3650;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43650;
   schema:duration "PT60M";
   schema:endDate "2025-08-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3650 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43650 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/86001AQMSNDTJGPGTMPLNKVBHBTGJPNHN>
@@ -1879,11 +1913,11 @@ _:e70931fcb28847b88ef2132d045511ef3650 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3651;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43651;
   schema:duration "PT60M";
   schema:endDate "2025-08-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3651 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43651 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/84005AHNPSJGDJVGCRNHSGJCPRCTGSMDL>
@@ -1894,11 +1928,11 @@ _:e70931fcb28847b88ef2132d045511ef3651 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3652;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43652;
   schema:duration "PT60M";
   schema:endDate "2025-08-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3652 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43652 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/86201AJGDCKCBSDCRCTNNKMQCTKCCPJCH>
@@ -1909,11 +1943,11 @@ _:e70931fcb28847b88ef2132d045511ef3652 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3653;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43653;
   schema:duration "PT60M";
   schema:endDate "2025-08-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3653 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43653 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/85202ASSVBTBVVCTPSPNQPHCGMSCDTQHV>
@@ -1924,11 +1958,11 @@ _:e70931fcb28847b88ef2132d045511ef3653 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3654;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43654;
   schema:duration "PT60M";
   schema:endDate "2025-08-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3654 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43654 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/108001AGVJBVHKVRTQTNBRVCRNKVMJQNR>
@@ -1939,11 +1973,11 @@ _:e70931fcb28847b88ef2132d045511ef3654 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-04T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3655;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43655;
   schema:duration "PT60M";
   schema:endDate "2025-10-04T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3655 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43655 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/108401AHNKQMBDMNSGDMVKKNLKKDLTMBC>
@@ -1954,11 +1988,11 @@ _:e70931fcb28847b88ef2132d045511ef3655 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-04T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3656;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43656;
   schema:duration "PT60M";
   schema:endDate "2025-10-04T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3656 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43656 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/112601ACDKBDPVBMJVCBLTJTVJRJQBCQD>
@@ -1969,11 +2003,11 @@ _:e70931fcb28847b88ef2132d045511ef3656 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-02T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3657;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43657;
   schema:duration "PT60M";
   schema:endDate "2026-05-02T14:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3657 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43657 a schema:AggregateOffer;
   schema:lowPrice "17.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/112201ACSCPJVCPSJCJCBCPJCHDNDDMDV>
@@ -1984,11 +2018,11 @@ _:e70931fcb28847b88ef2132d045511ef3657 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-10T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3658;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43658;
   schema:duration "PT60M";
   schema:endDate "2026-01-10T14:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3658 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43658 a schema:AggregateOffer;
   schema:lowPrice "17.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/109201AJPKHNRCNNLHMQQMDSRRNRNGTBV>
@@ -1999,11 +2033,11 @@ _:e70931fcb28847b88ef2132d045511ef3658 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-08T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3659;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43659;
   schema:duration "PT185M";
   schema:endDate "2025-11-08T16:05:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3659 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43659 a schema:AggregateOffer;
   schema:lowPrice "17.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/112401AVDLKDLKJMHRRVVRJLKHRVLLRBP>
@@ -2014,11 +2048,11 @@ _:e70931fcb28847b88ef2132d045511ef3659 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-21T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3660;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43660;
   schema:duration "PT60M";
   schema:endDate "2026-03-21T14:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3660 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43660 a schema:AggregateOffer;
   schema:lowPrice "17.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81204AGNRHBSVHHKJNGSKGVGVBCBMHGMQ>
@@ -2029,11 +2063,11 @@ _:e70931fcb28847b88ef2132d045511ef3660 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3661;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43661;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3661 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43661 a schema:AggregateOffer;
   schema:lowPrice "2.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80605AQRPKHCPJQPTDHGTNRLPDSVRDVBL>
@@ -2044,11 +2078,11 @@ _:e70931fcb28847b88ef2132d045511ef3661 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3662;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43662;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3662 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43662 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/82002ALNBLJQMPJBTTLPLVPDLDJVJJSBC>
@@ -2059,11 +2093,11 @@ _:e70931fcb28847b88ef2132d045511ef3662 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3663;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43663;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3663 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43663 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79006ASDSKHMBHLKTJBPKLNMJPKHQVKCL>
@@ -2074,11 +2108,11 @@ _:e70931fcb28847b88ef2132d045511ef3663 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3664;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43664;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3664 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43664 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80404ATTCGLQJCSBHHSDLBDRGTHSKQBLD>
@@ -2089,11 +2123,11 @@ _:e70931fcb28847b88ef2132d045511ef3664 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3665;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43665;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3665 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43665 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80802AKTTLQKVLDMLPHLDTMBLDQGKNNLK>
@@ -2104,11 +2138,11 @@ _:e70931fcb28847b88ef2132d045511ef3665 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3666;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43666;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3666 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43666 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/78603AKSCJVGDCRBBCBJKDSBSPMQJKDBQ>
@@ -2119,11 +2153,11 @@ _:e70931fcb28847b88ef2132d045511ef3666 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3667;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43667;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3667 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43667 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80405ADDTNSQDKQKPBKPJVSHTRKBGDJSS>
@@ -2134,11 +2168,11 @@ _:e70931fcb28847b88ef2132d045511ef3667 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3668;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43668;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3668 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43668 a schema:AggregateOffer;
   schema:lowPrice "21.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81205ABGKQJTCTJVVPCPTBTNHPJDQRCLJ>
@@ -2149,11 +2183,11 @@ _:e70931fcb28847b88ef2132d045511ef3668 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3669;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43669;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3669 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43669 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79007ARMTCJRBDGMLQDDQRSDHQQGRKPNN>
@@ -2164,11 +2198,11 @@ _:e70931fcb28847b88ef2132d045511ef3669 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3670;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43670;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3670 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43670 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80206ADMJNMTVTLSNSSBGDBNNJKHLDVVT>
@@ -2179,11 +2213,11 @@ _:e70931fcb28847b88ef2132d045511ef3670 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3671;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43671;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3671 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43671 a schema:AggregateOffer;
   schema:lowPrice "12.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/78805AVSKPLGJVQCPHMGSVCQQQTHKBRDC>
@@ -2194,11 +2228,11 @@ _:e70931fcb28847b88ef2132d045511ef3671 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3672;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43672;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3672 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43672 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79603APJSBLMSDQSPGPJRNHBBRMGPMKCD>
@@ -2209,11 +2243,11 @@ _:e70931fcb28847b88ef2132d045511ef3672 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3673;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43673;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3673 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43673 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/82603ARQMCTHTTDQRNMNDPGVCVQGQTQKG>
@@ -2224,11 +2258,11 @@ _:e70931fcb28847b88ef2132d045511ef3673 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3674;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43674;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3674 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43674 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80803AKMQMTMDQTPLJKMHDGCMJMGNNDDL>
@@ -2239,11 +2273,11 @@ _:e70931fcb28847b88ef2132d045511ef3674 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3675;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43675;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3675 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43675 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/83202AHMGJGLKTDQHTVDCRGLCJRCQNCNK>
@@ -2254,11 +2288,11 @@ _:e70931fcb28847b88ef2132d045511ef3675 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3676;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43676;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3676 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43676 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/83002ADSHRKNHGCNVSTGVGGPPNCJLHMVV>
@@ -2269,11 +2303,11 @@ _:e70931fcb28847b88ef2132d045511ef3676 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3677;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43677;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3677 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43677 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/83003ACHLPKNTMCKCBBLRLJGNPQVNJTDM>
@@ -2284,11 +2318,11 @@ _:e70931fcb28847b88ef2132d045511ef3677 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3678;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43678;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3678 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43678 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79205AGQBLCPGRCMNTDSPMSQTPVPKTQKT>
@@ -2299,11 +2333,11 @@ _:e70931fcb28847b88ef2132d045511ef3678 a schema:AggregateOffer;
 """;
   schema:startDate "2025-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3679;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43679;
   schema:duration "PT60M";
   schema:endDate "2025-08-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3679 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43679 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/112801AMJPLBJHSJQMDVBDGQCNGDKBPHH>
@@ -2314,11 +2348,11 @@ _:e70931fcb28847b88ef2132d045511ef3679 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3680;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43680;
   schema:duration "PT60M";
   schema:endDate "2025-11-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3680 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43680 a schema:AggregateOffer;
   schema:lowPrice "42.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/93801ACCSQPDKSCHCDGBCSDTQHPKGSBRS>
@@ -2329,11 +2363,11 @@ _:e70931fcb28847b88ef2132d045511ef3680 a schema:AggregateOffer;
 """;
   schema:startDate "2025-01-17T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3681;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43681;
   schema:duration "PT90M";
   schema:endDate "2025-01-17T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3681 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43681 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/96201AVHBRLKVRBQDMRMKRTNNBPDVNJLH>
@@ -2344,11 +2378,11 @@ _:e70931fcb28847b88ef2132d045511ef3681 a schema:AggregateOffer;
 """;
   schema:startDate "2025-01-17T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3682;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43682;
   schema:duration "PT90M";
   schema:endDate "2025-01-17T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3682 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43682 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/98401ANRTQBTMRLQLKVRCHBLJPDMMRSCK>
@@ -2359,11 +2393,11 @@ _:e70931fcb28847b88ef2132d045511ef3682 a schema:AggregateOffer;
 """;
   schema:startDate "2025-01-17T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3683;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43683;
   schema:duration "PT90M";
   schema:endDate "2025-01-17T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3683 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43683 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81401ABKCTVGGLVKTPQKLRVRPKVCDCVMB>
@@ -2374,11 +2408,11 @@ _:e70931fcb28847b88ef2132d045511ef3683 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3684;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43684;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3684 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43684 a schema:AggregateOffer;
   schema:lowPrice "2.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81601ALGJMDVGMSHVCQBMQRJBKHDSGMMK>
@@ -2389,11 +2423,11 @@ _:e70931fcb28847b88ef2132d045511ef3684 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3685;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43685;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3685 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43685 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81402AHSVLJBVBCVTKNCNJGRBSMGCSHKB>
@@ -2404,11 +2438,11 @@ _:e70931fcb28847b88ef2132d045511ef3685 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3686;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43686;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3686 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43686 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81801ATHJBGSKNNNRKKRCMBNCKDNKRPGD>
@@ -2419,11 +2453,11 @@ _:e70931fcb28847b88ef2132d045511ef3686 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3687;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43687;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3687 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43687 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79202AHHLMTMCNSDMRCLMCNKTCRLMBDVT>
@@ -2434,11 +2468,11 @@ _:e70931fcb28847b88ef2132d045511ef3687 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3688;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43688;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3688 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43688 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/78803ARKSJQPBMLVLTBQTHMHDLKJGKBGP>
@@ -2449,11 +2483,11 @@ _:e70931fcb28847b88ef2132d045511ef3688 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3689;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43689;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3689 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43689 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/82001AHQLKTMKLKTDMQMCQTPHQCTRTTVQ>
@@ -2464,11 +2498,11 @@ _:e70931fcb28847b88ef2132d045511ef3689 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3690;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43690;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3690 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43690 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/82201ALMMGMRMBVSDRJDMGQHDVSMGGKDG>
@@ -2479,11 +2513,11 @@ _:e70931fcb28847b88ef2132d045511ef3690 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3691;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43691;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3691 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43691 a schema:AggregateOffer;
   schema:lowPrice "21.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80402AJCPVQSHHQRQNGMJTNSNHHJSQNCB>
@@ -2494,11 +2528,11 @@ _:e70931fcb28847b88ef2132d045511ef3691 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3692;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43692;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3692 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43692 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/82401ANQRCHDMHBNJSVRBRPLTVHSDPCTC>
@@ -2509,11 +2543,11 @@ _:e70931fcb28847b88ef2132d045511ef3692 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3693;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43693;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3693 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43693 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/78804AGKNRPTLQNVMKKBMBJMSSRGMDMRK>
@@ -2524,11 +2558,11 @@ _:e70931fcb28847b88ef2132d045511ef3693 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3694;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43694;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3694 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43694 a schema:AggregateOffer;
   schema:lowPrice "12.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80403ACQVHMRVGTCBCGHTNQLPSHRVTJCB>
@@ -2539,11 +2573,11 @@ _:e70931fcb28847b88ef2132d045511ef3694 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3695;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43695;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3695 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43695 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/82601ATJTDJGVGHDKTHSQQRDKNBHGSDTJ>
@@ -2554,11 +2588,11 @@ _:e70931fcb28847b88ef2132d045511ef3695 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3696;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43696;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3696 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43696 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/82801ASNJHRMMGSTGCDGBHPMRGKRJRGVS>
@@ -2569,11 +2603,11 @@ _:e70931fcb28847b88ef2132d045511ef3696 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3697;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43697;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3697 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43697 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80003AQLPQGVMMPTLSCHPNPQSNDVRBNJP>
@@ -2584,11 +2618,11 @@ _:e70931fcb28847b88ef2132d045511ef3697 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3698;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43698;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3698 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43698 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79402AHJTKNHGLKSQPVCTMVBLKLDKNHHD>
@@ -2599,11 +2633,11 @@ _:e70931fcb28847b88ef2132d045511ef3698 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3699;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43699;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3699 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43699 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/78602AHGJQGHKHCHNJGPCKKRMGBSHHGJH>
@@ -2614,11 +2648,11 @@ _:e70931fcb28847b88ef2132d045511ef3699 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3700;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43700;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3700 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43700 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/82802ABKJLPVJMRTTPHQNLQMSRHNHHMJR>
@@ -2629,11 +2663,11 @@ _:e70931fcb28847b88ef2132d045511ef3700 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3701;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43701;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3701 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43701 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79003AMTMCSKRTBBTTSGNRHVKGLQVPMHB>
@@ -2644,11 +2678,11 @@ _:e70931fcb28847b88ef2132d045511ef3701 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3702;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43702;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3702 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43702 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/103801ACNLKLJBLCPVMJLSJCPJNCVVQHH>
@@ -2659,11 +2693,11 @@ _:e70931fcb28847b88ef2132d045511ef3702 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3703;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43703;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3703 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43703 a schema:AggregateOffer;
   schema:lowPrice "67.97" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/114401AVDPMSVRKSDBRDNJTHRVTVCKGRR>
@@ -2674,11 +2708,11 @@ _:e70931fcb28847b88ef2132d045511ef3703 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3704;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43704;
   schema:duration "PT60M";
   schema:endDate "2025-10-03T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3704 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43704 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/102401ANHPMVGNDTNVBNSMKHTHMTMVMPK>
@@ -2689,11 +2723,11 @@ _:e70931fcb28847b88ef2132d045511ef3704 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3705;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43705;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3705 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43705 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/84002APCPMLBBMBBBNRGQMTNKSGDSDRNH>
@@ -2704,11 +2738,11 @@ _:e70931fcb28847b88ef2132d045511ef3705 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3706;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43706;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3706 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43706 a schema:AggregateOffer;
   schema:lowPrice "2.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/84402AVCVNNQMVLHKQLDKDMDKJLCCPVKM>
@@ -2719,11 +2753,11 @@ _:e70931fcb28847b88ef2132d045511ef3706 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3707;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43707;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3707 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43707 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/85001ACHBTGLCRSPQVKRGBQRNDRPNKCVN>
@@ -2734,11 +2768,11 @@ _:e70931fcb28847b88ef2132d045511ef3707 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3708;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43708;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3708 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43708 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/85201AHBVGPRNHDHPSNHDVDDLDRCVPCHT>
@@ -2749,11 +2783,11 @@ _:e70931fcb28847b88ef2132d045511ef3708 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3709;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43709;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3709 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43709 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/84003AHHBSBCTLSBBRHQLTRJNKVLTHVVB>
@@ -2764,11 +2798,11 @@ _:e70931fcb28847b88ef2132d045511ef3709 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3710;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43710;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3710 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43710 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/102601AMSMDGCPVRNTCJSGQNNBKLGGNNQ>
@@ -2779,11 +2813,11 @@ _:e70931fcb28847b88ef2132d045511ef3710 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3711;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43711;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3711 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43711 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/102801AKDLJVGLVTMDQJJRSQVHNBVBNVK>
@@ -2794,11 +2828,11 @@ _:e70931fcb28847b88ef2132d045511ef3711 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3712;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43712;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3712 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43712 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/85401AKVGHJBBVJHHBGPNNNSVPKLGLDQL>
@@ -2809,11 +2843,11 @@ _:e70931fcb28847b88ef2132d045511ef3712 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3713;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43713;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3713 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43713 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/83803AMGPJTCNDRMQKBDRMRLRKSTTSMRC>
@@ -2824,11 +2858,11 @@ _:e70931fcb28847b88ef2132d045511ef3713 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3714;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43714;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3714 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43714 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/85601ATTRSQHQPBGNRTKLKJJMRLPJKPBR>
@@ -2839,11 +2873,11 @@ _:e70931fcb28847b88ef2132d045511ef3714 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3715;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43715;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3715 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43715 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/85602AQTBRJQQRNSDJGBCHHCMLTMHHNTC>
@@ -2854,11 +2888,11 @@ _:e70931fcb28847b88ef2132d045511ef3715 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3716;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43716;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3716 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43716 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/84004ALVSGJHSVCGLKSPNPNJRCCKKMSNB>
@@ -2869,11 +2903,11 @@ _:e70931fcb28847b88ef2132d045511ef3716 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3717;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43717;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3717 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43717 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/103001ARMPDCGMDQVDNGCTTLVDLSDTDHC>
@@ -2884,11 +2918,11 @@ _:e70931fcb28847b88ef2132d045511ef3717 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3718;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43718;
   schema:duration "PT60M";
   schema:endDate "2025-07-03T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3718 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43718 a schema:AggregateOffer;
   schema:lowPrice "32.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/114201AQSRPDCPVGHDBPLNDTBNNSRVKSM>
@@ -2899,11 +2933,11 @@ _:e70931fcb28847b88ef2132d045511ef3718 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-02T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3719;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43719;
   schema:duration "PT60M";
   schema:endDate "2025-10-02T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3719 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43719 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/99403AGNBVCGLBVMBSMDMKQSCHMNRQPVS>
@@ -2914,11 +2948,11 @@ _:e70931fcb28847b88ef2132d045511ef3719 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-19T09:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3720;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43720;
   schema:duration "PT60M";
   schema:endDate "2025-10-19T10:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3720 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43720 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/99601AGQDKBRDSRMRNNGRRPPTNKPBKTMQ>
@@ -2929,11 +2963,11 @@ _:e70931fcb28847b88ef2132d045511ef3720 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-17T21:20:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3721;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43721;
   schema:duration "PT60M";
   schema:endDate "2025-10-17T22:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3721 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43721 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/100201AHNJCLCDDMMSQNCTBGTQMRSCKJN>
@@ -2944,11 +2978,11 @@ _:e70931fcb28847b88ef2132d045511ef3721 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-18T16:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3722;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43722;
   schema:duration "PT60M";
   schema:endDate "2025-10-18T17:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3722 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43722 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/100601AKMQPBDJCPBTJJVBBTMMNBQNLTB>
@@ -2959,11 +2993,11 @@ _:e70931fcb28847b88ef2132d045511ef3722 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-19T11:05:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3723;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43723;
   schema:duration "PT60M";
   schema:endDate "2025-10-19T12:05:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3723 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43723 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/99402AQVKDPPMKLQHJMLPHGHSPJHPNBMC>
@@ -2974,12 +3008,25 @@ _:e70931fcb28847b88ef2132d045511ef3723 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-18T19:20:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3724;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43724;
   schema:duration "PT60M";
   schema:endDate "2025-10-18T20:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3724 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43724 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
+
+<https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:Place;
+  schema:name "Capitol Theatre General Admission";
+  schema:address <https://spektrix.com/capitoltheatreporthope/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/capitoltheatreporthope/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:PostalAddress;
+  schema:streetAddress "20 Queen St.";
+  schema:addressLocality "Port Hope";
+  schema:addressRegion "ON";
+  schema:postalCode "L1A2Y7";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/99401APPDJPTMCNDVGNBQJKKGBJNTJSJR>
   a schema:Event;
@@ -2989,11 +3036,11 @@ _:e70931fcb28847b88ef2132d045511ef3724 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-17T18:40:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3725;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43725;
   schema:duration "PT60M";
   schema:endDate "2025-10-17T19:40:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3725 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43725 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/101001ASRCJQGCSBLJCPNPQQRRGSLJCLH>
@@ -3004,11 +3051,11 @@ _:e70931fcb28847b88ef2132d045511ef3725 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-19T16:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3726;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43726;
   schema:duration "PT60M";
   schema:endDate "2025-10-19T17:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3726 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43726 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/99801ADPNDDSCGGBKNHLRMCBHVCDVDQVG>
@@ -3019,16 +3066,12 @@ _:e70931fcb28847b88ef2132d045511ef3726 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-18T11:20:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3727;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43727;
   schema:duration "PT60M";
   schema:endDate "2025-10-18T12:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3727 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43727 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
-
-<https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
-  a schema:Place;
-  schema:name "Capitol Theatre General Admission" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/99202AJLVVMLNNMRKPSBDNGHNVPVJSPRK>
   a schema:Event;
@@ -3038,11 +3081,11 @@ _:e70931fcb28847b88ef2132d045511ef3727 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-18T09:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3728;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43728;
   schema:duration "PT60M";
   schema:endDate "2025-10-18T10:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3728 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43728 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/101201AKQDJBPLLQCKLJCTLCMQDHDTGBQ>
@@ -3053,11 +3096,11 @@ _:e70931fcb28847b88ef2132d045511ef3728 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-19T12:35:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3729;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43729;
   schema:duration "PT60M";
   schema:endDate "2025-10-19T13:35:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3729 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43729 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/100801AMBQSDLVKNDGBHPCKQMSRDDMGHN>
@@ -3068,11 +3111,11 @@ _:e70931fcb28847b88ef2132d045511ef3729 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-19T13:55:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3730;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43730;
   schema:duration "PT60M";
   schema:endDate "2025-10-19T14:55:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3730 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43730 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/100401ARBKMPTRJMJVPTTDVMDQSMLTVBR>
@@ -3083,11 +3126,11 @@ _:e70931fcb28847b88ef2132d045511ef3730 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-18T21:25:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3731;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43731;
   schema:duration "PT60M";
   schema:endDate "2025-10-18T22:25:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3731 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43731 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/100002AQGCHBVLHJHRMVJJGBMVSDBVNQM>
@@ -3098,11 +3141,11 @@ _:e70931fcb28847b88ef2132d045511ef3731 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-17T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3732;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43732;
   schema:duration "PT60M";
   schema:endDate "2025-10-17T16:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3732 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43732 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/100001AMKHKQSKSCRQTDTNDGDHBLHMNPK>
@@ -3113,11 +3156,11 @@ _:e70931fcb28847b88ef2132d045511ef3732 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-18T13:50:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3733;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43733;
   schema:duration "PT60M";
   schema:endDate "2025-10-18T14:50:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3733 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43733 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/99201ARVMRKGLNVBJRVMKRJRKRVKMPKRK>
@@ -3128,11 +3171,11 @@ _:e70931fcb28847b88ef2132d045511ef3733 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-17T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3734;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43734;
   schema:duration "PT60M";
   schema:endDate "2025-10-17T16:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3734 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43734 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/63801ASLGTSVCPMCNVRGGPRNTHGJSNJGL>
@@ -3143,16 +3186,25 @@ _:e70931fcb28847b88ef2132d045511ef3734 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3735;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43735;
   schema:duration "PT60M";
   schema:endDate "2024-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3735 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43735 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
   a schema:Place;
-  schema:name "Capitol Theatre" .
+  schema:name "Capitol Theatre";
+  schema:address <https://spektrix.com/capitoltheatreporthope/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/capitoltheatreporthope/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:PostalAddress;
+  schema:streetAddress "20 Queen St.";
+  schema:addressLocality "Port Hope";
+  schema:addressRegion "ON";
+  schema:postalCode "L1A2Y7";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/64801AJPTMMJGDJQHDKQNBCGKMVGLSGLB>
   a schema:Event;
@@ -3162,11 +3214,11 @@ _:e70931fcb28847b88ef2132d045511ef3735 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3736;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43736;
   schema:duration "PT60M";
   schema:endDate "2024-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3736 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43736 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/71601AMRKGCHRRTHJRLKKPCDSPHMKGQPR>
@@ -3177,11 +3229,11 @@ _:e70931fcb28847b88ef2132d045511ef3736 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3737;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43737;
   schema:duration "PT60M";
   schema:endDate "2024-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3737 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43737 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/75201AGVRCJPJLNTHDCBKRGQMKMBJJLBP>
@@ -3192,11 +3244,11 @@ _:e70931fcb28847b88ef2132d045511ef3737 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3738;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43738;
   schema:duration "PT60M";
   schema:endDate "2024-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3738 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43738 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/87601ANPLQMNRMNHLQMLDPMSJKHLTKRCN>
@@ -3207,11 +3259,11 @@ _:e70931fcb28847b88ef2132d045511ef3738 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3739;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43739;
   schema:duration "PT60M";
   schema:endDate "2024-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3739 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43739 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/103201ATVKKBJLTMBGLKGPSRRDKVTJVQS>
@@ -3222,11 +3274,11 @@ _:e70931fcb28847b88ef2132d045511ef3739 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3740;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43740;
   schema:duration "PT60M";
   schema:endDate "2024-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3740 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43740 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/105804ABCVJSJSMPRVMRDPHRVMRHRDTPN>
@@ -3237,11 +3289,11 @@ _:e70931fcb28847b88ef2132d045511ef3740 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3741;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43741;
   schema:duration "PT60M";
   schema:endDate "2024-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3741 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43741 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/108201AKRVHLNCBJTPJRCRKTRJGCVJTGG>
@@ -3252,11 +3304,11 @@ _:e70931fcb28847b88ef2132d045511ef3741 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3742;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43742;
   schema:duration "PT60M";
   schema:endDate "2024-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3742 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43742 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/111801AGTTSSKTDMNHQDKBDLHLTMCTQJJ>
@@ -3267,11 +3319,11 @@ _:e70931fcb28847b88ef2132d045511ef3742 a schema:AggregateOffer;
 """;
   schema:startDate "2024-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3743;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43743;
   schema:duration "PT60M";
   schema:endDate "2024-05-16T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3743 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43743 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79203ABKNVDMMVKCGVHJLDHNRCTCJKCKJ>
@@ -3282,11 +3334,11 @@ _:e70931fcb28847b88ef2132d045511ef3743 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3744;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43744;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3744 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43744 a schema:AggregateOffer;
   schema:lowPrice "2.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80204ATKKRCCMTHQLGDMBMKKLLVKQPHCH>
@@ -3297,11 +3349,11 @@ _:e70931fcb28847b88ef2132d045511ef3744 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3745;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43745;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3745 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43745 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/83001AHRQMSRRDJKSVNJJNHBJRBGMRMDP>
@@ -3312,11 +3364,11 @@ _:e70931fcb28847b88ef2132d045511ef3745 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3746;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43746;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3746 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43746 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80205AJTTBTNQTPDPKNGRKRTSSCGTNDDR>
@@ -3327,11 +3379,11 @@ _:e70931fcb28847b88ef2132d045511ef3746 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3747;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43747;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3747 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43747 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80604ANPQSNVLDSMDQTLQVQDDQTLVVKJS>
@@ -3342,11 +3394,11 @@ _:e70931fcb28847b88ef2132d045511ef3747 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3748;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43748;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3748 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43748 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79004ABCNLMCGJNNSHRVNDQGNBHPHGCBT>
@@ -3357,11 +3409,11 @@ _:e70931fcb28847b88ef2132d045511ef3748 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3749;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43749;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3749 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43749 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79204AVHBNQSRPKTHBCJJSGMNGGNJNJKG>
@@ -3372,11 +3424,11 @@ _:e70931fcb28847b88ef2132d045511ef3749 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3750;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43750;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3750 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43750 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/82803ALQSQBLDMVNLLSTBDBTBSJQTVSSL>
@@ -3387,11 +3439,11 @@ _:e70931fcb28847b88ef2132d045511ef3750 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3751;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43751;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3751 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43751 a schema:AggregateOffer;
   schema:lowPrice "21.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79403AHLKDGTVSJSKJCPPLRJSRVCKGBMM>
@@ -3402,11 +3454,11 @@ _:e70931fcb28847b88ef2132d045511ef3751 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3752;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43752;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3752 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43752 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79803ABSTMVJJRBLQBSQDNTRGJLJKCNKQ>
@@ -3417,11 +3469,11 @@ _:e70931fcb28847b88ef2132d045511ef3752 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3753;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43753;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3753 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43753 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/82202AGNGPVRNPMNSDQQJQHRGRDBMMKTN>
@@ -3432,11 +3484,11 @@ _:e70931fcb28847b88ef2132d045511ef3753 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3754;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43754;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3754 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43754 a schema:AggregateOffer;
   schema:lowPrice "12.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81403AVNRDBRGHRLBDVTQNLQSHKQLJGPS>
@@ -3447,11 +3499,11 @@ _:e70931fcb28847b88ef2132d045511ef3754 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3755;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43755;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3755 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43755 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/83201ANNLNMTNPPCCCBCSRLVSVHPQSNDT>
@@ -3462,11 +3514,11 @@ _:e70931fcb28847b88ef2132d045511ef3755 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3756;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43756;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3756 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43756 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/80004ARMSHGGBVPJDDBVPRMRLCNCNKPSG>
@@ -3477,11 +3529,11 @@ _:e70931fcb28847b88ef2132d045511ef3756 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3757;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43757;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3757 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43757 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/81004ABNLKBCQVSRPGBMHRGMPHQDBMHLG>
@@ -3492,11 +3544,11 @@ _:e70931fcb28847b88ef2132d045511ef3757 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3758;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43758;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3758 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43758 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79804ADHHCDBNRKLRPBLTGCBKJJJRGVMC>
@@ -3507,11 +3559,11 @@ _:e70931fcb28847b88ef2132d045511ef3758 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3759;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43759;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3759 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43759 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/82602ANBHLNJGDTPQLGCTKCGNBBHTBLDP>
@@ -3522,11 +3574,11 @@ _:e70931fcb28847b88ef2132d045511ef3759 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3760;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43760;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3760 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43760 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79805AKNNNBPSDNKVQSTNQBCBCQGMNPMQ>
@@ -3537,11 +3589,11 @@ _:e70931fcb28847b88ef2132d045511ef3760 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3761;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43761;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3761 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43761 a schema:AggregateOffer;
   schema:lowPrice "37.22" .
 
 <http://www.spektrix.com/capitoltheatreporthope/event/79005AKNSGVDHNPTJVCPRTSVHNTBLPMSP>
@@ -3552,9 +3604,9 @@ _:e70931fcb28847b88ef2132d045511ef3761 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/capitoltheatreporthope/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3762;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43762;
   schema:duration "PT60M";
   schema:endDate "2025-06-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3762 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43762 a schema:AggregateOffer;
   schema:lowPrice "37.22" .

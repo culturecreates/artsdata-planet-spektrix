@@ -21,16 +21,24 @@
   schema:startDate "2025-10-17T18:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/7ca5dfaf-2fa0-4450-b341-19dd4b5ac2ec.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3845;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43845;
   schema:duration "PT60M";
   schema:endDate "2025-10-17T19:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3845 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43845 a schema:AggregateOffer;
   schema:lowPrice "15.37" .
 
 <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>
   a schema:Place;
-  schema:name "Rotary Centre For the Arts" .
+  schema:name "Rotary Centre For the Arts";
+  schema:address <https://spektrix.com/kelownacommunitytheatre/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
+
+<https://spektrix.com/kelownacommunitytheatre/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>
+  a schema:PostalAddress;
+  schema:streetAddress "Mary Irwin Theatre";
+  schema:addressLocality "421 Cawston Ave.";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/264801AKGBKJGTQTHKDPBJJLHQSNVMPPL>
   a schema:Event;
@@ -45,16 +53,24 @@ _:e70931fcb28847b88ef2132d045511ef3845 a schema:AggregateOffer;
   schema:startDate "2025-11-29T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/cdbfa4f6-0bcf-40cc-9c06-7315f04db6c4.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3846;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43846;
   schema:duration "PT60M";
   schema:endDate "2025-11-29T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3846 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43846 a schema:AggregateOffer;
   schema:lowPrice "47.1" .
 
 <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
   a schema:Place;
-  schema:name "Kelowna Community Theatre" .
+  schema:name "Kelowna Community Theatre";
+  schema:address <https://spektrix.com/kelownacommunitytheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/kelownacommunitytheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:PostalAddress;
+  schema:streetAddress "1375 Water Street";
+  schema:addressLocality "Kelowna";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/275401AQJPHTNDGJJDDBLDPMVLNLRSPDL>
   a schema:Event;
@@ -69,11 +85,11 @@ _:e70931fcb28847b88ef2132d045511ef3846 a schema:AggregateOffer;
   schema:startDate "2026-05-01T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/7c8c5cfc-45fe-406e-ae79-1022199a182a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3847;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43847;
   schema:duration "PT60M";
   schema:endDate "2026-05-01T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3847 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43847 a schema:AggregateOffer;
   schema:lowPrice "34.88" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/276201ASTQGKLNBJTPDSKRLRHKMMLGJBL>
@@ -89,11 +105,11 @@ _:e70931fcb28847b88ef2132d045511ef3847 a schema:AggregateOffer;
   schema:startDate "2026-05-01T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/7c8c5cfc-45fe-406e-ae79-1022199a182a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3848;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43848;
   schema:duration "PT60M";
   schema:endDate "2026-05-01T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3848 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43848 a schema:AggregateOffer;
   schema:lowPrice "34.88" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/275601ASVQMJDNTNRRJVTNQLCRNVLQSJL>
@@ -109,11 +125,11 @@ _:e70931fcb28847b88ef2132d045511ef3848 a schema:AggregateOffer;
   schema:startDate "2026-05-01T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/7c8c5cfc-45fe-406e-ae79-1022199a182a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3849;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43849;
   schema:duration "PT60M";
   schema:endDate "2026-05-01T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3849 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43849 a schema:AggregateOffer;
   schema:lowPrice "34.88" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/272402ACPLNPCMBDCNMKGHLDNMCSJSRQG>
@@ -129,11 +145,11 @@ _:e70931fcb28847b88ef2132d045511ef3849 a schema:AggregateOffer;
   schema:startDate "2025-11-07T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/faa12dd1-ff40-4835-b16c-7d901965bda8.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3850;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43850;
   schema:duration "PT60M";
   schema:endDate "2025-11-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3850 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43850 a schema:AggregateOffer;
   schema:lowPrice "34.88" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/276001AKPTDBVCBKPVQPLMJPJMQDGNGPP>
@@ -149,11 +165,11 @@ _:e70931fcb28847b88ef2132d045511ef3850 a schema:AggregateOffer;
   schema:startDate "2025-11-07T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/faa12dd1-ff40-4835-b16c-7d901965bda8.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3851;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43851;
   schema:duration "PT60M";
   schema:endDate "2025-11-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3851 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43851 a schema:AggregateOffer;
   schema:lowPrice "34.88" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/275001ASPDQKLJJDPMQNHMSLCLBCSHQQJ>
@@ -169,11 +185,11 @@ _:e70931fcb28847b88ef2132d045511ef3851 a schema:AggregateOffer;
   schema:startDate "2025-11-07T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/faa12dd1-ff40-4835-b16c-7d901965bda8.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3852;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43852;
   schema:duration "PT60M";
   schema:endDate "2025-11-07T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3852 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43852 a schema:AggregateOffer;
   schema:lowPrice "34.88" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/273403ABGVSHQKLQGNVNKSNJVKKVQRKTK>
@@ -189,11 +205,11 @@ _:e70931fcb28847b88ef2132d045511ef3852 a schema:AggregateOffer;
   schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e44764e0-15f9-40d8-bf11-958a720c645a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3853;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43853;
   schema:duration "PT60M";
   schema:endDate "2026-02-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3853 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43853 a schema:AggregateOffer;
   schema:lowPrice "34.88" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/276202ADJCKQNVMSPRSVMHGJJQSJBVPSM>
@@ -209,11 +225,11 @@ _:e70931fcb28847b88ef2132d045511ef3853 a schema:AggregateOffer;
   schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e44764e0-15f9-40d8-bf11-958a720c645a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3854;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43854;
   schema:duration "PT60M";
   schema:endDate "2026-02-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3854 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43854 a schema:AggregateOffer;
   schema:lowPrice "34.88" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/275201AGPPGVGBPNHNCKPBGSJLBDNQCTK>
@@ -229,11 +245,11 @@ _:e70931fcb28847b88ef2132d045511ef3854 a schema:AggregateOffer;
   schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e44764e0-15f9-40d8-bf11-958a720c645a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3855;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43855;
   schema:duration "PT60M";
   schema:endDate "2026-02-13T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3855 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43855 a schema:AggregateOffer;
   schema:lowPrice "34.88" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/198201ALPPTJVBCLSKQLBTCKPVDRVMNSC>
@@ -249,11 +265,11 @@ _:e70931fcb28847b88ef2132d045511ef3855 a schema:AggregateOffer;
   schema:startDate "2025-11-15T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/291481f0-d3d7-4f0b-8ba4-8f293e978633.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3856;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43856;
   schema:duration "PT60M";
   schema:endDate "2025-11-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3856 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43856 a schema:AggregateOffer;
   schema:lowPrice "54.7" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/281201ABPCMNVJVTRHHLJKHPPSHCDTPHK>
@@ -269,11 +285,11 @@ _:e70931fcb28847b88ef2132d045511ef3856 a schema:AggregateOffer;
   schema:startDate "2026-05-02T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d9ea5707-0140-440b-9b63-b64601df8de4.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3857;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43857;
   schema:duration "PT60M";
   schema:endDate "2026-05-02T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3857 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43857 a schema:AggregateOffer;
   schema:lowPrice "48.13" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/259001ASSSPHNTSVPBVDRCVCKLRBHMTTS>
@@ -289,11 +305,11 @@ _:e70931fcb28847b88ef2132d045511ef3857 a schema:AggregateOffer;
   schema:startDate "2025-10-08T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/05737a95-e747-476a-a864-30a3cfe6ca76.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3858;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43858;
   schema:duration "PT60M";
   schema:endDate "2025-10-08T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3858 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43858 a schema:AggregateOffer;
   schema:lowPrice "54.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/286201ANPSQNNHKSNVGLLRKDRRKMQBRMP>
@@ -309,11 +325,11 @@ _:e70931fcb28847b88ef2132d045511ef3858 a schema:AggregateOffer;
   schema:startDate "2026-04-11T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/49c0fc59-d532-4661-8814-4c6ce48ceb52.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3859;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43859;
   schema:duration "PT60M";
   schema:endDate "2026-04-11T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3859 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43859 a schema:AggregateOffer;
   schema:lowPrice "49.61" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/276601ACTSJMMJNTBCNKTKLVPKQJGCTHN>
@@ -329,11 +345,11 @@ _:e70931fcb28847b88ef2132d045511ef3859 a schema:AggregateOffer;
   schema:startDate "2025-11-14T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/050f72e4-8654-4a5b-b84d-de744108a6b6.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3860;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43860;
   schema:duration "PT75M";
   schema:endDate "2025-11-14T20:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3860 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43860 a schema:AggregateOffer;
   schema:lowPrice "27.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/257801ASVDLPDVQLHBVNNPNKTKVNSHQCB>
@@ -349,11 +365,11 @@ _:e70931fcb28847b88ef2132d045511ef3860 a schema:AggregateOffer;
   schema:startDate "2025-12-21T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/89000132-a56b-4703-9acd-b9b184fa0465.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3861;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43861;
   schema:duration "PT110M";
   schema:endDate "2025-12-21T21:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3861 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43861 a schema:AggregateOffer;
   schema:lowPrice "25.64" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/258002ANVCQTHCMVLGCQJCKCJJVTGVLLD>
@@ -369,11 +385,11 @@ _:e70931fcb28847b88ef2132d045511ef3861 a schema:AggregateOffer;
   schema:startDate "2025-09-27T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/29e40921-9343-4859-a905-373ed9826556.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3862;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43862;
   schema:duration "PT90M";
   schema:endDate "2025-09-27T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3862 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43862 a schema:AggregateOffer;
   schema:lowPrice "77.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/235601AJHDGQLSDNBSHVQQDJCMNPLNKCS>
@@ -389,11 +405,11 @@ _:e70931fcb28847b88ef2132d045511ef3862 a schema:AggregateOffer;
   schema:startDate "2025-12-12T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/5e589666-012a-4fd0-b2ce-b0a039aba0db.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3863;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43863;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3863 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43863 a schema:AggregateOffer;
   schema:lowPrice "22.01" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/235801ANNNHTLQPVBSCBNJTPPMNNPDJPV>
@@ -409,11 +425,11 @@ _:e70931fcb28847b88ef2132d045511ef3863 a schema:AggregateOffer;
   schema:startDate "2026-04-18T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/16b87127-d2ec-4201-b79e-ba44bade57db.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3864;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43864;
   schema:duration "PT60M";
   schema:endDate "2026-04-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3864 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43864 a schema:AggregateOffer;
   schema:lowPrice "22.01" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/235202ABNTJDKTPGHSKKLLVRQJMDDVKSC>
@@ -429,11 +445,11 @@ _:e70931fcb28847b88ef2132d045511ef3864 a schema:AggregateOffer;
   schema:startDate "2025-10-30T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/88b308c4-2986-4681-b6b0-b9232693028d.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3865;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43865;
   schema:duration "PT60M";
   schema:endDate "2025-10-30T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3865 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43865 a schema:AggregateOffer;
   schema:lowPrice "22.01" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/235203ATCRRHSVTVNMRHMCLRVKCKLTCGG>
@@ -449,11 +465,11 @@ _:e70931fcb28847b88ef2132d045511ef3865 a schema:AggregateOffer;
   schema:startDate "2026-02-21T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/24e75620-f1e4-4b61-9224-204d58e77510.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3866;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43866;
   schema:duration "PT60M";
   schema:endDate "2026-02-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3866 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43866 a schema:AggregateOffer;
   schema:lowPrice "22.01" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/235201ARLRLLJDSNKKSVSGHGBRJGKCKDT>
@@ -469,11 +485,11 @@ _:e70931fcb28847b88ef2132d045511ef3866 a schema:AggregateOffer;
   schema:startDate "2025-10-04T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/528eb2c8-c7e0-4093-a8b3-659df1521de8.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3867;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43867;
   schema:duration "PT60M";
   schema:endDate "2025-10-04T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3867 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43867 a schema:AggregateOffer;
   schema:lowPrice "22.01" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/235401ABVVLJBVKNNSRJCMHCPGGDNGRJR>
@@ -489,11 +505,11 @@ _:e70931fcb28847b88ef2132d045511ef3867 a schema:AggregateOffer;
   schema:startDate "2025-11-19T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/292060f7-e8cf-4f4e-9fa5-0021376d625d.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3868;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43868;
   schema:duration "PT60M";
   schema:endDate "2025-11-19T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3868 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43868 a schema:AggregateOffer;
   schema:lowPrice "22.01" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/277201ACBQVKDPRTBPVBCBDTCNPRQRPJN>
@@ -509,11 +525,11 @@ _:e70931fcb28847b88ef2132d045511ef3868 a schema:AggregateOffer;
   schema:startDate "2025-09-21T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/f9954dec-9139-4a43-90e5-45a29556db9b.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3869;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43869;
   schema:duration "PT60M";
   schema:endDate "2025-09-21T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3869 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43869 a schema:AggregateOffer;
   schema:lowPrice "15.8" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/255001ARVMSNLNLDBJMNRPTVQRHHNBCRB>
@@ -529,11 +545,11 @@ _:e70931fcb28847b88ef2132d045511ef3869 a schema:AggregateOffer;
   schema:startDate "2025-09-28T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/976cab56-5aa1-432b-b93c-ceb6158c2085.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3870;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43870;
   schema:duration "PT60M";
   schema:endDate "2025-09-28T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3870 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43870 a schema:AggregateOffer;
   schema:lowPrice "47.23" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/269401AMHRPSKRVJGHRVNCVDCKKLDPTJQ>
@@ -549,11 +565,11 @@ _:e70931fcb28847b88ef2132d045511ef3870 a schema:AggregateOffer;
   schema:startDate "2025-10-25T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e0e7c04d-9854-42bd-9efe-7f6ba145deb5.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3871;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43871;
   schema:duration "PT60M";
   schema:endDate "2025-10-25T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3871 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43871 a schema:AggregateOffer;
   schema:lowPrice "67.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/266201ARSRSRMJPDTVNDLKPCNBHBDNDQB>
@@ -569,16 +585,22 @@ _:e70931fcb28847b88ef2132d045511ef3871 a schema:AggregateOffer;
   schema:startDate "2025-10-22T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e23f9544-2c8e-4bfa-9282-78e686fc2cb2.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3872;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43872;
   schema:duration "PT60M";
   schema:endDate "2025-10-22T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3872 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43872 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <https://spektrix.com/kelownacommunitytheatre/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>
   a schema:Place;
-  schema:name "Black Box Theatre" .
+  schema:name "Black Box Theatre";
+  schema:address <https://spektrix.com/kelownacommunitytheatre/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
+
+<https://spektrix.com/kelownacommunitytheatre/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>
+  a schema:PostalAddress;
+  schema:streetAddress "Located at the rear of the Kelowna Community Theatre";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/266401AMCJPBSCBJSPCHNSPDKLLMPNKMS>
   a schema:Event;
@@ -593,11 +615,11 @@ _:e70931fcb28847b88ef2132d045511ef3872 a schema:AggregateOffer;
   schema:startDate "2025-10-22T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e23f9544-2c8e-4bfa-9282-78e686fc2cb2.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3873;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43873;
   schema:duration "PT60M";
   schema:endDate "2025-10-22T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3873 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43873 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/266601ANKPPJTNNLKTJPTDTCTDHBPSGPN>
@@ -613,11 +635,11 @@ _:e70931fcb28847b88ef2132d045511ef3873 a schema:AggregateOffer;
   schema:startDate "2025-10-22T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e23f9544-2c8e-4bfa-9282-78e686fc2cb2.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3874;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43874;
   schema:duration "PT60M";
   schema:endDate "2025-10-22T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3874 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43874 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/266801ANCMVJRRJPSQNRQMNGHBTGHSGNT>
@@ -633,11 +655,11 @@ _:e70931fcb28847b88ef2132d045511ef3874 a schema:AggregateOffer;
   schema:startDate "2025-10-22T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e23f9544-2c8e-4bfa-9282-78e686fc2cb2.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3875;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43875;
   schema:duration "PT60M";
   schema:endDate "2025-10-22T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3875 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43875 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/267001AQSRGKTPQTJQLLBGJRQLPRQDKJH>
@@ -653,11 +675,11 @@ _:e70931fcb28847b88ef2132d045511ef3875 a schema:AggregateOffer;
   schema:startDate "2025-10-22T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e23f9544-2c8e-4bfa-9282-78e686fc2cb2.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3876;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43876;
   schema:duration "PT60M";
   schema:endDate "2025-10-22T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3876 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43876 a schema:AggregateOffer;
   schema:lowPrice "30.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/264601ABRTNKNQDDPHLMMTCBHMJBHSJDG>
@@ -673,11 +695,11 @@ _:e70931fcb28847b88ef2132d045511ef3876 a schema:AggregateOffer;
   schema:startDate "2025-10-10T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/af1a295f-7976-4680-9f59-038342fd10c1.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3877;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43877;
   schema:duration "PT90M";
   schema:endDate "2025-10-10T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3877 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43877 a schema:AggregateOffer;
   schema:lowPrice "51.58" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/290001AJPSVSDDDSNHSBHSTCBGRHMRTBC>
@@ -693,16 +715,25 @@ _:e70931fcb28847b88ef2132d045511ef3877 a schema:AggregateOffer;
   schema:startDate "2025-10-22T17:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/a8b01209-a08c-453a-888a-6142378bb135.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/6601AQMNQNHRQGLJKCSPPPSGMQSBMDCJM>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3878;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43878;
   schema:duration "PT120M";
   schema:endDate "2025-10-22T19:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3878 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43878 a schema:AggregateOffer;
   schema:lowPrice "15.75" .
 
 <https://spektrix.com/kelownacommunitytheatre/location/6601AQMNQNHRQGLJKCSPPPSGMQSBMDCJM>
   a schema:Place;
-  schema:name "Sandhill Wines" .
+  schema:name "Sandhill Wines";
+  schema:address <https://spektrix.com/kelownacommunitytheatre/address/6601AQMNQNHRQGLJKCSPPPSGMQSBMDCJM> .
+
+<https://spektrix.com/kelownacommunitytheatre/address/6601AQMNQNHRQGLJKCSPPPSGMQSBMDCJM>
+  a schema:PostalAddress;
+  schema:streetAddress "1125 Richter St";
+  schema:addressLocality "Kelowna";
+  schema:addressRegion "BC";
+  schema:postalCode "V1Y 2K6";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/248401ACNRJMGCHCSHQKTMMSLNTPHLTKQ>
   a schema:Event;
@@ -717,11 +748,11 @@ _:e70931fcb28847b88ef2132d045511ef3878 a schema:AggregateOffer;
   schema:startDate "2026-03-14T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/c3f7c2e0-b999-4dc0-9040-dcbe7ae64f3d.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3879;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43879;
   schema:duration "PT60M";
   schema:endDate "2026-03-14T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3879 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43879 a schema:AggregateOffer;
   schema:lowPrice "51.86" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/282601ANNKKKGDHKGSSBBJJNLDKGJKGQR>
@@ -737,16 +768,24 @@ _:e70931fcb28847b88ef2132d045511ef3879 a schema:AggregateOffer;
   schema:startDate "2025-09-10T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/f8ccb6b8-4739-43ac-b010-5e76274654fd.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/3601ABRLTLCLBPPCHRCSJRVVJLBBBDQCM>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3880;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43880;
   schema:duration "PT60M";
   schema:endDate "2025-09-10T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3880 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43880 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <https://spektrix.com/kelownacommunitytheatre/location/3601ABRLTLCLBPPCHRCSJRVVJLBBBDQCM>
   a schema:Place;
-  schema:name "The Laurel Packinghouse" .
+  schema:name "The Laurel Packinghouse";
+  schema:address <https://spektrix.com/kelownacommunitytheatre/address/3601ABRLTLCLBPPCHRCSJRVVJLBBBDQCM> .
+
+<https://spektrix.com/kelownacommunitytheatre/address/3601ABRLTLCLBPPCHRCSJRVVJLBBBDQCM>
+  a schema:PostalAddress;
+  schema:streetAddress "1304 Ellis Street";
+  schema:addressLocality "Kelowna";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/265001ACHSTCHSNLPQDGCLQLLCSMSTBMB>
   a schema:Event;
@@ -761,11 +800,11 @@ _:e70931fcb28847b88ef2132d045511ef3880 a schema:AggregateOffer;
   schema:startDate "2026-03-23T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/a0ef08cb-bd3e-48a6-8d11-06e9359d08cd.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3881;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43881;
   schema:duration "PT60M";
   schema:endDate "2026-03-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3881 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43881 a schema:AggregateOffer;
   schema:lowPrice "60.75" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/266001ALLCHHGNHSDCDRSGPMTDHGMGCMP>
@@ -781,11 +820,11 @@ _:e70931fcb28847b88ef2132d045511ef3881 a schema:AggregateOffer;
   schema:startDate "2026-01-12T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/40c84ac1-2711-4b72-8cb7-c3389ddaa5f0.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3882;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43882;
   schema:duration "PT60M";
   schema:endDate "2026-01-12T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3882 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43882 a schema:AggregateOffer;
   schema:lowPrice "54.86" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/271001ALTLVJRBQLKRVTJLGMDHLTRPQDV>
@@ -801,11 +840,11 @@ _:e70931fcb28847b88ef2132d045511ef3882 a schema:AggregateOffer;
   schema:startDate "2025-10-10T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/eb975fc8-3b7b-4945-a953-9cdbc8725493.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3883;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43883;
   schema:duration "PT60M";
   schema:endDate "2025-10-10T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3883 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43883 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/184801ATVHHHGGPLQRJVKPCLJHTJQMTSP>
@@ -821,11 +860,11 @@ _:e70931fcb28847b88ef2132d045511ef3883 a schema:AggregateOffer;
   schema:startDate "2025-10-11T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/4dcdd758-aab4-4a51-a8e3-296d04379aaf.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3884;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43884;
   schema:duration "PT60M";
   schema:endDate "2025-10-11T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3884 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43884 a schema:AggregateOffer;
   schema:lowPrice "55.6" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/215801AHPVJTRBJNRHTSNTCKQNMRLCKVH>
@@ -841,11 +880,11 @@ _:e70931fcb28847b88ef2132d045511ef3884 a schema:AggregateOffer;
   schema:startDate "2026-02-22T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e7bc83c5-b28d-4dd8-a507-a8fa3080545e.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3885;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43885;
   schema:duration "PT60M";
   schema:endDate "2026-02-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3885 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43885 a schema:AggregateOffer;
   schema:lowPrice "58.54" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/285201ABRRLGTKDPVSPLCMLPSSTNLKVVV>
@@ -861,11 +900,11 @@ _:e70931fcb28847b88ef2132d045511ef3885 a schema:AggregateOffer;
   schema:startDate "2026-03-12T18:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e58beb8a-ef90-444d-a132-00c647eec5fd.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3886;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43886;
   schema:duration "PT60M";
   schema:endDate "2026-03-12T19:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3886 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43886 a schema:AggregateOffer;
   schema:lowPrice "75.86" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/236801ABPBRMMHPSKMRDRTTSBBQVDBMSR>
@@ -881,11 +920,11 @@ _:e70931fcb28847b88ef2132d045511ef3886 a schema:AggregateOffer;
   schema:startDate "2025-10-31T20:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/f284b9b8-9131-419d-a311-5371234f6482.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3887;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43887;
   schema:duration "PT60M";
   schema:endDate "2025-10-31T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3887 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43887 a schema:AggregateOffer;
   schema:lowPrice "44.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/289002AKMMSVPPRQRQMJCTQLGBNDPCSKG>
@@ -901,11 +940,11 @@ _:e70931fcb28847b88ef2132d045511ef3887 a schema:AggregateOffer;
   schema:startDate "2026-01-18T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/347692aa-28dc-4584-80ba-e966106bdcb5.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3888;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43888;
   schema:duration "PT60M";
   schema:endDate "2026-01-18T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3888 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43888 a schema:AggregateOffer;
   schema:lowPrice "49.61" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/289401AMGVQNPSMSNLHSVVTTSPBJLLVTV>
@@ -921,11 +960,11 @@ _:e70931fcb28847b88ef2132d045511ef3888 a schema:AggregateOffer;
   schema:startDate "2026-01-18T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/347692aa-28dc-4584-80ba-e966106bdcb5.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3889;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43889;
   schema:duration "PT60M";
   schema:endDate "2026-01-18T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3889 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43889 a schema:AggregateOffer;
   schema:lowPrice "49.61" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/255801ATDBGQLCQBPGDKKTVMBJHVBKMBS>
@@ -941,11 +980,11 @@ _:e70931fcb28847b88ef2132d045511ef3889 a schema:AggregateOffer;
   schema:startDate "2026-01-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/a3671ea7-21d2-4b7d-8f7d-02ce9929b846.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3890;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43890;
   schema:duration "PT60M";
   schema:endDate "2026-01-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3890 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43890 a schema:AggregateOffer;
   schema:lowPrice "54.86" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/263401AJQSQBJKGLKLQSVMRBMPNDMHKVV>
@@ -961,11 +1000,11 @@ _:e70931fcb28847b88ef2132d045511ef3890 a schema:AggregateOffer;
   schema:startDate "2025-10-24T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/1ee11e14-bb8a-4a1c-b8dd-cba27a53386c.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3891;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43891;
   schema:duration "PT120M";
   schema:endDate "2025-10-24T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3891 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43891 a schema:AggregateOffer;
   schema:lowPrice "42.6" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/269001ADSPHKPRHCVGCHMQVRKNCTQQPDJ>
@@ -976,11 +1015,11 @@ _:e70931fcb28847b88ef2132d045511ef3891 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3892;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43892;
   schema:duration "PT60M";
   schema:endDate "2025-09-23T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3892 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43892 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/189801ADMKRTPKBGMMQGHKKDSGGBMBKTB>
@@ -996,11 +1035,11 @@ _:e70931fcb28847b88ef2132d045511ef3892 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3893;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43893;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3893 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43893 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/190001AMBBCLLMKCJDKVPVVDBMHJGCHRM>
@@ -1016,11 +1055,11 @@ _:e70931fcb28847b88ef2132d045511ef3893 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3894;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43894;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3894 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43894 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/190201ACNPTMVMQKDNQJNJVDBGQPVDQHM>
@@ -1036,11 +1075,11 @@ _:e70931fcb28847b88ef2132d045511ef3894 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3895;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43895;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3895 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43895 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/190401AGLMJTQLVDBGPLBSPHPJGDGTNCP>
@@ -1056,11 +1095,11 @@ _:e70931fcb28847b88ef2132d045511ef3895 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3896;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43896;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3896 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43896 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/190601ALDLJSDKCDJKDDQMDMLJQHQBQMR>
@@ -1076,11 +1115,11 @@ _:e70931fcb28847b88ef2132d045511ef3896 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3897;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43897;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3897 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43897 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/190602APGGBKNVQNSTMPPJSVRRQHBHNRH>
@@ -1096,11 +1135,11 @@ _:e70931fcb28847b88ef2132d045511ef3897 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3898;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43898;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3898 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43898 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/190801APTTTCLHDPLJJVBGHJGQLBMBRDJ>
@@ -1116,11 +1155,11 @@ _:e70931fcb28847b88ef2132d045511ef3898 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3899;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43899;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3899 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43899 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/191001AQQMPRQDLCLTDRJNCGTVLPTCTKT>
@@ -1136,11 +1175,11 @@ _:e70931fcb28847b88ef2132d045511ef3899 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3900;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43900;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3900 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43900 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/191201ANPMKHDGNNHMNMTTCMDPCQBRGKV>
@@ -1156,11 +1195,11 @@ _:e70931fcb28847b88ef2132d045511ef3900 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3901;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43901;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3901 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43901 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/191401AMDQVNTVLNKMCVGDNMHTMHNKDNJ>
@@ -1176,11 +1215,11 @@ _:e70931fcb28847b88ef2132d045511ef3901 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3902;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43902;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3902 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43902 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/190802ANPJNSGRHMTSLVKDLLTPJLLCTKK>
@@ -1196,11 +1235,11 @@ _:e70931fcb28847b88ef2132d045511ef3902 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3903;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43903;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3903 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43903 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/191601AKVPNCQGSLVLSDMGMSDQTMKNKJG>
@@ -1216,11 +1255,11 @@ _:e70931fcb28847b88ef2132d045511ef3903 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3904;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43904;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3904 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43904 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/190803ATCDPPDJBQLKCQTNGMDGSJHSPSR>
@@ -1236,11 +1275,11 @@ _:e70931fcb28847b88ef2132d045511ef3904 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3905;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43905;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3905 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43905 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/191801ACMVRCJMNQQSKRCMHPQTRSCJLNM>
@@ -1256,11 +1295,11 @@ _:e70931fcb28847b88ef2132d045511ef3905 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3906;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43906;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3906 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43906 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/192001ASGDKKNLCJKLGQJPVGSRRJNDTSN>
@@ -1276,11 +1315,11 @@ _:e70931fcb28847b88ef2132d045511ef3906 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3907;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43907;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3907 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43907 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/192201ALRJSMSGJRNSLBNGSDNPMPMDKHH>
@@ -1296,11 +1335,11 @@ _:e70931fcb28847b88ef2132d045511ef3907 a schema:AggregateOffer;
   schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d1aa3af5-f924-4f8b-a753-2e0e35bc989a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3908;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43908;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3908 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43908 a schema:AggregateOffer;
   schema:lowPrice "74.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/277401APPKJBLKRMSVCSBRQTJCJRNJCCC>
@@ -1316,11 +1355,11 @@ _:e70931fcb28847b88ef2132d045511ef3908 a schema:AggregateOffer;
   schema:startDate "2025-10-25T13:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/8d9202e1-6544-4865-b8e2-9438a15b7764.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3909;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43909;
   schema:duration "PT60M";
   schema:endDate "2025-10-25T14:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3909 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43909 a schema:AggregateOffer;
   schema:lowPrice "22.01" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/277001AHHGNTPSJCHHDLHMQSCDPVDNGTD>
@@ -1336,11 +1375,11 @@ _:e70931fcb28847b88ef2132d045511ef3909 a schema:AggregateOffer;
   schema:startDate "2025-10-08T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/bf081c97-7e79-4d22-8b2c-d5f8e20b66e0.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3910;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43910;
   schema:duration "PT60M";
   schema:endDate "2025-10-08T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3910 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43910 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/284001AHJSCVQLCTCJKVNRPGJSNKDBBLC>
@@ -1356,11 +1395,11 @@ _:e70931fcb28847b88ef2132d045511ef3910 a schema:AggregateOffer;
   schema:startDate "2026-03-28T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/799a995b-8baa-40ac-9375-4516a089d009.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3911;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43911;
   schema:duration "PT60M";
   schema:endDate "2026-03-28T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3911 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43911 a schema:AggregateOffer;
   schema:lowPrice "32.36" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/202601AMDSTNTJSMPHMCHVJGLVDHPQMRB>
@@ -1392,11 +1431,11 @@ _:e70931fcb28847b88ef2132d045511ef3911 a schema:AggregateOffer;
   schema:startDate "2026-02-17T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/6f6eab9b-8db3-4ba9-9904-3348fd758330.jpeg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3912;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43912;
   schema:duration "PT60M";
   schema:endDate "2026-02-17T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3912 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43912 a schema:AggregateOffer;
   schema:lowPrice "54.81" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/217001ABTSSRDKLVVJGCRCPQTBSHSVBTD>
@@ -1412,11 +1451,11 @@ _:e70931fcb28847b88ef2132d045511ef3912 a schema:AggregateOffer;
   schema:startDate "2025-09-26T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/8a27ecc0-4c0c-4932-8269-fac874d15bfd.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3913;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43913;
   schema:duration "PT150M";
   schema:endDate "2025-09-26T22:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3913 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43913 a schema:AggregateOffer;
   schema:lowPrice "44.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/240201ALVKJJHKHVMLNSDDPTSNDJGRKCB>
@@ -1432,11 +1471,11 @@ _:e70931fcb28847b88ef2132d045511ef3913 a schema:AggregateOffer;
   schema:startDate "2026-03-27T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/3c9b3f55-4f81-4648-8893-6d4cb54625df.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3914;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43914;
   schema:duration "PT120M";
   schema:endDate "2026-03-27T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3914 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43914 a schema:AggregateOffer;
   schema:lowPrice "52.36" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/285601ALSHLJNPJTHBNBVHLKMQJBHVCPP>
@@ -1452,11 +1491,11 @@ _:e70931fcb28847b88ef2132d045511ef3914 a schema:AggregateOffer;
   schema:startDate "2026-02-28T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/1d305820-6707-4b09-9476-0b24ace51be4.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3915;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43915;
   schema:duration "PT60M";
   schema:endDate "2026-02-28T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3915 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43915 a schema:AggregateOffer;
   schema:lowPrice "53.86" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/270801ACJKLTTJJPKHPSDRDSVDJDCKDQQ>
@@ -1472,11 +1511,11 @@ _:e70931fcb28847b88ef2132d045511ef3915 a schema:AggregateOffer;
   schema:startDate "2025-09-19T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/5074b812-4d6a-4075-8e41-b46c563def5f.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3916;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43916;
   schema:duration "PT60M";
   schema:endDate "2025-09-19T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3916 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43916 a schema:AggregateOffer;
   schema:lowPrice "34.5" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/233401ANDGNDVCKJNRMCJSSLRHHMBPVLN>
@@ -1508,11 +1547,11 @@ _:e70931fcb28847b88ef2132d045511ef3916 a schema:AggregateOffer;
   schema:startDate "2025-12-11T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/ae92cc99-10a9-4f31-9e45-eac2679c4fed.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3917;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43917;
   schema:duration "PT60M";
   schema:endDate "2025-12-11T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3917 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43917 a schema:AggregateOffer;
   schema:lowPrice "20.27" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/270601ANJMNDCMLJMNNRRNSJJHNNNRQSQ>
@@ -1528,11 +1567,11 @@ _:e70931fcb28847b88ef2132d045511ef3917 a schema:AggregateOffer;
   schema:startDate "2025-10-02T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/596c8cb1-19f8-4e08-a461-6320e45cfc26.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3918;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43918;
   schema:duration "PT60M";
   schema:endDate "2025-10-02T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3918 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43918 a schema:AggregateOffer;
   schema:lowPrice "34.6" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/288201AQHGLKJDKMVJLSVGPHRSNVMHNKG>
@@ -1548,11 +1587,11 @@ _:e70931fcb28847b88ef2132d045511ef3918 a schema:AggregateOffer;
   schema:startDate "2025-11-19T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/2957c929-6626-4a56-ab98-27a1217ae7f8.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3919;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43919;
   schema:duration "PT60M";
   schema:endDate "2025-11-19T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3919 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43919 a schema:AggregateOffer;
   schema:lowPrice "16.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/246801ANRVNCSBPMGDKKPTLRSDNBSTGNL>
@@ -1568,11 +1607,11 @@ _:e70931fcb28847b88ef2132d045511ef3919 a schema:AggregateOffer;
   schema:startDate "2025-12-20T15:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e6b8d646-abda-4f3b-aebf-938cc1e6cef3.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3920;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43920;
   schema:duration "PT90M";
   schema:endDate "2025-12-20T16:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3920 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43920 a schema:AggregateOffer;
   schema:lowPrice "22.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/247001AQDRVNKPVSCJQSDPLSRGQPMBJLG>
@@ -1588,11 +1627,11 @@ _:e70931fcb28847b88ef2132d045511ef3920 a schema:AggregateOffer;
   schema:startDate "2025-12-20T15:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e6b8d646-abda-4f3b-aebf-938cc1e6cef3.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3921;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43921;
   schema:duration "PT90M";
   schema:endDate "2025-12-20T16:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3921 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43921 a schema:AggregateOffer;
   schema:lowPrice "22.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/247201ASHBBDKKMNHGVTHMDBBKBBPGBVM>
@@ -1608,11 +1647,11 @@ _:e70931fcb28847b88ef2132d045511ef3921 a schema:AggregateOffer;
   schema:startDate "2025-12-20T15:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e6b8d646-abda-4f3b-aebf-938cc1e6cef3.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3922;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43922;
   schema:duration "PT90M";
   schema:endDate "2025-12-20T16:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3922 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43922 a schema:AggregateOffer;
   schema:lowPrice "22.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/280201AKTVQJKJHTQRDNJPPJPVNLKCLPL>
@@ -1628,11 +1667,11 @@ _:e70931fcb28847b88ef2132d045511ef3922 a schema:AggregateOffer;
   schema:startDate "2025-10-01T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/b2fd7c52-088a-4540-a0c1-ba32e9217ee8.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3923;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43923;
   schema:duration "PT60M";
   schema:endDate "2025-10-01T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3923 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43923 a schema:AggregateOffer;
   schema:lowPrice "14.6" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/280401AGLBQGDSVTNGMSRPPTGLRSGCPVV>
@@ -1648,11 +1687,11 @@ _:e70931fcb28847b88ef2132d045511ef3923 a schema:AggregateOffer;
   schema:startDate "2025-10-04T18:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/8cd8d23a-f411-40df-9601-53257028ea96.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3924;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43924;
   schema:duration "PT60M";
   schema:endDate "2025-10-04T19:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3924 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43924 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/244401AKPMPPBRSDVMDDGLKDRGHVCBGCS>
@@ -1668,16 +1707,24 @@ _:e70931fcb28847b88ef2132d045511ef3924 a schema:AggregateOffer;
   schema:startDate "2025-09-20T16:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/bfe36650-2fcd-4815-8c64-3e7d32d6f62d.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/4401APLLPBSHLDJVTLGBDQTQBHJDJSHCM>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3925;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43925;
   schema:duration "PT60M";
   schema:endDate "2025-09-20T17:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3925 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43925 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <https://spektrix.com/kelownacommunitytheatre/location/4401APLLPBSHLDJVTLGBDQTQBHJDJSHCM>
   a schema:Place;
-  schema:name "Apple Bowl Stadium" .
+  schema:name "Apple Bowl Stadium";
+  schema:address <https://spektrix.com/kelownacommunitytheatre/address/4401APLLPBSHLDJVTLGBDQTQBHJDJSHCM> .
+
+<https://spektrix.com/kelownacommunitytheatre/address/4401APLLPBSHLDJVTLGBDQTQBHJDJSHCM>
+  a schema:PostalAddress;
+  schema:streetAddress "1555 Burtch Rd";
+  schema:addressLocality "Kelowna";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/243802ACJTHPBVDVSHDCVJMNCLBNVKQGG>
   a schema:Event;
@@ -1692,11 +1739,11 @@ _:e70931fcb28847b88ef2132d045511ef3925 a schema:AggregateOffer;
   schema:startDate "2025-09-13T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/65e64e7a-98b2-4691-b6e6-dffd6b8ef3a8.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/4401APLLPBSHLDJVTLGBDQTQBHJDJSHCM>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3926;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43926;
   schema:duration "PT60M";
   schema:endDate "2025-09-13T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3926 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43926 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/234001ASHTVBTDMGNCNTCCVJRDQKRSNNT>
@@ -1712,11 +1759,11 @@ _:e70931fcb28847b88ef2132d045511ef3926 a schema:AggregateOffer;
   schema:startDate "2025-09-27T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/2435d5fb-deda-4f49-bdca-4761ff40a33d.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3927;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43927;
   schema:duration "PT60M";
   schema:endDate "2025-09-27T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3927 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43927 a schema:AggregateOffer;
   schema:lowPrice "30.5" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/233601ABDRDGTVGMKJRVHNMQHKJNDRGGQ>
@@ -1732,11 +1779,11 @@ _:e70931fcb28847b88ef2132d045511ef3927 a schema:AggregateOffer;
   schema:startDate "2025-09-27T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/2435d5fb-deda-4f49-bdca-4761ff40a33d.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3928;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43928;
   schema:duration "PT60M";
   schema:endDate "2025-09-27T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3928 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43928 a schema:AggregateOffer;
   schema:lowPrice "30.5" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/270001APQMBMMBKCRRDVGHJQBSPNCPRJJ>
@@ -1752,16 +1799,24 @@ _:e70931fcb28847b88ef2132d045511ef3928 a schema:AggregateOffer;
   schema:startDate "2025-10-18T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/c02dd461-f22d-4e58-a6e3-96adef432337.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3929;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43929;
   schema:duration "PT60M";
   schema:endDate "2025-10-18T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3929 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43929 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <https://spektrix.com/kelownacommunitytheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
   a schema:Place;
-  schema:name "Cleland Community Theatre" .
+  schema:name "Cleland Community Theatre";
+  schema:address <https://spektrix.com/kelownacommunitytheatre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/kelownacommunitytheatre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:PostalAddress;
+  schema:streetAddress "325 Power St";
+  schema:addressLocality "Penticton";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/269201ATLJPHDSKPNRVHSQMQNMSJVPTQM>
   a schema:Event;
@@ -1776,12 +1831,24 @@ _:e70931fcb28847b88ef2132d045511ef3929 a schema:AggregateOffer;
   schema:startDate "2025-10-17T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/79229ce3-f873-4e72-85a7-6365d5af092f.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3930;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43930;
   schema:duration "PT60M";
   schema:endDate "2025-10-17T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3930 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43930 a schema:AggregateOffer;
   schema:lowPrice "17.1" .
+
+<https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:Place;
+  schema:name "Kelowna Community Theatre";
+  schema:address <https://spektrix.com/kelownacommunitytheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/kelownacommunitytheatre/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:PostalAddress;
+  schema:streetAddress "1375 Water Street";
+  schema:addressLocality "Kelowna";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/272801AGMVKKSTHQSQGNBVBTLHNVTHDHG>
   a schema:Event;
@@ -1796,11 +1863,11 @@ _:e70931fcb28847b88ef2132d045511ef3930 a schema:AggregateOffer;
   schema:startDate "2026-05-08T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/c7f6eb2b-3ad9-4179-a703-76c41e665aed.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3931;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43931;
   schema:duration "PT60M";
   schema:endDate "2026-05-08T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3931 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43931 a schema:AggregateOffer;
   schema:lowPrice "17.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/273001ABRLQMNRKCMTSPKQVTNJSBQMRMM>
@@ -1816,11 +1883,11 @@ _:e70931fcb28847b88ef2132d045511ef3931 a schema:AggregateOffer;
   schema:startDate "2026-05-08T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/c7f6eb2b-3ad9-4179-a703-76c41e665aed.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3932;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43932;
   schema:duration "PT60M";
   schema:endDate "2026-05-08T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3932 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43932 a schema:AggregateOffer;
   schema:lowPrice "17.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/271801AMPRTMNVVNPDKSCDKLHVKDJNDLL>
@@ -1836,16 +1903,17 @@ _:e70931fcb28847b88ef2132d045511ef3932 a schema:AggregateOffer;
   schema:startDate "2026-02-07T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/c7054966-1077-4b41-88fd-91bb535fa1e2.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3933;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43933;
   schema:duration "PT60M";
   schema:endDate "2026-02-07T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3933 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43933 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <https://spektrix.com/kelownacommunitytheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
   a schema:Place;
-  schema:name "Cleland Community Theatre" .
+  schema:name "Cleland Community Theatre";
+  schema:address <https://spektrix.com/kelownacommunitytheatre/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/271601ABQSLCBLKPJNJRHBHNPRJVVRDSD>
   a schema:Event;
@@ -1860,16 +1928,12 @@ _:e70931fcb28847b88ef2132d045511ef3933 a schema:AggregateOffer;
   schema:startDate "2026-02-06T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/be1a608a-1b59-4edf-9e95-cd618fdd8ed1.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3934;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43934;
   schema:duration "PT60M";
   schema:endDate "2026-02-06T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3934 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43934 a schema:AggregateOffer;
   schema:lowPrice "17.1" .
-
-<https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
-  a schema:Place;
-  schema:name "Kelowna Community Theatre" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/272201ACMSCGCDHQTTJVQMHJVQPCGCDCL>
   a schema:Event;
@@ -1884,11 +1948,11 @@ _:e70931fcb28847b88ef2132d045511ef3934 a schema:AggregateOffer;
   schema:startDate "2026-03-07T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/c5d12391-2bea-4d1a-8a20-a41f8aa8b0ff.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3935;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43935;
   schema:duration "PT60M";
   schema:endDate "2026-03-07T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3935 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43935 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/272001AKGNHCMVGJVGMRHPVNLKPRKMQVV>
@@ -1904,11 +1968,11 @@ _:e70931fcb28847b88ef2132d045511ef3935 a schema:AggregateOffer;
   schema:startDate "2026-03-06T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/731c518d-1589-47b7-9566-2a784cee8d6c.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3936;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43936;
   schema:duration "PT60M";
   schema:endDate "2026-03-06T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3936 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43936 a schema:AggregateOffer;
   schema:lowPrice "17.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/270201ADBSRVQHMPLBRRJBLGMQPNMSRRN>
@@ -1924,11 +1988,11 @@ _:e70931fcb28847b88ef2132d045511ef3936 a schema:AggregateOffer;
   schema:startDate "2025-11-15T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/e1e549a5-936e-429e-8f45-a6650166c55b.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3937;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43937;
   schema:duration "PT60M";
   schema:endDate "2025-11-15T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3937 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43937 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/269601APDMKCPDNGQRVNPDTDPQSKDHRQS>
@@ -1944,11 +2008,11 @@ _:e70931fcb28847b88ef2132d045511ef3937 a schema:AggregateOffer;
   schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/1c95fd07-129b-4ac6-9f75-f321ad24ef65.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3938;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43938;
   schema:duration "PT60M";
   schema:endDate "2025-11-14T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3938 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43938 a schema:AggregateOffer;
   schema:lowPrice "17.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/271401ADVBLCMVMGBQCLMVQQKJGVSQVCJ>
@@ -1964,11 +2028,11 @@ _:e70931fcb28847b88ef2132d045511ef3938 a schema:AggregateOffer;
   schema:startDate "2025-12-20T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/66e61626-9c24-422e-b74d-5788e05d5c61.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3939;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43939;
   schema:duration "PT60M";
   schema:endDate "2025-12-20T15:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3939 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43939 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/269801ALVKBSNGHHQTTJTBLKLJMHPSNQT>
@@ -1984,11 +2048,11 @@ _:e70931fcb28847b88ef2132d045511ef3939 a schema:AggregateOffer;
   schema:startDate "2025-12-19T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/d9b90e31-38e3-465d-a351-ae9a05b77cae.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3940;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43940;
   schema:duration "PT60M";
   schema:endDate "2025-12-19T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3940 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43940 a schema:AggregateOffer;
   schema:lowPrice "17.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/272601AKMBNJSKQHNSMRNMHHNBSKDNJPG>
@@ -2004,11 +2068,11 @@ _:e70931fcb28847b88ef2132d045511ef3940 a schema:AggregateOffer;
   schema:startDate "2026-04-11T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/0b4489ae-1616-4df6-abea-edf629f1d23b.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3941;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43941;
   schema:duration "PT60M";
   schema:endDate "2026-04-11T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3941 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43941 a schema:AggregateOffer;
   schema:lowPrice "15.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/272401ASSJSQCTBDCBHGMHVMGBJLJHSPV>
@@ -2024,11 +2088,11 @@ _:e70931fcb28847b88ef2132d045511ef3941 a schema:AggregateOffer;
   schema:startDate "2026-04-10T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/b148ac3a-439f-4fca-964f-d02d4745ca4a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3942;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43942;
   schema:duration "PT60M";
   schema:endDate "2026-04-10T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3942 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43942 a schema:AggregateOffer;
   schema:lowPrice "17.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/205201ACVLJNDNCHMQQMVBRVKMJJQVVNM>
@@ -2049,7 +2113,15 @@ _:e70931fcb28847b88ef2132d045511ef3942 a schema:AggregateOffer;
 
 <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>
   a schema:Place;
-  schema:name "Rotary Centre For the Arts" .
+  schema:name "Rotary Centre For the Arts";
+  schema:address <https://spektrix.com/kelownacommunitytheatre/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
+
+<https://spektrix.com/kelownacommunitytheatre/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>
+  a schema:PostalAddress;
+  schema:streetAddress "Mary Irwin Theatre";
+  schema:addressLocality "421 Cawston Ave.";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/288002ANJLMBQMSHSTBJGPMQDQVGNQQBK>
   a schema:Event;
@@ -2064,11 +2136,11 @@ _:e70931fcb28847b88ef2132d045511ef3942 a schema:AggregateOffer;
   schema:startDate "2025-10-23T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/b638fa7c-c29d-4673-816a-daf260eaa6d0.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3943;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43943;
   schema:duration "PT60M";
   schema:endDate "2025-10-23T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3943 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43943 a schema:AggregateOffer;
   schema:lowPrice "22.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/276401AGTBMBHJLDKHMPCGJCVBBKHTHDK>
@@ -2084,11 +2156,11 @@ _:e70931fcb28847b88ef2132d045511ef3943 a schema:AggregateOffer;
   schema:startDate "2025-09-14T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/239bde76-5733-47bd-99ee-3c84fc10c582.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3944;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43944;
   schema:duration "PT60M";
   schema:endDate "2025-09-14T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3944 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43944 a schema:AggregateOffer;
   schema:lowPrice "52.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/257401AKDLTPKQDPVQGJSDVHRGSPQKDPM>
@@ -2104,11 +2176,11 @@ _:e70931fcb28847b88ef2132d045511ef3944 a schema:AggregateOffer;
   schema:startDate "2025-11-08T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/b78cee5e-50f1-40ef-98eb-226e618a1f23.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3945;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43945;
   schema:duration "PT110M";
   schema:endDate "2025-11-08T21:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3945 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43945 a schema:AggregateOffer;
   schema:lowPrice "31.85" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/260401AVDMRCCNHPKGDMVLRVGCGDBBRTP>
@@ -2124,11 +2196,11 @@ _:e70931fcb28847b88ef2132d045511ef3945 a schema:AggregateOffer;
   schema:startDate "2026-03-18T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/51954bcf-0691-4ef2-968c-f08109d0259f.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3946;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43946;
   schema:duration "PT60M";
   schema:endDate "2026-03-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3946 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43946 a schema:AggregateOffer;
   schema:lowPrice "28.85" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/278001AVQBLRCTQCTDPTVLRHKQHJLPTRH>
@@ -2144,11 +2216,11 @@ _:e70931fcb28847b88ef2132d045511ef3946 a schema:AggregateOffer;
   schema:startDate "2026-04-09T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/74401eb8-0685-4bfd-ad33-769d491a7200.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3947;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43947;
   schema:duration "PT90M";
   schema:endDate "2026-04-09T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3947 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43947 a schema:AggregateOffer;
   schema:lowPrice "42.64" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/256801ARCJKKKNKTMTNRJLLTTJMMBPCPG>
@@ -2164,11 +2236,11 @@ _:e70931fcb28847b88ef2132d045511ef3947 a schema:AggregateOffer;
   schema:startDate "2025-10-03T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/4734c414-9d0f-4861-b432-403b7ec1f9a3.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3948;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43948;
   schema:duration "PT120M";
   schema:endDate "2025-10-03T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3948 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43948 a schema:AggregateOffer;
   schema:lowPrice "28.74" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/257602AHGDTKHDSBSJGRMGPKPHNGVHMRV>
@@ -2184,11 +2256,11 @@ _:e70931fcb28847b88ef2132d045511ef3948 a schema:AggregateOffer;
   schema:startDate "2026-05-30T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/35fdd583-4a46-4008-82f1-f3334ccd1a5e.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3949;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43949;
   schema:duration "PT110M";
   schema:endDate "2026-05-30T21:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3949 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43949 a schema:AggregateOffer;
   schema:lowPrice "22.63" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/256802ANKNKPSLDPDPVPGQQSDHQRDRVHP>
@@ -2204,11 +2276,11 @@ _:e70931fcb28847b88ef2132d045511ef3949 a schema:AggregateOffer;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/9b949e92-074a-4f13-a063-2173efbf81b8.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3950;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43950;
   schema:duration "PT110M";
   schema:endDate "2025-11-21T21:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3950 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43950 a schema:AggregateOffer;
   schema:lowPrice "25.64" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/261001ABGQVKMTDCPVNCJKBJHRCBHLCST>
@@ -2224,11 +2296,11 @@ _:e70931fcb28847b88ef2132d045511ef3950 a schema:AggregateOffer;
   schema:startDate "2026-06-10T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/8d8498a6-7db4-4ba6-93b3-4ee079a67516.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3951;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43951;
   schema:duration "PT110M";
   schema:endDate "2026-06-10T21:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3951 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43951 a schema:AggregateOffer;
   schema:lowPrice "28.85" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/260601ALPSTLBVVKJPCHKGLPHKRHSQLQG>
@@ -2244,11 +2316,11 @@ _:e70931fcb28847b88ef2132d045511ef3951 a schema:AggregateOffer;
   schema:startDate "2026-04-17T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/72586b1d-4739-4dcd-9194-5a2295b20804.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3952;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43952;
   schema:duration "PT120M";
   schema:endDate "2026-04-17T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3952 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43952 a schema:AggregateOffer;
   schema:lowPrice "25.74" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/260801AKTCBSDJHPHPPPVNHQDDMRTVCVR>
@@ -2264,11 +2336,11 @@ _:e70931fcb28847b88ef2132d045511ef3952 a schema:AggregateOffer;
   schema:startDate "2026-04-30T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/51cc9b28-00ab-43e3-b08f-dd9705e72251.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3953;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43953;
   schema:duration "PT110M";
   schema:endDate "2026-04-30T21:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3953 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43953 a schema:AggregateOffer;
   schema:lowPrice "28.85" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/260201AVGTPVCGJSRMNPGDDVLVVTHHGTM>
@@ -2284,11 +2356,11 @@ _:e70931fcb28847b88ef2132d045511ef3953 a schema:AggregateOffer;
   schema:startDate "2026-02-18T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/ffc18959-fa1e-44a9-ac8c-ecb2558871fa.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3954;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43954;
   schema:duration "PT90M";
   schema:endDate "2026-02-18T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3954 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43954 a schema:AggregateOffer;
   schema:lowPrice "25.74" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/257601AKBTRNSNHMHMPLKHCQQRSGBVHPD>
@@ -2304,11 +2376,11 @@ _:e70931fcb28847b88ef2132d045511ef3954 a schema:AggregateOffer;
   schema:startDate "2025-12-15T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/ade20c8e-4c53-4195-9346-7f5a84433343.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3955;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43955;
   schema:duration "PT110M";
   schema:endDate "2025-12-15T21:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3955 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43955 a schema:AggregateOffer;
   schema:lowPrice "28.74" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/258601AJPNJQDJCMPTVRVSVLKNRMLJPJL>
@@ -2324,11 +2396,11 @@ _:e70931fcb28847b88ef2132d045511ef3955 a schema:AggregateOffer;
   schema:startDate "2026-01-27T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/37e53aa3-0ad7-4176-bdd3-ebafd7232602.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3956;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43956;
   schema:duration "PT70M";
   schema:endDate "2026-01-27T20:40:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3956 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43956 a schema:AggregateOffer;
   schema:lowPrice "35.06" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/259801AGVGTJVVHMJPHGQGNGTDGJCMNLT>
@@ -2344,11 +2416,11 @@ _:e70931fcb28847b88ef2132d045511ef3956 a schema:AggregateOffer;
   schema:startDate "2026-01-30T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/975525d2-6b27-48a7-8e81-5b38517cde33.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3957;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43957;
   schema:duration "PT50M";
   schema:endDate "2026-01-30T20:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3957 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43957 a schema:AggregateOffer;
   schema:lowPrice "28.85" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/257001ALJHVCGKJCNBJQHJBLCTCJDNCBR>
@@ -2364,11 +2436,11 @@ _:e70931fcb28847b88ef2132d045511ef3957 a schema:AggregateOffer;
   schema:startDate "2025-10-16T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/3146344c-99db-447c-9d85-141be4dea854.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3958;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43958;
   schema:duration "PT130M";
   schema:endDate "2025-10-16T21:40:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3958 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43958 a schema:AggregateOffer;
   schema:lowPrice "31.85" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/257802AKKKKJTRTJLBSSDKKKSHCNDGMDR>
@@ -2384,11 +2456,11 @@ _:e70931fcb28847b88ef2132d045511ef3958 a schema:AggregateOffer;
   schema:startDate "2026-03-26T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/f116c82b-43b9-4821-88a8-2063e76269dd.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3959;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43959;
   schema:duration "PT110M";
   schema:endDate "2026-03-26T21:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3959 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43959 a schema:AggregateOffer;
   schema:lowPrice "27.61" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/257201AMDHDHJNMPCLLLSHDDQRVRRQCLQ>
@@ -2404,11 +2476,11 @@ _:e70931fcb28847b88ef2132d045511ef3959 a schema:AggregateOffer;
   schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/c70fedf4-8c0d-4e31-8e8c-66458d24ad51.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3960;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43960;
   schema:duration "PT110M";
   schema:endDate "2025-12-06T21:20:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3960 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43960 a schema:AggregateOffer;
   schema:lowPrice "34.96" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/287401APTKLDBSGKBHBPCMGCRRNCVCHDL>
@@ -2424,11 +2496,11 @@ _:e70931fcb28847b88ef2132d045511ef3960 a schema:AggregateOffer;
   schema:startDate "2025-11-27T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/99c0fda5-0927-4f91-b526-e08eefd43d4e.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3961;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43961;
   schema:duration "PT60M";
   schema:endDate "2025-11-27T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3961 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43961 a schema:AggregateOffer;
   schema:lowPrice "23.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/286802AGJMDJNRKDKPVHBSLKJMCBJCMHB>
@@ -2444,11 +2516,11 @@ _:e70931fcb28847b88ef2132d045511ef3961 a schema:AggregateOffer;
   schema:startDate "2025-11-27T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/99c0fda5-0927-4f91-b526-e08eefd43d4e.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3962;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43962;
   schema:duration "PT60M";
   schema:endDate "2025-11-27T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3962 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43962 a schema:AggregateOffer;
   schema:lowPrice "23.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/287402AQJMCRKGPNGMSCQCBHGRNHQHTMT>
@@ -2464,11 +2536,11 @@ _:e70931fcb28847b88ef2132d045511ef3962 a schema:AggregateOffer;
   schema:startDate "2025-11-27T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/99c0fda5-0927-4f91-b526-e08eefd43d4e.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3963;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43963;
   schema:duration "PT60M";
   schema:endDate "2025-11-27T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3963 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43963 a schema:AggregateOffer;
   schema:lowPrice "23.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/287601ADQLVNJVLGSCVJRTLSVTKMQQLQK>
@@ -2484,11 +2556,11 @@ _:e70931fcb28847b88ef2132d045511ef3963 a schema:AggregateOffer;
   schema:startDate "2025-11-27T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/99c0fda5-0927-4f91-b526-e08eefd43d4e.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3964;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43964;
   schema:duration "PT60M";
   schema:endDate "2025-11-27T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3964 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43964 a schema:AggregateOffer;
   schema:lowPrice "23.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/287802ASNLCBHSNTVVSSGCBVLMTJSVDRS>
@@ -2504,11 +2576,11 @@ _:e70931fcb28847b88ef2132d045511ef3964 a schema:AggregateOffer;
   schema:startDate "2025-11-27T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/99c0fda5-0927-4f91-b526-e08eefd43d4e.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3965;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43965;
   schema:duration "PT60M";
   schema:endDate "2025-11-27T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3965 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43965 a schema:AggregateOffer;
   schema:lowPrice "23.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/286803ABNVDTLJHMCVCCNTMJTKHNBTNMH>
@@ -2524,11 +2596,11 @@ _:e70931fcb28847b88ef2132d045511ef3965 a schema:AggregateOffer;
   schema:startDate "2025-11-27T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/99c0fda5-0927-4f91-b526-e08eefd43d4e.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3966;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43966;
   schema:duration "PT60M";
   schema:endDate "2025-11-27T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3966 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43966 a schema:AggregateOffer;
   schema:lowPrice "23.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/287801ALPPVMMPVLRGTNNJPKGBRBRVHGN>
@@ -2544,11 +2616,11 @@ _:e70931fcb28847b88ef2132d045511ef3966 a schema:AggregateOffer;
   schema:startDate "2025-11-27T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/99c0fda5-0927-4f91-b526-e08eefd43d4e.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3967;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43967;
   schema:duration "PT60M";
   schema:endDate "2025-11-27T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3967 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43967 a schema:AggregateOffer;
   schema:lowPrice "23.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/285401APJJTPVQTNGBQLRCQTRRQPSBRTK>
@@ -2563,11 +2635,11 @@ _:e70931fcb28847b88ef2132d045511ef3967 a schema:AggregateOffer;
 """;
   schema:startDate "2026-10-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3968;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43968;
   schema:duration "PT60M";
   schema:endDate "2026-10-03T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3968 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43968 a schema:AggregateOffer;
   schema:lowPrice "56.44" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/276801ATGSPSPVGQKKSCNCHBSMHJCVLLB>
@@ -2583,11 +2655,11 @@ _:e70931fcb28847b88ef2132d045511ef3968 a schema:AggregateOffer;
   schema:startDate "2025-10-18T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/6b4fb12f-fe3d-4865-b7cb-63fde0dca1e3.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3969;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43969;
   schema:duration "PT60M";
   schema:endDate "2025-10-18T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3969 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43969 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/252001AGNQKNGRMGQCQGPJHPCQVPKDNVH>
@@ -2603,11 +2675,11 @@ _:e70931fcb28847b88ef2132d045511ef3969 a schema:AggregateOffer;
   schema:startDate "2025-11-20T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/137b6266-b415-438f-a338-740478184497.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3970;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43970;
   schema:duration "PT60M";
   schema:endDate "2025-11-20T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3970 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43970 a schema:AggregateOffer;
   schema:lowPrice "56.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/253601ANLKNBKSHBKMVJDCTRLTJRSMDJT>
@@ -2623,11 +2695,11 @@ _:e70931fcb28847b88ef2132d045511ef3970 a schema:AggregateOffer;
   schema:startDate "2025-11-20T16:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/5c8fa1ea-44c3-47ea-b762-d90df5d52697.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3971;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43971;
   schema:duration "PT60M";
   schema:endDate "2025-11-20T17:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3971 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43971 a schema:AggregateOffer;
   schema:lowPrice "89.25" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/265401ANTDRDDNTBRVGRSBDQMDGNNKDGL>
@@ -2643,11 +2715,11 @@ _:e70931fcb28847b88ef2132d045511ef3971 a schema:AggregateOffer;
   schema:startDate "2025-10-29T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/a166ac5b-2654-4518-83ff-e3f0851ab17e.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3972;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43972;
   schema:duration "PT60M";
   schema:endDate "2025-10-29T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3972 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43972 a schema:AggregateOffer;
   schema:lowPrice "39.4" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/275801ARMNRBMPMPDDLJDCTGNGMJJKLJB>
@@ -2663,16 +2735,22 @@ _:e70931fcb28847b88ef2132d045511ef3972 a schema:AggregateOffer;
   schema:startDate "2025-09-25T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/bcd7f0a0-4310-49e5-a764-2478856b2334.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3973;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43973;
   schema:duration "PT60M";
   schema:endDate "2025-09-25T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3973 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43973 a schema:AggregateOffer;
   schema:lowPrice "22.0" .
 
 <https://spektrix.com/kelownacommunitytheatre/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>
   a schema:Place;
-  schema:name "Black Box Theatre" .
+  schema:name "Black Box Theatre";
+  schema:address <https://spektrix.com/kelownacommunitytheatre/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
+
+<https://spektrix.com/kelownacommunitytheatre/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>
+  a schema:PostalAddress;
+  schema:streetAddress "Located at the rear of the Kelowna Community Theatre";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/209201ALGJRCGQCRKJKMSGQHJGCPHSBPM>
   a schema:Event;
@@ -2687,11 +2765,11 @@ _:e70931fcb28847b88ef2132d045511ef3973 a schema:AggregateOffer;
   schema:startDate "2025-10-03T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/0092eb07-cef0-4844-b012-3cb11b7c6d4a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3974;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43974;
   schema:duration "PT60M";
   schema:endDate "2025-10-03T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3974 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43974 a schema:AggregateOffer;
   schema:lowPrice "51.85" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/258202AHSRGVMMSQLRSCTRLRRLJGTBRGJ>
@@ -2707,11 +2785,11 @@ _:e70931fcb28847b88ef2132d045511ef3974 a schema:AggregateOffer;
   schema:startDate "2025-11-02T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/1491e7d2-34a5-4b14-93db-8b300ef1407c.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3975;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43975;
   schema:duration "PT60M";
   schema:endDate "2025-11-02T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3975 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43975 a schema:AggregateOffer;
   schema:lowPrice "51.6" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/241001ADRHRQCMPJLMGMKLTVLPCGHDVPP>
@@ -2727,11 +2805,11 @@ _:e70931fcb28847b88ef2132d045511ef3975 a schema:AggregateOffer;
   schema:startDate "2025-11-22T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/646930be-f3fd-4e9d-8750-48ef3dac8823.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3976;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43976;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3976 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43976 a schema:AggregateOffer;
   schema:lowPrice "88.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/241401ABSDTNNJSDQTBNJJDNJJGSQRSGM>
@@ -2747,11 +2825,11 @@ _:e70931fcb28847b88ef2132d045511ef3976 a schema:AggregateOffer;
   schema:startDate "2025-11-22T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/646930be-f3fd-4e9d-8750-48ef3dac8823.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3977;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43977;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3977 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43977 a schema:AggregateOffer;
   schema:lowPrice "88.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/281801ALGDKNRQDKMCHJGTPQKDBRSRBVM>
@@ -2767,11 +2845,11 @@ _:e70931fcb28847b88ef2132d045511ef3977 a schema:AggregateOffer;
   schema:startDate "2025-12-02T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/6d15b59a-916a-4c47-9ca9-92652b1dd669.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3978;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43978;
   schema:duration "PT60M";
   schema:endDate "2025-12-02T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3978 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43978 a schema:AggregateOffer;
   schema:lowPrice "48.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/281001ADGCTCHCKSNTBJTNGHCLMHRTJLB>
@@ -2787,11 +2865,11 @@ _:e70931fcb28847b88ef2132d045511ef3978 a schema:AggregateOffer;
   schema:startDate "2026-05-29T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/59fe6453-840b-4729-957c-d68e1a29b11d.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3979;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43979;
   schema:duration "PT60M";
   schema:endDate "2026-05-29T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3979 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43979 a schema:AggregateOffer;
   schema:lowPrice "43.31" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/263001ARRRGLBHGBVDQGMPPDLJNKQLRQH>
@@ -2807,11 +2885,11 @@ _:e70931fcb28847b88ef2132d045511ef3979 a schema:AggregateOffer;
   schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/52595ee0-d53c-497a-81fd-1a0dfbe13bfe.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3980;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43980;
   schema:duration "PT60M";
   schema:endDate "2025-12-06T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3980 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43980 a schema:AggregateOffer;
   schema:lowPrice "50.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/206001ADCDBKTCSPDMJTBKGKPPRDVCHPS>
@@ -2827,11 +2905,11 @@ _:e70931fcb28847b88ef2132d045511ef3980 a schema:AggregateOffer;
   schema:startDate "2025-10-07T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/8caa137a-8286-4350-b00d-fe556b233532.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3981;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43981;
   schema:duration "PT120M";
   schema:endDate "2025-10-07T21:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3981 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43981 a schema:AggregateOffer;
   schema:lowPrice "24.22" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/211201AQLSGBTMTQSTNJCGKMDLKLSGVSN>
@@ -2847,11 +2925,11 @@ _:e70931fcb28847b88ef2132d045511ef3981 a schema:AggregateOffer;
   schema:startDate "2025-11-09T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/47f130a1-b113-4262-ada6-eabe7de1fcef.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3982;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43982;
   schema:duration "PT60M";
   schema:endDate "2025-11-09T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3982 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43982 a schema:AggregateOffer;
   schema:lowPrice "54.6" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/268601ASVQMRRBGTRNHMCPVPPMRCNBTKN>
@@ -2867,11 +2945,11 @@ _:e70931fcb28847b88ef2132d045511ef3982 a schema:AggregateOffer;
   schema:startDate "2025-11-27T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/10799059-0638-43a0-8653-c510d6d3c006.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3983;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43983;
   schema:duration "PT90M";
   schema:endDate "2025-11-27T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3983 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43983 a schema:AggregateOffer;
   schema:lowPrice "52.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/268401ALLDMPRBRKSGLPSNTCHLVCKHGLT>
@@ -2887,11 +2965,11 @@ _:e70931fcb28847b88ef2132d045511ef3983 a schema:AggregateOffer;
   schema:startDate "2025-11-27T16:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/ada937c9-12f0-41a2-932b-86027910a7a4.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3984;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43984;
   schema:duration "PT90M";
   schema:endDate "2025-11-27T17:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3984 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43984 a schema:AggregateOffer;
   schema:lowPrice "52.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/265601AMLLBGKNJVQTHQRKKPMMKVPDDVD>
@@ -2907,11 +2985,11 @@ _:e70931fcb28847b88ef2132d045511ef3984 a schema:AggregateOffer;
   schema:startDate "2025-10-29T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/5adbd843-7c08-4479-9d24-2b5a0fdfbefd.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3985;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43985;
   schema:duration "PT60M";
   schema:endDate "2025-10-29T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3985 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43985 a schema:AggregateOffer;
   schema:lowPrice "42.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/265801ASDRNQHTQBPMRNVSJDVQRJJNMNS>
@@ -2927,11 +3005,11 @@ _:e70931fcb28847b88ef2132d045511ef3985 a schema:AggregateOffer;
   schema:startDate "2025-10-29T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/5adbd843-7c08-4479-9d24-2b5a0fdfbefd.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3986;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43986;
   schema:duration "PT60M";
   schema:endDate "2025-10-29T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3986 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43986 a schema:AggregateOffer;
   schema:lowPrice "42.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/258801ASJTPPGSBKTHTGJVDBKVGHJQQJD>
@@ -2947,11 +3025,11 @@ _:e70931fcb28847b88ef2132d045511ef3986 a schema:AggregateOffer;
   schema:startDate "2025-07-13T18:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/5fcd04a9-111a-45a0-8cb5-c662c5774794.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3987;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43987;
   schema:duration "PT60M";
   schema:endDate "2025-07-13T19:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3987 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43987 a schema:AggregateOffer;
   schema:lowPrice "32.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/277801ANGCPRHSJVQJKCDPLJTQRHKTMMG>
@@ -2967,11 +3045,11 @@ _:e70931fcb28847b88ef2132d045511ef3987 a schema:AggregateOffer;
   schema:startDate "2025-12-01T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/055796ae-97df-49c6-a300-49dd77cb13f8.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3988;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43988;
   schema:duration "PT60M";
   schema:endDate "2025-12-01T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3988 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43988 a schema:AggregateOffer;
   schema:lowPrice "41.6" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/278201ALSPSKDGQGKMMPKVMMKBMSCPJVS>
@@ -2982,11 +3060,11 @@ _:e70931fcb28847b88ef2132d045511ef3988 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-01T16:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3989;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43989;
   schema:duration "PT60M";
   schema:endDate "2025-12-01T17:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3989 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43989 a schema:AggregateOffer;
   schema:lowPrice "273.6" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/278401ATSTMRNLKVBNRKPLJJLSRKMQCQC>
@@ -2997,11 +3075,11 @@ _:e70931fcb28847b88ef2132d045511ef3989 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-01T16:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3990;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43990;
   schema:duration "PT60M";
   schema:endDate "2025-12-01T17:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3990 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43990 a schema:AggregateOffer;
   schema:lowPrice "89.37" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/238201AVGVDBDRSLQJMDGLVCRQHHMRBSL>
@@ -3017,11 +3095,11 @@ _:e70931fcb28847b88ef2132d045511ef3990 a schema:AggregateOffer;
   schema:startDate "2025-09-20T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/f471c4ab-84ad-4932-867a-3d349d6a088e.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3991;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43991;
   schema:duration "PT60M";
   schema:endDate "2025-09-20T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3991 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43991 a schema:AggregateOffer;
   schema:lowPrice "47.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/282401ACMMJJVMCSDTMRDRDQLDGPTKLRS>
@@ -3037,11 +3115,11 @@ _:e70931fcb28847b88ef2132d045511ef3991 a schema:AggregateOffer;
   schema:startDate "2026-02-04T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/fbfff396-443e-4ded-b452-afd80e6cff2f.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3992;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43992;
   schema:duration "PT90M";
   schema:endDate "2026-02-04T21:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3992 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43992 a schema:AggregateOffer;
   schema:lowPrice "44.36" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/259601ATHNQRVKSSMPLCSVVTMPBSNBGMM>
@@ -3057,11 +3135,11 @@ _:e70931fcb28847b88ef2132d045511ef3992 a schema:AggregateOffer;
   schema:startDate "2026-01-28T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/9c9cc6b2-d8c4-49f6-9bdb-b44f756218a2.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3993;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43993;
   schema:duration "PT60M";
   schema:endDate "2026-01-28T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3993 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43993 a schema:AggregateOffer;
   schema:lowPrice "46.16" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/262801AHSTTHCVQCTJGPBNLSHTLKLQPDT>
@@ -3077,11 +3155,11 @@ _:e70931fcb28847b88ef2132d045511ef3993 a schema:AggregateOffer;
   schema:startDate "2026-01-28T21:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/ca219685-5b7a-4c7d-8d66-3fe029a6d9dd.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3994;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43994;
   schema:duration "PT60M";
   schema:endDate "2026-01-28T22:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3994 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43994 a schema:AggregateOffer;
   schema:lowPrice "50.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/281601AVMGGHHBQLKGGCCBDHVMHLHGNJB>
@@ -3097,11 +3175,11 @@ _:e70931fcb28847b88ef2132d045511ef3994 a schema:AggregateOffer;
   schema:startDate "2025-11-01T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/9f6ead74-c4f1-4519-aa7b-59b2e015e746.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3995;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43995;
   schema:duration "PT60M";
   schema:endDate "2025-11-01T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3995 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43995 a schema:AggregateOffer;
   schema:lowPrice "24.1" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/282001ADLJCDDNRMHQTPLKPVHHTTTVGHP>
@@ -3117,11 +3195,11 @@ _:e70931fcb28847b88ef2132d045511ef3995 a schema:AggregateOffer;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/a2a5a031-7bec-42ed-8128-7536bb66f858.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3996;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43996;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3996 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43996 a schema:AggregateOffer;
   schema:lowPrice "89.55" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/278002ANDQBBLPQBMPLBGPRDKJBNGBSBC>
@@ -3137,11 +3215,11 @@ _:e70931fcb28847b88ef2132d045511ef3996 a schema:AggregateOffer;
   schema:startDate "2025-09-04T18:15:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/73917337-326b-4363-a013-121d0bdd7b9a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3997;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43997;
   schema:duration "PT60M";
   schema:endDate "2025-09-04T19:15:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3997 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43997 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/288601ANKDTLNSQPSCBDBRCDCBDLKTDJC>
@@ -3157,11 +3235,11 @@ _:e70931fcb28847b88ef2132d045511ef3997 a schema:AggregateOffer;
   schema:startDate "2025-11-15T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/b37eac38-b8ce-4460-a9df-656fd5e6ad2f.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3998;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43998;
   schema:duration "PT60M";
   schema:endDate "2025-11-15T20:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3998 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43998 a schema:AggregateOffer;
   schema:lowPrice "43.71" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/284201ADJVTTDVLGQTCSLQBTGTDLHMGST>
@@ -3177,11 +3255,11 @@ _:e70931fcb28847b88ef2132d045511ef3998 a schema:AggregateOffer;
   schema:startDate "2025-10-21T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/f4a0ee16-b778-47fe-a323-703ed07b6d71.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef3999;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb43999;
   schema:duration "PT60M";
   schema:endDate "2025-10-21T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef3999 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb43999 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/281401AGSBJGBSMDTNTCDSRTSMKTKPSMN>
@@ -3197,11 +3275,11 @@ _:e70931fcb28847b88ef2132d045511ef3999 a schema:AggregateOffer;
   schema:startDate "2025-10-09T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/06994a6a-c68a-45ea-a74f-658e7f4c6a84.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef4000;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb44000;
   schema:duration "PT60M";
   schema:endDate "2025-10-09T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef4000 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb44000 a schema:AggregateOffer;
   schema:lowPrice "0.0" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/279001ABTRKRMGMNVMRJDNBSNPPRRSSQJ>
@@ -3217,11 +3295,11 @@ _:e70931fcb28847b88ef2132d045511ef4000 a schema:AggregateOffer;
   schema:startDate "2025-10-18T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/0adec70c-b111-4f6e-837b-3e9607073c3a.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef4001;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb44001;
   schema:duration "PT60M";
   schema:endDate "2025-10-18T20:00:00" .
 
-_:e70931fcb28847b88ef2132d045511ef4001 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb44001 a schema:AggregateOffer;
   schema:lowPrice "34.81" .
 
 <http://www.spektrix.com/kelownacommunitytheatre/event/282801AHQRRLVVGDGBLSPGBPNGVVNLGQD>
@@ -3237,9 +3315,9 @@ _:e70931fcb28847b88ef2132d045511ef4001 a schema:AggregateOffer;
   schema:startDate "2025-11-01T18:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/kelownacommunitytheatre/files/c05f32a3-0e54-4270-b23d-8d007f337a7c.jpg>;
   schema:location <https://spektrix.com/kelownacommunitytheatre/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:e70931fcb28847b88ef2132d045511ef4002;
+  schema:offers _:8634a2eb944c40beb00aede27390cbb44002;
   schema:duration "PT60M";
   schema:endDate "2025-11-01T19:30:00" .
 
-_:e70931fcb28847b88ef2132d045511ef4002 a schema:AggregateOffer;
+_:8634a2eb944c40beb00aede27390cbb44002 a schema:AggregateOffer;
   schema:lowPrice "22.05" .
