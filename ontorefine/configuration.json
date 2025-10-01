@@ -634,7 +634,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "if(cells['_ - locations - _ - address - streetAddress'].value, \"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/address/\" + cells[\"_ - locations - _ - id\"].value, null)"
+                      "expression": "if(isBlank(cells['_ - locations - _ - address - streetAddress'].value), \n  null, \n  \"https://spektrix.com/\" + cells[\"_ - source\"].value + \"/address/\" + cells[\"_ - locations - _ - id\"].value\n)"
                     },
                     "valueType": {
                       "type": "iri",
@@ -681,7 +681,7 @@
               },
               "transformation": {
                 "language": "grel",
-                "expression": "if(cells['_ - locations - _ - address - streetAddress'].value, \"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/address/\" + cells[\"_ - locations - _ - id\"].value, null)"
+                "expression": "if(isBlank(cells['_ - locations - _ - address - streetAddress'].value), \n  null, \n  \"https://spektrix.com/\" + cells[\"_ - source\"].value + \"/address/\" + cells[\"_ - locations - _ - id\"].value\n)"
               }
             },
             "typeMappings": [
