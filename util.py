@@ -1,13 +1,16 @@
 import re
 
 def split_address(address: str) -> dict:
+    if address == "" or address is None:
+        return {}
     if isinstance(address, dict):
         return address  # Already split
     return {
         "streetAddress": extract_street_address(address),
         "addressLocality": extract_locality(address),
         "addressRegion": extract_region(address),
-        "postalCode": extract_postal_code(address)
+        "postalCode": extract_postal_code(address),
+        "addressCountry": "CA"
     }
 
 def extract_street_address(address: str) -> str:
@@ -82,6 +85,6 @@ def replace_empty_with_null(obj):
 
 if __name__ == "__main__":
     # Example usage
-    address = "123 Main St., Vancouver, BC V5K 0A1"
+    address = "453 St. Francois-Xavier, Montreal, QC, HZY 2T1"
     split = split_address(address)
     print(split)

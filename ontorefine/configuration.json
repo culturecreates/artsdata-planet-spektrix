@@ -634,7 +634,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "\"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/address/\" + cells[\"_ - locations - _ - id\"].value"
+                      "expression": "if(cells['_ - locations - _ - address - streetAddress'].value, \"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/address/\" + cells[\"_ - locations - _ - id\"].value, null)"
                     },
                     "valueType": {
                       "type": "iri",
@@ -681,7 +681,7 @@
               },
               "transformation": {
                 "language": "grel",
-                "expression": "\"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/address/\" + cells[\"_ - locations - _ - id\"].value"
+                "expression": "if(cells['_ - locations - _ - address - streetAddress'].value, \"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/address/\" + cells[\"_ - locations - _ - id\"].value, null)"
               }
             },
             "typeMappings": [
@@ -803,8 +803,8 @@
                 "values": [
                   {
                     "valueSource": {
-                      "source": "constant",
-                      "constant": "CA"
+                      "source": "column",
+                      "columnName": "_ - locations - _ - address - addressCountry"
                     },
                     "valueType": {
                       "type": "literal"
