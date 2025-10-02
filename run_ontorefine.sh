@@ -6,7 +6,7 @@ column_additions_file="ontorefine/columns.json"
 jq '.operations |= (input + .)' $config_file $column_additions_file > updated-configuration.json
 
 source .venv/bin/activate # activate the virtual environment if applicable
-SOURCE=kaymeekcentre python3 main.py
+SOURCE=manitobaopera python3 main.py
 deactivate
 
 # Start the services in the background
@@ -21,7 +21,7 @@ echo "Server started!"
 
 # Send a command to the running container
 echo "Running OntoRefine CLI using config.json..."
-sudo docker exec onto_refine /opt/ontorefine/dist/bin/ontorefine-cli transform ../data/json_data/kaymeekcentre.json \
+sudo docker exec onto_refine_spektrix /opt/ontorefine/dist/bin/ontorefine-cli transform ../data/json_data/manitobaopera.json \
   -u http://localhost:7333  \
   --no-clean \
   --configurations ../data/updated-configuration.json  \
