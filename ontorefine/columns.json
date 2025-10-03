@@ -144,5 +144,70 @@
         "onEmpty": "set-to-blank",
         "newColumnName": "_ - attribute_Presenter",
         "columnInsertIndex": 1
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "_ - id",
+        "expression": "set-to-blank",
+        "onError": "set-to-blank",
+        "onEmpty": "set-to-blank",
+        "newColumnName": "_ - locations - _ - address - streetAddress",
+        "columnInsertIndex": 1
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "_ - id",
+        "expression": "set-to-blank",
+        "onError": "set-to-blank",
+        "onEmpty": "set-to-blank",
+        "newColumnName": "_ - locations - _ - address - addressLocality",
+        "columnInsertIndex": 1
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "_ - id",
+        "expression": "set-to-blank",
+        "onError": "set-to-blank",
+        "onEmpty": "set-to-blank",
+        "newColumnName": "_ - locations - _ - address - addressRegion",
+        "columnInsertIndex": 1
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "_ - id",
+        "expression": "set-to-blank",
+        "onError": "set-to-blank",
+        "onEmpty": "set-to-blank",
+        "newColumnName": "_ - locations - _ - address - postalCode",
+        "columnInsertIndex": 1
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "_ - id",
+        "expression": "set-to-blank",
+        "onError": "set-to-blank",
+        "onEmpty": "set-to-blank",
+        "newColumnName": "_ - locations - _ - address - addressCountry",
+        "columnInsertIndex": 1
     }
 ]
