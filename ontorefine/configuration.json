@@ -213,7 +213,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "(\"https://spektrix.com/\" +cells[\"_ - source\"].value + \"/organization/\" + coalesce(cells[\"_ - attribute_PresenterName\"].value, cells[\"_ - attribute_PresentedBy\"].value).replace(\" \", \"-\")).toLowercase().strip()"
+                      "expression": "(\"https://spektrix.com/\" \n + cells[\"_ - source\"].value \n + \"/organization/\" \n + coalesce(\n      cells[\"_ - attribute_PresenterName\"].value, \n      cells[\"_ - attribute_PresentedBy\"].value, \n      cells[\"_ - attribute_Presenter\"].value\n   ).replace(\" \", \"-\")\n).toLowercase().strip()"
                     },
                     "valueType": {
                       "type": "iri",
@@ -248,7 +248,7 @@
                               },
                               "transformation": {
                                 "language": "grel",
-                                "expression": "coalesce(cells[\"_ - attribute_PresenterName\"].value, cells[\"_ - attribute_PresentedBy\"].value)"
+                                "expression": "coalesce(cells[\"_ - attribute_PresenterName\"].value, cells[\"_ - attribute_PresentedBy\"].value, cells[\"_ - attribute_Presenter\"].value)"
                               },
                               "valueType": {
                                 "type": "literal"
