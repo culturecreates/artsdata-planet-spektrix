@@ -1,5 +1,17 @@
 import re
 
+def extract_numbers(instance_id: str) -> str:
+    # Extract all the numbers from the instance_id"
+    if instance_id is None:
+        return None
+    match = re.search(r'\d+', instance_id)
+    if match:
+        return match.group(0)
+
+TRANSFORMATIONS = {
+    "extractID": extract_numbers
+}
+
 def split_address(address: str) -> dict:
     if address == "" or address is None:
         return {}
@@ -63,9 +75,18 @@ def add_additional_info(event: dict, additional_info: dict) -> dict:
         if event.get(key) is None and value is not None:
             placeholders = extract_placeholders(value)
             for placeholder in placeholders:
-                placeholder_value = event.get(placeholder)
-                if placeholder_value:
-                    value = value.replace(f"{{{placeholder}}}", str(placeholder_value))
+                if "(" in placeholder and ")" in placeholder:
+                    func_name, arg = re.match(r"(\w+)\((\w+)\)", placeholder).groups()
+                    func = TRANSFORMATIONS.get(func_name)
+                    if func:
+                        arg_value = event.get(arg)
+                        if arg_value is not None:
+                            transformed = func(arg_value)
+                            value = value.replace(f"{{{placeholder}}}", str(transformed))
+                else:
+                    placeholder_value = event.get(placeholder)
+                    if placeholder_value:
+                        value = value.replace(f"{{{placeholder}}}", str(placeholder_value))
             event[key] = value
     return event
 

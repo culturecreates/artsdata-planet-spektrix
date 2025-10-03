@@ -28,7 +28,7 @@ jobs:
         run: |
           IFS=',' read -ra SOURCES <<< "${{ inputs.sources }}"
           for source in "${SOURCES[@]}"; do
-            SOURCE=$source python3 main.py
+            SOURCE=$source python3 src/main.py
           done
 
       - name: upload artifacts
