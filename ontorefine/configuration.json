@@ -493,6 +493,29 @@
                               }
                             }
                           ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "priceCurrency"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "CAD"
+                              },
+                              "valueType": {
+                                "type": "literal"
+                              }
+                            }
+                          ]
                         }
                       ]
                     }
