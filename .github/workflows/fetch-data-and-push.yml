@@ -145,5 +145,5 @@ jobs:
         uses: culturecreates/artsdata-pipeline-action@v1.1.0
         with:
           artifact: ${{ matrix.artifact }}
-          publisher: ${{ secrets.PUBLISHER_URI_GREGORY }}
+          publisher: "https://github.com/fjjulien#this"
           downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-spektrix/main/outputs/${{ matrix.file_name }}
