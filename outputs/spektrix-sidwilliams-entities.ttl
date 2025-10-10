@@ -8,18 +8,18 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/sidwilliams/event/143201ALKQBKGTBLRTMBHLJSQRRLDCPNK> a schema:Event;
-  schema:name "49th CVCDA Children's Telethon";
+<http://www.spektrix.com/sidwilliams/event/172801ATMCQGGRJSSBMVTVCJMNTBPMRQB> a schema:Event;
+  schema:name "50th CVCDA Children's Telethon";
   schema:description """
-	The Comox Valley Child Development Association (CVCDA) will once again host their 2024 CVDA Children's Telethon with open doors at the Sid Williams Theatre to celebrate their community and dedicated supporters. <span><br/></span><span><br/></span>The Telethon is a FREE event where the whole family can come down and experience a live Rogers tv broadcast, enjoy over 30 performances, raffles, special guests, kids activities and simply just be part of the wonderful fundraising spirit of the Comox Valley. <span><br/></span><span><br/></span>Families will also have the opportunity to view from the comforts of their own home or where ever they are in real-time from their TVs or streaming devices. <span><br/></span><span><br/></span>Visit <a target=\"_blank\" href=\"https://www.cvcda.ca/telethon/\"> CVCDA.ca</a> for more details and to stream the telethon on Sun. November 3rd.
+	The Comox Valley Child Development Association (CVCDA) will host the 50th Annual CVCDA Children's Telethon this year with doors open at the Sid Williams Theatre to celebrate their community and dedicated supporters! <span><br/></span> <span><br/></span>The Telethon is a FREE event where the whole family can come down and experience a live Rogers TV broadcast, enjoy over 30 performances, raffles, special guests, kids activities and simply just be part of the wonderful fundraising spirit of the Comox Valley. <span><br/></span> <span><br/></span>Families will also have the opportunity to view from the comforts of their own home or where ever they are in real-time from their TVs or streaming devices. <span><br/></span> <span><br/></span>Visit CVCDA.ca for more details and to stream the telethon on Sun. November 2nd. 
 """;
-  schema:startDate "2024-11-03T12:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/059d15dc-648d-4c4f-832d-d739d5c7d669.jpg>;
+  schema:startDate "2025-11-02T12:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/37985918-f72c-4a66-8312-02fd2375eb89.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/comox-valley-child-development-association>;
   schema:keywords "Telethon";
   schema:duration "PT60M";
-  schema:endDate "2024-11-03T13:00:00" .
+  schema:endDate "2025-11-02T13:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/comox-valley-child-development-association>
   a schema:Organization;
@@ -36,19 +36,6 @@
   schema:postalCode "V9N 2J2";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/sidwilliams/event/172801ATMCQGGRJSSBMVTVCJMNTBPMRQB> a schema:Event;
-  schema:name "50th CVCDA Children's Telethon";
-  schema:description """
-	The Comox Valley Child Development Association (CVCDA) will host the 50th Annual CVCDA Children's Telethon this year with doors open at the Sid Williams Theatre to celebrate their community and dedicated supporters! <span><br/></span> <span><br/></span>The Telethon is a FREE event where the whole family can come down and experience a live Rogers TV broadcast, enjoy over 30 performances, raffles, special guests, kids activities and simply just be part of the wonderful fundraising spirit of the Comox Valley. <span><br/></span> <span><br/></span>Families will also have the opportunity to view from the comforts of their own home or where ever they are in real-time from their TVs or streaming devices. <span><br/></span> <span><br/></span>Visit CVCDA.ca for more details and to stream the telethon on Sun. November 2nd. 
-""";
-  schema:startDate "2025-11-02T12:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/37985918-f72c-4a66-8312-02fd2375eb89.jpg>;
-  schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:organizer <https://spektrix.com/sidwilliams/organization/comox-valley-child-development-association>;
-  schema:keywords "Telethon";
-  schema:duration "PT60M";
-  schema:endDate "2025-11-02T13:00:00" .
-
 <http://www.spektrix.com/sidwilliams/event/160601ADJVCJMCTBNCKNSGQTRCHHHDVHN> a schema:Event;
   schema:name "A Perfectly Reasonable Night of Comedy";
   schema:description """
@@ -58,15 +45,15 @@
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/3c898a6f-4083-4f8c-b80d-2c64ede0fcdf.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01184;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71188;
   schema:keywords "Comedy";
   schema:duration "PT60M";
-  schema:endDate "2025-10-12T20:30:00" .
+  schema:endDate "2025-10-12T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society> a schema:Organization;
   schema:name "Sid Williams Theatre Society" .
 
-_:0ece7e74912a4f6a87144562a251ddf01184 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71188 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=160601>;
   schema:lowPrice "35.6";
   schema:priceCurrency "CAD" .
@@ -80,16 +67,16 @@ _:0ece7e74912a4f6a87144562a251ddf01184 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/f1315d0a-853f-4a5d-9045-6d1789fae7b0.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/quantum-dental-group-&-in-support-of--operation-freedom-paws-canada>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01185;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71189;
   schema:keywords "Speaker";
   schema:duration "PT60M";
-  schema:endDate "2025-11-06T20:30:00" .
+  schema:endDate "2025-11-06T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/quantum-dental-group-&-in-support-of--operation-freedom-paws-canada>
   a schema:Organization;
   schema:name "Quantum Dental Group & In Support Of  Operation Freedom Paws Canada" .
 
-_:0ece7e74912a4f6a87144562a251ddf01185 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71189 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=170401>;
   schema:lowPrice "56.6";
   schema:priceCurrency "CAD" .
@@ -103,12 +90,12 @@ _:0ece7e74912a4f6a87144562a251ddf01185 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/8bed676e-1409-499b-8863-36aa602661b1.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01186;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71190;
   schema:keywords "Dance - Ballet";
   schema:duration "PT60M";
-  schema:endDate "2025-10-28T20:30:00" .
+  schema:endDate "2025-10-28T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01186 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71190 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=163401>;
   schema:lowPrice "26.1";
   schema:priceCurrency "CAD" .
@@ -122,12 +109,12 @@ _:0ece7e74912a4f6a87144562a251ddf01186 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/80ff84ba-2739-425d-ba6a-9655180e43bb.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01187;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71191;
   schema:keywords "Film";
   schema:duration "PT60M";
-  schema:endDate "2026-01-22T20:00:00" .
+  schema:endDate "2026-01-22T20:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01187 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71191 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=168201>;
   schema:lowPrice "25.6";
   schema:priceCurrency "CAD" .
@@ -137,16 +124,16 @@ _:0ece7e74912a4f6a87144562a251ddf01187 a schema:AggregateOffer;
   schema:description """
 	<h2>Film programs to be announced Tues Dec 16.</h2><span class=\"BoldText\">***PLEASE NOTE: We aim to screen 4 different film programs, however, due to film availability 2 screening dates <span class=\"UnderlineText\">may</span> have the same lineup.</span><span><br/></span><span><br/></span><span><br/></span><span class=\"BoldText\">Presenting partners:</span> Rab, Banff & Lake Louise Tourism<span><br/></span><span class=\"BoldText\">Sponsored by:</span> Oboz, YETI, World Expeditions, The Lake Louise Ski Resort, SLY Foods, DUER, Grangers, HOVERAir, NOLS<span><br/></span><span><br/></span><span><br/></span>Banff Centre Mountain Film and Book Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.<span><br/></span><span><br/></span>From the over 400 entries submitted into the Festival each year, award-winners and audience favorites are among the films that are carefully selected to play in theatres around the world.<span><br/></span><span><br/></span>Stand on the highest peaks, ski the steepest slopes, and be a part of the gripping adventures waiting for you in this year’s Banff Centre Mountain Film Festival World Tour. From exploring remote landscapes to adrenaline-fueled action sports, films selected for the 2025/26 World Tour are sure to captivate and amaze you.
 """;
-  schema:startDate "2026-01-22T19:00:00"^^xsd:dateTime;
+  schema:startDate "2026-01-23T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/80ff84ba-2739-425d-ba6a-9655180e43bb.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01188;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71192;
   schema:keywords "Film";
   schema:duration "PT60M";
-  schema:endDate "2026-01-22T20:00:00" .
+  schema:endDate "2026-01-23T20:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01188 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71192 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=168202>;
   schema:lowPrice "25.6";
   schema:priceCurrency "CAD" .
@@ -156,16 +143,16 @@ _:0ece7e74912a4f6a87144562a251ddf01188 a schema:AggregateOffer;
   schema:description """
 	<h2>Film programs to be announced Tues Dec 16.</h2><span class=\"BoldText\">***PLEASE NOTE: We aim to screen 4 different film programs, however, due to film availability 2 screening dates <span class=\"UnderlineText\">may</span> have the same lineup.</span><span><br/></span><span><br/></span><span><br/></span><span class=\"BoldText\">Presenting partners:</span> Rab, Banff & Lake Louise Tourism<span><br/></span><span class=\"BoldText\">Sponsored by:</span> Oboz, YETI, World Expeditions, The Lake Louise Ski Resort, SLY Foods, DUER, Grangers, HOVERAir, NOLS<span><br/></span><span><br/></span><span><br/></span>Banff Centre Mountain Film and Book Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.<span><br/></span><span><br/></span>From the over 400 entries submitted into the Festival each year, award-winners and audience favorites are among the films that are carefully selected to play in theatres around the world.<span><br/></span><span><br/></span>Stand on the highest peaks, ski the steepest slopes, and be a part of the gripping adventures waiting for you in this year’s Banff Centre Mountain Film Festival World Tour. From exploring remote landscapes to adrenaline-fueled action sports, films selected for the 2025/26 World Tour are sure to captivate and amaze you.
 """;
-  schema:startDate "2026-01-22T19:00:00"^^xsd:dateTime;
+  schema:startDate "2026-01-24T13:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/80ff84ba-2739-425d-ba6a-9655180e43bb.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01189;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71193;
   schema:keywords "Film";
   schema:duration "PT60M";
-  schema:endDate "2026-01-22T20:00:00" .
+  schema:endDate "2026-01-24T14:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01189 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71193 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=168401>;
   schema:lowPrice "25.6";
   schema:priceCurrency "CAD" .
@@ -175,16 +162,16 @@ _:0ece7e74912a4f6a87144562a251ddf01189 a schema:AggregateOffer;
   schema:description """
 	<h2>Film programs to be announced Tues Dec 16.</h2><span class=\"BoldText\">***PLEASE NOTE: We aim to screen 4 different film programs, however, due to film availability 2 screening dates <span class=\"UnderlineText\">may</span> have the same lineup.</span><span><br/></span><span><br/></span><span><br/></span><span class=\"BoldText\">Presenting partners:</span> Rab, Banff & Lake Louise Tourism<span><br/></span><span class=\"BoldText\">Sponsored by:</span> Oboz, YETI, World Expeditions, The Lake Louise Ski Resort, SLY Foods, DUER, Grangers, HOVERAir, NOLS<span><br/></span><span><br/></span><span><br/></span>Banff Centre Mountain Film and Book Festival is one of the largest and most prestigious mountain festivals in the world! Hot on the heels of the Festival that is held every fall in beautiful Banff, Alberta, the Banff Centre Mountain Film Festival World Tour hits the road. With stops planned in over 600 communities and more than 40 countries across the globe, the Banff World Tour celebrates amazing achievements in outdoor storytelling and filmmaking worldwide.<span><br/></span><span><br/></span>From the over 400 entries submitted into the Festival each year, award-winners and audience favorites are among the films that are carefully selected to play in theatres around the world.<span><br/></span><span><br/></span>Stand on the highest peaks, ski the steepest slopes, and be a part of the gripping adventures waiting for you in this year’s Banff Centre Mountain Film Festival World Tour. From exploring remote landscapes to adrenaline-fueled action sports, films selected for the 2025/26 World Tour are sure to captivate and amaze you.
 """;
-  schema:startDate "2026-01-22T19:00:00"^^xsd:dateTime;
+  schema:startDate "2026-01-24T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/80ff84ba-2739-425d-ba6a-9655180e43bb.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01190;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71194;
   schema:keywords "Film";
   schema:duration "PT60M";
-  schema:endDate "2026-01-22T20:00:00" .
+  schema:endDate "2026-01-24T20:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01190 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71194 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=168203>;
   schema:lowPrice "25.6";
   schema:priceCurrency "CAD" .
@@ -198,12 +185,12 @@ _:0ece7e74912a4f6a87144562a251ddf01190 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/df76af10-c19e-45b2-a105-cf1beddb9553.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01191;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71195;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-12-03T20:30:00" .
+  schema:endDate "2025-12-03T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01191 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71195 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=163801>;
   schema:lowPrice "41.6";
   schema:priceCurrency "CAD" .
@@ -217,12 +204,12 @@ _:0ece7e74912a4f6a87144562a251ddf01191 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/79477f63-7538-4387-8d68-a0d81ef96665.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01192;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71196;
   schema:keywords "Dance - Ballet";
   schema:duration "PT60M";
-  schema:endDate "2026-02-05T20:30:00" .
+  schema:endDate "2026-02-05T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01192 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71196 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=164601>;
   schema:lowPrice "51.6";
   schema:priceCurrency "CAD" .
@@ -236,15 +223,15 @@ _:0ece7e74912a4f6a87144562a251ddf01192 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/fb0ff014-13cf-4ffd-b588-5ce0ded71184.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/the-comedy-department>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01193;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71197;
   schema:keywords "Theatre - Comedy";
   schema:duration "PT60M";
-  schema:endDate "2026-03-14T20:30:00" .
+  schema:endDate "2026-03-14T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/the-comedy-department> a schema:Organization;
   schema:name "The Comedy Department" .
 
-_:0ece7e74912a4f6a87144562a251ddf01193 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71197 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=171601>;
   schema:lowPrice "49.35";
   schema:priceCurrency "CAD" .
@@ -260,7 +247,7 @@ _:0ece7e74912a4f6a87144562a251ddf01193 a schema:AggregateOffer;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
   schema:keywords "Cirque";
   schema:duration "PT60M";
-  schema:endDate "2025-10-17T20:30:00" .
+  schema:endDate "2025-10-17T20:30:00"^^xsd:dateTime .
 
 <http://www.spektrix.com/sidwilliams/event/164401AKSNPMTHMKMHHCRRBCHSMPGQPKL> a schema:Event;
   schema:name "Constellations";
@@ -271,12 +258,12 @@ _:0ece7e74912a4f6a87144562a251ddf01193 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/a1992cb0-24fb-4331-9141-b05208117d52.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01194;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71198;
   schema:keywords "Theatre";
   schema:duration "PT60M";
-  schema:endDate "2026-03-08T20:00:00" .
+  schema:endDate "2026-03-08T20:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01194 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71198 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=164401>;
   schema:lowPrice "33.6";
   schema:priceCurrency "CAD" .
@@ -290,16 +277,16 @@ _:0ece7e74912a4f6a87144562a251ddf01194 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/cb20f871-5ca7-4151-bbe3-a2e262462686.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/gee-dan-productions-&-sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01195;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71199;
   schema:keywords "Live music";
   schema:duration "PT60M";
-  schema:endDate "2025-10-18T20:30:00" .
+  schema:endDate "2025-10-18T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/gee-dan-productions-&-sid-williams-theatre-society>
   a schema:Organization;
   schema:name "Gee Dan Productions & Sid Williams Theatre Society" .
 
-_:0ece7e74912a4f6a87144562a251ddf01195 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71199 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=169401>;
   schema:lowPrice "67.1";
   schema:priceCurrency "CAD" .
@@ -313,15 +300,15 @@ _:0ece7e74912a4f6a87144562a251ddf01195 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/4e0a4fac-7271-49ca-9602-eea3719bf5f5.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sitka-stage-and-screen>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01196;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71200;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-09-07T20:30:00" .
+  schema:endDate "2025-09-07T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/sitka-stage-and-screen> a schema:Organization;
   schema:name "Sitka Stage and Screen" .
 
-_:0ece7e74912a4f6a87144562a251ddf01196 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71200 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=166201>;
   schema:lowPrice "21.6";
   schema:priceCurrency "CAD" .
@@ -331,16 +318,16 @@ _:0ece7e74912a4f6a87144562a251ddf01196 a schema:AggregateOffer;
   schema:description """
 	<a target=\"_blank\" href=\"https://www.sitkastageandscreen.com/\">Sitka Stage &amp; Screen</a> bring to the stage <span class=\"ItalicText\">Disney’s Finding Nemo JR.</span>, a 70-minute musical adaptation of the beloved 2003 Pixar movie <span class=\"ItalicText\">Finding Nemo</span>.<span><br/></span><span><br/></span>Marlin, an anxious and over-protective clownfish, lives in the Great Barrier Reef with his son Nemo, who longs to explore the world beyond their anemone home. But when Nemo is captured and taken to Sydney, Marlin faces his fears and sets off on an epic adventure across the ocean. With the help of lovable characters such as optimistic Dory, laid-back sea turtle Crush, and the supportive Tank Gang, Marlin and Nemo both overcome challenges on their journey to find each other and themselves.<span><br/></span>
 """;
-  schema:startDate "2025-09-07T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-09-08T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/4e0a4fac-7271-49ca-9602-eea3719bf5f5.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sitka-stage-and-screen>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01197;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71201;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-09-07T20:30:00" .
+  schema:endDate "2025-09-08T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01197 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71201 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=166202>;
   schema:lowPrice "21.6";
   schema:priceCurrency "CAD" .
@@ -354,15 +341,15 @@ _:0ece7e74912a4f6a87144562a251ddf01197 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/763f7ed7-c3ed-4a31-8432-1190986b9de4.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/mur-man-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01198;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71202;
   schema:keywords "Concert";
   schema:duration "PT60M";
-  schema:endDate "2026-01-16T20:30:00" .
+  schema:endDate "2026-01-16T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/mur-man-productions> a schema:Organization;
   schema:name "Mur-Man Productions" .
 
-_:0ece7e74912a4f6a87144562a251ddf01198 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71202 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=171001>;
   schema:lowPrice "48.6";
   schema:priceCurrency "CAD" .
@@ -376,12 +363,12 @@ _:0ece7e74912a4f6a87144562a251ddf01198 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/642f2649-0dc6-4608-8f54-755daef74b49.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01199;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71203;
   schema:keywords "Live music";
   schema:duration "PT60M";
-  schema:endDate "2026-02-13T20:30:00" .
+  schema:endDate "2026-02-13T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01199 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71203 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=163003>;
   schema:lowPrice "37.6";
   schema:priceCurrency "CAD" .
@@ -389,21 +376,21 @@ _:0ece7e74912a4f6a87144562a251ddf01199 a schema:AggregateOffer;
 <http://www.spektrix.com/sidwilliams/event/171401ALCQRTKKPGRKQRNLHRCJPNHGGVD> a schema:Event;
   schema:name "Fleetwood Magic The Authentic Tribute to Fleetwood Mac";
   schema:description """
-	Fleetwood Magic is more than a tribute-it's a time machine. Fleetwood Magic Tribute Show masterfully transports audiences in sound and time through a musical journey performing Fleetwood Mac's greatest hits from the 60's to the 80's, authentically recreating the sound, style. onstage chemistry and mystique of Fleetwood Mac's most iconic line-up. With stunning, vintage costumes. precise vocals. period- accurate instrumentation, and captivating on-stage personas, Fleetwood Magic delivers a live experience that reminds fans why Fleetwood Mac remains legendary.<span><br/></span><span><br/></span>The band channels the magic of the Rock and Roll Hall of Famers with stunning precision. Relive timeless classics like Rhiannon, Dreams, You make Loving fun, Say You Love Me, Go Your Own Way, and many more favourites. Listeners have come to realize the Rumours' are true  does indeed , deliver the Magic<span><br/></span>Don't Miss Fleetwood Magic live<span><br/></span>
+	Fleetwood Magic Tribute Show masterfully transports audiences in sound and time through a musical journey performing Fleetwood Mac’s greatest hits, authentically recreating the sound, style and mystique of Fleetwood Mac’s most iconic line-up. <span><br/></span><span><br/></span>With stunning vintage costumes, precise vocals, period-accurate instrumentation, and captivating on-stage personas, Fleetwood Magic delivers a live experience that reminds fans why Fleetwood Mac remains legendary.<span><br/></span><span><br/></span>Relive timeless classics like “Rhiannon,” “Dreams,” “You Make Loving Fun,” “Say You Love Me,” “The Chain,” “Go Your Own Way.” Listeners have come to realize the <span class=\"ItalicText\">‘Rumours’</span> are true – Fleetwood Magic does indeed, deliver the magic! <span><br/></span><span><br/></span>Consistently playing sold out shows to audiences across the Vancouver Lower Mainland and Western Canada, their shows have become a must see event for Fleetwood Mac music fans of all ages!<span><br/></span><span><br/></span>For more information about Fleetwood Magic, please visit:<span><br/></span><a target=\"_blank\" href=\"https://www.fleetwoodmagic.ca/\"> www.fleetwoodmagic.ca</a>
 """;
   schema:startDate "2026-09-19T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/e653d803-ef97-4b21-8892-706691581f86.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/rr-music-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01200;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71204;
   schema:keywords "Live music";
   schema:duration "PT60M";
-  schema:endDate "2026-09-19T20:30:00" .
+  schema:endDate "2026-09-19T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/rr-music-productions> a schema:Organization;
   schema:name "RR Music Productions" .
 
-_:0ece7e74912a4f6a87144562a251ddf01200 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71204 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=171401>;
   schema:lowPrice "59.0";
   schema:priceCurrency "CAD" .
@@ -417,12 +404,12 @@ _:0ece7e74912a4f6a87144562a251ddf01200 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/d7fe3a46-7f55-4bfe-8b2c-7f8ca0392080.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/rr-music-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01201;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71205;
   schema:keywords "Live music";
   schema:duration "PT60M";
-  schema:endDate "2025-09-19T20:30:00" .
+  schema:endDate "2025-09-19T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01201 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71205 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=141601>;
   schema:lowPrice "55.6";
   schema:priceCurrency "CAD" .
@@ -436,12 +423,12 @@ _:0ece7e74912a4f6a87144562a251ddf01201 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/2a84a177-cedb-4a80-a634-74d98e48de71.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01202;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71206;
   schema:keywords "Live music";
   schema:duration "PT60M";
-  schema:endDate "2025-12-14T20:30:00" .
+  schema:endDate "2025-12-14T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01202 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71206 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=164001>;
   schema:lowPrice "28.1";
   schema:priceCurrency "CAD" .
@@ -455,15 +442,15 @@ _:0ece7e74912a4f6a87144562a251ddf01202 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/b7c732ef-a038-4450-893b-a7e989e454b6.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/three-legged-dog-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01203;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71207;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-10-22T20:30:00" .
+  schema:endDate "2025-10-22T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/three-legged-dog-productions> a schema:Organization;
   schema:name "Three Legged Dog Productions" .
 
-_:0ece7e74912a4f6a87144562a251ddf01203 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71207 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=162001>;
   schema:lowPrice "31.6";
   schema:priceCurrency "CAD" .
@@ -473,16 +460,16 @@ _:0ece7e74912a4f6a87144562a251ddf01203 a schema:AggregateOffer;
   schema:description """
 	\"Fun Home\" is a musical adaptation of Alison Bechdel's Pulitzer nominated graphic memoir. This story jumps between past and present, as adult Alison, a successful cartoonist, reflects on her childhood in a small town and her eventual understanding of her own lesbian identity while reflecting on the complexity of her relationship with her father. Winner of 5 Tony awards including Best Musical, \"Fun Home\" is a refreshingly honest, joyful and wholly original musical about seeing your parents through grown up eyes.<span><br/></span>
 """;
-  schema:startDate "2025-10-22T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-10-23T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/b7c732ef-a038-4450-893b-a7e989e454b6.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/three-legged-dog-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01204;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71208;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-10-22T20:30:00" .
+  schema:endDate "2025-10-23T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01204 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71208 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=162002>;
   schema:lowPrice "31.6";
   schema:priceCurrency "CAD" .
@@ -492,16 +479,16 @@ _:0ece7e74912a4f6a87144562a251ddf01204 a schema:AggregateOffer;
   schema:description """
 	\"Fun Home\" is a musical adaptation of Alison Bechdel's Pulitzer nominated graphic memoir. This story jumps between past and present, as adult Alison, a successful cartoonist, reflects on her childhood in a small town and her eventual understanding of her own lesbian identity while reflecting on the complexity of her relationship with her father. Winner of 5 Tony awards including Best Musical, \"Fun Home\" is a refreshingly honest, joyful and wholly original musical about seeing your parents through grown up eyes.<span><br/></span>
 """;
-  schema:startDate "2025-10-22T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-10-24T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/b7c732ef-a038-4450-893b-a7e989e454b6.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/three-legged-dog-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01205;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71209;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-10-22T20:30:00" .
+  schema:endDate "2025-10-24T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01205 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71209 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=162003>;
   schema:lowPrice "31.6";
   schema:priceCurrency "CAD" .
@@ -511,16 +498,16 @@ _:0ece7e74912a4f6a87144562a251ddf01205 a schema:AggregateOffer;
   schema:description """
 	\"Fun Home\" is a musical adaptation of Alison Bechdel's Pulitzer nominated graphic memoir. This story jumps between past and present, as adult Alison, a successful cartoonist, reflects on her childhood in a small town and her eventual understanding of her own lesbian identity while reflecting on the complexity of her relationship with her father. Winner of 5 Tony awards including Best Musical, \"Fun Home\" is a refreshingly honest, joyful and wholly original musical about seeing your parents through grown up eyes.<span><br/></span>
 """;
-  schema:startDate "2025-10-22T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-10-25T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/b7c732ef-a038-4450-893b-a7e989e454b6.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/three-legged-dog-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01206;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71210;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-10-22T20:30:00" .
+  schema:endDate "2025-10-25T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01206 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71210 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=162201>;
   schema:lowPrice "31.6";
   schema:priceCurrency "CAD" .
@@ -530,16 +517,16 @@ _:0ece7e74912a4f6a87144562a251ddf01206 a schema:AggregateOffer;
   schema:description """
 	\"Fun Home\" is a musical adaptation of Alison Bechdel's Pulitzer nominated graphic memoir. This story jumps between past and present, as adult Alison, a successful cartoonist, reflects on her childhood in a small town and her eventual understanding of her own lesbian identity while reflecting on the complexity of her relationship with her father. Winner of 5 Tony awards including Best Musical, \"Fun Home\" is a refreshingly honest, joyful and wholly original musical about seeing your parents through grown up eyes.<span><br/></span>
 """;
-  schema:startDate "2025-10-22T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-10-25T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/b7c732ef-a038-4450-893b-a7e989e454b6.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/three-legged-dog-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01207;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71211;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-10-22T20:30:00" .
+  schema:endDate "2025-10-25T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01207 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71211 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=162004>;
   schema:lowPrice "31.6";
   schema:priceCurrency "CAD" .
@@ -553,12 +540,12 @@ _:0ece7e74912a4f6a87144562a251ddf01207 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/f9896e86-b6d9-4b09-9b6e-32048ad858c0.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01208;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71212;
   schema:keywords "Comedy";
   schema:duration "PT60M";
-  schema:endDate "2025-10-26T20:30:00" .
+  schema:endDate "2025-10-26T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01208 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71212 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=163201>;
   schema:lowPrice "25.6";
   schema:priceCurrency "CAD" .
@@ -572,16 +559,16 @@ _:0ece7e74912a4f6a87144562a251ddf01208 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/408a90fa-a8e3-4b9c-9988-fb98f96be1c1.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/comox-valley-youth-music-centre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01209;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71213;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-07-15T20:30:00" .
+  schema:endDate "2025-07-15T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/comox-valley-youth-music-centre> a
     schema:Organization;
   schema:name "Comox Valley Youth Music Centre" .
 
-_:0ece7e74912a4f6a87144562a251ddf01209 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71213 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=158801>;
   schema:lowPrice "28.6";
   schema:priceCurrency "CAD" .
@@ -591,16 +578,16 @@ _:0ece7e74912a4f6a87144562a251ddf01209 a schema:AggregateOffer;
   schema:description """
 	Just like the Broadway phenomenon that thrilled audiences and critics alike, Hadestown: Teen Edition reimagines the timeless Greek myth of Orpheus and Eurydice with a stunning mix of folk, jazz, and blues. This award-winning musical has earned global acclaim for its rich storytelling, unforgettable music, and bold theatrical vision.<span><br/></span><span><br/></span>Now, CYMC’s talented cast of young performers brings this epic tale to life in a powerful, accessible production for all ages. With themes of love, sacrifice, and resilience, Hadestown: Teen Edition invites you on a deeply captivating and journey to the underworld—and back.<span><br/></span><span><br/></span>Don’t miss this celebrated musical —where even in the darkest place, hope sings loudest.<span><br/></span><span><br/></span><span class=\"BoldText\">Creative Team:</span><span><br/></span><span><br/></span>Direction by Lori Mazey<span><br/></span>Musical Direction by Carol Anne Parkinson and Dustin Wilde<span><br/></span>Choreography by Livea Gill Harding<span><br/></span><span><br/></span><span class=\"BoldText\">Licensing Credits:</span><span><br/></span><span><br/></span>Music, Lyrics and Book by Anaïs Mitchell<span><br/></span>Arrangements and Orchestrations by Michael Chorney and Todd Sickafoose<span><br/></span>Vocal Arrangements by Liam Robinson<span><br/></span>Additional Vocal Arrangements by Justin Vernon and the Haden Triplets<span><br/></span>Hadestown was co-conceived by Ben T. Matchstick \"Papers Instrumental\" by Michael Chorney, published by Seoats Music (ASCAP)<span><br/></span>Originally produced on Broadway by Mara Isaacs, Dale Franzen, Hunter Arnold and Tom Kirdahy Original New York Production developed with and directed by Rachel Chavkin<span><br/></span><span><br/></span><span class=\"BoldText\">Awards:</span><span><br/></span><span><br/></span>Winner! Eight 2019 Tony Awards including Best Musical, Best Score and Best Orchestrations<span><br/></span>Winner! Four 2019 Drama Desk Awards<span><br/></span>Winner! Six 2019 Outer Critics Circle Awards, including Outstanding New Broadway Musical<span><br/></span>Winner! 2019 Drama League Award for Outstanding Production of a Musical<span><br/></span>Winner! 2020 Grammy Awards for Best Musical Theatre Album<span><br/></span><span><br/></span>
 """;
-  schema:startDate "2025-07-15T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-07-16T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/408a90fa-a8e3-4b9c-9988-fb98f96be1c1.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/comox-valley-youth-music-centre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01210;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71214;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-07-15T20:30:00" .
+  schema:endDate "2025-07-16T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01210 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71214 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=158601>;
   schema:lowPrice "31.6";
   schema:priceCurrency "CAD" .
@@ -610,16 +597,16 @@ _:0ece7e74912a4f6a87144562a251ddf01210 a schema:AggregateOffer;
   schema:description """
 	Just like the Broadway phenomenon that thrilled audiences and critics alike, Hadestown: Teen Edition reimagines the timeless Greek myth of Orpheus and Eurydice with a stunning mix of folk, jazz, and blues. This award-winning musical has earned global acclaim for its rich storytelling, unforgettable music, and bold theatrical vision.<span><br/></span><span><br/></span>Now, CYMC’s talented cast of young performers brings this epic tale to life in a powerful, accessible production for all ages. With themes of love, sacrifice, and resilience, Hadestown: Teen Edition invites you on a deeply captivating and journey to the underworld—and back.<span><br/></span><span><br/></span>Don’t miss this celebrated musical —where even in the darkest place, hope sings loudest.<span><br/></span><span><br/></span><span class=\"BoldText\">Creative Team:</span><span><br/></span><span><br/></span>Direction by Lori Mazey<span><br/></span>Musical Direction by Carol Anne Parkinson and Dustin Wilde<span><br/></span>Choreography by Livea Gill Harding<span><br/></span><span><br/></span><span class=\"BoldText\">Licensing Credits:</span><span><br/></span><span><br/></span>Music, Lyrics and Book by Anaïs Mitchell<span><br/></span>Arrangements and Orchestrations by Michael Chorney and Todd Sickafoose<span><br/></span>Vocal Arrangements by Liam Robinson<span><br/></span>Additional Vocal Arrangements by Justin Vernon and the Haden Triplets<span><br/></span>Hadestown was co-conceived by Ben T. Matchstick \"Papers Instrumental\" by Michael Chorney, published by Seoats Music (ASCAP)<span><br/></span>Originally produced on Broadway by Mara Isaacs, Dale Franzen, Hunter Arnold and Tom Kirdahy Original New York Production developed with and directed by Rachel Chavkin<span><br/></span><span><br/></span><span class=\"BoldText\">Awards:</span><span><br/></span><span><br/></span>Winner! Eight 2019 Tony Awards including Best Musical, Best Score and Best Orchestrations<span><br/></span>Winner! Four 2019 Drama Desk Awards<span><br/></span>Winner! Six 2019 Outer Critics Circle Awards, including Outstanding New Broadway Musical<span><br/></span>Winner! 2019 Drama League Award for Outstanding Production of a Musical<span><br/></span>Winner! 2020 Grammy Awards for Best Musical Theatre Album<span><br/></span><span><br/></span>
 """;
-  schema:startDate "2025-07-15T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-07-17T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/408a90fa-a8e3-4b9c-9988-fb98f96be1c1.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/comox-valley-youth-music-centre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01211;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71215;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-07-15T20:30:00" .
+  schema:endDate "2025-07-17T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01211 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71215 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=158602>;
   schema:lowPrice "11.6";
   schema:priceCurrency "CAD" .
@@ -629,16 +616,16 @@ _:0ece7e74912a4f6a87144562a251ddf01211 a schema:AggregateOffer;
   schema:description """
 	Just like the Broadway phenomenon that thrilled audiences and critics alike, Hadestown: Teen Edition reimagines the timeless Greek myth of Orpheus and Eurydice with a stunning mix of folk, jazz, and blues. This award-winning musical has earned global acclaim for its rich storytelling, unforgettable music, and bold theatrical vision.<span><br/></span><span><br/></span>Now, CYMC’s talented cast of young performers brings this epic tale to life in a powerful, accessible production for all ages. With themes of love, sacrifice, and resilience, Hadestown: Teen Edition invites you on a deeply captivating and journey to the underworld—and back.<span><br/></span><span><br/></span>Don’t miss this celebrated musical —where even in the darkest place, hope sings loudest.<span><br/></span><span><br/></span><span class=\"BoldText\">Creative Team:</span><span><br/></span><span><br/></span>Direction by Lori Mazey<span><br/></span>Musical Direction by Carol Anne Parkinson and Dustin Wilde<span><br/></span>Choreography by Livea Gill Harding<span><br/></span><span><br/></span><span class=\"BoldText\">Licensing Credits:</span><span><br/></span><span><br/></span>Music, Lyrics and Book by Anaïs Mitchell<span><br/></span>Arrangements and Orchestrations by Michael Chorney and Todd Sickafoose<span><br/></span>Vocal Arrangements by Liam Robinson<span><br/></span>Additional Vocal Arrangements by Justin Vernon and the Haden Triplets<span><br/></span>Hadestown was co-conceived by Ben T. Matchstick \"Papers Instrumental\" by Michael Chorney, published by Seoats Music (ASCAP)<span><br/></span>Originally produced on Broadway by Mara Isaacs, Dale Franzen, Hunter Arnold and Tom Kirdahy Original New York Production developed with and directed by Rachel Chavkin<span><br/></span><span><br/></span><span class=\"BoldText\">Awards:</span><span><br/></span><span><br/></span>Winner! Eight 2019 Tony Awards including Best Musical, Best Score and Best Orchestrations<span><br/></span>Winner! Four 2019 Drama Desk Awards<span><br/></span>Winner! Six 2019 Outer Critics Circle Awards, including Outstanding New Broadway Musical<span><br/></span>Winner! 2019 Drama League Award for Outstanding Production of a Musical<span><br/></span>Winner! 2020 Grammy Awards for Best Musical Theatre Album<span><br/></span><span><br/></span>
 """;
-  schema:startDate "2025-07-15T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-07-18T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/408a90fa-a8e3-4b9c-9988-fb98f96be1c1.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/comox-valley-youth-music-centre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01212;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71216;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-07-15T20:30:00" .
+  schema:endDate "2025-07-18T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01212 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71216 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=158603>;
   schema:lowPrice "11.6";
   schema:priceCurrency "CAD" .
@@ -648,16 +635,16 @@ _:0ece7e74912a4f6a87144562a251ddf01212 a schema:AggregateOffer;
   schema:description """
 	Just like the Broadway phenomenon that thrilled audiences and critics alike, Hadestown: Teen Edition reimagines the timeless Greek myth of Orpheus and Eurydice with a stunning mix of folk, jazz, and blues. This award-winning musical has earned global acclaim for its rich storytelling, unforgettable music, and bold theatrical vision.<span><br/></span><span><br/></span>Now, CYMC’s talented cast of young performers brings this epic tale to life in a powerful, accessible production for all ages. With themes of love, sacrifice, and resilience, Hadestown: Teen Edition invites you on a deeply captivating and journey to the underworld—and back.<span><br/></span><span><br/></span>Don’t miss this celebrated musical —where even in the darkest place, hope sings loudest.<span><br/></span><span><br/></span><span class=\"BoldText\">Creative Team:</span><span><br/></span><span><br/></span>Direction by Lori Mazey<span><br/></span>Musical Direction by Carol Anne Parkinson and Dustin Wilde<span><br/></span>Choreography by Livea Gill Harding<span><br/></span><span><br/></span><span class=\"BoldText\">Licensing Credits:</span><span><br/></span><span><br/></span>Music, Lyrics and Book by Anaïs Mitchell<span><br/></span>Arrangements and Orchestrations by Michael Chorney and Todd Sickafoose<span><br/></span>Vocal Arrangements by Liam Robinson<span><br/></span>Additional Vocal Arrangements by Justin Vernon and the Haden Triplets<span><br/></span>Hadestown was co-conceived by Ben T. Matchstick \"Papers Instrumental\" by Michael Chorney, published by Seoats Music (ASCAP)<span><br/></span>Originally produced on Broadway by Mara Isaacs, Dale Franzen, Hunter Arnold and Tom Kirdahy Original New York Production developed with and directed by Rachel Chavkin<span><br/></span><span><br/></span><span class=\"BoldText\">Awards:</span><span><br/></span><span><br/></span>Winner! Eight 2019 Tony Awards including Best Musical, Best Score and Best Orchestrations<span><br/></span>Winner! Four 2019 Drama Desk Awards<span><br/></span>Winner! Six 2019 Outer Critics Circle Awards, including Outstanding New Broadway Musical<span><br/></span>Winner! 2019 Drama League Award for Outstanding Production of a Musical<span><br/></span>Winner! 2020 Grammy Awards for Best Musical Theatre Album<span><br/></span><span><br/></span>
 """;
-  schema:startDate "2025-07-15T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-07-19T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/408a90fa-a8e3-4b9c-9988-fb98f96be1c1.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/comox-valley-youth-music-centre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01213;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71217;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-07-15T20:30:00" .
+  schema:endDate "2025-07-19T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01213 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71217 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=159001>;
   schema:lowPrice "11.6";
   schema:priceCurrency "CAD" .
@@ -667,16 +654,16 @@ _:0ece7e74912a4f6a87144562a251ddf01213 a schema:AggregateOffer;
   schema:description """
 	Just like the Broadway phenomenon that thrilled audiences and critics alike, Hadestown: Teen Edition reimagines the timeless Greek myth of Orpheus and Eurydice with a stunning mix of folk, jazz, and blues. This award-winning musical has earned global acclaim for its rich storytelling, unforgettable music, and bold theatrical vision.<span><br/></span><span><br/></span>Now, CYMC’s talented cast of young performers brings this epic tale to life in a powerful, accessible production for all ages. With themes of love, sacrifice, and resilience, Hadestown: Teen Edition invites you on a deeply captivating and journey to the underworld—and back.<span><br/></span><span><br/></span>Don’t miss this celebrated musical —where even in the darkest place, hope sings loudest.<span><br/></span><span><br/></span><span class=\"BoldText\">Creative Team:</span><span><br/></span><span><br/></span>Direction by Lori Mazey<span><br/></span>Musical Direction by Carol Anne Parkinson and Dustin Wilde<span><br/></span>Choreography by Livea Gill Harding<span><br/></span><span><br/></span><span class=\"BoldText\">Licensing Credits:</span><span><br/></span><span><br/></span>Music, Lyrics and Book by Anaïs Mitchell<span><br/></span>Arrangements and Orchestrations by Michael Chorney and Todd Sickafoose<span><br/></span>Vocal Arrangements by Liam Robinson<span><br/></span>Additional Vocal Arrangements by Justin Vernon and the Haden Triplets<span><br/></span>Hadestown was co-conceived by Ben T. Matchstick \"Papers Instrumental\" by Michael Chorney, published by Seoats Music (ASCAP)<span><br/></span>Originally produced on Broadway by Mara Isaacs, Dale Franzen, Hunter Arnold and Tom Kirdahy Original New York Production developed with and directed by Rachel Chavkin<span><br/></span><span><br/></span><span class=\"BoldText\">Awards:</span><span><br/></span><span><br/></span>Winner! Eight 2019 Tony Awards including Best Musical, Best Score and Best Orchestrations<span><br/></span>Winner! Four 2019 Drama Desk Awards<span><br/></span>Winner! Six 2019 Outer Critics Circle Awards, including Outstanding New Broadway Musical<span><br/></span>Winner! 2019 Drama League Award for Outstanding Production of a Musical<span><br/></span>Winner! 2020 Grammy Awards for Best Musical Theatre Album<span><br/></span><span><br/></span>
 """;
-  schema:startDate "2025-07-15T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-07-19T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/408a90fa-a8e3-4b9c-9988-fb98f96be1c1.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/comox-valley-youth-music-centre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01214;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71218;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-07-15T20:30:00" .
+  schema:endDate "2025-07-19T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01214 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71218 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=158604>;
   schema:lowPrice "11.6";
   schema:priceCurrency "CAD" .
@@ -690,15 +677,15 @@ _:0ece7e74912a4f6a87144562a251ddf01214 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/bee1986e-1aca-4a27-840e-91ed984927ec.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/vaughnco-entertainment>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01215;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71219;
   schema:keywords "Tribute concert";
   schema:duration "PT60M";
-  schema:endDate "2026-09-10T20:30:00" .
+  schema:endDate "2026-09-10T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/vaughnco-entertainment> a schema:Organization;
   schema:name "VaughnCo Entertainment" .
 
-_:0ece7e74912a4f6a87144562a251ddf01215 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71219 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=170402>;
   schema:lowPrice "62.74";
   schema:priceCurrency "CAD" .
@@ -712,12 +699,12 @@ _:0ece7e74912a4f6a87144562a251ddf01215 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/9b9152ba-20ee-45af-8708-8a4277cb6e09.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01216;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71220;
   schema:keywords "Theatre";
   schema:duration "PT60M";
-  schema:endDate "2026-01-17T15:00:00" .
+  schema:endDate "2026-01-17T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01216 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71220 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=164201>;
   schema:lowPrice "37.6";
   schema:priceCurrency "CAD" .
@@ -731,15 +718,15 @@ _:0ece7e74912a4f6a87144562a251ddf01216 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c68fc891-538e-4960-82b7-709aad99e792.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/simply-the-best-talent>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01217;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71221;
   schema:keywords "Live music - Rock";
   schema:duration "PT60M";
-  schema:endDate "2025-09-18T20:30:00" .
+  schema:endDate "2025-09-18T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/simply-the-best-talent> a schema:Organization;
   schema:name "Simply The Best Talent" .
 
-_:0ece7e74912a4f6a87144562a251ddf01217 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71221 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=159601>;
   schema:lowPrice "45.6";
   schema:priceCurrency "CAD" .
@@ -753,12 +740,12 @@ _:0ece7e74912a4f6a87144562a251ddf01217 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/fdc307c5-9af9-4470-be21-874a80a93d37.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01218;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71222;
   schema:keywords "Live music";
   schema:duration "PT60M";
-  schema:endDate "2025-11-15T20:30:00" .
+  schema:endDate "2025-11-15T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01218 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71222 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=163601>;
   schema:lowPrice "42.6";
   schema:priceCurrency "CAD" .
@@ -772,15 +759,15 @@ _:0ece7e74912a4f6a87144562a251ddf01218 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/8264636a-b935-4af1-a692-39ed98356670.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01219;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71223;
   schema:keywords "Theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-10-01T20:30:00" .
+  schema:endDate "2025-10-01T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre> a schema:Organization;
   schema:name "Courtenay Little Theatre" .
 
-_:0ece7e74912a4f6a87144562a251ddf01219 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71223 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=166401>;
   schema:lowPrice "24.6";
   schema:priceCurrency "CAD" .
@@ -790,16 +777,16 @@ _:0ece7e74912a4f6a87144562a251ddf01219 a schema:AggregateOffer;
   schema:description """
 	Kimberly Akimbo<span><br/></span>by David Lindsay-Abaire<span><br/></span>Directed by Lisa Williams<span><br/></span><span><br/></span>Set in the wilds of suburban New Jersey, KIMBERLY AKIMBO is a hilarious and heartrending play about a teenager with a rare condition causing her body to age faster than it should. When she and her family flee Secaucus under dubious circumstances, Kimberly is forced to reevaluate her life while contending with a hypochondriac mother, a rarely sober father, a scam-artist aunt, her own mortality and, most terrifying of all, the possibility of first love.<span><br/></span><span><br/></span>*This production is a play. It is the original from which the current Broadway musical was adapted. The story, characters, and much of the script is the same.<span><br/></span><span><br/></span>KIMBERLY AKIMBO is presented by special arrangement with Broadway Licensing, LLC, servicing the Dramatists Play Service collection. <a target=\"_blank\" href=\"https://www.dramatists.com/\"> www.dramatists.com</a><span><br/></span><span><br/></span>Featuring:<span><br/></span>Kirsten Harris - Kimberly<span><br/></span>Anthea Moritt - Pattie<span><br/></span>Max Wallace - Buddy<span><br/></span>Allyson Leet - Debra<span><br/></span>Henry Waite - Jeff<span><br/></span>
 """;
-  schema:startDate "2025-10-01T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-10-02T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/8264636a-b935-4af1-a692-39ed98356670.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01220;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71224;
   schema:keywords "Theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-10-01T20:30:00" .
+  schema:endDate "2025-10-02T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01220 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71224 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=166601>;
   schema:lowPrice "26.6";
   schema:priceCurrency "CAD" .
@@ -809,16 +796,16 @@ _:0ece7e74912a4f6a87144562a251ddf01220 a schema:AggregateOffer;
   schema:description """
 	Kimberly Akimbo<span><br/></span>by David Lindsay-Abaire<span><br/></span>Directed by Lisa Williams<span><br/></span><span><br/></span>Set in the wilds of suburban New Jersey, KIMBERLY AKIMBO is a hilarious and heartrending play about a teenager with a rare condition causing her body to age faster than it should. When she and her family flee Secaucus under dubious circumstances, Kimberly is forced to reevaluate her life while contending with a hypochondriac mother, a rarely sober father, a scam-artist aunt, her own mortality and, most terrifying of all, the possibility of first love.<span><br/></span><span><br/></span>*This production is a play. It is the original from which the current Broadway musical was adapted. The story, characters, and much of the script is the same.<span><br/></span><span><br/></span>KIMBERLY AKIMBO is presented by special arrangement with Broadway Licensing, LLC, servicing the Dramatists Play Service collection. <a target=\"_blank\" href=\"https://www.dramatists.com/\"> www.dramatists.com</a><span><br/></span><span><br/></span>Featuring:<span><br/></span>Kirsten Harris - Kimberly<span><br/></span>Anthea Moritt - Pattie<span><br/></span>Max Wallace - Buddy<span><br/></span>Allyson Leet - Debra<span><br/></span>Henry Waite - Jeff<span><br/></span>
 """;
-  schema:startDate "2025-10-01T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-10-03T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/8264636a-b935-4af1-a692-39ed98356670.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01221;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71225;
   schema:keywords "Theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-10-01T20:30:00" .
+  schema:endDate "2025-10-03T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01221 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71225 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=166801>;
   schema:lowPrice "26.6";
   schema:priceCurrency "CAD" .
@@ -828,16 +815,16 @@ _:0ece7e74912a4f6a87144562a251ddf01221 a schema:AggregateOffer;
   schema:description """
 	Kimberly Akimbo<span><br/></span>by David Lindsay-Abaire<span><br/></span>Directed by Lisa Williams<span><br/></span><span><br/></span>Set in the wilds of suburban New Jersey, KIMBERLY AKIMBO is a hilarious and heartrending play about a teenager with a rare condition causing her body to age faster than it should. When she and her family flee Secaucus under dubious circumstances, Kimberly is forced to reevaluate her life while contending with a hypochondriac mother, a rarely sober father, a scam-artist aunt, her own mortality and, most terrifying of all, the possibility of first love.<span><br/></span><span><br/></span>*This production is a play. It is the original from which the current Broadway musical was adapted. The story, characters, and much of the script is the same.<span><br/></span><span><br/></span>KIMBERLY AKIMBO is presented by special arrangement with Broadway Licensing, LLC, servicing the Dramatists Play Service collection. <a target=\"_blank\" href=\"https://www.dramatists.com/\"> www.dramatists.com</a><span><br/></span><span><br/></span>Featuring:<span><br/></span>Kirsten Harris - Kimberly<span><br/></span>Anthea Moritt - Pattie<span><br/></span>Max Wallace - Buddy<span><br/></span>Allyson Leet - Debra<span><br/></span>Henry Waite - Jeff<span><br/></span>
 """;
-  schema:startDate "2025-10-01T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-10-04T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/8264636a-b935-4af1-a692-39ed98356670.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01222;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71226;
   schema:keywords "Theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-10-01T20:30:00" .
+  schema:endDate "2025-10-04T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01222 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71226 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=166802>;
   schema:lowPrice "26.6";
   schema:priceCurrency "CAD" .
@@ -847,16 +834,16 @@ _:0ece7e74912a4f6a87144562a251ddf01222 a schema:AggregateOffer;
   schema:description """
 	Kimberly Akimbo<span><br/></span>by David Lindsay-Abaire<span><br/></span>Directed by Lisa Williams<span><br/></span><span><br/></span>Set in the wilds of suburban New Jersey, KIMBERLY AKIMBO is a hilarious and heartrending play about a teenager with a rare condition causing her body to age faster than it should. When she and her family flee Secaucus under dubious circumstances, Kimberly is forced to reevaluate her life while contending with a hypochondriac mother, a rarely sober father, a scam-artist aunt, her own mortality and, most terrifying of all, the possibility of first love.<span><br/></span><span><br/></span>*This production is a play. It is the original from which the current Broadway musical was adapted. The story, characters, and much of the script is the same.<span><br/></span><span><br/></span>KIMBERLY AKIMBO is presented by special arrangement with Broadway Licensing, LLC, servicing the Dramatists Play Service collection. <a target=\"_blank\" href=\"https://www.dramatists.com/\"> www.dramatists.com</a><span><br/></span><span><br/></span>Featuring:<span><br/></span>Kirsten Harris - Kimberly<span><br/></span>Anthea Moritt - Pattie<span><br/></span>Max Wallace - Buddy<span><br/></span>Allyson Leet - Debra<span><br/></span>Henry Waite - Jeff<span><br/></span>
 """;
-  schema:startDate "2025-10-01T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-10-05T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/8264636a-b935-4af1-a692-39ed98356670.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01223;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71227;
   schema:keywords "Theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-10-01T20:30:00" .
+  schema:endDate "2025-10-05T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01223 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71227 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=167001>;
   schema:lowPrice "26.6";
   schema:priceCurrency "CAD" .
@@ -870,15 +857,15 @@ _:0ece7e74912a4f6a87144562a251ddf01223 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/ac6f66a9-7a4e-460a-9119-396d8a325689.jpeg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sitka-stage-&-screen>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01224;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71228;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-09-24T20:30:00" .
+  schema:endDate "2025-09-24T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/sitka-stage-&-screen> a schema:Organization;
   schema:name "Sitka Stage & Screen" .
 
-_:0ece7e74912a4f6a87144562a251ddf01224 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71228 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=165601>;
   schema:lowPrice "21.6";
   schema:priceCurrency "CAD" .
@@ -888,16 +875,16 @@ _:0ece7e74912a4f6a87144562a251ddf01224 a schema:AggregateOffer;
   schema:description """
 	Written by local theatre professional, and studio owner, Mandy Tulloch, this story combines elements of Norse mythology with imaginative storyline to captivate audiences.<span><br/></span><span><br/></span><span class=\"ItalicText\">Legends of Asgard - Sibling Rivalry</span> is a theatrical production with acting, singing and dancing.<span><br/></span><span><br/></span>In the mystical realm of Asgard, we meet young Loki and Thor. A series of events lead to a growing rivalry between the brothers, and their sister does not help matters! Amidst their sibling squabbles, Asgard faces an imminent threat from an ancient enemy.
 """;
-  schema:startDate "2025-09-24T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-09-25T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/ac6f66a9-7a4e-460a-9119-396d8a325689.jpeg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sitka-stage-&-screen>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01225;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71229;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-09-24T20:30:00" .
+  schema:endDate "2025-09-25T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01225 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71229 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=165602>;
   schema:lowPrice "21.6";
   schema:priceCurrency "CAD" .
@@ -911,15 +898,15 @@ _:0ece7e74912a4f6a87144562a251ddf01225 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/1ea73b8f-63ab-4bc5-83b4-dce3e3c8554c.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/lake-house-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01226;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71230;
   schema:keywords "Concert";
   schema:duration "PT60M";
-  schema:endDate "2025-10-11T20:30:00" .
+  schema:endDate "2025-10-11T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/lake-house-productions> a schema:Organization;
   schema:name "Lake House Productions" .
 
-_:0ece7e74912a4f6a87144562a251ddf01226 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71230 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=156201>;
   schema:lowPrice "41.6";
   schema:priceCurrency "CAD" .
@@ -933,12 +920,12 @@ _:0ece7e74912a4f6a87144562a251ddf01226 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/af2afc6f-313b-477a-8b9e-5ed559bff69f.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01227;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71231;
   schema:keywords "Comedy";
   schema:duration "PT60M";
-  schema:endDate "2026-04-11T20:30:00" .
+  schema:endDate "2026-04-11T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01227 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71231 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=163004>;
   schema:lowPrice "25.6";
   schema:priceCurrency "CAD" .
@@ -952,15 +939,15 @@ _:0ece7e74912a4f6a87144562a251ddf01227 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/be27d894-4580-4495-8a74-864077bf57df.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/mojo-risin>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01228;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71232;
   schema:keywords "Live music - Rock";
   schema:duration "PT60M";
-  schema:endDate "2025-09-27T20:30:00" .
+  schema:endDate "2025-09-27T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/mojo-risin> a schema:Organization;
   schema:name "Mojo Risin" .
 
-_:0ece7e74912a4f6a87144562a251ddf01228 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71232 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=157201>;
   schema:lowPrice "44.6";
   schema:priceCurrency "CAD" .
@@ -974,12 +961,12 @@ _:0ece7e74912a4f6a87144562a251ddf01228 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/fcd53542-d7f0-40af-b915-030f8e68e563.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/vaughnco-entertainment>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01229;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71233;
   schema:keywords "Live music";
   schema:duration "PT140M";
-  schema:endDate "2025-11-20T21:50:00" .
+  schema:endDate "2025-11-20T21:50:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01229 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71233 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=137801>;
   schema:lowPrice "61.0";
   schema:priceCurrency "CAD" .
@@ -993,15 +980,15 @@ _:0ece7e74912a4f6a87144562a251ddf01229 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/89a37313-5869-4967-b7b7-36e091815acc.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/james-&-jamesy>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01230;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71234;
   schema:keywords "Theatre - Comedy";
   schema:duration "PT60M";
-  schema:endDate "2025-11-10T16:00:00" .
+  schema:endDate "2025-11-10T16:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/james-&-jamesy> a schema:Organization;
   schema:name "James & Jamesy" .
 
-_:0ece7e74912a4f6a87144562a251ddf01230 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71234 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=171201>;
   schema:lowPrice "40.6";
   schema:priceCurrency "CAD" .
@@ -1011,16 +998,16 @@ _:0ece7e74912a4f6a87144562a251ddf01230 a schema:AggregateOffer;
   schema:description """
 	<span class=\"BoldText\">Fans of Monty Python, Mr. Bean, and Dr. Seuss… Grab your teacups!</span><span><br/></span><span><br/></span>Combining British propriety with an unabashed love for the unexpected, London’s 3-time Impresario Award-winning duo steep an outrageously funny and brilliantly inventive show reminiscent of classic British pantos.<span><br/></span><span><br/></span>Rich in wordplay, comic physicality, and cleverly crafted interactive elements, O Christmas Tea is uproarious fun, yet it is the duo’s boundless imagination and endearing chemistry that provide the real magic and heart of this play.<span><br/></span><span><br/></span>When catastrophe strikes at James and Jamesy’s Christmas tea party, flooding the world with tea, the duo conjure wildly funny solutions to stay afloat, and sweep the audience out to sea in a jolly aquatic escapade brimming with whimsy, action, and ingenuity in a celebration of friendship at Christmas.<span><br/></span><span><br/></span><span class=\"BoldText\">“Complete and utter fun… for all ages.”</span><span><br/></span>★★★★★ CBC<span><br/></span><span><br/></span><span class=\"BoldText\">“Outrageously funny, magnificently written, beautifully choreographed.”</span><span><br/></span>★★★★★ London Free Press<span><br/></span><span><br/></span><span class=\"BoldText\">“An ode to the idea that anything is possible.”</span><span><br/></span>★★★★★ Torontoist<span><br/></span><span><br/></span><span class=\"BoldText\">“I cannot think of a show that will leave you more profoundly happy than this.”</span><span><br/></span>★★★★★ Stage Door<span><br/></span><span><br/></span>Hailed as “a child’s imagination on steroids” by London Free Press and “a masterpiece of physical comedy” by Theatre In London, critics rave for the charismatic James & Jamesy. A must-see performance on the international comedy circuit, this unstoppable duo is regarded as “one of the most popular fringe duos ever” (CBC).<span><br/></span><span><br/></span><span class=\"BoldText\">Can't make it on November 10?</span><span><br/></span>Visit <a target=\"_blank\" href=\"https://ochristmastea.com/\">ochristmastea.com</a> for the full tour including more dates on the Island!<span><br/></span>
 """;
-  schema:startDate "2025-11-10T15:00:00"^^xsd:dateTime;
+  schema:startDate "2025-11-10T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/89a37313-5869-4967-b7b7-36e091815acc.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/james-&-jamesy>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01231;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71235;
   schema:keywords "Theatre - Comedy";
   schema:duration "PT60M";
-  schema:endDate "2025-11-10T16:00:00" .
+  schema:endDate "2025-11-10T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01231 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71235 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=158001>;
   schema:lowPrice "40.6";
   schema:priceCurrency "CAD" .
@@ -1034,12 +1021,12 @@ _:0ece7e74912a4f6a87144562a251ddf01231 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/4bd236d8-3ebf-4b89-9cf4-74fa7ad7f815.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01232;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71236;
   schema:keywords "Live music";
   schema:duration "PT60M";
-  schema:endDate "2026-04-10T20:30:00" .
+  schema:endDate "2026-04-10T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01232 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71236 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=165401>;
   schema:lowPrice "37.6";
   schema:priceCurrency "CAD" .
@@ -1053,12 +1040,12 @@ _:0ece7e74912a4f6a87144562a251ddf01232 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/16d450a3-f4fd-45d6-96e6-47d779405c1e.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01233;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71237;
   schema:keywords "Holiday concert";
   schema:duration "PT60M";
-  schema:endDate "2025-12-17T20:30:00" .
+  schema:endDate "2025-12-17T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01233 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71237 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=163802>;
   schema:lowPrice "37.6";
   schema:priceCurrency "CAD" .
@@ -1072,12 +1059,12 @@ _:0ece7e74912a4f6a87144562a251ddf01233 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/766a0eb7-f64a-4501-b4ca-89167455022a.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01234;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71238;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-11-05T20:30:00" .
+  schema:endDate "2025-11-05T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01234 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71238 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=168001>;
   schema:lowPrice "42.6";
   schema:priceCurrency "CAD" .
@@ -1089,12 +1076,12 @@ _:0ece7e74912a4f6a87144562a251ddf01234 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-22T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01235;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71239;
   schema:keywords "Special programming";
   schema:duration "PT60M";
-  schema:endDate "2025-09-22T20:00:00" .
+  schema:endDate "2025-09-22T20:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01235 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71239 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=170801>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1108,15 +1095,15 @@ _:0ece7e74912a4f6a87144562a251ddf01235 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/a5bc7379-6e33-497f-91a0-04c0ae62c79e.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/cascadia-concerts>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01236;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71240;
   schema:keywords "Concert";
   schema:duration "PT60M";
-  schema:endDate "2026-03-07T15:00:00" .
+  schema:endDate "2026-03-07T15:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/cascadia-concerts> a schema:Organization;
   schema:name "Cascadia Concerts" .
 
-_:0ece7e74912a4f6a87144562a251ddf01236 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71240 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=162601>;
   schema:lowPrice "46.6";
   schema:priceCurrency "CAD" .
@@ -1129,15 +1116,15 @@ _:0ece7e74912a4f6a87144562a251ddf01236 a schema:AggregateOffer;
   schema:startDate "2025-11-29T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/just-in-time-choirs>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01237;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71241;
   schema:keywords "Choral concert";
   schema:duration "PT60M";
-  schema:endDate "2025-11-29T20:00:00" .
+  schema:endDate "2025-11-29T20:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/just-in-time-choirs> a schema:Organization;
   schema:name "Just in Time Choirs" .
 
-_:0ece7e74912a4f6a87144562a251ddf01237 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71241 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=172401>;
   schema:lowPrice "11.6";
   schema:priceCurrency "CAD" .
@@ -1147,17 +1134,61 @@ _:0ece7e74912a4f6a87144562a251ddf01237 a schema:AggregateOffer;
   schema:description """
 
 """;
-  schema:startDate "2025-11-29T19:00:00"^^xsd:dateTime;
+  schema:startDate "2025-11-30T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/just-in-time-choirs>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01238;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71242;
   schema:keywords "Choral concert";
   schema:duration "PT60M";
-  schema:endDate "2025-11-29T20:00:00" .
+  schema:endDate "2025-11-30T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01238 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71242 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=172601>;
   schema:lowPrice "11.6";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/sidwilliams/event/173001APLDGDVGHKLDTRNLHVCRGDPRDCR> a schema:Event;
+  schema:name "Singers' Choice - Virtual";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-29T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/sidwilliams/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/sidwilliams/organization/just-in-time-choirs>;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71243;
+  schema:keywords "Choral concert";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-29T20:00:00"^^xsd:dateTime .
+
+_:7a3cc0a35f2942c9aef1713ef13d47a71243 a schema:AggregateOffer;
+  schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=173001>;
+  schema:lowPrice "30.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/sidwilliams/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:Place;
+  schema:name "Online - Virtual Event";
+  schema:address <https://spektrix.com/sidwilliams/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/sidwilliams/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:PostalAddress;
+  schema:streetAddress "Your Screen";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/sidwilliams/event/173002ANSHKLPDCKLGKDTDMCGKHRKLVPL> a schema:Event;
+  schema:name "Singers' Choice - Virtual";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-30T14:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/sidwilliams/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/sidwilliams/organization/just-in-time-choirs>;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71244;
+  schema:keywords "Choral concert";
+  schema:duration "PT60M";
+  schema:endDate "2025-11-30T15:00:00"^^xsd:dateTime .
+
+_:7a3cc0a35f2942c9aef1713ef13d47a71244 a schema:AggregateOffer;
+  schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=173002>;
+  schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/sidwilliams/event/167601ALKVCGTHKTVTGQMSSQSGHHPTTNB> a schema:Event;
@@ -1169,16 +1200,16 @@ _:0ece7e74912a4f6a87144562a251ddf01238 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c97534bb-c7b7-4578-a42d-407248f84932.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01239;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71245;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-12-22T20:30:00" .
+  schema:endDate "2025-12-22T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre-society> a
     schema:Organization;
   schema:name "Courtenay Little Theatre Society" .
 
-_:0ece7e74912a4f6a87144562a251ddf01239 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71245 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=167601>;
   schema:lowPrice "26.6";
   schema:priceCurrency "CAD" .
@@ -1188,16 +1219,16 @@ _:0ece7e74912a4f6a87144562a251ddf01239 a schema:AggregateOffer;
   schema:description """
 	Join Dame Nanny Hugwell – the palace’s loudest, proudest and most overprotective nanny/housekeeper as she juggles raising the spirited Princess Aurora and her own gentle son Buttons along with her rambunctious triplets. It’s a joyous celebration at the palace until the uninvited and fabulously fierce Maleficent crashes the party and places a wicked curse on baby Aurora. On her 16th birthday she will prick her finger on a spinning wheel and fall into an eternal sleep!<span><br/></span><span><br/></span>Thankfully, the three slightly scatterbrained but well-meaning fairies, Flora, Fauna and Merryweather soften the curse, and Aurora is hidden away in the forest under the watchful eye of Nanny Hugwell and Buttons. Years later, as Aurora blossoms into a brave young woman and Buttons tries and fails to keep up with Royal life, the handsome and kind-hearted Prince Stephan stumbles into their lives.<span><br/></span><span><br/></span>But Maleficent along with her side kick Diablo hasn’t finished her wicked games. With true love, mistaken identities, outrageous costumes, catchy songs, magical mayhem, and possibly a dragon that might just need a hug….will the prince break the curse or will Maleficent have the last laugh! Packed with laughs, love and lashings of panto fun, Sleeping Beauty is the magical adventure the whole family will love ------Oh yes you will!
 """;
-  schema:startDate "2025-12-22T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-12-23T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c97534bb-c7b7-4578-a42d-407248f84932.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01240;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71246;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-12-22T20:30:00" .
+  schema:endDate "2025-12-23T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01240 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71246 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=167801>;
   schema:lowPrice "24.6";
   schema:priceCurrency "CAD" .
@@ -1207,16 +1238,16 @@ _:0ece7e74912a4f6a87144562a251ddf01240 a schema:AggregateOffer;
   schema:description """
 	Join Dame Nanny Hugwell – the palace’s loudest, proudest and most overprotective nanny/housekeeper as she juggles raising the spirited Princess Aurora and her own gentle son Buttons along with her rambunctious triplets. It’s a joyous celebration at the palace until the uninvited and fabulously fierce Maleficent crashes the party and places a wicked curse on baby Aurora. On her 16th birthday she will prick her finger on a spinning wheel and fall into an eternal sleep!<span><br/></span><span><br/></span>Thankfully, the three slightly scatterbrained but well-meaning fairies, Flora, Fauna and Merryweather soften the curse, and Aurora is hidden away in the forest under the watchful eye of Nanny Hugwell and Buttons. Years later, as Aurora blossoms into a brave young woman and Buttons tries and fails to keep up with Royal life, the handsome and kind-hearted Prince Stephan stumbles into their lives.<span><br/></span><span><br/></span>But Maleficent along with her side kick Diablo hasn’t finished her wicked games. With true love, mistaken identities, outrageous costumes, catchy songs, magical mayhem, and possibly a dragon that might just need a hug….will the prince break the curse or will Maleficent have the last laugh! Packed with laughs, love and lashings of panto fun, Sleeping Beauty is the magical adventure the whole family will love ------Oh yes you will!
 """;
-  schema:startDate "2025-12-22T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-12-26T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c97534bb-c7b7-4578-a42d-407248f84932.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01241;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71247;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-12-22T20:30:00" .
+  schema:endDate "2025-12-26T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01241 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71247 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=167803>;
   schema:lowPrice "24.6";
   schema:priceCurrency "CAD" .
@@ -1226,16 +1257,16 @@ _:0ece7e74912a4f6a87144562a251ddf01241 a schema:AggregateOffer;
   schema:description """
 	Join Dame Nanny Hugwell – the palace’s loudest, proudest and most overprotective nanny/housekeeper as she juggles raising the spirited Princess Aurora and her own gentle son Buttons along with her rambunctious triplets. It’s a joyous celebration at the palace until the uninvited and fabulously fierce Maleficent crashes the party and places a wicked curse on baby Aurora. On her 16th birthday she will prick her finger on a spinning wheel and fall into an eternal sleep!<span><br/></span><span><br/></span>Thankfully, the three slightly scatterbrained but well-meaning fairies, Flora, Fauna and Merryweather soften the curse, and Aurora is hidden away in the forest under the watchful eye of Nanny Hugwell and Buttons. Years later, as Aurora blossoms into a brave young woman and Buttons tries and fails to keep up with Royal life, the handsome and kind-hearted Prince Stephan stumbles into their lives.<span><br/></span><span><br/></span>But Maleficent along with her side kick Diablo hasn’t finished her wicked games. With true love, mistaken identities, outrageous costumes, catchy songs, magical mayhem, and possibly a dragon that might just need a hug….will the prince break the curse or will Maleficent have the last laugh! Packed with laughs, love and lashings of panto fun, Sleeping Beauty is the magical adventure the whole family will love ------Oh yes you will!
 """;
-  schema:startDate "2025-12-22T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-12-27T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c97534bb-c7b7-4578-a42d-407248f84932.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01242;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71248;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-12-22T20:30:00" .
+  schema:endDate "2025-12-27T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01242 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71248 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=167804>;
   schema:lowPrice "24.6";
   schema:priceCurrency "CAD" .
@@ -1245,16 +1276,16 @@ _:0ece7e74912a4f6a87144562a251ddf01242 a schema:AggregateOffer;
   schema:description """
 	Join Dame Nanny Hugwell – the palace’s loudest, proudest and most overprotective nanny/housekeeper as she juggles raising the spirited Princess Aurora and her own gentle son Buttons along with her rambunctious triplets. It’s a joyous celebration at the palace until the uninvited and fabulously fierce Maleficent crashes the party and places a wicked curse on baby Aurora. On her 16th birthday she will prick her finger on a spinning wheel and fall into an eternal sleep!<span><br/></span><span><br/></span>Thankfully, the three slightly scatterbrained but well-meaning fairies, Flora, Fauna and Merryweather soften the curse, and Aurora is hidden away in the forest under the watchful eye of Nanny Hugwell and Buttons. Years later, as Aurora blossoms into a brave young woman and Buttons tries and fails to keep up with Royal life, the handsome and kind-hearted Prince Stephan stumbles into their lives.<span><br/></span><span><br/></span>But Maleficent along with her side kick Diablo hasn’t finished her wicked games. With true love, mistaken identities, outrageous costumes, catchy songs, magical mayhem, and possibly a dragon that might just need a hug….will the prince break the curse or will Maleficent have the last laugh! Packed with laughs, love and lashings of panto fun, Sleeping Beauty is the magical adventure the whole family will love ------Oh yes you will!
 """;
-  schema:startDate "2025-12-22T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-12-28T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c97534bb-c7b7-4578-a42d-407248f84932.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01243;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71249;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-12-22T20:30:00" .
+  schema:endDate "2025-12-28T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01243 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71249 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=167805>;
   schema:lowPrice "24.6";
   schema:priceCurrency "CAD" .
@@ -1264,40 +1295,23 @@ _:0ece7e74912a4f6a87144562a251ddf01243 a schema:AggregateOffer;
   schema:description """
 	Join Dame Nanny Hugwell – the palace’s loudest, proudest and most overprotective nanny/housekeeper as she juggles raising the spirited Princess Aurora and her own gentle son Buttons along with her rambunctious triplets. It’s a joyous celebration at the palace until the uninvited and fabulously fierce Maleficent crashes the party and places a wicked curse on baby Aurora. On her 16th birthday she will prick her finger on a spinning wheel and fall into an eternal sleep!<span><br/></span><span><br/></span>Thankfully, the three slightly scatterbrained but well-meaning fairies, Flora, Fauna and Merryweather soften the curse, and Aurora is hidden away in the forest under the watchful eye of Nanny Hugwell and Buttons. Years later, as Aurora blossoms into a brave young woman and Buttons tries and fails to keep up with Royal life, the handsome and kind-hearted Prince Stephan stumbles into their lives.<span><br/></span><span><br/></span>But Maleficent along with her side kick Diablo hasn’t finished her wicked games. With true love, mistaken identities, outrageous costumes, catchy songs, magical mayhem, and possibly a dragon that might just need a hug….will the prince break the curse or will Maleficent have the last laugh! Packed with laughs, love and lashings of panto fun, Sleeping Beauty is the magical adventure the whole family will love ------Oh yes you will!
 """;
-  schema:startDate "2025-12-22T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-12-29T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c97534bb-c7b7-4578-a42d-407248f84932.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01244;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71250;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-12-22T20:30:00" .
+  schema:endDate "2025-12-29T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01244 a schema:AggregateOffer;
+<https://spektrix.com/sidwilliams/organization/courtenay-little-theatre-society> a
+    schema:Organization;
+  schema:name "Courtenay Little Theatre Society" .
+
+_:7a3cc0a35f2942c9aef1713ef13d47a71250 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=167806>;
   schema:lowPrice "24.6";
   schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/sidwilliams/event/167604AJQGSQGCBBPMKMBRNJKLRNDNDLL> a schema:Event;
-  schema:name "Sleeping Beauty, A Pantomime";
-  schema:description """
-	Join Dame Nanny Hugwell – the palace’s loudest, proudest and most overprotective nanny/housekeeper as she juggles raising the spirited Princess Aurora and her own gentle son Buttons along with her rambunctious triplets. It’s a joyous celebration at the palace until the uninvited and fabulously fierce Maleficent crashes the party and places a wicked curse on baby Aurora. On her 16th birthday she will prick her finger on a spinning wheel and fall into an eternal sleep!<span><br/></span><span><br/></span>Thankfully, the three slightly scatterbrained but well-meaning fairies, Flora, Fauna and Merryweather soften the curse, and Aurora is hidden away in the forest under the watchful eye of Nanny Hugwell and Buttons. Years later, as Aurora blossoms into a brave young woman and Buttons tries and fails to keep up with Royal life, the handsome and kind-hearted Prince Stephan stumbles into their lives.<span><br/></span><span><br/></span>But Maleficent along with her side kick Diablo hasn’t finished her wicked games. With true love, mistaken identities, outrageous costumes, catchy songs, magical mayhem, and possibly a dragon that might just need a hug….will the prince break the curse or will Maleficent have the last laugh! Packed with laughs, love and lashings of panto fun, Sleeping Beauty is the magical adventure the whole family will love ------Oh yes you will!
-""";
-  schema:startDate "2025-12-22T19:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c97534bb-c7b7-4578-a42d-407248f84932.jpg>;
-  schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01245 .
-
-_:0ece7e74912a4f6a87144562a251ddf01245 a schema:AggregateOffer;
-  schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=167604>;
-  schema:lowPrice "26.6";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/sidwilliams/event/167604AJQGSQGCBBPMKMBRNJKLRNDNDLL> schema:keywords
-    "Musical theatre";
-  schema:duration "PT60M";
-  schema:endDate "2025-12-22T20:30:00" .
 
 <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> a schema:Place;
   schema:name "Sid Williams Theatre";
@@ -1310,25 +1324,40 @@ _:0ece7e74912a4f6a87144562a251ddf01245 a schema:AggregateOffer;
   schema:postalCode "V9N 2J2";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/sidwilliams/event/167604AJQGSQGCBBPMKMBRNJKLRNDNDLL> a schema:Event;
+  schema:name "Sleeping Beauty, A Pantomime";
+  schema:description """
+	Join Dame Nanny Hugwell – the palace’s loudest, proudest and most overprotective nanny/housekeeper as she juggles raising the spirited Princess Aurora and her own gentle son Buttons along with her rambunctious triplets. It’s a joyous celebration at the palace until the uninvited and fabulously fierce Maleficent crashes the party and places a wicked curse on baby Aurora. On her 16th birthday she will prick her finger on a spinning wheel and fall into an eternal sleep!<span><br/></span><span><br/></span>Thankfully, the three slightly scatterbrained but well-meaning fairies, Flora, Fauna and Merryweather soften the curse, and Aurora is hidden away in the forest under the watchful eye of Nanny Hugwell and Buttons. Years later, as Aurora blossoms into a brave young woman and Buttons tries and fails to keep up with Royal life, the handsome and kind-hearted Prince Stephan stumbles into their lives.<span><br/></span><span><br/></span>But Maleficent along with her side kick Diablo hasn’t finished her wicked games. With true love, mistaken identities, outrageous costumes, catchy songs, magical mayhem, and possibly a dragon that might just need a hug….will the prince break the curse or will Maleficent have the last laugh! Packed with laughs, love and lashings of panto fun, Sleeping Beauty is the magical adventure the whole family will love ------Oh yes you will!
+""";
+  schema:startDate "2025-12-30T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c97534bb-c7b7-4578-a42d-407248f84932.jpg>;
+  schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre-society>;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71251;
+  schema:keywords "Musical theatre";
+  schema:duration "PT60M";
+  schema:endDate "2025-12-30T20:30:00"^^xsd:dateTime .
+
+_:7a3cc0a35f2942c9aef1713ef13d47a71251 a schema:AggregateOffer;
+  schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=167604>;
+  schema:lowPrice "26.6";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/sidwilliams/event/167808AHRGGHCNDGBKVNTNVVVPNNVQCSC> a schema:Event;
   schema:name "Sleeping Beauty, A Pantomime";
   schema:description """
 	Join Dame Nanny Hugwell – the palace’s loudest, proudest and most overprotective nanny/housekeeper as she juggles raising the spirited Princess Aurora and her own gentle son Buttons along with her rambunctious triplets. It’s a joyous celebration at the palace until the uninvited and fabulously fierce Maleficent crashes the party and places a wicked curse on baby Aurora. On her 16th birthday she will prick her finger on a spinning wheel and fall into an eternal sleep!<span><br/></span><span><br/></span>Thankfully, the three slightly scatterbrained but well-meaning fairies, Flora, Fauna and Merryweather soften the curse, and Aurora is hidden away in the forest under the watchful eye of Nanny Hugwell and Buttons. Years later, as Aurora blossoms into a brave young woman and Buttons tries and fails to keep up with Royal life, the handsome and kind-hearted Prince Stephan stumbles into their lives.<span><br/></span><span><br/></span>But Maleficent along with her side kick Diablo hasn’t finished her wicked games. With true love, mistaken identities, outrageous costumes, catchy songs, magical mayhem, and possibly a dragon that might just need a hug….will the prince break the curse or will Maleficent have the last laugh! Packed with laughs, love and lashings of panto fun, Sleeping Beauty is the magical adventure the whole family will love ------Oh yes you will!
 """;
-  schema:startDate "2025-12-22T19:30:00"^^xsd:dateTime;
+  schema:startDate "2025-12-31T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/c97534bb-c7b7-4578-a42d-407248f84932.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01246;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71252;
   schema:keywords "Musical theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-12-22T20:30:00" .
+  schema:endDate "2025-12-31T15:00:00"^^xsd:dateTime .
 
-<https://spektrix.com/sidwilliams/organization/courtenay-little-theatre-society> a
-    schema:Organization;
-  schema:name "Courtenay Little Theatre Society" .
-
-_:0ece7e74912a4f6a87144562a251ddf01246 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71252 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=167808>;
   schema:lowPrice "24.6";
   schema:priceCurrency "CAD" .
@@ -1342,15 +1371,15 @@ _:0ece7e74912a4f6a87144562a251ddf01246 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/8de2ed3b-4c73-4516-9126-b18c9e127957.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/snowed--in-comedy-tour>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01247;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71253;
   schema:keywords "Comedy";
   schema:duration "PT60M";
-  schema:endDate "2026-01-13T20:30:00" .
+  schema:endDate "2026-01-13T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/snowed--in-comedy-tour> a schema:Organization;
   schema:name "Snowed  In Comedy Tour" .
 
-_:0ece7e74912a4f6a87144562a251ddf01247 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71253 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=171801>;
   schema:lowPrice "46.6";
   schema:priceCurrency "CAD" .
@@ -1364,15 +1393,15 @@ _:0ece7e74912a4f6a87144562a251ddf01247 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/5e8a9fcc-33e1-4d9e-b9aa-6147de16472f.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/cantabo-inc.>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01248;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71254;
   schema:keywords "Tribute concert";
   schema:duration "PT60M";
-  schema:endDate "2025-09-13T20:30:00" .
+  schema:endDate "2025-09-13T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/cantabo-inc.> a schema:Organization;
   schema:name "Cantabo Inc." .
 
-_:0ece7e74912a4f6a87144562a251ddf01248 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71254 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=161401>;
   schema:lowPrice "51.6";
   schema:priceCurrency "CAD" .
@@ -1386,15 +1415,15 @@ _:0ece7e74912a4f6a87144562a251ddf01248 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/bae81c88-bd46-4633-8223-76101e8f2260.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/got-pop?-concerts-inc.>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01249;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71255;
   schema:keywords "Tribute concert";
   schema:duration "PT60M";
-  schema:endDate "2025-11-08T20:30:00" .
+  schema:endDate "2025-11-08T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/got-pop?-concerts-inc.> a schema:Organization;
   schema:name "Got Pop? Concerts Inc." .
 
-_:0ece7e74912a4f6a87144562a251ddf01249 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71255 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=161001>;
   schema:lowPrice "57.5";
   schema:priceCurrency "CAD" .
@@ -1408,15 +1437,15 @@ _:0ece7e74912a4f6a87144562a251ddf01249 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/79c4e8bc-35ef-4b2f-892c-f0931a5c8dca.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/vancouver-island-symphony>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01250;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71256;
   schema:keywords "Classical - Symphony";
   schema:duration "PT60M";
-  schema:endDate "2025-11-09T15:00:00" .
+  schema:endDate "2025-11-09T15:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/vancouver-island-symphony> a schema:Organization;
   schema:name "Vancouver Island Symphony" .
 
-_:0ece7e74912a4f6a87144562a251ddf01250 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71256 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=168801>;
   schema:lowPrice "22.1";
   schema:priceCurrency "CAD" .
@@ -1430,12 +1459,12 @@ _:0ece7e74912a4f6a87144562a251ddf01250 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/89ff9086-72ae-4c55-b0c0-9c729f39088f.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/vancouver-island-symphony>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01251;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71257;
   schema:keywords "Classical - Symphony";
   schema:duration "PT60M";
-  schema:endDate "2026-02-15T15:00:00" .
+  schema:endDate "2026-02-15T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01251 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71257 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=169201>;
   schema:lowPrice "22.1";
   schema:priceCurrency "CAD" .
@@ -1449,12 +1478,12 @@ _:0ece7e74912a4f6a87144562a251ddf01251 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/d44c778d-ee8c-41a8-b406-da3aa19e1412.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/vancouver-island-symphony>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01252;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71258;
   schema:keywords "Classical - Symphony";
   schema:duration "PT60M";
-  schema:endDate "2026-01-18T15:00:00" .
+  schema:endDate "2026-01-18T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01252 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71258 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=169001>;
   schema:lowPrice "22.1";
   schema:priceCurrency "CAD" .
@@ -1468,15 +1497,15 @@ _:0ece7e74912a4f6a87144562a251ddf01252 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/78ac7e67-806c-4f9b-be14-089c41444a6b.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01253;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71259;
   schema:keywords "Theatre - Drama";
   schema:duration "PT60M";
-  schema:endDate "2026-04-15T20:30:00" .
+  schema:endDate "2026-04-15T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre> a schema:Organization;
   schema:name "Courtenay Little Theatre" .
 
-_:0ece7e74912a4f6a87144562a251ddf01253 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71259 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=169801>;
   schema:lowPrice "28.6";
   schema:priceCurrency "CAD" .
@@ -1486,16 +1515,16 @@ _:0ece7e74912a4f6a87144562a251ddf01253 a schema:AggregateOffer;
   schema:description """
 	Directed by Catherine Hannon<span><br/></span><span><br/></span>After a major disaster at a nuclear power plant, Hazel and Robin, nuclear engineers, have retreated to their remote coastal cottage, seeking to re-establish some kind of normal life. Out of the blue, Rose, a fellow scientist whom they haven’t seen for years, turns up. Has she come to rekindle old relationships or is she hiding some darker motive? <span><br/></span><span><br/></span>\"Sly, gripping, darkly funny...This is sci-fi kitted out with real people, real dilemmas, real scope.\" --The Times<span><br/></span><span><br/></span>\"Grips compulsively...Genuinely disturbing...Leaves you an abundance of ideas on which to ruminate.\" --Guardian<span><br/></span><span><br/></span>Nominated for Tony Award for Best Play, winner of U.K. Writer's Guild Award for Best New Play. In 2019, writers for The Guardian placed <span class=\"ItalicText\">The Children</span> third on a list of the greatest theatrical works since 2000.<span><br/></span>
 """;
-  schema:startDate "2026-04-15T19:30:00"^^xsd:dateTime;
+  schema:startDate "2026-04-16T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/78ac7e67-806c-4f9b-be14-089c41444a6b.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01254;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71260;
   schema:keywords "Theatre - Drama";
   schema:duration "PT60M";
-  schema:endDate "2026-04-15T20:30:00" .
+  schema:endDate "2026-04-16T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01254 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71260 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=169802>;
   schema:lowPrice "28.6";
   schema:priceCurrency "CAD" .
@@ -1505,16 +1534,16 @@ _:0ece7e74912a4f6a87144562a251ddf01254 a schema:AggregateOffer;
   schema:description """
 	Directed by Catherine Hannon<span><br/></span><span><br/></span>After a major disaster at a nuclear power plant, Hazel and Robin, nuclear engineers, have retreated to their remote coastal cottage, seeking to re-establish some kind of normal life. Out of the blue, Rose, a fellow scientist whom they haven’t seen for years, turns up. Has she come to rekindle old relationships or is she hiding some darker motive? <span><br/></span><span><br/></span>\"Sly, gripping, darkly funny...This is sci-fi kitted out with real people, real dilemmas, real scope.\" --The Times<span><br/></span><span><br/></span>\"Grips compulsively...Genuinely disturbing...Leaves you an abundance of ideas on which to ruminate.\" --Guardian<span><br/></span><span><br/></span>Nominated for Tony Award for Best Play, winner of U.K. Writer's Guild Award for Best New Play. In 2019, writers for The Guardian placed <span class=\"ItalicText\">The Children</span> third on a list of the greatest theatrical works since 2000.<span><br/></span>
 """;
-  schema:startDate "2026-04-15T19:30:00"^^xsd:dateTime;
+  schema:startDate "2026-04-17T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/78ac7e67-806c-4f9b-be14-089c41444a6b.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01255;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71261;
   schema:keywords "Theatre - Drama";
   schema:duration "PT60M";
-  schema:endDate "2026-04-15T20:30:00" .
+  schema:endDate "2026-04-17T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01255 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71261 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=169803>;
   schema:lowPrice "28.6";
   schema:priceCurrency "CAD" .
@@ -1524,16 +1553,16 @@ _:0ece7e74912a4f6a87144562a251ddf01255 a schema:AggregateOffer;
   schema:description """
 	Directed by Catherine Hannon<span><br/></span><span><br/></span>After a major disaster at a nuclear power plant, Hazel and Robin, nuclear engineers, have retreated to their remote coastal cottage, seeking to re-establish some kind of normal life. Out of the blue, Rose, a fellow scientist whom they haven’t seen for years, turns up. Has she come to rekindle old relationships or is she hiding some darker motive? <span><br/></span><span><br/></span>\"Sly, gripping, darkly funny...This is sci-fi kitted out with real people, real dilemmas, real scope.\" --The Times<span><br/></span><span><br/></span>\"Grips compulsively...Genuinely disturbing...Leaves you an abundance of ideas on which to ruminate.\" --Guardian<span><br/></span><span><br/></span>Nominated for Tony Award for Best Play, winner of U.K. Writer's Guild Award for Best New Play. In 2019, writers for The Guardian placed <span class=\"ItalicText\">The Children</span> third on a list of the greatest theatrical works since 2000.<span><br/></span>
 """;
-  schema:startDate "2026-04-15T19:30:00"^^xsd:dateTime;
+  schema:startDate "2026-04-18T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/78ac7e67-806c-4f9b-be14-089c41444a6b.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01256;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71262;
   schema:keywords "Theatre - Drama";
   schema:duration "PT60M";
-  schema:endDate "2026-04-15T20:30:00" .
+  schema:endDate "2026-04-18T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01256 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71262 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=169804>;
   schema:lowPrice "28.6";
   schema:priceCurrency "CAD" .
@@ -1543,16 +1572,16 @@ _:0ece7e74912a4f6a87144562a251ddf01256 a schema:AggregateOffer;
   schema:description """
 	Directed by Catherine Hannon<span><br/></span><span><br/></span>After a major disaster at a nuclear power plant, Hazel and Robin, nuclear engineers, have retreated to their remote coastal cottage, seeking to re-establish some kind of normal life. Out of the blue, Rose, a fellow scientist whom they haven’t seen for years, turns up. Has she come to rekindle old relationships or is she hiding some darker motive? <span><br/></span><span><br/></span>\"Sly, gripping, darkly funny...This is sci-fi kitted out with real people, real dilemmas, real scope.\" --The Times<span><br/></span><span><br/></span>\"Grips compulsively...Genuinely disturbing...Leaves you an abundance of ideas on which to ruminate.\" --Guardian<span><br/></span><span><br/></span>Nominated for Tony Award for Best Play, winner of U.K. Writer's Guild Award for Best New Play. In 2019, writers for The Guardian placed <span class=\"ItalicText\">The Children</span> third on a list of the greatest theatrical works since 2000.<span><br/></span>
 """;
-  schema:startDate "2026-04-15T19:30:00"^^xsd:dateTime;
+  schema:startDate "2026-04-19T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/78ac7e67-806c-4f9b-be14-089c41444a6b.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/courtenay-little-theatre>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01257;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71263;
   schema:keywords "Theatre - Drama";
   schema:duration "PT60M";
-  schema:endDate "2026-04-15T20:30:00" .
+  schema:endDate "2026-04-19T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01257 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71263 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=170001>;
   schema:lowPrice "28.6";
   schema:priceCurrency "CAD" .
@@ -1566,15 +1595,15 @@ _:0ece7e74912a4f6a87144562a251ddf01257 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/95b2fc3e-314f-4d13-ae38-da264f0d7d62.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/dan-quinn-entertainment>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01258;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71264;
   schema:keywords "Comedy";
   schema:duration "PT60M";
-  schema:endDate "2025-11-21T20:30:00" .
+  schema:endDate "2025-11-21T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/dan-quinn-entertainment> a schema:Organization;
   schema:name "Dan Quinn Entertainment" .
 
-_:0ece7e74912a4f6a87144562a251ddf01258 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71264 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=155201>;
   schema:lowPrice "49.0";
   schema:priceCurrency "CAD" .
@@ -1588,15 +1617,15 @@ _:0ece7e74912a4f6a87144562a251ddf01258 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/57164ca6-5c45-41f8-807d-84345975834a.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01259;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71265;
   schema:keywords "Theatre";
   schema:duration "PT60M";
-  schema:endDate "2026-03-29T20:30:00" .
+  schema:endDate "2026-03-29T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society> a schema:Organization;
   schema:name "Sid Williams Theatre Society" .
 
-_:0ece7e74912a4f6a87144562a251ddf01259 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71265 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=165201>;
   schema:lowPrice "49.6";
   schema:priceCurrency "CAD" .
@@ -1610,15 +1639,15 @@ _:0ece7e74912a4f6a87144562a251ddf01259 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/14ca45f2-1310-4788-a86e-3d9ed6bfcd14.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/department-of-corrections>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01260;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71266;
   schema:keywords "Live music - Country";
   schema:duration "PT60M";
-  schema:endDate "2025-11-23T20:00:00" .
+  schema:endDate "2025-11-23T20:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/department-of-corrections> a schema:Organization;
   schema:name "Department of Corrections" .
 
-_:0ece7e74912a4f6a87144562a251ddf01260 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71266 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=161201>;
   schema:lowPrice "51.6";
   schema:priceCurrency "CAD" .
@@ -1632,16 +1661,16 @@ _:0ece7e74912a4f6a87144562a251ddf01260 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/2498bd42-70bf-4d32-93c8-a09949b4e266.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/got-pop?,-gee-dan-&-98.9-jet-fm>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01261;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71267;
   schema:keywords "Concert";
   schema:duration "PT60M";
-  schema:endDate "2025-12-05T20:30:00" .
+  schema:endDate "2025-12-05T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/got-pop?,-gee-dan-&-98.9-jet-fm> a
     schema:Organization;
   schema:name "Got Pop?, Gee Dan & 98.9 Jet FM" .
 
-_:0ece7e74912a4f6a87144562a251ddf01261 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71267 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=169601>;
   schema:lowPrice "47.1";
   schema:priceCurrency "CAD" .
@@ -1655,12 +1684,12 @@ _:0ece7e74912a4f6a87144562a251ddf01261 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/b62de961-a7b3-4344-9de6-1c8b8b3f954b.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01262;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71268;
   schema:keywords "Live music";
   schema:duration "PT60M";
-  schema:endDate "2026-03-22T20:30:00" .
+  schema:endDate "2026-03-22T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01262 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71268 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=165001>;
   schema:lowPrice "35.6";
   schema:priceCurrency "CAD" .
@@ -1674,12 +1703,12 @@ _:0ece7e74912a4f6a87144562a251ddf01262 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/56316217-48c3-46a6-a72c-874eed9cc735.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01263;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71269;
   schema:keywords "Live music";
   schema:duration "PT60M";
-  schema:endDate "2026-02-06T20:30:00" .
+  schema:endDate "2026-02-06T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01263 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71269 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=163803>;
   schema:lowPrice "35.6";
   schema:priceCurrency "CAD" .
@@ -1693,12 +1722,12 @@ _:0ece7e74912a4f6a87144562a251ddf01263 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/61dd18e2-6a37-466f-8c2e-21694cd230e5.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01264;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71270;
   schema:keywords "Live music";
   schema:duration "PT60M";
-  schema:endDate "2025-10-10T20:30:00" .
+  schema:endDate "2025-10-10T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01264 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71270 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=161801>;
   schema:lowPrice "33.6";
   schema:priceCurrency "CAD" .
@@ -1712,16 +1741,16 @@ _:0ece7e74912a4f6a87144562a251ddf01264 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/3dcace6d-46f2-41b5-86ee-f17f5d2427cb.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/comox-valley-community-foundation>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01265;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71271;
   schema:keywords "Film - Documentary";
   schema:duration "PT60M";
-  schema:endDate "2025-11-13T20:00:00" .
+  schema:endDate "2025-11-13T20:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/comox-valley-community-foundation>
   a schema:Organization;
   schema:name "Comox Valley Community Foundation" .
 
-_:0ece7e74912a4f6a87144562a251ddf01265 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71271 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=172001>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1735,12 +1764,12 @@ _:0ece7e74912a4f6a87144562a251ddf01265 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/b0fcfb5c-8fa6-408e-b227-194a48bc5928.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01266;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71272;
   schema:keywords "Dance and theatre";
   schema:duration "PT60M";
-  schema:endDate "2025-10-15T20:30:00" .
+  schema:endDate "2025-10-15T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01266 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71272 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=162801>;
   schema:lowPrice "33.6";
   schema:priceCurrency "CAD" .
@@ -1754,12 +1783,12 @@ _:0ece7e74912a4f6a87144562a251ddf01266 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/057c66ea-fc7d-4f0a-8ff5-407f5e431636.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01267;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71273;
   schema:keywords "Children's show";
   schema:duration "PT60M";
-  schema:endDate "2026-02-07T15:00:00" .
+  schema:endDate "2026-02-07T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01267 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71273 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=164801>;
   schema:lowPrice "15.6";
   schema:priceCurrency "CAD" .
@@ -1773,12 +1802,12 @@ _:0ece7e74912a4f6a87144562a251ddf01267 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/033f6aa6-a473-4bac-96de-db3a522ef924.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01268;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71274;
   schema:keywords "Comedy";
   schema:duration "PT60M";
-  schema:endDate "2025-09-10T20:30:00" .
+  schema:endDate "2025-09-10T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01268 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71274 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=167401>;
   schema:lowPrice "11.6";
   schema:priceCurrency "CAD" .
@@ -1792,12 +1821,12 @@ _:0ece7e74912a4f6a87144562a251ddf01268 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/94bb6255-4f3a-42e7-aa4d-f608031afddb.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01269;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71275;
   schema:keywords "Holiday concert";
   schema:duration "PT60M";
-  schema:endDate "2025-12-15T20:30:00" .
+  schema:endDate "2025-12-15T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01269 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71275 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=163002>;
   schema:lowPrice "26.1";
   schema:priceCurrency "CAD" .
@@ -1811,15 +1840,15 @@ _:0ece7e74912a4f6a87144562a251ddf01269 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/67dac5dc-cfd5-414a-ba0b-89c79f56443e.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/razzle-dazzle-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01270;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71276;
   schema:keywords "Music and dance";
   schema:duration "PT60M";
-  schema:endDate "2025-12-08T20:00:00" .
+  schema:endDate "2025-12-08T20:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/razzle-dazzle-productions> a schema:Organization;
   schema:name "Razzle Dazzle Productions" .
 
-_:0ece7e74912a4f6a87144562a251ddf01270 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71276 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=165801>;
   schema:lowPrice "48.6";
   schema:priceCurrency "CAD" .
@@ -1829,16 +1858,16 @@ _:0ece7e74912a4f6a87144562a251ddf01270 a schema:AggregateOffer;
   schema:description """
 	The Yellowpoint Christmas Spectacular is a celebration of music, dance, lights and decorations. Now in its 17th season, it has become a holiday tradition for  many across Vancouver Island.<span><br/></span><span><br/></span>What better way to celebrate the season than with tickets to this dazzling  spectacle. It’s fast moving and colorful. It will take you on an emotional journey  through a wide variety of music and dance from rock & roll to Broadway, jazz and  classical, tap, interwoven with touching readings and stories. <span><br/></span><span><br/></span>This year's singing and dancing extravaganza includes medleys of well-known  songs by Bobby Darrin, a selection of musical numbers from Mary Poppins and  Frozen, a classic 80's rock band tribute, a disco set including Stayin' Alive, a fun  collection of Canadian songs, an audience sing-along, Bing Crosby's classic White Christmas as well as many more classical hits and Christmas favorites.<span><br/></span><span><br/></span>Three weeks before opening night, a cast of 19 professional singers, dancers,  musicians and theatre artists will begin rehearsals in preparation for opening  night!<span><br/></span><span><br/></span>This show is in popular demand. A favorite among bus tour groups, staff parties, family and friend reunions, and festive celebrations. Book early so you don’t miss this exciting holiday event!<span><br/></span><span><br/></span>ARTISTIC DIRECTOR & PRODUCER: Katy Bowen-Roberts<span><br/></span>MUSICAL DIRECTOR & ARRANGER: James Mark<span><br/></span>CO-DIRECTOR & CHOREOGRAPHER: Lindsay Sterk<span><br/></span>LIGHTING: Hilary Britton-Foster<span><br/></span>SOUND: Steve Adamson<span><br/></span>STAGE MANAGER: Shelby Matthews
 """;
-  schema:startDate "2025-12-08T19:00:00"^^xsd:dateTime;
+  schema:startDate "2025-12-09T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/67dac5dc-cfd5-414a-ba0b-89c79f56443e.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/razzle-dazzle-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01271;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71277;
   schema:keywords "Music and dance";
   schema:duration "PT60M";
-  schema:endDate "2025-12-08T20:00:00" .
+  schema:endDate "2025-12-09T20:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01271 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71277 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=165802>;
   schema:lowPrice "48.6";
   schema:priceCurrency "CAD" .
@@ -1848,16 +1877,16 @@ _:0ece7e74912a4f6a87144562a251ddf01271 a schema:AggregateOffer;
   schema:description """
 	The Yellowpoint Christmas Spectacular is a celebration of music, dance, lights and decorations. Now in its 17th season, it has become a holiday tradition for  many across Vancouver Island.<span><br/></span><span><br/></span>What better way to celebrate the season than with tickets to this dazzling  spectacle. It’s fast moving and colorful. It will take you on an emotional journey  through a wide variety of music and dance from rock & roll to Broadway, jazz and  classical, tap, interwoven with touching readings and stories. <span><br/></span><span><br/></span>This year's singing and dancing extravaganza includes medleys of well-known  songs by Bobby Darrin, a selection of musical numbers from Mary Poppins and  Frozen, a classic 80's rock band tribute, a disco set including Stayin' Alive, a fun  collection of Canadian songs, an audience sing-along, Bing Crosby's classic White Christmas as well as many more classical hits and Christmas favorites.<span><br/></span><span><br/></span>Three weeks before opening night, a cast of 19 professional singers, dancers,  musicians and theatre artists will begin rehearsals in preparation for opening  night!<span><br/></span><span><br/></span>This show is in popular demand. A favorite among bus tour groups, staff parties, family and friend reunions, and festive celebrations. Book early so you don’t miss this exciting holiday event!<span><br/></span><span><br/></span>ARTISTIC DIRECTOR & PRODUCER: Katy Bowen-Roberts<span><br/></span>MUSICAL DIRECTOR & ARRANGER: James Mark<span><br/></span>CO-DIRECTOR & CHOREOGRAPHER: Lindsay Sterk<span><br/></span>LIGHTING: Hilary Britton-Foster<span><br/></span>SOUND: Steve Adamson<span><br/></span>STAGE MANAGER: Shelby Matthews
 """;
-  schema:startDate "2025-12-08T19:00:00"^^xsd:dateTime;
+  schema:startDate "2025-12-10T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/67dac5dc-cfd5-414a-ba0b-89c79f56443e.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/razzle-dazzle-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01272;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71278;
   schema:keywords "Music and dance";
   schema:duration "PT60M";
-  schema:endDate "2025-12-08T20:00:00" .
+  schema:endDate "2025-12-10T15:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01272 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71278 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=166001>;
   schema:lowPrice "48.6";
   schema:priceCurrency "CAD" .
@@ -1867,16 +1896,16 @@ _:0ece7e74912a4f6a87144562a251ddf01272 a schema:AggregateOffer;
   schema:description """
 	The Yellowpoint Christmas Spectacular is a celebration of music, dance, lights and decorations. Now in its 17th season, it has become a holiday tradition for  many across Vancouver Island.<span><br/></span><span><br/></span>What better way to celebrate the season than with tickets to this dazzling  spectacle. It’s fast moving and colorful. It will take you on an emotional journey  through a wide variety of music and dance from rock & roll to Broadway, jazz and  classical, tap, interwoven with touching readings and stories. <span><br/></span><span><br/></span>This year's singing and dancing extravaganza includes medleys of well-known  songs by Bobby Darrin, a selection of musical numbers from Mary Poppins and  Frozen, a classic 80's rock band tribute, a disco set including Stayin' Alive, a fun  collection of Canadian songs, an audience sing-along, Bing Crosby's classic White Christmas as well as many more classical hits and Christmas favorites.<span><br/></span><span><br/></span>Three weeks before opening night, a cast of 19 professional singers, dancers,  musicians and theatre artists will begin rehearsals in preparation for opening  night!<span><br/></span><span><br/></span>This show is in popular demand. A favorite among bus tour groups, staff parties, family and friend reunions, and festive celebrations. Book early so you don’t miss this exciting holiday event!<span><br/></span><span><br/></span>ARTISTIC DIRECTOR & PRODUCER: Katy Bowen-Roberts<span><br/></span>MUSICAL DIRECTOR & ARRANGER: James Mark<span><br/></span>CO-DIRECTOR & CHOREOGRAPHER: Lindsay Sterk<span><br/></span>LIGHTING: Hilary Britton-Foster<span><br/></span>SOUND: Steve Adamson<span><br/></span>STAGE MANAGER: Shelby Matthews
 """;
-  schema:startDate "2025-12-08T19:00:00"^^xsd:dateTime;
+  schema:startDate "2025-12-10T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/sidwilliams/files/67dac5dc-cfd5-414a-ba0b-89c79f56443e.jpg>;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/razzle-dazzle-productions>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01273;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71279;
   schema:keywords "Music and dance";
   schema:duration "PT60M";
-  schema:endDate "2025-12-08T20:00:00" .
+  schema:endDate "2025-12-10T20:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01273 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71279 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=165803>;
   schema:lowPrice "48.6";
   schema:priceCurrency "CAD" .
@@ -1891,7 +1920,7 @@ _:0ece7e74912a4f6a87144562a251ddf01273 a schema:AggregateOffer;
   schema:organizer <https://spektrix.com/sidwilliams/organization/test>;
   schema:keywords "Film - Documentary";
   schema:duration "PT60M";
-  schema:endDate "2020-12-14T20:00:00" .
+  schema:endDate "2020-12-14T20:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/test> a schema:Organization;
   schema:name "Test" .
@@ -1909,15 +1938,15 @@ _:0ece7e74912a4f6a87144562a251ddf01273 a schema:AggregateOffer;
   schema:description """
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span><br/></span><span><br/></span>Fusce at diam sit amet nibh lacinia congue id at odio.<span><br/></span><span><br/></span><ul><li>Pellentesque efficitur</li><li>vulputate mattis.</li><li>Pellentesque vulputate</li><li>ac dapibus vulputate</li></ul><span><br/></span><ol><li>ipsum magna mollis nulla</li><li>et semper tortor</li><li>augue sit amet</li></ol><span><br/></span>Nunc nisl odio, lacinia non scelerisque volutpat, varius at mi.<span><br/></span><span><br/></span>$ % *<span><br/></span><span><br/></span>Aenean lacinia nisi non augue accumsan dapibus. Suspendisse potenti. Quisque tempor sapien sit amet tellus viverra porttitor. Pellentesque risus nibh, commodo ac blandit quis, laoreet at turpis. Cras non semper dui. Integer aliquet nisi urna, eu mollis nunc bibendum ac. Fusce est est, ultricies et lorem finibus, efficitur pharetra ex. Donec a malesuada mauris, ac iaculis mi. Donec non dapibus ligula. Maecenas sit amet nunc tincidunt risus finibus dapibus et vitae turpis. 
 """;
-  schema:startDate "2020-12-14T19:00:00"^^xsd:dateTime;
+  schema:startDate "2024-03-15T12:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/test>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01274;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71280;
   schema:keywords "Film - Documentary";
   schema:duration "PT60M";
-  schema:endDate "2020-12-14T20:00:00" .
+  schema:endDate "2024-03-15T13:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01274 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71280 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=30001>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1929,12 +1958,12 @@ _:0ece7e74912a4f6a87144562a251ddf01274 a schema:AggregateOffer;
 """;
   schema:startDate "2022-08-31T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01275;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71281;
   schema:keywords "Film";
   schema:duration "PT60M";
-  schema:endDate "2022-08-31T20:30:00" .
+  schema:endDate "2022-08-31T20:30:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01275 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71281 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=56801>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1946,12 +1975,12 @@ _:0ece7e74912a4f6a87144562a251ddf01275 a schema:AggregateOffer;
 """;
   schema:startDate "2025-04-24T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/sidwilliams/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01276;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71282;
   schema:keywords "Comedy";
   schema:duration "PT60M";
-  schema:endDate "2025-04-24T11:00:00" .
+  schema:endDate "2025-04-24T11:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01276 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71282 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=123401>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1964,15 +1993,15 @@ _:0ece7e74912a4f6a87144562a251ddf01276 a schema:AggregateOffer;
   schema:startDate "2025-04-03T11:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/sidwilliams/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/performing-arts-comox-valley>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01277;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71283;
   schema:keywords "Live music";
   schema:duration "PT140M";
-  schema:endDate "2025-04-03T13:50:00" .
+  schema:endDate "2025-04-03T13:50:00"^^xsd:dateTime .
 
 <https://spektrix.com/sidwilliams/organization/performing-arts-comox-valley> a schema:Organization;
   schema:name "Performing Arts Comox Valley" .
 
-_:0ece7e74912a4f6a87144562a251ddf01277 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71283 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=133801>;
   schema:lowPrice "26.6";
   schema:priceCurrency "CAD" .
@@ -1985,12 +2014,12 @@ _:0ece7e74912a4f6a87144562a251ddf01277 a schema:AggregateOffer;
   schema:startDate "2021-07-31T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/sidwilliams/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/sidwilliams/organization/sid-williams-theatre-society>;
-  schema:offers _:0ece7e74912a4f6a87144562a251ddf01278;
+  schema:offers _:7a3cc0a35f2942c9aef1713ef13d47a71284;
   schema:keywords "Special programming";
   schema:duration "PT60M";
-  schema:endDate "2021-07-31T20:00:00" .
+  schema:endDate "2021-07-31T20:00:00"^^xsd:dateTime .
 
-_:0ece7e74912a4f6a87144562a251ddf01278 a schema:AggregateOffer;
+_:7a3cc0a35f2942c9aef1713ef13d47a71284 a schema:AggregateOffer;
   schema:url <https://www.sidwilliamstheatre.com/choose-seating/?id=59602>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
