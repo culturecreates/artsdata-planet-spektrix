@@ -121,7 +121,7 @@
                   {
                     "valueSource": {
                       "source": "column",
-                      "columnName": "_ - firstInstanceDateTime"
+                      "columnName": "_ - instance_start"
                     },
                     "valueType": {
                       "type": "datatype_literal",
@@ -583,10 +583,20 @@
                   {
                     "valueSource": {
                       "source": "column",
-                      "columnName": "_ - lastInstanceDateTime"
+                      "columnName": "_ - instance_end"
                     },
                     "valueType": {
-                      "type": "literal"
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "dateTime"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "xsd"
+                        }
+                      }
                     }
                   }
                 ]

@@ -55,8 +55,8 @@ def enrich_event(event, venues, instances, plans, additional_info):
                 new_event[f"instance_{key}"] = value
             event_duration = event.get("duration", 0) or 60
             new_event['duration'] = "PT" + str(event_duration) + "M"
-            new_event['lastInstanceDateTime'] = (
-                datetime.fromisoformat(new_event['firstInstanceDateTime']) + 
+            new_event['instance_end'] = (
+                datetime.fromisoformat(new_event['instance_start']) + 
                 timedelta(minutes=event_duration)
             ).isoformat()
             if new_event.get('attribute_LowestPrice') is None:
