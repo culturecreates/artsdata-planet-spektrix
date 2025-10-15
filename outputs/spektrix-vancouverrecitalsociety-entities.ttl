@@ -1,0 +1,354 @@
+@base <http://example.com/base/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/1402ALKJJBVJTRJMSBNDSNBMPGGLSNNLQ>
+  a schema:Event;
+  schema:name "Altstaedt & Dunford";
+  schema:description """
+	<span class=\"BoldText\">Pre-concert talk at 2:15pm</span><span><br/></span><span><br/></span>Those of you who have experienced performances by Nicolas Altstaedt and Thomas Dunford on our stages in the past will know that these are two incredibly gifted and mesmerizing musicians. Put them together and you have a dream pairing of the most innovative and compelling musical minds. Their program includes works that span from the French Baroque to the late Romantic periods. These are interspersed with two of J.S. Bach’s iconic cello suites, one of which has been transcribed for lute. We are officially intrigued. This will be a recital to remember!
+""";
+  schema:startDate "2025-11-16T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/35ba5b33-652d-4330-849d-7a32f7b1b961.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee1;
+  schema:duration "PT100M";
+  schema:endDate "2025-11-16T16:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee1 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
+  a schema:Place;
+  schema:name "Vancouver Playhouse";
+  schema:address <https://spektrix.com/vancouverrecitalsociety/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
+
+<https://spektrix.com/vancouverrecitalsociety/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
+  a schema:PostalAddress;
+  schema:streetAddress "600 Hamilton St";
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "BC";
+  schema:postalCode "V6B 5N6";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>
+  a schema:Event;
+  schema:name "Andrea Lucchesini";
+  schema:description """
+	<span class=\"BoldText\">Pre-concert talk at 2:15pm</span><span><br/></span><span><br/></span>We are delighted to welcome the return of this marvellous Italian pianist. Since his first visit in 1986, Andrea has returned to Vancouver many times to delight our audiences. His recordings from Beethoven to Berio have been critically acclaimed, and he is greatly admired as both a performer and pedagogue, continuing the legacy of his own teacher, the late, great Maria Tipo.<span><br/></span><span><br/></span>SCHUBERT: 3 Klavierstücke D. 946<span><br/></span>BRAHMS: 6 Klavierstücke Op. 118<span><br/></span>CHOPIN: 24 Preludes, Op. 28
+""";
+  schema:startDate "2025-09-21T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/b9ecb00c-55ab-439b-840b-3e3032d430bc.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee2;
+  schema:duration "PT100M";
+  schema:endDate "2025-09-21T16:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee2 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/3401ARKRNLBJKDJTKHBHRJBNHVDNSKPTR>
+  a schema:Event;
+  schema:name "Benjamin Appl 1";
+  schema:description """
+	<span class=\"BoldText\">Pre-concert talk: 45 mins before the performance in the Royal Bank Cinema</span><span><br/></span><span><br/></span><span class=\"BoldText\">SCHUBERT: Die schöne Müllerin</span><span><br/></span><span><br/></span>Benjamin Appl and James Baillieu closed out our 2022-23 Season with a recital that moved many in the audience to tears. It was one of the most deeply touching and brilliant performances we have presented. Immediately afterwards, a plan was hatched to bring these two remarkable artists back to Vancouver to perform Schubert’s three great song cycles. After a lot of back-and-forth, our calendars aligned and this Schubertian dream will be realized in the wonderfully intimate Telus Studio Theatre. Be sure to bring a handkerchief along with your ticket!
+""";
+  schema:startDate "2026-03-19T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/01c35db9-7568-4b49-84ca-884d3e59ce67.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee3;
+  schema:duration "PT100M";
+  schema:endDate "2026-03-19T21:10:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee3 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/vancouverrecitalsociety/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:Place;
+  schema:name "Chan Centre";
+  schema:address <https://spektrix.com/vancouverrecitalsociety/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/vancouverrecitalsociety/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:PostalAddress;
+  schema:streetAddress "6265 Crescent Rd";
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "BC";
+  schema:postalCode "V6T 1Z1";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/3601ABRLTLCLBPPCHRCSJRVVJLBBBDQCM>
+  a schema:Event;
+  schema:name "Benjamin Appl 2";
+  schema:description """
+	<span class=\"BoldText\">Pre-concert talk: 45 mins before the performance in the Royal Bank Cinema</span><span><br/></span><span><br/></span><span class=\"BoldText\">SCHUBERT: Schwanengesang</span><span><br/></span><span><br/></span>Benjamin Appl and James Baillieu closed out our 2022-23 Season with a recital that moved many in the audience to tears. It was one of the most deeply touching and brilliant performances we have presented. Immediately afterwards, a plan was hatched to bring these two remarkable artists back to Vancouver to perform Schubert’s three great song cycles. After a lot of back-and-forth, our calendars aligned and this Schubertian dream will be realized in the wonderfully intimate Telus Studio Theatre. Be sure to bring a handkerchief along with your ticket!
+""";
+  schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/efe9cf46-e3d4-453f-81b3-06a8639f768a.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee4;
+  schema:duration "PT60M";
+  schema:endDate "2026-03-20T20:30:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee4 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM>
+  a schema:Event;
+  schema:name "Benjamin Appl 3";
+  schema:description """
+	<span class=\"BoldText\">Pre-concert talk: 45 mins before the performance in the Royal Bank Cinema</span><span><br/></span><span><br/></span><span class=\"BoldText\">SCHUBERT: Winterreise</span><span><br/></span><span><br/></span>Benjamin Appl and James Baillieu closed out our 2022-23 Season with a recital that moved many in the audience to tears. It was one of the most deeply touching and brilliant performances we have presented. Immediately afterwards, a plan was hatched to bring these two remarkable artists back to Vancouver to perform Schubert’s three great song cycles. After a lot of back-and-forth, our calendars aligned and this Schubertian dream will be realized in the wonderfully intimate Telus Studio Theatre. Be sure to bring a handkerchief along with your ticket!
+""";
+  schema:startDate "2026-03-22T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/6ab98d68-b43e-4dbe-ac5a-91ef0578413f.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee5;
+  schema:duration "PT60M";
+  schema:endDate "2026-03-22T16:00:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee5 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/2003AGLCTSDNHLPTTCDRQRQGMRVKCKRDD>
+  a schema:Event;
+  schema:name "Hayato Sumino";
+  schema:description """
+	Hayato Sumino is a phenomenon. Known on YouTube as “Cateen”, this young Japanese artist has earned tens of millions of views for his captivating interpretations of classical masterworks as well as his own original compositions. Taking the concert world by storm, this remarkable pianist and composer breathes new life into the term “virtuoso”. Get your tickets early… this event is sure to sell out!<span><br/></span><span><br/></span>BACH: Chromatic Fantasie & Fugue D Minor<span><br/></span>SUMINO: New Birth (after Chopin)<span><br/></span>SUMINO: Recollection (after Chopin)<span><br/></span>SUMINO: 3 Nocturnes<span><br/></span>CHOPIN: Nocturne C minor, Op. 48, No. 1<span><br/></span>CHOPIN: Scherzo No. 1 in B minor, Op. 20<span><br/></span>SUMINO: Big Cat Waltz<span><br/></span>GERSHWIN: American in Paris<span><br/></span>RAVEL: Bolero
+""";
+  schema:startDate "2026-05-07T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/5eca8134-5303-4bab-8ed8-463ea53a2701.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee6;
+  schema:duration "PT100M";
+  schema:endDate "2026-05-07T21:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee6 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/vancouverrecitalsociety/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>
+  a schema:Place;
+  schema:name "Orpheum Theatre";
+  schema:address <https://spektrix.com/vancouverrecitalsociety/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
+
+<https://spektrix.com/vancouverrecitalsociety/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>
+  a schema:PostalAddress;
+  schema:streetAddress "601 Smithe St";
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "BC";
+  schema:postalCode "V6B 3L4";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/2002APLLRJQLLLDGLMSVTSPVTNQPBGKGL>
+  a schema:Event;
+  schema:name "Jeneba Kanneh-Mason";
+  schema:description """
+	<span class=\"BoldText\">Post-performance Talk Back</span><span><br/></span><span><br/></span>We’re happy to welcome yet another talent from the preternaturally gifted Kanneh-Mason family! Jebena made her debut on the international scene at the BBC Proms performing the Florence Price Concerto, and was described by London’s Evening Standard as “an eloquent advocate for the piece with her sensitive yet alert playing.” Now an exclusive Sony Classical Artist, she was named one of Classic FM’s ‘Rising Stars’. This will be Jeneba’s second VRS appearance; she previously performed with all six of her siblings at the Orpheum in 2023. It is our pleasure to welcome her back in her Canadian solo debut.<span><br/></span><span><br/></span>BACH: Partita No. 5 in G major, BWV 829<span><br/></span>BEETHOVEN: Sonata No. 17 in D minor ‘Tempest’, Op. 31, No. 2<span><br/></span>STILL: Summerland<span><br/></span>DEBUSSY: Prélude No. 8, Book 1, La fille aux cheveux de lin<span><br/></span>DEBUSSY: Prélude No. 5, Book 2, Bruyères<span><br/></span>PRICE: Fantasie nègre No. 1 in E minor<span><br/></span>CHOPIN: Ballade No. 3 in A-flat major, Op. 47<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-02-22T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/4222cd39-f906-42ac-ae4b-0312ccf05c27.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee7;
+  schema:duration "PT100M";
+  schema:endDate "2026-02-22T16:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee7 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>
+  a schema:Event;
+  schema:name "Jerusalem Quartet";
+  schema:description """
+	<span class=\"BoldText\">Pre-concert talk at 2:15pm</span><span><br/></span><span><br/></span>It’s hard to believe that 2025 marks the 30th anniversary of the establishment of the Jerusalem Quartet. Since their first appearance for the VRS in 2001, this ensemble has become a regular and beloved presence on the world’s great concert stages. They have appeared many times in Vancouver, and a highlight in the annals of the VRS was their 5-concert performance of all the Shostakovich String Quartets in the Telus Theatre at the Chan Centre in 2006. They are returning to us to perform the same program they played in their Wigmore Hall debut 25 years ago, an appearance which launched them to international fame.<span><br/></span><span><br/></span>HAYDN: Quartet in B-flat major, Op. 76, No. 4 “Sunrise”<span><br/></span>JANÁČEK: Quartet No. 1 “Kreutzer Sonata”<span><br/></span>BEETHOVEN: Quartet in B-flat major, Op. 130 with Grosse Fugue finale Op. 133
+""";
+  schema:startDate "2025-10-19T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/442a0e67-0db8-45ff-a73d-1cccee798d81.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee8;
+  schema:duration "PT100M";
+  schema:endDate "2025-10-19T16:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee8 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/2801AQDNLVMHMKCPBDVJNRVPGGRHGRKHB>
+  a schema:Event;
+  schema:name "Jose Franch-Ballester";
+  schema:description """
+	<span class=\"BoldText\">Pre-concert talk at 2:15pm</span><span><br/></span><span><br/></span>This concert will showcase a wonderful pair of local talents. Both are acclaimed performers and both are professors at UBC School of Music. Jose Franch-Ballester is an Avery Fisher Career Grant-winner who has been praised for his “poetic eloquence” (The New York Sun) and “technical wizardry” (The New York Times). David Fung is widely recognized for his elegant and refined playing which was described by The Washington Post as “ravishing and simply gorgeous”. Leila had the pleasure of hearing them perform together at UBC’s Barnett Hall and decided that they would be a perfect addition to our season. It’s not often that the clarinet features on our series… we think you’ll want to join us for this rare event!<span><br/></span><span><br/></span>DOROTHY CHANG: Afterlight for Clarinet and Piano <span><br/></span>JÖRG WIDMANN: Five Fragments for Clarinet and Piano<span><br/></span>JOHANNES BRAHMS: Sonata No. 1 in F-minor for Clarinet and Piano, Op. 120, No. 1<span><br/></span>FRANCIS POULENC: Sonata for Clarinet and Piano, FP184<span><br/></span>ROBERT SCHUMANN: Fantasiestücke, Op. 73
+""";
+  schema:startDate "2026-04-12T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/3999a094-bab0-41da-9a55-4858069b592f.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee9;
+  schema:duration "PT100M";
+  schema:endDate "2026-04-12T16:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee9 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/2401AMBSVDSNBDLGKMKJVPMHNLQGTKHSV>
+  a schema:Event;
+  schema:name "Julius Asal";
+  schema:description """
+	<span class=\"BoldText\">CANADIAN DEBUT</span><span><br/></span><span><br/></span><span class=\"BoldText\">Post-performance Talk Back</span><span><br/></span><span><br/></span>We are delighted to welcome this talented young German pianist in his Canadian debut. Praised by the late Menahem Pressler for his “uniquely beautiful sound and special sonority”, Julius studied with Sir András Schiff at Kronberg Academy from 2021 to 2024. In addition to being named a BBC New Generation Artist and a “Rising Star” by Classic FM, he has signed an exclusive recording contract with Deutsche Grammophon. Remember, you heard him here first!<span><br/></span><span><br/></span>BARTÓK: Suite, Op. 14<span><br/></span>BRAHMS: Ballades, Op. 10<span><br/></span>BARTÓK: Burlesques, Op. 8c<span><br/></span>RACHMANINOFF: Preludes, Op. 32
+""";
+  schema:startDate "2026-02-08T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/21fe3b70-5a4e-4e22-8132-8f013a29611a.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee10;
+  schema:duration "PT100M";
+  schema:endDate "2026-02-08T16:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee10 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV>
+  a schema:Event;
+  schema:name "Kułakowski & Abdelmoula";
+  schema:description """
+	<span class=\"BoldText\">Post-performance Talk Back</span><span><br/></span><span><br/></span>These two wonderful young performers are alumni of Young Classical Artists Trust (YCAT) in London, and have given stellar performances together at Wigmore Hall. They both appeared on our series in recent years — Maciej as part of a chamber trio and Jean-Sélim in a solo recital. Both of them impressed us greatly and we’re delighted to welcome them back as a duo.<span><br/></span><span><br/></span>JANÁČEK: Pohadka  <span><br/></span>BEETHOVEN: Variations on “Bei Männern, Welche Liebe Fühlen” from Magic Flute, WoO 46<span><br/></span>CLARA SCHUMANN: Three Romances for Violin and Piano, Op. 22, arr. for cello<span><br/></span>ROBERT SCHUMANN: Adagio and Allegro, Op. 70, arr. for cello<span><br/></span>NADIA BOULANGER: Three Pieces for Cello and Piano<span><br/></span>LILI BOULANGER: Nocturne<span><br/></span>CÉSAR FRANCK: Sonata in A major for Violin and Piano, arr. for cello
+""";
+  schema:startDate "2025-11-30T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/c04b54c9-ef57-46ec-aeff-441d50ef7521.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee11;
+  schema:duration "PT100M";
+  schema:endDate "2025-11-30T16:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee11 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG>
+  a schema:Event;
+  schema:name "Leonkoro Quartet";
+  schema:description """
+	Jonathan Schwarz, violin<span><br/></span>Amelie Wallner, violin<span><br/></span>Mayu Konoe, viola<span><br/></span>Lukas Schwarz, cello<span><br/></span><span><br/></span><span class=\"BoldText\">Post-performance Talk Back</span><span><br/></span><span><br/></span>The Leonkoro Quartet was founded in Berlin in 2019, and by 2022 they had garnered a number of prestigious awards, solidifying their place among the most celebrated ensembles of their generation. Their swift rise in classical music is highlighted by their First Prize win at the Wigmore Hall International String Quartet Competition and their selection for the BBC Radio 3 New Generation Artists program. The group takes its name from “Leon” and “koro” — Esperanto words that together form “Lionheart”. We are excited to present them in their Vancouver debut.<span><br/></span><span><br/></span><span class=\"BoldText\">“ROLE MODELS”</span><span><br/></span>HENRIËTTE BOSMANS: String Quartet<span><br/></span>MENDELSSOHN: String Quartet No. 2 in A minor, Op. 13<span><br/></span>SCHUBERT: String Quartet in D minor, D. 810 “Death and the Maiden”
+""";
+  schema:startDate "2026-03-08T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/446ddf04-fc81-49bd-8813-c63cb2d6e239.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee12;
+  schema:duration "PT100M";
+  schema:endDate "2026-03-08T16:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee12 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/2601AQNNVGDSDNTBVTJRRMQNTDRTBBNTQ>
+  a schema:Event;
+  schema:name "Mao Fujita";
+  schema:description """
+	<span class=\"BoldText\">Post-performance Talk Back</span><span><br/></span><span><br/></span>After his impressive Canadian debut on our stage in 2023, we were determined to bring this remarkable young Japanese pianist back as soon as possible. For his first VRS appearance he played an all-Mozart program at our request. We were amply rewarded… it’s quite rare to hear a performer of Mao’s age play Mozart so wonderfully. This time his program will illustrate the incredible breadth of his talent.<span><br/></span><span><br/></span>BEETHOVEN: Piano Sonata No. 1 in F minor, Op. 2, No. 1<span><br/></span>WAGNER: Ein Albumblatt, WWV 94<span><br/></span>BERG: Twelve Variations on an Original Theme<span><br/></span>MENDELSSOHN: Variations sérieuses, Op. 54<span><br/></span>BRAHMS: Piano Sonata No. 1 in C major, Op. 1<span><br/></span>WAGNER/LISZT: Liebestod, S. 447
+""";
+  schema:startDate "2026-03-01T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/334ccf16-a813-4fc6-9bc4-c62a682f3a31.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee13;
+  schema:duration "PT100M";
+  schema:endDate "2026-03-01T16:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee13 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL>
+  a schema:Event;
+  schema:name "Sean Shibe";
+  schema:description """
+	<span class=\"BoldText\">CANADIAN DEBUT</span><span><br/></span><span><br/></span><span class=\"BoldText\">Post-performance Talk Back</span><span><br/></span><span><br/></span>This brilliant young guitarist has already proven himself to be a truly original mind at the frontier of contemporary classical music. Sean is a former BBC New Generation Artist, a Borletti-Buitoni Trust Fellowship winner, a Royal Philharmonic Society 2018 Young Artist Award winner, and a recipient of the 2022 Leonard Bernstein Award. His last season included a coveted residency at Wigmore Hall in London. Be there when this charismatic young star makes his Canadian debut.<span><br/></span><span><br/></span>FRANK MARTIN: Quatre Pièces Brèves<span><br/></span>J. S. BACH: Suite No. 1 for Cello Solo in G major, BWV 1007, arr. for guitar<span><br/></span>THOMAS ADÈS: Forgotten Dances<span><br/></span>SASHA SCOTT: Rush<span><br/></span>TYSHAWN SOREY: New Work<span><br/></span>STEVE REICH: Electric Counterpoint
+""";
+  schema:startDate "2025-11-02T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/4e5fb856-8aec-42c5-93f0-4b19afab6ce4.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee14;
+  schema:duration "PT60M";
+  schema:endDate "2025-11-02T16:00:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee14 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD>
+  a schema:Event;
+  schema:name "Tiffany Poon";
+  schema:description """
+	<span class=\"BoldText\">CANADIAN DEBUT</span><span><br/></span><span><br/></span><span class=\"BoldText\">Post-performance Talk Back</span><span><br/></span><span><br/></span>Hong-Kong born pianist Tiffany Poon is a rising star who has garnered quite a following. She recently made her Zankel Hall debut in New York, which came hot on the heels of the release of her debut album \"Diaries: Schumann\", which has already amassed over 9 million streams and charted at No. 1 on the Apple Music Classical and Billboard charts. With a growing YouTube community of 328K subscribers and over 50 million views, Tiffany is dedicated to building new audiences in classical music through insights into her life as a musician with the aim of making music more accessible to all.<span><br/></span><span><br/></span>ROBERT SCHUMANN: Kinderszenen, Op. 15, No. 1<span><br/></span>CLARA SCHUMANN: Mazurka, Op. 6, No. 5<span><br/></span>ROBERT SCHUMANN: Davidsbündlertänze, Op. 6<span><br/></span>ALKAN: Le festin d'Ésope, Op. 39, No. 12<span><br/></span>DAQUIN: Le Coucou<span><br/></span>COUPERIN: Les Papillons from Pièces de clavecin<span><br/></span>RAMEAU: La Poule<span><br/></span>DEBUSSY: Prélude No. 5, Book 2, Bruyères<span><br/></span>DEBUSSY: Images Book 1, No. 1, Reflets dans l'eau<span><br/></span>RAVEL: Miroirs No. 2, Oiseaux tristes<span><br/></span>RAVEL: Miroirs No. 3, Une barque sur l'océan<span><br/></span>LILI BOULANGER: D'un jardin clair
+""";
+  schema:startDate "2026-01-18T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/6bea6af7-a23f-48d7-a7f2-2138f8748abd.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee15;
+  schema:duration "PT100M";
+  schema:endDate "2026-01-18T16:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee15 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>
+  a schema:Event;
+  schema:name "Tony Siqi Yun";
+  schema:description """
+	<span class=\"BoldText\">Post-performance Talk Back</span><span><br/></span><span><br/></span>Ever since Canadian pianist Tony Siqi Yun made his Vancouver debut on our stage in 2021, we’ve watched his international career reach ever-new heights. For his third VRS appearance, he has chosen a delightful program that will highlight his incredible talent. Tony has a very full concert schedule these days and we’re lucky to have snagged this date. Don’t miss it!<span><br/></span><span><br/></span>BRAHMS: Theme with Variations in D minor, Op. 18b<span><br/></span>SCHUMANN: Theme with Variations in E-flat major, WoO 24, “Ghost Variations”<span><br/></span>BEETHOVEN: Sonata No. 23 in F minor, Op. 57 “Appassionata”<span><br/></span>BUSONI: Elegies BV 249: VII Berceuse<span><br/></span>SCHUMANN: Symphonic Etudes, Op. 13
+""";
+  schema:startDate "2025-10-26T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/6fdc96de-2583-4d67-a400-3b0f00ff5e59.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee16;
+  schema:duration "PT100M";
+  schema:endDate "2025-10-26T16:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee16 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/3201AQVHRDTTMHKGVGSKKQQVCTJHSRSNR>
+  a schema:Event;
+  schema:name "Ukulele Orchestra of Great Britain";
+  schema:description """
+	“The Ukes” are back by popular demand! This world-renowned troupe of all-singing, all-strumming ukulele players makes its much-anticipated return to the VRS to perform hilarious and astonishing interpretations of film scores, rock ’n’ roll, pop, jazz, blues and classical music. This is feel-good music at its best. Get your seats early to ensure you don’t miss the fun! 
+""";
+  schema:startDate "2026-05-03T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/cfed56d5-4eaa-4529-aa3e-0ed7bb917192.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee17;
+  schema:duration "PT100M";
+  schema:endDate "2026-05-03T16:40:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee17 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/3001AKGPBMSRNCDBJCGBHRDVVQRQLSLMV>
+  a schema:Event;
+  schema:name "Víkingur Ólafsson";
+  schema:description """
+	<span class=\"BoldText\">Pre-concert talk at 6:45pm</span><span><br/></span><span><br/></span>Icelandic pianist Víkingur Ólafsson has become one of the world’s most sought-after artists in recent years, capturing the public and critical imagination with profound musicianship and visionary programs. His recordings have led to over one billion streams and he has won numerous awards, including the 2025 GRAMMY for Best Classical Instrumental Solo for his recording of Bach’s Goldberg Variations, BBC Music Magazine’sAlbum of the Year, and the Opus Klassik Solo Recording of the Year (twice). He makes his VRS debut with a deeply personal program, “Opus 109”, centred around Beethoven’s sublime Piano Sonata No. 30.<span><br/></span><span><br/></span>“OPUS 109”<span><br/></span>BACH: Prelude in E major BWV 854<span><br/></span>BEETHOVEN: Sonata No. 9 in E major Op. 14, No. 1<span><br/></span>BACH: Partita No. 6 in E minor, BWV 830<span><br/></span>BEETHOVEN: Sonata No. 27 in E minor, Op. 90<span><br/></span>SCHUBERT: Sonata in E minor, D 566<span><br/></span>BEETHOVEN: Sonata No. 30 in E major, Op. 109
+""";
+  schema:startDate "2026-05-01T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/vancouverrecitalsociety/files/e4451ce4-7c2f-4e86-8052-5c0bc3b87210.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:6c0108feaa28439280f6d67ecafd53ee18;
+  schema:duration "PT100M";
+  schema:endDate "2026-05-01T21:10:00"^^xsd:dateTime .
+
+_:6c0108feaa28439280f6d67ecafd53ee18 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
