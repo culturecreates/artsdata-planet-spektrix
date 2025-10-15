@@ -1,0 +1,277 @@
+@base <http://example.com/base/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/dancehousevancouver/event/3401ARKRNLBJKDJTKHBHRJBNHVDNSKPTR>
+  a schema:Event;
+  schema:name "Daniel Léveillé";
+  schema:description """
+	<h1>Daniel Léveillé (Montreal) </h1><h2><span class=\"ItalicText\">Amour, Acid et Noix (Love, Acid and Nuts)</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 60 minutes (no intermission)<span><br/></span><span><br/></span>Note: This performance includes nudity. <span><br/></span><span><br/></span><span class=\"ItalicText\">2004 Dora Mavor Moore award, in category “Outstanding New Choreography”</span><span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/daniel-leveille/\">Click here for more.</a>
+""";
+  schema:startDate "2025-10-24T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/51803d24-e2d9-4f93-81ba-c7d7281a8f50.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d11;
+  schema:duration "PT60M";
+  schema:endDate "2025-10-24T21:00:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d11 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>
+  a schema:Place;
+  schema:name "Vancouver Playhouse";
+  schema:address <https://spektrix.com/dancehousevancouver/address/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC> .
+
+<https://spektrix.com/dancehousevancouver/address/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>
+  a schema:PostalAddress;
+  schema:streetAddress "600 Hamilton St";
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "BC";
+  schema:postalCode "V6B 2P1";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/dancehousevancouver/event/3402ANVKRBQVHVKBSVBTSDMPLTJMHNPBP>
+  a schema:Event;
+  schema:name "Daniel Léveillé";
+  schema:description """
+	<h1>Daniel Léveillé (Montreal) </h1><h2><span class=\"ItalicText\">Amour, Acid et Noix (Love, Acid and Nuts)</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 60 minutes (no intermission)<span><br/></span><span><br/></span>Note: This performance includes nudity. <span><br/></span><span><br/></span><span class=\"ItalicText\">2004 Dora Mavor Moore award, in category “Outstanding New Choreography”</span><span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/daniel-leveille/\">Click here for more.</a>
+""";
+  schema:startDate "2025-10-25T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/51803d24-e2d9-4f93-81ba-c7d7281a8f50.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d12;
+  schema:duration "PT60M";
+  schema:endDate "2025-10-25T21:00:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d12 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/4801ANHPDLLRCQPPBDBQTRQJMPNKSLKPJ>
+  a schema:Event;
+  schema:name "Ex Machina and Côté Danse";
+  schema:description """
+	<h1>Ex Machina and Côté Danse (Montréal and Toronto) </h1>Presented with Community Partner Bard on the Beach Shakespeare Festival<span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Hamlet</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 1 hour 40 minutes (no  intermission)<span><br/></span><span><br/></span>Note: This performance includes strobe lights <span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/ex-machina-cote-danse/\">Click here for more.</a>
+""";
+  schema:startDate "2026-03-19T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/41507b2b-948c-41a2-978e-8d11c40f662a.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d13;
+  schema:duration "PT100M";
+  schema:endDate "2026-03-19T21:40:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d13 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/4401APLLPBSHLDJVTLGBDQTQBHJDJSHCM>
+  a schema:Event;
+  schema:name "Ex Machina and Côté Danse";
+  schema:description """
+	<h1>Ex Machina and Côté Danse (Montréal and Toronto) </h1>Presented with Community Partner Bard on the Beach Shakespeare Festival<span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Hamlet</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 1 hour 40 minutes (no  intermission)<span><br/></span><span><br/></span>Note: This performance includes strobe lights <span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/ex-machina-cote-danse/\">Click here for more.</a>
+""";
+  schema:startDate "2026-03-20T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/41507b2b-948c-41a2-978e-8d11c40f662a.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d14;
+  schema:duration "PT100M";
+  schema:endDate "2026-03-20T21:40:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d14 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/4402ADKKSLLMJLTHCKGPTBCHJLLSLRQKC>
+  a schema:Event;
+  schema:name "Ex Machina and Côté Danse";
+  schema:description """
+	<h1>Ex Machina and Côté Danse (Montréal and Toronto) </h1>Presented with Community Partner Bard on the Beach Shakespeare Festival<span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Hamlet</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 1 hour 40 minutes (no  intermission)<span><br/></span><span><br/></span>Note: This performance includes strobe lights <span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/ex-machina-cote-danse/\">Click here for more.</a>
+""";
+  schema:startDate "2026-03-21T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/41507b2b-948c-41a2-978e-8d11c40f662a.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d15;
+  schema:duration "PT100M";
+  schema:endDate "2026-03-21T21:40:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d15 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/3203ADBVNBDTBDJLDQDGNJHBDLSHVTQDD>
+  a schema:Event;
+  schema:name "Hung Dance";
+  schema:description """
+	<h1>Hung Dance (Taiwan)</h1>Presented with community partner Asian-Canadian Special Events Association<span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Birdy</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 60 minutes (no intermission)<span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/hung-dance/\">Click here for more.</a>
+""";
+  schema:startDate "2025-11-28T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/f373f574-f4ad-4f48-b1c3-dd3e51c21116.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d16;
+  schema:duration "PT60M";
+  schema:endDate "2025-11-28T21:00:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d16 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/3204APKSBJBPBHLRHRPKPSTHHTMVSSDDK>
+  a schema:Event;
+  schema:name "Hung Dance";
+  schema:description """
+	<h1>Hung Dance (Taiwan)</h1>Presented with community partner Asian-Canadian Special Events Association<span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Birdy</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 60 minutes (no intermission)<span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/hung-dance/\">Click here for more.</a>
+""";
+  schema:startDate "2025-11-29T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/f373f574-f4ad-4f48-b1c3-dd3e51c21116.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d17;
+  schema:duration "PT60M";
+  schema:endDate "2025-11-29T21:00:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d17 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/4001APBPRCSHVVMHTCBMSPSJRNDMCHHLV>
+  a schema:Event;
+  schema:name "Recirquel";
+  schema:description """
+	<h1>Recirquel (Hungary)</h1>Co-presented with The Cultch<span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Paradisum</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 60 minutes (no intermission)<span><br/></span><span><br/></span>Note: This performance contains strobe lights and is recommended for patrons aged 12 and older.<span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/recirquel/\">Click here for more.</a>
+""";
+  schema:startDate "2026-01-21T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/ce339b01-63fc-4a10-8449-bc1dbdf1b6ae.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d18;
+  schema:duration "PT60M";
+  schema:endDate "2026-01-21T21:00:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d18 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/4002ASRMDQRKVNMNTJNPGNVVVRRLPRLHK>
+  a schema:Event;
+  schema:name "Recirquel";
+  schema:description """
+	<h1>Recirquel (Hungary)</h1>Co-presented with The Cultch<span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Paradisum</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 60 minutes (no intermission)<span><br/></span><span><br/></span>Note: This performance contains strobe lights and is recommended for patrons aged 12 and older.<span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/recirquel/\">Click here for more.</a>
+""";
+  schema:startDate "2026-01-22T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/ce339b01-63fc-4a10-8449-bc1dbdf1b6ae.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d19;
+  schema:duration "PT60M";
+  schema:endDate "2026-01-22T21:00:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d19 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/4003AMJKQPGPLBGDBLRGJVSNKMLPGSNGV>
+  a schema:Event;
+  schema:name "Recirquel";
+  schema:description """
+	<h1>Recirquel (Hungary)</h1>Co-presented with The Cultch<span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Paradisum</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 60 minutes (no intermission)<span><br/></span><span><br/></span>Note: This performance contains strobe lights and is recommended for patrons aged 12 and older.<span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/recirquel/\">Click here for more.</a>
+""";
+  schema:startDate "2026-01-23T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/ce339b01-63fc-4a10-8449-bc1dbdf1b6ae.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d110;
+  schema:duration "PT60M";
+  schema:endDate "2026-01-23T21:00:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d110 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/4201ASVGBHHRTVLQBSRVKDQCKNHHDCTSJ>
+  a schema:Event;
+  schema:name "Recirquel";
+  schema:description """
+	<h1>Recirquel (Hungary)</h1>Co-presented with The Cultch<span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Paradisum</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 60 minutes (no intermission)<span><br/></span><span><br/></span>Note: This performance contains strobe lights and is recommended for patrons aged 12 and older.<span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/recirquel/\">Click here for more.</a>
+""";
+  schema:startDate "2026-01-24T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/ce339b01-63fc-4a10-8449-bc1dbdf1b6ae.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d111;
+  schema:duration "PT60M";
+  schema:endDate "2026-01-24T15:00:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d111 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/4004AGCVRSMCDKGDMTKNCHQLMGTPSRHCQ>
+  a schema:Event;
+  schema:name "Recirquel";
+  schema:description """
+	<h1>Recirquel (Hungary)</h1>Co-presented with The Cultch<span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Paradisum</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 60 minutes (no intermission)<span><br/></span><span><br/></span>Note: This performance contains strobe lights and is recommended for patrons aged 12 and older.<span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/recirquel/\">Click here for more.</a>
+""";
+  schema:startDate "2026-01-24T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/ce339b01-63fc-4a10-8449-bc1dbdf1b6ae.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d112;
+  schema:duration "PT60M";
+  schema:endDate "2026-01-24T21:00:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d112 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/4601AJPCPMGTNKKCGHTVKNTDGDBLJMHTJ>
+  a schema:Event;
+  schema:name "Stephanie Lake";
+  schema:description """
+	<h1>Stephanie Lake (Australia) </h1>Co-presented with Vancouver New Music <span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Manifesto</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 60 minutes (no intermission)<span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/stephanie-lake-company/\">Click here for more.</a>
+""";
+  schema:startDate "2026-04-16T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/4624f8a0-6cbf-4357-9f75-60b2275d0120.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d113;
+  schema:duration "PT60M";
+  schema:endDate "2026-04-16T21:00:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d113 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/4602ALNJDDHTDNNTLKKRDVGGDVBLBDVGL>
+  a schema:Event;
+  schema:name "Stephanie Lake";
+  schema:description """
+	<h1>Stephanie Lake (Australia) </h1>Co-presented with Vancouver New Music <span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Manifesto</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 60 minutes (no intermission)<span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/stephanie-lake-company/\">Click here for more.</a>
+""";
+  schema:startDate "2026-04-17T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/4624f8a0-6cbf-4357-9f75-60b2275d0120.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d114;
+  schema:duration "PT60M";
+  schema:endDate "2026-04-17T21:00:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d114 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/dancehousevancouver/event/4603ASNQGLMQPKDJRGNBSSMGBKGDBGHGL>
+  a schema:Event;
+  schema:name "Stephanie Lake";
+  schema:description """
+	<h1>Stephanie Lake (Australia) </h1>Co-presented with Vancouver New Music <span><br/></span><span><br/></span><h2><span class=\"ItalicText\">Manifesto</span></h2><span><br/></span>Vancouver Playhouse (600 Hamilton Street)<span><br/></span>Running time: 60 minutes (no intermission)<span><br/></span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://dancehouse.ca/event/stephanie-lake-company/\">Click here for more.</a>
+""";
+  schema:startDate "2026-04-18T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/dancehousevancouver/files/4624f8a0-6cbf-4357-9f75-60b2275d0120.jpg>;
+  schema:location <https://spektrix.com/dancehousevancouver/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
+  schema:offers _:1531cbe823e247d080abdb190cc5d4d115;
+  schema:duration "PT60M";
+  schema:endDate "2026-04-18T21:00:00"^^xsd:dateTime .
+
+_:1531cbe823e247d080abdb190cc5d4d115 a schema:AggregateOffer;
+  schema:lowPrice "40.75";
+  schema:priceCurrency "CAD" .
