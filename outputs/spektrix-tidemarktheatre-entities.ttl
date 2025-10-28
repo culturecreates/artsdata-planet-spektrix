@@ -1,0 +1,962 @@
+@base <http://example.com/base/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/tidemarktheatre/event/30001ACDNMRPKSDRKSKCJNMSBQHCSMMMG>
+  a schema:Event;
+  schema:name "A Fascinating Christmas";
+  schema:description """
+	This fresh and exciting new show begins during the radio era. Narrated by Steve Lebitschnig, owner of Nanaimo's most famous music store, Fascinating Rhythm. Enjoy the Christmas Music Magic, masterfully performed by a select 7-piece ensemble. There will be special performances, toe tapping songs, laughs and just maybe a few surprises! This is our production company's 4th year of producing a Christmas Show. We look forward to setting the tone for what will be an amazing Holiday Season.<span><br/></span><span><br/></span>Expect to hear fascinating renditions of <span><br/></span><ul><li> · Winter Wonderland</li><li> · Sleigh Ride</li><li> · Rockin’ Around the Christmas Tree</li><li> · Santa Baby</li><li> · White Christmas </li><li> · and so much more!</li></ul><span><br/></span>Thank you for supporting live music and performance arts!<span><br/></span><span><br/></span><span class=\"BoldText\">Meet our feature artists</span><span><br/></span><span><br/></span>Lee Worden – Born and raised in Nanaimo Lee is a proficient multi-instrumentalist. After playing all over Canada Lee moved to Nashville where he lived and breathed music for many years. Some of his accolades include touring with Canada's own Ian Tyson, as well as his own projects.<span><br/></span><span><br/></span>Taylor Kate Manns – Taylor is a master of the performing arts. She studied dance, acting and singing in New York before returning to her hometown of Nanaimo. She has also just released her first album under the name Tiki Way. She will definitely win your heart! <span><br/></span><span><br/></span>Tickets: $49.50 Admission <span class=\"ItalicText\">(includes GST, +applicable taxes & fees)</span><span><br/></span>
+""";
+  schema:startDate "2025-12-07T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/cfac00e7-dbd5-4be0-b7f4-cc1b4b5812d1.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd1;
+  schema:duration "PT120M";
+  schema:endDate "2025-12-07T21:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd1 a schema:AggregateOffer;
+  schema:lowPrice "49.5";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>
+  a schema:Place;
+  schema:name "Tidemark Theatre";
+  schema:address <https://spektrix.com/tidemarktheatre/address/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ> .
+
+<https://spektrix.com/tidemarktheatre/address/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ> a
+    schema:PostalAddress;
+  schema:streetAddress "1220 Shoppers Row";
+  schema:addressLocality "Campbell River";
+  schema:addressRegion "BC";
+  schema:postalCode "V9W 2C8";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/tidemarktheatre/event/21401ATBPGTQKVRDDCCQRVVVPPKQMSKBM>
+  a schema:Event;
+  schema:name "A Night of Bowie";
+  schema:description """
+	During his lifetime, Bowie sold over 100 million records worldwide, making him one of the best-selling musical artists In the UK, he was awarded nine platinum, eleven gold and eight silver albums, and in the US, five platinum and nine gold.<span><br/></span><span><br/></span>Victoria musician Syl Thompson and his band have been paying tribute to the musical works of David Bowie for more than three decades. Thompson embodies Bowie’s exquisite style and persona and has been acclaimed as providing the most credible and realistic Bowie experience in North America. Six highly respected musicians play each song as Bowie and his band performed them live. The look and feel of this concert replicates the Heathen/Reality Tour. The music spans the broad spectrum of Bowie’s hits from 1969’s Space Oddity to 2013’s Where Are We Now? The show is eerily close to hearing and seeing Bowie himself.<span><br/></span><span><br/></span>Tickets: $52.50 Admission (+applicable taxes & fees)
+""";
+  schema:startDate "2026-02-27T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/4d6a24d5-c144-4f56-a333-de8be3b8be05.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd2;
+  schema:duration "PT120M";
+  schema:endDate "2026-02-27T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd2 a schema:AggregateOffer;
+  schema:lowPrice "55.12";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/34001AGQQHTLTHTMBJQGPRQRMLLBGHNMV>
+  a schema:Event;
+  schema:name "A Very Merry Heistmas";
+  schema:description """
+	Piano Heist is back with a dazzling new holiday production: A Very Merry Heistmas! A festive romp through Christmas classics interlaced with their own brand of musical and comedic shenanigans, Nico Rhodes & Patrick Courtin tackle everything “Christmas.” Whether it’s the nostalgic charm of Charlie Brown Christmas, a rock & roll styled Nutcracker Suite; The Messiah on melodicas, or a rollicking ragtime Rudolph the Red Nose Reindeer, get ready for a holiday experience that’s truly one-of-a-kind! Bring your festive spirit and prepare to sing-along for A Very Merry Heistmas! <span><br/></span><span><br/></span><span class=\"BoldText\">Nico Rhodes</span> is a genre jumping, multilingual musician who collaborates with other artists and artforms to experience and explore music in as many styles as possible. Growing up touring around the globe surrounded by artists and the world of theatre – he is equally comfortable playing jazz, classical, funk or roots music, orchestrating a symphony, writing musicals, and conducting choirs. He begins his day with an espresso and practicing his Japanese, the language he is currently embracing. Nico has not stopped working since his first professional theatre gig as a multi-instrumentalist at the age of 17. As an accomplished musician, composer, and arranger, he has conducted more than 42 professional musical theatre productions across Canada; arranged for symphony orchestra, chamber ensembles, choirs, jazz groups and big band. With a portfolio of 100’s of original arrangements that span funk, to gospel, to rock, to choral and synth-pop, his composition skills have garnered him an exciting collaboration with international performers and writers in a new multi-platform musical theatre experience entitled <span class=\"ItalicText\">Off the Beaten Path</span>. Nico has received Ovation, Jessie, and SAT award nominations for his music direction of four Canadian musicals: <span class=\"ItalicText\">‘It’s A Wonderful Life’ (2014), ‘Out of my Dreams’ (2015), ‘Best Laid Plans’ (2016)</span> and <span class=\"ItalicText\">‘Talking Sex On Sunday (2020)</span>. In 2018 he was the recipient of Nanaimo’s <span class=\"ItalicText\">Emerging Cultural Leader Award</span>. <span><br/></span><span><br/></span><span class=\"BoldText\">Patrick Courtin</span> is a dynamic force in the music world, best known as one half of the innovative duo, Piano Heist. A talented pianist at heart, Patrick is also a multi-instrumentalist, composer, arranger, music director, and educator. His musical journey began with classical piano studies, which he later expanded by completing a degree in Jazz at Vancouver Island University. With over two decades of experience, Patrick has made his mark as a music director for various musical theatre productions, contributed to recording sessions, and composed music for film and television. His performances have taken him on tours across Canada, the United States, and even to China, showcasing his versatility and passion for music. Currently, Patrick serves as the Music Director at the renowned Barkerville Historic Town & Park in Wells, British Columbia. His eclectic musical background includes collaborations with silent film, opera singers, swing dancers, and historical theatre productions, highlighting his ability to adapt and thrive in diverse musical environments. <span><br/></span><span><br/></span>Tickets: $35 Member, $40 Non-Member <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-11-30T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/df990e22-3334-48a7-94a2-f75e31cb69f2.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd3;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-30T16:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd3 a schema:AggregateOffer;
+  schema:lowPrice "40.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/26601APLTNSPSGDPBRQVGGSRDMVBVVNQK>
+  a schema:Event;
+  schema:name "African Chamber Music Ensemble";
+  schema:description """
+	This boundary-pushing project reimagines African musical traditions through the intimate lens of the Western string quartet. Featuring arrangements by composer and ethnomusicologist Curtis Andrews, the ensemble weaves together the expressive depth of mbira music from Zimbabwe’s Shona people and the layered rhythms of Ghana’s Ewe culture into a chamber setting that is both respectful and revelatory.<span><br/></span><span><br/></span>At its core are master musicians Kurai Mubaiwa and Kwashie Kuwor, whose performances ground the repertoire in cultural authenticity and deep knowledge. They are joined by an adventurous string quartet whose dynamic interplay challenges and expands the Western classical tradition. Together, they offer a compelling new space for cross-cultural dialogue, rich in history, imagination, and soul.<span><br/></span><span><br/></span><span class=\"BoldText\">Curtis Andrews</span> - percussion, vocals, arrangements<span><br/></span><span class=\"BoldText\">Kofi Gbolonyo</span> -vocals, percussion, arrangements<span><br/></span><span class=\"BoldText\">Kurai Mubaiwa</span> - mbira, vocals, percussion<span><br/></span><span class=\"BoldText\">Kwashie Kuwor</span> - percussion, dance<span><br/></span><span class=\"BoldText\">Meredith Bates</span> - violin<span><br/></span><span class=\"BoldText\">Joshua Zubot</span> - violin<span><br/></span><span class=\"BoldText\">Parmela Attariwala</span> - viola<span><br/></span><span class=\"BoldText\">Peggy Lee</span> - cello<span><br/></span><span><br/></span><span class=\"BoldText\"><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=KFq-4HCdQeU&amp;t=146s\">VIDEO</a></span><span><br/></span><span><br/></span>Tickets: $25.00 Advance <span class=\"ItalicText\">(+applicable taxes & fees)</span>, $30 at the door<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-04-11T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/6656be55-c8ef-48c1-afb7-0f2f671c18fb.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd4;
+  schema:duration "PT120M";
+  schema:endDate "2026-04-11T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd4 a schema:AggregateOffer;
+  schema:lowPrice "31.5";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>
+  a schema:Place;
+  schema:name "Quadra Community Centre";
+  schema:address <https://spektrix.com/tidemarktheatre/address/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP> .
+
+<https://spektrix.com/tidemarktheatre/address/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP> a
+    schema:PostalAddress;
+  schema:streetAddress "970 West Rd";
+  schema:addressLocality "Quathiaski Cove";
+  schema:addressRegion "BC";
+  schema:postalCode "V0P 1N0";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/tidemarktheatre/event/29801AKHGBCBQNDCCBHCDGNPLGJBDMJSD>
+  a schema:Event;
+  schema:name "American Rock Legends";
+  schema:description """
+	American music legend <span class=\"BoldText\">Bob Seger</span> is second to none with more than 30 songs hitting <span class=\"BoldText\">Billboard’s Top 100</span> and legions of fans around the world!<span><br/></span><span><br/></span><span class=\"BoldText\">NIGHT MOVES</span> starring <span class=\"BoldText\">Dan Hare</span> re-creates Seger’s era of peak success, the 70’s and 80’s, when the hits kept rolling out to every rock radio station in the world. Dan has the requisite voice to authentically deliver “<span class=\"BoldText\"><span class=\"ItalicText\">Night Moves</span></span>”, “<span class=\"BoldText\"><span class=\"ItalicText\">Turn the Page</span></span>”, “<span class=\"BoldText\"><span class=\"ItalicText\">Old Time Rock & Roll</span></span>”, “<span class=\"BoldText\"><span class=\"ItalicText\">Hollywood Nights</span></span>” and more.  Night Moves, with the Look, the Voice, the Hits, is the ultimate tribute to the music of Bob Seger!<span><br/></span><span><br/></span>It is impossible to think of rock and roll without <span class=\"BoldText\">John Fogerty</span> and <span class=\"BoldText\">CCR</span>.  Fogerty is one of the most enduring icons of rock music and is still loved by everyone everywhere.  With CCR he charted nine Top-Ten singles and eight gold albums.  He continues to have a successful solo career.<span><br/></span><span><br/></span><span class=\"BoldText\">CENTERFIELD</span>, starring <span class=\"BoldText\">Dan Hare</span> is the essential tribute to the music of <span class=\"BoldText\">John Fogerty</span> and <span class=\"BoldText\">CCR</span>!  Hare has the chops to authentically re-create the CCR classics and the best of Fogerty’s solo hits including “<span class=\"BoldText\"><span class=\"ItalicText\">Travelin’ Band</span></span>”, “<span class=\"BoldText\"><span class=\"ItalicText\">Midnight Special</span></span>”, “<span class=\"BoldText\"><span class=\"ItalicText\">Up Around the Bend</span></span>”, “<span class=\"BoldText\"><span class=\"ItalicText\">Proud Mary</span></span>”, “<span class=\"BoldText\"><span class=\"ItalicText\">The Old Man Down the Road</span></span>” and “<span class=\"BoldText\"><span class=\"ItalicText\">Fortunate Son</span></span>”.  Re-live the memories of one of the most loved rock music icons of all time!<span><br/></span><span><br/></span><a target=\"_blank\" href=\"http://marchhare.bc.ca/content/AmericanRockLegends\">Click here for more about NIGHT MOVES and CENTERFIELD</a>.<span><br/></span><span><br/></span>Tickets: $55.50 Admission <span class=\"ItalicText\">(includes GST, +applicable fees)</span>
+""";
+  schema:startDate "2026-03-28T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/55cb9111-0483-4b1d-9c8d-8a55b2825cc6.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd5;
+  schema:duration "PT120M";
+  schema:endDate "2026-03-28T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd5 a schema:AggregateOffer;
+  schema:lowPrice "55.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/14801ALJMRBKMVHTKGLRNMTGKCGDBTVSP>
+  a schema:Event;
+  schema:name "Aysanabee: The Way We're Born";
+  schema:description """
+	Join two-time JUNO Award-winning Oji-Cree artist Aysanabee (Ace-in-abbey) on the western Canadian run of his first-ever headlining tour, The Way We’re Born Tour, supporting the upcoming June 20, 2025 release of his sophomore album Edge Of The Earth. Following two incredible Canadian support tours with Allison Russell and Dan Mangan, this spring’s Eastern Canadian tour, as well as countless global festival appearances, it is now time for Aysanabee to take center stage and share his powerful music—including the radio hit singles \"Nomads,\" “We Were Here,” \"Somebody Else,\" and his newest radio charting single “Edge Of The Earth”—along with his engaging storytelling.<span><br/></span><span><br/></span>The alternative indie artist, of Sucker Clan from the Sandy Lake First Nation, a remote fly-in community in Northwestern Ontario, Canada, now calls Toronto home. He began making music under his mother’s maiden name when moments of stillness allowed him to slow down and create music that truly represented him as an artist. He’s been compared to Hozier and Kings of Leon, among others.<span><br/></span><span><br/></span>In March 2024, Aysanabee made history as the first Indigenous artist to win the JUNO Awards for Alternative Album of the Year and the coveted Songwriter of the Year for his EP Here and Now. His debut album, Watin (Nov 2022), named after his grandfather, combined music and journalism with artistry and expression and was shortlisted for the 2023 Polaris Music Prize.<span><br/></span><span><br/></span>Since 2021, he has performed over 300 shows across Canada and globally, including tours abroad with Kim Churchill (AUS) and Skye Wallace (IT), and international festivals Reeperbahn (DE), The Great Escape (UK), SXSW Sydney (AUS), Tallinn Music Week (ES), and AmericanaFestUK (GB).<span><br/></span><span><br/></span>Tickets: $37.50 Members & First Nations Community, $42.50 Non-Members (+applicable taxes & fees)
+""";
+  schema:startDate "2025-11-17T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/8fc032fd-d0ab-429e-8532-bdfb36d00bf8.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd6;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-17T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd6 a schema:AggregateOffer;
+  schema:lowPrice "39.65";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/29401ADJVTMPMVSKRPCKNPVMCRPLRQJRR>
+  a schema:Event;
+  schema:name "Bourne to Be OZZ";
+  schema:description """
+	The Godfather of Heavy Metal, Ozzy Osbourne has been rockin’ the world since the formation of Black Sabbath in 1968. With worldwide record sales topping 100 million, Ozzy - as a solo artist & a founding member of Black Sabbath – has dominated the genre of heavy metal for over 50 years. With heavy metal guitar riffs and signature vocals, Ozzy’s music continues to be as popular as ever today. <span><br/></span><span><br/></span>The hard rockin’ tribute features hits including Bark at the Moon, Children of the Grave, Mr. Crowley, Crazy Train, and War Pigs to name a few. Don’t miss out on the chance to see your favorite Ozzy and Sabbath hits performed live, a MUST for real fans!<span><br/></span><span><br/></span>“As close as you’re gonna get to the real thing”<span><br/></span><span><br/></span>Tickets: $45.50 Admission <span class=\"ItalicText\">(includes GST, +applicable fees)</span>
+""";
+  schema:startDate "2025-11-08T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/caf0df25-964b-425e-8c04-2a7e0f504ed2.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd7;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-08T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd7 a schema:AggregateOffer;
+  schema:lowPrice "45.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/28401ALHCVVGBRSQJPRCNLLHLGCQGLNBC>
+  a schema:Event;
+  schema:name "Canadian Steam";
+  schema:description """
+	<span class=\"BoldText\">From Just for Laughs, Canadian Comedy Award winners, and Second City alumni - seen on CBC’s The Debaters, Netflix and Amazon Prime - comes a comedy experience that’s 100% Canadian and 1000% ridiculous.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Canadian Steam: They’re Polite, But Not Tonight!</span><span><br/></span><span><br/></span>It’s Whose Line Is It Anyway? meets the Great White North.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=3Vkit0iWOH0\">CLICK HERE TO WATCH THEM IN ACTION</a><span><br/></span><span><br/></span><span class=\"BoldText\">Hilarious improvised songs <span><br/></span><span><br/></span>Dangerously enthusiastic dance numbers<span><br/></span><span><br/></span>Exciting audience interaction <span><br/></span><span><br/></span>The perfect amount of jaw-dropping “eh-rotica”<span><br/></span><span><br/></span>And plenty of cheeky Canadian charm.</span><span><br/></span><span><br/></span>Don’t miss this incredible night brought to you from the award-winning minds at The Comedy Department. (<span class=\"BoldText\">TripAdvisor Travellers’ Choice Winners.</span>)<span><br/></span><span><br/></span>Check out what audiences are raving about : <a target=\"_blank\" href=\"https://bit.ly/493ha77\">TripAdvisor 5-Star Reviews!</a><span><br/></span><span><br/></span>But here’s the twist: YOU DECIDE if they’ve earned the Official Stamp of Sexy at the end of the night. Yes, these flannel-clad heartthrobs have been officially dispatched by the Ministry of Sexy™ (yes, that’s totally a thing) to prove that Canada isn’t just nice, it’s irresistibly hilarious. Your cheers, your laughter, your votes.  If they don't succeed? They'll be politely asked to hang up their flannel and go back to their log cabins in shame.<span><br/></span><span><br/></span>Straight from the land of moose, maple, and modesty, these Canucks are armed with maple syrup, smooth serenades, and some of the most average bods this side of the Rockies. These lumberjacks are on a national mission to crank up the charm and bring the funny - one town at a time.<span><br/></span><span><br/></span>So whether you're looking for a fun night out with friends, celebrating something special, or just need a boost of maple-fuelled mayhem, Canadian Steam is the comedy experience you didn’t know you needed.<span><br/></span><span><br/></span><span class=\"BoldText\">Grab your tickets now - before the Ministry pulls the plug on their sexy mission.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Find out more! <a target=\"_blank\" href=\"https://canadiansteamcomedy.com/\">Canadian Steam Website</a></span><span><br/></span><span><br/></span>Tickets: $50 Adult, $45 Senior, $45 Groups 6+ <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2026-01-30T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/c7afd2e9-7abc-4cd4-975c-9526037b9bc8.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd8;
+  schema:duration "PT120M";
+  schema:endDate "2026-01-30T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd8 a schema:AggregateOffer;
+  schema:lowPrice "47.25";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/32401ANQMVQVNTGTQHTSGSGJCPVKHDGKP>
+  a schema:Event;
+  schema:name "Choir! Choir! Choir!";
+  schema:description """
+	Why just watch a show when you can be the show? <span><br/></span><span><br/></span>Choir! Choir! Choir! is the fully interactive, sing-your-heart-out experience where the audience becomes the performers. No auditions, no pressure, just an unforgettable night of music and connection.<span><br/></span><span><br/></span>This time, Daveed Goldman & Nobu Adilman bring their hit show to Campbell River with <span class=\"ItalicText\"><span class=\"BoldText\">We Will CHOIR! You! — An EPIC QUEEN Sing-Along.</span></span> Think: a room full of Queen fans, harmonies soaring, everyone channeling their inner Freddie Mercury and belting out the biggest anthems ever written.<span><br/></span><span><br/></span>Since 2011, Choir! Choir! Choir! directors <span class=\"BoldText\">Daveed Goldman + Nobu Adilman</span> have blurred the lines between performer and audience, traveling the world to create harmony with strangers and friends alike. They’ve collaborated with renowned artists like Patti Smith, David Byrne, Brandi Carlile, Rick Astley, Rufus Wainwright, and even Kermit The Frog at New York’s Lincoln Center, creating memorable videos that have garnered millions of views. <span><br/></span><span><br/></span>Grab your friends (or make new ones there), warm up those vocal cords, and get ready for a night of pure joy, laughter, and singing your heart out. <span class=\"BoldText\">All voices welcome - no experience required.</span><span><br/></span><span><br/></span>Tickets: $43.50 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2026-01-25T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/a95603e7-7760-4f6b-8e25-55ee31ff06ef.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd9;
+  schema:duration "PT120M";
+  schema:endDate "2026-01-25T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd9 a schema:AggregateOffer;
+  schema:lowPrice "45.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/29001ALLPBTHVNSHLVJMKCMRSHGJJGQBT>
+  a schema:Event;
+  schema:name "Completely Creedence";
+  schema:description """
+	COMPLETELY CREEDENCE BAND is an authentic tribute to the legendary Creedence Clearwater Revival — delivering the unforgettable sound, soul, and spirit of CCR with unmatched energy and authenticity.<span><br/></span><span><br/></span>Led by Jamie Robertson, whose vocals channel the raw power and tone of John Fogerty with uncanny precision, this high-octane four-piece takes audiences on a nostalgic ride through CCR’s biggest hits — from “Proud Mary” and “Bad Moon Rising” to “Fortunate Son” and “Have You Ever Seen the Rain.”<span><br/></span><span><br/></span>Backed by a powerhouse lineup of seasoned musicians — Murray Atkinson (lead guitar), Lance Lapointe (bass), and Grant Baird (drums) — Completely Creedence brings the stage to life with tight harmonies, explosive instrumentation, and the timeless groove that made CCR one of the most iconic rock bands of all time.<span><br/></span><span><br/></span>Whether rocking festival crowds, headlining theatres, or turning private events into full-blown parties, Completely Creedence leaves audiences dancing, singing, and cheering for more. Their shows are more than a tribute — they’re a full-on CCR experience, guaranteed to stir the soul of any classic rock fan.<span><br/></span><span><br/></span>Completely Creedence Band — The Music Lives On.<span><br/></span><span><br/></span>Tickets: $53.00 Admission (+applicable taxes & fees)
+""";
+  schema:startDate "2025-11-07T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/fb97fdb4-9900-47cc-96e0-2afa56997062.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd10;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-07T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd10 a schema:AggregateOffer;
+  schema:lowPrice "55.65";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/31001ANSGMCKVDLMTPSRQHVNSMPTMDPCG>
+  a schema:Event;
+  schema:name "CRFF DJ Ahmet";
+  schema:description """
+	Ahmet, a 15-year-old boy from a remote Yuruk village in North Macedonia, finds refuge in music while navigating his father’s expectations, a conservative community, and his first experience with love — a girl already promised to someone else. The film delves into the challenges of growing up in a traditional setting while simultaneously discovering one’s own identity, tracing the universal human need to express oneself, and how art — in this case, music — can become both a refuge and a catalyst for change.<span><br/></span><span><br/></span>99 minutes<span><br/></span>Not Rated<span><br/></span>Turkish, Macedonian<span><br/></span><span><br/></span>Tickets: $20 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-10-21T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/8e0a9e00-5fb3-4f56-9533-8f149499447a.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd11;
+  schema:duration "PT99M";
+  schema:endDate "2025-10-21T20:39:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd11 a schema:AggregateOffer;
+  schema:lowPrice "21.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/30601ASVMNTVBQGPSKCLTTHTBBRPCLTLM>
+  a schema:Event;
+  schema:name "CRFF Santosh";
+  schema:description """
+	Filmmaker Sandhya Suri’s searing narrative debut follows a young housewife (Shahana Goswami) widowed after her police constable husband is killed on the job. Through a government initiative, she is trained to take his place in an overwhelmingly police station in rural Northern India, where she works mostly with men. Suri blends a journalistic attention to procedural detail — expertly building tension as evidence and characters are revealed — with an empathetic rendering of Santosh’s internal conflicts. She seeks professional advancement and respect from her peers while clinging to ethics in a system that prioritizes suspect confessions and convictions by any means.<span><br/></span><span><br/></span>128 minutes<span><br/></span>Rated R<span><br/></span>Hindi<span><br/></span>Content Advisory: Sexually suggestive scenes<span><br/></span><span><br/></span>Tickets: $20 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-10-14T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/4792c722-9df1-4124-bb99-704965cadeff.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd12;
+  schema:duration "PT128M";
+  schema:endDate "2025-10-14T21:08:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd12 a schema:AggregateOffer;
+  schema:lowPrice "21.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/30801ARPRRSKJDTQHHJTDRTPHSSSJNCJP>
+  a schema:Event;
+  schema:name "CRFF The Life of Chuck";
+  schema:description """
+	With The Life of Chuck, Mike Flanagan explores one of Stephen King’s most optimistic works. The world feels like it’s ending, and everybody’s saying goodbye to Chuck. Wherever Marty (Chiwetel Ejiofor) goes, he can’t get away from Charles Krantz (Tom Hiddleston). His face shows up on billboards, window signs, and even TV commercials. What’s so special about this seemingly ordinary accountant? Fans of Flanagan’s skillful storytelling in The Haunting of Hill House, Midnight Mass, and Doctor Sleep will easily see why he gravitated towards the unorthodox structure of this King novella that manages a rare feat: finding warmth in melancholy. <span><br/></span><span><br/></span>110 minutes <span><br/></span>Rated R <span><br/></span><span><br/></span>Tickets: $20 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-11-04T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/cc88d1ea-472c-438a-b714-1a9651e91214.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd13;
+  schema:duration "PT110M";
+  schema:endDate "2025-11-04T20:50:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd13 a schema:AggregateOffer;
+  schema:lowPrice "21.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/30401AVTJMSJLDVLNKKKDPCPPRDDJCLRT>
+  a schema:Event;
+  schema:name "CRFF The Marching Band";
+  schema:description """
+	Thibaut is an internationally renowned conductor who travels the world. When he learns he was adopted, he discovers the existence of a younger brother, Jimmy, who works in a school cafeteria and plays the trombone in a small marching band. Everything seems to set them apart, except their love of music. Sensing his brother’s exceptional talent, Thibaut decides to remedy the injustice of fate as Jimmy begins to dream of a different life. Marching Band is a beautifully tender and poignant portrayal of family and the lengths we’re willing to go for the ones we love.<span><br/></span><span><br/></span>103 minutes<span><br/></span>Not Rated<span><br/></span>French<span><br/></span><span><br/></span>Tickets: $20 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-09-23T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/84c5bf86-7932-45c0-b523-126f2944b399.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd14;
+  schema:duration "PT103M";
+  schema:endDate "2025-09-23T20:43:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd14 a schema:AggregateOffer;
+  schema:lowPrice "21.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/31201ATMKLGGTMGGNNMMMLRSSSDMCQPHC>
+  a schema:Event;
+  schema:name "CRFF The Penguin Lessons";
+  schema:description """
+	Starring Oscar nominee Steve Coogan, this poignant dramedy follows an Englishman’s personal and political awakening after he adopts a penguin during a cataclysmic period in Argentine history. Inspired by true events, The Penguin Lessons takes to heart the notion that saving someone’s life begins a new responsibility. In this case, that someone is a surprisingly wise, utterly adorable penguin. Helmed by Peter Cattaneo (The Full Monty; Military Wives, TIFF ’19), The Penguin Lessons delivers this delightful story with wit, warmth, and subtle insight into just how rewarding it can be to do the right thing. <span><br/></span><span><br/></span>110 minutes <span><br/></span>Rated PG-13 <span><br/></span>English, Spanish <span><br/></span><span><br/></span>Tickets: $20 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-11-18T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/0fbc0ceb-bca6-4983-a1f4-aaee13e40017.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd15;
+  schema:duration "PT110M";
+  schema:endDate "2025-11-18T20:50:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd15 a schema:AggregateOffer;
+  schema:lowPrice "21.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/35401APNVLPNRJRDCGRRCTSSJTSMNRNQD>
+  a schema:Event;
+  schema:name "CRX's Christmas Spectacular";
+  schema:description """
+	CR DanceXtreme Inc. proudly presents, “CRX’s Christmas Spectacular, A Claus for Celebration”! This special performance will feature both our recreational and award-winning competitive programs dancing in various styles to old and new Christmas holiday music. Our first performance will be on Friday, December 5th at 6:30pm. We will also have a matinee at 2pm and an evening show at 6:30pm on Saturday, December 6th. Be sure to buy your tickets soon as they are sure to sell out fast. All our talented, young dancers are excited to perform and entertain you and the entire family so come out and celebrate the Christmas holiday with us!<span><br/></span><span><br/></span>Tickets: $40 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-12-05T18:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/4b58e5fc-61dc-4e8b-a6a7-877f7acd2702.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd16;
+  schema:duration "PT120M";
+  schema:endDate "2025-12-05T20:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd16 a schema:AggregateOffer;
+  schema:lowPrice "42.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/35601ALVJGKRTKBQLPHGRMJPNQQKSPRPT>
+  a schema:Event;
+  schema:name "CRX's Christmas Spectacular";
+  schema:description """
+	CR DanceXtreme Inc. proudly presents, “CRX’s Christmas Spectacular, A Claus for Celebration”! This special performance will feature both our recreational and award-winning competitive programs dancing in various styles to old and new Christmas holiday music. Our first performance will be on Friday, December 5th at 6:30pm. We will also have a matinee at 2pm and an evening show at 6:30pm on Saturday, December 6th. Be sure to buy your tickets soon as they are sure to sell out fast. All our talented, young dancers are excited to perform and entertain you and the entire family so come out and celebrate the Christmas holiday with us!<span><br/></span><span><br/></span>Tickets: $40 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-12-06T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/4b58e5fc-61dc-4e8b-a6a7-877f7acd2702.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd17;
+  schema:duration "PT120M";
+  schema:endDate "2025-12-06T16:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd17 a schema:AggregateOffer;
+  schema:lowPrice "42.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/35801AHSQHGLDRQDGJQNMNBKJMSLGBGCB>
+  a schema:Event;
+  schema:name "CRX's Christmas Spectacular";
+  schema:description """
+	CR DanceXtreme Inc. proudly presents, “CRX’s Christmas Spectacular, A Claus for Celebration”! This special performance will feature both our recreational and award-winning competitive programs dancing in various styles to old and new Christmas holiday music. Our first performance will be on Friday, December 5th at 6:30pm. We will also have a matinee at 2pm and an evening show at 6:30pm on Saturday, December 6th. Be sure to buy your tickets soon as they are sure to sell out fast. All our talented, young dancers are excited to perform and entertain you and the entire family so come out and celebrate the Christmas holiday with us!<span><br/></span><span><br/></span>Tickets: $40 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-12-06T18:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/4b58e5fc-61dc-4e8b-a6a7-877f7acd2702.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd18;
+  schema:duration "PT120M";
+  schema:endDate "2025-12-06T20:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd18 a schema:AggregateOffer;
+  schema:lowPrice "42.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/27801AGBRBTMKNGSLNDRVNGSHQJPSLPHH>
+  a schema:Event;
+  schema:name "Dallas Smith & His Band";
+  schema:description """
+	Get ready for an unforgettable night of country music with Dallas Smith, one of Canada’s biggest country stars, live and unplugged at the Tidemark Theatre on Wednesday, October 16th.<span><br/></span><span><br/></span>From fronting the Platinum-selling rock band Default to becoming a 3-time CCMA Entertainer of the Year, Dallas Smith has blazed a trail as one of the most successful country artists in the country. With 21 Gold singles, nine Platinum singles, four Gold albums, and over 640 million streams, Smith’s powerhouse vocals and chart-topping hits have made him a fan favorite from coast to coast and beyond.<span><br/></span><span><br/></span>This intimate evening will showcase Dallas like never before, performing stripped-down versions of his biggest songs alongside his incredible band. Opening the night is rising talent Brock Phillips, setting the stage for a show you won’t want to miss.<span><br/></span><span><br/></span>Tickets: $73 Premium Seating, $63 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-10-16T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/e203ffa7-b279-441f-9d07-58b10f4bc9cf.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd19;
+  schema:duration "PT120M";
+  schema:endDate "2025-10-16T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd19 a schema:AggregateOffer;
+  schema:lowPrice "68.25";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/32801AVMKCMLRNPSSSQQTHRKHHMLJSPPT>
+  a schema:Event;
+  schema:name "Disney's Alice in Wonderland Jr.";
+  schema:description """
+	RainCoast School of Musical Theatre is proud to present the Disney Classic 'Alice in Wonderland'. This wonderful family show is about believing in yourself and embracing your imagination. Come join Alice, The White Rabbit, The Mad Hatter, The Queen of Hearts and of course the Cheshire Cat for this exciting journey to Wonderland. <span><br/></span><span><br/></span>This show is 1 hour in length so it is great for all those littles who haven't yet met Alice and her band of crazy friends. Alice and her friends will be in the lobby after the show to take pictures with your kids, so bring your camera and make some wonderful memories.<span><br/></span><span><br/></span>Tickets: $23 Adult, $20 Senior/Child 12 & under <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-11-21T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/3a5cb07a-1722-4be5-b10d-8a52606ac7ec.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd20;
+  schema:duration "PT60M";
+  schema:endDate "2025-11-21T20:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd20 a schema:AggregateOffer;
+  schema:lowPrice "21.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/33001ATHPSRJLTTHKPJHTBJLTTSMCRPQH>
+  a schema:Event;
+  schema:name "Disney's Alice in Wonderland Jr.";
+  schema:description """
+	RainCoast School of Musical Theatre is proud to present the Disney Classic 'Alice in Wonderland'. This wonderful family show is about believing in yourself and embracing your imagination. Come join Alice, The White Rabbit, The Mad Hatter, The Queen of Hearts and of course the Cheshire Cat for this exciting journey to Wonderland. <span><br/></span><span><br/></span>This show is 1 hour in length so it is great for all those littles who haven't yet met Alice and her band of crazy friends. Alice and her friends will be in the lobby after the show to take pictures with your kids, so bring your camera and make some wonderful memories.<span><br/></span><span><br/></span>Tickets: $23 Adult, $20 Senior/Child 12 & under <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/3a5cb07a-1722-4be5-b10d-8a52606ac7ec.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd21;
+  schema:duration "PT60M";
+  schema:endDate "2025-11-22T15:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd21 a schema:AggregateOffer;
+  schema:lowPrice "21.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/33201AJLRJQTMSPLGKHLNMPSPGHMNLTRH>
+  a schema:Event;
+  schema:name "Disney's Alice in Wonderland Jr.";
+  schema:description """
+	RainCoast School of Musical Theatre is proud to present the Disney Classic 'Alice in Wonderland'. This wonderful family show is about believing in yourself and embracing your imagination. Come join Alice, The White Rabbit, The Mad Hatter, The Queen of Hearts and of course the Cheshire Cat for this exciting journey to Wonderland. <span><br/></span><span><br/></span>This show is 1 hour in length so it is great for all those littles who haven't yet met Alice and her band of crazy friends. Alice and her friends will be in the lobby after the show to take pictures with your kids, so bring your camera and make some wonderful memories.<span><br/></span><span><br/></span>Tickets: $23 Adult, $20 Senior/Child 12 & under <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-11-22T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/3a5cb07a-1722-4be5-b10d-8a52606ac7ec.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd22;
+  schema:duration "PT60M";
+  schema:endDate "2025-11-22T20:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd22 a schema:AggregateOffer;
+  schema:lowPrice "21.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC>
+  a schema:Event;
+  schema:name "Eagle Eyes ";
+  schema:description """
+	Eagles dominated soft rock throughout the 70’s with unforgettable hits like Take It Easy, Witchy Woman, Best Of My Love, One of These Nights, Lyin’ Eyes, Take It To The Limit, New Kid In Town. Hotel California, Life In The Fast Lane, Heartache Tonight, The Long Run, I Can’t Tell You Why…and more.<span><br/></span><span><br/></span>Beautiful and catchy melodies with amazing lead and harmony vocals have made the Eagles one of the most famous, respected and loved rock groups of all time, with broad appeal to all ages.<span><br/></span><span><br/></span>Eagle Eyes capture lead and harmony vocals with breath-taking precision that is nothing less than stunning. All vocals are live…. you won’t hear a single pre-recorded vocal track. Eagle Eyes is arguably the best Eagles tribute in North America, and has received standing ovations from audiences in Canada, and in several States in the USA, including Washington, Oregon, California, Arizona, Idaho and Alaska.<span><br/></span><span><br/></span>Tickets: $50.00 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://youtu.be/VEozgEmIbfU\">Watch the video here</a>
+""";
+  schema:startDate "2026-01-18T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/c3e17379-989a-40ee-9812-5b55cba99272.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd23;
+  schema:duration "PT120M";
+  schema:endDate "2026-01-18T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd23 a schema:AggregateOffer;
+  schema:lowPrice "52.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/26401ANCDKPPRRGMBPNMJGQSVPCDHQSJS>
+  a schema:Event;
+  schema:name "Elisapie";
+  schema:description """
+	Elisapie's unconditional attachment to her territory and her language, Inuktitut, remains at the core of her creative journey. Born and raised in Salluit, a small village in Nunavik which is only accessible by plane, Elisapie is an emblematic Canadian Inuk singer-songwriter. Since winning her first Juno Award in 2005 with her band Taima, Elisapie’s body of work has been praised many times.<span><br/></span><span><br/></span>On September 15th 2023, Elisapie unveiled Inuktitut, her fourth solo record. On this album, the Inuk artist covers ten classic rock and pop songs ranging from the 1960’s to the 90’s translated into Inuktitut, her mother tongue. The result is an emotional, autobiographical soundtrack where each song is associated with a loved one or an intimate story. Acclaimed by audiences and critics alike, Inuktitut is the artist's second album to land a shortlist nomination for the Polaris Music Prize. Its success also earned Elisapie a Juno Award in the Contemporary Indigenous Artist of the Year category, as well as five awards at the 2024 ADISQ Gala, and allowed her to play over 70 concerts in Canada, the U.S. and Europe. She also just got nominated for this year’s upcoming Juno Awards for Best Album of the year, as well as for Best Adult Alternative Album of the year.<span><br/></span><span><br/></span>Aside from her musical career, Elisapie is known for creating and producing documentaries and the first Canada-wide broadcast TV show to celebrate the National Indigenous Peoples’ Day, called Le Grand Solstice. She was also honored with a Canada Post stamp.<span><br/></span><span><br/></span>Always surrounded by the best musicians from the Montreal indie and folk scenes, Elisapie makes her culture resonate with finesse by mixing modernity and tradition.<span><br/></span><span><br/></span><span class=\"BoldText\">Elisapie</span> – Voice<span><br/></span><span class=\"BoldText\">Jean Sebastien Williams</span> – Guitar<span><br/></span><span class=\"BoldText\">Joshua Toal</span> – Bass<span><br/></span><span class=\"BoldText\">Jay Essiambre</span> – Drums<span><br/></span><span class=\"BoldText\">Jason Sharp</span> – Bass Saxophone<span><br/></span><span><br/></span><span class=\"BoldText\"><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=WN0q1taZP_Y\">VIDEO</a></span><span><br/></span><span class=\"BoldText\"><a target=\"_blank\" href=\"http://elisapie.com\">elisapie.com</a></span><span><br/></span><span><br/></span>Tickets: $30.00 Advance <span class=\"ItalicText\">(+applicable taxes & fees)</span>, $35 at the door
+""";
+  schema:startDate "2026-03-07T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/609d6a3a-11b7-4372-ac77-c34639c65fdc.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd24;
+  schema:duration "PT120M";
+  schema:endDate "2026-03-07T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd24 a schema:AggregateOffer;
+  schema:lowPrice "36.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/14601AQGMDCVKHRBCGJLMKRPVNVKVHPJG>
+  a schema:Event;
+  schema:name "FIREWORKS";
+  schema:description """
+	Featuring: BLOW AT HIGH DOUGH with special guests<span><br/></span><span><br/></span>After an incredible show to over 700 people at The Port Theatre in Nanaimo back in September and raising $2000 for brain cancer research, we are bringing some very talented musicians together to celebrate the music of Canada's favourite - The Tragically Hip, in Campbell River! You'll hear many of the Hip's hits, and even some b-sides too. Performances by \"Blow At High Dough\" - a full band tribute to The Hip, and also featuring some special guests!<span><br/></span><span><br/></span>Partial proceeds to be donated to the Sunnybrook Foundation for brain cancer research.<span><br/></span><span><br/></span>Tickets:$40.15 Admission (+ applicable taxes & fees)<span><br/></span>
+""";
+  schema:startDate "2025-10-17T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/60a3d17e-e7ef-4078-9b41-e650dd036ac5.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd25;
+  schema:duration "PT120M";
+  schema:endDate "2025-10-17T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd25 a schema:AggregateOffer;
+  schema:lowPrice "42.15";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/31401ACGSQBSNGJMMSMSJDBKPVTCCSKMC>
+  a schema:Event;
+  schema:name "Fleetwood Magic";
+  schema:description """
+	Fleetwood Magic Tribute Show masterfully transports audiences in sound and time through a musical journey performing Fleetwood Mac’s greatest hits from the 60’s to the 80’s, authentically recreating the sound, style and mystique of Fleetwood Mac’s most iconic line-up. <span><br/></span><span><br/></span>With stunning vintage costumes, precise vocals, period-accurate instrumentation, and captivating on-stage personas, Fleetwood Magic delivers a live experience that reminds fans why Fleetwood Mac remains legendary.<span><br/></span><span><br/></span>Relive timeless classics like “Rhiannon,” “Dreams,” “You Make Loving Fun,” “Say You Love Me,” “The Chain,” “Go Your Own Way.” Listeners have come to realize the <span class=\"ItalicText\">'Rumours'</span> are true – Fleetwood Magic does indeed, deliver the magic! <span><br/></span><span><br/></span>Consistently playing sold out shows to audiences across the Vancouver Lower Mainland and Canada, their shows have become a must-see event for Fleetwood Mac music fans of all ages!<span><br/></span><span><br/></span>For more information about Fleetwood Magic, please visit: <a target=\"_blank\" href=\"http://www.fleetwoodmagic.ca\">www.fleetwoodmagic.ca</a><span><br/></span><span><br/></span>Tickets: $59 Admission, Groups of 6+ Receive 10% off <span class=\"ItalicText\">(+applicable taxes & fees)</span><span><br/></span>
+""";
+  schema:startDate "2026-09-18T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/11ba3ea5-cdf1-4030-b868-7f1e9c69948d.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd26;
+  schema:duration "PT130M";
+  schema:endDate "2026-09-18T21:40:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd26 a schema:AggregateOffer;
+  schema:lowPrice "61.95";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/25601AQKSSGTVJVSMNNRKRHMGHGVLKJGV>
+  a schema:Event;
+  schema:name "Gordon Grdina's Haram";
+  schema:description """
+	Formed in 2008 by JUNO Award–winner Gordon Grdina, Haram is a bold, genre-defying ensemble that reimagines classic Arabic repertoire through the lens of adventurous improvisation. Merging musicians deeply rooted in Arabic traditions with others steeped in avant-garde jazz, Haram creates a sound that is both reverent and radically new.<span><br/></span><span><br/></span>Traditional melodies are transformed through the ensemble’s fearless blend of noise, ambient textures, and free improvisation. The result is a rich, dynamic tapestry - at once grounded and explosive, intricate and unrestrained. With their deep interplay and wild inventiveness, Haram’s performances feel both timeless and of the moment, aligning seamlessly with the boundary-pushing spirit of artists like Makaya McCraven.<span><br/></span><span><br/></span>Described as “one of Canada’s most prolific jazz musicians,” Grdina leads a powerhouse group of seven instrumentalists:<span><br/></span><span><br/></span><span class=\"BoldText\">Gordon Grdina</span> – Oud, Guitar<span><br/></span><span class=\"BoldText\">Jesse Zubot</span> – Violin<span><br/></span><span class=\"BoldText\">Chris Kelly</span> – Saxophone<span><br/></span><span class=\"BoldText\">François Houle</span> – Clarinet<span><br/></span><span class=\"BoldText\">JP Carter</span> – Trumpet<span><br/></span><span class=\"BoldText\">Emad Armoush</span> - Vocals/Ney<span><br/></span><span class=\"BoldText\">Kenton Loewen</span> – Drums<span><br/></span><span class=\"BoldText\">Liam MacDonald</span> - Riq<span><br/></span><span class=\"BoldText\">Tim Gerwig</span> – Darbuka<span><br/></span><span class=\"BoldText\">Karlis Silens</span> - Bass<span><br/></span><span><br/></span><span class=\"BoldText\"><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=_l1f7nBoeZg\">VIDEO</a></span><span><br/></span><span class=\"BoldText\"><a target=\"_blank\" href=\"https://gordongrdina.bandcamp.com/album/nights-quietest-hour\">Bandcamp</a></span><span><br/></span><span><br/></span>Tickets: $25.00 Advance <span class=\"ItalicText\">(+applicable taxes & fees)</span>, $30 at the door<span><br/></span>
+""";
+  schema:startDate "2025-10-04T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/9428b17a-2225-4d05-9f45-b09d8a94fb31.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd27;
+  schema:duration "PT120M";
+  schema:endDate "2025-10-04T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd27 a schema:AggregateOffer;
+  schema:lowPrice "31.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/22001AHPNNBVBQNQGTPVNVNBNPSJQPNTM>
+  a schema:Event;
+  schema:name "Great Lake Swimmers & Elliott BROOD";
+  schema:description """
+	Two of Canada’s most beloved indie folk rock bands share the stage for one unforgettable night of music, storytelling, and soul-stirring soundscapes.<span><br/></span><span><br/></span>Elliott BROOD, the dynamic Hamilton-based trio known for their foot-stomping energy and cinematic songwriting, bring their signature blend of folk, rock, and alt-country to the Tidemark stage. With accolades that include a JUNO Award and a Polaris Prize short list nod, their music spans from the trenches of history to deeply personal reflections, all delivered with gritty heart and harmony.<span><br/></span><span><br/></span>Joining them are Great Lake Swimmers, led by the introspective and poetic Tony Dekker. Known for their atmospheric arrangements and haunting vocals, the band’s music is rooted in place and memory. Their latest track, One More Dance Around The Sun, is a warm, golden-hour anthem about resilience, cycles, and quiet hope — a perfect companion to Elliott BROOD’s evocative sound.<span><br/></span><span><br/></span>Presented by the Tidemark Theatre and Got Pop? Concerts, this double header promises a powerful night of music from two national treasures.<span><br/></span><span><br/></span>Tickets: $45 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span><span><br/></span>
+""";
+  schema:startDate "2025-10-26T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/545fcb37-055c-4b36-b17a-d55a2e1d9d91.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd28;
+  schema:duration "PT120M";
+  schema:endDate "2025-10-26T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd28 a schema:AggregateOffer;
+  schema:lowPrice "48.8";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/34601ALVSBJCTDPKVRHHHNJPRRSBQSGSH>
+  a schema:Event;
+  schema:name "Harry Bartlett Mountain Air";
+  schema:description """
+	Harry Bartlett’s Mountain Air is a string trio like no other. Bartlett is an award-winning guitarist and composer whose music blends jazz, classical, and bluegrass. Originally from BC, schooled in Toronto, he moved to Nashville to immerse himself into traditional folk music following his debut album Wildwood, which was praised as \"thoughtful, impressionistic, and cinematic\" (LA Jazz Scene). Since then, he has toured and recorded alongside artists like Bela Fleck, Trey Wellington, and Chris Eldridge.<span><br/></span><span><br/></span>His latest album Mountain Air features Canadians violinist Aline Homzy and bassist Andrew Downing. The record showcases his personal guitar style and a deepening connection to acoustic music. While the album retains a foundational approach to jazz improvisation, it also offers clear shades of bluegrass, old-time, and folk influences. His original compositions are presented with a “delicacy combining classical, string band, and jazz elements.” (The Whole Note). Joining Bartlett on stage in Campbell River will Seattle-born and Nashville-based multi-instrumentalist Evan Snoey on violin and Vancouver jazz bassist James Meger.<span><br/></span><span><br/></span>The Highway 19 Concert Series is supported by the Province of BC through BC Arts Council and BC Live, and the Government of Canada’s Department of Canadian Heritage.<span><br/></span><span><br/></span>General admission tickets are available for $20 to be accessible to anyone, or $30 help sustain this concert series. Teen tickets are only $5 and tickets for kids are free when accompanied by a paying adult.<span><br/></span><span><br/></span>www.harrybartlettmusic.com<span><br/></span>www.highway19.ca<span><br/></span><span><br/></span>Tickets: $30/$20 Adult, $5 Teen (ages 13-19), Child under 13 free with an accompanying adult (+applicable taxes and fees)
+""";
+  schema:startDate "2025-11-20T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/b0c76ec1-b953-4152-99ee-62caa447d55b.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd29;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-20T21:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd29 a schema:AggregateOffer;
+  schema:lowPrice "5.25";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/tidemarktheatre/location/410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP>
+  a schema:Place;
+  schema:name "Rivercity Stage";
+  schema:address <https://spektrix.com/tidemarktheatre/address/410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP> .
+
+<https://spektrix.com/tidemarktheatre/address/410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP> a
+    schema:PostalAddress;
+  schema:streetAddress "1080 Hemlock St";
+  schema:addressLocality "Campbell River";
+  schema:addressRegion "BC";
+  schema:postalCode "V9W 3E4";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/tidemarktheatre/event/30201AHVTMBBQKSVNPBBRMTKPDQPRMHJC>
+  a schema:Event;
+  schema:name "Highwaymen Show";
+  schema:description """
+	In 1984, Johnny Cash invited Willie Nelson, Waylon Jennings and Kris Kristofferson to play on his Johnny Cash Christmas TV Special that was filmed in Switzerland.  When they got back to the hotel, they started jamming and hanging out and that was how the Highwaymen came to be.<span><br/></span><span><br/></span>The Highwaymen Show pays tribute to the great American Outlaws of Country Music - Johnny Cash, Willie Nelson, Waylon Jennings and Kris Kristofferson. The Show covers all of the greatest hits including “Mama Don't Let Your Babies Grow up to be Cowboys”, “Always on My Mind”, “Me and Bobby McGee” and “Folsom Prison Blues”.<span><br/></span><span><br/></span>Don’t miss this trip down memory lane with the look and sound of these iconic superstars: The entire show will feel like an encore!<span><br/></span><span><br/></span>https://vimeo.com/1088441184<span><br/></span><span><br/></span>Tickets: $61.00 Admission (+applicable taxes & fees)
+""";
+  schema:startDate "2026-09-09T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/0bddc1ca-0d9a-4270-9aec-b2d07504a8d8.jpeg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd30;
+  schema:duration "PT120M";
+  schema:endDate "2026-09-09T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd30 a schema:AggregateOffer;
+  schema:lowPrice "61.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/28201ANLRQMDQPKBCRBQJSVDBPMCHQKNS>
+  a schema:Event;
+  schema:name "Holiday Comedy Rumble";
+  schema:description """
+	When Santa’s out of office, the elves throw down.<span><br/></span><span><br/></span>This holiday season, trade in the same-old sugarplum routine for a night of razor-sharp holiday comedy. Holiday Comedy Rumble is landing in Campbell River for the very first time - and if you’ve caught our Middle Aged Boy Band or other comedy shows at the Tidemark, you already know we don’t mess around when it comes to bringing the funny.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.tripadvisor.com/Attraction_Review-g154943-d24855142-Reviews-The_Comedy_Department-Vancouver_British_Columbia.html\">Check out these 5-star reviews!</a><span><br/></span><span><br/></span>The premise? Simple. After centuries of non-stop work, Santa’s flown south and left his best elves behind to battle it out for the most coveted title in the North Pole: <span class=\"BoldText\">Ultimate Sleigh Commander</span>. Think fast-paced games, off-the-cuff comedy, and audience-fuelled mayhem. And, you, the dutiful North Pole employees, decide who wins. You decide who sleighs.<span><br/></span><span><br/></span>It’s a holiday showdown where the laughs are big, the mischief is merry, and the rules are... negotiable.<span><br/></span><span><br/></span>Brought to you by The Comedy Department (winners of the TripAdvisor Travellers' Choice Award hundreds of five-star reviews), this is the kind of night-out that actually brings everyone together - family, friends, coworkers, and anyone who could use a break from tinsel and traffic.<span><br/></span><span><br/></span><span class=\"BoldText\">Mostly family-friendly, entirely hilarious.<span><br/></span>Campbell River, you’ve never seen the holidays like this.</span><span><br/></span><span><br/></span>Get your tickets now before the elves start trash-talking the front row.<span><br/></span><span><br/></span>Age Rating 10+ for mildly spicy adult humour.<span><br/></span><span><br/></span>Tickets: $50 Adult, $45 Student/Senior, $40 Child 17 & under, $45 Groups 6+ <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-11-29T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/c1f03630-f4ca-49fe-80d6-093a1e760778.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd31;
+  schema:duration "PT60M";
+  schema:endDate "2025-11-29T20:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd31 a schema:AggregateOffer;
+  schema:lowPrice "42.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/36001AVSBSKQTBCMJCHVTHSQVQCNPBTLJ>
+  a schema:Event;
+  schema:name "International Guitar Night";
+  schema:description """
+	International Guitar Night, the world’s premier touring guitar showcase, comes to Campbell River for the first time, uniting four exceptional artists whose music spans continents and genres.<span><br/></span><span><br/></span>This year’s lineup brings together Itamar Erez, blending Middle Eastern and jazz traditions; Jocelyn Gould, JUNO Award-winning jazz guitarist and vocalist; Jamie Dupuis, a harp guitar innovator known for his genre-bending soundscapes; and Caroline Planté, one of the world’s foremost female flamenco guitarists and a pioneering composer.<span><br/></span><span><br/></span>Each artist will perform solo and in collaboration, creating a one-of-a-kind concert that celebrates the beauty, versatility, and global reach of the guitar. Expect an evening rich in artistry, rhythm, and connection – a musical journey that bridges cultures and styles.<span><br/></span><span><br/></span><span class=\"BoldText\">About the Artists:</span><span><br/></span><span><br/></span><span class=\"BoldText\">Itamar Erez</span><span><br/></span>An internationally acclaimed guitarist, pianist, and composer, Itamar Erez bridges the worlds of Middle Eastern music, jazz, and contemporary classical styles. His performances combine intricate improvisation with expressive storytelling, earning him global recognition and appearances at Carnegie Hall, the Barbican, and the Sydney Opera House. Based in Vancouver, he continues to perform, compose, and teach around the world.<span><br/></span><span><br/></span><span class=\"BoldText\">Jocelyn Gould</span><span><br/></span>JUNO Award-winning guitarist and vocalist Jocelyn Gould is celebrated for her warm tone, melodic phrasing, and effortless command of jazz traditions. She has performed at renowned venues including Birdland, Dizzy’s Club, and Massey Hall, sharing the stage with artists such as Freddy Cole and Bria Skonberg. A rising voice in contemporary jazz, her work blends virtuosity with heartfelt expression.<span><br/></span><span><br/></span><span class=\"BoldText\">Jamie Dupuis</span><span><br/></span>Canadian guitarist and composer Jamie Dupuis is known for his innovative approach to the harp guitar and fingerstyle playing. His viral arrangements have reached millions worldwide, showcasing his ability to blend classical, rock, and folk influences into a distinctive sound. Winner of the Canadian Guitar Festival Competition, Dupuis continues to push the boundaries of acoustic performance.<span><br/></span><span><br/></span><span class=\"BoldText\">Caroline Planté</span><span><br/></span>Montreal-born guitarist and composer Caroline Planté is one of the leading women in flamenco guitar today. Trained in both Canada and Spain, she has built an international career as a performer, musical director, and composer, known for her bold and original works that honour flamenco’s roots while expanding its possibilities. Her artistry combines technical mastery with deep emotional expression.<span><br/></span><span><br/></span>Tickets: $38 Member, $43 Non-Member <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2026-01-28T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/76db0fa5-1bab-4c5d-8397-cfb5010b1feb.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd32;
+  schema:duration "PT120M";
+  schema:endDate "2026-01-28T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd32 a schema:AggregateOffer;
+  schema:lowPrice "45.15";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/25801AGPSVCGGNRPVHRSNSQGLMPJPTNDB>
+  a schema:Event;
+  schema:name "Jeremy Dutcher";
+  schema:description """
+	Jeremy Dutcher is a classically trained tenor, Two-Spirit song carrier, polymuse, activist, ethnomusicologist, and member of Neqotkuk (Tobique First Nation) in Eastern Canada. Dedicated to language revitalization, Jeremy’s debut album Wolastoqiyik Lintuwakonawa unearthed century-old archival recordings of his ancestors, turning them into collaborative compositions on the grand piano. Sung entirely in Wolastoqey, his endangered mother tongue, it would go on to win the 2018 Polaris Music Prize and lead to collaborations with such iconic artists as Yo-Yo Ma and Leslie Feist. His sophomore album Motewolonuwok ᒣᑌᐧᐁᓓᓄᐧᐁᒃ was awarded the 2024 Polaris Music Prize, making Jeremy the first ever two-time winner. Jeremy’s music transcends boundaries: unapologetically playful in its incorporation of classical and jazz influences, full of reverence for the traditional songs of his home, and teeming with the urgency of modern-day resistance. He is regularly sought out for his perspectives on queerness, Indigeneity, language revitalization, and fashion.<span><br/></span><span><br/></span><span class=\"BoldText\">Jeremy Dutcher</span> - piano/voice<span><br/></span><span class=\"BoldText\">Naomi McCarroll Butler</span> - woodwinds<span><br/></span><span class=\"BoldText\">Stefan Schneider</span> - drums/percussion<span><br/></span><span><br/></span><span class=\"BoldText\"><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=MoXT97EJPUM\">VIDEO</a></span><span><br/></span><span class=\"BoldText\"><a target=\"_blank\" href=\"https://jeremydutcher.com/\">https://jeremydutcher.com/</a></span><span><br/></span><span><br/></span>Tickets: $30.00 Advance <span class=\"ItalicText\">(+applicable taxes & fees)</span>, $35 at the door
+""";
+  schema:startDate "2025-11-29T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/e897742d-07aa-4d9a-98e2-f814441d5622.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd33;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-29T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd33 a schema:AggregateOffer;
+  schema:lowPrice "36.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/26201AGBHCTNMDGTRMRCVQPKJNVHQTBBK>
+  a schema:Event;
+  schema:name "Joe Grass";
+  schema:description """
+	Montreal-based guitarist, singer, composer, and producer Joe Grass has quietly become one of Canada’s most sought-after musical collaborators. Known for his lush guitar work, richly textured songwriting, and genre-defying aesthetic, he brings a distinctive voice to every project he touches.<span><br/></span><span><br/></span>A longtime member of Patrick Watson’s band and a key contributor to works by Elisapie, Leif Vollebekk, The Barr Brothers, and Lhasa, Grass also shines in his solo work— where folk, jazz, country, and ambient textures meet in intimate, expansive songs that feel both timeless and experimental. His live performances are immersive, emotionally resonant, and delivered with understated brilliance.<span><br/></span><span><br/></span><span class=\"BoldText\">Joe Grass</span> – Guitar, Voice<span><br/></span><span class=\"BoldText\">Robbie Kuster</span> – Drums<span><br/></span><span class=\"BoldText\">Morgan Moore</span> – Bass<span><br/></span><span><br/></span><span class=\"BoldText\"><a target=\"_blank\" href=\"https://open.spotify.com/album/5UjqFUJAO7U1R9HSMOlQYb?si=pCuCjYRsQL2XTUGld3QpBw\">SPOTIFY PLAYER</a></span><span><br/></span><span class=\"BoldText\"><a target=\"_blank\" href=\"https://joegrass.com/\">https://joegrass.com/</a></span><span><br/></span><span><br/></span>Tickets: $25.00 Advance <span class=\"ItalicText\">(+applicable taxes & fees)</span>, $30 at the door
+""";
+  schema:startDate "2026-02-14T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/8930c011-be5d-4dc0-8104-9ab526d38e63.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd34;
+  schema:duration "PT120M";
+  schema:endDate "2026-02-14T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd34 a schema:AggregateOffer;
+  schema:lowPrice "31.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/34801AJDHTGHVDDDGHKMHBRJLKTRHLMSR>
+  a schema:Event;
+  schema:name "John Reischman & the Jaybirds";
+  schema:description """
+	Now in their 20th year, with seven acclaimed albums and two Juno nominations, John Reischman and the Jaybirds are simultaneously innovative and unadorned, sophisticated and stripped-down, happily old-fashioned and 21st-century contemporary.<span><br/></span><span><br/></span>Bluegrass Unlimited calls Reischman “one of the world’s undisputed masters” of the mandolin, famed for outstanding tone and taste, and an impeccable sense of rhythm. He has written numerous instrumentals that have become jam session and cover standards, has released three critically-acclaimed solo instrumental albums and has recorded on many other projects, including the Grammy-winning True Life Blues: The Songs of Bill Monroe. John also plays Latin-based jazz and choro music with highly regarded finger-style acoustic guitarist/composer John Miller; the duo has released three superb albums.<span><br/></span><span><br/></span>Reischman began his career in the San Francisco Bay area in the early ’80s with the eclectic Good Ol’ Persons bluegrass band. He was an original member of the legendary “new acoustic” quartet, the jazz-influenced Tony Rice Unit, renowned for highly skilled instrumentals. He moved to Vancouver in the early ’90s and in 1999 formed the Jaybirds.<span><br/></span><span><br/></span>The band includes LA-based flat picking guitarist Patrick Sauber, Spokane, WA fiddle virtuoso Greg Spatz, and BC-based Trisha Gagnon on bass and Nick Hornbuckle on banjo; all highly acclaimed and in-demand veterans who have played with a who’s-who of bluegrass and old-time music.<span><br/></span><span><br/></span>The Highway 19 Concert Series is supported by the Province of BC through BC Arts Council and BC Live, and the Government of Canada’s Department of Canadian Heritage.<span><br/></span><span><br/></span>General admission tickets are available for $20 to be accessible to anyone, or $30 help sustain this concert series. Teen tickets are only $5 and tickets for kids are free when accompanied by a paying adult.<span><br/></span><span><br/></span>www.thejaybirds.com<span><br/></span><span><br/></span>www.highway19.ca<span><br/></span><span><br/></span>Tickets: $30/$20 Adult, $5 Teen (ages 13-19), Child under 13 free with an accompanying adult (+applicable taxes and fees)
+""";
+  schema:startDate "2025-12-04T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/8e8f24e6-4105-4d19-b898-9dce1a832757.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd35;
+  schema:duration "PT120M";
+  schema:endDate "2025-12-04T21:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd35 a schema:AggregateOffer;
+  schema:lowPrice "5.25";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/24801AHGPCJBMGMVRBNKLDDDHKTKTNBQS>
+  a schema:Event;
+  schema:name "Kenny vs Spenny";
+  schema:description """
+	<h2>KENNY VS SPENNY</h2><span><br/></span><span class=\"BoldText\">The Infamous Canadian Comedy Duo Is Back!</span><span><br/></span><span><br/></span>After 2 decades of making you laugh with outrageous competitions, humiliations & a never ending battle between two best friends! <span><br/></span><span><br/></span>Don't miss this highly offensive crazy comedy tour with Kenny Hotz & Spencer Rice.<span><br/></span><span><br/></span><span class=\"ItalicText\">Recommended for audiences 18+</span><span><br/></span><span><br/></span>Tickets: $95.50 VIP Meet & Greet, $45.50 Admission <span class=\"ItalicText\">(includes GST, +applicable fees)</span>
+""";
+  schema:startDate "2025-10-19T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/fb37c35e-b115-4712-ae93-e0fb4c9eb77e.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd36;
+  schema:duration "PT120M";
+  schema:endDate "2025-10-19T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd36 a schema:AggregateOffer;
+  schema:lowPrice "45.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/28001ATQBPNCNMQQVMPLRVTJTQRGHDNSG>
+  a schema:Event;
+  schema:name "Led Zepagain";
+  schema:description """
+	Marking their 40th year, Sony recording artists <span class=\"BoldText\">Led Zepagain</span> have become highly regarded as the most accurate and authentic replication of <span class=\"BoldText\">Led Zeppelin</span> in the world today. With well over a million downloads on iTunes to their credit, their popularity has also seeped into pop culture, having been mentioned on the network TV shows “<span class=\"BoldText\">The Gilmore Girls</span>”, “<span class=\"BoldText\">Chicago Fire</span>” and “<span class=\"BoldText\">Bad Judge</span>”!<span><br/></span><span><br/></span>In January, 2004, Led Zeppelin guitarist <span class=\"BoldText\">Jimmy Page</span> himself attended a Led Zepagain show at the House of Blues in Los Angeles. He was absolutely astonished at the band’s accuracy stating <span class=\"ItalicText\"><span class=\"BoldText\">“It’s amazing how much you sound like us. You must have grown up on this because you were inside the music, and you paid attention to detail in your presentation…I can tell you guys really love our music!”</span></span><span><br/></span><span><br/></span>This encounter led to the members of Led Zepagain attending <span class=\"BoldText\">Led Zeppelin's 2007 Reunion Concert</span> at London's O2 Arena by invitation of Mr. Page as well as a surprise visit from <span class=\"BoldText\">Jason Bonham</span> in March, 2009 as he sat in with the band on their encore performance of the song <span class=\"BoldText\">“Rock and Roll”</span>: ?<a target=\"_blank\" href=\"http://www.youtube.com/watch?v=2w6noToYSqQ\">http://www.youtube.com/watch?v=2w6noToYSqQ</a><span><br/></span><span><br/></span>Led Zepagain was honored to have been featured on <span class=\"BoldText\"><span class=\"UnderlineText\">AXS TV</span>’s “World’s Greatest Tribute Bands”</span> in 2014 and were asked to come back for an encore performance in March, 2017 to perform the iconic <span class=\"BoldText\">Led Zeppelin</span> <span class=\"ItalicText\"><span class=\"BoldText\">“lV”</span></span> album in its entirety.<span><br/></span><span><br/></span>Having played nationally and internationally, from Japan to Paraguay and Germany to Mexico City, Led Zepagain regularly performs to packed houses all over the world. We guarantee that from the sound, and the look, to the vintage equipment and costuming, <span class=\"BoldText\">Led Zepagain</span> will be the closest thing that you will ever see to a live <span class=\"BoldText\">Led Zeppelin</span> performance! Come on out and see what <span class=\"BoldText\">Jimmy Page</span> was talking about.<span><br/></span><span><br/></span>For more about LED ZEPAGAIN please visit: <a target=\"_blank\" href=\"http://www.zepagain.com/\">www.zepagain.com</a>.<span><br/></span><span><br/></span>Tickets: $52.65 Admission <span class=\"ItalicText\">(includes GST, +applicable fees)</span>
+""";
+  schema:startDate "2025-10-24T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/30e992c3-8369-46be-964e-20fd1afae4c1.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd37;
+  schema:duration "PT120M";
+  schema:endDate "2025-10-24T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd37 a schema:AggregateOffer;
+  schema:lowPrice "52.65";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/33401ASQTDQSSBKHDTGJNVLMTDQJCSHNC>
+  a schema:Event;
+  schema:name "Murder at the Queenie";
+  schema:description """
+	Murder at the Queenie<span><br/></span>A Killer Comedy Musical Comes to Quadra Island<span><br/></span><span><br/></span>Get ready for a night of mystery, music, and mayhem! Theatre Quadra presents Murder at the Queenie, a brand-new satirical musical by local playwright Chris Thompson with original songs by local musician George Nickoloff.<span><br/></span><span><br/></span>When an untimely death shakes the halls of one of Quadra Island’s most famous hotels, a quirky RCMP detective and his loyal sidekick are called in to crack the case. The suspects? A delightfully eccentric mix of out-of-town actors and hotel staff, each hiding secrets and suspicious pasts.<span><br/></span><span><br/></span>Equal parts parody and homage, Murder at the Queenie is a hilarious send-up of the classic whodunit—packed with witty dialogue, over-the-top characters, and plenty of twists to keep you laughing (and guessing) until the final curtain.<span><br/></span><span><br/></span>Don’t miss this one-of-a-kind musical comedy that promises an unforgettable night of theatre for locals and visitors alike.<span><br/></span><span><br/></span>Tickets: $20.00 Admission (+applicable taxes & fees)
+""";
+  schema:startDate "2025-11-07T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/7be8a441-1647-4bf1-97ad-6f0f7c5b4c3e.jpeg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd38;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-07T21:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd38 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/33601ABMMCLRHCDGJGLSCVTKRJSMDCMSS>
+  a schema:Event;
+  schema:name "Murder at the Queenie";
+  schema:description """
+	Murder at the Queenie<span><br/></span>A Killer Comedy Musical Comes to Quadra Island<span><br/></span><span><br/></span>Get ready for a night of mystery, music, and mayhem! Theatre Quadra presents Murder at the Queenie, a brand-new satirical musical by local playwright Chris Thompson with original songs by local musician George Nickoloff.<span><br/></span><span><br/></span>When an untimely death shakes the halls of one of Quadra Island’s most famous hotels, a quirky RCMP detective and his loyal sidekick are called in to crack the case. The suspects? A delightfully eccentric mix of out-of-town actors and hotel staff, each hiding secrets and suspicious pasts.<span><br/></span><span><br/></span>Equal parts parody and homage, Murder at the Queenie is a hilarious send-up of the classic whodunit—packed with witty dialogue, over-the-top characters, and plenty of twists to keep you laughing (and guessing) until the final curtain.<span><br/></span><span><br/></span>Don’t miss this one-of-a-kind musical comedy that promises an unforgettable night of theatre for locals and visitors alike.<span><br/></span><span><br/></span>Tickets: $20.00 Admission (+applicable taxes & fees)
+""";
+  schema:startDate "2025-11-08T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/7be8a441-1647-4bf1-97ad-6f0f7c5b4c3e.jpeg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd39;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-08T21:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd39 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/33801ASNTMSCGCRRHSPSCJNKGBMBPNMSP>
+  a schema:Event;
+  schema:name "Murder at the Queenie";
+  schema:description """
+	Murder at the Queenie<span><br/></span>A Killer Comedy Musical Comes to Quadra Island<span><br/></span><span><br/></span>Get ready for a night of mystery, music, and mayhem! Theatre Quadra presents Murder at the Queenie, a brand-new satirical musical by local playwright Chris Thompson with original songs by local musician George Nickoloff.<span><br/></span><span><br/></span>When an untimely death shakes the halls of one of Quadra Island’s most famous hotels, a quirky RCMP detective and his loyal sidekick are called in to crack the case. The suspects? A delightfully eccentric mix of out-of-town actors and hotel staff, each hiding secrets and suspicious pasts.<span><br/></span><span><br/></span>Equal parts parody and homage, Murder at the Queenie is a hilarious send-up of the classic whodunit—packed with witty dialogue, over-the-top characters, and plenty of twists to keep you laughing (and guessing) until the final curtain.<span><br/></span><span><br/></span>Don’t miss this one-of-a-kind musical comedy that promises an unforgettable night of theatre for locals and visitors alike.<span><br/></span><span><br/></span>Tickets: $20.00 Admission (+applicable taxes & fees)
+""";
+  schema:startDate "2025-11-09T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/7be8a441-1647-4bf1-97ad-6f0f7c5b4c3e.jpeg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd40;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-09T16:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd40 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/31601AJQCKSMKVPVHKSNQGKNCQPTMVGLL>
+  a schema:Event;
+  schema:name "Musical Mayhem";
+  schema:description """
+	She’s back, Campbell River! On Friday, November 28th, hometown sensation Randii Andii returns to the Tidemark Theatre with Musical Mayhem — an outrageous night of parody, comedy, and jaw-dropping musical entertainment.<span><br/></span><span><br/></span>This 18+ adults-only spectacle celebrates Randii’s triumphant return to her roots, bringing her powerhouse vocals, razor-sharp wit, and signature brand of wild, anything-goes fun back to the city where it all began. Expect a night that blurs the lines between stand-up, concert, and full-blown cabaret.<span><br/></span><span><br/></span>Joining Randii on stage is a lineup of unforgettable talent, including Ryan Lachance — the fearless comedian with over 25 years of experience who knows how to keep the crowd roaring — plus more special guest performers to be announced.<span><br/></span><span><br/></span>The evening promises a riot of parody songs, sizzling musical numbers, and wild audience interaction, making it a night like no other.<span><br/></span><span><br/></span>Event Highlights:<span><br/></span><ul><li>● Hilarious musical parodies & powerhouse vocals</li><li>● Special guest performances, including Ryan Lachance</li><li>● A band that’s in on the joke — and sometimes the butt of it</li><li>● Intermission treats: prizes, snacks, and drinks available</li><li>● A true night of musical chaos, laughter, and fun</li></ul><span><br/></span>This is not just a show — it’s an experience. Musical Mayhem is designed to keep audiences laughing, singing along, and maybe even blushing a little.<span><br/></span><span><br/></span>Tickets: $40 Adult, $30 Student/Senior <span class=\"ItalicText\">(+applicable taxes & fees)</span><span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">Add a special VIP Meet and Greet after the show for $40!</span> The VIP Meet & Greet will include a merchandise package with Randii Andii and Ryan Lachance official products, autographed picture or merchandise, a photo opportunity with the performers, and a Q&A session.</span>
+""";
+  schema:startDate "2025-11-28T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/5cbfd3d3-f5fd-421c-adb8-e95c33710621.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd41;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-28T21:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd41 a schema:AggregateOffer;
+  schema:lowPrice "31.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/20801AJMTLQPSPKJDPVTSBMNNJNRPTPVH>
+  a schema:Event;
+  schema:name "Paul Brandt & Terri Clark";
+  schema:description """
+	Two of Canada’s most celebrated country music icons, Paul Brandt and Terri Clark, reunite for the Homecoming Tour 2.0-an intimate, acoustic evening of unforgettable music and storytelling.<span><br/></span><span><br/></span>Back by popular demand after their wildly successful 2023 tour, Brandt and Clark will once again share the stage for a stripped-down performance that celebrates the songs-and stories-that have defined their legendary careers. With touching reflections, fan-favourite hits, and undeniable on-stage chemistry, this is a rare opportunity to experience two Canadian music legends in an up-close and personal concert setting.<span><br/></span><span><br/></span>Terri Clark is a trailblazer and the only Canadian female member of the Grand Ole Opry, with over five million albums sold, multiple JUNO and CCMA Awards, and 13 Top 10 singles to her name.<span><br/></span><span><br/></span>Paul Brandt is the most awarded male Canadian country artist in history, with chart-topping singles like “My Heart Has a History” and “I Do”, and a career spanning more than two decades.<span><br/></span><span><br/></span>Presented by the Tidemark Theatre and Gee Dan Productions, don’t miss this one-night-only performance in Campbell River!<span><br/></span><span><br/></span>Tickets: $119.00 Premium Seating, $98.00 Standard Admission (+applicable taxes & fees)
+""";
+  schema:startDate "2025-11-27T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/ec3a704e-f0f3-4b18-a86a-9613731231d2.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd42;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-27T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd42 a schema:AggregateOffer;
+  schema:lowPrice "98.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/34201ASMCSDCJKPKGCLJTKVRDGQJPPMJH>
+  a schema:Event;
+  schema:name "Ria Mae";
+  schema:description """
+	Ria Mae is a platinum-selling pop artist and songwriter from Halifax, Nova Scotia. With her signature blend of confessional lyrics and undeniable hooks, Mae has built a career that resonates deeply and lasts. <span><br/></span><span><br/></span>With platinum-certified singles “Bend” and “Too Close,” and her breakout hit “Clothes Off” (Top 5 in Canada, #1 on CBC Radio 2), Mae has become known for delivering hook-driven, confessional writing that quietly hits hard, reflected by over 90 million global streams. A three-time JUNO nominee and recipient of a SOCAN #1 Award, SOCAN Songwriter of the Year (NSMAs), and several ECMA nominations, her songs have also been featured in The L Word, CBC’s Olympic coverage, and Hello Goodbye. <span><br/></span><span><br/></span>A recent social media resurgence has brought her songs back into the spotlight, reconnecting longtime listeners and drawing in new ones - proof that her voice still resonates, and her songs still meet people right where they are. Following the intimate Tiny Strands EP, Mae now steps into a new era with TWO, her long-awaited sophomore album, out November 7. A full-band tour will bring the record to life alongside her most beloved singles, not as a reinvention, but as a reaffirmation.<span><br/></span><span><br/></span>Tickets: $33 Member, $38 Non-Member <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2026-03-01T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/964dd0d7-8312-40ca-a214-8938141511c5.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd43;
+  schema:duration "PT120M";
+  schema:endDate "2026-03-01T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd43 a schema:AggregateOffer;
+  schema:lowPrice "39.9";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/28801AVBKQSCSGSCMSTRKBBJTVJRJMRQJ>
+  a schema:Event;
+  schema:name "Samhain Spellbound Masquerade";
+  schema:description """
+	<h2>Dance with Spirits at the Samhain Spellbound Masquerade</h2><span><br/></span>This Samhain, when the veil between worlds is at its thinnest, step into a night of mystery, magic, and transformation.<span><br/></span><span><br/></span>The evening begins with a guided séance ritual, where we will honour our ancestors and those who have gone before. Together, we’ll call upon the energies of Samhain, opening ourselves to receive messages from the other side and connecting with the wisdom of those who walk beyond the veil.<span><br/></span><span><br/></span>As the ritual concludes, the energy shifts, and the celebration begins. We invite you to don your most enchanting costume and mask and join the <span class=\"BoldText\">Spellbound Masquerade</span>—a bewitching dance led by the incomparable ConnieQ. Through embodied movement and vibrant music, we celebrate life, death, and the turning of the Wheel of the Year.<span><br/></span><span><br/></span>In the spirit of community and connection, this is also a <span class=\"BoldText\">potluck gathering</span>—please bring a dish or snack to share. Nourish yourself and others as we feast together and revel in the abundance of the season.<span><br/></span><span><br/></span>The <span class=\"BoldText\">Samhain Spellbound Masquerade Ritual and Dance</span> blends ancient tradition with modern celebration to create a deeply moving and joy-filled experience. Whether you come to honour your ancestors, to dance your truth, or to embrace the magic of the Pagan New Year, you’ll find yourself welcomed in sacred celebration.<span><br/></span><span><br/></span><span class=\"BoldText\">ConnieQ</span> (she/her) is a long-time ecstatic dancer who weaves rich tapestries of music bringing together flowing chants, grindy bass, high-vibe EDM, world beats and more. As unbound by the boxes of genre as she is by gender, Connie honours the transformative power of embodied movement for somatic wellness, for healthy connection, for release, joy, and playful fun. She invites journeys into whatever moves us in the moment and exploration of what arises within as we come alive through dance.<span><br/></span><span><br/></span>Tickets: $22 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span><span><br/></span><span><br/></span>Hosted by the <span class=\"BoldText\">Aquarian Tabernacle Church of Canada</span>, a registered charitable Wiccan Church providing services to the Wiccan and larger Pagan community of Vancouver Island and across Canada.<span><br/></span>
+""";
+  schema:startDate "2025-11-01T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/855915aa-84ed-4b13-8792-9dbe19a7ca45.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd44;
+  schema:duration "PT180M";
+  schema:endDate "2025-11-01T22:00:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd44 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/tidemarktheatre/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>
+  a schema:Place;
+  schema:name "Halbe Hall";
+  schema:address <https://spektrix.com/tidemarktheatre/address/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
+
+<https://spektrix.com/tidemarktheatre/address/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> a
+    schema:PostalAddress;
+  schema:streetAddress "8369 N Island Hwy";
+  schema:addressLocality "Black Creek";
+  schema:addressRegion "BC";
+  schema:postalCode "V9J 1H7";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/tidemarktheatre/event/31801ADDBNQLLLKJTNRHHPMNDDRKHTBJB>
+  a schema:Event;
+  schema:name "Snowed In Comedy Tour";
+  schema:description """
+	<span class=\"BoldText\">The Snowed In Comedy Tour is back — bigger, bolder, and funnier than ever!</span><span><br/></span><span><br/></span>What started 17 years ago as a wild idea in the middle of a Canadian winter has snowballed into a full-blown national phenomenon — now the biggest comedy tour in Canada. This year, the laughs roll coast-to-coast across 70 cities, bringing world-class comedy straight to your backyard.<span><br/></span><span><br/></span>And the fun doesn’t stop there. Starting <span class=\"BoldText\">October 10th</span>, you can catch the Snowed In crew on <span class=\"BoldText\">Chek TV every Saturday night</span>, and a few days later on <a target=\"_blank\" href=\"https://www.youtube.com/@snowedincomedy\">YouTube (Oct 15th)</a> with their brand-new laugh-out-loud series. Follow them as they dive into five unforgettable tour stops, capped off with their side-splitting stand-up specials.<span><br/></span><span><br/></span>The lineup? Nothing short of powerhouse.<span><br/></span><ul><li>• <span class=\"BoldText\">Dan Quinn</span> – Just for Laughs winner and tour founder.</li><li>• <span class=\"BoldText\">Paul Myrehaug</span> – Great Canadian Laugh Off champion.</li><li>• <span class=\"BoldText\">Pete Zedlacher</span> – 6-time Canadian Comedian of the Year nominee.</li><li>• <span class=\"BoldText\">Erica Sigurdson</span> – beloved Debaters regular with over 70 appearances.</li></ul>Four international comics. One stage. A blizzard of laughs. Critics call it <span class=\"ItalicText\">“Better than the Just for Laughs Tour”</span> and <span class=\"ItalicText\">“A Flurry of Laughs You Can’t Miss.”</span><span><br/></span><span><br/></span><span class=\"BoldText\">Don’t just get through winter — laugh your way through it with the Snowed In Comedy Tour.</span><span><br/></span><span><br/></span>Tickets: $57 Adult, $47 Senior <span class=\"ItalicText\">(+applicable taxes & fees)</span><span><br/></span>
+""";
+  schema:startDate "2026-01-15T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/ec2e3ded-6bc8-426e-bfdc-f5201367a72d.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd45;
+  schema:duration "PT120M";
+  schema:endDate "2026-01-15T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd45 a schema:AggregateOffer;
+  schema:lowPrice "49.35";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/25001ADDVSKQBVSNBTBDPCMQTVGBHJDPN>
+  a schema:Event;
+  schema:name "Standing Outside The Fire";
+  schema:description """
+	Standing Outside The Fire is a representation of the Garth Brooks live concert experience.  Featuring an 8-piece band and a high energy performance with many of Garth Brooks biggest hits and surprise cuts from  his music catalogue.<span><br/></span><span><br/></span>Spectators are encouraged to sing and respond the same way they would at an actual Garth Brooks concert.<span><br/></span><span><br/></span>Tickets: $52.50 (+applicable taxes & fees)
+""";
+  schema:startDate "2025-10-11T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/0ea6ebcb-860e-4142-86ba-126317f46c91.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd46;
+  schema:duration "PT120M";
+  schema:endDate "2025-10-11T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd46 a schema:AggregateOffer;
+  schema:lowPrice "52.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/24201AQBJSCTMKBQRHSLCPQSBDTRMBNBT>
+  a schema:Event;
+  schema:name "The Comic Strippers (19+Only)";
+  schema:description """
+	THE COMIC STRIPPERS (19+ only)<span><br/></span>A male stripper parody and improv comedy show<span><br/></span><span><br/></span>The award winning improv comedians are back with a new show, more moves and even quicker wits.<span><br/></span>A SHOW FOR ALL GENDERS… 19+ ONLY<span><br/></span>WARNING! No extreme nudity, just extreme hilarity.<span><br/></span><span><br/></span>A fictitious male stripper troupe (played by a cast of some of Canada’s best improvisational comedians) performs a sexylarious improv comedy show. They try to be sexy… it just comes out funny. Constantly grooving and gyrating in between scenes they banter with the crowd and perform their hilarious twist on improv sketches. They sing, they “dance”, and they are ready to make you laugh. Semi undressed and completely unscripted, The Comic Strippers take off their shirts and take on your suggestions to create a whole new genre of comedy.<span><br/></span><span><br/></span>'BEST LIVE PRODUCTION' Canadian Comedy Award Winner<span><br/></span>★★★★★ “Extremely Funny!” - UK Fringe Review<span><br/></span> “The show is suitable for both men and women. An entertaining ride where anything goes.” – Rip It Up Magazine<span><br/></span>\"One of the most hilarious shows I've ever seen.\" - Vancouver Sun<span><br/></span><span><br/></span><a target=\"_blank\" href=\"http://thecomicstrippers.com\">www.thecomicstrippers.com</a><span><br/></span><span><br/></span>Tickets: $52 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/0a124ba0-918e-4fbf-963b-0721f12ce694.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd47;
+  schema:duration "PT120M";
+  schema:endDate "2026-03-20T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd47 a schema:AggregateOffer;
+  schema:lowPrice "54.6";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/26001APLNVRTPLBBPSVMJQSVGGNQMBRBG>
+  a schema:Event;
+  schema:name "The Fretless";
+  schema:description """
+	A JUNO Award–winning string quartet, The Fretless reimagines traditional fiddle tunes with stunning precision and fearless creativity. Composed of four celebrated solo artists, this genre-bending supergroup transforms folk melodies into intricate, high-energy arrangements that push the boundaries of chamber and roots music alike.<span><br/></span><span><br/></span>With rich harmonies, driving rhythms, and a uniquely percussive sound, The Fretless has earned accolades across Canada and internationally, including multiple Canadian Folk Music Awards and performances on some of the world’s most prestigious stages. Their latest project, Open House, brings their boundary-pushing approach to new heights with collaborations featuring standout vocalists.<span><br/></span><span><br/></span><span class=\"BoldText\">Trent Freeman</span> - Fiddle/Viola<span><br/></span><span class=\"BoldText\">Karrnnel Sawitsky</span> - Fiddle/Viola<span><br/></span><span class=\"BoldText\">Ben Plotnick</span> - Fiddle/Viola<span><br/></span><span class=\"BoldText\">Eric Wright</span> - Cello<span><br/></span><span class=\"BoldText\">Madeleine Roger</span> - Vocals<span><br/></span><span><br/></span><span class=\"BoldText\"><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=FdB7wcaVNKI\">VIDEO</a></span><span><br/></span><span class=\"BoldText\"><a target=\"_blank\" href=\"https://thefretless.com/\">https://thefretless.com/</a></span><span><br/></span><span><br/></span>Tickets: $25.00 Advance <span class=\"ItalicText\">(+applicable taxes & fees)</span>, $30 at the door
+""";
+  schema:startDate "2026-01-24T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/5cf675af-f075-4424-abd9-33041f94c904.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd48;
+  schema:duration "PT120M";
+  schema:endDate "2026-01-24T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd48 a schema:AggregateOffer;
+  schema:lowPrice "31.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/36201ASKGPVLCNJNCMBLVSLJHKQPCHTRV>
+  a schema:Event;
+  schema:name "The Men in Black";
+  schema:description """
+	Presenting Canada’s premiere Johnny Cash tribute band, The Men In Black.<span><br/></span><span><br/></span>Johnny Cash recorded 96 albums and over 1,500 songs throughout a career that spanned over five decades. He was one of the first artists to successfully cross over many genres of music from country, to rockabilly, gospel and rock & roll.<span><br/></span><span><br/></span>The Men In Black bring passion and respect to the musical legacy of the Man in Black, Johnny Cash, with Gary Coad - lead vocals, Aaron Murray - guitar, Wayne Cox – bass, Jon Baglo – multi instrumentalist and Tim David - drums.<span><br/></span><span><br/></span>This two hour performance includes all the hits such as Folsom Prison Blues, Ring of Fire, Orange Blossom Special and the rest of your favourite songs played against a backdrop of video and photographs depicting pivotal moments in Johnny’s life and career.<span><br/></span><span><br/></span>This performance is a must see for Johnny Cash admirers, or simply fans of songs about trains and prisons!<span><br/></span><span><br/></span>Tickets: $49.50 Admission <span class=\"ItalicText\">(includes GST, +applicable fees)</span>
+""";
+  schema:startDate "2026-03-07T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/117da60f-9c04-4c7e-b8a7-db43f600e514.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd49;
+  schema:duration "PT120M";
+  schema:endDate "2026-03-07T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd49 a schema:AggregateOffer;
+  schema:lowPrice "49.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/1181ALTQDHMLKNCDBKKHPSHTCQKLRRNHK>
+  a schema:Event;
+  schema:name "Tom Lavin & Powder Blues";
+  schema:description """
+	For over four decades Powder Blues has been Canada’s leading blues band. The mix of swing, blues, jazz, rock & roll and R&B has an appeal so wide that people from seven to seventy swing side by side at a Powder Blues concert. Over the years the band has toured non-stop through Canada, the United States and overseas, spreading feel-good music that makes folks dance and shout.<span><br/></span><span><br/></span>Powder Blues debut album, ‘Uncut’, was ignored by major labels who said there was ‘no market for the blues’. Undiscouraged, the band sold it off stage and sent it to radio stations whose switchboards lit up with calls asking, ‘who’s that?’ After selling 30,000 copies in a few weeks, the same record labels competed to distribute this ‘non-commercial’ product. To date Powder Blues have sold over a million records worldwide.<span><br/></span><span><br/></span>Band highlights include winning Canada’s Juno, headlining the world-famous Montreux Jazz Festival in Switzerland, winning the Blues Foundation Award in Memphis, Tennessee and touring the US and Europe with legends like Willie Dixon, John Lee Hooker, B.B. King, James Brown, Albert Collins, James Cotton and Stevie Ray Vaughn.<span><br/></span><span><br/></span>Leader, Tom Lavin has written many of the band’s best-known songs including ‘Doin’ It Right’ (‘On the Wrong Side of Town’) and ‘Boppin With the Blues’. Born in Chicago where he worked with local bands and blues legends, Tom moved to Vancouver gigging in the downtown nightclub scene. This led to work as studio musician, song writer, band leader, record producer and film composer.<span><br/></span><span><br/></span>Tom has won BCMIA awards for ‘Guitarist, Singer, Songwriter and Producer of the Year’, a Juno award for ‘Best New Band’ and the American W.C. Handy award. He has over a dozen gold, and platinum records for Powder Blues, Prism, April Wine, Long John Baldry, Amos Garrett, and many others.<span><br/></span><span><br/></span>2025 is the band’s 47th Anniversary. Their more than dozen CD titles and DVD continue to sell world-wide making Tom Lavin & the Legendary Powder Blues one of Canada’s longest-standing musical ambassadors.<span><br/></span><span><br/></span>www.powderblues.net <span><br/></span><span><br/></span>https://youtu.be/DuqbPDqV9pA<span><br/></span><span><br/></span>Tickets: $62 Admission (plus applicable taxes & fees)
+""";
+  schema:startDate "2025-10-31T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/c1a7c1a4-0883-4e8f-83fa-f5b7f180c518.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd50;
+  schema:duration "PT120M";
+  schema:endDate "2025-10-31T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd50 a schema:AggregateOffer;
+  schema:lowPrice "65.12";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/32601AKDCCCPHNNLLKVMKNDNHMQKCVBKT>
+  a schema:Event;
+  schema:name "UnCharitable feat. Tom Deans";
+  schema:description """
+	Join the Campbell River Community Foundation for a thought-provoking evening aimed at transforming conversations around charitable giving, legacy, and estate planning. This is a must-attend event for everyone in the community!<span><br/></span><span><br/></span>Beginning with a screening of the acclaimed documentary, UnCharitable, traditional constraints that hinder non-profit organizations from achieving their missions are challenged. The Campbell River Community Foundation Vital Signs 2024 survey asked organizations what they need most, and the film offers a powerful validation for much of what was heard.<span><br/></span><span><br/></span>Following the documentary will be a conversation guided by keynote speaker, Dr. Tom Deans, a global thought leader on generational wealth transfer and author of the best-selling family business book, <span class=\"ItalicText\">Every Family’s Business</span>. Dr. Deans will explore the legal and financial aspects of estate planning, business succession, wealth management and strategic philanthropy in a practical discussion featuring local experts and panelists Lyle Carlstrom of CR Lawyers, Alyssa Thomas of MNP and Shawn Fetter of DeLuca Veale Investment Counsel.<span><br/></span><span><br/></span>The Foundation aims to demystify the planning process for all community members, regardless of the size of their estate. Debunking the common misconceptions around estate planning, the event intends to show that every estate is worth planning for. This evening is about empowering everyone with the knowledge to make thoughtful decisions for their family and community, ensuring their legacy is secure and impactful.<span><br/></span><span><br/></span>An exclusive pre-show reception will begin at 5:00 pm, offering ticket holders the chance to mingle with the speakers and representatives from 6 local charities with endowment funds at the Foundation including Greenways Land Trust, Campbell River Hospital Foundation, Campbell River Hospice Society, Campbell River Food Bank, Tidemark Theatre, and Campbell River Museum.<span><br/></span><span><br/></span><span class=\"BoldText\">BIOGRAPHIES:</span><span><br/></span><span><br/></span><span class=\"BoldText\">Lyle Carlstrom</span> is a barrister, solicitor, notary, and businessman with a social conscience. Among his many accomplishments, he helped create The Estate & Financial Planning Institute, has been involved with the Fairview, Sexsmith, Grande Prairie and Comox Valley Chambers of Commerce. Additionally, he was a founding member of the 1995 Canada Winter Games Host Society, the Community Foundation of Greater Grande Prairie, Grande Prairie Regional College Alumni Foundation, and The Arctic Winter Games Society. He was one of the first lawyers in Canada to be a part of the Advocis, the professional body for financial planners and insurance agents. Lyle served as a Director of the Project Watershed and was a member of the Fundraising Committee for the Kus-Kus-Sum restoration project. He won the Courtenay Rotary Club's Top Hand and Sponsorship awards in 2019 and is a director with Comox Business in Action. Lyle was admitted to the Alberta Bar in 1987 and the Law Society of British Columbia in 2016. In March of 2017 he helped form a multi-disciplinary partnership. In 2018, that partnership acquired Holland and Company. That firm merged with CR Lawyers in 2022 and now has three offices. Lyle's practice focuses on solicitor's work in the areas of real estate, corporate-commercial law, estate planning and estate administration. The firm also deals with a broad range of Notary and legal matters. He believes that legal professionals need to be involved in their community and is pleased all firm members share that value. Lyle is the proud father of Emily, Joshua and Zachary, and partner of Pam Williams.<span><br/></span><span><br/></span><span class=\"BoldText\">Alyssa Thomas</span> is an Associate in MNP's Family Office practice, working closely with business owners to build and transition their companies. She specializes in succession planning strategies for privately held businesses, including the use of trust structures to facilitate smooth generational wealth transfer. With a background in accounting and advisory services, Alyssa helps clients develop long-term plans that address both growth and eventual ownership succession, while coordinating key tax and estate considerations to ensure a seamless transition.<span><br/></span><span><br/></span><span class=\"BoldText\">Shawn Fetter</span> brings over 20 years of experience in the financial services industry to DeLuca Veale. As a Certified Financial Planner (CFP®), Chartered Investment Manager (CIM®), Chartered Life Underwriter (CLU®), and Trust & Estate Practitioner (TEP), Shawn offers a rare combination of advanced portfolio management and estate and insurance expertise. His comprehensive skill set enables him to design tailored strategies that safeguard wealth, mitigate risk, and ensure long-term family security. Alongside the DeLuca Veale team, Shawn creates innovative strategies to reduce taxes, increase wealth, and plan for the efficient transfer of wealth from one generation to another guided by a comprehensive financial strategy.<span><br/></span><span><br/></span>Prior to joining DeLuca Veale, Shawn earned a reputation for proactive, values-based advice focused on multi-generational wealth transfer. He’s frequently invited to share insights on topics such as estate and insurance planning, underscoring his standing among peers and clients alike.<span><br/></span><span><br/></span>Shawn resides in the Comox Valley with his family. Outside the office, he enjoys pursuing community initiatives that advance financial education, legacy planning, and youth sports.<span><br/></span><span><br/></span><span class=\"BoldText\">Dr. Tom Deans</span> is the author of three books on the subject of family wealth transfers. His first book, Every Family’s Business: 12 Common Sense Questions to Protect Your Wealth, remains the best-selling family business book of all-time - selected by The New York Times as one of the Top Ten Books Business Owners Should Read. The book has sold more than one-million copies in more than 100 countries.<span><br/></span><span><br/></span>His second book, Willing Wisdom: Seven Questions Successful Families Ask, reached #2 on the Globe and Mail’s best-sellers List. The book has received critical acclaim for its controversial explanation of why 15 million Canadians do not have a legal will. Willing Wisdom continues to stir debate on the merits of disclosing a will with intended beneficiaries. Willing Wisdom reached #2 on The Globe and Mail Best-seller list and has sold more than 1 million copies world-wide.<span><br/></span><span><br/></span>In May 2024, Dr. Deans released The Happy Inheritor: How Successful Families Prepare Heirs and Transfer Wealth, the third and final book in his Family Wealth Trilogy. The book examines how many successful families transfer wealth with the help of their advisor through the use of facilitated family meetings to bring predictability and transparency to their estate plans. For families who struggle with this process, the book offers insights into why. This ground-breaking book reinforces the importance of family philanthropy in preparing the next generation for the $300 million that is inherited every day by Canadians.<span><br/></span><span><br/></span>Deans is a graduate Mount Allison University, McMaster University and earned a Ph.D. from the University of Warwick in England. His books and speeches aren’t just about money and clever tax plans. They’re about giving people the confidence and inspiration to begin important conversations among family and their advisors.<span><br/></span><span><br/></span>Tickets: $10 Admission <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-11-06T18:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/feb87bf2-e7ba-4e6c-8afb-1250e9a4d036.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd51;
+  schema:duration "PT185M";
+  schema:endDate "2025-11-06T21:05:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd51 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/32201AJKCHKSVHJRMVGRPSJQJNPNNBBBQ>
+  a schema:Event;
+  schema:name "VIP Meet & Greet - Musical Mayhem";
+  schema:description """
+	Treat yourself to a special VIP Meet & Greet after the performance of Musical Mayhem! <span><br/></span><span><br/></span>The VIP Meet & Greet will include a merchandise package with Randii Andii and Ryan Lachance official products, autographed picture or merchandise, a photo opportunity with the performers, and a Q&A session.<span><br/></span><span><br/></span>Tickets: $40 <span class=\"ItalicText\">(ticket to the performance not included)</span>
+""";
+  schema:startDate "2025-11-28T21:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/0628c479-8ae4-44a8-ba28-86921cba0d4c.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd52;
+  schema:duration "PT30M";
+  schema:endDate "2025-11-28T21:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd52 a schema:AggregateOffer;
+  schema:lowPrice "40.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/29601AVVVGLGMQTHTLNRNLGJBCQJTVHSN>
+  a schema:Event;
+  schema:name "Winter";
+  schema:description """
+	Join internationally acclaimed pianist and composer Matthew Krell for an enchanting evening of holiday merriment and winter classics. Now based in Los Angeles, California, Krell returns to his native Vancouver Island for an exclusive seasonal event.<span><br/></span><span><br/></span>Matthew Krell is an award-winning pianist, composer, educator, and accomplished actor who has been engrossed in the performing arts for sixteen years. He has been recognized in competitions, festivals, and masterclasses internationally and been praised by world-renowned leaders in the disciplines of acting, piano, and composition.<span><br/></span><span><br/></span>In addition to music, Matthew has seen success as an actor on stages spanning local theatre productions to Off-Broadway in New York City. He has also presented sessions at educational conferences across North America and Europe.<span><br/></span><span><br/></span>Matthew holds a quadruple-emphasis Bachelor of Music Degree in Piano Performance, Pedagogy, Sacred Music and Music Composition from The Master's University, a Master of Music degree in Piano Performance from University of Southern California (USC) Thornton School of Music with the honor of Outstanding Graduate, and a Doctor of Musical Arts in Piano Performance with emphases in Choral Music, Jazz Studies and a Certificate in Music Entertainment and Industry Law from USC Gould School of Law. He also has completed diplomas from the Trinity College London in Speech Arts & Drama and Musical Theatre with distinction.<span><br/></span><span><br/></span>Dr. Krell lives in Santa Clarita, a suburb of Los Angeles, with his wife, maintaining a busy schedule as a music teacher, church musician, composer, and concert pianist. He serves as President of the World Piano Teachers Association Canada-Composition Division and director of Rhapsodia, a 501(c)(3) charitable organization that presents concerts and multimedia projects for emerging artists. Visit <a target=\"_blank\" href=\"https://www.rhapsodia.org/\">rhapsodia.org</a> and <a target=\"_blank\" href=\"https://www.wpta.info/canada-composition/\">wpta.info</a> for more info.<span><br/></span><span><br/></span>The program, hosted with personal anecdotes and musings delivered in Matthew’s signature dark wit, features all-original arrangements of Christmas carols, holiday favorites, and seasonal classics. Highlights include selections from Handel’s Messiah, Tchaikovsky’s Nutcracker Suite, My Favorite Things, and innovative takes on Carol of the Bells, God Rest Ye Merry Gentlemen, Vivaldi’s Winter blending electronic music and improvisation with his classical training.<span><br/></span><span><br/></span>Tickets: $35 Adult, $33 Senior, $18 Students and Children <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2025-12-22T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/tidemarktheatre/files/934f95b9-a912-45bb-95c2-79b77765e42c.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
+  schema:offers _:8ab40dab1f5645c69ba76a46afdaa4dd53;
+  schema:duration "PT60M";
+  schema:endDate "2025-12-22T20:30:00"^^xsd:dateTime .
+
+_:8ab40dab1f5645c69ba76a46afdaa4dd53 a schema:AggregateOffer;
+  schema:lowPrice "18.9";
+  schema:priceCurrency "CAD" .
