@@ -1,0 +1,1868 @@
+@base <http://example.com/base/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/10001AJDMSTLMNDPDNVDDGJGHCCDBRDDD>
+  a schema:Event;
+  schema:name "\"Come Together\" for the KV Food Basket";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-17T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/e27f478a-8c78-41ad-834d-72e16b1da04d.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da91;
+  schema:duration "PT120M";
+  schema:endDate "2026-01-17T21:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da91 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:Place;
+  schema:name "Imperial Theatre";
+  schema:address <https://spektrix.com/imperialtheatrenewbrunswick/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/imperialtheatrenewbrunswick/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:PostalAddress;
+  schema:streetAddress "12 King Square South";
+  schema:addressLocality "Saint John NB";
+  schema:addressRegion "NB";
+  schema:postalCode "E2L 5B8";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/7801ATTBPVLSHPLVGKMJNMMDGBTHMPBTK>
+  a schema:Event;
+  schema:name "A Cabaret of Legends";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-13T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/21cca539-7ac3-4a3d-810e-94e2e681dcc5.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da92;
+  schema:duration "PT90M";
+  schema:endDate "2026-03-13T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da92 a schema:AggregateOffer;
+  schema:lowPrice "35.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/5801ANBQVBLJQKVGKMVQVKJKLJQMKBTVN>
+  a schema:Event;
+  schema:name "A Coast to Coast Cowboy Christmas";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-15T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/f0bb756e-1772-4d29-aa8c-b46fcfb3435e.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da93;
+  schema:duration "PT110M";
+  schema:endDate "2025-11-15T21:20:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da93 a schema:AggregateOffer;
+  schema:lowPrice "60.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/6001AHTPDKPQHHKQPKDKSKRBSTJBCVNKB>
+  a schema:Event;
+  schema:name "A Holly Jolly Jill Barber Christmas";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-03T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/1306a646-3889-4d06-9dcf-a5a10dd461d3.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da94;
+  schema:duration "PT120M";
+  schema:endDate "2025-12-03T21:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da94 a schema:AggregateOffer;
+  schema:lowPrice "35.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/6202AKJJJTCGTVBDPVDBJDBDMMJRDSSHQ>
+  a schema:Event;
+  schema:name "A Perfectly Reasonable Night of Comedy";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-05T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/a8d1ffe1-2615-4f13-b99c-ee729954d8bc.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da95;
+  schema:duration "PT120M";
+  schema:endDate "2026-03-05T21:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da95 a schema:AggregateOffer;
+  schema:lowPrice "45.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/20001ASSPTTDVHQJLHCGJGTSBBKPHTPJB>
+  a schema:Event;
+  schema:name "Alan Doyle";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-08T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/5293d5e6-51ce-4a71-b13d-3bb2e551fea3.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da96;
+  schema:duration "PT150M";
+  schema:endDate "2026-03-08T22:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da96 a schema:AggregateOffer;
+  schema:lowPrice "70.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/20601ABGSVVQHCDMLPVSSHGJPQKDMCGQD>
+  a schema:Event;
+  schema:name "Alex Mackenzie's Never Been Better Tour";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-27T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da97;
+  schema:duration "PT120M";
+  schema:endDate "2026-03-27T21:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da97 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/6402AKVPJGQCNHCBQGNTGNCRKJHVTCNJD>
+  a schema:Event;
+  schema:name "Anime Film: Ghost Cat Anzu";
+  schema:description """
+
+""";
+  schema:startDate "2025-08-11T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/8592fec6-4a67-4a92-b844-0a5a2c4a98b7.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da98;
+  schema:duration "PT97M";
+  schema:endDate "2025-08-11T20:37:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da98 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/6002ARRKMQNDRMCPLQGPBJQVSKJHBJNVR>
+  a schema:Event;
+  schema:name "Atlantic Ballet: Don Juan";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-18T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/7c80f637-5706-475c-8a16-2bde882545e0.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da99;
+  schema:duration "PT120M";
+  schema:endDate "2026-02-18T21:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da99 a schema:AggregateOffer;
+  schema:lowPrice "45.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/8601AVPPNNBTVGDHCLBCTPRSLGQPDSBRD>
+  a schema:Event;
+  schema:name "Ballet Jörgen: A Midsummer Night’s Dream";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-02T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/a1f27938-ff29-47f3-b414-344de1829b6c.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da910;
+  schema:duration "PT100M";
+  schema:endDate "2026-05-02T16:40:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da910 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/8802AQDBRPKQCPSNTMKGCQBPJVVSGVLRK>
+  a schema:Event;
+  schema:name "Ballet Kelowna: taqəš and Other Works";
+  schema:description """
+	<h1>Ballet Kelowna: taqəš and Other Works</h1><span><br/></span>Cameron Fraser-Monroe brings his classical ballet training, knowledge of traditional Coast Salish, Grass, and Hoop Dance, and experience as a contemporary dancer to taqəš [tawKESH], which means “to return something” in Ayajuthem, the language belonging to the Homalco, Klahoose, K’omoks and Tla’amin Nations. Set to several songs by Polaris Prize-winning composer and singer Jeremy Dutcher, taqəš follows the traditional story “Raven Returns the Water,” centred around ῤoho (raven) and walθ (frog).<span><br/></span><span><br/></span>Next, National Ballet of Canada Choreographic Associate Guillaume Côté brings strength and fragility to a fascinating interpretation of the beloved Bolero by Maurice Ravel, one of music’s most famous and identifiable melodies. A “riveting tour de force” (Dance Magazine), Bolero (2012) features breathtaking lifts and virtuosic choreography.<span><br/></span><span><br/></span>Rounding out the program, audiences will be treated to Ballet Kelowna commissioned MAMBO (2018) by Alysa Pires. The work gained worldwide acclaim after performances at Beijing’s China International Performing Arts Expo and Toronto’s Fall for Dance North Festival in 2018. Pires’ “crowd-pleasing MAMBO” (The Globe and Mail) is a colourful joie de vivre set to a vibrant soundtrack of Latin, swing, and jazz standards by musical legends such as Dean Martin, Perry Como, Rosemary Clooney, Sarah Vaughn, and more.
+""";
+  schema:startDate "2026-05-27T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/a6baad84-7b34-4019-9f1a-31a70da4f48e.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da911;
+  schema:duration "PT90M";
+  schema:endDate "2026-05-27T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da911 a schema:AggregateOffer;
+  schema:lowPrice "45.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/19401AJHGNGSSNHVHGVRMMRHQDRBGPQPM>
+  a schema:Event;
+  schema:name "Banff Centre Mountain Film Festival World Tour";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-22T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/7b7b15df-6317-4415-b88a-111786f794dd.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da912;
+  schema:duration "PT135M";
+  schema:endDate "2026-01-22T21:15:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da912 a schema:AggregateOffer;
+  schema:lowPrice "32.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC>
+  a schema:Event;
+  schema:name "Barra MacNeils: East Coast Christmas";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-18T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/7e0b6155-2657-4f31-a010-29d88d7fdf74.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da913;
+  schema:duration "PT110M";
+  schema:endDate "2025-12-18T21:20:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da913 a schema:AggregateOffer;
+  schema:lowPrice "55.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/17401ARMGDGRGTJBKVPBLJVRHCKNDGPTT>
+  a schema:Event;
+  schema:name "Brent Butt";
+  schema:description """
+
+""";
+  schema:startDate "2026-04-12T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/543e71b3-54b5-47ff-9a14-79fe1d23dffc.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da914;
+  schema:duration "PT150M";
+  schema:endDate "2026-04-12T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da914 a schema:AggregateOffer;
+  schema:lowPrice "63.25";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/16601ARPMPTNDDCJCLRDPBTPKBJMLVCDR>
+  a schema:Event;
+  schema:name "Canine Circus Presents: Dogs Do Magic";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-10T14:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/78ad3fe0-de54-47c5-a409-4ecd10bf47e2.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da915;
+  schema:duration "PT105M";
+  schema:endDate "2026-05-10T16:15:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da915 a schema:AggregateOffer;
+  schema:lowPrice "34.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/10401AVGBSHGLNCJKPBDLVSHHVCQHSBNR>
+  a schema:Event;
+  schema:name "Choir! Choir! Choir!";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-17T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/3229f08a-52ab-4766-a2f1-c9b8db883a55.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da916;
+  schema:duration "PT120M";
+  schema:endDate "2025-12-17T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da916 a schema:AggregateOffer;
+  schema:lowPrice "40.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/249AGVVPLHTSGTQVTJDVPMBVMCCVMNVRH>
+  a schema:Event;
+  schema:name "Christmas From the Heart";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-07T15:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/8e975b5c-865e-4545-ad1d-6f6b9623695d.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da917;
+  schema:duration "PT100M";
+  schema:endDate "2025-12-07T16:40:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da917 a schema:AggregateOffer;
+  schema:lowPrice "28.75";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/17601ADSBKGQMMPTLRCMTNQVQJNSBPVNG>
+  a schema:Event;
+  schema:name "Christmas with The Ennis Sisters";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-26T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/b63ffb68-1cd5-47b8-bb8d-1f55236fc25d.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da918;
+  schema:duration "PT105M";
+  schema:endDate "2025-11-26T21:15:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da918 a schema:AggregateOffer;
+  schema:lowPrice "48.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/7001AGCLPBHTQLDRVGJQJGVCGDJKJPPNR>
+  a schema:Event;
+  schema:name "Circus Incognitus ";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-24T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/765128e3-7b2f-4f8f-bcff-90fa8402bd47.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da919;
+  schema:duration "PT60M";
+  schema:endDate "2026-01-24T15:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da919 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/8801ABJDKGQJJPHNLQGQLLLRMHJSKRCGT>
+  a schema:Event;
+  schema:name "Cirque Kalabanté: Afrique En Cirque";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-07T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/304bf086-f817-4407-90b5-3a0e81edea45.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da920;
+  schema:duration "PT90M";
+  schema:endDate "2026-05-07T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da920 a schema:AggregateOffer;
+  schema:lowPrice "35.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/17001ATQVJDMTMDNCJJRSGHPLDNKCVDBL>
+  a schema:Event;
+  schema:name "Classic Albums Live: Led Zeppelin";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-29T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/eefde55f-43c8-42da-b9dd-54ef5b358ed8.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da921;
+  schema:duration "PT120M";
+  schema:endDate "2026-05-29T21:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da921 a schema:AggregateOffer;
+  schema:lowPrice "60.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/16401ABVRRCMPGBBKHVKSLVNQTBRMLVRH>
+  a schema:Event;
+  schema:name "Classic Albums Live: Pink Floyd";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-14T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/077db9e6-8e95-4d7e-9bb0-5b55f5a5cb1a.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da922;
+  schema:duration "PT120M";
+  schema:endDate "2026-02-14T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da922 a schema:AggregateOffer;
+  schema:lowPrice "60.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/20401AHPLRCCNVVRTBBQTNVLNPCCJVRGB>
+  a schema:Event;
+  schema:name "Club Rewind: Los Desperados";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-06T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/f25a2d1b-c62b-475e-9007-4ebac1d47769.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/493ARGCVRJHJKNGMJTMCJLTGBQDJQDKHR>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da923;
+  schema:duration "PT120M";
+  schema:endDate "2026-03-06T21:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da923 a schema:AggregateOffer;
+  schema:lowPrice "32.5";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/imperialtheatrenewbrunswick/location/493ARGCVRJHJKNGMJTMCJLTGBQDJQDKHR>
+  a schema:Place;
+  schema:name "Kent Theatre";
+  schema:address <https://spektrix.com/imperialtheatrenewbrunswick/address/493ARGCVRJHJKNGMJTMCJLTGBQDJQDKHR> .
+
+<https://spektrix.com/imperialtheatrenewbrunswick/address/493ARGCVRJHJKNGMJTMCJLTGBQDJQDKHR>
+  a schema:PostalAddress;
+  schema:streetAddress "24 Coburg St";
+  schema:addressLocality "Saint John";
+  schema:addressRegion "NB";
+  schema:postalCode "E2L 3J5";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/20201AVQHKKMVCNSSQSPNTVCQPQCKBBPV>
+  a schema:Event;
+  schema:name "Club Rewind: Symply Skynyrd";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-29T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/e8017b4d-26ed-48b7-b69b-d86bd19df480.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/493ARGCVRJHJKNGMJTMCJLTGBQDJQDKHR>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da924;
+  schema:duration "PT120M";
+  schema:endDate "2026-05-29T21:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da924 a schema:AggregateOffer;
+  schema:lowPrice "32.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/558ASVMLNDGNVVMCLVTSDKMNRHLTNMVJL>
+  a schema:Event;
+  schema:name "Country Boys: Christmas Edition";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/213cd642-a4c4-4faa-b293-37491599d03b.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da925;
+  schema:duration "PT150M";
+  schema:endDate "2025-12-06T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da925 a schema:AggregateOffer;
+  schema:lowPrice "45.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/8401ACDNQDNDVRQCTJQRQPHVTKLNTCVJH>
+  a schema:Event;
+  schema:name "Dino-Light";
+  schema:description """
+
+""";
+  schema:startDate "2026-04-30T18:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/c68012d5-1b55-4220-b695-8ff4451ed1a9.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da926;
+  schema:duration "PT60M";
+  schema:endDate "2026-04-30T19:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da926 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/5802APHGTMJDGBPNTMNBDDBDQJSPPJSLC>
+  a schema:Event;
+  schema:name "Doktor Kaboom: Under Pressure!";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-08T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/f34bdeaa-51a5-40a6-974f-79feaa77c937.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da927;
+  schema:duration "PT60M";
+  schema:endDate "2026-02-08T15:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da927 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/8001ARTDCCTGLQPKPGKVDJPJMKTGHTJJP>
+  a schema:Event;
+  schema:name "Dwayne Gretzky";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-25T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/ac1b5ea6-f4ba-4ae1-95ff-52c1b501f2e4.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da928;
+  schema:duration "PT110M";
+  schema:endDate "2026-03-25T21:20:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da928 a schema:AggregateOffer;
+  schema:lowPrice "45.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/252ATBGRHRGHQNGQNMQQBDDRGRTGGBMQR>
+  a schema:Event;
+  schema:name "Epic Eagles - The Definitive Eagles Tribute";
+  schema:description """
+
+""";
+  schema:startDate "2026-04-11T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/4de5d4b0-e48b-4db0-9180-9254740c3b11.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da929;
+  schema:duration "PT90M";
+  schema:endDate "2026-04-11T20:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da929 a schema:AggregateOffer;
+  schema:lowPrice "57.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/11201AKDDTJMTSLCSVGSKVSMSBBMJNQCH>
+  a schema:Event;
+  schema:name "Family Sparkles Film Festival";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-05T17:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/2843919f-4dea-4261-a4ec-088ce98f2428.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da930;
+  schema:duration "PT240M";
+  schema:endDate "2025-12-05T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da930 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/18201AHGNDCRVCPJBPPJCHBJKBJSRNNKN>
+  a schema:Event;
+  schema:name "Gabby's Dollhouse Live!";
+  schema:description """
+	VIP $284.50 | A Seating $123.50 | B Seating $100.25 | C Seating $90.50 | D Seating $86.00<span><br/></span><span><br/></span>Terrapin Station Entertainment and TEG Life Like Touring, in association with Universal Destinations and Experiences, present Gabby's Dollhouse Live! Presented by Walmart on tour from September 2025. In this a-MEOW-zing new live show, Gabby unboxes a special acorn that needs the magical touch of a rainbow to grow. But when CatRat causes a color cat-astrophe and breaks the rainbow, Gabby and the Gabby Cats must find the colors again to set things right. Gabby's Dollhouse Live! Presented by Walmart brings to life an original story featuring incredible puppets, dynamic staging, and songs that will have audiences singing and dancing along, from beginning to end. Tickets on sale now - sign up at www.gabbysdollhouselive.com for pre-sale access.<span><br/></span><span><br/></span>CAT-TASTIC VIP EXPERIENCE<span><br/></span>Includes:<span><br/></span>• One (1) Premium Ticket to the Show*<span><br/></span>• Admission to the Gabby’s Dollhouse Live! Cat-tastic VIP Pre-Show Party**— Featuring coloring, stickers, temporary tattoos, and other hands-on fun!<span><br/></span>• One (1) Magical Meow Pass***<span><br/></span>• Character Greeting & Photo with Gabby (mascot) before the show****<span><br/></span>• Gabby’s VIP Goodie Set***<span><br/></span>• Themed Snacks & Refreshments<span><br/></span>• On-Site VIP Experience Host<span><br/></span><span><br/></span>*Location provided at time of purchase<span><br/></span>** All ticket holders — both children & adults — must purchase a VIP Package to attend the VIP Party<span><br/></span>*** Provided at VIP check-in the night of the show<span><br/></span>****Please note that Character Greeting is with the Gabby costume character, not the actor from the TV show, or the actor performing in our stage show.
+""";
+  schema:startDate "2026-02-25T18:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/3aaf7ec1-e32a-4d51-99a7-bc0264da6108.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da931;
+  schema:duration "PT75M";
+  schema:endDate "2026-02-25T19:15:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da931 a schema:AggregateOffer;
+  schema:lowPrice "81.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/7002AHSTPBJLTRHRKRQLVRNJNVMBBVDBM>
+  a schema:Event;
+  schema:name "Gravity & Other Myths: Ten Thousand Hours";
+  schema:description """
+
+""";
+  schema:startDate "2026-04-15T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/8b5dba5e-c11e-4815-8e10-02b46532739c.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da932;
+  schema:duration "PT60M";
+  schema:endDate "2026-04-15T20:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da932 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/762AKSCNJSSKVTDGLVVQTLQQNDSMLCGNB>
+  a schema:Event;
+  schema:name "GYPSY: Premiere Fleetwood Mac Tribute";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-08T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/f5981754-5911-475a-8122-f08917ef7e3d.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da933;
+  schema:duration "PT105M";
+  schema:endDate "2025-11-08T21:15:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da933 a schema:AggregateOffer;
+  schema:lowPrice "49.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/17201ARRMQGPTQCTQRSSQDHPCMJGNLLPM>
+  a schema:Event;
+  schema:name "Holiday Whiskey Tasting";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-29T17:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/f3755f33-40f0-457a-91ce-6b39eea9430a.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da934;
+  schema:duration "PT60M";
+  schema:endDate "2025-11-29T18:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da934 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/6401AGGHMDTSNBRCTQVKPTDLMCCJHGPKV>
+  a schema:Event;
+  schema:name "Imperial Holiday Sing Along";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-19T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/2302d185-0918-4c29-88bf-768d06b333c9.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da935;
+  schema:duration "PT70M";
+  schema:endDate "2025-12-19T20:10:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da935 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/16801ANHJRBJLNRBNVQDKPGNSLJNKRTQV>
+  a schema:Event;
+  schema:name "Kenny & Dolly's Christmas Tribute";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-20T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/5e16bed4-2e07-4209-b6d8-16eb23423ae1.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da936;
+  schema:duration "PT90M";
+  schema:endDate "2025-12-20T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da936 a schema:AggregateOffer;
+  schema:lowPrice "40.25";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/18401APQBVKHJSJNGJQKHRTGTLCTRJBBR>
+  a schema:Event;
+  schema:name "Matt Andersen";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-30T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/47444a21-dc77-47cd-8a75-9843753f6c0f.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da937;
+  schema:duration "PT120M";
+  schema:endDate "2026-01-30T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da937 a schema:AggregateOffer;
+  schema:lowPrice "50.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/5402AGQQQRPQGBKVGLMVNRHDLHTQBJJQJ>
+  a schema:Event;
+  schema:name "Men of the Deeps: Coal Miner's Christmas";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-29T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/4f69957d-8e78-45fd-ba1e-8a8b85a9a9fc.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da938;
+  schema:duration "PT110M";
+  schema:endDate "2025-11-29T21:20:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da938 a schema:AggregateOffer;
+  schema:lowPrice "35.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/1802ARGRKTLMNQKVDQSCGBCSGTHTTCNNB>
+  a schema:Event;
+  schema:name "NBYO Live in Saint John";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-11T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/b78a8ad6-4eb1-4032-a2f1-4e071597f2d4.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da939;
+  schema:duration "PT60M";
+  schema:endDate "2026-01-11T15:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da939 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/7401ABQKCMHPSMGCDJCDKPNHPKRBSBRLS>
+  a schema:Event;
+  schema:name "Nomfusi";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-19T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/563b2c56-802d-4f99-967b-9d5351cce7d1.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da940;
+  schema:duration "PT90M";
+  schema:endDate "2026-02-19T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da940 a schema:AggregateOffer;
+  schema:lowPrice "45.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR>
+  a schema:Event;
+  schema:name "Oscar Peterson Centennial Quartet";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-01T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/c6304ab3-f5ae-4b30-95c8-369d769a63f5.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da941;
+  schema:duration "PT110M";
+  schema:endDate "2025-11-01T21:20:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da941 a schema:AggregateOffer;
+  schema:lowPrice "45.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/632AVMSVTVQVVVJDBBKTKKKRBVMQMHQPP>
+  a schema:Event;
+  schema:name "Queen: It's a Kinda Magic";
+  schema:description """
+
+""";
+  schema:startDate "2025-08-28T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/92b5a947-3681-455f-aebc-a8afb887f3ba.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da942;
+  schema:duration "PT150M";
+  schema:endDate "2025-08-28T22:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da942 a schema:AggregateOffer;
+  schema:lowPrice "43.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/7404ANLSHNQQSPPNHRDDHLQHBVNLNRCVC>
+  a schema:Event;
+  schema:name "Retro Film Galentine's: Miss Congeniality";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-13T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/9d6a0e10-0e0d-4fd9-9a12-209dbe3093c9.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da943;
+  schema:duration "PT109M";
+  schema:endDate "2026-02-13T20:49:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da943 a schema:AggregateOffer;
+  schema:lowPrice "7.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/6602ATBVLJQKCMGMLQRDTTBNMTTCNKCBH>
+  a schema:Event;
+  schema:name "Retro Film March Break: Space Jam";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-02T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/1b66f87d-37df-4b31-9137-d4f93b2d06de.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da944;
+  schema:duration "PT88M";
+  schema:endDate "2026-03-02T15:28:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da944 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/5803AKBBJBBTGJBBTMLTTMLMPQCRLKBJK>
+  a schema:Event;
+  schema:name "Retro Film: A Streetcar Named Desire";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-04T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/13493983-4b0b-4719-85d9-d08159f91917.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da945;
+  schema:duration "PT122M";
+  schema:endDate "2026-05-04T21:02:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da945 a schema:AggregateOffer;
+  schema:lowPrice "7.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/7403AKLMMKTKCHKLSBTGMBTVGJJNNBGCM>
+  a schema:Event;
+  schema:name "Retro Film: Big Trouble in Little China";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-19T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/1609d125-4d65-4055-93dd-592090a52b03.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da946;
+  schema:duration "PT99M";
+  schema:endDate "2026-01-19T20:39:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da946 a schema:AggregateOffer;
+  schema:lowPrice "7.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/9202ABNPQMSDMSGHMKKPCHHVKGGHLGHLJ>
+  a schema:Event;
+  schema:name "Retro Film: Saturday Night Fever";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-10T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/e379cad4-4877-4a38-8c49-1621fff89c76.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da947;
+  schema:duration "PT118M";
+  schema:endDate "2025-11-10T20:58:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da947 a schema:AggregateOffer;
+  schema:lowPrice "7.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/8603ALBCGPPKLTRHQBHNQGLCNGSQGPLKG>
+  a schema:Event;
+  schema:name "Retro Film: The Mummy";
+  schema:description """
+
+""";
+  schema:startDate "2026-06-15T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/ba006bb6-dc73-49b5-a61b-c649437a3754.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da948;
+  schema:duration "PT124M";
+  schema:endDate "2026-06-15T21:04:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da948 a schema:AggregateOffer;
+  schema:lowPrice "7.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/7802AKHHNGMHTPCQJCPSSQPTDLLHKQRDT>
+  a schema:Event;
+  schema:name "Retro Film: The Muppet Christmas Carol";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-08T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/4cf94350-7cec-41cc-9153-9c0958ca67b5.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da949;
+  schema:duration "PT85M";
+  schema:endDate "2025-12-08T20:25:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da949 a schema:AggregateOffer;
+  schema:lowPrice "7.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/5602ABCCGNCDBHLDMGCBGBTDJPKNMSSVN>
+  a schema:Event;
+  schema:name "Retro Film: Wizard of Oz";
+  schema:description """
+
+""";
+  schema:startDate "2026-04-13T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/b2faaf32-f670-4846-9e62-5a5887f9504e.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da950;
+  schema:duration "PT102M";
+  schema:endDate "2026-04-13T20:42:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da950 a schema:AggregateOffer;
+  schema:lowPrice "7.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/5403AQPCVBSPMLRVJTQPKSDGPPNDCQPHD>
+  a schema:Event;
+  schema:name "Rhys Nicholson";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-16T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/cc237101-aa6b-49bc-a99d-aa4c66dafa43.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da951;
+  schema:duration "PT90M";
+  schema:endDate "2026-01-16T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da951 a schema:AggregateOffer;
+  schema:lowPrice "35.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG>
+  a schema:Event;
+  schema:name "Ron James: The Noise Between Our Ears";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-11T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/79ff4d16-2d65-4823-9666-d1ec2f8486ee.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da952;
+  schema:duration "PT60M";
+  schema:endDate "2025-11-11T20:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da952 a schema:AggregateOffer;
+  schema:lowPrice "81.25";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/1501ATDMTVGLVNVMGTQNLDVJPCKTQTRNR>
+  a schema:Event;
+  schema:name "Sandman - Celebrating the Music of Metallica";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-13T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/2424f89d-b6f3-4b7a-91a1-4cc24e6a9d70.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da953;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-13T21:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da953 a schema:AggregateOffer;
+  schema:lowPrice "52.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/4001APBPRCSHVVMHTCBMSPSJRNDMCHHLV>
+  a schema:Event;
+  schema:name "Shawn Desman";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-05T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/8d91b260-6c33-48ff-9161-04ec3d451bf0.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da954;
+  schema:duration "PT120M";
+  schema:endDate "2025-11-05T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da954 a schema:AggregateOffer;
+  schema:lowPrice "59.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/373AQMJJGVCVLJDHVKBRGSCHJCPGTKRSV>
+  a schema:Event;
+  schema:name "SJTC: A Christmas Carol";
+  schema:description """
+	<h1>A Christmas Carol</h1><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, November 19, 2025 at 7:30pm</li><li>Thursday, November 20, 2025 at 7:30pm</li><li>Friday, November 21, 2025 at 7:30pm</li><li>Saturday, November 22, 2025 at 2:00pm</li><li>Saturday, November 22, 2025 at 7:30pm</li></ul><span><br/></span>Plenty of joy, surprises, and heartfelt moments await! Experience the timeless magic of A Christmas Carol! Join us for a heartwarming journey with Ebenezer Scrooge as he discovers the true spirit of the holiday season. Filled with unforgettable characters and a powerful message of hope and redemption, this classic take is perfect for the whole family.<span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2025-11-19T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/aeea126e-acad-41b6-97cd-e05c376a8de5.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da955;
+  schema:duration "PT150M";
+  schema:endDate "2025-11-19T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da955 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/1251ABVBRNBQHHKKBBSDGMPCPMPLQDCHG>
+  a schema:Event;
+  schema:name "SJTC: A Christmas Carol";
+  schema:description """
+	<h1>A Christmas Carol</h1><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, November 19, 2025 at 7:30pm</li><li>Thursday, November 20, 2025 at 7:30pm</li><li>Friday, November 21, 2025 at 7:30pm</li><li>Saturday, November 22, 2025 at 2:00pm</li><li>Saturday, November 22, 2025 at 7:30pm</li></ul><span><br/></span>Plenty of joy, surprises, and heartfelt moments await! Experience the timeless magic of A Christmas Carol! Join us for a heartwarming journey with Ebenezer Scrooge as he discovers the true spirit of the holiday season. Filled with unforgettable characters and a powerful message of hope and redemption, this classic take is perfect for the whole family.<span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2025-11-20T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/aeea126e-acad-41b6-97cd-e05c376a8de5.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da956;
+  schema:duration "PT150M";
+  schema:endDate "2025-11-20T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da956 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/677AGDQTMSHKKJHGBCKHQTLRHSHHRJCBH>
+  a schema:Event;
+  schema:name "SJTC: A Christmas Carol";
+  schema:description """
+	<h1>A Christmas Carol</h1><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, November 19, 2025 at 7:30pm</li><li>Thursday, November 20, 2025 at 7:30pm</li><li>Friday, November 21, 2025 at 7:30pm</li><li>Saturday, November 22, 2025 at 2:00pm</li><li>Saturday, November 22, 2025 at 7:30pm</li></ul><span><br/></span>Plenty of joy, surprises, and heartfelt moments await! Experience the timeless magic of A Christmas Carol! Join us for a heartwarming journey with Ebenezer Scrooge as he discovers the true spirit of the holiday season. Filled with unforgettable characters and a powerful message of hope and redemption, this classic take is perfect for the whole family.<span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/aeea126e-acad-41b6-97cd-e05c376a8de5.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da957;
+  schema:duration "PT150M";
+  schema:endDate "2025-11-21T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da957 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/292AMHSVRLBDRSBHPQHDNKTCBPJMNSNHS>
+  a schema:Event;
+  schema:name "SJTC: A Christmas Carol";
+  schema:description """
+	<h1>A Christmas Carol</h1><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, November 19, 2025 at 7:30pm</li><li>Thursday, November 20, 2025 at 7:30pm</li><li>Friday, November 21, 2025 at 7:30pm</li><li>Saturday, November 22, 2025 at 2:00pm</li><li>Saturday, November 22, 2025 at 7:30pm</li></ul><span><br/></span>Plenty of joy, surprises, and heartfelt moments await! Experience the timeless magic of A Christmas Carol! Join us for a heartwarming journey with Ebenezer Scrooge as he discovers the true spirit of the holiday season. Filled with unforgettable characters and a powerful message of hope and redemption, this classic take is perfect for the whole family.<span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/aeea126e-acad-41b6-97cd-e05c376a8de5.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da958;
+  schema:duration "PT150M";
+  schema:endDate "2025-11-22T16:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da958 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/656ABQDVHKVKLDHBCJCKJVLBKPSQCGLKL>
+  a schema:Event;
+  schema:name "SJTC: A Christmas Carol";
+  schema:description """
+	<h1>A Christmas Carol</h1><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, November 19, 2025 at 7:30pm</li><li>Thursday, November 20, 2025 at 7:30pm</li><li>Friday, November 21, 2025 at 7:30pm</li><li>Saturday, November 22, 2025 at 2:00pm</li><li>Saturday, November 22, 2025 at 7:30pm</li></ul><span><br/></span>Plenty of joy, surprises, and heartfelt moments await! Experience the timeless magic of A Christmas Carol! Join us for a heartwarming journey with Ebenezer Scrooge as he discovers the true spirit of the holiday season. Filled with unforgettable characters and a powerful message of hope and redemption, this classic take is perfect for the whole family.<span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2025-11-22T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/aeea126e-acad-41b6-97cd-e05c376a8de5.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da959;
+  schema:duration "PT150M";
+  schema:endDate "2025-11-22T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da959 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/276AMGMBCQGDRLCCBKHTBVTLSLLQJBGBG>
+  a schema:Event;
+  schema:name "SJTC: Mamma Mia!";
+  schema:description """
+	<h1>Mamma Mia</h1><span><br/></span>Music and Lyrics by Benny Andersson & Björn Ulvaeus and some songs with Stig Anderson<span><br/></span>Book by Catherine Johnson<span><br/></span>Originally conceived by Judy Craymer<span><br/></span><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, May 20, 2025 at 7:30pm</li><li>Thursday, May 21, 2025 at 7:30pm</li><li>Friday, May 22, 2025 at 7:30pm</li><li>Saturday, May 23, 2025 at 2:00pm</li><li>Saturday, May 23, 2025 at 7:30pm</li></ul><span><br/></span>Here we go again! Dance and sing along as we celebrate our 100th production at Imperial Theatre with Mamma Mia! This is your chance to experience one of our top-selling shows of all time. Join us for a show packed full of fun, laughter, and unforgettable music.<span><br/></span><span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2026-05-20T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/befb01f3-276f-4757-bf02-0ae1c6d5036e.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da960;
+  schema:duration "PT135M";
+  schema:endDate "2026-05-20T21:45:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da960 a schema:AggregateOffer;
+  schema:lowPrice "31.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/1351ASMBPLHJTRGLPGQKKKMBHRVDKTVMK>
+  a schema:Event;
+  schema:name "SJTC: Mamma Mia!";
+  schema:description """
+	<h1>Mamma Mia</h1><span><br/></span>Music and Lyrics by Benny Andersson & Björn Ulvaeus and some songs with Stig Anderson<span><br/></span>Book by Catherine Johnson<span><br/></span>Originally conceived by Judy Craymer<span><br/></span><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, May 20, 2025 at 7:30pm</li><li>Thursday, May 21, 2025 at 7:30pm</li><li>Friday, May 22, 2025 at 7:30pm</li><li>Saturday, May 23, 2025 at 2:00pm</li><li>Saturday, May 23, 2025 at 7:30pm</li></ul><span><br/></span>Here we go again! Dance and sing along as we celebrate our 100th production at Imperial Theatre with Mamma Mia! This is your chance to experience one of our top-selling shows of all time. Join us for a show packed full of fun, laughter, and unforgettable music.<span><br/></span><span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2026-05-21T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/befb01f3-276f-4757-bf02-0ae1c6d5036e.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da961;
+  schema:duration "PT135M";
+  schema:endDate "2026-05-21T21:45:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da961 a schema:AggregateOffer;
+  schema:lowPrice "31.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/241AGPTRNKNBHKCDHHNDHDRPKRGBKMBTH>
+  a schema:Event;
+  schema:name "SJTC: Mamma Mia!";
+  schema:description """
+	<h1>Mamma Mia</h1><span><br/></span>Music and Lyrics by Benny Andersson & Björn Ulvaeus and some songs with Stig Anderson<span><br/></span>Book by Catherine Johnson<span><br/></span>Originally conceived by Judy Craymer<span><br/></span><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, May 20, 2025 at 7:30pm</li><li>Thursday, May 21, 2025 at 7:30pm</li><li>Friday, May 22, 2025 at 7:30pm</li><li>Saturday, May 23, 2025 at 2:00pm</li><li>Saturday, May 23, 2025 at 7:30pm</li></ul><span><br/></span>Here we go again! Dance and sing along as we celebrate our 100th production at Imperial Theatre with Mamma Mia! This is your chance to experience one of our top-selling shows of all time. Join us for a show packed full of fun, laughter, and unforgettable music.<span><br/></span><span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2026-05-22T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/befb01f3-276f-4757-bf02-0ae1c6d5036e.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da962;
+  schema:duration "PT135M";
+  schema:endDate "2026-05-22T21:45:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da962 a schema:AggregateOffer;
+  schema:lowPrice "31.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/817ATCHDKJPGKKRDVTCPSHJTMTMMNJLQP>
+  a schema:Event;
+  schema:name "SJTC: Mamma Mia!";
+  schema:description """
+	<h1>Mamma Mia</h1><span><br/></span>Music and Lyrics by Benny Andersson & Björn Ulvaeus and some songs with Stig Anderson<span><br/></span>Book by Catherine Johnson<span><br/></span>Originally conceived by Judy Craymer<span><br/></span><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, May 20, 2025 at 7:30pm</li><li>Thursday, May 21, 2025 at 7:30pm</li><li>Friday, May 22, 2025 at 7:30pm</li><li>Saturday, May 23, 2025 at 2:00pm</li><li>Saturday, May 23, 2025 at 7:30pm</li></ul><span><br/></span>Here we go again! Dance and sing along as we celebrate our 100th production at Imperial Theatre with Mamma Mia! This is your chance to experience one of our top-selling shows of all time. Join us for a show packed full of fun, laughter, and unforgettable music.<span><br/></span><span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2026-05-23T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/befb01f3-276f-4757-bf02-0ae1c6d5036e.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da963;
+  schema:duration "PT135M";
+  schema:endDate "2026-05-23T16:15:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da963 a schema:AggregateOffer;
+  schema:lowPrice "31.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/829ALHPVTVQJKLLLCNCRHPMJBGQHRCMBL>
+  a schema:Event;
+  schema:name "SJTC: Mamma Mia!";
+  schema:description """
+	<h1>Mamma Mia</h1><span><br/></span>Music and Lyrics by Benny Andersson & Björn Ulvaeus and some songs with Stig Anderson<span><br/></span>Book by Catherine Johnson<span><br/></span>Originally conceived by Judy Craymer<span><br/></span><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, May 20, 2025 at 7:30pm</li><li>Thursday, May 21, 2025 at 7:30pm</li><li>Friday, May 22, 2025 at 7:30pm</li><li>Saturday, May 23, 2025 at 2:00pm</li><li>Saturday, May 23, 2025 at 7:30pm</li></ul><span><br/></span>Here we go again! Dance and sing along as we celebrate our 100th production at Imperial Theatre with Mamma Mia! This is your chance to experience one of our top-selling shows of all time. Join us for a show packed full of fun, laughter, and unforgettable music.<span><br/></span><span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2026-05-23T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/befb01f3-276f-4757-bf02-0ae1c6d5036e.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da964;
+  schema:duration "PT135M";
+  schema:endDate "2026-05-23T21:45:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da964 a schema:AggregateOffer;
+  schema:lowPrice "31.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/1083AHQJJHSHNCNGPNVNGMTVHBLJCDNNQ>
+  a schema:Event;
+  schema:name "SJTC: Mamma Mia!";
+  schema:description """
+	<h1>Mamma Mia</h1><span><br/></span>Music and Lyrics by Benny Andersson & Björn Ulvaeus and some songs with Stig Anderson<span><br/></span>Book by Catherine Johnson<span><br/></span>Originally conceived by Judy Craymer<span><br/></span><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, May 20, 2025 at 7:30pm</li><li>Thursday, May 21, 2025 at 7:30pm</li><li>Friday, May 22, 2025 at 7:30pm</li><li>Saturday, May 23, 2025 at 2:00pm</li><li>Saturday, May 23, 2025 at 7:30pm</li></ul><span><br/></span>Here we go again! Dance and sing along as we celebrate our 100th production at Imperial Theatre with Mamma Mia! This is your chance to experience one of our top-selling shows of all time. Join us for a show packed full of fun, laughter, and unforgettable music.<span><br/></span><span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2026-05-24T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/befb01f3-276f-4757-bf02-0ae1c6d5036e.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da965;
+  schema:duration "PT135M";
+  schema:endDate "2026-05-24T16:15:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da965 a schema:AggregateOffer;
+  schema:lowPrice "31.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/1171ALJBMGDHJNGGHTDCPTMKLQJKTSRPM>
+  a schema:Event;
+  schema:name "SJTC: The Play That Goes Wrong";
+  schema:description """
+	<h1>The Play That Goes Wrong</h1><span><br/></span>By Henry Lewis, Jonathan Sayer & Henry Shields<span><br/></span>Directed by TBD <span><br/></span><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, March 18, 2025 at 7:30pm</li><li>Thursday, March 19, 2025 at 7:30pm</li><li>Friday, March 20, 2025 at 7:30pm</li><li>Saturday, March 21, 2025 at 2:00pm</li><li>Saturday, March 21, 2025 at 7:30pm</li></ul><span><br/></span>Laugh out loud chaos when mishap takes centre stage! The Play That Goes Wrong delivers nonstop comedy as everything falls apart. With a bumbling cast and a set destined for disaster, this show promises an evening full of blunders that will leave you in stitches.<span><br/></span><span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2026-03-18T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/9c56c8b4-6599-4ab6-a52a-dc5ea021529c.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da966;
+  schema:duration "PT135M";
+  schema:endDate "2026-03-18T21:45:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da966 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/1530ARSDSLBCHMCJRPGQSVDGCNJPGRCJP>
+  a schema:Event;
+  schema:name "SJTC: The Play That Goes Wrong";
+  schema:description """
+	<h1>The Play That Goes Wrong</h1><span><br/></span>By Henry Lewis, Jonathan Sayer & Henry Shields<span><br/></span>Directed by TBD <span><br/></span><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, March 18, 2025 at 7:30pm</li><li>Thursday, March 19, 2025 at 7:30pm</li><li>Friday, March 20, 2025 at 7:30pm</li><li>Saturday, March 21, 2025 at 2:00pm</li><li>Saturday, March 21, 2025 at 7:30pm</li></ul><span><br/></span>Laugh out loud chaos when mishap takes centre stage! The Play That Goes Wrong delivers nonstop comedy as everything falls apart. With a bumbling cast and a set destined for disaster, this show promises an evening full of blunders that will leave you in stitches.<span><br/></span><span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2026-03-19T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/9c56c8b4-6599-4ab6-a52a-dc5ea021529c.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da967;
+  schema:duration "PT135M";
+  schema:endDate "2026-03-19T21:45:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da967 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/1127ANMRRLGJRHQRTJKRGQMQCJTJNSDVJ>
+  a schema:Event;
+  schema:name "SJTC: The Play That Goes Wrong";
+  schema:description """
+	<h1>The Play That Goes Wrong</h1><span><br/></span>By Henry Lewis, Jonathan Sayer & Henry Shields<span><br/></span>Directed by TBD <span><br/></span><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, March 18, 2025 at 7:30pm</li><li>Thursday, March 19, 2025 at 7:30pm</li><li>Friday, March 20, 2025 at 7:30pm</li><li>Saturday, March 21, 2025 at 2:00pm</li><li>Saturday, March 21, 2025 at 7:30pm</li></ul><span><br/></span>Laugh out loud chaos when mishap takes centre stage! The Play That Goes Wrong delivers nonstop comedy as everything falls apart. With a bumbling cast and a set destined for disaster, this show promises an evening full of blunders that will leave you in stitches.<span><br/></span><span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/9c56c8b4-6599-4ab6-a52a-dc5ea021529c.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da968;
+  schema:duration "PT135M";
+  schema:endDate "2026-03-20T21:45:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da968 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/700ANBTJNVCTNHTQJPSSGRLLKDJVBMPLK>
+  a schema:Event;
+  schema:name "SJTC: The Play That Goes Wrong";
+  schema:description """
+	<h1>The Play That Goes Wrong</h1><span><br/></span>By Henry Lewis, Jonathan Sayer & Henry Shields<span><br/></span>Directed by TBD <span><br/></span><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, March 18, 2025 at 7:30pm</li><li>Thursday, March 19, 2025 at 7:30pm</li><li>Friday, March 20, 2025 at 7:30pm</li><li>Saturday, March 21, 2025 at 2:00pm</li><li>Saturday, March 21, 2025 at 7:30pm</li></ul><span><br/></span>Laugh out loud chaos when mishap takes centre stage! The Play That Goes Wrong delivers nonstop comedy as everything falls apart. With a bumbling cast and a set destined for disaster, this show promises an evening full of blunders that will leave you in stitches.<span><br/></span><span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2026-03-21T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/9c56c8b4-6599-4ab6-a52a-dc5ea021529c.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da969;
+  schema:duration "PT135M";
+  schema:endDate "2026-03-21T16:15:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da969 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/1488AJPTKVCKPGJCMVKTVLLRHDTPDSNHT>
+  a schema:Event;
+  schema:name "SJTC: The Play That Goes Wrong";
+  schema:description """
+	<h1>The Play That Goes Wrong</h1><span><br/></span>By Henry Lewis, Jonathan Sayer & Henry Shields<span><br/></span>Directed by TBD <span><br/></span><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Wednesday, March 18, 2025 at 7:30pm</li><li>Thursday, March 19, 2025 at 7:30pm</li><li>Friday, March 20, 2025 at 7:30pm</li><li>Saturday, March 21, 2025 at 2:00pm</li><li>Saturday, March 21, 2025 at 7:30pm</li></ul><span><br/></span>Laugh out loud chaos when mishap takes centre stage! The Play That Goes Wrong delivers nonstop comedy as everything falls apart. With a bumbling cast and a set destined for disaster, this show promises an evening full of blunders that will leave you in stitches.<span><br/></span><span><br/></span><span><br/></span>Purchase a <a target=\"_blank\" href=\"https://purchase.imperialtheatre.ca/FixedSeries\">SJTC Subscription</a> and save 30% off single ticket prices! <span><br/></span><span><br/></span>We are happy to hold prior season subscribers' seats until September 2. Single tickets on sale September 2, 2025.
+""";
+  schema:startDate "2026-03-21T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/9c56c8b4-6599-4ab6-a52a-dc5ea021529c.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da970;
+  schema:duration "PT135M";
+  schema:endDate "2026-03-21T21:45:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da970 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/10801ADHCBQTDNRNBLLTSCPBVDKMJGHCJ>
+  a schema:Event;
+  schema:name "Sloan";
+  schema:description """
+
+""";
+  schema:startDate "2025-10-31T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/f9545b5e-9d01-476b-a3d8-44e74d50847b.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da971;
+  schema:duration "PT120M";
+  schema:endDate "2025-10-31T21:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da971 a schema:AggregateOffer;
+  schema:lowPrice "45.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/16201AKSRRCPBSBQNMJRPLKHGSVGKLNDL>
+  a schema:Event;
+  schema:name "SNB: Life Circles";
+  schema:description """
+	<h2>Symphony New Brunswick: Signature Series</h2><span><br/></span><h2>Final Signature: Life Circles</h2><span><br/></span>Adult $49.00 | Student $20.00 | Youth [free]<span><br/></span><span><br/></span>Symphony NB closes out the season on an intriguing note with Elgar's \"Enigma Variations\" and new work by Inuk Soprano and Juno Winner Deantha Edmunds.<span><br/></span><span><br/></span>Guest Artists: Deantha Edmunds, soprano; Annabelle Edmunds-Ramsay, soprano.<span><br/></span><span><br/></span><span><br/></span><span class=\"BoldText\">Dernier concert Signature : Cercles de vie</span><span><br/></span><span><br/></span>Symphonie Nouveau-Brunswick conclut la saison sur une note fascinante avec les Variations Enigma d’Edward Elgar et une œuvre originale de la soprano inuite et lauréate d’un prix Juno, Deantha Edmunds.<span><br/></span><span><br/></span>Artistes invitées: Deantha Edmunds, soprano; Annabelle Edmunds-Ramsay, soprano<span><br/></span><span><br/></span>Mercredi 3 juin à 19 h 30
+""";
+  schema:startDate "2026-06-03T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/727c3fc9-8218-4741-b6c3-21da0668ddc5.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da972;
+  schema:duration "PT90M";
+  schema:endDate "2026-06-03T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da972 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/15801AMKKPNSMSJBRKTDKDKJVGCKCBJKN>
+  a schema:Event;
+  schema:name "SNB: Ode to Joy";
+  schema:description """
+	<h2>Symphony New Brunswick: Signature Series</h2><span><br/></span><h2>Fourth Signature: Ode to Joy</h2><span><br/></span>Adult $49.00 | Student $20.00 | Youth [free]<span><br/></span><span><br/></span>Choeur Louisbourg joins Symphony NB for the \"one and only\" - Beethnoven's mighty 9th Symphony, \"Ode to Joy\".<span><br/></span><span><br/></span>Guest Artists: Choeur Louisbourg (Monique Richard, Artistic Director); Kirsten LeBlanc, soprano; Rebecca Cuddy, mezzo-soprano; Scott Rumble, tenor; Alexandre Sylvestre, bass-baritone.<span><br/></span><span><br/></span><span><br/></span><span class=\"BoldText\">Quatrième concert Signature : Ode à la joie</span><span><br/></span><span><br/></span>Le Chœur Louisbourg se joint à Symphonie Nouveau-Brunswick pour interpréter l’unique et puissante Symphonie no 9 de Beethoven.<span><br/></span><span><br/></span>Artistes invités: Choeur Louisbourg (Monique Richard, Directrice artistique); Kirsten LeBlanc, soprano; Rebecca Cuddy, mezzo-soprano; Scott Rumble, ténor; Alexandre Sylvestre, basse-baryton<span><br/></span><span><br/></span>Mercredi 1 avril à 19 h 30<span><br/></span>
+""";
+  schema:startDate "2026-04-01T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/1f2bb68f-74ce-4502-aeca-c483fdac3a79.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da973;
+  schema:duration "PT90M";
+  schema:endDate "2026-04-01T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da973 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/16001ARGQQRHSBPHJPVSHSDBVGRTHPBSV>
+  a schema:Event;
+  schema:name "SNB: Rhythmic Lines";
+  schema:description """
+	<h2>Symphony New Brunswick: Signature Series</h2><span><br/></span><h2>Fifth Signature: Rhythmic Lines</h2><span><br/></span>Adult $49.00 | Student $20.00 | Youth [free]<span><br/></span><span><br/></span>Feel the rhythm as Symphony NB pairs Mendelssohn's majestic \"Italian Symphony\" with Laurin's momentous concerto for \"Marimba & Vibraphone\".<span><br/></span><span><br/></span>Guest Artist: Joël Cormier, Marimba & Vibraphone<span><br/></span><span><br/></span><span><br/></span><span class=\"BoldText\">Cinquième concert Signature : Lignes rythmiques</span><span><br/></span><span><br/></span>Laissez-vous emporter par le rythme avec la majestueuse Symphonie italienne de Mendelssohn, jumelée au Concerto pour marimba et vibraphone percutant de Laurin.<span><br/></span><span><br/></span>Artiste invité: Joël Cormier, Marimba & Vibraphone<span><br/></span><span><br/></span>Mercredi 13 mai à 19 h 30
+""";
+  schema:startDate "2026-05-13T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/e58aee9a-ff5a-4d3f-9c96-a5c1f7f2f9bb.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da974;
+  schema:duration "PT90M";
+  schema:endDate "2026-05-13T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da974 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/15601ATMPBSJPVHGDQLTKHTGJDDNPRJJP>
+  a schema:Event;
+  schema:name "SNB: Unfinished Business";
+  schema:description """
+	<h2>Symphony New Brunswick: Signature Series</h2><span><br/></span><h2>Third Signature: Unfinished Business</h2><span><br/></span>Adult $49.00 | Student $20.00 | Youth [free]<span><br/></span><span><br/></span>Schubert's famous \"Unfinished Symphony\" highlights the Orchestra's tribute to valour and remembrance.<span><br/></span><span><br/></span>Guest Artist: Elvira Misbakhova, Viola<span><br/></span>Special Guests: 3rd Field Artillery Regiment Band (The Loyal Company)<span><br/></span><span><br/></span><span><br/></span><span class=\"BoldText\">Troisième concert Signature : Rêves inachevés</span><span><br/></span><span><br/></span>La célèbre Symphonie inachevée de Schubert est au cœur de cet hommage à la bravoure et au souvenir, en collaboration avec le 3e Régiment d’artillerie de campagne.<span><br/></span><span><br/></span>Artistes invitées: Elvira Misbakhova, alto; 3e Régiment d’artillerie de campagne<span><br/></span><span><br/></span>Mercredi 12 novembre à 19 h 30
+""";
+  schema:startDate "2025-11-12T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/058f0c85-dd97-4f58-8421-c6d2f496a1ef.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da975;
+  schema:duration "PT90M";
+  schema:endDate "2025-11-12T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da975 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/19601ASQHGTDLVRHPVGMRMDVHLHMGNGQV>
+  a schema:Event;
+  schema:name "Stadacona Band: Sleighbells in the Sun";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-04T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/2e825658-58f8-4d1b-8c28-11367fd8ed4b.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da976;
+  schema:duration "PT120M";
+  schema:endDate "2025-12-04T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da976 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/9001AGHDBMPJDRPSRMKLRCJGBJJMTQGDH>
+  a schema:Event;
+  schema:name "Studio Ghibli Summer: My Neighbour Totoro";
+  schema:description """
+
+""";
+  schema:startDate "2025-07-14T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/3ac6f7a7-2c5a-477a-a28f-83ef110962a2.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da977;
+  schema:duration "PT86M";
+  schema:endDate "2025-07-14T20:26:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da977 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/8803AQGMGNRLDLJVSLLSLKKKMHRSPSMPG>
+  a schema:Event;
+  schema:name "Studio Ghibli Summer: Nausicaä of the Valley of the Wind";
+  schema:description """
+
+""";
+  schema:startDate "2025-07-28T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/3f8f1c1e-e09c-4fb0-8408-b2158839d3c1.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da978;
+  schema:duration "PT117M";
+  schema:endDate "2025-07-28T20:57:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da978 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/9201AHVHRSJHSLBLCDVNMMJTBCSRGGTMK>
+  a schema:Event;
+  schema:name "Studio Ghibli Summer: Princess Mononoke";
+  schema:description """
+
+""";
+  schema:startDate "2025-07-21T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/8ef03172-1ffe-4724-925a-ea67bb5e6ab4.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da979;
+  schema:duration "PT131M";
+  schema:endDate "2025-07-21T21:11:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da979 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/8202ASGHMCNQHBSJPDGMLBDVPDBTHCRVQ>
+  a schema:Event;
+  schema:name "Studio Ghibli Summer: Secret World of Arrietty";
+  schema:description """
+
+""";
+  schema:startDate "2025-07-07T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/12759545-369f-4a44-8e85-6775466ad26c.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da980;
+  schema:duration "PT94M";
+  schema:endDate "2025-07-07T20:34:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da980 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/15001AMKBTPKPRJBCVBMQKCKPSNVVCTJT>
+  a schema:Event;
+  schema:name "Tai Chi Follow Along";
+  schema:description """
+
+""";
+  schema:startDate "2025-08-27T10:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/e2ccffab-7760-48c0-8553-9e65f4002ebe.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da981;
+  schema:duration "PT60M";
+  schema:endDate "2025-08-27T11:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da981 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/12601ADHGSMRHJGRGJSDPTNTCRCGQHPQN>
+  a schema:Event;
+  schema:name "The Alan Jackson Experience";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-31T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/d18a92f3-6ec6-4515-a4c1-0992475cc2d0.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da982;
+  schema:duration "PT120M" .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da982 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/12601ADHGSMRHJGRGJSDPTNTCRCGQHPQN>
+  schema:endDate "2026-05-31T21:00:00"^^xsd:dateTime .
+
+<https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:Place;
+  schema:name "Imperial Theatre";
+  schema:address <https://spektrix.com/imperialtheatrenewbrunswick/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/imperialtheatrenewbrunswick/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:PostalAddress;
+  schema:streetAddress "12 King Square South";
+  schema:addressLocality "Saint John NB";
+  schema:addressRegion "NB";
+  schema:postalCode "E2L 5B8";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/1415AMDMPLGMHNHGDJTGJNQHMMNBLVKDM>
+  a schema:Event;
+  schema:name "The Grand Tour";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-07T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/34559964-baa2-4d02-ac26-df1f1fcd3033.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da983;
+  schema:duration "PT95M";
+  schema:endDate "2025-11-07T21:05:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da983 a schema:AggregateOffer;
+  schema:lowPrice "40.25";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/9401ARBBPNBJQCDPKKQGHNMPKPQNNHPMG>
+  a schema:Event;
+  schema:name "The Heterosexuals";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-07T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/e7dfd7fa-7bb0-45a0-8a95-9e95c8b06896.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da984;
+  schema:duration "PT60M";
+  schema:endDate "2026-02-07T20:30:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da984 a schema:AggregateOffer;
+  schema:lowPrice "35.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/495ATCLRHSBDTSPJNHTNBHBHNMLCSDDCP>
+  a schema:Event;
+  schema:name "The Liverpool 4: Saint John Beatlemania!";
+  schema:description """
+
+""";
+  schema:startDate "2025-08-16T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/df40e4c0-b284-48c4-bccf-f0a3c25c8490.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da985;
+  schema:duration "PT150M";
+  schema:endDate "2025-08-16T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da985 a schema:AggregateOffer;
+  schema:lowPrice "45.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/19801AHJMMDKNMDJQSLCTGNDLGNGMJGHK>
+  a schema:Event;
+  schema:name "The Michael Jackson HIStory Show";
+  schema:description """
+
+""";
+  schema:startDate "2026-04-23T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/0b9a65af-e013-49d4-9b96-692313123c1d.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da986;
+  schema:duration "PT140M";
+  schema:endDate "2026-04-23T22:20:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da986 a schema:AggregateOffer;
+  schema:lowPrice "43.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/12001ALNGHTPHGCKCMSTDNQBDRDVTJPQB>
+  a schema:Event;
+  schema:name "The Nutcracker";
+  schema:description """
+	<h1>The Nutcracker</h1><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Friday, December 12, 2025 at 7:00pm</li><li>Saturday, December 13, 2025 at 2:00pm</li><li>Sunday, December 14, 2025 at 2:00pm</li></ul><span><br/></span>Rothesay Ballet School proudly presents the classic holiday story by E.T.A. Hoffman and set to music by Pyotr Ilyich Tchaikovsky. May the magic of The Nutcracker sweep you and yours into this holiday tradition for the whole family! Local dancers share the stage with guest principal artists from some of Canada’s most renowned professional ballet companies.
+""";
+  schema:startDate "2025-12-12T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/3e86a463-d4fd-4f80-9e4e-73bb3cc19ec0.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da987;
+  schema:duration "PT120M";
+  schema:endDate "2025-12-12T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da987 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/12002ATQLCBVCLDMVQRLCPTRMVPNVJGLQ>
+  a schema:Event;
+  schema:name "The Nutcracker";
+  schema:description """
+	<h1>The Nutcracker</h1><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Friday, December 12, 2025 at 7:00pm</li><li>Saturday, December 13, 2025 at 2:00pm</li><li>Sunday, December 14, 2025 at 2:00pm</li></ul><span><br/></span>Rothesay Ballet School proudly presents the classic holiday story by E.T.A. Hoffman and set to music by Pyotr Ilyich Tchaikovsky. May the magic of The Nutcracker sweep you and yours into this holiday tradition for the whole family! Local dancers share the stage with guest principal artists from some of Canada’s most renowned professional ballet companies.
+""";
+  schema:startDate "2025-12-13T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/3e86a463-d4fd-4f80-9e4e-73bb3cc19ec0.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da988;
+  schema:duration "PT120M";
+  schema:endDate "2025-12-13T16:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da988 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/12003ATJSLRLTLDRMQKTLLNHPDNTKHMLP>
+  a schema:Event;
+  schema:name "The Nutcracker";
+  schema:description """
+	<h1>The Nutcracker</h1><span><br/></span><h2>Performances</h2><span><br/></span><ul><li>Friday, December 12, 2025 at 7:00pm</li><li>Saturday, December 13, 2025 at 2:00pm</li><li>Sunday, December 14, 2025 at 2:00pm</li></ul><span><br/></span>Rothesay Ballet School proudly presents the classic holiday story by E.T.A. Hoffman and set to music by Pyotr Ilyich Tchaikovsky. May the magic of The Nutcracker sweep you and yours into this holiday tradition for the whole family! Local dancers share the stage with guest principal artists from some of Canada’s most renowned professional ballet companies.
+""";
+  schema:startDate "2025-12-14T14:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/3e86a463-d4fd-4f80-9e4e-73bb3cc19ec0.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da989;
+  schema:duration "PT120M";
+  schema:endDate "2025-12-14T16:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da989 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/14401ASTBHRJNMRVVCMLVMRRSGQMJPHLG>
+  a schema:Event;
+  schema:name "Theatre New Brunswick: Heroine";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-11T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/48e0eacb-0843-4cec-a6e6-5204f2330443.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da990;
+  schema:duration "PT150M";
+  schema:endDate "2026-03-11T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da990 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/5003AQLGMDVGQLLMKCBVDQBDSVDDSKMJC>
+  a schema:Event;
+  schema:name "TIFF: All We Imagine As Light";
+  schema:description """
+
+""";
+  schema:startDate "2025-12-16T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/d2be965b-e320-4eee-811b-9454f7c505d3.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da991;
+  schema:duration "PT123M";
+  schema:endDate "2025-12-16T21:03:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da991 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/6404APLBMJCQRCCDQRTTVKNGSKPSMVHBV>
+  a schema:Event;
+  schema:name "TIFF: April (TBA)";
+  schema:description """
+
+""";
+  schema:startDate "2026-04-21T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/d91d34bd-8732-4531-9911-f962e88c9a4f.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da992;
+  schema:duration "PT120M";
+  schema:endDate "2026-04-21T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da992 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/7402ASMQTSCTVMHDSJKGJSMSBNJLMHLJR>
+  a schema:Event;
+  schema:name "TIFF: Can I Get A Witness?";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-04T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/d2ada191-d0cc-4029-89e6-8e82325d08f5.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da993;
+  schema:duration "PT110M";
+  schema:endDate "2025-11-04T20:50:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da993 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/8003AJTNVPQDQRJJRLPGPBJSVQCRVBPCH>
+  a schema:Event;
+  schema:name "TIFF: February (TBA)";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-17T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/2042252b-9f49-4243-8dea-ddd5c07feb34.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da994;
+  schema:duration "PT120M";
+  schema:endDate "2026-02-17T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da994 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/6203AKCSLRMTTMDHGKNRNDNLVGVTVNBGQ>
+  a schema:Event;
+  schema:name "TIFF: January (TBA)";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-13T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/72d16574-216d-4269-826f-d998fe5e78cf.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da995;
+  schema:duration "PT120M";
+  schema:endDate "2026-01-13T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da995 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/6603ADJDMRGPNHRNPSJSQVNRBJTMGQPKS>
+  a schema:Event;
+  schema:name "TIFF: June (TBA)";
+  schema:description """
+
+""";
+  schema:startDate "2026-06-23T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/03693727-0d49-49dc-9372-6b1d12f0a480.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da996;
+  schema:duration "PT120M";
+  schema:endDate "2026-06-23T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da996 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/7405APPRMDJDRTJSQTCLPDLKBSVMPBPRT>
+  a schema:Event;
+  schema:name "TIFF: March (TBA)";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-10T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/ef1e3292-a05b-47f1-b02a-7ac74e2a62c5.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da997;
+  schema:duration "PT120M";
+  schema:endDate "2026-03-10T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da997 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/9203AJQJJTRKDKVCLTLHMGKVGHCGNBRVL>
+  a schema:Event;
+  schema:name "TIFF: May (TBA)";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-26T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/8405749c-c3a7-4cbb-baa1-8241d18907c3.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da998;
+  schema:duration "PT120M";
+  schema:endDate "2026-05-26T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da998 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/11601ASNTDDTNQDPTRBBMHTCLMHBVDMHV>
+  a schema:Event;
+  schema:name "Tom Green VIP Meet & Greet Add-On";
+  schema:description """
+	$62.50<span><br/></span><span><br/></span>The VIP Meet & Greet will take place after the performance. Tickets to Tom Green must be purchased separately. The VIP Add-on does not include admission to the show.
+""";
+  schema:startDate "2026-03-28T21:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/950c73a0-56b1-4d84-87f3-77d27d8fc8f9.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da999;
+  schema:duration "PT60M";
+  schema:endDate "2026-03-28T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da999 a schema:AggregateOffer;
+  schema:lowPrice "57.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/11401ADJMJHLSTCBJCSJGTJRVLDRSDLQV>
+  a schema:Event;
+  schema:name "Tom Green: Stompin' Comedy Tour";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-28T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/65bf8e34-8b47-4ecc-a241-0b9f2ed4a11a.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da9100;
+  schema:duration "PT120M";
+  schema:endDate "2026-03-28T21:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da9100 a schema:AggregateOffer;
+  schema:lowPrice "45.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/12201AVGSVDJSKHNLNDGDHCNLJPBPLMHR>
+  a schema:Event;
+  schema:name "Tom Morello: A Night of Stories & Music";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-06T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/787515c6-fe65-4b64-acac-0f8ec71d8148.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da9101;
+  schema:duration "PT110M";
+  schema:endDate "2025-11-06T21:20:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da9101 a schema:AggregateOffer;
+  schema:lowPrice "70.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/7601AHCJPTHNBCVJHLQNKQVKDRKRMLTPC>
+  a schema:Event;
+  schema:name "UPU Collective";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-07T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/428fe59f-0aee-4c97-8280-0ce223fbc6ae.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da9102;
+  schema:duration "PT70M";
+  schema:endDate "2026-03-07T20:40:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da9102 a schema:AggregateOffer;
+  schema:lowPrice "40.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/18601AGJVHRJDDNTMMMDTKPLTNBGVTLHV>
+  a schema:Event;
+  schema:name "WAR On The Catwalk";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-12T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/996b0bb2-aa8f-4237-b047-54c5b77e4d94.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da9103;
+  schema:duration "PT140M";
+  schema:endDate "2026-03-12T22:20:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da9103 a schema:AggregateOffer;
+  schema:lowPrice "71.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/18802ATHHKJHPRCCSSHPGMHJGNTGBBKNH>
+  a schema:Event;
+  schema:name "WAR On The Catwalk VIP Meet & Greet Add-on";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-12T18:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/aaaca911-5c64-44d3-b81a-73ffa6d3277b.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da9104;
+  schema:duration "PT60M";
+  schema:endDate "2026-03-12T19:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da9104 a schema:AggregateOffer;
+  schema:lowPrice "117.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/19201ACDMCRSLDRKDVBCRLQTJMQBCSLCD>
+  a schema:Event;
+  schema:name "William Prince";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-14T20:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/bcbae0d8-eff1-4ac1-b77d-154cb2f07f90.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da9105;
+  schema:duration "PT120M";
+  schema:endDate "2026-03-14T22:00:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da9105 a schema:AggregateOffer;
+  schema:lowPrice "50.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/5002ANVLBVRMLMLMQKVPJQMBVMMPHDTKN>
+  a schema:Event;
+  schema:name "Wintersleep";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-09T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/dc96a01b-89f6-4f02-9671-8f4340b35a59.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da9106;
+  schema:duration "PT110M";
+  schema:endDate "2026-05-09T21:20:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da9106 a schema:AggregateOffer;
+  schema:lowPrice "50.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/imperialtheatrenewbrunswick/event/12801AHKJCDVHRVVMMTDLCVKNKBDKHMLM>
+  a schema:Event;
+  schema:name "Wolf Castle: Waiting for the Dawn Tour";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-09T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/imperialtheatrenewbrunswick/files/eee63517-7faf-4c2f-b1a6-17d3ded935a0.jpg>;
+  schema:location <https://spektrix.com/imperialtheatrenewbrunswick/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:9adc3ac8cf7645b8ad28bfe611e53da9107;
+  schema:duration "PT110M";
+  schema:endDate "2026-01-09T21:20:00"^^xsd:dateTime .
+
+_:9adc3ac8cf7645b8ad28bfe611e53da9107 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
