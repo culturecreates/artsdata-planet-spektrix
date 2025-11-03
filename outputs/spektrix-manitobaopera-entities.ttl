@@ -8,27 +8,6 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/manitobaopera/event/8801ABJDKGQJJPHNLQGQLLLRMHJSKRCGT> a
-    schema:Event;
-  schema:name "2025 Lake of the Woods Concert";
-  schema:description """
-	<h2>We look forward to having you join us for an unforgettable evening of music in support of Manitoba Opera’s Digital Emerging Artists Program.</h2><span><br/></span>Nestled in the Lake of the Woods, the intimate setting of Dr. Mark & Theresa Barker’s lakeside cottage provides the perfect backdrop for this extraordinary event, allowing you to immerse yourself in the beauty of both the music and the natural environment.<span><br/></span><span><br/></span>This unique event will feature captivating performances by Dr. Minna Chung, Tracy Dahl, Gwen Hoebig, Monica Huisman, Dr. Laura Loewen, Dr. David Moroz, and John Tessier.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://mbopera.ca/wp-content/uploads/2025/07/2025-26_LotW_Digital-Documents_Bio-Sheet_V3.pdf\">Read The Artist Bios</a><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets will be available until Wednesday, August 13.</span><span><br/></span>After that date call our box office at 204-944-8824 for assistance.
-""";
-  schema:startDate "2025-08-23T16:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/0f7a5ef2-70fc-4758-b848-c8cac598c4a1.jpg>;
-  schema:location <https://spektrix.com/manitobaopera/location/458APVTCKQCGMJLPKMQJVTQKTLSTLMHJN>;
-  schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:duration "PT60M";
-  schema:endDate "2025-08-23T17:30:00"^^xsd:dateTime .
-
-<https://spektrix.com/manitobaopera/organization/manitoba-opera> a schema:Organization;
-  schema:name "Manitoba Opera";
-  schema:sameAs <http://kg.artsdata.ca/resource/K2-5133> .
-
-<https://spektrix.com/manitobaopera/location/458APVTCKQCGMJLPKMQJVTQKTLSTLMHJN> a
-    schema:Place;
-  schema:name "Fire Road 2, McCallum Point Road, Clearwater Bay" .
-
 <http://www.spektrix.com/manitobaopera/event/11001ATRSBGDJMQQMCVKRJSQJPSBBHRPT> a
     schema:Event;
   schema:name "Dinner in the Wings";
@@ -39,11 +18,15 @@
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/0cca4491-d021-4725-8433-03541ac27de1.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:af087a8d91054fe5bc1cafcfef4747f95231;
+  schema:offers _:5b7b3f4b239f490fa19853c543ede7235059;
   schema:duration "PT120M";
   schema:endDate "2025-11-28T19:15:00"^^xsd:dateTime .
 
-_:af087a8d91054fe5bc1cafcfef4747f95231 a schema:AggregateOffer;
+<https://spektrix.com/manitobaopera/organization/manitoba-opera> a schema:Organization;
+  schema:name "Manitoba Opera";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-5133> .
+
+_:5b7b3f4b239f490fa19853c543ede7235059 a schema:AggregateOffer;
   schema:lowPrice "1000.0";
   schema:priceCurrency "CAD" .
 
@@ -54,53 +37,6 @@ _:af087a8d91054fe5bc1cafcfef4747f95231 a schema:AggregateOffer;
 
 <https://spektrix.com/manitobaopera/address/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> a schema:PostalAddress;
   schema:streetAddress "555 Main Street";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/manitobaopera/event/10201AJHJGJMTBHDNGMTSMTVVGPNSHHLL> a
-    schema:Event;
-  schema:name "Film Screening: Callas";
-  schema:description """
-	Award-winning British film maker Tony Palmer’s documentary has been called “the definitive portrait\" (<span class=\"ItalicText\">Daily Express</span>) of legendary soprano Maria Callas. This is a deeply moving film about the diva whose 1953 portrayal of <span class=\"ItalicText\">Tosca</span> became the gold standard for modern interpreters of the role.<span><br/></span><span><br/></span><span class=\"BoldText\">Run time:</span> 92 minutes<span><br/></span><span><br/></span><span class=\"BoldText\">Saturday, October 18 at 12:00 PM</span><span><br/></span><span class=\"ItalicText\">Doors open at 11:30 AM</span><span><br/></span>Dave Barber Cinematheque, 100 Arthur Street<span><br/></span><span><br/></span><span class=\"ItalicText\">Theatre concessions will be open.</span>
-""";
-  schema:startDate "2025-10-18T12:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/0ef4a4ac-1566-451a-a59e-918f81242368.jpg>;
-  schema:location <https://spektrix.com/manitobaopera/location/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP>;
-  schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:af087a8d91054fe5bc1cafcfef4747f95232;
-  schema:duration "PT92M";
-  schema:endDate "2025-10-18T13:32:00"^^xsd:dateTime .
-
-_:af087a8d91054fe5bc1cafcfef4747f95232 a schema:AggregateOffer;
-  schema:lowPrice "0.0";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/manitobaopera/location/412AHMGMKLQDMMDQBVNMGMNLDCBBPTLQP> a
-    schema:Place;
-  schema:name "Cinematheque TM ID: 61" .
-
-<http://www.spektrix.com/manitobaopera/event/10801ADHCBQTDNRNBLLTSCPBVDKMJGHCJ> a
-    schema:Event;
-  schema:name "Film Screening: Maria";
-  schema:description """
-	<h2><span class=\"BoldText\">SOLD OUT</span></h2>Maria is a 2024 biographical psychological drama film starring Angelina Jolie as opera singer Maria Callas, following the singer in the week before her death in 1977 Paris as she reflects on her life and career. The film earned a nomination for Best Cinematography at the 97th Academy Awards, and Jolie was nominated for Best Actress in a Motion Picture - Drama at the 82nd Golden Globe Awards.<span><br/></span><span><br/></span>Introduction by Alison Gillmor, Free Press Arts & Life Columnist<span><br/></span><span><br/></span>Run time: 124 minutes<span><br/></span><span class=\"ItalicText\">English</span><span><br/></span><span><br/></span><span class=\"BoldText\">Friday, October 24, 1:00 PM</span><span><br/></span>Landmark Cinemas, Grant Park Mall
-""";
-  schema:startDate "2025-10-24T13:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/0e7f0512-cb2b-4614-a131-66042a8ee6fc.jpg>;
-  schema:location <https://spektrix.com/manitobaopera/location/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL>;
-  schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:duration "PT124M";
-  schema:endDate "2025-10-24T15:04:00"^^xsd:dateTime .
-
-<https://spektrix.com/manitobaopera/location/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL> a
-    schema:Place;
-  schema:name "Landmark Cinemas - Grant Park";
-  schema:address <https://spektrix.com/manitobaopera/address/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL> .
-
-<https://spektrix.com/manitobaopera/address/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL> a schema:PostalAddress;
-  schema:streetAddress "1120 Grant Avenue Unit 127";
-  schema:addressLocality "Winnipeg";
-  schema:addressRegion "MB";
-  schema:postalCode "R3M 2A6";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/manitobaopera/event/10601APSKMRRDLKDGKBKNPNLTDRGCSHLR> a
@@ -130,11 +66,11 @@ _:af087a8d91054fe5bc1cafcfef4747f95232 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/8600d3c6-e201-4a83-9fe1-3fbd7385ca78.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/413AQMCVGSSDBPJPNNJKRQRSMGMTDKJMR>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:af087a8d91054fe5bc1cafcfef4747f95233;
+  schema:offers _:5b7b3f4b239f490fa19853c543ede7235060;
   schema:duration "PT60M";
   schema:endDate "2025-11-15T14:00:00"^^xsd:dateTime .
 
-_:af087a8d91054fe5bc1cafcfef4747f95233 a schema:AggregateOffer;
+_:5b7b3f4b239f490fa19853c543ede7235060 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -147,24 +83,6 @@ _:af087a8d91054fe5bc1cafcfef4747f95233 a schema:AggregateOffer;
   schema:streetAddress "85 Israel Asper Way";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/manitobaopera/event/10401AVGBSHGLNCJKPBDLVSHHVCQHSBNR> a
-    schema:Event;
-  schema:name "Panel Discussion: Speaking Rights to Power";
-  schema:description """
-	Puccini's opera <span class=\"ItalicText\">Tosca</span> is a political thriller that centers on two unfortunate lovers who become entangled in a corrupt official's deadly hunt for a political enemy. This 90-minute panel discussion focuses on the conflicts that arise when the rights of individuals are challenged by authoritarian regimes.<span><br/></span><span><br/></span>Panelists TBA<span><br/></span><span><br/></span><span class=\"BoldText\">Sunday, October 26, 1:00 PM</span><span><br/></span><span class=\"ItalicText\">Doors open at 12:30 PM</span><span><br/></span>Canadian Museum for Human Rights Classroom.
-""";
-  schema:startDate "2025-10-26T13:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/46cbc23e-5395-48f4-a579-7485a6edccf2.jpg>;
-  schema:location <https://spektrix.com/manitobaopera/location/413AQMCVGSSDBPJPNNJKRQRSMGMTDKJMR>;
-  schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:af087a8d91054fe5bc1cafcfef4747f95234;
-  schema:duration "PT90M";
-  schema:endDate "2025-10-26T14:30:00"^^xsd:dateTime .
-
-_:af087a8d91054fe5bc1cafcfef4747f95234 a schema:AggregateOffer;
-  schema:lowPrice "0.0";
-  schema:priceCurrency "CAD" .
-
 <http://www.spektrix.com/manitobaopera/event/4201ASVGBHHRTVLQBSRVKDQCKNHHDCTSJ> a
     schema:Event;
   schema:name "The Marriage of Figaro";
@@ -175,12 +93,12 @@ _:af087a8d91054fe5bc1cafcfef4747f95234 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/f46c02f3-08e2-4351-950a-d963aa16c5b6.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:af087a8d91054fe5bc1cafcfef4747f95235;
+  schema:offers _:5b7b3f4b239f490fa19853c543ede7235061;
   schema:duration "PT175M";
   schema:endDate "2026-04-18T22:25:00"^^xsd:dateTime .
 
-_:af087a8d91054fe5bc1cafcfef4747f95235 a schema:AggregateOffer;
-  schema:lowPrice "41.5";
+_:5b7b3f4b239f490fa19853c543ede7235061 a schema:AggregateOffer;
+  schema:lowPrice "42.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/manitobaopera/event/4401APLLPBSHLDJVTLGBDQTQBHJDJSHCM> a
@@ -193,11 +111,11 @@ _:af087a8d91054fe5bc1cafcfef4747f95235 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/f46c02f3-08e2-4351-950a-d963aa16c5b6.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:af087a8d91054fe5bc1cafcfef4747f95236;
+  schema:offers _:5b7b3f4b239f490fa19853c543ede7235062;
   schema:duration "PT175M";
   schema:endDate "2026-04-22T21:55:00"^^xsd:dateTime .
 
-_:af087a8d91054fe5bc1cafcfef4747f95236 a schema:AggregateOffer;
+_:5b7b3f4b239f490fa19853c543ede7235062 a schema:AggregateOffer;
   schema:lowPrice "33.5";
   schema:priceCurrency "CAD" .
 
@@ -211,11 +129,11 @@ _:af087a8d91054fe5bc1cafcfef4747f95236 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/f46c02f3-08e2-4351-950a-d963aa16c5b6.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:af087a8d91054fe5bc1cafcfef4747f95237;
+  schema:offers _:5b7b3f4b239f490fa19853c543ede7235063;
   schema:duration "PT175M";
   schema:endDate "2026-04-24T22:25:00"^^xsd:dateTime .
 
-_:af087a8d91054fe5bc1cafcfef4747f95237 a schema:AggregateOffer;
+_:5b7b3f4b239f490fa19853c543ede7235063 a schema:AggregateOffer;
   schema:lowPrice "39.5";
   schema:priceCurrency "CAD" .
 
@@ -229,12 +147,12 @@ _:af087a8d91054fe5bc1cafcfef4747f95237 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/cc27223d-dbca-4ad7-8096-96185f9e68bb.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:af087a8d91054fe5bc1cafcfef4747f95238;
+  schema:offers _:5b7b3f4b239f490fa19853c543ede7235064;
   schema:duration "PT115M";
   schema:endDate "2025-11-22T21:25:00"^^xsd:dateTime .
 
-_:af087a8d91054fe5bc1cafcfef4747f95238 a schema:AggregateOffer;
-  schema:lowPrice "39.5";
+_:5b7b3f4b239f490fa19853c543ede7235064 a schema:AggregateOffer;
+  schema:lowPrice "40.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/manitobaopera/event/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> a
@@ -247,11 +165,11 @@ _:af087a8d91054fe5bc1cafcfef4747f95238 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/cc27223d-dbca-4ad7-8096-96185f9e68bb.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:af087a8d91054fe5bc1cafcfef4747f95239;
+  schema:offers _:5b7b3f4b239f490fa19853c543ede7235065;
   schema:duration "PT115M";
   schema:endDate "2025-11-26T20:55:00"^^xsd:dateTime .
 
-_:af087a8d91054fe5bc1cafcfef4747f95239 a schema:AggregateOffer;
+_:5b7b3f4b239f490fa19853c543ede7235065 a schema:AggregateOffer;
   schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
@@ -265,12 +183,12 @@ _:af087a8d91054fe5bc1cafcfef4747f95239 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/cc27223d-dbca-4ad7-8096-96185f9e68bb.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:af087a8d91054fe5bc1cafcfef4747f95240;
+  schema:offers _:5b7b3f4b239f490fa19853c543ede7235066;
   schema:duration "PT115M";
   schema:endDate "2025-11-28T21:25:00"^^xsd:dateTime .
 
-_:af087a8d91054fe5bc1cafcfef4747f95240 a schema:AggregateOffer;
-  schema:lowPrice "41.0";
+_:5b7b3f4b239f490fa19853c543ede7235066 a schema:AggregateOffer;
+  schema:lowPrice "41.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/manitobaopera/event/7801ATTBPVLSHPLVGKMJNMMDGBTHMPBTK> a
@@ -283,11 +201,11 @@ _:af087a8d91054fe5bc1cafcfef4747f95240 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/1b96eca0-f58d-4837-8eca-9d08676903d8.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:af087a8d91054fe5bc1cafcfef4747f95241;
+  schema:offers _:5b7b3f4b239f490fa19853c543ede7235067;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T18:00:00"^^xsd:dateTime .
 
-_:af087a8d91054fe5bc1cafcfef4747f95241 a schema:AggregateOffer;
+_:5b7b3f4b239f490fa19853c543ede7235067 a schema:AggregateOffer;
   schema:lowPrice "150.0";
   schema:priceCurrency "CAD" .
 
@@ -301,10 +219,10 @@ _:af087a8d91054fe5bc1cafcfef4747f95241 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/2970e8c5-8541-4170-b96a-6b97d55faede.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/413AQMCVGSSDBPJPNNJKRQRSMGMTDKJMR>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:af087a8d91054fe5bc1cafcfef4747f95242;
+  schema:offers _:5b7b3f4b239f490fa19853c543ede7235068;
   schema:duration "PT60M";
   schema:endDate "2025-11-01T14:00:00"^^xsd:dateTime .
 
-_:af087a8d91054fe5bc1cafcfef4747f95242 a schema:AggregateOffer;
+_:5b7b3f4b239f490fa19853c543ede7235068 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
