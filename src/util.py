@@ -7,9 +7,16 @@ def extract_numbers(instance_id: str) -> str:
     match = re.search(r'\d+', instance_id)
     if match:
         return match.group(0)
+    
+def slugify(text: str) -> str:
+    text = text.lower()
+    text = re.sub(r'[^a-z0-9]+', '-', text)
+    text = text.strip('-')
+    return text
 
 TRANSFORMATIONS = {
-    "extractID": extract_numbers
+    "extractID": extract_numbers,
+    "slugify": slugify
 }
 
 def split_address(address: str) -> dict:

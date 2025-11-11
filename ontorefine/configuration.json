@@ -307,7 +307,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "if(cells[\"_ - attribute_PerformanceSponsor\"].value != \"\", \n   (\"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/performer/\"  +cells[\"_ - attribute_PerformanceSponsor\"].value.replace(\" \", \"-\").toLowercase().strip()),\n   null)"
+                      "expression": "if(cells[\"_ - attribute_Performer\"].value != \"\", \n   (\"https://spektrix.com/\" + cells[\"_ - source\"].value+ \"/performer/\"  +cells[\"_ - attribute_Performer\"].value.replace(\" \", \"-\").toLowercase().strip()),\n   null)"
                     },
                     "valueType": {
                       "type": "iri",
@@ -339,7 +339,7 @@
                             {
                               "valueSource": {
                                 "source": "column",
-                                "columnName": "_ - attribute_PerformanceSponsor"
+                                "columnName": "_ - attribute_Performer"
                               },
                               "valueType": {
                                 "type": "literal"
