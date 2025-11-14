@@ -1,4 +1,4 @@
-import re
+import re, ast
 
 def extract_numbers(instance_id: str) -> str:
     # Extract all the numbers from the instance_id"
@@ -8,11 +8,15 @@ def extract_numbers(instance_id: str) -> str:
     if match:
         return match.group(0)
     
-def slugify(text: str) -> str:
+def slugify(text: str, remove_words: list[str] = None) -> str:
     text = text.lower()
+    if remove_words:
+        pattern = r'\b(' + '|'.join(map(re.escape, remove_words)) + r')\b'
+        text = re.sub(pattern, '', text)
+
     text = re.sub(r'[^a-z0-9]+', '-', text)
-    text = text.strip('-')
-    return text
+    text = re.sub(r'-+', '-', text)
+    return text.strip('-')
 
 TRANSFORMATIONS = {
     "extractID": extract_numbers,
@@ -83,12 +87,26 @@ def add_additional_info(event: dict, additional_info: dict) -> dict:
             placeholders = extract_placeholders(value)
             for placeholder in placeholders:
                 if "(" in placeholder and ")" in placeholder:
-                    func_name, arg = re.match(r"(\w+)\((\w+)\)", placeholder).groups()
+                    expr = ast.parse(placeholder, mode='eval').body
+                    args = []
+                    for a in expr.args:
+                        try:
+                            args.append(ast.literal_eval(a))
+                        except Exception:
+                            args.append(ast.unparse(a))
+                    arg = args[0] # only first arg supported
+                    kwargs = {}
+                    for kw in expr.keywords:
+                        try:
+                            kwargs[kw.arg] = ast.literal_eval(kw.value)
+                        except Exception:
+                            kwargs[kw.arg] = ast.unparse(kw.value)
+                    func_name = expr.func.id
                     func = TRANSFORMATIONS.get(func_name)
                     if func:
                         arg_value = event.get(arg)
                         if arg_value is not None:
-                            transformed = func(arg_value)
+                            transformed = func(arg_value, **kwargs)
                             value = value.replace(f"{{{placeholder}}}", str(transformed))
                 else:
                     placeholder_value = event.get(placeholder)
@@ -116,3 +134,4 @@ if __name__ == "__main__":
     address = "453 St. Francois-Xavier, Montreal, QC, HZY 2T1"
     split = split_address(address)
     print(split)
+    print(slugify("The Quick Brown Fox Jumps Over The Lazy Dog", ["the", "over"])) #> "quick-brown-fox-jumps-lazy-dog"

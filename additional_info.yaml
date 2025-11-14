@@ -15,6 +15,16 @@
 #   attribute_EventUrl: "https://example.com/events2"
 #   offerUrl: "https://example.com/tickets/?event={eventId2}"
 
+# Transformation functions available as of now
+# extractID:
+#   Extracts numeric ID from a string (e.g., "instance_12345" -> "12345")
+#   example usage: {extractID(name)}
+# slugify:
+#   Converts a string to a URL-friendly slug (e.g., "My Event Name" -> "my-event-name")
+#   example usage: {slugify(name)}
+#   additional kwargs can be passed like: {slugify(name, remove_words=['the','over'])}
+#   ADDITIONAL ARGUMENTS MUST BE NAMED ARGUMENTS
+
 albertatheatreprojects:
   attribute_EventUrl: "https://albertatheatreprojects.com/whats-on/"
   offerUrl: "https://albertatheatreprojects.com/book/?web_instance_id={instance_webInstanceId}"
