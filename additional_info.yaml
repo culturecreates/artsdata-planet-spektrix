@@ -54,7 +54,7 @@ theporttheatre:
   offerUrl: "https://www.porttheatre.com/choose-seats/?id={extractID(instance_id)}"
 
 theisabel:
-  attribute_EventUrl: "https://www.queensu.ca/theisabel/events/" 
+  attribute_EventUrl: "https://www.queensu.ca/theisabel/events/slugify(name, remove_words=['the','over'])" 
 
 earlymusicvancouver:
   attribute_EventUrl: "https://www.earlymusic.bc.ca/events/{slugify(name)}"
