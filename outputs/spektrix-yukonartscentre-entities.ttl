@@ -8,6 +8,27 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
+<http://www.spektrix.com/yukonartscentre/event/44801AVQJMVSBSCDMRGLRKNLTGJPHPNQG>
+  a schema:Event;
+  schema:name "A Night of Comedy with Mary Walsh";
+  schema:description """
+	Canadian cultural icon, comedienne and social activist MARY WALSH will perform some of her best comedic bits and most popular characters from Dancing With Rage, CODCO and This Hour Has 22 Minutes, along with up-to-the-minute local political satire. <span><br/></span><span><br/></span>Hailing from St. John’s, NL, Mary Walsh was an original member of the infamous CODCO sketch comedy series, which ran on CBC Television from 1987 to 1992. In 1992, she began to work with Rick Mercer, creating and starring in the highly acclaimed series This Hour Has 22 Minutes, where Mary's Warrior Princess character Marg Delahunty became famous for ambushing politicians and submitting them to satirical interviews. In 2011 she reprised the role of Marg Delahunty, conducting the now infamous ambush interview of Toronto Mayor Rob Ford at his home. Mary Walsh is the recipient of 25 Gemini awards, the Order of Canada award and in 2012 she received a Governor General's Performing Arts Awards for Lifetime Artistic Achievement.<span><br/></span>
+""";
+  schema:startDate "2026-03-23T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/a7aea63d-eb74-42f8-add8-e35f84ac487c.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464052;
+  schema:duration "PT60M";
+  schema:endDate "2026-03-23T20:00:00"^^xsd:dateTime .
+
+_:12396a1fe0ef45c79b5e437c70f59a464052 a schema:AggregateOffer;
+  schema:lowPrice "47.5";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:Place;
+  schema:name "Yukon Arts Centre Mainstage" .
+
 <http://www.spektrix.com/yukonartscentre/event/48001ANTPHKKRNRQQLDJDLRNDSJJPHJLD>
   a schema:Event;
   schema:name "All City Band: Music for a Winter's Eve";
@@ -17,17 +38,13 @@
   schema:startDate "2025-12-15T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/ba7ef64a-d6f2-4963-a9e7-5c09b68f2263.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14051;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464053;
   schema:duration "PT120M";
   schema:endDate "2025-12-15T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14051 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464053 a schema:AggregateOffer;
   schema:lowPrice "7.5";
   schema:priceCurrency "CAD" .
-
-<https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
-  a schema:Place;
-  schema:name "Yukon Arts Centre Mainstage" .
 
 <http://www.spektrix.com/yukonartscentre/event/35201AQQRSLKMCNNBJNMJCGMJTGPJQHBV>
   a schema:Event;
@@ -38,80 +55,12 @@ _:c83b39e48b524959a32b92f8520706f14051 a schema:AggregateOffer;
   schema:startDate "2025-11-26T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/a8671345-908c-442a-88fb-51c32cfca68a.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14052;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464054;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T20:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14052 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464054 a schema:AggregateOffer;
   schema:lowPrice "2.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/44801AVQJMVSBSCDMRGLRKNLTGJPHPNQG>
-  a schema:Event;
-  schema:name "An Evening with Mary Walsh";
-  schema:description """
-	Canadian cultural icon, comedienne and social activist MARY WALSH will perform some of her best comedic bits and most popular characters from Dancing With Rage, CODCO and This Hour Has 22 Minutes, along with up-to-the-minute local political satire. <span><br/></span><span><br/></span>Hailing from St. John’s, NL, Mary Walsh was an original member of the infamous CODCO sketch comedy series, which ran on CBC Television from 1987 to 1992. In 1992, she began to work with Rick Mercer, creating and starring in the highly acclaimed series This Hour Has 22 Minutes, where Mary's Warrior Princess character Marg Delahunty became famous for ambushing politicians and submitting them to satirical interviews. In 2011 she reprised the role of Marg Delahunty, conducting the now infamous ambush interview of Toronto Mayor Rob Ford at his home. Mary Walsh is the recipient of 25 Gemini awards, the Order of Canada award and in 2012 she received a Governor General's Performing Arts Awards for Lifetime Artistic Achievement.<span><br/></span>
-""";
-  schema:startDate "2026-03-23T19:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/a7aea63d-eb74-42f8-add8-e35f84ac487c.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14053;
-  schema:duration "PT60M";
-  schema:endDate "2026-03-23T20:00:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14053 a schema:AggregateOffer;
-  schema:lowPrice "47.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/34601ALVSBJCTDPKVRHHHNJPRRSBQSGSH>
-  a schema:Event;
-  schema:name "Babes in the Bush Boolesque";
-  schema:description """
-	Yukon Art Centre and Chérie Coquette presents:<span><br/></span><span><br/></span>Babes in the Bush Boolesque!<span><br/></span><span><br/></span>With Yukon’s finest Burlesque, Drag and Circus Performers<span><br/></span><span><br/></span>With Special Guests: <span><br/></span><span><br/></span><span class=\"BoldText\">Bettie Bombshell</span> from Australia<span><br/></span><span><br/></span><span class=\"BoldText\">Scarlett Delirium</span> from Vancouver<span><br/></span><span><br/></span>Hosted by Yukon’s sweetheart, <span class=\"BoldText\">Claire Ness</span><span><br/></span><span><br/></span><span><br/></span>About the performers:<span><br/></span><span><br/></span>Bettie Bombshell is an Australian burlesque performer known for her accolades in the burlesque world and her unique style. She is a Guinness World Record holder, a burlesque hall of fame veteran, and was voted #1 burlesque figure in Australia & 11th worldwide. She has won the national title of Miss Burlesque Australia.<span><br/></span><span><br/></span>Scarlet Delirium is a Kwakiutl (also known as Kwakwaka'wakw) and Irish/Scottish burlesque performer and costume designer based in Port Coquitlam, BC. She is known for her work with various burlesque groups in Vancouver, including Screaming Chicken Theatrical Society, The VanDolls, and Virago Nation, a collective of all-Indigenous burlesque performers. Scarlet has been performing since 2010 and has graced the stage at the Vancouver International Burlesque Festival. She is also a sought-after duo partner and host, and is recognized for her captivating stage presence and \"jaw-dropping\" costume reveals. Beyond performing, Scarlet designs costumes for herself and her fellow burlesque performers<span><br/></span>
-""";
-  schema:startDate "2025-10-31T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/31c11484-e86c-4042-85ad-ae7e3284a22d.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14054;
-  schema:duration "PT180M";
-  schema:endDate "2025-10-31T23:00:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14054 a schema:AggregateOffer;
-  schema:lowPrice "7.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/40201AJMHGMLBHTGVNKHNPGVSVHHPSMBQ>
-  a schema:Event;
-  schema:name "Blue Feather Music Festival: Night #1";
-  schema:description """
-	<span class=\"BoldText\">This is Blue Feather music festival’s 25th anniversary!</span><span><br/></span><span><br/></span>The theme is : <span class=\"ItalicText\">“ Look Up “</span><span><br/></span>Hold your head up and face the world with <span class=\"ItalicText\">confidence.</span><span><br/></span><span><br/></span>We promote music and the arts as creative and healing tools.<span><br/></span>We are honoured to present a high production music festival and share great music with our amazing community.<span><br/></span><span><br/></span><span class=\"BoldText\">Friday, November 7</span><span><br/></span><span><br/></span><span class=\"ItalicText\">Wide Mouth Mason<span><br/></span>Digging Roots<span><br/></span>Diyet & the Love Soldiers<span><br/></span>Matthew Lien</span><span><br/></span><span><br/></span><span class=\"BoldText\">Weekend Passes ($70)</span> available over the phone or in person at the Yukon Arts Centre box office, Monday Through Friday 1-4pm
-""";
-  schema:startDate "2025-11-07T19:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/1b3f21a1-83cd-45bc-b7fe-db496daa00a6.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14055;
-  schema:duration "PT210M";
-  schema:endDate "2025-11-07T22:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14055 a schema:AggregateOffer;
-  schema:lowPrice "17.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/40601AVRVRQNNTTMJRHQKDLRCKSKHBGKP>
-  a schema:Event;
-  schema:name "Blue Feather Music Festival: Night #2";
-  schema:description """
-	<span class=\"BoldText\">This is Blue Feather music festival’s 25th anniversary!</span><span><br/></span><span><br/></span>The theme is : <span class=\"ItalicText\">“ Look Up “</span><span><br/></span>Hold your head up and face the world with <span class=\"ItalicText\">confidence.</span><span><br/></span><span><br/></span>We promote music and the arts as creative and healing tools.<span><br/></span>We are honoured to present a high production music festival and share great music with our amazing community.<span><br/></span><span><br/></span><span class=\"BoldText\">Saturday, November 8</span><span><br/></span><span><br/></span><span class=\"ItalicText\">Sue Foley<span><br/></span>Eagle Eyes ( Eagles tribute )<span><br/></span>Average Joe<span><br/></span>Cows Go Moo</span><span><br/></span><span><br/></span><span class=\"BoldText\">Weekend Passes ($70)</span> available over the phone or in person at the Yukon Arts Centre box office, Monday Through Friday 1-4pm
-""";
-  schema:startDate "2025-11-08T19:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/6c14a43a-6337-4dd8-a0ed-d162de20c1c9.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14056;
-  schema:duration "PT210M";
-  schema:endDate "2025-11-08T22:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14056 a schema:AggregateOffer;
-  schema:lowPrice "17.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/yukonartscentre/event/44401ADDCBDNQTQBKSGKTVMSVMQDMMLLG>
@@ -123,11 +72,11 @@ _:c83b39e48b524959a32b92f8520706f14056 a schema:AggregateOffer;
   schema:startDate "2026-02-16T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/c022e21d-675f-45fb-95c1-a66b75ca5778.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14057;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464055;
   schema:duration "PT120M";
   schema:endDate "2026-02-16T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14057 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464055 a schema:AggregateOffer;
   schema:lowPrice "7.5";
   schema:priceCurrency "CAD" .
 
@@ -140,11 +89,11 @@ _:c83b39e48b524959a32b92f8520706f14057 a schema:AggregateOffer;
   schema:startDate "2026-01-31T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/bb3ee8ee-a9dc-441d-87fb-249fe07e33ea.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14058;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464056;
   schema:duration "PT120M";
   schema:endDate "2026-01-31T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14058 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464056 a schema:AggregateOffer;
   schema:lowPrice "32.5";
   schema:priceCurrency "CAD" .
 
@@ -157,11 +106,11 @@ _:c83b39e48b524959a32b92f8520706f14058 a schema:AggregateOffer;
   schema:startDate "2026-03-21T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/f3de5002-10e9-4c90-8210-d7c6527bbca0.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14059;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464057;
   schema:duration "PT120M";
   schema:endDate "2026-03-21T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14059 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464057 a schema:AggregateOffer;
   schema:lowPrice "10.0";
   schema:priceCurrency "CAD" .
 
@@ -174,288 +123,28 @@ _:c83b39e48b524959a32b92f8520706f14059 a schema:AggregateOffer;
   schema:startDate "2026-01-04T16:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/8a7e2bbd-c59d-41c7-8adc-fcdb318c4fd8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14060;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464058;
   schema:duration "PT120M";
   schema:endDate "2026-01-04T18:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14060 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464058 a schema:AggregateOffer;
   schema:lowPrice "0.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/45201ARKHJCBNTTPVRDPLBGRLGJLSLDSJ>
-  a schema:Event;
-  schema:name "Frankenstein";
-  schema:description """
-	If you see one Netflix release on the big screen this year, Frankenstein is the one... except, well, there's Train Dreams. We're presenting that in-cinema as well.<span><br/></span><span><br/></span>Oscar-winning director Guillermo del Toro’s visually sumptuous adaptation of Mary Shelley’s gothic masterpiece finds Oscar Isaac as the brilliant scientist whose unearthly creation, eerily and ingeniously conjured by Jacob Elordi, blurs the boundaries between life, death, and madness.<span><br/></span><span><br/></span>\"Pan's Labyrinth, Hellboy, and the Oscar-winning The Shape of Water transformed what monsters mean to us, steeping their outsider narratives in deep emotion and grand tragedy. But the pinnacle on Guillermo del Toro’s horizon was always Mary Shelley's gothic masterpiece from 1818. Now it is here.<span><br/></span><span><br/></span>Oscar Isaac plays Victor Frankenstein, a brilliant scientist tortured by ambition and his own raging passions. Pushing his work beyond scientific certainty to the boundary between life and death, he brings a new being into existence in a spectacular moment of creation. Played in completely original fashion by Jacob Elordi, Frankenstein's monster begins as a powerful, dangerous beast but carries the equally dangerous capacity to learn from human behaviour. It puts Frankenstein and his family in jeopardy — he's strikingly concerned for his brother's fiancé, Elizabeth (Mia Goth).<span><br/></span><span><br/></span>Having spent most of his life absorbing and distilling the Frankenstein story and all its lore, del Toro takes liberties with the novel. The result is a singular vision that could only have come from cinema’s master of the monstrous.<span><br/></span><span><br/></span>Shot at a vast studio in Toronto and on location in Scotland, Frankenstein is a marvel of filmmaking craft rarely seen anymore. Tamara Deverell’s production design is both intricate and staggering. The colours, patterns, and textures of Kate Hawley’s costumes, especially for Goth's character, add layers of meaning to the story. Even with the boundless reach of its fantasy, much of the film was made with real sets and other practical means, rather than digital effects.<span><br/></span><span><br/></span>Frankenstein is del Toro's magnum opus, the story of a brilliant creator driven to the brink of madness, and a creation who meets him there.\" - Cameron Bailey, TIFF<span><br/></span>Recommended ages 15+ for accident trauma, coarse language, sexual language, frightening scenes, scenes of surgery and violence.<span><br/></span><span><br/></span>Dir Guillermo del Toro<span><br/></span>•  Released 2025<span><br/></span>•  Origin Canada, United States, Mexico<span><br/></span>•  Duration 149 minutes <span><br/></span>•  Genre Drama, Horror<span><br/></span><span><br/></span><span><br/></span><span><br/></span><span><br/></span><span><br/></span><span><br/></span><span><br/></span><span><br/></span>
-""";
-  schema:startDate "2025-11-20T19:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/cf1e3fa2-08b9-412c-a4ae-2534536803d6.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14061;
-  schema:duration "PT160M";
-  schema:endDate "2025-11-20T21:40:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14061 a schema:AggregateOffer;
-  schema:lowPrice "5.75";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/42001AQJJQTSKLLKMRKNHHDRNVHRLPNPB>
-  a schema:Event;
-  schema:name "GUILD: The Weir by Conor McPherson";
-  schema:description """
-	<span class=\"ItalicText\"><span class=\"BoldText\">The Weir by Conor McPherson</span></span><span><br/></span><span><br/></span>Directed by Reid Vanier<span><br/></span><span><br/></span>On a stormy night in an Irish pub the locals swap spooky stories to impress a young woman from Dublin who has recently moved into a nearby ‘haunted house’. Little do they know that she has a profoundly personal ghost story of her own, proving that the tallest tales reveal the deepest truths.<span><br/></span><span><br/></span>The Weir is a tightly woven modern classic and a testament to the need for human connection, the promise of hope, and the enduring power of storytelling.<span><br/></span><span><br/></span>Join us for a pint before the show in the Guild Hall Pub. The pub side will open its doors at<span><br/></span>7:15pm.<span><br/></span><span><br/></span>Thank you to our sponsors and funders: Government of Yukon, Lotteries Yukon, City of Whitehorse, Kilrich Building Centres, Whitehorse Motors, SPK Home Construction Ltd, Yukon Brewing and Air North
-""";
-  schema:startDate "2025-10-29T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7ce8be8c-0ed2-453f-a75b-6966b91dcdd2.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14062;
-  schema:duration "PT90M";
-  schema:endDate "2025-10-29T21:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14062 a schema:AggregateOffer;
-  schema:lowPrice "5.0";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>
-  a schema:Place;
-  schema:name "Guild Hall";
-  schema:address <https://spektrix.com/yukonartscentre/address/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> .
-
-<https://spektrix.com/yukonartscentre/address/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> a
-    schema:PostalAddress;
-  schema:streetAddress "27 14th Ave";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/yukonartscentre/event/42601AHHMJKDLCSMPCMNQQTLCLBJSNVCP>
-  a schema:Event;
-  schema:name "GUILD: The Weir by Conor McPherson";
-  schema:description """
-	<span class=\"ItalicText\"><span class=\"BoldText\">The Weir by Conor McPherson</span></span><span><br/></span><span><br/></span>Directed by Reid Vanier<span><br/></span><span><br/></span>On a stormy night in an Irish pub the locals swap spooky stories to impress a young woman from Dublin who has recently moved into a nearby ‘haunted house’. Little do they know that she has a profoundly personal ghost story of her own, proving that the tallest tales reveal the deepest truths.<span><br/></span><span><br/></span>The Weir is a tightly woven modern classic and a testament to the need for human connection, the promise of hope, and the enduring power of storytelling.<span><br/></span><span><br/></span>Join us for a pint before the show in the Guild Hall Pub. The pub side will open its doors at<span><br/></span>7:15pm.<span><br/></span><span><br/></span>Thank you to our sponsors and funders: Government of Yukon, Lotteries Yukon, City of Whitehorse, Kilrich Building Centres, Whitehorse Motors, SPK Home Construction Ltd, Yukon Brewing and Air North
-""";
-  schema:startDate "2025-10-30T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7ce8be8c-0ed2-453f-a75b-6966b91dcdd2.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14063;
-  schema:duration "PT90M";
-  schema:endDate "2025-10-30T21:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14063 a schema:AggregateOffer;
-  schema:lowPrice "30.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/42602AVHSCVRKTVVDBKLHTRLBRGRJKKKD>
-  a schema:Event;
-  schema:name "GUILD: The Weir by Conor McPherson";
-  schema:description """
-	<span class=\"ItalicText\"><span class=\"BoldText\">The Weir by Conor McPherson</span></span><span><br/></span><span><br/></span>Directed by Reid Vanier<span><br/></span><span><br/></span>On a stormy night in an Irish pub the locals swap spooky stories to impress a young woman from Dublin who has recently moved into a nearby ‘haunted house’. Little do they know that she has a profoundly personal ghost story of her own, proving that the tallest tales reveal the deepest truths.<span><br/></span><span><br/></span>The Weir is a tightly woven modern classic and a testament to the need for human connection, the promise of hope, and the enduring power of storytelling.<span><br/></span><span><br/></span>Join us for a pint before the show in the Guild Hall Pub. The pub side will open its doors at<span><br/></span>7:15pm.<span><br/></span><span><br/></span>Thank you to our sponsors and funders: Government of Yukon, Lotteries Yukon, City of Whitehorse, Kilrich Building Centres, Whitehorse Motors, SPK Home Construction Ltd, Yukon Brewing and Air North
-""";
-  schema:startDate "2025-10-31T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7ce8be8c-0ed2-453f-a75b-6966b91dcdd2.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14064;
-  schema:duration "PT90M";
-  schema:endDate "2025-10-31T21:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14064 a schema:AggregateOffer;
-  schema:lowPrice "30.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/42603AJQBTJMJBPQRRSCQRJKMVQMKJPNR>
-  a schema:Event;
-  schema:name "GUILD: The Weir by Conor McPherson";
-  schema:description """
-	<span class=\"ItalicText\"><span class=\"BoldText\">The Weir by Conor McPherson</span></span><span><br/></span><span><br/></span>Directed by Reid Vanier<span><br/></span><span><br/></span>On a stormy night in an Irish pub the locals swap spooky stories to impress a young woman from Dublin who has recently moved into a nearby ‘haunted house’. Little do they know that she has a profoundly personal ghost story of her own, proving that the tallest tales reveal the deepest truths.<span><br/></span><span><br/></span>The Weir is a tightly woven modern classic and a testament to the need for human connection, the promise of hope, and the enduring power of storytelling.<span><br/></span><span><br/></span>Join us for a pint before the show in the Guild Hall Pub. The pub side will open its doors at<span><br/></span>7:15pm.<span><br/></span><span><br/></span>Thank you to our sponsors and funders: Government of Yukon, Lotteries Yukon, City of Whitehorse, Kilrich Building Centres, Whitehorse Motors, SPK Home Construction Ltd, Yukon Brewing and Air North
-""";
-  schema:startDate "2025-11-01T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7ce8be8c-0ed2-453f-a75b-6966b91dcdd2.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14065;
-  schema:duration "PT90M";
-  schema:endDate "2025-11-01T21:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14065 a schema:AggregateOffer;
-  schema:lowPrice "30.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/42201AQKKRSPRKRLQJDDCVRBGKSTCCBDJ>
-  a schema:Event;
-  schema:name "GUILD: The Weir by Conor McPherson";
-  schema:description """
-	<span class=\"ItalicText\"><span class=\"BoldText\">The Weir by Conor McPherson</span></span><span><br/></span><span><br/></span>Directed by Reid Vanier<span><br/></span><span><br/></span>On a stormy night in an Irish pub the locals swap spooky stories to impress a young woman from Dublin who has recently moved into a nearby ‘haunted house’. Little do they know that she has a profoundly personal ghost story of her own, proving that the tallest tales reveal the deepest truths.<span><br/></span><span><br/></span>The Weir is a tightly woven modern classic and a testament to the need for human connection, the promise of hope, and the enduring power of storytelling.<span><br/></span><span><br/></span>Join us for a pint before the show in the Guild Hall Pub. The pub side will open its doors at<span><br/></span>7:15pm.<span><br/></span><span><br/></span>Thank you to our sponsors and funders: Government of Yukon, Lotteries Yukon, City of Whitehorse, Kilrich Building Centres, Whitehorse Motors, SPK Home Construction Ltd, Yukon Brewing and Air North
-""";
-  schema:startDate "2025-11-05T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7ce8be8c-0ed2-453f-a75b-6966b91dcdd2.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14066;
-  schema:duration "PT90M";
-  schema:endDate "2025-11-05T21:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14066 a schema:AggregateOffer;
-  schema:lowPrice "5.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/42604AGCRRDMTRJLHKVQVPMSTGNRRHRBP>
-  a schema:Event;
-  schema:name "GUILD: The Weir by Conor McPherson";
-  schema:description """
-	<span class=\"ItalicText\"><span class=\"BoldText\">The Weir by Conor McPherson</span></span><span><br/></span><span><br/></span>Directed by Reid Vanier<span><br/></span><span><br/></span>On a stormy night in an Irish pub the locals swap spooky stories to impress a young woman from Dublin who has recently moved into a nearby ‘haunted house’. Little do they know that she has a profoundly personal ghost story of her own, proving that the tallest tales reveal the deepest truths.<span><br/></span><span><br/></span>The Weir is a tightly woven modern classic and a testament to the need for human connection, the promise of hope, and the enduring power of storytelling.<span><br/></span><span><br/></span>Join us for a pint before the show in the Guild Hall Pub. The pub side will open its doors at<span><br/></span>7:15pm.<span><br/></span><span><br/></span>Thank you to our sponsors and funders: Government of Yukon, Lotteries Yukon, City of Whitehorse, Kilrich Building Centres, Whitehorse Motors, SPK Home Construction Ltd, Yukon Brewing and Air North
-""";
-  schema:startDate "2025-11-06T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7ce8be8c-0ed2-453f-a75b-6966b91dcdd2.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14067;
-  schema:duration "PT90M";
-  schema:endDate "2025-11-06T21:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14067 a schema:AggregateOffer;
-  schema:lowPrice "30.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/42605AKVNLSNTBTMDKJTNRPGGHPMHKPGK>
-  a schema:Event;
-  schema:name "GUILD: The Weir by Conor McPherson";
-  schema:description """
-	<span class=\"ItalicText\"><span class=\"BoldText\">The Weir by Conor McPherson</span></span><span><br/></span><span><br/></span>Directed by Reid Vanier<span><br/></span><span><br/></span>On a stormy night in an Irish pub the locals swap spooky stories to impress a young woman from Dublin who has recently moved into a nearby ‘haunted house’. Little do they know that she has a profoundly personal ghost story of her own, proving that the tallest tales reveal the deepest truths.<span><br/></span><span><br/></span>The Weir is a tightly woven modern classic and a testament to the need for human connection, the promise of hope, and the enduring power of storytelling.<span><br/></span><span><br/></span>Join us for a pint before the show in the Guild Hall Pub. The pub side will open its doors at<span><br/></span>7:15pm.<span><br/></span><span><br/></span>Thank you to our sponsors and funders: Government of Yukon, Lotteries Yukon, City of Whitehorse, Kilrich Building Centres, Whitehorse Motors, SPK Home Construction Ltd, Yukon Brewing and Air North
-""";
-  schema:startDate "2025-11-07T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7ce8be8c-0ed2-453f-a75b-6966b91dcdd2.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14068;
-  schema:duration "PT90M";
-  schema:endDate "2025-11-07T21:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14068 a schema:AggregateOffer;
-  schema:lowPrice "30.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/42606ABLKSPQRJMSQPVTNTBRPQQSJTCQQ>
-  a schema:Event;
-  schema:name "GUILD: The Weir by Conor McPherson";
-  schema:description """
-	<span class=\"ItalicText\"><span class=\"BoldText\">The Weir by Conor McPherson</span></span><span><br/></span><span><br/></span>Directed by Reid Vanier<span><br/></span><span><br/></span>On a stormy night in an Irish pub the locals swap spooky stories to impress a young woman from Dublin who has recently moved into a nearby ‘haunted house’. Little do they know that she has a profoundly personal ghost story of her own, proving that the tallest tales reveal the deepest truths.<span><br/></span><span><br/></span>The Weir is a tightly woven modern classic and a testament to the need for human connection, the promise of hope, and the enduring power of storytelling.<span><br/></span><span><br/></span>Join us for a pint before the show in the Guild Hall Pub. The pub side will open its doors at<span><br/></span>7:15pm.<span><br/></span><span><br/></span>Thank you to our sponsors and funders: Government of Yukon, Lotteries Yukon, City of Whitehorse, Kilrich Building Centres, Whitehorse Motors, SPK Home Construction Ltd, Yukon Brewing and Air North
-""";
-  schema:startDate "2025-11-08T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7ce8be8c-0ed2-453f-a75b-6966b91dcdd2.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14069;
-  schema:duration "PT90M";
-  schema:endDate "2025-11-08T21:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14069 a schema:AggregateOffer;
-  schema:lowPrice "30.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/42401AMGVRNMTBVGKTCVLCNVTMNDSPQQG>
-  a schema:Event;
-  schema:name "GUILD: The Weir by Conor McPherson";
-  schema:description """
-	<span class=\"ItalicText\"><span class=\"BoldText\">The Weir by Conor McPherson</span></span><span><br/></span><span><br/></span>Directed by Reid Vanier<span><br/></span><span><br/></span>On a stormy night in an Irish pub the locals swap spooky stories to impress a young woman from Dublin who has recently moved into a nearby ‘haunted house’. Little do they know that she has a profoundly personal ghost story of her own, proving that the tallest tales reveal the deepest truths.<span><br/></span><span><br/></span>The Weir is a tightly woven modern classic and a testament to the need for human connection, the promise of hope, and the enduring power of storytelling.<span><br/></span><span><br/></span>Join us for a pint before the show in the Guild Hall Pub. The pub side will open its doors at<span><br/></span>7:15pm.<span><br/></span><span><br/></span>Thank you to our sponsors and funders: Government of Yukon, Lotteries Yukon, City of Whitehorse, Kilrich Building Centres, Whitehorse Motors, SPK Home Construction Ltd, Yukon Brewing and Air North
-""";
-  schema:startDate "2025-11-12T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7ce8be8c-0ed2-453f-a75b-6966b91dcdd2.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14070;
-  schema:duration "PT90M";
-  schema:endDate "2025-11-12T21:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14070 a schema:AggregateOffer;
-  schema:lowPrice "5.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/42607ALPNLHLNMSLSHDGSQPRTBMPNQMHM>
-  a schema:Event;
-  schema:name "GUILD: The Weir by Conor McPherson";
-  schema:description """
-	<span class=\"ItalicText\"><span class=\"BoldText\">The Weir by Conor McPherson</span></span><span><br/></span><span><br/></span>Directed by Reid Vanier<span><br/></span><span><br/></span>On a stormy night in an Irish pub the locals swap spooky stories to impress a young woman from Dublin who has recently moved into a nearby ‘haunted house’. Little do they know that she has a profoundly personal ghost story of her own, proving that the tallest tales reveal the deepest truths.<span><br/></span><span><br/></span>The Weir is a tightly woven modern classic and a testament to the need for human connection, the promise of hope, and the enduring power of storytelling.<span><br/></span><span><br/></span>Join us for a pint before the show in the Guild Hall Pub. The pub side will open its doors at<span><br/></span>7:15pm.<span><br/></span><span><br/></span>Thank you to our sponsors and funders: Government of Yukon, Lotteries Yukon, City of Whitehorse, Kilrich Building Centres, Whitehorse Motors, SPK Home Construction Ltd, Yukon Brewing and Air North
-""";
-  schema:startDate "2025-11-13T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7ce8be8c-0ed2-453f-a75b-6966b91dcdd2.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14071;
-  schema:duration "PT90M";
-  schema:endDate "2025-11-13T21:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14071 a schema:AggregateOffer;
-  schema:lowPrice "30.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/42608ASCTLPNDJCSNRBSPLTCHCBPHPVSJ>
-  a schema:Event;
-  schema:name "GUILD: The Weir by Conor McPherson";
-  schema:description """
-	<span class=\"ItalicText\"><span class=\"BoldText\">The Weir by Conor McPherson</span></span><span><br/></span><span><br/></span>Directed by Reid Vanier<span><br/></span><span><br/></span>On a stormy night in an Irish pub the locals swap spooky stories to impress a young woman from Dublin who has recently moved into a nearby ‘haunted house’. Little do they know that she has a profoundly personal ghost story of her own, proving that the tallest tales reveal the deepest truths.<span><br/></span><span><br/></span>The Weir is a tightly woven modern classic and a testament to the need for human connection, the promise of hope, and the enduring power of storytelling.<span><br/></span><span><br/></span>Join us for a pint before the show in the Guild Hall Pub. The pub side will open its doors at<span><br/></span>7:15pm.<span><br/></span><span><br/></span>Thank you to our sponsors and funders: Government of Yukon, Lotteries Yukon, City of Whitehorse, Kilrich Building Centres, Whitehorse Motors, SPK Home Construction Ltd, Yukon Brewing and Air North
-""";
-  schema:startDate "2025-11-14T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7ce8be8c-0ed2-453f-a75b-6966b91dcdd2.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14072;
-  schema:duration "PT90M";
-  schema:endDate "2025-11-14T21:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14072 a schema:AggregateOffer;
-  schema:lowPrice "30.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/42801AHCLVQRBGHJJVMCMNTDDCDSSQDQS>
-  a schema:Event;
-  schema:name "GUILD: The Weir by Conor McPherson";
-  schema:description """
-	<span class=\"ItalicText\"><span class=\"BoldText\">The Weir by Conor McPherson</span></span><span><br/></span><span><br/></span>Directed by Reid Vanier<span><br/></span><span><br/></span>On a stormy night in an Irish pub the locals swap spooky stories to impress a young woman from Dublin who has recently moved into a nearby ‘haunted house’. Little do they know that she has a profoundly personal ghost story of her own, proving that the tallest tales reveal the deepest truths.<span><br/></span><span><br/></span>The Weir is a tightly woven modern classic and a testament to the need for human connection, the promise of hope, and the enduring power of storytelling.<span><br/></span><span><br/></span>Join us for a pint before the show in the Guild Hall Pub. The pub side will open its doors at<span><br/></span>7:15pm.<span><br/></span><span><br/></span>Thank you to our sponsors and funders: Government of Yukon, Lotteries Yukon, City of Whitehorse, Kilrich Building Centres, Whitehorse Motors, SPK Home Construction Ltd, Yukon Brewing and Air North
-""";
-  schema:startDate "2025-11-15T20:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7ce8be8c-0ed2-453f-a75b-6966b91dcdd2.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14073;
-  schema:duration "PT90M";
-  schema:endDate "2025-11-15T21:30:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14073 a schema:AggregateOffer;
-  schema:lowPrice "30.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/yukonartscentre/event/36401AGDPLVGNCJMRKTPQLBSBLCVKVSMG>
   a schema:Event;
-  schema:name "Jazz on the Wing - Flutist & Soprano Saxophonist Jane Bunnett & Maqueque from Cuba";
+  schema:name "Jazz on the Wing – Jack Duncan & Conga Cartel present “A Night in Havana”";
   schema:description """
-	<span class=\"BoldText\">Sun, Mar 22, 2026<span><br/></span>Jazz on the Wing – Flutist & soprano saxophonist Jane Bunnett & Maqueque from Cuba</span><span><br/></span><span><br/></span>“A conversation at the outset of a new era for female jazz musicians and Cuban culture’s global impact.” ~ Christopher Loudon, Jazz Times<span><br/></span><span><br/></span>“The celebrated Canadian soprano saxophonist is embracing voices again… Bunnett is back with an exquisite new ensemble of vocalists and instrumentalists named Maqueque, which means…’the spirit of a young girl, in the ancient Afro-Cuban dialect.’” ~ Raul da Gama, latinjazznet.com<span><br/></span><span><br/></span>Featuring an all-female cast of Cuban artists, high-voltage Afro-Cuban music delivered by Jane Bunnett and Maqueque from Cuba.<span><br/></span><span><br/></span>Jane Bunnett is a flute and soprano sax sensation, and one of Canada’s most celebrated jazz musicians. Across her career as a performer and teacher, she has received many honours, including five Juno Awards and the Order of Canada. With Maqueque, she dives into her passion for Afro-Cuban jazz with a sextet showcasing the talents of the extraordinary young Cuban musicians she has mentored in her career.<span><br/></span><span><br/></span>Maqueque has taken the North American jazz scene by storm, winning praise from audiences and critics alike. DownBeat named it one of the top ten groups and wrote that it delivers “a clave-induced set of Afro-Cuban, booty-shaking world jazz that would have made Dizzy smile.”<span><br/></span><span><br/></span>Jane Bunnett – flute & soprano sax, Danae Olano – piano, Tailin Marrero – upright & electric bass, Yissy Garcia – drums, Mary Paz – congas & percussion, Marta Elena or Gina D. Soto - vocals<span><br/></span><span><br/></span><span class=\"BoldText\">SPECIAL OFFER UNTIL SEPT 28, BUY 5</span> Jazz on the Wing tickets <span class=\"BoldText\">FOR THE PRICE OF 4.</span><span><br/></span>Adults: $132, Seniors: $124, Youth: $80<span><br/></span>Purchase at Yukon Arts Centre Box Office 667-8574 by phone or in-person.   <span><br/></span><span><br/></span>Jazz on the Wing cabaret<span><br/></span>Presented by Jazz Yukon<span><br/></span>More info and music samples: jazzyukon.ca<span><br/></span>
+	<span class=\"BoldText\">Sun, Jan 11, 2026</span><span><br/></span><span><br/></span><span class=\"BoldText\">Jazz on the Wing – Jack Duncan & Conga Cartel present “A Night in Havana”</span><span><br/></span><span><br/></span>\"A Night in Havana\" with Conga Cartel promises to be a thrilling musical journey through the history of Cuban music. This show will showcase the various genres of music that have emerged from Cuba, from Danzon to Son, Cha Cha Cha to Mambo, and Afro-Cuban Jazz.<span><br/></span><span><br/></span>From the roots of Afro Cuban music to Clavé infused Jazz this Vancouver based group led by percussionist extraordinaire Jack Duncan, illuminates and illustrates the historical and evolving intersection of Jazz and traditional Afro-Latin music. The group is inspired by the works of legendary Afro Cuban music pioneers like Tata Guines, Chucho Valdés, Machito, and Mongo Santamaria who have contributed to shaping the genre of Cuban music into what it is today. Featuring musicians that have been involved in Grammy- and Juno-Award winning projects.<span><br/></span><span><br/></span>Jack Duncan – congas, Susana Williams – vocals, Louis Mastroianni – piano, Michael Braverman – tenor saxophone, John Korsrud – trumpet, Allan Johnston – upright bass, Phil Belanger – drums <span><br/></span><span><br/></span>More info: jazzyukon.ca<span><br/></span><span><br/></span>Jazz on the Wing cabaret<span><br/></span><span><br/></span>Presented by Jazz Yukon<span><br/></span><span><br/></span>
 """;
   schema:startDate "2026-03-22T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/ef75da0d-ee82-4709-8110-8e7c5fe3f94d.jpeg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464059;
   schema:duration "PT135M";
   schema:endDate "2026-03-22T21:45:00"^^xsd:dateTime .
 
-<http://www.spektrix.com/yukonartscentre/event/35801AHSQHGLDRQDGJQNMNBKJMSLGBGCB>
-  a schema:Event;
-  schema:name "Jazz on the Wing - Pianist Phil Dwyer Trio";
-  schema:description """
-	<span class=\"BoldText\">Sun, Oct 26<span><br/></span>Jazz on the Wing – Pianist Phil Dwyer Trio</span><span><br/></span><span><br/></span>“Phil Dwyer, in my estimation, is one of the great tenor players of jazz. We worked together in several groups while Phil lived in Toronto and he always brought fantastic energy and creativity to the musical setting we were involved in. He is a complete musician – a pianist and composer/arranger as well as a reed player. It would be difficult to over-estimate the natural talent and commitment of this artist.” ~ Oscar Peterson<span><br/></span><span><br/></span>Featuring Portland drummer & percussionist Alan Jones, a celebrated saxophonist, pianist, composer, arranger, producer, band leader, recording Artist and teacher, Phil Dwyer has appeared on ten Juno Award-winning recordings, and over thirty nominated recordings. <span><br/></span><span><br/></span>In 2013 Phil Dwyer was appointed as a Member of the Order Of Canada for his \"contributions to jazz as a performer, composer and producer, and for increasing access to music education in his community.” In January 2015 he was recognized by the Royal Conservatory of Music as an Honorary Fellow. These distinctions arise from an illustrious thirty year career collaborating with a storied roster of great musical artists, crossing stylistic and geographic borders. He is also a recipient of the prestigious K.M. Hunter Prize, for excellence in the arts.<span><br/></span><span><br/></span>Phil Dwyer – piano, Alan Jones – drums & percussion, Ben Dwyer – upright bass<span><br/></span><span><br/></span><span class=\"BoldText\">SPECIAL OFFER UNTIL SEPT 28, BUY 5</span> Jazz on the Wing tickets <span class=\"BoldText\">FOR THE PRICE OF 4.</span><span><br/></span>Adults: $132, Seniors: $124, Youth: $80<span><br/></span>Purchase at Yukon Arts Centre Box Office 667-8574 by phone or in-person.   <span><br/></span><span><br/></span>Jazz on the Wing cabaret<span><br/></span>Presented by Jazz Yukon<span><br/></span>More info and music samples: jazzyukon.ca<span><br/></span>
-""";
-  schema:startDate "2025-10-26T19:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/ff6eecbb-cf3f-4ce6-82ef-abe17dd48a7f.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14074;
-  schema:duration "PT135M";
-  schema:endDate "2025-10-26T21:45:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14074 a schema:AggregateOffer;
-  schema:lowPrice "17.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/36001AVSBSKQTBCMJCHVTHSQVQCNPBTLJ>
-  a schema:Event;
-  schema:name "Jazz on the Wing - Saxophonist Cory Weeds Quartet";
-  schema:description """
-	<span class=\"BoldText\">Sun, Nov 16<span><br/></span>Jazz on the Wing – Saxophonist Cory Weeds Quartet</span><span><br/></span><span><br/></span>“A saxophonist with a warm and impactful sound rooted in jazz tradition. A label owner tirelessly documenting the vital sounds of both prominent and unsung jazz heroes. One of Canada’s and North America’s most important jazz impresarios. Cory Weeds is all of these things, and much more. He’s the hardest working man in jazz business.<span><br/></span><span><br/></span>... an expressive saxophonist, passionate club owner and impresario, astute record label owner, and producer with musically satisfying instincts.” ~ Chris Wong, from Thirty Jazz Lives in Vancouver<span><br/></span><span><br/></span>Featuring NYC organist Chris Hazelton, Cory Weeds is an expressive saxophonist with a warm and impactful sound rooted in jazz tradition. Jazz aficionados know that Cory, when playing tenor or alto sax, conveys an unerring sense of swing.<span><br/></span><span><br/></span>Recording more than 20 albums as a leader that document his dynamic saxophone playing on both hard-swinging tunes and gentle ballads, he has shared stages and recording studios with the likes of Bill Charlap, Joey DeFrancesco, Champian Fulton, Jeff Hamilton, Harold Mabern, Roy McCurdy, Brad Turner, and many other high-level artists.<span><br/></span>A fearless musician who embraces a broad range of playing situations and then delivers with performances that shine. Cory Weeds, passionate jazz musician, in a nutshell. <span><br/></span><span><br/></span>Cory Weeds – tenor saxophone, Chris Hazelton – organ, David Rourke – guitar, Rudolph Petschauer – drums <span><br/></span><span><br/></span><span class=\"BoldText\">SPECIAL OFFER UNTIL SEPT 28, BUY 5</span> Jazz on the Wing tickets <span class=\"BoldText\">FOR THE PRICE OF 4.</span><span><br/></span>Adults: $132, Seniors: $124, Youth: $80<span><br/></span>Purchase at Yukon Arts Centre Box Office 667-8574 by phone or in-person.   <span><br/></span><span><br/></span>Jazz on the Wing cabaret<span><br/></span>Presented by Jazz Yukon<span><br/></span>More info and music samples: jazzyukon.ca<span><br/></span>
-""";
-  schema:startDate "2025-11-16T19:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/9890fd79-9b90-4f5d-aac1-e22a7c883539.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14075;
-  schema:duration "PT135M";
-  schema:endDate "2025-11-16T21:45:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14075 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464059 a schema:AggregateOffer;
   schema:lowPrice "17.5";
   schema:priceCurrency "CAD" .
 
@@ -468,11 +157,11 @@ _:c83b39e48b524959a32b92f8520706f14075 a schema:AggregateOffer;
   schema:startDate "2026-01-11T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/0d36d47f-dd7b-476b-b0ac-83c5a1bd04ef.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14076;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464060;
   schema:duration "PT135M";
   schema:endDate "2026-01-11T21:45:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14076 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464060 a schema:AggregateOffer;
   schema:lowPrice "17.5";
   schema:priceCurrency "CAD" .
 
@@ -485,11 +174,11 @@ _:c83b39e48b524959a32b92f8520706f14076 a schema:AggregateOffer;
   schema:startDate "2026-03-28T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/d1faa3e2-ed39-49cc-b308-6d11edc78eac.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14077;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464061;
   schema:duration "PT120M";
   schema:endDate "2026-03-28T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14077 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464061 a schema:AggregateOffer;
   schema:lowPrice "47.5";
   schema:priceCurrency "CAD" .
 
@@ -502,11 +191,11 @@ _:c83b39e48b524959a32b92f8520706f14077 a schema:AggregateOffer;
   schema:startDate "2025-11-28T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/bef757b1-c1ed-46f6-8e80-cce72aac5836.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14078;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464062;
   schema:duration "PT60M";
   schema:endDate "2025-11-28T20:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14078 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464062 a schema:AggregateOffer;
   schema:lowPrice "32.5";
   schema:priceCurrency "CAD" .
 
@@ -519,30 +208,23 @@ _:c83b39e48b524959a32b92f8520706f14078 a schema:AggregateOffer;
   schema:startDate "2025-11-22T20:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/777e7265-f5f1-4dae-b1ae-ac0125227cce.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14079;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464063;
   schema:duration "PT90M";
   schema:endDate "2025-11-22T21:30:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14079 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464063 a schema:AggregateOffer;
   schema:lowPrice "28.5";
   schema:priceCurrency "CAD" .
 
-<http://www.spektrix.com/yukonartscentre/event/35001ANDBMVNTNMQTQBCTTLTMVTJHVKBV>
-  a schema:Event;
-  schema:name "Mysteries of the Keyhole House";
-  schema:description """
-	What happens when two of Canada’s master illusionists move into a century-old house, that’s rumoured to be haunted? <span><br/></span><span><br/></span>Join Ted and Marion Outerbridge – fresh from mesmerizing audiences at Hollywood’s Magic Castle – as they blend their family friendly illusions with a spine-tingling true tale that’s captivated over 30 million viewers worldwide. <span><br/></span><span><br/></span>This isn’t just another magic show. <span><br/></span><span><br/></span>It’s an unforgettable journey into the unexplained, where every illusion adds to the mystery, and unlocking secrets only leads to deeper questions. As seen on CTV National News, CBC, TVO, and The Golf Channel.  <span><br/></span><span><br/></span>The hallmarks of Outerbridge performances include cutting-edge theatrical illusion, world class dance, and high energy magical adventure alongside a compelling narrative, that will leave the entire family spellbound. <span><br/></span><span><br/></span>Ted Outerbridge has been performing professionally since 1982, he has been featured in theatres from coast to coast and on both sides of the Atlantic, where he set box office records with his tours Illusions, Magician Extraordinaire, Magical Moments in Time, and The Time Capsule Tour. Ted has done everything from materializing Fortune 500 executives, to consulting for the Cirque du Soleil, He has made over 100 television appearances, from Much Music to The Discovery Channel’s Mystery Hunters, and on his own TV special Magic with Ted Outerbridge. <span><br/></span><span><br/></span>Marion’s mastery of ballet, jazz, character dance, and tap has resulted in a career as a dancer and choreographer with world-class dance companies around the globe. As a result, she speaks five languages fluently—sometimes all at the same time! Marion made her film debut in The Whole Nine Yards and has since appeared in numerous films and television productions including White House Down, Warm Bodies, and Barney's Version.
-""";
-  schema:startDate "2025-11-23T19:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/07efbaf8-5520-402e-80c4-052411d87e41.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14080;
-  schema:duration "PT120M";
-  schema:endDate "2025-11-23T21:00:00"^^xsd:dateTime .
+<https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>
+  a schema:Place;
+  schema:name "Guild Hall";
+  schema:address <https://spektrix.com/yukonartscentre/address/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> .
 
-_:c83b39e48b524959a32b92f8520706f14080 a schema:AggregateOffer;
-  schema:lowPrice "7.5";
-  schema:priceCurrency "CAD" .
+<https://spektrix.com/yukonartscentre/address/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> a
+    schema:PostalAddress;
+  schema:streetAddress "27 14th Ave";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/yukonartscentre/event/46801ACDBKCSKJDBSGRJBRPHCJBLCKVCG>
   a schema:Event;
@@ -553,11 +235,11 @@ _:c83b39e48b524959a32b92f8520706f14080 a schema:AggregateOffer;
   schema:startDate "2025-12-12T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/b5564eac-e732-4b45-80c9-4f716a1ab596.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14081;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464064;
   schema:duration "PT120M";
   schema:endDate "2025-12-12T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14081 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464064 a schema:AggregateOffer;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
 
@@ -570,11 +252,11 @@ _:c83b39e48b524959a32b92f8520706f14081 a schema:AggregateOffer;
   schema:startDate "2025-12-13T13:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/b5564eac-e732-4b45-80c9-4f716a1ab596.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14082;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464065;
   schema:duration "PT120M";
   schema:endDate "2025-12-13T15:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14082 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464065 a schema:AggregateOffer;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
 
@@ -587,11 +269,11 @@ _:c83b39e48b524959a32b92f8520706f14082 a schema:AggregateOffer;
   schema:startDate "2025-12-13T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/b5564eac-e732-4b45-80c9-4f716a1ab596.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14083;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464066;
   schema:duration "PT120M";
   schema:endDate "2025-12-13T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14083 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464066 a schema:AggregateOffer;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
 
@@ -604,12 +286,63 @@ _:c83b39e48b524959a32b92f8520706f14083 a schema:AggregateOffer;
   schema:startDate "2025-12-14T13:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/b5564eac-e732-4b45-80c9-4f716a1ab596.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14084;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464067;
   schema:duration "PT120M";
   schema:endDate "2025-12-14T15:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14084 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464067 a schema:AggregateOffer;
   schema:lowPrice "13.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/48201AHQBKMVGJSTQGDDLBHBMNSLMGSVN>
+  a schema:Event;
+  schema:name "Problematic Orchestra: The Creative Lives of Stories";
+  schema:description """
+	This event will feature some favourite works from over the years, as well as the premiere of a major work by Problematic Orchestra Composer-in-Residence Nicolas Hyatt.<span><br/></span><span><br/></span>Can people’s stories, whether based on personal or shared experience, serve as a basis from which to embark creatively and collaboratively? And then what is the role of a listener, reader in the making / meaning of a story? What does it mean to have a voice and to be heard? Voicings: The Creative Lives of Stories is a collaborative project developed, written and recorded by Jane Chan and Nicolas Hyatt of Parler bien between 2020 and 2023. Throughout this time, Jane and Nic lived, worked, and collaborated with people across Canada and Alaska, listening to their stories in English and French, and weaving voice and acoustic instruments into a rich tapestry that carries the listener between the worlds of radio documentary / podcasting and chamber music. <span><br/></span><span><br/></span>Problematic Orchestra is directed by Hannah Mazurek.<span><br/></span><span><br/></span><span class=\"ItalicText\">Artwork by Pardis Pahlavanlu</span><span><br/></span>
+""";
+  schema:startDate "2025-12-20T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/48351f0c-1470-487a-bb42-a7404bdffe5d.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464068;
+  schema:duration "PT90M";
+  schema:endDate "2025-12-20T20:30:00"^^xsd:dateTime .
+
+_:12396a1fe0ef45c79b5e437c70f59a464068 a schema:AggregateOffer;
+  schema:lowPrice "12.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/48401AVGNMMHRQVCLVRTRPKGHCJLGDVKR>
+  a schema:Event;
+  schema:name "Problematic Orchestra: The Creative Lives of Stories";
+  schema:description """
+	This event will feature some favourite works from over the years, as well as the premiere of a major work by Problematic Orchestra Composer-in-Residence Nicolas Hyatt.<span><br/></span><span><br/></span>Can people’s stories, whether based on personal or shared experience, serve as a basis from which to embark creatively and collaboratively? And then what is the role of a listener, reader in the making / meaning of a story? What does it mean to have a voice and to be heard? Voicings: The Creative Lives of Stories is a collaborative project developed, written and recorded by Jane Chan and Nicolas Hyatt of Parler bien between 2020 and 2023. Throughout this time, Jane and Nic lived, worked, and collaborated with people across Canada and Alaska, listening to their stories in English and French, and weaving voice and acoustic instruments into a rich tapestry that carries the listener between the worlds of radio documentary / podcasting and chamber music. <span><br/></span><span><br/></span>Problematic Orchestra is directed by Hannah Mazurek.<span><br/></span><span><br/></span><span class=\"ItalicText\">Artwork by Pardis Pahlavanlu</span><span><br/></span>
+""";
+  schema:startDate "2025-12-21T19:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/48351f0c-1470-487a-bb42-a7404bdffe5d.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464069;
+  schema:duration "PT90M";
+  schema:endDate "2025-12-21T20:30:00"^^xsd:dateTime .
+
+_:12396a1fe0ef45c79b5e437c70f59a464069 a schema:AggregateOffer;
+  schema:lowPrice "12.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/47601ALRPQQGLMRHLJRSGRRTJGJKMNSGT>
+  a schema:Event;
+  schema:name "SCHOOL MATINEE: THE NUTCRACKER";
+  schema:description """
+	<span><br/></span><h1>THIS EVENT IS FOR SCHOOL AUDIENCES ONLY</h1><span><br/></span><span class=\"BoldText\">Join Clara for a magical trip to the Land of Sweets. You’ll be dazzled by visions of toffee, marzipan, candy canes and more.</span> <span><br/></span><span><br/></span>Clara will be performed by Hazel Oxford on Friday evening and Saturday matinee, and by Iris Falls on Saturday evening and Sunday matinee
+""";
+  schema:startDate "2025-12-12T12:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/56d70369-8a72-4c9b-8b5e-23789fc116ef.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464070;
+  schema:duration "PT120M";
+  schema:endDate "2025-12-12T14:30:00"^^xsd:dateTime .
+
+_:12396a1fe0ef45c79b5e437c70f59a464070 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/yukonartscentre/event/45801APJPHDJMJCSGNSRNCNRNHDDTHVGL>
@@ -621,51 +354,17 @@ _:c83b39e48b524959a32b92f8520706f14084 a schema:AggregateOffer;
   schema:startDate "2025-12-18T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/db42c7d6-c820-4e40-bc0f-69a23c8ad3bd.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/406ASLRSDBSTJKJLVLTJRRMNQHGNKCDRK>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14085;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464071;
   schema:duration "PT120M";
   schema:endDate "2025-12-18T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14085 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464071 a schema:AggregateOffer;
   schema:lowPrice "7.5";
   schema:priceCurrency "CAD" .
 
 <https://spektrix.com/yukonartscentre/location/406ASLRSDBSTJKJLVLTJRRMNQHGNKCDRK>
   a schema:Place;
   schema:name "Whitehorse United Church" .
-
-<http://www.spektrix.com/yukonartscentre/event/36601ATRPSQKSGHPQNCLQHVKLVNDQQCLK>
-  a schema:Event;
-  schema:name "The Barra MacNeils - An East Coast Christmas";
-  schema:description """
-	<span class=\"BoldText\">Group Deal</span> - Buy 4 get 25% off!<span><br/></span><span><br/></span><span class=\"BoldText\">The Barra MacNeils – An East Coast Christmas</span> is a musical potpourri of traditional MacNeil family favourites gleaned from Christmas ceilidhs, midnight masses and the general festive frolic that accompanies each holiday season.  With their captivating vocals, distinctive harmonies and extraordinary musicianship, The Barra MacNeils inject new life and energy into the sights and sounds of Christmas… one moment a rousing chorus, then a hauntingly beautiful Gaelic ballad, the next a flurry of foot-stomping instrumentals, which of course pulls one then another into a step-dancing revelry. For a delightful seasonal celebration, don’t miss <span class=\"BoldText\">An East Coast Christmas with the Barra MacNeils!</span>
-""";
-  schema:startDate "2025-11-12T19:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7aa55299-2e14-4ce9-827d-4e8d04c8c9d9.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14086;
-  schema:duration "PT120M";
-  schema:endDate "2025-11-12T21:00:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14086 a schema:AggregateOffer;
-  schema:lowPrice "7.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/36801AVRGVGRDVPNHVPNNQVLKLPKNJBND>
-  a schema:Event;
-  schema:name "The Barra MacNeils - An East Coast Christmas";
-  schema:description """
-	<span class=\"BoldText\">Group Deal</span> - Buy 4 get 25% off!<span><br/></span><span><br/></span><span class=\"BoldText\">The Barra MacNeils – An East Coast Christmas</span> is a musical potpourri of traditional MacNeil family favourites gleaned from Christmas ceilidhs, midnight masses and the general festive frolic that accompanies each holiday season.  With their captivating vocals, distinctive harmonies and extraordinary musicianship, The Barra MacNeils inject new life and energy into the sights and sounds of Christmas… one moment a rousing chorus, then a hauntingly beautiful Gaelic ballad, the next a flurry of foot-stomping instrumentals, which of course pulls one then another into a step-dancing revelry. For a delightful seasonal celebration, don’t miss <span class=\"BoldText\">An East Coast Christmas with the Barra MacNeils!</span>
-""";
-  schema:startDate "2025-11-13T19:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/7aa55299-2e14-4ce9-827d-4e8d04c8c9d9.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14087;
-  schema:duration "PT120M";
-  schema:endDate "2025-11-13T21:00:00"^^xsd:dateTime .
-
-_:c83b39e48b524959a32b92f8520706f14087 a schema:AggregateOffer;
-  schema:lowPrice "7.5";
-  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/yukonartscentre/event/43201AJDRNMMDNNQTNJHJVCVNCQGVJMVN>
   a schema:Event;
@@ -676,11 +375,11 @@ _:c83b39e48b524959a32b92f8520706f14087 a schema:AggregateOffer;
   schema:startDate "2025-11-29T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/f73698b8-cb36-4dc1-bf04-528f7f0b8980.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14088;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464072;
   schema:duration "PT75M";
   schema:endDate "2025-11-29T20:15:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14088 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464072 a schema:AggregateOffer;
   schema:lowPrice "35.5";
   schema:priceCurrency "CAD" .
 
@@ -693,11 +392,11 @@ _:c83b39e48b524959a32b92f8520706f14088 a schema:AggregateOffer;
   schema:startDate "2025-11-30T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/f73698b8-cb36-4dc1-bf04-528f7f0b8980.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14089;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464073;
   schema:duration "PT75M";
   schema:endDate "2025-11-30T15:15:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14089 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464073 a schema:AggregateOffer;
   schema:lowPrice "35.5";
   schema:priceCurrency "CAD" .
 
@@ -710,11 +409,11 @@ _:c83b39e48b524959a32b92f8520706f14089 a schema:AggregateOffer;
   schema:startDate "2025-11-30T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/f73698b8-cb36-4dc1-bf04-528f7f0b8980.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14090;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464074;
   schema:duration "PT75M";
   schema:endDate "2025-11-30T20:15:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14090 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464074 a schema:AggregateOffer;
   schema:lowPrice "35.5";
   schema:priceCurrency "CAD" .
 
@@ -726,11 +425,11 @@ _:c83b39e48b524959a32b92f8520706f14090 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-31T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14091;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464075;
   schema:duration "PT60M";
   schema:endDate "2025-07-31T20:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14091 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464075 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -742,11 +441,11 @@ _:c83b39e48b524959a32b92f8520706f14091 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-30T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14092;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464076;
   schema:duration "PT60M";
   schema:endDate "2025-07-30T20:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14092 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464076 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -758,11 +457,11 @@ _:c83b39e48b524959a32b92f8520706f14092 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-30T21:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14093;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464077;
   schema:duration "PT60M";
   schema:endDate "2025-07-30T22:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14093 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464077 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -775,11 +474,11 @@ _:c83b39e48b524959a32b92f8520706f14093 a schema:AggregateOffer;
   schema:startDate "2025-12-16T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/3b4ec14c-0e14-4293-b265-070aeb956df8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14094;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464078;
   schema:duration "PT120M";
   schema:endDate "2025-12-16T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14094 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464078 a schema:AggregateOffer;
   schema:lowPrice "7.5";
   schema:priceCurrency "CAD" .
 
@@ -792,11 +491,11 @@ _:c83b39e48b524959a32b92f8520706f14094 a schema:AggregateOffer;
   schema:startDate "2025-12-17T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/3b4ec14c-0e14-4293-b265-070aeb956df8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14095;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464079;
   schema:duration "PT120M";
   schema:endDate "2025-12-17T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14095 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464079 a schema:AggregateOffer;
   schema:lowPrice "7.5";
   schema:priceCurrency "CAD" .
 
@@ -809,11 +508,11 @@ _:c83b39e48b524959a32b92f8520706f14095 a schema:AggregateOffer;
   schema:startDate "2026-01-07T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/b3c39b0a-a413-4790-905a-ac09ce7d79ac.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14096;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464080;
   schema:duration "PT120M";
   schema:endDate "2026-01-07T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14096 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464080 a schema:AggregateOffer;
   schema:lowPrice "72.5";
   schema:priceCurrency "CAD" .
 
@@ -826,11 +525,11 @@ _:c83b39e48b524959a32b92f8520706f14096 a schema:AggregateOffer;
   schema:startDate "2026-01-08T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/9b7da144-4740-467a-abe6-f06a310dbca5.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14097;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464081;
   schema:duration "PT120M";
   schema:endDate "2026-01-08T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14097 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464081 a schema:AggregateOffer;
   schema:lowPrice "35.5";
   schema:priceCurrency "CAD" .
 
@@ -843,11 +542,11 @@ _:c83b39e48b524959a32b92f8520706f14097 a schema:AggregateOffer;
   schema:startDate "2026-01-09T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/9b7da144-4740-467a-abe6-f06a310dbca5.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14098;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464082;
   schema:duration "PT120M";
   schema:endDate "2026-01-09T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14098 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464082 a schema:AggregateOffer;
   schema:lowPrice "35.5";
   schema:priceCurrency "CAD" .
 
@@ -860,11 +559,11 @@ _:c83b39e48b524959a32b92f8520706f14098 a schema:AggregateOffer;
   schema:startDate "2026-01-10T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/9b7da144-4740-467a-abe6-f06a310dbca5.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14099;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464083;
   schema:duration "PT120M";
   schema:endDate "2026-01-10T16:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14099 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464083 a schema:AggregateOffer;
   schema:lowPrice "35.5";
   schema:priceCurrency "CAD" .
 
@@ -877,11 +576,11 @@ _:c83b39e48b524959a32b92f8520706f14099 a schema:AggregateOffer;
   schema:startDate "2026-01-10T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/9b7da144-4740-467a-abe6-f06a310dbca5.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14100;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464084;
   schema:duration "PT120M";
   schema:endDate "2026-01-10T21:00:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14100 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464084 a schema:AggregateOffer;
   schema:lowPrice "35.5";
   schema:priceCurrency "CAD" .
 
@@ -894,11 +593,11 @@ _:c83b39e48b524959a32b92f8520706f14100 a schema:AggregateOffer;
   schema:startDate "2025-12-05T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/c83a2d7f-89aa-480a-b35c-95ad8e794b9d.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14101;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464085;
   schema:duration "PT120M";
   schema:endDate "2025-12-05T21:30:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14101 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464085 a schema:AggregateOffer;
   schema:lowPrice "24.5";
   schema:priceCurrency "CAD" .
 
@@ -911,10 +610,10 @@ _:c83b39e48b524959a32b92f8520706f14101 a schema:AggregateOffer;
   schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/yukonartscentre/files/c83a2d7f-89aa-480a-b35c-95ad8e794b9d.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c83b39e48b524959a32b92f8520706f14102;
+  schema:offers _:12396a1fe0ef45c79b5e437c70f59a464086;
   schema:duration "PT120M";
   schema:endDate "2025-12-06T21:30:00"^^xsd:dateTime .
 
-_:c83b39e48b524959a32b92f8520706f14102 a schema:AggregateOffer;
+_:12396a1fe0ef45c79b5e437c70f59a464086 a schema:AggregateOffer;
   schema:lowPrice "24.5";
   schema:priceCurrency "CAD" .
