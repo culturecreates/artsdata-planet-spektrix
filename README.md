@@ -63,7 +63,7 @@ To add a new source, use the organization's slug as the top-level key. Within th
 ### Common Attributes:
 
 - attribute_EventUrl: The URL where the source's events are listed.
-- offerUrl: The booking or purchase URL. This often uses placeholders (e.g., {webInstanceId}) or transformation functions.
+- offerUrl: The booking or purchase URL. This often uses placeholders (e.g. {webInstanceId}) or transformation functions.
 
 ### Example Configuration:
 
@@ -81,8 +81,8 @@ You can use the following transformation functions within your URL strings to dy
 
 | Function                      | Description                                                                       |  Usage Example    |
 | ------------------------------| --------------------------------------------------------------------------------- | -----------       |
-| `extractID`                   | Extracts a numeric ID from a string (e.g., turns "instance_12345" into "12345").  | {extractID(name)} |
-| `slugify`                     | Converts a string to a URL-friendly slug (e.g., turns "My Event" into "my-event").| {slugify(name)}   |
+| `extractID`                   | Extracts a numeric ID from a string (e.g. turns "instance_12345" into "12345").  | {extractID(name)} |
+| `slugify`                     | Converts a string to a URL-friendly slug (e.g. turns "My Event" into "my-event").| {slugify(name)}   |
 
 #### Advanced slugify Usage
 
