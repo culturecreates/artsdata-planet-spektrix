@@ -8,54 +8,6 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/manitobaopera/event/12001ALNGHTPHGCKCMSTDNQBDRDVTJPQB> a
-    schema:Event;
-  schema:name "Dinner in the Wings";
-  schema:description """
-	<h1>An Evening of  Passion & Indulgence</h1><span><br/></span>A champagne reception precedes an intimate four-course meal served in the wings, right on stage of the Centennial Concert Hall.  <span><br/></span><span><br/></span>Step into a world where art meets passion, loyalty collides with tyranny, and every course brings a crescendo of flavour. As you dine, meet with cast members and feel the pulse of pre-show excitement back-stage.  <span><br/></span><span><br/></span>Following the dinner, you'll hear the voices of the Manitoba Opera chorus as the prepare for the show before slipping into your seats for the intense passion, and heart-pounding drama of Tosca. <span><br/></span><span><br/></span><span class=\"BoldText\">This is not simply dinner. It is an immersion, where fine dining meets the glory of opera.</span> <span><br/></span><span><br/></span><span class=\"ItalicText\">Participation is limited to 12 distinguished guests.</span><span><br/></span><span><br/></span>$1,000 per guest 
-""";
-  schema:startDate "2025-11-28T17:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/0cca4491-d021-4725-8433-03541ac27de1.jpg>;
-  schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
-  schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:633d8b711bb64af8ac768730cde00b504797;
-  schema:duration "PT120M";
-  schema:endDate "2025-11-28T19:00:00"^^xsd:dateTime .
-
-<https://spektrix.com/manitobaopera/organization/manitoba-opera> a schema:Organization;
-  schema:name "Manitoba Opera";
-  schema:sameAs <http://kg.artsdata.ca/resource/K2-5133> .
-
-_:633d8b711bb64af8ac768730cde00b504797 a schema:AggregateOffer;
-  schema:lowPrice "1000.0";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> a
-    schema:Place;
-  schema:name "Centennial Concert Hall";
-  schema:address <https://spektrix.com/manitobaopera/address/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> .
-
-<https://spektrix.com/manitobaopera/address/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> a schema:PostalAddress;
-  schema:streetAddress "555 Main Street";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/manitobaopera/event/12601ADHGSMRHJGRGJSDPTNTCRCGQHPQN> a
-    schema:Event;
-  schema:name "Dinner in the Wings - The Marriage of Figaro";
-  schema:description """
-
-""";
-  schema:startDate "2026-04-18T17:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
-  schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:633d8b711bb64af8ac768730cde00b504798;
-  schema:duration "PT90M";
-  schema:endDate "2026-04-18T18:30:00"^^xsd:dateTime .
-
-_:633d8b711bb64af8ac768730cde00b504798 a schema:AggregateOffer;
-  schema:lowPrice "1000.0";
-  schema:priceCurrency "CAD" .
-
 <http://www.spektrix.com/manitobaopera/event/10601APSKMRRDLKDGKBKNPNLTDRGCSHLR> a
     schema:Event;
   schema:name "Lecture & Set Tour: The Art of Soft Scenery";
@@ -66,11 +18,15 @@ _:633d8b711bb64af8ac768730cde00b504798 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/f46f6a52-5dca-4e12-85ba-3ec7a4a5d6e9.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:633d8b711bb64af8ac768730cde00b504799;
+  schema:offers _:5c298bdbd31140369f4ece13a967f45e4779;
   schema:duration "PT90M";
   schema:endDate "2025-11-18T18:45:00"^^xsd:dateTime .
 
-_:633d8b711bb64af8ac768730cde00b504799 a schema:AggregateOffer;
+<https://spektrix.com/manitobaopera/organization/manitoba-opera> a schema:Organization;
+  schema:name "Manitoba Opera";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-5133> .
+
+_:5c298bdbd31140369f4ece13a967f45e4779 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -78,21 +34,21 @@ _:633d8b711bb64af8ac768730cde00b504799 a schema:AggregateOffer;
     schema:Place;
   schema:name "Centennial Concert Hall (Orchestra Right)" .
 
-<http://www.spektrix.com/manitobaopera/event/9801ASMPJNGDQLTQPCPCCHKQQRGTTRTJM> a
+<http://www.spektrix.com/manitobaopera/event/12201AVGSVDJSKHNLNDGDHCNLJPBPLMHR> a
     schema:Event;
-  schema:name "Opera Primer: Tosca";
+  schema:name "Opera Primer: The Marriage of Figaro";
   schema:description """
-	A one-hour presentation that introduces the characters and synopsis of the opera, with video examples.<span><br/></span><span><br/></span>Presented by Dr. Scott Miller.<span><br/></span><span><br/></span><span class=\"BoldText\">Saturday, November 15, 1:00 PM</span><span><br/></span><span class=\"ItalicText\">Doors open at 12:30 PM</span><span><br/></span>Canadian Museum for Human Rights classroom.
+
 """;
-  schema:startDate "2025-11-15T13:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/8600d3c6-e201-4a83-9fe1-3fbd7385ca78.jpg>;
+  schema:startDate "2026-04-11T13:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/b39bd49e-aa27-46de-9668-f04792ad791f.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/413AQMCVGSSDBPJPNNJKRQRSMGMTDKJMR>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:633d8b711bb64af8ac768730cde00b504800;
+  schema:offers _:5c298bdbd31140369f4ece13a967f45e4780;
   schema:duration "PT60M";
-  schema:endDate "2025-11-15T14:00:00"^^xsd:dateTime .
+  schema:endDate "2026-04-11T14:00:00"^^xsd:dateTime .
 
-_:633d8b711bb64af8ac768730cde00b504800 a schema:AggregateOffer;
+_:5c298bdbd31140369f4ece13a967f45e4780 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -115,13 +71,22 @@ _:633d8b711bb64af8ac768730cde00b504800 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/f46c02f3-08e2-4351-950a-d963aa16c5b6.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:633d8b711bb64af8ac768730cde00b504801;
+  schema:offers _:5c298bdbd31140369f4ece13a967f45e4781;
   schema:duration "PT175M";
   schema:endDate "2026-04-18T22:25:00"^^xsd:dateTime .
 
-_:633d8b711bb64af8ac768730cde00b504801 a schema:AggregateOffer;
+_:5c298bdbd31140369f4ece13a967f45e4781 a schema:AggregateOffer;
   schema:lowPrice "43.5";
   schema:priceCurrency "CAD" .
+
+<https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> a
+    schema:Place;
+  schema:name "Centennial Concert Hall";
+  schema:address <https://spektrix.com/manitobaopera/address/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> .
+
+<https://spektrix.com/manitobaopera/address/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG> a schema:PostalAddress;
+  schema:streetAddress "555 Main Street";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/manitobaopera/event/4401APLLPBSHLDJVTLGBDQTQBHJDJSHCM> a
     schema:Event;
@@ -133,11 +98,11 @@ _:633d8b711bb64af8ac768730cde00b504801 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/f46c02f3-08e2-4351-950a-d963aa16c5b6.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:633d8b711bb64af8ac768730cde00b504802;
+  schema:offers _:5c298bdbd31140369f4ece13a967f45e4782;
   schema:duration "PT175M";
   schema:endDate "2026-04-22T21:55:00"^^xsd:dateTime .
 
-_:633d8b711bb64af8ac768730cde00b504802 a schema:AggregateOffer;
+_:5c298bdbd31140369f4ece13a967f45e4782 a schema:AggregateOffer;
   schema:lowPrice "34.5";
   schema:priceCurrency "CAD" .
 
@@ -151,82 +116,28 @@ _:633d8b711bb64af8ac768730cde00b504802 a schema:AggregateOffer;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/f46c02f3-08e2-4351-950a-d963aa16c5b6.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:633d8b711bb64af8ac768730cde00b504803;
+  schema:offers _:5c298bdbd31140369f4ece13a967f45e4783;
   schema:duration "PT175M";
   schema:endDate "2026-04-24T22:25:00"^^xsd:dateTime .
 
-_:633d8b711bb64af8ac768730cde00b504803 a schema:AggregateOffer;
+_:5c298bdbd31140369f4ece13a967f45e4783 a schema:AggregateOffer;
   schema:lowPrice "40.5";
   schema:priceCurrency "CAD" .
 
-<http://www.spektrix.com/manitobaopera/event/3601ABRLTLCLBPPCHRCSJRVVJLBBBDQCM> a
+<http://www.spektrix.com/manitobaopera/event/12401ALRBGCBJJRJTTJKHBDCPJSGMKBSL> a
     schema:Event;
-  schema:name "Tosca";
+  schema:name "Understanding the Music: The Marriage of Figaro";
   schema:description """
-	<h1>Supremely Operatic!</h1><span><br/></span><span class=\"BoldText\">Heart-pounding drama, intense passion, and soaring melodies are a killer combination in this fateful day in the life of the diva Tosca.</span><span><br/></span><span><br/></span>In revolutionary Rome, the fiery, famous singer lives for art and love but finds herself in a life-and-death struggle when her lover, the painter Cavaradossi, is caught trying to protect a freedom fighter. Scarpia, the corrupt chief of police will stop at nothing to satisfy his lust for her. In this game of deadly political intrigue will Tosca submit to Scarpia’s desires or see her lover die? Can Scarpia’s evil reach from beyond the grave? <span><br/></span><span><br/></span>This spell-binding classic features some of Puccini’s best: “Vissi d’arte,” the opera’s most famous aria in which Tosca sings that she’s always lived her life for art and love; Cavaradossi’s “Recondita armonia”; Scarpia’s “Te Deum,” sung with self-satisfied villainy and madness; and “E lucevan le stelle,” Cavaradossi’s farewell to Tosca.  <span><br/></span><span><br/></span><span class=\"ItalicText\">Sung in Italian with projected English translations.</span><span><br/></span><span><br/></span><span class=\"BoldText\">MUSIC</span>  Giacomo Puccini<span><br/></span><span class=\"BoldText\">LIBRETTO</span>  Luigi Illica and Giuseppe Giacosa<span><br/></span>(Based on Victorien Sardou’s drama La Tosca)<span><br/></span><span><br/></span><h2>Artists:</h2><ul><li>Tosca - Marina Costa-Jackson</li><li>Cavaradossi - David Pomeroy</li><li>Scarpia - Gregory Dahl</li><li>Conductor - Tyrone Paterson</li></ul><span><br/></span><span class=\"ItalicText\">(Cast is subject to change.)</span>
+
 """;
-  schema:startDate "2025-11-22T19:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/cc27223d-dbca-4ad7-8096-96185f9e68bb.jpg>;
-  schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
-  schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:633d8b711bb64af8ac768730cde00b504804;
-  schema:duration "PT115M";
-  schema:endDate "2025-11-22T21:25:00"^^xsd:dateTime .
-
-_:633d8b711bb64af8ac768730cde00b504804 a schema:AggregateOffer;
-  schema:lowPrice "43.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/manitobaopera/event/3801ASGTBTNRHGNPMLKSSVHJGBQVLLHNM> a
-    schema:Event;
-  schema:name "Tosca";
-  schema:description """
-	<h1>Supremely Operatic!</h1><span><br/></span><span class=\"BoldText\">Heart-pounding drama, intense passion, and soaring melodies are a killer combination in this fateful day in the life of the diva Tosca.</span><span><br/></span><span><br/></span>In revolutionary Rome, the fiery, famous singer lives for art and love but finds herself in a life-and-death struggle when her lover, the painter Cavaradossi, is caught trying to protect a freedom fighter. Scarpia, the corrupt chief of police will stop at nothing to satisfy his lust for her. In this game of deadly political intrigue will Tosca submit to Scarpia’s desires or see her lover die? Can Scarpia’s evil reach from beyond the grave? <span><br/></span><span><br/></span>This spell-binding classic features some of Puccini’s best: “Vissi d’arte,” the opera’s most famous aria in which Tosca sings that she’s always lived her life for art and love; Cavaradossi’s “Recondita armonia”; Scarpia’s “Te Deum,” sung with self-satisfied villainy and madness; and “E lucevan le stelle,” Cavaradossi’s farewell to Tosca.  <span><br/></span><span><br/></span><span class=\"ItalicText\">Sung in Italian with projected English translations.</span><span><br/></span><span><br/></span><span class=\"BoldText\">MUSIC</span>  Giacomo Puccini<span><br/></span><span class=\"BoldText\">LIBRETTO</span>  Luigi Illica and Giuseppe Giacosa<span><br/></span>(Based on Victorien Sardou’s drama La Tosca)<span><br/></span><span><br/></span><h2>Artists:</h2><ul><li>Tosca - Marina Costa-Jackson</li><li>Cavaradossi - David Pomeroy</li><li>Scarpia - Gregory Dahl</li><li>Conductor - Tyrone Paterson</li></ul><span><br/></span><span class=\"ItalicText\">(Cast is subject to change.)</span>
-""";
-  schema:startDate "2025-11-26T19:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/cc27223d-dbca-4ad7-8096-96185f9e68bb.jpg>;
-  schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
-  schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:633d8b711bb64af8ac768730cde00b504805;
-  schema:duration "PT115M";
-  schema:endDate "2025-11-26T20:55:00"^^xsd:dateTime .
-
-_:633d8b711bb64af8ac768730cde00b504805 a schema:AggregateOffer;
-  schema:lowPrice "34.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/manitobaopera/event/3602ABHRLDRTBKBCSQNTTPBBMLKGLDSTB> a
-    schema:Event;
-  schema:name "Tosca";
-  schema:description """
-	<h1>Supremely Operatic!</h1><span><br/></span><span class=\"BoldText\">Heart-pounding drama, intense passion, and soaring melodies are a killer combination in this fateful day in the life of the diva Tosca.</span><span><br/></span><span><br/></span>In revolutionary Rome, the fiery, famous singer lives for art and love but finds herself in a life-and-death struggle when her lover, the painter Cavaradossi, is caught trying to protect a freedom fighter. Scarpia, the corrupt chief of police will stop at nothing to satisfy his lust for her. In this game of deadly political intrigue will Tosca submit to Scarpia’s desires or see her lover die? Can Scarpia’s evil reach from beyond the grave? <span><br/></span><span><br/></span>This spell-binding classic features some of Puccini’s best: “Vissi d’arte,” the opera’s most famous aria in which Tosca sings that she’s always lived her life for art and love; Cavaradossi’s “Recondita armonia”; Scarpia’s “Te Deum,” sung with self-satisfied villainy and madness; and “E lucevan le stelle,” Cavaradossi’s farewell to Tosca.  <span><br/></span><span><br/></span><span class=\"ItalicText\">Sung in Italian with projected English translations.</span><span><br/></span><span><br/></span><span class=\"BoldText\">MUSIC</span>  Giacomo Puccini<span><br/></span><span class=\"BoldText\">LIBRETTO</span>  Luigi Illica and Giuseppe Giacosa<span><br/></span>(Based on Victorien Sardou’s drama La Tosca)<span><br/></span><span><br/></span><h2>Artists:</h2><ul><li>Tosca - Marina Costa-Jackson</li><li>Cavaradossi - David Pomeroy</li><li>Scarpia - Gregory Dahl</li><li>Conductor - Tyrone Paterson</li></ul><span><br/></span><span class=\"ItalicText\">(Cast is subject to change.)</span>
-""";
-  schema:startDate "2025-11-28T19:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/cc27223d-dbca-4ad7-8096-96185f9e68bb.jpg>;
-  schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
-  schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:633d8b711bb64af8ac768730cde00b504806;
-  schema:duration "PT115M";
-  schema:endDate "2025-11-28T21:25:00"^^xsd:dateTime .
-
-_:633d8b711bb64af8ac768730cde00b504806 a schema:AggregateOffer;
-  schema:lowPrice "43.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/manitobaopera/event/10001AJDMSTLMNDPDNVDDGJGHCCDBRDDD> a
-    schema:Event;
-  schema:name "Understanding the Music: Tosca";
-  schema:description """
-	In this lecture, you’ll hear about how Puccini combined long-breathed romantic arias with modern verismo style, creating a soundscape of early 19th-century Rome in Tosca (1900). <span><br/></span><span><br/></span>Presented by Colette Simonot-Maiello, Associate Professor of Musicology and Associate Dean at the Desautels Faculty of Music.<span><br/></span><span><br/></span><span class=\"BoldText\">Saturday, November 1, 1:00 PM</span><span><br/></span><span class=\"ItalicText\">Doors open at 12:30 PM</span><span><br/></span>Canadian Museum for Human Rights Classroom
-""";
-  schema:startDate "2025-11-01T13:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/2970e8c5-8541-4170-b96a-6b97d55faede.jpg>;
+  schema:startDate "2026-03-21T13:00:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/manitobaopera/files/c7586d10-4ec1-458f-8e9f-2f55e03d47bf.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/413AQMCVGSSDBPJPNNJKRQRSMGMTDKJMR>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:633d8b711bb64af8ac768730cde00b504807;
+  schema:offers _:5c298bdbd31140369f4ece13a967f45e4784;
   schema:duration "PT60M";
-  schema:endDate "2025-11-01T14:00:00"^^xsd:dateTime .
+  schema:endDate "2026-03-21T14:00:00"^^xsd:dateTime .
 
-_:633d8b711bb64af8ac768730cde00b504807 a schema:AggregateOffer;
+_:5c298bdbd31140369f4ece13a967f45e4784 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
