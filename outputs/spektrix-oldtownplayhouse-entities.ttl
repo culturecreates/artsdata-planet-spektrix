@@ -8,17 +8,22 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/oldtownplayhouse/event/13601ABSCMSGQNLTCLGCSNLSTLGHSDRHB>
+<http://www.spektrix.com/oldtownplayhouse/event/41001AMGNGHKLQLCLRMPJKPQBNDVJPHRD>
   a schema:Event;
-  schema:name "1-Week Musical Theatre Intensive - Disney's Frozen KIDS 8/18-8/23";
+  schema:name "ATP: Heaven on Their Minds";
   schema:description """
-
+	OTP's <a target=\"_top\" href=\"https://www.oldtownplayhouse.com/adult-learning/aged-to-perfection.html\">Aged to Perfection</a> group presents two works in staged reading format:<span><br/></span><span><br/></span>The curtain raiser on the evening, <span class=\"ItalicText\">The Moussaka Meeting</span>, leads you through a warmly touching view of the annual meeting between two sisters.<span><br/></span><span><br/></span>Next up is <span class=\"ItalicText\">Waiting for God</span>, the outrageously funny tale set at the Bayview Retirement home. An unlikely duo wreak havoc in their refusal to grow old gracefully and to bring everyone else - including families - along for the ride. Forming an unlikely relationship, they scheme to outwit the narcissistic and incompetent manager and his naïve and ever-cheerful assistant. The main characters come together to face the certain realities of aging, and like all classic comedies, it ends with a wedding...well...maybe.<span><br/></span><span><br/></span>You are the best judge of what is appropriate for those you bring to the theatre, but OTP recommends this show for Informed Audiences due to language.<span><br/></span><span><br/></span>Tickets are $10. Please read our <a target=\"_top\" href=\"https://www.oldtownplayhouse.com/performances/plan-your-visit.html\">Plan Your Visit</a> page before purchasing tickets.<span><br/></span><span><br/></span>If sold out, please contact the OTP Box Office to be added to the waiting list.<span><br/></span><span><br/></span>No refunds; exchanges often possible more than 24 hours before a performance.<span><br/></span>
 """;
-  schema:startDate "2025-08-18T09:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/43cf049e-411e-48f8-9b98-742939983fa8.jpg>;
+  schema:startDate "2025-10-17T19:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1cb683b4-d6b4-42b1-997b-c541d8171303.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:duration "PT360M";
-  schema:endDate "2025-08-18T15:30:00"^^xsd:dateTime .
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5987;
+  schema:duration "PT90M";
+  schema:endDate "2025-10-17T21:00:00"^^xsd:dateTime .
+
+_:1834a929e3644c8e9ad20dc3077b7aee5987 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
 
 <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>
   a schema:Place;
@@ -31,23 +36,6 @@
   schema:addressLocality "Traverse City";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/oldtownplayhouse/event/41001AMGNGHKLQLCLRMPJKPQBNDVJPHRD>
-  a schema:Event;
-  schema:name "ATP: Heaven on Their Minds";
-  schema:description """
-	OTP's <a target=\"_top\" href=\"https://www.oldtownplayhouse.com/adult-learning/aged-to-perfection.html\">Aged to Perfection</a> group presents two works in staged reading format:<span><br/></span><span><br/></span>The curtain raiser on the evening, <span class=\"ItalicText\">The Moussaka Meeting</span>, leads you through a warmly touching view of the annual meeting between two sisters.<span><br/></span><span><br/></span>Next up is <span class=\"ItalicText\">Waiting for God</span>, the outrageously funny tale set at the Bayview Retirement home. An unlikely duo wreak havoc in their refusal to grow old gracefully and to bring everyone else - including families - along for the ride. Forming an unlikely relationship, they scheme to outwit the narcissistic and incompetent manager and his naïve and ever-cheerful assistant. The main characters come together to face the certain realities of aging, and like all classic comedies, it ends with a wedding...well...maybe.<span><br/></span><span><br/></span>You are the best judge of what is appropriate for those you bring to the theatre, but OTP recommends this show for Informed Audiences due to language.<span><br/></span><span><br/></span>Tickets are $10. Please read our <a target=\"_top\" href=\"https://www.oldtownplayhouse.com/performances/plan-your-visit.html\">Plan Your Visit</a> page before purchasing tickets.<span><br/></span><span><br/></span>If sold out, please contact the OTP Box Office to be added to the waiting list.<span><br/></span><span><br/></span>No refunds; exchanges often possible more than 24 hours before a performance.<span><br/></span>
-""";
-  schema:startDate "2025-10-17T19:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1cb683b4-d6b4-42b1-997b-c541d8171303.jpg>;
-  schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06095;
-  schema:duration "PT90M";
-  schema:endDate "2025-10-17T21:00:00"^^xsd:dateTime .
-
-_:e6aa4b1f331c411a8fa91dc61027f3f06095 a schema:AggregateOffer;
-  schema:lowPrice "10.0";
-  schema:priceCurrency "CAD" .
-
 <http://www.spektrix.com/oldtownplayhouse/event/41201ATDVHVNDPRBLKPLQHLVPNSCNQLLP>
   a schema:Event;
   schema:name "ATP: Heaven on Their Minds";
@@ -57,11 +45,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06095 a schema:AggregateOffer;
   schema:startDate "2025-10-18T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1cb683b4-d6b4-42b1-997b-c541d8171303.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06096;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5988;
   schema:duration "PT90M";
   schema:endDate "2025-10-18T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06096 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee5988 a schema:AggregateOffer;
   schema:lowPrice "10.0";
   schema:priceCurrency "CAD" .
 
@@ -74,11 +62,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06096 a schema:AggregateOffer;
   schema:startDate "2025-10-18T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1cb683b4-d6b4-42b1-997b-c541d8171303.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06097;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5989;
   schema:duration "PT90M";
   schema:endDate "2025-10-18T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06097 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee5989 a schema:AggregateOffer;
   schema:lowPrice "10.0";
   schema:priceCurrency "CAD" .
 
@@ -91,11 +79,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06097 a schema:AggregateOffer;
   schema:startDate "2025-07-25T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/69ce91b7-fe2e-47a3-99b2-9543b12da87d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06098;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5990;
   schema:duration "PT90M";
   schema:endDate "2025-07-25T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06098 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee5990 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -119,11 +107,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06098 a schema:AggregateOffer;
   schema:startDate "2025-07-26T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/69ce91b7-fe2e-47a3-99b2-9543b12da87d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06099;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5991;
   schema:duration "PT90M";
   schema:endDate "2025-07-26T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06099 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee5991 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -136,11 +124,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06099 a schema:AggregateOffer;
   schema:startDate "2025-07-26T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/69ce91b7-fe2e-47a3-99b2-9543b12da87d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06100;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5992;
   schema:duration "PT90M";
   schema:endDate "2025-07-26T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06100 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee5992 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -153,62 +141,62 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06100 a schema:AggregateOffer;
   schema:startDate "2025-07-27T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/69ce91b7-fe2e-47a3-99b2-9543b12da87d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06101;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5993;
   schema:duration "PT90M";
   schema:endDate "2025-07-27T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06101 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee5993 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
-<http://www.spektrix.com/oldtownplayhouse/event/37801AKCRRQNMLVLKQJBSQBHRPCKVJJNK>
+<http://www.spektrix.com/oldtownplayhouse/event/44801AVQJMVSBSCDMRGLRKNLTGJPHPNQG>
   a schema:Event;
-  schema:name "Behind the Curtains - Shrek KIDS";
+  schema:name "Behind the Curtains - Willy Wonka KIDS";
   schema:description """
 
 """;
-  schema:startDate "2025-09-09T16:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/00d0a141-83ad-48c0-aa47-98b244ae3acb.jpg>;
+  schema:startDate "2026-03-03T16:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/137e68ea-f8ca-44f0-8f02-e0be02169f38.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06102;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5994;
   schema:duration "PT60M";
-  schema:endDate "2025-09-09T17:30:00"^^xsd:dateTime .
+  schema:endDate "2026-03-03T17:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06102 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee5994 a schema:AggregateOffer;
   schema:lowPrice "200.0";
   schema:priceCurrency "CAD" .
 
-<http://www.spektrix.com/oldtownplayhouse/event/37201ANNHRQCTNHTBVHBGGJGJCBQDGBJG>
+<http://www.spektrix.com/oldtownplayhouse/event/44601AVBDVLNHRGJHQBVDLKSCHSSDGBJK>
   a schema:Event;
-  schema:name "Creative Play - Shrek KIDS";
+  schema:name "Creative Play - Willy Wonka KIDS";
   schema:description """
 
 """;
-  schema:startDate "2025-09-09T16:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/7e000b72-241d-46f3-8766-afec5c59ab9d.jpg>;
+  schema:startDate "2026-03-03T16:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/46a8ad9f-1366-4cde-9e33-6d81af552b26.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06103;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5995;
   schema:duration "PT60M";
-  schema:endDate "2025-09-09T17:30:00"^^xsd:dateTime .
+  schema:endDate "2026-03-03T17:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06103 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee5995 a schema:AggregateOffer;
   schema:lowPrice "200.0";
   schema:priceCurrency "CAD" .
 
-<http://www.spektrix.com/oldtownplayhouse/event/37601AJTVHGLQVMBGHJGCMHJCHGMKKBDC>
+<http://www.spektrix.com/oldtownplayhouse/event/44402ARSKSDSPTVQNLMJKCKBKCCVNQJCG>
   a schema:Event;
-  schema:name "Drama Debut - Rumpelstiltskin";
+  schema:name "Drama Debut - Children of Lir";
   schema:description """
 
 """;
-  schema:startDate "2025-09-08T16:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/8103ba01-3184-455a-916f-769c8199f8a2.jpg>;
+  schema:startDate "2026-03-02T16:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/862326c6-590c-457f-88f0-0d7843ee9c65.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06104;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5996;
   schema:duration "PT60M";
-  schema:endDate "2025-09-08T17:30:00"^^xsd:dateTime .
+  schema:endDate "2026-03-02T17:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06104 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee5996 a schema:AggregateOffer;
   schema:lowPrice "200.0";
   schema:priceCurrency "CAD" .
 
@@ -220,11 +208,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06104 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-18T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06105;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5997;
   schema:duration "PT60M";
   schema:endDate "2025-11-18T19:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06105 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee5997 a schema:AggregateOffer;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
 
@@ -237,11 +225,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06105 a schema:AggregateOffer;
   schema:startDate "2026-05-15T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/6cf016f0-9051-49dd-a40c-224723dad917.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06106;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5998;
   schema:duration "PT120M";
   schema:endDate "2026-05-15T21:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06106 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee5998 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -254,11 +242,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06106 a schema:AggregateOffer;
   schema:startDate "2026-05-16T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/6cf016f0-9051-49dd-a40c-224723dad917.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06107;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee5999;
   schema:duration "PT120M";
   schema:endDate "2026-05-16T21:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06107 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee5999 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -271,11 +259,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06107 a schema:AggregateOffer;
   schema:startDate "2026-05-17T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/6cf016f0-9051-49dd-a40c-224723dad917.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06108;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6000;
   schema:duration "PT120M";
   schema:endDate "2026-05-17T16:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06108 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6000 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -288,11 +276,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06108 a schema:AggregateOffer;
   schema:startDate "2026-05-21T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/6cf016f0-9051-49dd-a40c-224723dad917.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06109;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6001;
   schema:duration "PT120M";
   schema:endDate "2026-05-21T21:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06109 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6001 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -305,11 +293,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06109 a schema:AggregateOffer;
   schema:startDate "2026-05-22T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/6cf016f0-9051-49dd-a40c-224723dad917.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06110;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6002;
   schema:duration "PT120M";
   schema:endDate "2026-05-22T21:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06110 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6002 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -322,11 +310,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06110 a schema:AggregateOffer;
   schema:startDate "2026-05-23T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/6cf016f0-9051-49dd-a40c-224723dad917.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06111;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6003;
   schema:duration "PT120M";
   schema:endDate "2026-05-23T21:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06111 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6003 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -339,11 +327,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06111 a schema:AggregateOffer;
   schema:startDate "2025-08-09T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/ed9510a0-32f1-4b15-ace2-c393cc7deea2.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06112;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6004;
   schema:duration "PT90M";
   schema:endDate "2025-08-09T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06112 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6004 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -356,11 +344,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06112 a schema:AggregateOffer;
   schema:startDate "2025-08-09T17:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/ed9510a0-32f1-4b15-ace2-c393cc7deea2.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06113;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6005;
   schema:duration "PT90M";
   schema:endDate "2025-08-09T18:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06113 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6005 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -373,11 +361,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06113 a schema:AggregateOffer;
   schema:startDate "2025-08-16T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/ed9510a0-32f1-4b15-ace2-c393cc7deea2.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06114;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6006;
   schema:duration "PT90M";
   schema:endDate "2025-08-16T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06114 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6006 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -390,11 +378,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06114 a schema:AggregateOffer;
   schema:startDate "2025-08-16T17:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/ed9510a0-32f1-4b15-ace2-c393cc7deea2.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06115;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6007;
   schema:duration "PT90M";
   schema:endDate "2025-08-16T18:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06115 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6007 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -407,11 +395,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06115 a schema:AggregateOffer;
   schema:startDate "2025-08-23T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/ed9510a0-32f1-4b15-ace2-c393cc7deea2.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06116;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6008;
   schema:duration "PT90M";
   schema:endDate "2025-08-23T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06116 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6008 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -424,11 +412,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06116 a schema:AggregateOffer;
   schema:startDate "2025-08-23T17:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/ed9510a0-32f1-4b15-ace2-c393cc7deea2.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06117;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6009;
   schema:duration "PT90M";
   schema:endDate "2025-08-23T18:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06117 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6009 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -441,11 +429,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06117 a schema:AggregateOffer;
   schema:startDate "2025-06-19T17:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/2cc8d161-897d-44b1-a0e0-d2b10dd2546b.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/413AQMCVGSSDBPJPNNJKRQRSMGMTDKJMR>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06118;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6010;
   schema:duration "PT210M";
   schema:endDate "2025-06-19T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06118 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6010 a schema:AggregateOffer;
   schema:lowPrice "75.0";
   schema:priceCurrency "CAD" .
 
@@ -469,30 +457,25 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06118 a schema:AggregateOffer;
   schema:startDate "2025-07-14T18:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/4984393e-929e-4596-983d-7810fc59fcba.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06119;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6011;
   schema:duration "PT150M";
   schema:endDate "2025-07-14T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06119 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6011 a schema:AggregateOffer;
   schema:lowPrice "100.0";
   schema:priceCurrency "CAD" .
 
-<http://www.spektrix.com/oldtownplayhouse/event/37401ACMVCJPTCNKQSKTHCVRCQVKKGRPH>
+<http://www.spektrix.com/oldtownplayhouse/event/45001APSKGSQJNQPLCLJCBDHPHSDJVPSS>
   a schema:Event;
-  schema:name "Intro to Musical Theatre - Shrek KIDS";
+  schema:name "Intro to Musical Theatre - Willy Wonka KIDS";
   schema:description """
 
 """;
-  schema:startDate "2025-09-10T16:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/e1f8bfae-978c-4737-95ef-f77a71aac4ab.jpg>;
+  schema:startDate "2026-03-04T16:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1a11e1aa-83a3-494e-8e21-7c392f0a1a9d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06120;
   schema:duration "PT60M";
-  schema:endDate "2025-09-10T17:30:00"^^xsd:dateTime .
-
-_:e6aa4b1f331c411a8fa91dc61027f3f06120 a schema:AggregateOffer;
-  schema:lowPrice "200.0";
-  schema:priceCurrency "CAD" .
+  schema:endDate "2026-03-04T17:30:00"^^xsd:dateTime .
 
 <http://www.spektrix.com/oldtownplayhouse/event/25001ADDVSKQBVSNBTBDPCMQTVGBHJDPN>
   a schema:Event;
@@ -503,11 +486,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06120 a schema:AggregateOffer;
   schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/74ea7e17-3a3e-491c-8c0d-568cbbcb28fc.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06121;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6012;
   schema:duration "PT90M";
   schema:endDate "2026-02-13T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06121 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6012 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -520,11 +503,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06121 a schema:AggregateOffer;
   schema:startDate "2026-02-14T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/74ea7e17-3a3e-491c-8c0d-568cbbcb28fc.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06122;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6013;
   schema:duration "PT90M";
   schema:endDate "2026-02-14T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06122 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6013 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -537,11 +520,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06122 a schema:AggregateOffer;
   schema:startDate "2026-02-15T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/74ea7e17-3a3e-491c-8c0d-568cbbcb28fc.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06123;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6014;
   schema:duration "PT90M";
   schema:endDate "2026-02-15T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06123 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6014 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -554,11 +537,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06123 a schema:AggregateOffer;
   schema:startDate "2026-02-19T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/74ea7e17-3a3e-491c-8c0d-568cbbcb28fc.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06124;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6015;
   schema:duration "PT90M";
   schema:endDate "2026-02-19T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06124 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6015 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -571,11 +554,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06124 a schema:AggregateOffer;
   schema:startDate "2026-02-20T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/74ea7e17-3a3e-491c-8c0d-568cbbcb28fc.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06125;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6016;
   schema:duration "PT90M";
   schema:endDate "2026-02-20T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06125 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6016 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -588,29 +571,12 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06125 a schema:AggregateOffer;
   schema:startDate "2026-02-21T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/74ea7e17-3a3e-491c-8c0d-568cbbcb28fc.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06126;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6017;
   schema:duration "PT90M";
   schema:endDate "2026-02-21T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06126 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6017 a schema:AggregateOffer;
   schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/oldtownplayhouse/event/37402ASDRDJLVHHRLQTNLKTHVRCRQLRMN>
-  a schema:Event;
-  schema:name "Musical Theatre Performance - Shrek KIDS";
-  schema:description """
-
-""";
-  schema:startDate "2025-09-11T16:30:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/9bd3acb9-7100-4ba8-b25f-a4f9db95c347.jpg>;
-  schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06127;
-  schema:duration "PT90M";
-  schema:endDate "2025-09-11T18:00:00"^^xsd:dateTime .
-
-_:e6aa4b1f331c411a8fa91dc61027f3f06127 a schema:AggregateOffer;
-  schema:lowPrice "250.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/oldtownplayhouse/event/21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC>
@@ -622,11 +588,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06127 a schema:AggregateOffer;
   schema:startDate "2026-06-05T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/e6c2acf0-3b48-49ed-b4b1-7164795082ad.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06128;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6018;
   schema:duration "PT90M";
   schema:endDate "2026-06-05T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06128 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6018 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -639,11 +605,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06128 a schema:AggregateOffer;
   schema:startDate "2026-06-06T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/e6c2acf0-3b48-49ed-b4b1-7164795082ad.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06129;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6019;
   schema:duration "PT90M";
   schema:endDate "2026-06-06T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06129 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6019 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -656,11 +622,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06129 a schema:AggregateOffer;
   schema:startDate "2026-06-06T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/e6c2acf0-3b48-49ed-b4b1-7164795082ad.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06130;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6020;
   schema:duration "PT90M";
   schema:endDate "2026-06-06T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06130 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6020 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -673,11 +639,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06130 a schema:AggregateOffer;
   schema:startDate "2026-06-07T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/e6c2acf0-3b48-49ed-b4b1-7164795082ad.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06131;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6021;
   schema:duration "PT90M";
   schema:endDate "2026-06-07T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06131 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6021 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -690,11 +656,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06131 a schema:AggregateOffer;
   schema:startDate "2026-06-11T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/e6c2acf0-3b48-49ed-b4b1-7164795082ad.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06132;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6022;
   schema:duration "PT90M";
   schema:endDate "2026-06-11T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06132 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6022 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -707,11 +673,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06132 a schema:AggregateOffer;
   schema:startDate "2026-06-12T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/e6c2acf0-3b48-49ed-b4b1-7164795082ad.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06133;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6023;
   schema:duration "PT90M";
   schema:endDate "2026-06-12T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06133 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6023 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -724,11 +690,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06133 a schema:AggregateOffer;
   schema:startDate "2026-06-13T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/e6c2acf0-3b48-49ed-b4b1-7164795082ad.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06134;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6024;
   schema:duration "PT90M";
   schema:endDate "2026-06-13T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06134 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6024 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -741,11 +707,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06134 a schema:AggregateOffer;
   schema:startDate "2026-06-13T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/e6c2acf0-3b48-49ed-b4b1-7164795082ad.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06135;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6025;
   schema:duration "PT90M";
   schema:endDate "2026-06-13T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06135 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6025 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -758,11 +724,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06135 a schema:AggregateOffer;
   schema:startDate "2025-05-03T09:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/071997d1-a778-4d6a-a0be-e9bccbfdc37d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06136;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6026;
   schema:duration "PT60M";
   schema:endDate "2025-05-03T10:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06136 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6026 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -775,11 +741,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06136 a schema:AggregateOffer;
   schema:startDate "2026-03-13T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/75fd97eb-9451-4d24-8428-882fcb1270da.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06137;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6027;
   schema:duration "PT90M";
   schema:endDate "2026-03-13T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06137 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6027 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -792,11 +758,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06137 a schema:AggregateOffer;
   schema:startDate "2026-03-14T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/75fd97eb-9451-4d24-8428-882fcb1270da.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06138;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6028;
   schema:duration "PT90M";
   schema:endDate "2026-03-14T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06138 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6028 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -809,11 +775,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06138 a schema:AggregateOffer;
   schema:startDate "2026-03-15T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/75fd97eb-9451-4d24-8428-882fcb1270da.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06139;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6029;
   schema:duration "PT90M";
   schema:endDate "2026-03-15T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06139 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6029 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -826,11 +792,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06139 a schema:AggregateOffer;
   schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/75fd97eb-9451-4d24-8428-882fcb1270da.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06140;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6030;
   schema:duration "PT90M";
   schema:endDate "2026-03-20T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06140 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6030 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -843,11 +809,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06140 a schema:AggregateOffer;
   schema:startDate "2026-03-21T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/75fd97eb-9451-4d24-8428-882fcb1270da.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06141;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6031;
   schema:duration "PT90M";
   schema:endDate "2026-03-21T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06141 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6031 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -860,11 +826,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06141 a schema:AggregateOffer;
   schema:startDate "2025-06-27T18:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/e09d37e0-7ea7-43f5-a18e-4bba331a7ae5.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06142;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6032;
   schema:duration "PT60M";
   schema:endDate "2025-06-27T19:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06142 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6032 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -877,11 +843,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06142 a schema:AggregateOffer;
   schema:startDate "2025-06-27T18:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/e09d37e0-7ea7-43f5-a18e-4bba331a7ae5.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06143;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6033;
   schema:duration "PT60M";
   schema:endDate "2025-06-27T19:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06143 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6033 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -894,11 +860,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06143 a schema:AggregateOffer;
   schema:startDate "2025-07-18T18:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/e09d37e0-7ea7-43f5-a18e-4bba331a7ae5.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06144;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6034;
   schema:duration "PT60M";
   schema:endDate "2025-07-18T19:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06144 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6034 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -911,11 +877,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06144 a schema:AggregateOffer;
   schema:startDate "2025-12-05T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a9dfe98a-7d2a-4b34-be67-32ea47572f21.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06145;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6035;
   schema:duration "PT150M";
   schema:endDate "2025-12-05T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06145 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6035 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -928,11 +894,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06145 a schema:AggregateOffer;
   schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a9dfe98a-7d2a-4b34-be67-32ea47572f21.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06146;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6036;
   schema:duration "PT150M";
   schema:endDate "2025-12-06T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06146 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6036 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -945,11 +911,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06146 a schema:AggregateOffer;
   schema:startDate "2025-12-07T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a9dfe98a-7d2a-4b34-be67-32ea47572f21.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06147;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6037;
   schema:duration "PT150M";
   schema:endDate "2025-12-07T16:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06147 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6037 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -962,11 +928,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06147 a schema:AggregateOffer;
   schema:startDate "2025-12-11T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a9dfe98a-7d2a-4b34-be67-32ea47572f21.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06148;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6038;
   schema:duration "PT150M";
   schema:endDate "2025-12-11T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06148 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6038 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -979,11 +945,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06148 a schema:AggregateOffer;
   schema:startDate "2025-12-12T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a9dfe98a-7d2a-4b34-be67-32ea47572f21.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06149;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6039;
   schema:duration "PT150M";
   schema:endDate "2025-12-12T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06149 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6039 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -996,11 +962,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06149 a schema:AggregateOffer;
   schema:startDate "2025-12-13T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a9dfe98a-7d2a-4b34-be67-32ea47572f21.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06150;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6040;
   schema:duration "PT150M";
   schema:endDate "2025-12-13T16:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06150 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6040 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1013,11 +979,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06150 a schema:AggregateOffer;
   schema:startDate "2025-12-13T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a9dfe98a-7d2a-4b34-be67-32ea47572f21.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06151;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6041;
   schema:duration "PT150M";
   schema:endDate "2025-12-13T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06151 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6041 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1030,11 +996,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06151 a schema:AggregateOffer;
   schema:startDate "2025-12-14T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a9dfe98a-7d2a-4b34-be67-32ea47572f21.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06152;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6042;
   schema:duration "PT150M";
   schema:endDate "2025-12-14T16:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06152 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6042 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1047,11 +1013,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06152 a schema:AggregateOffer;
   schema:startDate "2025-12-18T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a9dfe98a-7d2a-4b34-be67-32ea47572f21.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06153;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6043;
   schema:duration "PT150M";
   schema:endDate "2025-12-18T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06153 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6043 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1064,11 +1030,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06153 a schema:AggregateOffer;
   schema:startDate "2025-12-19T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a9dfe98a-7d2a-4b34-be67-32ea47572f21.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06154;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6044;
   schema:duration "PT150M";
   schema:endDate "2025-12-19T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06154 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6044 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1081,11 +1047,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06154 a schema:AggregateOffer;
   schema:startDate "2025-12-20T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a9dfe98a-7d2a-4b34-be67-32ea47572f21.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06155;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6045;
   schema:duration "PT150M";
   schema:endDate "2025-12-20T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06155 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6045 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1098,11 +1064,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06155 a schema:AggregateOffer;
   schema:startDate "2026-01-09T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/cdbd0bde-704d-4aa5-b96d-ce2810882ff9.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06156;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6046;
   schema:duration "PT60M";
   schema:endDate "2026-01-09T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06156 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6046 a schema:AggregateOffer;
   schema:lowPrice "10.0";
   schema:priceCurrency "CAD" .
 
@@ -1115,11 +1081,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06156 a schema:AggregateOffer;
   schema:startDate "2026-01-10T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/cdbd0bde-704d-4aa5-b96d-ce2810882ff9.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06157;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6047;
   schema:duration "PT60M";
   schema:endDate "2026-01-10T15:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06157 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6047 a schema:AggregateOffer;
   schema:lowPrice "10.0";
   schema:priceCurrency "CAD" .
 
@@ -1132,11 +1098,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06157 a schema:AggregateOffer;
   schema:startDate "2026-01-10T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/cdbd0bde-704d-4aa5-b96d-ce2810882ff9.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06158;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6048;
   schema:duration "PT60M";
   schema:endDate "2026-01-10T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06158 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6048 a schema:AggregateOffer;
   schema:lowPrice "10.0";
   schema:priceCurrency "CAD" .
 
@@ -1149,11 +1115,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06158 a schema:AggregateOffer;
   schema:startDate "2025-09-27T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/58343791-72ed-42f1-aab1-afcfd79fe2e9.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06159;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6049;
   schema:duration "PT120M";
   schema:endDate "2025-09-27T16:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06159 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6049 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1166,11 +1132,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06159 a schema:AggregateOffer;
   schema:startDate "2025-10-25T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/58343791-72ed-42f1-aab1-afcfd79fe2e9.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06160;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6050;
   schema:duration "PT120M";
   schema:endDate "2025-10-25T16:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06160 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6050 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1183,11 +1149,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06160 a schema:AggregateOffer;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/58343791-72ed-42f1-aab1-afcfd79fe2e9.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06161;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6051;
   schema:duration "PT120M";
   schema:endDate "2025-11-22T16:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06161 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6051 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1200,11 +1166,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06161 a schema:AggregateOffer;
   schema:startDate "2025-09-12T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1912345c-2c17-4789-b811-448a45f22e4d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06162;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6052;
   schema:duration "PT150M";
   schema:endDate "2025-09-12T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06162 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6052 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1217,11 +1183,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06162 a schema:AggregateOffer;
   schema:startDate "2025-09-13T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1912345c-2c17-4789-b811-448a45f22e4d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06163;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6053;
   schema:duration "PT150M";
   schema:endDate "2025-09-13T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06163 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6053 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1234,11 +1200,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06163 a schema:AggregateOffer;
   schema:startDate "2025-09-14T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1912345c-2c17-4789-b811-448a45f22e4d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06164;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6054;
   schema:duration "PT150M";
   schema:endDate "2025-09-14T16:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06164 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6054 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1251,11 +1217,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06164 a schema:AggregateOffer;
   schema:startDate "2025-09-18T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1912345c-2c17-4789-b811-448a45f22e4d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06165;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6055;
   schema:duration "PT150M";
   schema:endDate "2025-09-18T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06165 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6055 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1268,11 +1234,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06165 a schema:AggregateOffer;
   schema:startDate "2025-09-19T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1912345c-2c17-4789-b811-448a45f22e4d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06166;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6056;
   schema:duration "PT150M";
   schema:endDate "2025-09-19T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06166 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6056 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1285,11 +1251,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06166 a schema:AggregateOffer;
   schema:startDate "2025-09-20T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1912345c-2c17-4789-b811-448a45f22e4d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06167;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6057;
   schema:duration "PT150M";
   schema:endDate "2025-09-20T16:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06167 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6057 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1302,11 +1268,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06167 a schema:AggregateOffer;
   schema:startDate "2025-09-20T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1912345c-2c17-4789-b811-448a45f22e4d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06168;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6058;
   schema:duration "PT150M";
   schema:endDate "2025-09-20T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06168 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6058 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1319,11 +1285,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06168 a schema:AggregateOffer;
   schema:startDate "2025-09-21T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1912345c-2c17-4789-b811-448a45f22e4d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06169;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6059;
   schema:duration "PT150M";
   schema:endDate "2025-09-21T16:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06169 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6059 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1336,11 +1302,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06169 a schema:AggregateOffer;
   schema:startDate "2025-09-25T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1912345c-2c17-4789-b811-448a45f22e4d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06170;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6060;
   schema:duration "PT150M";
   schema:endDate "2025-09-25T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06170 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6060 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1353,11 +1319,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06170 a schema:AggregateOffer;
   schema:startDate "2025-09-26T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1912345c-2c17-4789-b811-448a45f22e4d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06171;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6061;
   schema:duration "PT150M";
   schema:endDate "2025-09-26T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06171 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6061 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1370,12 +1336,29 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06171 a schema:AggregateOffer;
   schema:startDate "2025-09-27T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/1912345c-2c17-4789-b811-448a45f22e4d.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06172;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6062;
   schema:duration "PT150M";
   schema:endDate "2025-09-27T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06172 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6062 a schema:AggregateOffer;
   schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/oldtownplayhouse/event/45401AJDKTHQLVSLBBVQGBPQSVNVKLQMM>
+  a schema:Event;
+  schema:name "Spring Break Camp - Robin Hood: Naught in Nottingham";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-30T09:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/0a9dbcfd-0574-4af2-930d-1cb8085a05b4.jpg>;
+  schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6063;
+  schema:duration "PT360M";
+  schema:endDate "2026-03-30T15:30:00"^^xsd:dateTime .
+
+_:1834a929e3644c8e9ad20dc3077b7aee6063 a schema:AggregateOffer;
+  schema:lowPrice "300.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/oldtownplayhouse/event/34001AGQQHTLTHTMBJQGPRQRMLLBGHNMV>
@@ -1387,11 +1370,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06172 a schema:AggregateOffer;
   schema:startDate "2025-08-01T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/2f2d5bab-21b0-4df7-814c-8fcc72058bbd.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06173;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6064;
   schema:duration "PT90M";
   schema:endDate "2025-08-01T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06173 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6064 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1404,11 +1387,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06173 a schema:AggregateOffer;
   schema:startDate "2025-08-02T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/2f2d5bab-21b0-4df7-814c-8fcc72058bbd.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06174;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6065;
   schema:duration "PT90M";
   schema:endDate "2025-08-02T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06174 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6065 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1421,22 +1404,39 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06174 a schema:AggregateOffer;
   schema:startDate "2025-08-02T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/2f2d5bab-21b0-4df7-814c-8fcc72058bbd.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06175;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6066;
   schema:duration "PT90M";
   schema:endDate "2025-08-02T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06175 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6066 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
-<https://spektrix.com/oldtownplayhouse/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>
-  a schema:Place;
-  schema:name "The MATCH";
-  schema:address <https://spektrix.com/oldtownplayhouse/address/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ> .
+<http://www.spektrix.com/oldtownplayhouse/event/45201ARKHJCBNTTPVRDPLBGRLGJLSLDSJ>
+  a schema:Event;
+  schema:name "Tech Class - Once Upon A Mattress";
+  schema:description """
 
-<https://spektrix.com/oldtownplayhouse/address/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>
+""";
+  schema:startDate "2026-04-10T16:30:00"^^xsd:dateTime;
+  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/ab0529e7-d69b-489f-a990-a9d0e4cb7baa.jpg>;
+  schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6067;
+  schema:duration "PT90M";
+  schema:endDate "2026-04-10T18:00:00"^^xsd:dateTime .
+
+_:1834a929e3644c8e9ad20dc3077b7aee6067 a schema:AggregateOffer;
+  schema:lowPrice "250.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>
+  a schema:Place;
+  schema:name "Old Town Playhouse";
+  schema:address <https://spektrix.com/oldtownplayhouse/address/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> .
+
+<https://spektrix.com/oldtownplayhouse/address/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>
   a schema:PostalAddress;
-  schema:streetAddress "1728 S Garfield Ave";
+  schema:streetAddress "148 East Eighth St";
   schema:addressLocality "Traverse City";
   schema:addressCountry "CA" .
 
@@ -1449,11 +1449,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06175 a schema:AggregateOffer;
   schema:startDate "2025-11-08T17:45:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/4b5cf10f-ab30-49ef-9021-dc4a06a3b80b.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06176;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6068;
   schema:duration "PT90M";
   schema:endDate "2025-11-08T19:15:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06176 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6068 a schema:AggregateOffer;
   schema:lowPrice "75.0";
   schema:priceCurrency "CAD" .
 
@@ -1476,11 +1476,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06176 a schema:AggregateOffer;
   schema:startDate "2025-11-09T17:45:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/4b5cf10f-ab30-49ef-9021-dc4a06a3b80b.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06177;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6069;
   schema:duration "PT90M";
   schema:endDate "2025-11-09T19:15:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06177 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6069 a schema:AggregateOffer;
   schema:lowPrice "75.0";
   schema:priceCurrency "CAD" .
 
@@ -1493,24 +1493,13 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06177 a schema:AggregateOffer;
   schema:startDate "2026-04-17T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/56eff8a4-a101-44bd-8e52-a68ef2fc2e3e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06178;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6070;
   schema:duration "PT150M";
   schema:endDate "2026-04-17T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06178 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6070 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
-
-<https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>
-  a schema:Place;
-  schema:name "Old Town Playhouse";
-  schema:address <https://spektrix.com/oldtownplayhouse/address/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT> .
-
-<https://spektrix.com/oldtownplayhouse/address/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>
-  a schema:PostalAddress;
-  schema:streetAddress "148 East Eighth St";
-  schema:addressLocality "Traverse City";
-  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/oldtownplayhouse/event/26001APLNVRTPLBBPSVMJQSVGGNQMBRBG>
   a schema:Event;
@@ -1521,11 +1510,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06178 a schema:AggregateOffer;
   schema:startDate "2026-04-18T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/56eff8a4-a101-44bd-8e52-a68ef2fc2e3e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06179;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6071;
   schema:duration "PT150M";
   schema:endDate "2026-04-18T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06179 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6071 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1538,11 +1527,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06179 a schema:AggregateOffer;
   schema:startDate "2026-04-19T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/56eff8a4-a101-44bd-8e52-a68ef2fc2e3e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06180;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6072;
   schema:duration "PT150M";
   schema:endDate "2026-04-19T16:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06180 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6072 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1555,11 +1544,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06180 a schema:AggregateOffer;
   schema:startDate "2026-04-24T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/56eff8a4-a101-44bd-8e52-a68ef2fc2e3e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06181;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6073;
   schema:duration "PT150M";
   schema:endDate "2026-04-24T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06181 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6073 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1572,11 +1561,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06181 a schema:AggregateOffer;
   schema:startDate "2026-04-25T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/56eff8a4-a101-44bd-8e52-a68ef2fc2e3e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06182;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6074;
   schema:duration "PT150M";
   schema:endDate "2026-04-25T16:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06182 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6074 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1589,11 +1578,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06182 a schema:AggregateOffer;
   schema:startDate "2026-04-25T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/56eff8a4-a101-44bd-8e52-a68ef2fc2e3e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06183;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6075;
   schema:duration "PT150M";
   schema:endDate "2026-04-25T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06183 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6075 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1606,11 +1595,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06183 a schema:AggregateOffer;
   schema:startDate "2026-04-26T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/56eff8a4-a101-44bd-8e52-a68ef2fc2e3e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06184;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6076;
   schema:duration "PT150M";
   schema:endDate "2026-04-26T16:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06184 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6076 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1623,11 +1612,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06184 a schema:AggregateOffer;
   schema:startDate "2026-04-30T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/56eff8a4-a101-44bd-8e52-a68ef2fc2e3e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06185;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6077;
   schema:duration "PT150M";
   schema:endDate "2026-04-30T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06185 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6077 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1640,11 +1629,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06185 a schema:AggregateOffer;
   schema:startDate "2026-05-01T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/56eff8a4-a101-44bd-8e52-a68ef2fc2e3e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06186;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6078;
   schema:duration "PT150M";
   schema:endDate "2026-05-01T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06186 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6078 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1657,11 +1646,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06186 a schema:AggregateOffer;
   schema:startDate "2026-05-02T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/56eff8a4-a101-44bd-8e52-a68ef2fc2e3e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06187;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6079;
   schema:duration "PT150M";
   schema:endDate "2026-05-02T22:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06187 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6079 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1674,11 +1663,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06187 a schema:AggregateOffer;
   schema:startDate "2026-03-26T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/0ee4bd6e-8d50-4d47-a288-ebbed82c2b5e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06188;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6080;
   schema:duration "PT90M";
   schema:endDate "2026-03-26T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06188 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6080 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1691,11 +1680,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06188 a schema:AggregateOffer;
   schema:startDate "2026-03-27T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/0ee4bd6e-8d50-4d47-a288-ebbed82c2b5e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06189;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6081;
   schema:duration "PT90M";
   schema:endDate "2026-03-27T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06189 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6081 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1708,11 +1697,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06189 a schema:AggregateOffer;
   schema:startDate "2026-03-28T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/0ee4bd6e-8d50-4d47-a288-ebbed82c2b5e.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06190;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6082;
   schema:duration "PT90M";
   schema:endDate "2026-03-28T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06190 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6082 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1725,11 +1714,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06190 a schema:AggregateOffer;
   schema:startDate "2026-01-16T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/46b89960-425d-4c09-a25a-c7c4e2779b82.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06191;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6083;
   schema:duration "PT90M";
   schema:endDate "2026-01-16T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06191 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6083 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1742,11 +1731,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06191 a schema:AggregateOffer;
   schema:startDate "2026-01-17T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/46b89960-425d-4c09-a25a-c7c4e2779b82.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06192;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6084;
   schema:duration "PT90M";
   schema:endDate "2026-01-17T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06192 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6084 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1759,11 +1748,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06192 a schema:AggregateOffer;
   schema:startDate "2026-01-17T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/46b89960-425d-4c09-a25a-c7c4e2779b82.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06193;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6085;
   schema:duration "PT90M";
   schema:endDate "2026-01-17T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06193 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6085 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1776,11 +1765,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06193 a schema:AggregateOffer;
   schema:startDate "2026-01-18T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/46b89960-425d-4c09-a25a-c7c4e2779b82.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06194;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6086;
   schema:duration "PT90M";
   schema:endDate "2026-01-18T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06194 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6086 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1793,11 +1782,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06194 a schema:AggregateOffer;
   schema:startDate "2026-01-22T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/46b89960-425d-4c09-a25a-c7c4e2779b82.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06195;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6087;
   schema:duration "PT90M";
   schema:endDate "2026-01-22T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06195 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6087 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1810,11 +1799,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06195 a schema:AggregateOffer;
   schema:startDate "2026-01-23T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/46b89960-425d-4c09-a25a-c7c4e2779b82.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06196;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6088;
   schema:duration "PT90M";
   schema:endDate "2026-01-23T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06196 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6088 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1827,11 +1816,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06196 a schema:AggregateOffer;
   schema:startDate "2026-01-24T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/46b89960-425d-4c09-a25a-c7c4e2779b82.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06197;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6089;
   schema:duration "PT90M";
   schema:endDate "2026-01-24T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06197 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6089 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1844,11 +1833,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06197 a schema:AggregateOffer;
   schema:startDate "2026-01-24T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/46b89960-425d-4c09-a25a-c7c4e2779b82.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06198;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6090;
   schema:duration "PT90M";
   schema:endDate "2026-01-24T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06198 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6090 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1861,11 +1850,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06198 a schema:AggregateOffer;
   schema:startDate "2025-10-31T16:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/9e4820d2-a88f-4878-80ef-585d2a3c90d2.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06199;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6091;
   schema:duration "PT90M";
   schema:endDate "2025-10-31T18:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06199 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6091 a schema:AggregateOffer;
   schema:lowPrice "250.0";
   schema:priceCurrency "CAD" .
 
@@ -1878,11 +1867,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06199 a schema:AggregateOffer;
   schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/6dd8160e-fffc-4ec7-ae3c-99fcbd7abc3c.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06200;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6092;
   schema:duration "PT90M";
   schema:endDate "2025-11-14T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06200 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6092 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1895,11 +1884,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06200 a schema:AggregateOffer;
   schema:startDate "2025-11-15T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/6dd8160e-fffc-4ec7-ae3c-99fcbd7abc3c.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06201;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6093;
   schema:duration "PT90M";
   schema:endDate "2025-11-15T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06201 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6093 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1912,11 +1901,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06201 a schema:AggregateOffer;
   schema:startDate "2025-11-16T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/6dd8160e-fffc-4ec7-ae3c-99fcbd7abc3c.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06202;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6094;
   schema:duration "PT90M";
   schema:endDate "2025-11-16T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06202 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6094 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1929,11 +1918,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06202 a schema:AggregateOffer;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/6dd8160e-fffc-4ec7-ae3c-99fcbd7abc3c.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06203;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6095;
   schema:duration "PT90M";
   schema:endDate "2025-11-21T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06203 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6095 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1946,11 +1935,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06203 a schema:AggregateOffer;
   schema:startDate "2025-11-22T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/6dd8160e-fffc-4ec7-ae3c-99fcbd7abc3c.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06204;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6096;
   schema:duration "PT90M";
   schema:endDate "2025-11-22T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06204 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6096 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1963,11 +1952,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06204 a schema:AggregateOffer;
   schema:startDate "2025-07-18T13:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/f1f60176-3a90-44ac-ac59-ff817eea94f5.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06205;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6097;
   schema:duration "PT90M";
   schema:endDate "2025-07-18T14:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06205 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6097 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1980,11 +1969,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06205 a schema:AggregateOffer;
   schema:startDate "2025-07-18T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/f1f60176-3a90-44ac-ac59-ff817eea94f5.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06206;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6098;
   schema:duration "PT90M";
   schema:endDate "2025-07-18T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06206 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6098 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -1997,11 +1986,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06206 a schema:AggregateOffer;
   schema:startDate "2025-07-19T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/f1f60176-3a90-44ac-ac59-ff817eea94f5.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06207;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6099;
   schema:duration "PT90M";
   schema:endDate "2025-07-19T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06207 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6099 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -2014,11 +2003,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06207 a schema:AggregateOffer;
   schema:startDate "2025-07-19T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/f1f60176-3a90-44ac-ac59-ff817eea94f5.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06208;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6100;
   schema:duration "PT90M";
   schema:endDate "2025-07-19T20:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06208 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6100 a schema:AggregateOffer;
   schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
@@ -2031,11 +2020,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06208 a schema:AggregateOffer;
   schema:startDate "2025-08-21T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/5d692409-8793-4452-8a34-90fc58db2b76.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06209;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6101;
   schema:duration "PT120M";
   schema:endDate "2025-08-21T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06209 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6101 a schema:AggregateOffer;
   schema:lowPrice "22.0";
   schema:priceCurrency "CAD" .
 
@@ -2059,11 +2048,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06209 a schema:AggregateOffer;
   schema:startDate "2025-08-22T19:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/5d692409-8793-4452-8a34-90fc58db2b76.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06210;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6102;
   schema:duration "PT120M";
   schema:endDate "2025-08-22T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06210 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6102 a schema:AggregateOffer;
   schema:lowPrice "22.0";
   schema:priceCurrency "CAD" .
 
@@ -2076,11 +2065,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06210 a schema:AggregateOffer;
   schema:startDate "2025-08-23T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/5d692409-8793-4452-8a34-90fc58db2b76.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06211;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6103;
   schema:duration "PT120M";
   schema:endDate "2025-08-23T16:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06211 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6103 a schema:AggregateOffer;
   schema:lowPrice "22.0";
   schema:priceCurrency "CAD" .
 
@@ -2093,11 +2082,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06211 a schema:AggregateOffer;
   schema:startDate "2025-10-24T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/5fcfa255-d114-46e3-9dd3-3ceb048abe50.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06212;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6104;
   schema:duration "PT90M";
   schema:endDate "2025-10-24T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06212 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6104 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2110,11 +2099,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06212 a schema:AggregateOffer;
   schema:startDate "2025-10-25T18:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/5fcfa255-d114-46e3-9dd3-3ceb048abe50.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06213;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6105;
   schema:duration "PT90M";
   schema:endDate "2025-10-25T19:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06213 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6105 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2127,11 +2116,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06213 a schema:AggregateOffer;
   schema:startDate "2025-10-25T23:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/5fcfa255-d114-46e3-9dd3-3ceb048abe50.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06214;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6106;
   schema:duration "PT90M";
   schema:endDate "2025-10-26T00:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06214 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6106 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2144,11 +2133,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06214 a schema:AggregateOffer;
   schema:startDate "2025-10-29T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/5fcfa255-d114-46e3-9dd3-3ceb048abe50.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06215;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6107;
   schema:duration "PT90M";
   schema:endDate "2025-10-29T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06215 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6107 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2161,11 +2150,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06215 a schema:AggregateOffer;
   schema:startDate "2025-10-30T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/5fcfa255-d114-46e3-9dd3-3ceb048abe50.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06216;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6108;
   schema:duration "PT90M";
   schema:endDate "2025-10-30T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06216 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6108 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2178,11 +2167,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06216 a schema:AggregateOffer;
   schema:startDate "2025-10-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/5fcfa255-d114-46e3-9dd3-3ceb048abe50.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06217;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6109;
   schema:duration "PT90M";
   schema:endDate "2025-10-31T21:00:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06217 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6109 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2195,11 +2184,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06217 a schema:AggregateOffer;
   schema:startDate "2025-11-01T18:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/5fcfa255-d114-46e3-9dd3-3ceb048abe50.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06218;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6110;
   schema:duration "PT90M";
   schema:endDate "2025-11-01T19:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06218 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6110 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2212,11 +2201,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06218 a schema:AggregateOffer;
   schema:startDate "2025-11-01T23:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/5fcfa255-d114-46e3-9dd3-3ceb048abe50.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06219;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6111;
   schema:duration "PT90M";
   schema:endDate "2025-11-02T00:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06219 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6111 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2229,11 +2218,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06219 a schema:AggregateOffer;
   schema:startDate "2025-11-04T09:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/9aaee339-c85a-4c92-a16e-90d328a7e1a9.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06220;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6112;
   schema:duration "PT360M";
   schema:endDate "2025-11-04T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06220 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6112 a schema:AggregateOffer;
   schema:lowPrice "60.0";
   schema:priceCurrency "CAD" .
 
@@ -2246,11 +2235,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06220 a schema:AggregateOffer;
   schema:startDate "2025-11-26T09:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/9aaee339-c85a-4c92-a16e-90d328a7e1a9.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06221;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6113;
   schema:duration "PT360M";
   schema:endDate "2025-11-26T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06221 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6113 a schema:AggregateOffer;
   schema:lowPrice "60.0";
   schema:priceCurrency "CAD" .
 
@@ -2263,11 +2252,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06221 a schema:AggregateOffer;
   schema:startDate "2026-02-20T09:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/9aaee339-c85a-4c92-a16e-90d328a7e1a9.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06222;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6114;
   schema:duration "PT360M";
   schema:endDate "2026-02-20T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06222 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6114 a schema:AggregateOffer;
   schema:lowPrice "60.0";
   schema:priceCurrency "CAD" .
 
@@ -2280,11 +2269,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06222 a schema:AggregateOffer;
   schema:startDate "2026-03-27T09:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/9aaee339-c85a-4c92-a16e-90d328a7e1a9.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06223;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6115;
   schema:duration "PT360M";
   schema:endDate "2026-03-27T15:30:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06223 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6115 a schema:AggregateOffer;
   schema:lowPrice "60.0";
   schema:priceCurrency "CAD" .
 
@@ -2297,11 +2286,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06223 a schema:AggregateOffer;
   schema:startDate "2026-01-30T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a63c65a4-3ba3-492d-9348-de6964fd3f9c.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06224;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6116;
   schema:duration "PT135M";
   schema:endDate "2026-01-30T21:45:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06224 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6116 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2314,11 +2303,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06224 a schema:AggregateOffer;
   schema:startDate "2026-01-31T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a63c65a4-3ba3-492d-9348-de6964fd3f9c.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06225;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6117;
   schema:duration "PT135M";
   schema:endDate "2026-01-31T21:45:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06225 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6117 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2331,11 +2320,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06225 a schema:AggregateOffer;
   schema:startDate "2026-02-01T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a63c65a4-3ba3-492d-9348-de6964fd3f9c.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06226;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6118;
   schema:duration "PT135M";
   schema:endDate "2026-02-01T16:15:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06226 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6118 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2348,11 +2337,11 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06226 a schema:AggregateOffer;
   schema:startDate "2026-02-06T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a63c65a4-3ba3-492d-9348-de6964fd3f9c.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06227;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6119;
   schema:duration "PT135M";
   schema:endDate "2026-02-06T21:45:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06227 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6119 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2365,10 +2354,10 @@ _:e6aa4b1f331c411a8fa91dc61027f3f06227 a schema:AggregateOffer;
   schema:startDate "2026-02-07T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/oldtownplayhouse/files/a63c65a4-3ba3-492d-9348-de6964fd3f9c.jpg>;
   schema:location <https://spektrix.com/oldtownplayhouse/location/407AGBMNMGJMSNPVKJMSNVLRPHJBTDPHT>;
-  schema:offers _:e6aa4b1f331c411a8fa91dc61027f3f06228;
+  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee6120;
   schema:duration "PT135M";
   schema:endDate "2026-02-07T21:45:00"^^xsd:dateTime .
 
-_:e6aa4b1f331c411a8fa91dc61027f3f06228 a schema:AggregateOffer;
+_:1834a929e3644c8e9ad20dc3077b7aee6120 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
