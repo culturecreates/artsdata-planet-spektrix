@@ -28,9 +28,13 @@
 albertatheatreprojects:
   attribute_EventUrl: "https://albertatheatreprojects.com/whats-on/"
   offerUrl: "https://albertatheatreprojects.com/book/?web_instance_id={instance_webInstanceId}"
+  attribute_PresentedBy: "Alberta Theatre Projects"
+  attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K2-6382"
 
 honens:
   attribute_EventUrl: "https://www.honens.com/events/"
+  attribute_PresentedBy: "Honens"
+  attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K2-6383"
 
 kaymeekcentre:
   attribute_EventUrl: "https://kaymeek.com/events/"
@@ -59,6 +63,8 @@ theisabel:
 
 earlymusicvancouver:
   attribute_EventUrl: "https://www.earlymusic.bc.ca/events/{slugify(name)}"
+  attribute_PresentedBy: "Early Music Vancouver"
+  attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K10-351"
 
 tidemarktheatre:
   attribute_EventUrl: "https://tidemarktheatre.com/event/{slugify(name)}"
@@ -66,6 +72,8 @@ tidemarktheatre:
 improvcentrevancouver:
   attribute_EventUrl: "https://theimprovcentre.ca/shows/"
   offerUrl: "https://purchase.theimprovcentre.ca/ChooseSeats/{extractID(instance_id)}"
+  attribute_PresentedBy: "The Improv Centre"
+  attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K2-6384"
 
 rcmusic:
   offerUrl: "https://www.rcmusic.com/tickets/seats/{extractID(instance_id)}"
