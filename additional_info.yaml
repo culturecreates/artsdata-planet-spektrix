@@ -83,3 +83,9 @@ vancouverrecitalsociety:
 
 ucalgaryuts:
   offerUrl: "https://theatre-tickets.ucalgary.ca/?tx={extractID(id)}"
+
+gallery7:
+  attribute_EventUrl: "https://www.gallery7theatre.com/shows-training/{slugify(name)}"
+  offerUrl: "https://www.gallery7theatre.com/shows-training/{slugify(name)}/performances"
+  attribute_PresentedBy: "Gallery 7 Theatre"
+  attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K2-6374"
