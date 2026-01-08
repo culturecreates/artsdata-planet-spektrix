@@ -15,12 +15,17 @@
 """;
   schema:startDate "2026-01-28T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/honens/location/7001AGCLPBHTQLDRVGJQJGVCGDJKJPPNR>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
   schema:url <https://www.honens.com/events/>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee2823;
+  schema:offers _:83c09b9f49004c7694375ebb334d402f1;
   schema:duration "PT60M";
   schema:endDate "2026-01-28T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee2823 a schema:AggregateOffer;
+<https://spektrix.com/honens/organization/honens> a schema:Organization;
+  schema:name "Honens";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6383> .
+
+_:83c09b9f49004c7694375ebb334d402f1 a schema:AggregateOffer;
   schema:lowPrice "10.0";
   schema:priceCurrency "CAD" .
 
@@ -42,12 +47,13 @@ _:1834a929e3644c8e9ad20dc3077b7aee2823 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-10T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/honens/location/2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
   schema:url <https://www.honens.com/events/>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee2824;
+  schema:offers _:83c09b9f49004c7694375ebb334d402f2;
   schema:duration "PT60M";
   schema:endDate "2026-04-10T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee2824 a schema:AggregateOffer;
+_:83c09b9f49004c7694375ebb334d402f2 a schema:AggregateOffer;
   schema:lowPrice "10.0";
   schema:priceCurrency "CAD" .
 
@@ -69,6 +75,7 @@ _:1834a929e3644c8e9ad20dc3077b7aee2824 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-07T12:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/honens/location/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
   schema:url <https://www.honens.com/events/>;
   schema:duration "PT60M";
   schema:endDate "2026-01-07T13:00:00"^^xsd:dateTime .
