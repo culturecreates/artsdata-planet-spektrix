@@ -8,6 +8,29 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
+<http://www.spektrix.com/thecultch/event/121201AHPHPNSQQJHPPSRJMMRLQPSRGMB> a schema:Event;
+  schema:name "A Woman Alone";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-01T18:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43808;
+  schema:duration "PT60M";
+  schema:endDate "2026-02-01T19:30:00"^^xsd:dateTime .
+
+_:ab3bcaf74dfe491985434af2e1b0eeb43808 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:Place;
+  schema:name "Vancity Culture Lab";
+  schema:address <https://spektrix.com/thecultch/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
+
+<https://spektrix.com/thecultch/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:PostalAddress;
+  schema:streetAddress "1895 Venables Street";
+  schema:addressCountry "CA" .
+
 <http://www.spektrix.com/thecultch/event/119001AJSDGQDQNQNGMMQHPKBHNNSTJTV> a schema:Event;
   schema:name "An Ordinary Film Screening";
   schema:description """
@@ -15,11 +38,11 @@
 """;
   schema:startDate "2026-02-05T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3854;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43809;
   schema:duration "PT180M";
   schema:endDate "2026-02-05T22:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3854 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43809 a schema:AggregateOffer;
   schema:lowPrice "8.7";
   schema:priceCurrency "CAD" .
 
@@ -38,11 +61,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3854 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-11T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3855;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43810;
   schema:duration "PT60M";
   schema:endDate "2026-02-11T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3855 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43810 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -53,11 +76,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3855 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3856;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43811;
   schema:duration "PT60M";
   schema:endDate "2026-02-12T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3856 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43811 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -68,11 +91,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3856 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3857;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43812;
   schema:duration "PT60M";
   schema:endDate "2026-02-13T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3857 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43812 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -83,11 +106,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3857 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-14T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3858;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43813;
   schema:duration "PT60M";
   schema:endDate "2026-02-14T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3858 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43813 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -98,11 +121,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3858 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3859;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43814;
   schema:duration "PT60M";
   schema:endDate "2026-02-14T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3859 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43814 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -113,11 +136,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3859 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-15T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3860;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43815;
   schema:duration "PT60M";
   schema:endDate "2026-02-15T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3860 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43815 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -128,11 +151,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3860 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-23T17:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3861;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43816;
   schema:duration "PT120M";
   schema:endDate "2026-01-23T19:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3861 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43816 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -143,11 +166,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3861 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3862;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43817;
   schema:duration "PT120M";
   schema:endDate "2026-01-23T21:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3862 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43817 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -158,11 +181,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3862 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-24T11:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3863;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43818;
   schema:duration "PT120M";
   schema:endDate "2026-01-24T13:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3863 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43818 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -173,11 +196,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3863 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-24T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3864;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43819;
   schema:duration "PT120M";
   schema:endDate "2026-01-24T16:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3864 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43819 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -188,11 +211,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3864 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-24T18:15:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3865;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43820;
   schema:duration "PT120M";
   schema:endDate "2026-01-24T20:15:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3865 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43820 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -203,11 +226,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3865 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-25T11:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3866;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43821;
   schema:duration "PT120M";
   schema:endDate "2026-01-25T13:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3866 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43821 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -218,11 +241,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3866 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-25T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3867;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43822;
   schema:duration "PT120M";
   schema:endDate "2026-01-25T16:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3867 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43822 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -233,12 +256,27 @@ _:1834a929e3644c8e9ad20dc3077b7aee3867 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-25T18:15:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3868;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43823;
   schema:duration "PT120M";
   schema:endDate "2026-01-25T20:15:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3868 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43823 a schema:AggregateOffer;
   schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/thecultch/event/121801ASBNCJVKRNDCMVHKHGBRSGKCQCL> a schema:Event;
+  schema:name "Boots to Broadway";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-06T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43824;
+  schema:duration "PT180M";
+  schema:endDate "2026-02-06T22:00:00"^^xsd:dateTime .
+
+_:ab3bcaf74dfe491985434af2e1b0eeb43824 a schema:AggregateOffer;
+  schema:lowPrice "53.7";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/thecultch/event/73401APJTQRQMNDQCLBJRTVNGHRMDLQCV> a schema:Event;
@@ -249,11 +287,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3868 a schema:AggregateOffer;
   schema:startDate "2025-11-20T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3869;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43825;
   schema:duration "PT60M";
   schema:endDate "2025-11-20T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3869 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43825 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -265,11 +303,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3869 a schema:AggregateOffer;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3870;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43826;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3870 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43826 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -281,11 +319,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3870 a schema:AggregateOffer;
   schema:startDate "2025-11-22T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3871;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43827;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3871 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43827 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -297,11 +335,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3871 a schema:AggregateOffer;
   schema:startDate "2025-11-22T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3872;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43828;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3872 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43828 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -313,11 +351,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3872 a schema:AggregateOffer;
   schema:startDate "2025-11-23T16:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3873;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43829;
   schema:duration "PT60M";
   schema:endDate "2025-11-23T17:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3873 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43829 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -329,11 +367,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3873 a schema:AggregateOffer;
   schema:startDate "2025-11-26T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3874;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43830;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3874 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43830 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -345,11 +383,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3874 a schema:AggregateOffer;
   schema:startDate "2025-11-27T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3875;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43831;
   schema:duration "PT60M";
   schema:endDate "2025-11-27T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3875 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43831 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -361,11 +399,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3875 a schema:AggregateOffer;
   schema:startDate "2025-11-28T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3876;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43832;
   schema:duration "PT60M";
   schema:endDate "2025-11-28T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3876 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43832 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -377,11 +415,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3876 a schema:AggregateOffer;
   schema:startDate "2025-11-29T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3877;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43833;
   schema:duration "PT60M";
   schema:endDate "2025-11-29T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3877 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43833 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -393,11 +431,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3877 a schema:AggregateOffer;
   schema:startDate "2025-11-29T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3878;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43834;
   schema:duration "PT60M";
   schema:endDate "2025-11-29T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3878 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43834 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -409,11 +447,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3878 a schema:AggregateOffer;
   schema:startDate "2025-11-30T16:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3879;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43835;
   schema:duration "PT60M";
   schema:endDate "2025-11-30T17:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3879 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43835 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -425,11 +463,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3879 a schema:AggregateOffer;
   schema:startDate "2025-12-03T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3880;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43836;
   schema:duration "PT60M";
   schema:endDate "2025-12-03T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3880 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43836 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -441,11 +479,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3880 a schema:AggregateOffer;
   schema:startDate "2025-12-04T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3881;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43837;
   schema:duration "PT60M";
   schema:endDate "2025-12-04T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3881 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43837 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -457,11 +495,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3881 a schema:AggregateOffer;
   schema:startDate "2025-12-05T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3882;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43838;
   schema:duration "PT60M";
   schema:endDate "2025-12-05T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3882 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43838 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -473,11 +511,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3882 a schema:AggregateOffer;
   schema:startDate "2025-12-06T14:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3883;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43839;
   schema:duration "PT60M";
   schema:endDate "2025-12-06T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3883 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43839 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -489,11 +527,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3883 a schema:AggregateOffer;
   schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3884;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43840;
   schema:duration "PT60M";
   schema:endDate "2025-12-06T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3884 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43840 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -505,42 +543,12 @@ _:1834a929e3644c8e9ad20dc3077b7aee3884 a schema:AggregateOffer;
   schema:startDate "2025-12-07T16:00:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/34e33151-2129-48a2-b689-c2e4d7334dde.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3885;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43841;
   schema:duration "PT60M";
   schema:endDate "2025-12-07T17:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3885 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43841 a schema:AggregateOffer;
   schema:lowPrice "0.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thecultch/event/110401AVTRJSJPKNRVVHGRGMRTCCVGSHJ> a schema:Event;
-  schema:name "Circurious 4";
-  schema:description """
-
-""";
-  schema:startDate "2025-12-13T14:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3886;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-13T15:30:00"^^xsd:dateTime .
-
-_:1834a929e3644c8e9ad20dc3077b7aee3886 a schema:AggregateOffer;
-  schema:lowPrice "24.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thecultch/event/110601ARNSJLGBBVBGPPNNDHDHNQDTRKM> a schema:Event;
-  schema:name "Circurious 4";
-  schema:description """
-
-""";
-  schema:startDate "2025-12-13T19:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3887;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-13T20:30:00"^^xsd:dateTime .
-
-_:1834a929e3644c8e9ad20dc3077b7aee3887 a schema:AggregateOffer;
-  schema:lowPrice "31.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/thecultch/event/119201AKLVKBCLRHTVTGSRRRQTDPVCKSN> a schema:Event;
@@ -551,36 +559,13 @@ _:1834a929e3644c8e9ad20dc3077b7aee3887 a schema:AggregateOffer;
   schema:startDate "2026-01-28T19:30:00"^^xsd:dateTime;
   schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/thecultch/files/cf8cd0f9-f60b-4f83-88e2-3e95b3e21569.jpg>;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3888;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43842;
   schema:duration "PT90M";
   schema:endDate "2026-01-28T21:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3888 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43842 a schema:AggregateOffer;
   schema:lowPrice "3.7";
   schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thecultch/event/115801AHBPTSQTDQHMNRHRHVGSVHBSVDL> a schema:Event;
-  schema:name "Drag control: Anything but Christmas Drag Variety Show";
-  schema:description """
-
-""";
-  schema:startDate "2025-12-13T20:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3889;
-  schema:duration "PT120M";
-  schema:endDate "2025-12-13T22:00:00"^^xsd:dateTime .
-
-_:1834a929e3644c8e9ad20dc3077b7aee3889 a schema:AggregateOffer;
-  schema:lowPrice "25.27";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:Place;
-  schema:name "Vancity Culture Lab";
-  schema:address <https://spektrix.com/thecultch/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
-
-<https://spektrix.com/thecultch/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> a schema:PostalAddress;
-  schema:streetAddress "1895 Venables Street";
-  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/thecultch/event/77801ALGLLMQCDBGLKSDTLSHPSSRGRDGK> a schema:Event;
   schema:name "East Van Panto: West Van Story";
@@ -589,11 +574,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3889 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-19T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3890;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43843;
   schema:duration "PT60M";
   schema:endDate "2025-11-19T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3890 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43843 a schema:AggregateOffer;
   schema:lowPrice "18.0";
   schema:priceCurrency "CAD" .
 
@@ -612,11 +597,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3890 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-20T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3891;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43844;
   schema:duration "PT60M";
   schema:endDate "2025-11-20T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3891 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43844 a schema:AggregateOffer;
   schema:lowPrice "18.0";
   schema:priceCurrency "CAD" .
 
@@ -627,11 +612,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3891 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-21T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3892;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43845;
   schema:duration "PT60M";
   schema:endDate "2025-11-21T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3892 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43845 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -642,11 +627,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3892 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3893;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43846;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3893 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43846 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -657,11 +642,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3893 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-23T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3894;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43847;
   schema:duration "PT60M";
   schema:endDate "2025-11-23T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3894 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43847 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -672,11 +657,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3894 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-26T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3895;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43848;
   schema:duration "PT60M";
   schema:endDate "2025-11-26T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3895 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43848 a schema:AggregateOffer;
   schema:lowPrice "42.0";
   schema:priceCurrency "CAD" .
 
@@ -687,11 +672,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3895 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-27T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3896;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43849;
   schema:duration "PT60M";
   schema:endDate "2025-11-27T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3896 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43849 a schema:AggregateOffer;
   schema:lowPrice "42.0";
   schema:priceCurrency "CAD" .
 
@@ -702,11 +687,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3896 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-28T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3897;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43850;
   schema:duration "PT60M";
   schema:endDate "2025-11-28T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3897 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43850 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -717,11 +702,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3897 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-29T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3898;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43851;
   schema:duration "PT60M";
   schema:endDate "2025-11-29T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3898 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43851 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -732,11 +717,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3898 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-29T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3899;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43852;
   schema:duration "PT60M";
   schema:endDate "2025-11-29T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3899 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43852 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -747,11 +732,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3899 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-30T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3900;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43853;
   schema:duration "PT60M";
   schema:endDate "2025-11-30T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3900 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43853 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -762,11 +747,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3900 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-30T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3901;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43854;
   schema:duration "PT60M";
   schema:endDate "2025-11-30T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3901 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43854 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -777,11 +762,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3901 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-02T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3902;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43855;
   schema:duration "PT60M";
   schema:endDate "2025-12-02T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3902 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43855 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -792,11 +777,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3902 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-03T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3903;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43856;
   schema:duration "PT60M";
   schema:endDate "2025-12-03T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3903 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43856 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -807,11 +792,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3903 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-04T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3904;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43857;
   schema:duration "PT60M";
   schema:endDate "2025-12-04T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3904 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43857 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -822,11 +807,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3904 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-05T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3905;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43858;
   schema:duration "PT60M";
   schema:endDate "2025-12-05T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3905 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43858 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -837,11 +822,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3905 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-06T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3906;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43859;
   schema:duration "PT60M";
   schema:endDate "2025-12-06T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3906 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43859 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -852,11 +837,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3906 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-06T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3907;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43860;
   schema:duration "PT60M";
   schema:endDate "2025-12-06T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3907 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43860 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -867,11 +852,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3907 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-07T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3908;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43861;
   schema:duration "PT60M";
   schema:endDate "2025-12-07T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3908 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43861 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -882,11 +867,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3908 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-07T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3909;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43862;
   schema:duration "PT60M";
   schema:endDate "2025-12-07T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3909 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43862 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -897,11 +882,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3909 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-09T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3910;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43863;
   schema:duration "PT60M";
   schema:endDate "2025-12-09T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3910 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43863 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -912,11 +897,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3910 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-10T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3911;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43864;
   schema:duration "PT60M";
   schema:endDate "2025-12-10T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3911 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43864 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -927,11 +912,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3911 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-11T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3912;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43865;
   schema:duration "PT60M";
   schema:endDate "2025-12-11T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3912 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43865 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -942,11 +927,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3912 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-12T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3913;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43866;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3913 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43866 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -957,11 +942,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3913 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-13T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3914;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43867;
   schema:duration "PT60M";
   schema:endDate "2025-12-13T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3914 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43867 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -972,11 +957,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3914 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-13T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3915;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43868;
   schema:duration "PT60M";
   schema:endDate "2025-12-13T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3915 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43868 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -987,11 +972,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3915 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-14T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3916;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43869;
   schema:duration "PT60M";
   schema:endDate "2025-12-14T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3916 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43869 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1002,11 +987,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3916 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-14T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3917;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43870;
   schema:duration "PT60M";
   schema:endDate "2025-12-14T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3917 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43870 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1017,11 +1002,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3917 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-17T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3918;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43871;
   schema:duration "PT60M";
   schema:endDate "2025-12-17T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3918 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43871 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1032,11 +1017,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3918 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-18T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3919;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43872;
   schema:duration "PT60M";
   schema:endDate "2025-12-18T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3919 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43872 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1047,11 +1032,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3919 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-19T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3920;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43873;
   schema:duration "PT60M";
   schema:endDate "2025-12-19T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3920 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43873 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1062,11 +1047,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3920 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-20T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3921;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43874;
   schema:duration "PT60M";
   schema:endDate "2025-12-20T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3921 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43874 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1077,11 +1062,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3921 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-20T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3922;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43875;
   schema:duration "PT60M";
   schema:endDate "2025-12-20T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3922 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43875 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1092,11 +1077,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3922 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-21T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3923;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43876;
   schema:duration "PT60M";
   schema:endDate "2025-12-21T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3923 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43876 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1107,11 +1092,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3923 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-21T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3924;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43877;
   schema:duration "PT60M";
   schema:endDate "2025-12-21T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3924 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43877 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1122,11 +1107,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3924 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-23T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3925;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43878;
   schema:duration "PT60M";
   schema:endDate "2025-12-23T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3925 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43878 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1137,11 +1122,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3925 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-23T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3926;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43879;
   schema:duration "PT60M";
   schema:endDate "2025-12-23T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3926 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43879 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1152,11 +1137,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3926 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-24T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3927;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43880;
   schema:duration "PT60M";
   schema:endDate "2025-12-24T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3927 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43880 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1167,11 +1152,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3927 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-26T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3928;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43881;
   schema:duration "PT60M";
   schema:endDate "2025-12-26T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3928 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43881 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1182,11 +1167,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3928 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-26T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3929;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43882;
   schema:duration "PT60M";
   schema:endDate "2025-12-26T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3929 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43882 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1197,11 +1182,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3929 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-27T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3930;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43883;
   schema:duration "PT60M";
   schema:endDate "2025-12-27T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3930 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43883 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1212,11 +1197,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3930 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-27T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3931;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43884;
   schema:duration "PT60M";
   schema:endDate "2025-12-27T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3931 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43884 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1227,11 +1212,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3931 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-28T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3932;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43885;
   schema:duration "PT60M";
   schema:endDate "2025-12-28T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3932 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43885 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1242,11 +1227,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3932 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-30T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3933;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43886;
   schema:duration "PT60M";
   schema:endDate "2025-12-30T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3933 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43886 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1257,11 +1242,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3933 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-30T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3934;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43887;
   schema:duration "PT60M";
   schema:endDate "2025-12-30T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3934 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43887 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1272,11 +1257,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3934 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-31T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3935;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43888;
   schema:duration "PT60M";
   schema:endDate "2025-12-31T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3935 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43888 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1287,11 +1272,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3935 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-02T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3936;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43889;
   schema:duration "PT60M";
   schema:endDate "2026-01-02T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3936 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43889 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1302,11 +1287,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3936 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-02T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3937;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43890;
   schema:duration "PT60M";
   schema:endDate "2026-01-02T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3937 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43890 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1317,11 +1302,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3937 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3938;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43891;
   schema:duration "PT60M";
   schema:endDate "2026-01-03T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3938 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43891 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1332,11 +1317,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3938 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-03T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3939;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43892;
   schema:duration "PT60M";
   schema:endDate "2026-01-03T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3939 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43892 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1347,11 +1332,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3939 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-04T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3940;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43893;
   schema:duration "PT60M";
   schema:endDate "2026-01-04T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3940 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43893 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1362,15 +1347,30 @@ _:1834a929e3644c8e9ad20dc3077b7aee3940 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-08T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3941 .
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43894;
+  schema:duration "PT60M";
+  schema:endDate "2026-01-08T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3941 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43894 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
-<http://www.spektrix.com/thecultch/event/117601ACHCQGKNJCVLHHHPBKQSGRPJDLN> schema:duration
+<http://www.spektrix.com/thecultch/event/117801ATKTBTBQSHSGSRHTPKGSMCHGBPB> a schema:Event;
+  schema:name "East Van Panto: West Van Story";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-09T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43895 .
+
+_:ab3bcaf74dfe491985434af2e1b0eeb43895 a schema:AggregateOffer;
+  schema:lowPrice "32.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/thecultch/event/117801ATKTBTBQSHSGSRHTPKGSMCHGBPB> schema:duration
     "PT60M";
-  schema:endDate "2026-01-08T20:00:00"^^xsd:dateTime .
+  schema:endDate "2026-01-09T20:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> a schema:Place;
   schema:name "York Theatre";
@@ -1380,21 +1380,6 @@ _:1834a929e3644c8e9ad20dc3077b7aee3941 a schema:AggregateOffer;
   schema:streetAddress "639 Commercial Drive";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/thecultch/event/117801ATKTBTBQSHSGSRHTPKGSMCHGBPB> a schema:Event;
-  schema:name "East Van Panto: West Van Story";
-  schema:description """
-
-""";
-  schema:startDate "2026-01-09T19:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3942;
-  schema:duration "PT60M";
-  schema:endDate "2026-01-09T20:00:00"^^xsd:dateTime .
-
-_:1834a929e3644c8e9ad20dc3077b7aee3942 a schema:AggregateOffer;
-  schema:lowPrice "32.0";
-  schema:priceCurrency "CAD" .
-
 <http://www.spektrix.com/thecultch/event/118001AKBSTLQKBGDJVRNLKQPBDCHNNBN> a schema:Event;
   schema:name "East Van Panto: West Van Story";
   schema:description """
@@ -1402,11 +1387,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3942 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-10T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3943;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43896;
   schema:duration "PT60M";
   schema:endDate "2026-01-10T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3943 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43896 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1417,11 +1402,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3943 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-10T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3944;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43897;
   schema:duration "PT60M";
   schema:endDate "2026-01-10T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3944 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43897 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1432,11 +1417,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3944 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-11T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3945;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43898;
   schema:duration "PT60M";
   schema:endDate "2026-01-11T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3945 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43898 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1447,11 +1432,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3945 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3946;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43899;
   schema:duration "PT60M";
   schema:endDate "2026-04-16T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3946 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43899 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1470,11 +1455,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3946 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3947;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43900;
   schema:duration "PT60M";
   schema:endDate "2026-04-17T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3947 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43900 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1485,11 +1470,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3947 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-18T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3948;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43901;
   schema:duration "PT60M";
   schema:endDate "2026-04-18T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3948 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43901 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1500,11 +1485,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3948 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3949;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43902;
   schema:duration "PT60M";
   schema:endDate "2026-04-18T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3949 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43902 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1515,11 +1500,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3949 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-19T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3950;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43903;
   schema:duration "PT60M";
   schema:endDate "2026-04-19T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3950 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43903 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1530,11 +1515,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3950 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-29T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3951;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43904;
   schema:duration "PT60M";
   schema:endDate "2026-01-29T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3951 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43904 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -1545,11 +1530,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3951 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-30T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3952;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43905;
   schema:duration "PT60M";
   schema:endDate "2026-01-30T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3952 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43905 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -1560,11 +1545,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3952 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-31T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3953;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43906;
   schema:duration "PT60M";
   schema:endDate "2026-01-31T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3953 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43906 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -1575,11 +1560,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3953 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-31T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3954;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43907;
   schema:duration "PT60M";
   schema:endDate "2026-01-31T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3954 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43907 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -1590,11 +1575,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3954 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-01T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3955;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43908;
   schema:duration "PT60M";
   schema:endDate "2026-02-01T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3955 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43908 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -1605,11 +1590,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3955 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3956;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43909;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3956 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43909 a schema:AggregateOffer;
   schema:lowPrice "13.0";
   schema:priceCurrency "CAD" .
 
@@ -1620,11 +1605,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3956 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3957;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43910;
   schema:duration "PT60M";
   schema:endDate "2025-10-16T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3957 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43910 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1635,11 +1620,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3957 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3958;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43911;
   schema:duration "PT60M";
   schema:endDate "2025-10-17T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3958 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43911 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1650,11 +1635,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3958 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3959;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43912;
   schema:duration "PT60M";
   schema:endDate "2025-10-18T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3959 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43912 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1665,11 +1650,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3959 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-19T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3960;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43913;
   schema:duration "PT60M";
   schema:endDate "2025-10-19T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3960 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43913 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1680,11 +1665,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3960 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3961;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43914;
   schema:duration "PT60M";
   schema:endDate "2025-10-21T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3961 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43914 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -1695,11 +1680,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3961 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3962;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43915;
   schema:duration "PT60M";
   schema:endDate "2025-10-22T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3962 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43915 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1710,11 +1695,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3962 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3963;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43916;
   schema:duration "PT60M";
   schema:endDate "2025-10-23T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3963 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43916 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1725,11 +1710,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3963 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-24T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3964;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43917;
   schema:duration "PT60M";
   schema:endDate "2025-10-24T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3964 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43917 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1740,11 +1725,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3964 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-25T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3965;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43918;
   schema:duration "PT60M";
   schema:endDate "2025-10-25T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3965 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43918 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1755,11 +1740,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3965 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3966;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43919;
   schema:duration "PT60M";
   schema:endDate "2025-10-25T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3966 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43919 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1770,11 +1755,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3966 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-26T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3967;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43920;
   schema:duration "PT60M";
   schema:endDate "2025-10-26T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3967 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43920 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1785,11 +1770,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3967 a schema:AggregateOffer;
 """;
   schema:startDate "2025-09-27T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3968;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43921;
   schema:duration "PT120M";
   schema:endDate "2025-09-27T22:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3968 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43921 a schema:AggregateOffer;
   schema:lowPrice "45.0";
   schema:priceCurrency "CAD" .
 
@@ -1800,11 +1785,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3968 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-07T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3969;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43922;
   schema:duration "PT120M";
   schema:endDate "2026-02-07T22:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3969 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43922 a schema:AggregateOffer;
   schema:lowPrice "38.7";
   schema:priceCurrency "CAD" .
 
@@ -1815,11 +1800,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3969 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-07T16:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3970;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43923;
   schema:duration "PT120M";
   schema:endDate "2026-03-07T18:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3970 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43923 a schema:AggregateOffer;
   schema:lowPrice "60.0";
   schema:priceCurrency "CAD" .
 
@@ -1830,11 +1815,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3970 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-07T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3971;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43924;
   schema:duration "PT120M";
   schema:endDate "2026-03-07T22:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3971 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43924 a schema:AggregateOffer;
   schema:lowPrice "60.0";
   schema:priceCurrency "CAD" .
 
@@ -1845,11 +1830,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3971 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-18T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3972;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43925;
   schema:duration "PT90M";
   schema:endDate "2026-03-18T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3972 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43925 a schema:AggregateOffer;
   schema:lowPrice "18.0";
   schema:priceCurrency "CAD" .
 
@@ -1860,11 +1845,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3972 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-29T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3973;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43926;
   schema:duration "PT60M";
   schema:endDate "2026-04-29T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3973 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43926 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1875,11 +1860,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3973 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-30T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3974;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43927;
   schema:duration "PT60M";
   schema:endDate "2026-04-30T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3974 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43927 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1890,11 +1875,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3974 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-01T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3975;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43928;
   schema:duration "PT60M";
   schema:endDate "2026-05-01T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3975 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43928 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1905,11 +1890,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3975 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-02T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3976;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43929;
   schema:duration "PT60M";
   schema:endDate "2026-05-02T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3976 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43929 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1920,11 +1905,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3976 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-02T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3977;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43930;
   schema:duration "PT60M";
   schema:endDate "2026-05-02T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3977 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43930 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1935,11 +1920,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3977 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-03T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3978;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43931;
   schema:duration "PT60M";
   schema:endDate "2026-05-03T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3978 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43931 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1950,11 +1935,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3978 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-18T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3979;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43932;
   schema:duration "PT90M";
   schema:endDate "2026-02-18T21:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3979 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43932 a schema:AggregateOffer;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
@@ -1973,11 +1958,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3979 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-19T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3980;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43933;
   schema:duration "PT90M";
   schema:endDate "2026-02-19T21:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3980 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43933 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1988,11 +1973,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3980 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-20T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3981;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43934;
   schema:duration "PT90M";
   schema:endDate "2026-02-20T21:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3981 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43934 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2003,11 +1988,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3981 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-21T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3982;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43935;
   schema:duration "PT90M";
   schema:endDate "2026-02-21T21:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3982 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43935 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2018,11 +2003,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3982 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3983;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43936;
   schema:duration "PT90M";
   schema:endDate "2026-02-22T15:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3983 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43936 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2033,11 +2018,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3983 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-18T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3984;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43937;
   schema:duration "PT140M";
   schema:endDate "2025-12-18T21:20:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3984 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43937 a schema:AggregateOffer;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
@@ -2048,11 +2033,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3984 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-19T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3985;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43938;
   schema:duration "PT140M";
   schema:endDate "2025-12-19T21:20:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3985 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43938 a schema:AggregateOffer;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
@@ -2063,11 +2048,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3985 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-20T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3986;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43939;
   schema:duration "PT60M";
   schema:endDate "2025-12-20T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3986 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43939 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -2078,11 +2063,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3986 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-21T16:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3987;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43940;
   schema:duration "PT60M";
   schema:endDate "2025-12-21T17:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3987 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43940 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -2093,11 +2078,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3987 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3988;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43941;
   schema:duration "PT60M";
   schema:endDate "2026-04-08T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3988 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43941 a schema:AggregateOffer;
   schema:lowPrice "13.0";
   schema:priceCurrency "CAD" .
 
@@ -2108,11 +2093,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3988 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-09T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3989;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43942;
   schema:duration "PT60M";
   schema:endDate "2026-04-09T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3989 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43942 a schema:AggregateOffer;
   schema:lowPrice "13.0";
   schema:priceCurrency "CAD" .
 
@@ -2123,11 +2108,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3989 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3990;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43943;
   schema:duration "PT60M";
   schema:endDate "2026-04-10T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3990 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43943 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2138,11 +2123,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3990 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-11T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3991;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43944;
   schema:duration "PT60M";
   schema:endDate "2026-04-11T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3991 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43944 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2153,11 +2138,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3991 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-12T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3992;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43945;
   schema:duration "PT60M";
   schema:endDate "2026-04-12T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3992 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43945 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2168,11 +2153,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3992 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3993;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43946;
   schema:duration "PT60M";
   schema:endDate "2026-04-14T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3993 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43946 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2183,11 +2168,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3993 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3994;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43947;
   schema:duration "PT60M";
   schema:endDate "2026-04-15T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3994 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43947 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2198,11 +2183,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3994 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3995;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43948;
   schema:duration "PT60M";
   schema:endDate "2026-04-16T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3995 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43948 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2213,11 +2198,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3995 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3996;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43949;
   schema:duration "PT60M";
   schema:endDate "2026-04-17T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3996 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43949 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2228,11 +2213,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3996 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-18T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3997;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43950;
   schema:duration "PT60M";
   schema:endDate "2026-04-18T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3997 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43950 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2243,11 +2228,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3997 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3998;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43951;
   schema:duration "PT60M";
   schema:endDate "2026-04-18T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3998 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43951 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2258,11 +2243,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3998 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-19T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee3999;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43952;
   schema:duration "PT60M";
   schema:endDate "2026-04-19T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee3999 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43952 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2273,11 +2258,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee3999 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-27T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4000;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43953;
   schema:duration "PT70M";
   schema:endDate "2026-03-27T20:10:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4000 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43953 a schema:AggregateOffer;
   schema:lowPrice "40.27";
   schema:priceCurrency "CAD" .
 
@@ -2288,11 +2273,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4000 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-28T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4001;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43954;
   schema:duration "PT70M";
   schema:endDate "2026-03-28T20:10:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4001 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43954 a schema:AggregateOffer;
   schema:lowPrice "40.27";
   schema:priceCurrency "CAD" .
 
@@ -2303,11 +2288,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4001 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-21T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4002;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43955;
   schema:duration "PT60M";
   schema:endDate "2026-01-21T21:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4002 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43955 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2326,11 +2311,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4002 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-22T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4003;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43956;
   schema:duration "PT60M";
   schema:endDate "2026-01-22T21:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4003 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43956 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2341,11 +2326,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4003 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-23T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4004;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43957;
   schema:duration "PT60M";
   schema:endDate "2026-01-23T21:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4004 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43957 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2356,11 +2341,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4004 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-24T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4005;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43958;
   schema:duration "PT60M";
   schema:endDate "2026-01-24T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4005 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43958 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2371,11 +2356,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4005 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-24T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4006;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43959;
   schema:duration "PT60M";
   schema:endDate "2026-01-24T21:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4006 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43959 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2386,11 +2371,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4006 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4007;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43960;
   schema:duration "PT60M";
   schema:endDate "2026-03-10T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4007 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43960 a schema:AggregateOffer;
   schema:lowPrice "13.0";
   schema:priceCurrency "CAD" .
 
@@ -2401,11 +2386,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4007 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-11T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4008;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43961;
   schema:duration "PT60M";
   schema:endDate "2026-03-11T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4008 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43961 a schema:AggregateOffer;
   schema:lowPrice "13.0";
   schema:priceCurrency "CAD" .
 
@@ -2416,11 +2401,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4008 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4009;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43962;
   schema:duration "PT60M";
   schema:endDate "2026-03-12T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4009 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43962 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2431,11 +2416,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4009 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4010;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43963;
   schema:duration "PT60M";
   schema:endDate "2026-03-13T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4010 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43963 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2446,11 +2431,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4010 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4011;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43964;
   schema:duration "PT60M";
   schema:endDate "2026-03-14T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4011 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43964 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2461,11 +2446,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4011 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-15T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4012;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43965;
   schema:duration "PT60M";
   schema:endDate "2026-03-15T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4012 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43965 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2476,11 +2461,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4012 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4013;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43966;
   schema:duration "PT60M";
   schema:endDate "2026-03-17T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4013 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43966 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2491,11 +2476,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4013 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4014;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43967;
   schema:duration "PT60M";
   schema:endDate "2026-03-18T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4014 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43967 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2506,11 +2491,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4014 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-19T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4015;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43968;
   schema:duration "PT60M";
   schema:endDate "2026-03-19T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4015 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43968 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2521,11 +2506,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4015 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4016;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43969;
   schema:duration "PT60M";
   schema:endDate "2026-03-20T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4016 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43969 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2536,11 +2521,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4016 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-21T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4017;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43970;
   schema:duration "PT60M";
   schema:endDate "2026-03-21T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4017 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43970 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2551,11 +2536,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4017 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4018;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43971;
   schema:duration "PT60M";
   schema:endDate "2026-03-21T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4018 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43971 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2566,11 +2551,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4018 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4019;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43972;
   schema:duration "PT60M";
   schema:endDate "2026-03-22T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4019 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43972 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2581,11 +2566,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4019 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4020;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43973;
   schema:duration "PT60M";
   schema:endDate "2026-02-18T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4020 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43973 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2596,11 +2581,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4020 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-19T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4021;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43974;
   schema:duration "PT60M";
   schema:endDate "2026-02-19T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4021 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43974 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2611,11 +2596,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4021 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4022;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43975;
   schema:duration "PT60M";
   schema:endDate "2026-02-20T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4022 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43975 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2626,11 +2611,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4022 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-21T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4023;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43976;
   schema:duration "PT60M";
   schema:endDate "2026-02-21T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4023 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43976 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2641,11 +2626,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4023 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4024;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43977;
   schema:duration "PT60M";
   schema:endDate "2026-02-21T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4024 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43977 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2656,11 +2641,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4024 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4025;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43978;
   schema:duration "PT60M";
   schema:endDate "2026-02-22T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4025 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43978 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2671,11 +2656,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4025 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-18T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4026;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43979;
   schema:duration "PT120M";
   schema:endDate "2026-01-18T16:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4026 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43979 a schema:AggregateOffer;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
@@ -2686,11 +2671,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4026 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-18T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4027;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43980;
   schema:duration "PT120M";
   schema:endDate "2026-01-18T20:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4027 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43980 a schema:AggregateOffer;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
@@ -2701,11 +2686,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4027 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-17T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4028;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43981;
   schema:duration "PT120M";
   schema:endDate "2026-01-17T17:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4028 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43981 a schema:AggregateOffer;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
@@ -2716,11 +2701,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4028 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-17T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4029;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43982;
   schema:duration "PT120M";
   schema:endDate "2026-01-17T21:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4029 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43982 a schema:AggregateOffer;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
@@ -2731,21 +2716,13 @@ _:1834a929e3644c8e9ad20dc3077b7aee4029 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-24T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4030;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43983;
   schema:duration "PT90M";
   schema:endDate "2026-07-24T21:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4030 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43983 a schema:AggregateOffer;
   schema:lowPrice "33.7";
   schema:priceCurrency "CAD" .
-
-<https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:Place;
-  schema:name "Historic Theatre";
-  schema:address <https://spektrix.com/thecultch/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-<https://spektrix.com/thecultch/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:PostalAddress;
-  schema:streetAddress "1895 Venables Street";
-  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/thecultch/event/107601ARLQPLHBRRVBLRSVCJRQPCSMVTJ> a schema:Event;
   schema:name "Snowed In Comedy Tour";
@@ -2754,11 +2731,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4030 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-23T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4031;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43984;
   schema:duration "PT120M";
   schema:endDate "2026-01-23T21:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4031 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43984 a schema:AggregateOffer;
   schema:lowPrice "52.5";
   schema:priceCurrency "CAD" .
 
@@ -2770,36 +2747,6 @@ _:1834a929e3644c8e9ad20dc3077b7aee4031 a schema:AggregateOffer;
   schema:streetAddress "639 Commercial Drive";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/thecultch/event/116001AMCMNDTGBKVLCLMSLHRCRNHTNMN> a schema:Event;
-  schema:name "Snowfall 2025";
-  schema:description """
-
-""";
-  schema:startDate "2025-12-12T18:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4032;
-  schema:duration "PT65M";
-  schema:endDate "2025-12-12T19:05:00"^^xsd:dateTime .
-
-_:1834a929e3644c8e9ad20dc3077b7aee4032 a schema:AggregateOffer;
-  schema:lowPrice "30.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thecultch/event/116201ADKQVMGGJJGJTVTCHCPNQPBTLVR> a schema:Event;
-  schema:name "Snowfall 2025";
-  schema:description """
-
-""";
-  schema:startDate "2025-12-12T20:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4033;
-  schema:duration "PT65M";
-  schema:endDate "2025-12-12T21:35:00"^^xsd:dateTime .
-
-_:1834a929e3644c8e9ad20dc3077b7aee4033 a schema:AggregateOffer;
-  schema:lowPrice "30.0";
-  schema:priceCurrency "CAD" .
-
 <http://www.spektrix.com/thecultch/event/84401ALDLRSKMCKGGQDGDJJDGKQBJLJDC> a schema:Event;
   schema:name "Soldiers of Tomorrow";
   schema:description """
@@ -2807,13 +2754,21 @@ _:1834a929e3644c8e9ad20dc3077b7aee4033 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4034;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43985;
   schema:duration "PT60M";
   schema:endDate "2026-05-06T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4034 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43985 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
+
+<https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:Place;
+  schema:name "Historic Theatre";
+  schema:address <https://spektrix.com/thecultch/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/thecultch/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:PostalAddress;
+  schema:streetAddress "1895 Venables Street";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/thecultch/event/83802AKSLTRKDVHPPHKCGMTDSNTRSCTKC> a schema:Event;
   schema:name "Soldiers of Tomorrow";
@@ -2822,11 +2777,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4034 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4035;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43986;
   schema:duration "PT60M";
   schema:endDate "2026-05-07T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4035 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43986 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2837,11 +2792,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4035 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4036;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43987;
   schema:duration "PT60M";
   schema:endDate "2026-05-08T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4036 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43987 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2852,11 +2807,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4036 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-09T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4037;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43988;
   schema:duration "PT60M";
   schema:endDate "2026-05-09T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4037 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43988 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2867,11 +2822,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4037 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-09T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4038;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43989;
   schema:duration "PT60M";
   schema:endDate "2026-05-09T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4038 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43989 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2882,11 +2837,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4038 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-10T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4039;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43990;
   schema:duration "PT60M";
   schema:endDate "2026-05-10T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4039 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43990 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -2897,11 +2852,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4039 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4040;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43991;
   schema:duration "PT60M";
   schema:endDate "2026-06-10T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4040 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43991 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2912,11 +2867,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4040 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-11T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4041;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43992;
   schema:duration "PT60M";
   schema:endDate "2026-06-11T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4041 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43992 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2927,11 +2882,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4041 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4042;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43993;
   schema:duration "PT60M";
   schema:endDate "2026-06-12T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4042 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43993 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2942,11 +2897,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4042 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4043;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43994;
   schema:duration "PT60M";
   schema:endDate "2026-06-13T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4043 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43994 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2957,11 +2912,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4043 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-14T16:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4044;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43995;
   schema:duration "PT60M";
   schema:endDate "2026-06-14T17:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4044 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43995 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2972,11 +2927,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4044 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4045;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43996;
   schema:duration "PT60M";
   schema:endDate "2026-06-16T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4045 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43996 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -2987,11 +2942,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4045 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4046;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43997;
   schema:duration "PT60M";
   schema:endDate "2026-06-17T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4046 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43997 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3002,11 +2957,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4046 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4047;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43998;
   schema:duration "PT60M";
   schema:endDate "2026-06-18T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4047 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43998 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3017,11 +2972,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4047 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-19T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4048;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb43999;
   schema:duration "PT60M";
   schema:endDate "2026-06-19T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4048 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb43999 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3032,11 +2987,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4048 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4049;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44000;
   schema:duration "PT60M";
   schema:endDate "2026-06-20T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4049 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44000 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3047,11 +3002,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4049 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-21T16:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4050;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44001;
   schema:duration "PT60M";
   schema:endDate "2026-06-21T17:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4050 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44001 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3062,11 +3017,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4050 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4051;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44002;
   schema:duration "PT60M";
   schema:endDate "2026-06-23T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4051 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44002 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3077,11 +3032,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4051 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-24T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4052;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44003;
   schema:duration "PT60M";
   schema:endDate "2026-06-24T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4052 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44003 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3092,11 +3047,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4052 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4053;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44004;
   schema:duration "PT60M";
   schema:endDate "2026-06-25T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4053 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44004 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3107,11 +3062,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4053 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-26T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4054;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44005;
   schema:duration "PT60M";
   schema:endDate "2026-06-26T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4054 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44005 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3122,11 +3077,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4054 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4055;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44006;
   schema:duration "PT60M";
   schema:endDate "2026-06-27T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4055 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44006 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3137,11 +3092,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4055 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-28T16:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4056;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44007;
   schema:duration "PT60M";
   schema:endDate "2026-06-28T17:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4056 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44007 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3152,11 +3107,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4056 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-26T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4057;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44008;
   schema:duration "PT90M";
   schema:endDate "2026-02-26T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4057 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44008 a schema:AggregateOffer;
   schema:lowPrice "20.7";
   schema:priceCurrency "CAD" .
 
@@ -3167,11 +3122,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4057 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-06T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4058;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44009;
   schema:duration "PT120M";
   schema:endDate "2026-02-06T22:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4058 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44009 a schema:AggregateOffer;
   schema:lowPrice "49.0";
   schema:priceCurrency "CAD" .
 
@@ -3182,11 +3137,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4058 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4059;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44010;
   schema:duration "PT60M";
   schema:endDate "2026-03-25T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4059 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44010 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -3197,11 +3152,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4059 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-26T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4060;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44011;
   schema:duration "PT60M";
   schema:endDate "2026-03-26T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4060 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44011 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -3212,11 +3167,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4060 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4061;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44012;
   schema:duration "PT60M";
   schema:endDate "2026-03-27T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4061 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44012 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -3227,11 +3182,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4061 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-28T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4062;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44013;
   schema:duration "PT60M";
   schema:endDate "2026-03-28T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4062 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44013 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -3242,11 +3197,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4062 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-28T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4063;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44014;
   schema:duration "PT60M";
   schema:endDate "2026-03-28T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4063 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44014 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -3257,11 +3212,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4063 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-29T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4064;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44015;
   schema:duration "PT60M";
   schema:endDate "2026-03-29T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4064 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44015 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -3272,11 +3227,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4064 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4065;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44016;
   schema:duration "PT60M";
   schema:endDate "2025-11-14T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4065 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44016 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -3287,11 +3242,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4065 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-15T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4066;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44017;
   schema:duration "PT60M";
   schema:endDate "2025-11-15T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4066 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44017 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -3302,11 +3257,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4066 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4067;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44018;
   schema:duration "PT60M";
   schema:endDate "2025-11-15T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4067 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44018 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -3317,12 +3272,27 @@ _:1834a929e3644c8e9ad20dc3077b7aee4067 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-16T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4068;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44019;
   schema:duration "PT60M";
   schema:endDate "2025-11-16T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4068 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44019 a schema:AggregateOffer;
   schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/thecultch/event/121401AQNSNQMVPDBLKSGRKHBMJMJDSSG> a schema:Event;
+  schema:name "Théâtre des Vamps";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-13T20:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44020;
+  schema:duration "PT120M";
+  schema:endDate "2026-03-13T22:00:00"^^xsd:dateTime .
+
+_:ab3bcaf74dfe491985434af2e1b0eeb44020 a schema:AggregateOffer;
+  schema:lowPrice "38.7";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/thecultch/event/74201ACMVPHLJKTRRBJKKLCTRPJVKGDGS> a schema:Event;
@@ -3332,11 +3302,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4068 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-04T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4069;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44021;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4069 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44021 a schema:AggregateOffer;
   schema:lowPrice "33.0";
   schema:priceCurrency "CAD" .
 
@@ -3355,11 +3325,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4069 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4070;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44022;
   schema:duration "PT60M";
   schema:endDate "2026-03-05T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4070 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44022 a schema:AggregateOffer;
   schema:lowPrice "33.0";
   schema:priceCurrency "CAD" .
 
@@ -3370,11 +3340,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4070 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4071;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44023;
   schema:duration "PT60M";
   schema:endDate "2026-03-06T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4071 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44023 a schema:AggregateOffer;
   schema:lowPrice "33.0";
   schema:priceCurrency "CAD" .
 
@@ -3385,11 +3355,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4071 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-07T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4072;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44024;
   schema:duration "PT60M";
   schema:endDate "2026-03-07T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4072 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44024 a schema:AggregateOffer;
   schema:lowPrice "33.0";
   schema:priceCurrency "CAD" .
 
@@ -3400,11 +3370,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4072 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4073;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44025;
   schema:duration "PT60M";
   schema:endDate "2026-03-07T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4073 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44025 a schema:AggregateOffer;
   schema:lowPrice "33.0";
   schema:priceCurrency "CAD" .
 
@@ -3415,11 +3385,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4073 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-08T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4074;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44026;
   schema:duration "PT60M";
   schema:endDate "2026-03-08T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4074 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44026 a schema:AggregateOffer;
   schema:lowPrice "33.0";
   schema:priceCurrency "CAD" .
 
@@ -3430,11 +3400,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4074 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4075;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44027;
   schema:duration "PT60M";
   schema:endDate "2026-02-17T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4075 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44027 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3445,11 +3415,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4075 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4076;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44028;
   schema:duration "PT60M";
   schema:endDate "2026-02-18T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4076 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44028 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3460,11 +3430,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4076 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-19T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4077;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44029;
   schema:duration "PT60M";
   schema:endDate "2026-02-19T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4077 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44029 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3475,11 +3445,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4077 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4078;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44030;
   schema:duration "PT60M";
   schema:endDate "2026-02-20T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4078 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44030 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3490,11 +3460,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4078 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-21T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4079;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44031;
   schema:duration "PT60M";
   schema:endDate "2026-02-21T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4079 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44031 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -3505,27 +3475,12 @@ _:1834a929e3644c8e9ad20dc3077b7aee4079 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4080;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44032;
   schema:duration "PT60M";
   schema:endDate "2026-02-21T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4080 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44032 a schema:AggregateOffer;
   schema:lowPrice "28.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thecultch/event/114601AMDJQQDNHTGNDJTQKQSBMNVJMJP> a schema:Event;
-  schema:name "Winter Express 2025!";
-  schema:description """
-
-""";
-  schema:startDate "2025-12-14T19:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4081;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-14T20:30:00"^^xsd:dateTime .
-
-_:1834a929e3644c8e9ad20dc3077b7aee4081 a schema:AggregateOffer;
-  schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/thecultch/event/106201AHMHMNJTBNGTSLHDGDSRQVNBMDC> a schema:Event;
@@ -3535,11 +3490,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4081 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-22T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4082;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44033;
   schema:duration "PT130M";
   schema:endDate "2025-12-22T21:10:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4082 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44033 a schema:AggregateOffer;
   schema:lowPrice "58.0";
   schema:priceCurrency "CAD" .
 
@@ -3550,11 +3505,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4082 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-01T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4083;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44034;
   schema:duration "PT60M";
   schema:endDate "2025-10-01T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4083 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44034 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3565,11 +3520,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4083 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-02T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4084;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44035;
   schema:duration "PT60M";
   schema:endDate "2025-10-02T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4084 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44035 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3580,11 +3535,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4084 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4085;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44036;
   schema:duration "PT60M";
   schema:endDate "2025-10-03T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4085 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44036 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3595,11 +3550,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4085 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-04T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4086;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44037;
   schema:duration "PT60M";
   schema:endDate "2025-10-04T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4086 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44037 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3610,11 +3565,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4086 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-04T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4087;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44038;
   schema:duration "PT60M";
   schema:endDate "2025-10-04T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4087 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44038 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3625,11 +3580,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4087 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-05T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4088;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44039;
   schema:duration "PT60M";
   schema:endDate "2025-10-05T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4088 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44039 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3640,11 +3595,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4088 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4089;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44040;
   schema:duration "PT60M";
   schema:endDate "2025-10-08T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4089 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44040 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3655,11 +3610,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4089 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-09T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4090;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44041;
   schema:duration "PT60M";
   schema:endDate "2025-10-09T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4090 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44041 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3670,11 +3625,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4090 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4091;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44042;
   schema:duration "PT60M";
   schema:endDate "2025-10-10T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4091 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44042 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3685,11 +3640,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4091 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-11T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4092;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44043;
   schema:duration "PT60M";
   schema:endDate "2025-10-11T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4092 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44043 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3700,11 +3655,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4092 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-11T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4093;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44044;
   schema:duration "PT60M";
   schema:endDate "2025-10-11T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4093 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44044 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3715,11 +3670,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4093 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-12T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4094;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44045;
   schema:duration "PT60M";
   schema:endDate "2025-10-12T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4094 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44045 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3730,11 +3685,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4094 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4095;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44046;
   schema:duration "PT60M";
   schema:endDate "2025-10-15T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4095 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44046 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3745,11 +3700,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4095 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4096;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44047;
   schema:duration "PT60M";
   schema:endDate "2025-10-16T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4096 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44047 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3760,11 +3715,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4096 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4097;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44048;
   schema:duration "PT60M";
   schema:endDate "2025-10-17T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4097 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44048 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3775,11 +3730,11 @@ _:1834a929e3644c8e9ad20dc3077b7aee4097 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-18T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4098;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44049;
   schema:duration "PT60M";
   schema:endDate "2025-10-18T15:00:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4098 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44049 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -3790,10 +3745,10 @@ _:1834a929e3644c8e9ad20dc3077b7aee4098 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thecultch/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:1834a929e3644c8e9ad20dc3077b7aee4099;
+  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb44050;
   schema:duration "PT60M";
   schema:endDate "2025-10-18T20:30:00"^^xsd:dateTime .
 
-_:1834a929e3644c8e9ad20dc3077b7aee4099 a schema:AggregateOffer;
+_:ab3bcaf74dfe491985434af2e1b0eeb44050 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
