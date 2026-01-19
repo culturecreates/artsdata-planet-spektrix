@@ -8,6 +8,36 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
+<http://www.spektrix.com/actmapleridge/event/277201ACBQVKDPRTBPVBCBDTCNPRQRPJN> a
+    schema:Event;
+  schema:name "ArtBar: Hand-Painted Wine Glasses";
+  schema:description """
+
+""";
+  schema:startDate "2026-01-27T18:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/actmapleridge/files/9ec0ec19-3c63-4545-b434-eaed1037b4f3.jpg>;
+  schema:location <https://spektrix.com/actmapleridge/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
+  schema:offers _:234387707cfa4b74b6bd0e31de242c2e2879;
+  schema:keywords "ArtBar";
+  schema:duration "PT120M";
+  schema:endDate "2026-01-27T20:30:00"^^xsd:dateTime .
+
+_:234387707cfa4b74b6bd0e31de242c2e2879 a schema:AggregateOffer;
+  schema:lowPrice "51.45";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/actmapleridge/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ> a
+    schema:Place;
+  schema:name "The Coffee Pitt";
+  schema:address <https://spektrix.com/actmapleridge/address/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ> .
+
+<https://spektrix.com/actmapleridge/address/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ> a schema:PostalAddress;
+  schema:streetAddress "12528 Harris Rd";
+  schema:addressLocality "Pitt Meadows";
+  schema:addressRegion "BC";
+  schema:postalCode "V3Y 2J4";
+  schema:addressCountry "CA" .
+
 <http://www.spektrix.com/actmapleridge/event/277001AHHGNTPSJCHHDLHMQSCDPVDNGTD> a
     schema:Event;
   schema:name "Piano Bar | February 23";
@@ -15,14 +45,14 @@
 
 """;
   schema:startDate "2026-02-23T18:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/actmapleridge/files/b14d7637-0b35-4fde-9d6f-5e500a39cb5e.jpg>;
+  schema:image <https://system.spektrix.com/actmapleridge/files/b14d7637-0b35-4fde-9d6f-5e500a39cb5e.jpg>;
   schema:location <https://spektrix.com/actmapleridge/location/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>;
-  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb42806;
+  schema:offers _:234387707cfa4b74b6bd0e31de242c2e2880;
   schema:keywords "Piano Bar";
   schema:duration "PT120M";
   schema:endDate "2026-02-23T20:00:00"^^xsd:dateTime .
 
-_:ab3bcaf74dfe491985434af2e1b0eeb42806 a schema:AggregateOffer;
+_:234387707cfa4b74b6bd0e31de242c2e2880 a schema:AggregateOffer;
   schema:lowPrice "10.0";
   schema:priceCurrency "CAD" .
 
@@ -45,14 +75,14 @@ _:ab3bcaf74dfe491985434af2e1b0eeb42806 a schema:AggregateOffer;
 
 """;
   schema:startDate "2026-01-19T18:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/actmapleridge/files/5e89b399-10e6-4de4-a7a3-3f1f4fa0c51d.jpg>;
+  schema:image <https://system.spektrix.com/actmapleridge/files/5e89b399-10e6-4de4-a7a3-3f1f4fa0c51d.jpg>;
   schema:location <https://spektrix.com/actmapleridge/location/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>;
-  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb42807;
+  schema:offers _:234387707cfa4b74b6bd0e31de242c2e2881;
   schema:keywords "Piano Bar";
   schema:duration "PT120M";
   schema:endDate "2026-01-19T20:00:00"^^xsd:dateTime .
 
-_:ab3bcaf74dfe491985434af2e1b0eeb42807 a schema:AggregateOffer;
+_:234387707cfa4b74b6bd0e31de242c2e2881 a schema:AggregateOffer;
   schema:lowPrice "10.0";
   schema:priceCurrency "CAD" .
 
@@ -63,13 +93,13 @@ _:ab3bcaf74dfe491985434af2e1b0eeb42807 a schema:AggregateOffer;
 
 """;
   schema:startDate "2026-03-23T18:00:00"^^xsd:dateTime;
-  schema:image <https://sysfilessacbe149174fee.blob.core.windows.net/public-container/clients/actmapleridge/files/28a1118f-a654-4df9-9a07-9835fe507b85.jpg>;
+  schema:image <https://system.spektrix.com/actmapleridge/files/28a1118f-a654-4df9-9a07-9835fe507b85.jpg>;
   schema:location <https://spektrix.com/actmapleridge/location/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>;
-  schema:offers _:ab3bcaf74dfe491985434af2e1b0eeb42808;
+  schema:offers _:234387707cfa4b74b6bd0e31de242c2e2882;
   schema:keywords "Piano Bar";
   schema:duration "PT120M";
   schema:endDate "2026-03-23T20:00:00"^^xsd:dateTime .
 
-_:ab3bcaf74dfe491985434af2e1b0eeb42808 a schema:AggregateOffer;
+_:234387707cfa4b74b6bd0e31de242c2e2882 a schema:AggregateOffer;
   schema:lowPrice "10.0";
   schema:priceCurrency "CAD" .
