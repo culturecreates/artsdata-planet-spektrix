@@ -8,28 +8,27 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/improvcentrevancouver/event/30201AHVTMBBQKSVNPBBRMTKPDQPRMHJC>
+<http://www.spektrix.com/improvcentrevancouver/event/39401AHHBKTRJHJPLGBDBSTVVRJPBTKLC>
   a schema:Event;
-  schema:name "BIPOC Intro to Improv";
+  schema:name "A Court of Crits and Bits by Fools Guild";
   schema:description """
-	<h2>Free BIPOC Workshop!</h2><span><br/></span><span class=\"BoldText\">Time:</span> 3:30pm – 5:30pm<span><br/></span><span class=\"BoldText\">Ages:</span> 19+<span><br/></span><span class=\"BoldText\">Level Required:</span> no improv experience is required!<span><br/></span><span class=\"BoldText\">Workshop Capacity:</span> 22 people<span><br/></span><span class=\"BoldText\">Cost:</span>FREE with registration<span><br/></span><span class=\"ItalicText\">Max 1 enrollment per email</span><span><br/></span><span><br/></span>This free workshop for BIPOC identifying folks requires no experience to join! Looking to explore the world of improvisation? Join us for an engaging workshop for BIPOC participants, regardless of prior experience! Dive into the fundamentals of improv during this two-hour session designed specifically for beginners. Experience the joy of \"Yes, And!\" in a welcoming and supportive atmosphere. This workshop is for people who identify as Black, Indigenous, and/or People of Colour.<span><br/></span><span><br/></span>All workshops and classes are 19+ only.<span><br/></span><span><br/></span>LOCK OUT POLICY: Doors will lock 15 minutes after the class begins. Late comers will not be permitted.
+
 """;
-  schema:startDate "2026-02-07T15:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/7a055893-b0d8-45e5-9d32-aaf7a343274b.jpg>;
+  schema:startDate "2026-02-15T21:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5775;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5961;
   schema:duration "PT120M";
-  schema:endDate "2026-02-07T17:30:00"^^xsd:dateTime .
+  schema:endDate "2026-02-15T23:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre> a schema:Organization;
   schema:name "The Improv Centre";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-6384> .
 
-_:234387707cfa4b74b6bd0e31de242c2e5775 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30201>;
-  schema:lowPrice "0.0";
+_:fad551c9910c4c16bbb4c52378322cab5961 a schema:AggregateOffer;
+  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/39401>;
+  schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
 
 <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>
@@ -45,6 +44,26 @@ _:234387707cfa4b74b6bd0e31de242c2e5775 a schema:AggregateOffer;
   schema:postalCode "V6H 3S4";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/improvcentrevancouver/event/30201AHVTMBBQKSVNPBBRMTKPDQPRMHJC>
+  a schema:Event;
+  schema:name "BIPOC Intro to Improv";
+  schema:description """
+	<h2>Free BIPOC Workshop!</h2><span><br/></span><span class=\"BoldText\">Time:</span> 3:30pm – 5:30pm<span><br/></span><span class=\"BoldText\">Ages:</span> 19+<span><br/></span><span class=\"BoldText\">Level Required:</span> no improv experience is required!<span><br/></span><span class=\"BoldText\">Workshop Capacity:</span> 22 people<span><br/></span><span class=\"BoldText\">Cost:</span>FREE with registration<span><br/></span><span class=\"ItalicText\">Max 1 enrollment per email</span><span><br/></span><span><br/></span>This free workshop for BIPOC identifying folks requires no experience to join! Looking to explore the world of improvisation? Join us for an engaging workshop for BIPOC participants, regardless of prior experience! Dive into the fundamentals of improv during this two-hour session designed specifically for beginners. Experience the joy of \"Yes, And!\" in a welcoming and supportive atmosphere. This workshop is for people who identify as Black, Indigenous, and/or People of Colour.<span><br/></span><span><br/></span>All workshops and classes are 19+ only.<span><br/></span><span><br/></span>LOCK OUT POLICY: Doors will lock 15 minutes after the class begins. Late comers will not be permitted.
+""";
+  schema:startDate "2026-02-07T15:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/improvcentrevancouver/files/7a055893-b0d8-45e5-9d32-aaf7a343274b.jpg>;
+  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
+  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
+  schema:url <https://theimprovcentre.ca/shows/>;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5962;
+  schema:duration "PT120M";
+  schema:endDate "2026-02-07T17:30:00"^^xsd:dateTime .
+
+_:fad551c9910c4c16bbb4c52378322cab5962 a schema:AggregateOffer;
+  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30201>;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/improvcentrevancouver/event/15201AJRGPHRLRVGVLSMBRKVQSJMVJBSH>
   a schema:Event;
   schema:name "Blockbuster";
@@ -56,132 +75,12 @@ _:234387707cfa4b74b6bd0e31de242c2e5775 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5776;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5963;
   schema:duration "PT90M";
   schema:endDate "2025-11-27T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5776 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5963 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/15201>;
-  schema:lowPrice "13.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/15401AGBHLPJQSLGSGPTPRKHBGTDKGKJN>
-  a schema:Event;
-  schema:name "Blockbuster";
-  schema:description """
-	<h2>Thursdays</h2><span><br/></span>This show is a comedic exploration of our all-time favourite films and film genres and ENTIRELY made up on the spot! We need you to help us create the latest Blockbuster! Is it a Horror? Western? Sci-Fi with a Romantic twist? Come and find out! <span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG <span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.<span><br/></span><span><br/></span><img src=\"https://system.spektrix.com/improvcentrevancouver/files/b318ff9d-d52a-4e85-b97d-3e4991c9f085.jpg\" />
-""";
-  schema:startDate "2025-12-04T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/b318ff9d-d52a-4e85-b97d-3e4991c9f085.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5777;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-04T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5777 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/15401>;
-  schema:lowPrice "13.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/15402ALRVRKNRMTSRQHRNGCCDJJDLJMQV>
-  a schema:Event;
-  schema:name "Blockbuster";
-  schema:description """
-	<h2>Thursdays</h2><span><br/></span>This show is a comedic exploration of our all-time favourite films and film genres and ENTIRELY made up on the spot! We need you to help us create the latest Blockbuster! Is it a Horror? Western? Sci-Fi with a Romantic twist? Come and find out! <span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG <span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.<span><br/></span><span><br/></span><img src=\"https://system.spektrix.com/improvcentrevancouver/files/b318ff9d-d52a-4e85-b97d-3e4991c9f085.jpg\" />
-""";
-  schema:startDate "2025-12-11T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/b318ff9d-d52a-4e85-b97d-3e4991c9f085.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5778;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-11T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5778 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/15402>;
-  schema:lowPrice "13.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/34201ASMCSDCJKPKGCLJTKVRDGQJPPMJH>
-  a schema:Event;
-  schema:name "Blockbuster";
-  schema:description """
-	<h2>Thursdays</h2><span><br/></span>This show is a comedic exploration of our all-time favourite films and film genres and ENTIRELY made up on the spot! We need you to help us create the latest Blockbuster! Is it a Horror? Western? Sci-Fi with a Romantic twist? Come and find out! <span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG <span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.<span><br/></span><span><br/></span><img src=\"https://system.spektrix.com/improvcentrevancouver/files/b318ff9d-d52a-4e85-b97d-3e4991c9f085.jpg\" />
-""";
-  schema:startDate "2025-12-17T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/b318ff9d-d52a-4e85-b97d-3e4991c9f085.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5779;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-17T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5779 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/34201>;
-  schema:lowPrice "13.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/29401ADJVTMPMVSKRPCKNPVMCRPLRQJRR>
-  a schema:Event;
-  schema:name "Blockbuster";
-  schema:description """
-	<h2>Thursdays</h2><span><br/></span>This show is a comedic exploration of our all-time favourite films and film genres and ENTIRELY made up on the spot! We need you to help us create the latest Blockbuster! Is it a Horror? Western? Sci-Fi with a Romantic twist? Come and find out! <span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG <span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.<span><br/></span><span><br/></span><img src=\"https://system.spektrix.com/improvcentrevancouver/files/b318ff9d-d52a-4e85-b97d-3e4991c9f085.jpg\" />
-""";
-  schema:startDate "2026-01-08T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/b318ff9d-d52a-4e85-b97d-3e4991c9f085.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5780;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-08T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5780 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/29401>;
-  schema:lowPrice "13.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/29201ACCPRBMSLVHDLHKGSRKDGGQQMTJM>
-  a schema:Event;
-  schema:name "Blockbuster";
-  schema:description """
-	<h2>Thursdays</h2><span><br/></span>This show is a comedic exploration of our all-time favourite films and film genres and ENTIRELY made up on the spot! We need you to help us create the latest Blockbuster! Is it a Horror? Western? Sci-Fi with a Romantic twist? Come and find out! <span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG <span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.<span><br/></span><span><br/></span><img src=\"https://system.spektrix.com/improvcentrevancouver/files/b318ff9d-d52a-4e85-b97d-3e4991c9f085.jpg\" />
-""";
-  schema:startDate "2026-01-15T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/b318ff9d-d52a-4e85-b97d-3e4991c9f085.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5781;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-15T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5781 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/29201>;
-  schema:lowPrice "13.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/29202ABLLNNQBSNJBTSNMLTKMSQGKRLRG>
-  a schema:Event;
-  schema:name "Blockbuster";
-  schema:description """
-	<h2>Thursdays</h2><span><br/></span>This show is a comedic exploration of our all-time favourite films and film genres and ENTIRELY made up on the spot! We need you to help us create the latest Blockbuster! Is it a Horror? Western? Sci-Fi with a Romantic twist? Come and find out! <span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG <span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.<span><br/></span><span><br/></span><img src=\"https://system.spektrix.com/improvcentrevancouver/files/b318ff9d-d52a-4e85-b97d-3e4991c9f085.jpg\" />
-""";
-  schema:startDate "2026-01-22T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/b318ff9d-d52a-4e85-b97d-3e4991c9f085.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5782;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-22T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5782 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/29202>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
 
@@ -196,11 +95,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5782 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5783;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5964;
   schema:duration "PT90M";
   schema:endDate "2026-03-05T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5783 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5964 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30801>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -216,11 +115,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5783 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5784;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5965;
   schema:duration "PT90M";
   schema:endDate "2026-03-12T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5784 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5965 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30802>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -236,11 +135,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5784 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5785;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5966;
   schema:duration "PT90M";
   schema:endDate "2026-03-19T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5785 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5966 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30803>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -256,11 +155,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5785 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5786;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5967;
   schema:duration "PT90M";
   schema:endDate "2026-03-26T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5786 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5967 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30804>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -276,11 +175,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5786 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5787;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5968;
   schema:duration "PT90M";
   schema:endDate "2026-02-05T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5787 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5968 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/34601>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -296,11 +195,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5787 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5788;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5969;
   schema:duration "PT90M";
   schema:endDate "2026-02-19T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5788 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5969 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/34603>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -316,11 +215,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5788 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5789;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5970;
   schema:duration "PT90M";
   schema:endDate "2026-02-26T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5789 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5970 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/34604>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -336,11 +235,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5789 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5790;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5971;
   schema:duration "PT90M";
   schema:endDate "2025-11-25T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5790 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5971 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14601>;
   schema:lowPrice "8.5";
   schema:priceCurrency "CAD" .
@@ -356,11 +255,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5790 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5791;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5972;
   schema:duration "PT90M";
   schema:endDate "2026-02-10T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5791 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5972 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32801>;
   schema:lowPrice "8.5";
   schema:priceCurrency "CAD" .
@@ -376,33 +275,13 @@ _:234387707cfa4b74b6bd0e31de242c2e5791 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5792;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5973;
   schema:duration "PT90M";
   schema:endDate "2026-03-10T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5792 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5973 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/33001>;
   schema:lowPrice "8.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/16801ANHJRBJLNRBNVQDKPGNSLJNKRTQV>
-  a schema:Event;
-  schema:name "Community Jam";
-  schema:description """
-	<h2>FREE Monthly Improv Jam</h2><span><br/></span><span class=\"BoldText\">Time:</span> 3:30pm – 5:30pm<span><br/></span><span class=\"BoldText\">Ages:</span> 19+<span><br/></span><span class=\"BoldText\">Level Required:</span> no improv experience is required!<span><br/></span><span class=\"BoldText\">Cost:</span> FREE with registration<span><br/></span><span class=\"ItalicText\">Max 2 enrollments per email per jam</span><span><br/></span><span><br/></span>Have a craving for the stage? Come and improvise with professionally trained performers at our free community jam session where you can walk up, drop in, and learn from the pros. If you’ve been itching to get involved in the improv community, this is for you!<span><br/></span><span><br/></span>Register to sign up!<span><br/></span><span><br/></span>All workshops and classes are 19+ only.<span><br/></span>
-""";
-  schema:startDate "2025-12-13T15:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/d5b3cac2-34d5-4dd1-a381-5edf4a2dc186.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5793;
-  schema:duration "PT120M";
-  schema:endDate "2025-12-13T17:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5793 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/16801>;
-  schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/improvcentrevancouver/event/22601ARRLHTVCDDNCQVPHHJKHRLVJHGRP>
@@ -416,11 +295,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5793 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5794;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5974;
   schema:duration "PT120M";
   schema:endDate "2026-01-31T17:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5794 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5974 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/22601>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -436,11 +315,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5794 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5795;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5975;
   schema:duration "PT120M";
   schema:endDate "2026-02-21T17:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5795 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5975 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/22002>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -456,11 +335,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5795 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5796;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5976;
   schema:duration "PT120M";
   schema:endDate "2026-03-28T17:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5796 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5976 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/20802>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -476,11 +355,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5796 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5797;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5977;
   schema:duration "PT120M";
   schema:endDate "2026-03-07T17:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5797 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5977 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/33401>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -496,11 +375,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5797 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5798;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5978;
   schema:duration "PT90M";
   schema:endDate "2026-02-12T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5798 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5978 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/33601>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -516,11 +395,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5798 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5799;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5979;
   schema:duration "PT90M";
   schema:endDate "2026-02-15T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5799 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5979 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/31005>;
   schema:lowPrice "8.5";
   schema:priceCurrency "CAD" .
@@ -535,11 +414,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5799 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5800;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5980;
   schema:duration "PT120M";
   schema:endDate "2026-02-02T01:59:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5800 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5980 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/37201>;
   schema:lowPrice "50.0";
   schema:priceCurrency "CAD" .
@@ -554,11 +433,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5800 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5801;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5981;
   schema:duration "PT120M";
   schema:endDate "2026-08-31T01:59:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5801 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5981 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/37401>;
   schema:lowPrice "250.0";
   schema:priceCurrency "CAD" .
@@ -574,11 +453,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5801 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5802;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5982;
   schema:duration "PT90M";
   schema:endDate "2026-03-08T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5802 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5982 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32802>;
   schema:lowPrice "8.5";
   schema:priceCurrency "CAD" .
@@ -594,11 +473,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5802 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5803;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5983;
   schema:duration "PT90M";
   schema:endDate "2026-03-15T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5803 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5983 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32803>;
   schema:lowPrice "8.5";
   schema:priceCurrency "CAD" .
@@ -614,11 +493,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5803 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5804;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5984;
   schema:duration "PT90M";
   schema:endDate "2026-03-29T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5804 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5984 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32805>;
   schema:lowPrice "8.5";
   schema:priceCurrency "CAD" .
@@ -634,11 +513,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5804 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5805;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5985;
   schema:duration "PT90M";
   schema:endDate "2026-02-04T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5805 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5985 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30601>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -654,11 +533,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5805 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5806;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5986;
   schema:duration "PT90M";
   schema:endDate "2026-02-11T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5806 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5986 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30602>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -674,11 +553,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5806 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5807;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5987;
   schema:duration "PT90M";
   schema:endDate "2026-02-18T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5807 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5987 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30603>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -694,11 +573,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5807 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5808;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5988;
   schema:duration "PT90M";
   schema:endDate "2026-02-25T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5808 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5988 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30604>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -714,11 +593,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5808 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5809;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5989;
   schema:duration "PT90M";
   schema:endDate "2026-03-04T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5809 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5989 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30605>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -734,11 +613,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5809 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5810;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5990;
   schema:duration "PT90M";
   schema:endDate "2026-03-11T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5810 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5990 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30606>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -754,11 +633,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5810 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5811;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5991;
   schema:duration "PT90M";
   schema:endDate "2026-03-18T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5811 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5991 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30607>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -774,53 +653,13 @@ _:234387707cfa4b74b6bd0e31de242c2e5811 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5812;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5992;
   schema:duration "PT90M";
   schema:endDate "2026-03-25T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5812 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5992 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30608>;
   schema:lowPrice "13.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/20601ABGSVVQHCDMLPVSSHGJPQKDMCGQD>
-  a schema:Event;
-  schema:name "Improv 101: the Fun-Damentals";
-  schema:description """
-	Have you ever wanted to try improv? Explore fun new worlds with like-minded individuals? We have a class for you! Come and hop into Improv 101, a warm comfortable environment designed to introduce to the improv art form. We go over improv fundamentals, importance of teamwork, and will get you up and on your feet having fun in a stress-less environment. Every answer is the right answer!<span><br/></span><span><br/></span>Saturday & Sunday 11am-3pm.<span><br/></span><span><br/></span>All workshops and classes are 19+ only.<span><br/></span><span><br/></span>This is the prerequisite for Improv 102.<span><br/></span><span><br/></span>REFUND POLICY:<span><br/></span>No refunds. Day one and two of training must be taken consecutively in the booked weekend to ensure a trusting and collaborative experience for all students. Completion of course and eligibility for class advancement requires full attendance.<span><br/></span><span><br/></span>LOCK OUT POLICY:<span><br/></span>Doors will lock 15 minutes after the class begins. Late comers will not be permitted.
-""";
-  schema:startDate "2026-01-10T11:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2f1bcad0-bca4-4623-9552-69a86cdbb06c.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5813;
-  schema:duration "PT480M";
-  schema:endDate "2026-01-10T19:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5813 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/20601>;
-  schema:lowPrice "195.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/35201AQQRSLKMCNNBJNMJCGMJTGPJQHBV>
-  a schema:Event;
-  schema:name "Improv 101: the Fun-Damentals";
-  schema:description """
-	Have you ever wanted to try improv? Explore fun new worlds with like-minded individuals? We have a class for you! Come and hop into Improv 101, a warm comfortable environment designed to introduce to the improv art form. We go over improv fundamentals, importance of teamwork, and will get you up and on your feet having fun in a stress-less environment. Every answer is the right answer!<span><br/></span><span><br/></span>Saturday & Sunday 11am-3pm.<span><br/></span><span><br/></span>All workshops and classes are 19+ only.<span><br/></span><span><br/></span>This is the prerequisite for Improv 102.<span><br/></span><span><br/></span>REFUND POLICY:<span><br/></span>No refunds. Day one and two of training must be taken consecutively in the booked weekend to ensure a trusting and collaborative experience for all students. Completion of course and eligibility for class advancement requires full attendance.<span><br/></span><span><br/></span>LOCK OUT POLICY:<span><br/></span>Doors will lock 15 minutes after the class begins. Late comers will not be permitted.
-""";
-  schema:startDate "2026-01-17T11:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2f1bcad0-bca4-4623-9552-69a86cdbb06c.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5814;
-  schema:duration "PT480M";
-  schema:endDate "2026-01-17T19:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5814 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/35201>;
-  schema:lowPrice "195.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/improvcentrevancouver/event/20801AJMTLQPSPKJDPVTSBMNNJNRPTPVH>
@@ -834,11 +673,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5814 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5815;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5993;
   schema:duration "PT480M";
   schema:endDate "2026-01-24T19:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5815 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5993 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/20801>;
   schema:lowPrice "195.0";
   schema:priceCurrency "CAD" .
@@ -854,11 +693,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5815 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5816;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5994;
   schema:duration "PT480M";
   schema:endDate "2026-02-21T19:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5816 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5994 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/21001>;
   schema:lowPrice "195.0";
   schema:priceCurrency "CAD" .
@@ -874,11 +713,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5816 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5817;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5995;
   schema:duration "PT480M";
   schema:endDate "2026-03-14T19:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5817 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5995 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/21201>;
   schema:lowPrice "195.0";
   schema:priceCurrency "CAD" .
@@ -894,11 +733,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5817 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5818;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5996;
   schema:duration "PT480M";
   schema:endDate "2026-02-07T19:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5818 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5996 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/21401>;
   schema:lowPrice "195.0";
   schema:priceCurrency "CAD" .
@@ -914,11 +753,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5818 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5819;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5997;
   schema:duration "PT480M";
   schema:endDate "2025-11-29T19:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5819 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5997 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/8606>;
   schema:lowPrice "195.0";
   schema:priceCurrency "CAD" .
@@ -934,11 +773,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5819 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5820;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5998;
   schema:duration "PT480M";
   schema:endDate "2026-02-14T19:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5820 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5998 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/28601>;
   schema:lowPrice "195.0";
   schema:priceCurrency "CAD" .
@@ -954,11 +793,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5820 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5821;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab5999;
   schema:duration "PT480M";
   schema:endDate "2026-03-07T19:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5821 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab5999 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/21601>;
   schema:lowPrice "195.0";
   schema:priceCurrency "CAD" .
@@ -974,33 +813,13 @@ _:234387707cfa4b74b6bd0e31de242c2e5821 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5822;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6000;
   schema:duration "PT480M";
   schema:endDate "2026-03-28T19:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5822 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6000 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/22003>;
   schema:lowPrice "195.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/21801ABPGGTNVQRGNRTJRVPPDJJQDTSQC>
-  a schema:Event;
-  schema:name "Improv for Beginners";
-  schema:description """
-	<h2>Saturdays</h2><span><br/></span><span class=\"BoldText\">Time:</span> 3:30pm – 5:30pm<span><br/></span><span class=\"BoldText\">Ages:</span> 19+<span><br/></span><span class=\"BoldText\">Level Required:</span> no improv experience is required!<span><br/></span><span class=\"BoldText\">Workshop Capacity:</span> 20 people<span><br/></span><span class=\"BoldText\">Cost:</span> $20<span><br/></span><span class=\"ItalicText\">Max 2 enrollments per email per class</span><span><br/></span><span><br/></span>Are you interested in the art of improvisation? Come learn with us! You’ll be taught the basics of improv in this two-hour workshop that’s geared toward beginners. Come enjoy a fun, friendly and supportive environment to learn the magic of “Yes, And!”<span><br/></span><span><br/></span>We also offer a limited amount of free spots for folks who identify as BIPOC, LGBTQIA2S+, or any other marginalized group. Please email boxoffice@theimprovcentre.ca to inquire.<span><br/></span><span><br/></span>All workshops and classes are 19+ only.<span><br/></span><span><br/></span>LOCK OUT POLICY: Doors will lock 15 minutes after the class begins. Late comers will not be permitted.
-""";
-  schema:startDate "2026-01-10T15:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/fb78d657-c89f-4735-9f36-41d725efd92b.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5823;
-  schema:duration "PT120M";
-  schema:endDate "2026-01-10T17:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5823 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/21801>;
-  schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/improvcentrevancouver/event/22201AVHLKLNNVQMTJHCGGPHJTVQHKKPM>
@@ -1014,11 +833,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5823 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5824;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6001;
   schema:duration "PT120M";
   schema:endDate "2026-03-21T17:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5824 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6001 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/22201>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -1034,11 +853,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5824 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5825;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6002;
   schema:duration "PT120M";
   schema:endDate "2026-02-14T17:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5825 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6002 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30401>;
   schema:lowPrice "60.0";
   schema:priceCurrency "CAD" .
@@ -1054,11 +873,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5825 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5826;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6003;
   schema:duration "PT90M";
   schema:endDate "2026-02-14T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5826 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6003 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/33602>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -1074,132 +893,12 @@ _:234387707cfa4b74b6bd0e31de242c2e5826 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5827;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6004;
   schema:duration "PT90M";
   schema:endDate "2026-02-14T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5827 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6004 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/33801>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/29801AKHGBCBQNDCCBHCDGNPLGJBDMJSD>
-  a schema:Event;
-  schema:name "New Year, New Me";
-  schema:description """
-	Join our improvisors as they bring to life our audience's real-life regrets and resolutions in this celebration of new beginnings!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: 18A<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-02T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/1571cba3-e8cf-466b-b4b0-a87b39887c61.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5828;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-02T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5828 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/29801>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/30001ACDNMRPKSDRKSKCJNMSBQHCSMMMG>
-  a schema:Event;
-  schema:name "New Year, New Me";
-  schema:description """
-	Join our improvisors as they bring to life our audience's real-life regrets and resolutions in this celebration of new beginnings!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: 18A<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-03T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/1571cba3-e8cf-466b-b4b0-a87b39887c61.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5829;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-03T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5829 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30001>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/29802ARMQMGKNGMTDHGSLHRSMNMDSQQJT>
-  a schema:Event;
-  schema:name "New Year, New Me";
-  schema:description """
-	Join our improvisors as they bring to life our audience's real-life regrets and resolutions in this celebration of new beginnings!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: 18A<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-09T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/1571cba3-e8cf-466b-b4b0-a87b39887c61.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5830;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-09T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5830 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/29802>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/30002ABGDSNHCRNQTMKKDRNRNNPHPNQLH>
-  a schema:Event;
-  schema:name "New Year, New Me";
-  schema:description """
-	Join our improvisors as they bring to life our audience's real-life regrets and resolutions in this celebration of new beginnings!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: 18A<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-10T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/1571cba3-e8cf-466b-b4b0-a87b39887c61.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5831;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-10T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5831 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30002>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/29803APQBRLPRQTBCBVHHMGQCPNRLBQQS>
-  a schema:Event;
-  schema:name "New Year, New Me";
-  schema:description """
-	Join our improvisors as they bring to life our audience's real-life regrets and resolutions in this celebration of new beginnings!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: 18A<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-16T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/1571cba3-e8cf-466b-b4b0-a87b39887c61.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5832;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-16T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5832 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/29803>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/30003ARGQTSKQKGPMNTNCHLCJSNTQNQKB>
-  a schema:Event;
-  schema:name "New Year, New Me";
-  schema:description """
-	Join our improvisors as they bring to life our audience's real-life regrets and resolutions in this celebration of new beginnings!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: 18A<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-17T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/1571cba3-e8cf-466b-b4b0-a87b39887c61.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5833;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-17T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5833 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30003>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1214,11 +913,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5833 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5834;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6005;
   schema:duration "PT90M";
   schema:endDate "2026-01-23T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5834 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6005 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/29804>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -1234,73 +933,13 @@ _:234387707cfa4b74b6bd0e31de242c2e5834 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5835;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6006;
   schema:duration "PT90M";
   schema:endDate "2026-01-24T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5835 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6006 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30004>;
   schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/19801AHJMMDKNMDJQSLCTGNDLGNGMJGHK>
-  a schema:Event;
-  schema:name "NYE at TIC";
-  schema:description """
-	<h1>New Year’s Eve Celebration Show</h1><span><br/></span><h2>Ring in 2026 with Laughter!</h2><span><br/></span>What better way to bid 2025 a fond farewell than with laughter? Come join us for an evening full of fun and frivolity as we welcome in the New Year! With scenes based on your best and brightest moments of the past year as well as your excitement and aspirations for 2026, this show is sure to kick the New Year off with laughter and levity!<span><br/></span><span><br/></span><span class=\"BoldText\">What Your Ticket Includes:</span><span><br/></span>1. An amazing show!<span><br/></span>2. Full access to our Dessert Bar <span><br/></span>3. DIY Candy Bag Buffet to enjoy before, during, and after!<span><br/></span>4. NYE Photo Wall <span><br/></span><span><br/></span>(GF & VEGAN Desserts & Candy will be available)<span><br/></span><span><br/></span>*Table seats are sold in pairs of 2 only,* each available ticket at a table is for 2 out of 4 seats. If you have any troubles purchasing table seats or have accessibility requirements please email us at boxoffice@theimprovcentre.ca<span><br/></span><span><br/></span><span class=\"BoldText\">Special Event - No Coupons, Passes, or Vouchers. Drinks not included in ticket price</span><span><br/></span><span><br/></span>7pm & 9pm Show Rated 14A  <span><br/></span><span class=\"UnderlineText\">11pm Show is 19+ only, ID's will be checked at door.</span>
-""";
-  schema:startDate "2025-12-31T19:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/5247701f-1865-4a97-8640-7276a3facdf9.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5836;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-31T20:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5836 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/19801>;
-  schema:lowPrice "63.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/23601ABQMTDMTTDQVVNJCNJPSQCSVMLHB>
-  a schema:Event;
-  schema:name "NYE at TIC";
-  schema:description """
-	<h1>New Year’s Eve Celebration Show</h1><span><br/></span><h2>Ring in 2026 with Laughter!</h2><span><br/></span>What better way to bid 2025 a fond farewell than with laughter? Come join us for an evening full of fun and frivolity as we welcome in the New Year! With scenes based on your best and brightest moments of the past year as well as your excitement and aspirations for 2026, this show is sure to kick the New Year off with laughter and levity!<span><br/></span><span><br/></span><span class=\"BoldText\">What Your Ticket Includes:</span><span><br/></span>1. An amazing show!<span><br/></span>2. Full access to our Dessert Bar <span><br/></span>3. DIY Candy Bag Buffet to enjoy before, during, and after!<span><br/></span>4. NYE Photo Wall <span><br/></span><span><br/></span>(GF & VEGAN Desserts & Candy will be available)<span><br/></span><span><br/></span>*Table seats are sold in pairs of 2 only,* each available ticket at a table is for 2 out of 4 seats. If you have any troubles purchasing table seats or have accessibility requirements please email us at boxoffice@theimprovcentre.ca<span><br/></span><span><br/></span><span class=\"BoldText\">Special Event - No Coupons, Passes, or Vouchers. Drinks not included in ticket price</span><span><br/></span><span><br/></span>7pm & 9pm Show Rated 14A  <span><br/></span><span class=\"UnderlineText\">11pm Show is 19+ only, ID's will be checked at door.</span>
-""";
-  schema:startDate "2025-12-31T21:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/5247701f-1865-4a97-8640-7276a3facdf9.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5837;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-31T22:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5837 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/23601>;
-  schema:lowPrice "63.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/23801AJTHHRQPTBGSQKNGJHMKGQMHTHHM>
-  a schema:Event;
-  schema:name "NYE at TIC";
-  schema:description """
-	<h1>New Year’s Eve Celebration Show</h1><span><br/></span><h2>Ring in 2026 with Laughter!</h2><span><br/></span>What better way to bid 2025 a fond farewell than with laughter? Come join us for an evening full of fun and frivolity as we welcome in the New Year! With scenes based on your best and brightest moments of the past year as well as your excitement and aspirations for 2026, this show is sure to kick the New Year off with laughter and levity!<span><br/></span><span><br/></span><span class=\"BoldText\">What Your Ticket Includes:</span><span><br/></span>1. An amazing show!<span><br/></span>2. Full access to our Dessert Bar <span><br/></span>3. DIY Candy Bag Buffet to enjoy before, during, and after!<span><br/></span>4. NYE Photo Wall <span><br/></span><span><br/></span>(GF & VEGAN Desserts & Candy will be available)<span><br/></span><span><br/></span>*Table seats are sold in pairs of 2 only,* each available ticket at a table is for 2 out of 4 seats. If you have any troubles purchasing table seats or have accessibility requirements please email us at boxoffice@theimprovcentre.ca<span><br/></span><span><br/></span><span class=\"BoldText\">Special Event - No Coupons, Passes, or Vouchers. Drinks not included in ticket price</span><span><br/></span><span><br/></span>7pm & 9pm Show Rated 14A  <span><br/></span><span class=\"UnderlineText\">11pm Show is 19+ only, ID's will be checked at door.</span>
-""";
-  schema:startDate "2025-12-31T23:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/5247701f-1865-4a97-8640-7276a3facdf9.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5838;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-01T00:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5838 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/23801>;
-  schema:lowPrice "63.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/improvcentrevancouver/event/32401ANQMVQVNTGTQHTSGSGJCPVKHDGKP>
@@ -1314,11 +953,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5838 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5839;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6007;
   schema:duration "PT90M";
   schema:endDate "2026-02-06T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5839 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6007 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32401>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -1334,27 +973,14 @@ _:234387707cfa4b74b6bd0e31de242c2e5839 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5840;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6008;
   schema:duration "PT90M";
   schema:endDate "2026-02-07T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5840 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6008 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32601>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
-
-<https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>
-  a schema:Place;
-  schema:name "The Improv Centre";
-  schema:address <https://spektrix.com/improvcentrevancouver/address/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ> .
-
-<https://spektrix.com/improvcentrevancouver/address/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>
-  a schema:PostalAddress;
-  schema:streetAddress "1502 Duranleau Street";
-  schema:addressLocality "Vancouver BC";
-  schema:addressRegion "BC";
-  schema:postalCode "V6H 3S4";
-  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/improvcentrevancouver/event/32402AJDGBSCNDPQKRMVQQMQGCBHMVVDV>
   a schema:Event;
@@ -1367,15 +993,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5840 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5841;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6009;
   schema:duration "PT90M";
   schema:endDate "2026-02-13T23:00:00"^^xsd:dateTime .
 
-<https://spektrix.com/improvcentrevancouver/organization/the-improv-centre> a schema:Organization;
-  schema:name "The Improv Centre";
-  schema:sameAs <http://kg.artsdata.ca/resource/K2-6384> .
-
-_:234387707cfa4b74b6bd0e31de242c2e5841 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6009 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32402>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -1391,11 +1013,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5841 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5842;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6010;
   schema:duration "PT90M";
   schema:endDate "2026-02-20T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5842 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6010 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32403>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -1411,11 +1033,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5842 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5843;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6011;
   schema:duration "PT90M";
   schema:endDate "2026-02-21T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5843 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6011 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32603>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -1431,11 +1053,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5843 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5844;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6012;
   schema:duration "PT90M";
   schema:endDate "2026-02-27T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5844 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6012 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32404>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -1451,11 +1073,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5844 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5845;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6013;
   schema:duration "PT90M";
   schema:endDate "2026-02-28T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5845 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6013 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32604>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -1471,11 +1093,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5845 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5846;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6014;
   schema:duration "PT90M";
   schema:endDate "2026-02-24T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5846 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6014 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32002>;
   schema:lowPrice "8.5";
   schema:priceCurrency "CAD" .
@@ -1491,33 +1113,13 @@ _:234387707cfa4b74b6bd0e31de242c2e5846 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5847;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6015;
   schema:duration "PT90M";
   schema:endDate "2026-03-24T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5847 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6015 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/32205>;
   schema:lowPrice "8.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/21602AQNNLHVHMJSNKSLRRSBVJPHPMCVC>
-  a schema:Event;
-  schema:name "The Games Lab";
-  schema:description """
-	In this class we will explore a series of classic short form games, giving you the space to play, play, and play some more! Get key tips and tricks on how to be even more successful in your scene work as you learn about different types of improv games and the \"motors\" that make them so much fun to play!<span><br/></span><span><br/></span>*This class is for improvisors with some experience. If you are new to improv, check out our Beginner's Classes!<span><br/></span><span><br/></span>All workshops and classes are 19+ only.<span><br/></span><span><br/></span>14 spots available per class
-""";
-  schema:startDate "2026-01-17T15:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/4a44ee72-24a3-4ca6-aaed-1241a9b28856.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5848;
-  schema:duration "PT120M";
-  schema:endDate "2026-01-17T17:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5848 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/21602>;
-  schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/improvcentrevancouver/event/24401ANRSMNVVNPTCKDHLSQSTGQBDDKHJ>
@@ -1531,11 +1133,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5848 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5849;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6016;
   schema:duration "PT120M";
   schema:endDate "2026-01-28T17:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5849 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6016 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/24401>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1551,11 +1153,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5849 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5850;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6017;
   schema:duration "PT120M";
   schema:endDate "2026-01-29T17:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5850 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6017 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/24601>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1571,11 +1173,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5850 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5851;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6018;
   schema:duration "PT120M";
   schema:endDate "2026-01-30T15:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5851 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6018 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/24801>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1591,11 +1193,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5851 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5852;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6019;
   schema:duration "PT120M";
   schema:endDate "2026-01-30T17:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5852 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6019 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/25401>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1611,11 +1213,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5852 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5853;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6020;
   schema:duration "PT120M";
   schema:endDate "2026-01-31T15:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5853 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6020 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/25001>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1631,11 +1233,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5853 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5854;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6021;
   schema:duration "PT90M";
   schema:endDate "2026-01-27T20:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5854 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6021 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/26001>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -1651,11 +1253,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5854 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5855;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6022;
   schema:duration "PT90M";
   schema:endDate "2026-01-28T20:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5855 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6022 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/27601>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -1671,11 +1273,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5855 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5856;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6023;
   schema:duration "PT90M";
   schema:endDate "2026-01-28T22:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5856 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6023 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/27801>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -1691,11 +1293,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5856 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5857;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6024;
   schema:duration "PT90M";
   schema:endDate "2026-01-29T20:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5857 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6024 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/26802>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -1711,11 +1313,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5857 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5858;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6025;
   schema:duration "PT90M";
   schema:endDate "2026-01-29T22:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5858 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6025 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/27002>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -1731,11 +1333,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5858 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5859;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6026;
   schema:duration "PT90M";
   schema:endDate "2026-01-30T20:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5859 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6026 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/27201>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -1751,14 +1353,31 @@ _:234387707cfa4b74b6bd0e31de242c2e5859 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5860;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6027;
   schema:duration "PT90M";
   schema:endDate "2026-01-30T22:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5860 a schema:AggregateOffer;
+<https://spektrix.com/improvcentrevancouver/organization/the-improv-centre> a schema:Organization;
+  schema:name "The Improv Centre";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6384> .
+
+_:fad551c9910c4c16bbb4c52378322cab6027 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/26202>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
+
+<https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>
+  a schema:Place;
+  schema:name "The Improv Centre";
+  schema:address <https://spektrix.com/improvcentrevancouver/address/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ> .
+
+<https://spektrix.com/improvcentrevancouver/address/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>
+  a schema:PostalAddress;
+  schema:streetAddress "1502 Duranleau Street";
+  schema:addressLocality "Vancouver BC";
+  schema:addressRegion "BC";
+  schema:postalCode "V6H 3S4";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/improvcentrevancouver/event/28001ATQBPNCNMQQVMPLRVTJTQRGHDNSG>
   a schema:Event;
@@ -1771,11 +1390,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5860 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5861;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6028;
   schema:duration "PT90M";
   schema:endDate "2026-01-31T00:15:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5861 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6028 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/28001>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
@@ -1791,11 +1410,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5861 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5862;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6029;
   schema:duration "PT90M";
   schema:endDate "2026-01-31T20:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5862 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6029 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/26402>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -1811,13 +1430,32 @@ _:234387707cfa4b74b6bd0e31de242c2e5862 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5863;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6030;
   schema:duration "PT90M";
   schema:endDate "2026-01-31T22:30:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5863 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6030 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/27401>;
   schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/improvcentrevancouver/event/39601AJRRLKSVBMNJSKBSJSPPVNLVSKDK>
+  a schema:Event;
+  schema:name "The Rhinestone Phoenix Variety Show";
+  schema:description """
+
+""";
+  schema:startDate "2026-02-22T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
+  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
+  schema:url <https://theimprovcentre.ca/shows/>;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6031;
+  schema:duration "PT180M";
+  schema:endDate "2026-02-22T22:00:00"^^xsd:dateTime .
+
+_:fad551c9910c4c16bbb4c52378322cab6031 a schema:AggregateOffer;
+  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/39601>;
+  schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/improvcentrevancouver/event/14004ASLRMTBJNSCKSLJBRNPJHPNLBVPM>
@@ -1831,11 +1469,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5863 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5864;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6032;
   schema:duration "PT90M";
   schema:endDate "2025-11-28T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5864 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6032 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14004>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -1851,292 +1489,12 @@ _:234387707cfa4b74b6bd0e31de242c2e5864 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5865;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6033;
   schema:duration "PT90M";
   schema:endDate "2025-11-29T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5865 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6033 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14204>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/14005ATCRBNRQNVSRKPTCDLDRGLMQLTGM>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-05T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5866;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-05T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5866 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14005>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/14205ATCHHPQPDNSTTBRCKTKCLNHSRSHR>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-06T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5867;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-06T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5867 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14205>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/14006ALDPVVJBBLQHVBNTCSKKJNVVCTQD>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-12T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5868;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-12T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5868 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14006>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/14206AMQNMBVVLNRTRSLLMTDJRTGPGSVV>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-13T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5869;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-13T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5869 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14206>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/14007ACCBSQRCSJMJGVPNTNDSPLBNLKNT>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-19T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5870;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-19T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5870 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14007>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/14207AMPDDHCHTLPTQLHTCBJMLBHTLVBS>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-20T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5871;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-20T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5871 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14207>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/14208ARJLRLQPJJJHNRDNJBDDTCNDHNQJ>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-27T21:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5872;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-27T23:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5872 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14208>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/28801AVBKQSCSGSCMSTRKBBJTVJRJMRQJ>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-02T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5873;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-02T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5873 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/28801>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/29001ALLPBTHVNSHLVJMKCMRSHGJJGQBT>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-03T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5874;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-03T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5874 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/29001>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/28802ABJCBGPMBSGTPLLHPPHPDBCMRJBV>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-09T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5875;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-09T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5875 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/28802>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/29002ACNTLSKNGDCHSRHKKLPKRSQSNPMK>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-10T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5876;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-10T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5876 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/29002>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/28803AQJHJQLHGLSKGQSCKDBCHGGBNDDH>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-16T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5877;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-16T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5877 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/28803>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/29003AQDPQLJRMTSDTSGBHDCMGKCVLVVQ>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-17T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5878;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-17T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5878 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/29003>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/29601AVVVGLGMQTHTLNRNLGJBCQJTVHSN>
-  a schema:Event;
-  schema:name "Theatresports";
-  schema:description """
-	Two teams of highly skilled improv comedians vie for the laughs and support of audience judges. A high-energy, fast-paced, and good-natured competition that will leave you wanting more! Our company has been performing Theatresports for over 40 years! No two shows are alike. Expect to laugh harder than you've ever laughed before!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-18T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/2136c90c-566e-40cf-9373-f7f765534b3d.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5879;
-  schema:duration "PT90M";
-  schema:endDate "2026-01-18T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5879 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/29601>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2151,11 +1509,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5879 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5880;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6034;
   schema:duration "PT90M";
   schema:endDate "2026-01-23T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5880 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6034 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/28804>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2171,11 +1529,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5880 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5881;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6035;
   schema:duration "PT90M";
   schema:endDate "2026-01-24T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5881 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6035 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/29004>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2191,11 +1549,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5881 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5882;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6036;
   schema:duration "PT90M";
   schema:endDate "2026-02-06T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5882 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6036 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30806>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2211,11 +1569,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5882 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5883;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6037;
   schema:duration "PT90M";
   schema:endDate "2026-02-07T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5883 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6037 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/31401>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2231,11 +1589,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5883 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5884;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6038;
   schema:duration "PT90M";
   schema:endDate "2026-02-13T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5884 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6038 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30807>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2251,11 +1609,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5884 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5885;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6039;
   schema:duration "PT90M";
   schema:endDate "2026-02-20T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5885 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6039 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30808>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2271,11 +1629,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5885 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5886;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6040;
   schema:duration "PT90M";
   schema:endDate "2026-02-21T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5886 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6040 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/31403>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2291,11 +1649,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5886 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5887;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6041;
   schema:duration "PT90M";
   schema:endDate "2026-02-27T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5887 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6041 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30809>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2311,11 +1669,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5887 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5888;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6042;
   schema:duration "PT90M";
   schema:endDate "2026-02-28T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5888 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6042 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/31404>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2331,11 +1689,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5888 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5889;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6043;
   schema:duration "PT90M";
   schema:endDate "2026-03-06T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5889 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6043 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30810>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2351,11 +1709,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5889 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5890;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6044;
   schema:duration "PT90M";
   schema:endDate "2026-03-07T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5890 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6044 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/31405>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2371,11 +1729,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5890 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5891;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6045;
   schema:duration "PT90M";
   schema:endDate "2026-03-13T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5891 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6045 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30811>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2391,11 +1749,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5891 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5892;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6046;
   schema:duration "PT90M";
   schema:endDate "2026-03-14T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5892 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6046 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/31406>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2411,11 +1769,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5892 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5893;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6047;
   schema:duration "PT90M";
   schema:endDate "2026-03-20T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5893 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6047 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30812>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2431,11 +1789,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5893 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5894;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6048;
   schema:duration "PT90M";
   schema:endDate "2026-03-21T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5894 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6048 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/31407>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2451,11 +1809,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5894 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5895;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6049;
   schema:duration "PT90M";
   schema:endDate "2026-03-27T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5895 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6049 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30813>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2471,11 +1829,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5895 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5896;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6050;
   schema:duration "PT90M";
   schema:endDate "2026-03-28T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5896 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6050 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/31408>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2491,11 +1849,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5896 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5897;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6051;
   schema:duration "PT90M";
   schema:endDate "2026-03-06T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5897 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6051 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30610>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2511,11 +1869,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5897 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5898;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6052;
   schema:duration "PT90M";
   schema:endDate "2026-03-07T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5898 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6052 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/31801>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2531,11 +1889,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5898 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5899;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6053;
   schema:duration "PT90M";
   schema:endDate "2026-03-13T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5899 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6053 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30611>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2551,11 +1909,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5899 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5900;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6054;
   schema:duration "PT90M";
   schema:endDate "2026-03-14T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5900 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6054 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/31802>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2571,11 +1929,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5900 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5901;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6055;
   schema:duration "PT90M";
   schema:endDate "2026-03-20T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5901 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6055 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30612>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2591,11 +1949,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5901 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5902;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6056;
   schema:duration "PT90M";
   schema:endDate "2026-03-21T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5902 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6056 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/31803>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2611,11 +1969,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5902 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5903;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6057;
   schema:duration "PT90M";
   schema:endDate "2026-03-27T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5903 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6057 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/30613>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2631,11 +1989,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5903 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5904;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6058;
   schema:duration "PT90M";
   schema:endDate "2026-03-28T23:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5904 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6058 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/31804>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2651,11 +2009,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5904 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5905;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6059;
   schema:duration "PT90M";
   schema:endDate "2025-11-28T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5905 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6059 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17202>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2671,412 +2029,13 @@ _:234387707cfa4b74b6bd0e31de242c2e5905 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5906 .
-
-_:234387707cfa4b74b6bd0e31de242c2e5906 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17402>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/17402ALCPBMVQDMBDMCMLSRKTNSCHMMGH>
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6060;
   schema:duration "PT90M";
   schema:endDate "2025-11-29T21:00:00"^^xsd:dateTime .
 
-<https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>
-  a schema:Place;
-  schema:name "The Improv Centre";
-  schema:address <https://spektrix.com/improvcentrevancouver/address/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ> .
-
-<https://spektrix.com/improvcentrevancouver/address/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>
-  a schema:PostalAddress;
-  schema:streetAddress "1502 Duranleau Street";
-  schema:addressLocality "Vancouver BC";
-  schema:addressRegion "BC";
-  schema:postalCode "V6H 3S4";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/17203AVBCKTKCPTTPRVTCVNVCKPLBMHDJ>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-05T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5907;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-05T21:00:00"^^xsd:dateTime .
-
-<https://spektrix.com/improvcentrevancouver/organization/the-improv-centre> a schema:Organization;
-  schema:name "The Improv Centre";
-  schema:sameAs <http://kg.artsdata.ca/resource/K2-6384> .
-
-_:234387707cfa4b74b6bd0e31de242c2e5907 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17203>;
+_:fad551c9910c4c16bbb4c52378322cab6060 a schema:AggregateOffer;
+  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17402>;
   schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/17403ASTKSMBLSCBQVSGMMMHCSLHMCBMT>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5908;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-06T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5908 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17403>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/17204ALDJGKLNDSNVGSJHNVGSNMRNPPBP>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-12T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5909;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-12T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5909 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17204>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/17404AGRCGKLVLQRLNBSTTNJVHTTTMNTJ>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-13T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5910;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-13T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5910 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17404>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/18001AQNDJSHVVQBLCSKTRHMGHNPJGJTM>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-14T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5911;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-14T15:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5911 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/18001>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/17601ADSBKGQMMPTLRCMTNQVQJNSBPVNG>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-18T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5912;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-18T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5912 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17601>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/17205AGHTBKCCSHTDPBTVCDQNNQCCPQQL>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-19T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5913;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-19T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5913 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17205>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/17405ACNTCKTSBBKNRCSDJNBHQPPPMHPL>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-20T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5914;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-20T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5914 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17405>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/18002AGNTCBKRDQKQBHJDQBKLMRQBRGDD>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-21T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5915;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-21T15:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5915 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/18002>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/18201AHGNDCRVCPJBPPJCHBJKBJSRNNKN>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-21T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5916;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-21T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5916 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/18201>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/17801ANDDGKKLBMPBRRTQKGLNDCMQGQHV>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-23T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5917;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-23T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5917 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17801>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/18004ACRSMBBJQJLLHJHRQVHVQGVRKJKQ>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-24T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5918;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-24T15:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5918 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/18004>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/17406AKVBMVMKDPCSDMRDPMSSRHHKQCHP>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-27T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5919;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-27T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5919 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17406>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/18003ATPCNNLLJBRKGMJRSBCQLNRMCMKD>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-28T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5920;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-28T15:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5920 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/18003>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/18202APJJJCHLMKPNLCKVHJTNNKBGJPVK>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-28T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5921;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-28T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5921 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/18202>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/17802ARQGCSKTDGDBPGBHPTGHVHPJJQMJ>
-  a schema:Event;
-  schema:name "'Tis The Sitcom";
-  schema:description """
-	<h1>Fridays & Saturdays</h1><span class=\"BoldText\">with additional special shows as listed.</span><span><br/></span><span><br/></span><h2>Nov. 20th – Dec. 30th</h2><span><br/></span><span class=\"BoldText\"><span class=\"ItalicText\">‘Tis the Sitcom</span></span> is an improvised version of a never-before-seen sitcom about a group of friends living in the big city navigating festive dilemmas – complete with commercial breaks, seasonal TV moments, and plenty of laughter. Each performance creates a brand new sitcom on the spot, giving audiences the feeling of watching a totally new holiday special unfold live on stage!<span><br/></span><span><br/></span>Run time: 90 minutes including intermission<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-30T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/016760a2-6002-4977-bb1c-7114a4085131.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5922;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-30T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5922 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/17802>;
-  schema:lowPrice "25.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/36801AVRGVGRDVPNHVPNNQVLKLPKNJBND>
-  a schema:Event;
-  schema:name "True Story!";
-  schema:description """
-	<h2>Real life stories spark hilarious scenes born from the mundane and the absurd!</h2><span><br/></span>There’s nothing wrong with oversharing in public, right? Especially if it fuels incredible comedy!<span><br/></span><span><br/></span>We get real stories from the audience. Life wins, life fails, weird little moments you thought only happened to you – and turn them into rapid-fire short-form scenes. Your true experiences get the full improv treatment: heightened, twisted, celebrated, and occasionally launched into comedic orbit.<span><br/></span><span><br/></span>After intermission, you’ll get a glimpse into the lives of our cast members. They’ll tell you short, true-life stories of their own that the ensemble will build scenes from. If you’re in the improv scene, you’ll recognize this as an Armando. If you’re not, think heartfelt storytelling, playful chaos, and a room full of people realizing that their lives are way funnier and relatable than they originally thought.<span><br/></span><span><br/></span>This show takes real life and turns the dial toward the absurd, the theatrical, and the downright hilarious! Along the way, you’ll get genuine connection, surprising honesty, and comedy that feels personal. It’s the perfect way to fill your Wednesday with laughs!<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-07T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/4a6e35ce-eeb1-453f-97fb-3223b0802cde.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5923;
-  schema:duration "PT60M";
-  schema:endDate "2026-01-07T20:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5923 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/36801>;
-  schema:lowPrice "13.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/36802ADRTHLBVGHGDRBMGJJHRCRCJGGGM>
-  a schema:Event;
-  schema:name "True Story!";
-  schema:description """
-	<h2>Real life stories spark hilarious scenes born from the mundane and the absurd!</h2><span><br/></span>There’s nothing wrong with oversharing in public, right? Especially if it fuels incredible comedy!<span><br/></span><span><br/></span>We get real stories from the audience. Life wins, life fails, weird little moments you thought only happened to you – and turn them into rapid-fire short-form scenes. Your true experiences get the full improv treatment: heightened, twisted, celebrated, and occasionally launched into comedic orbit.<span><br/></span><span><br/></span>After intermission, you’ll get a glimpse into the lives of our cast members. They’ll tell you short, true-life stories of their own that the ensemble will build scenes from. If you’re in the improv scene, you’ll recognize this as an Armando. If you’re not, think heartfelt storytelling, playful chaos, and a room full of people realizing that their lives are way funnier and relatable than they originally thought.<span><br/></span><span><br/></span>This show takes real life and turns the dial toward the absurd, the theatrical, and the downright hilarious! Along the way, you’ll get genuine connection, surprising honesty, and comedy that feels personal. It’s the perfect way to fill your Wednesday with laughs!<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-14T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/4a6e35ce-eeb1-453f-97fb-3223b0802cde.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5924;
-  schema:duration "PT60M";
-  schema:endDate "2026-01-14T20:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5924 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/36802>;
-  schema:lowPrice "13.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/36803AQDTGCBNPBKCJVRMNHDNPRVLJNSD>
-  a schema:Event;
-  schema:name "True Story!";
-  schema:description """
-	<h2>Real life stories spark hilarious scenes born from the mundane and the absurd!</h2><span><br/></span>There’s nothing wrong with oversharing in public, right? Especially if it fuels incredible comedy!<span><br/></span><span><br/></span>We get real stories from the audience. Life wins, life fails, weird little moments you thought only happened to you – and turn them into rapid-fire short-form scenes. Your true experiences get the full improv treatment: heightened, twisted, celebrated, and occasionally launched into comedic orbit.<span><br/></span><span><br/></span>After intermission, you’ll get a glimpse into the lives of our cast members. They’ll tell you short, true-life stories of their own that the ensemble will build scenes from. If you’re in the improv scene, you’ll recognize this as an Armando. If you’re not, think heartfelt storytelling, playful chaos, and a room full of people realizing that their lives are way funnier and relatable than they originally thought.<span><br/></span><span><br/></span>This show takes real life and turns the dial toward the absurd, the theatrical, and the downright hilarious! Along the way, you’ll get genuine connection, surprising honesty, and comedy that feels personal. It’s the perfect way to fill your Wednesday with laughs!<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2026-01-21T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/4a6e35ce-eeb1-453f-97fb-3223b0802cde.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5925;
-  schema:duration "PT60M";
-  schema:endDate "2026-01-21T20:30:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5925 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/36803>;
-  schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/improvcentrevancouver/event/14804AVGLDTNBPVMGTNPDGRPNVTPLHJBB>
@@ -3090,51 +2049,11 @@ _:234387707cfa4b74b6bd0e31de242c2e5925 a schema:AggregateOffer;
   schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
   schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
   schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5926;
+  schema:offers _:fad551c9910c4c16bbb4c52378322cab6061;
   schema:duration "PT90M";
   schema:endDate "2025-11-26T21:00:00"^^xsd:dateTime .
 
-_:234387707cfa4b74b6bd0e31de242c2e5926 a schema:AggregateOffer;
+_:fad551c9910c4c16bbb4c52378322cab6061 a schema:AggregateOffer;
   schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14804>;
-  schema:lowPrice "13.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/14805ARJHBMDRKLSQDPCSDQRNHCLKBPHG>
-  a schema:Event;
-  schema:name "Twist of Fate";
-  schema:description """
-	This fast-paced battle of wits is not just any ordinary improv show! Our hilarious hosts will constantly stir the pot – adding points, spinning challenge wheels, swapping teams, and throwing unexpected curveballs that push the limits of our performers' improvisational skills. From ridiculous on-the-spot games to wild, skill-testing challenges no two moments are ever the same!<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-03T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/8d607a20-cd52-4f9e-9b6a-79f9dd36ae1b.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5927;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-03T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5927 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14805>;
-  schema:lowPrice "13.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/improvcentrevancouver/event/14806ALPGVSHBHQTRGJMGBMKCVCTHNNLV>
-  a schema:Event;
-  schema:name "Twist of Fate";
-  schema:description """
-	This fast-paced battle of wits is not just any ordinary improv show! Our hilarious hosts will constantly stir the pot – adding points, spinning challenge wheels, swapping teams, and throwing unexpected curveballs that push the limits of our performers' improvisational skills. From ridiculous on-the-spot games to wild, skill-testing challenges no two moments are ever the same!<span><br/></span><span><br/></span>Rated: PG<span><br/></span><span><br/></span>Please Note: as The Improv Centre is a licensed facility, all minors (persons under the age of 19) must be accompanied by an adult.<span><br/></span><span><br/></span>All physical vouchers must now be redeemed via phone or email. Please contact the box office for assistance.
-""";
-  schema:startDate "2025-12-10T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/improvcentrevancouver/files/8d607a20-cd52-4f9e-9b6a-79f9dd36ae1b.jpg>;
-  schema:location <https://spektrix.com/improvcentrevancouver/location/603AMBLCJQMLRJDMDQKBNHDKQPPDPCQLJ>;
-  schema:organizer <https://spektrix.com/improvcentrevancouver/organization/the-improv-centre>;
-  schema:url <https://theimprovcentre.ca/shows/>;
-  schema:offers _:234387707cfa4b74b6bd0e31de242c2e5928;
-  schema:duration "PT90M";
-  schema:endDate "2025-12-10T21:00:00"^^xsd:dateTime .
-
-_:234387707cfa4b74b6bd0e31de242c2e5928 a schema:AggregateOffer;
-  schema:url <https://purchase.theimprovcentre.ca/ChooseSeats/14806>;
   schema:lowPrice "13.5";
   schema:priceCurrency "CAD" .
