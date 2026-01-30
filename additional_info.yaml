@@ -117,3 +117,7 @@ yukonartscentre:
 
 theatreaquarius:
   offerUrl: "https://purchasing.theatreaquarius.org/EventAvailability?EventId={extractID(id)}&ref=bookNow&scroll=timeAndDates"
+
+owensoundlittletheatre:
+  attribute_EventUrl: "https://roxytheatre.ca/shows/{slugify(name)}/"
+  offerUrl: "https://purchase.roxytheatre.ca/EventAvailability?EventId={extractID(id)}&ref=bookNow&scroll=timeAndDates"
