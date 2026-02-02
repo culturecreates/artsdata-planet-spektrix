@@ -8,53 +8,6 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/albertatheatreprojects/event/74001ADSVJLCKPMSPGQBKPTQSCGRSRDKK>
-  a schema:Event;
-  schema:name "25-26 2-Ticket Gift Voucher Online";
-  schema:description """
-
-""";
-  schema:startDate "2026-05-10T14:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/albertatheatreprojects/location/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>;
-  schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
-  schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab992;
-  schema:duration "PT60M";
-  schema:endDate "2026-05-10T15:00:00"^^xsd:dateTime .
-
-<https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>
-  a schema:Organization;
-  schema:name "Alberta Theatre Projects";
-  schema:sameAs <http://kg.artsdata.ca/resource/K2-6382> .
-
-_:fad551c9910c4c16bbb4c52378322cab992 a schema:AggregateOffer;
-  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=25-26-2-Tkt-Gift>;
-  schema:lowPrice "138.0";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/albertatheatreprojects/location/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>
-  a schema:Place;
-  schema:name "General" .
-
-<http://www.spektrix.com/albertatheatreprojects/event/74201ACMVPHLJKTRRBJKKLCTRPJVKGDGS>
-  a schema:Event;
-  schema:name "25-26 4-Ticket Gift Voucher Online";
-  schema:description """
-
-""";
-  schema:startDate "2026-05-10T14:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/albertatheatreprojects/location/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>;
-  schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
-  schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab993;
-  schema:duration "PT60M";
-  schema:endDate "2026-05-10T15:00:00"^^xsd:dateTime .
-
-_:fad551c9910c4c16bbb4c52378322cab993 a schema:AggregateOffer;
-  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=25-26-4-Tkt-Gift>;
-  schema:lowPrice "276.0";
-  schema:priceCurrency "CAD" .
-
 <http://www.spektrix.com/albertatheatreprojects/event/67201AVCRKQDBSGLQHRCLJQTBDLCTLNNQ>
   a schema:Event;
   schema:name "Backyard Bash Fundraiser 2024";
@@ -67,6 +20,15 @@ _:fad551c9910c4c16bbb4c52378322cab993 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
   schema:duration "PT60M";
   schema:endDate "2024-08-09T20:30:00"^^xsd:dateTime .
+
+<https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>
+  a schema:Organization;
+  schema:name "Alberta Theatre Projects";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6382> .
+
+<https://spektrix.com/albertatheatreprojects/location/1401AHPQBSMRKMCGHQKGHVQVKCQNVNBKN>
+  a schema:Place;
+  schema:name "General" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/67401ALTRTTRTPTSQHLNNDTGHMDRBCNBR>
   a schema:Event;
@@ -91,11 +53,11 @@ _:fad551c9910c4c16bbb4c52378322cab993 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab994;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81098;
   schema:duration "PT60M";
   schema:endDate "2026-02-24T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab994 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81098 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_feb24>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -123,11 +85,11 @@ _:fad551c9910c4c16bbb4c52378322cab994 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab995;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81099;
   schema:duration "PT60M";
   schema:endDate "2026-02-25T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab995 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81099 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_feb25>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -142,11 +104,11 @@ _:fad551c9910c4c16bbb4c52378322cab995 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab996;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81100;
   schema:duration "PT60M";
   schema:endDate "2026-02-26T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab996 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81100 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_feb26>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -161,11 +123,11 @@ _:fad551c9910c4c16bbb4c52378322cab996 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab997;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81101;
   schema:duration "PT60M";
   schema:endDate "2026-02-27T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab997 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81101 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_feb27>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -180,11 +142,11 @@ _:fad551c9910c4c16bbb4c52378322cab997 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab998;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81102;
   schema:duration "PT60M";
   schema:endDate "2026-02-28T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab998 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81102 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_feb28mat>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -199,11 +161,11 @@ _:fad551c9910c4c16bbb4c52378322cab998 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab999;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81103;
   schema:duration "PT60M";
   schema:endDate "2026-02-28T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab999 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81103 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_feb28eve>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -218,11 +180,11 @@ _:fad551c9910c4c16bbb4c52378322cab999 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1000;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81104;
   schema:duration "PT60M";
   schema:endDate "2026-03-01T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1000 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81104 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar1mat>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -237,11 +199,11 @@ _:fad551c9910c4c16bbb4c52378322cab1000 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1001;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81105;
   schema:duration "PT60M";
   schema:endDate "2026-03-03T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1001 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81105 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar3>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -256,11 +218,11 @@ _:fad551c9910c4c16bbb4c52378322cab1001 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1002;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81106;
   schema:duration "PT60M";
   schema:endDate "2026-03-04T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1002 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81106 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar4>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -275,11 +237,11 @@ _:fad551c9910c4c16bbb4c52378322cab1002 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1003;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81107;
   schema:duration "PT60M";
   schema:endDate "2026-03-05T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1003 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81107 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar5>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -294,11 +256,11 @@ _:fad551c9910c4c16bbb4c52378322cab1003 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1004;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81108;
   schema:duration "PT60M";
   schema:endDate "2026-03-06T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1004 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81108 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar6>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -313,11 +275,11 @@ _:fad551c9910c4c16bbb4c52378322cab1004 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1005;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81109;
   schema:duration "PT60M";
   schema:endDate "2026-03-07T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1005 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81109 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar7mat>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -332,11 +294,11 @@ _:fad551c9910c4c16bbb4c52378322cab1005 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1006;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81110;
   schema:duration "PT60M";
   schema:endDate "2026-03-07T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1006 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81110 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar7eve>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -351,11 +313,11 @@ _:fad551c9910c4c16bbb4c52378322cab1006 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1007;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81111;
   schema:duration "PT60M";
   schema:endDate "2026-03-08T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1007 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81111 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar8mat>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -370,11 +332,11 @@ _:fad551c9910c4c16bbb4c52378322cab1007 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1008;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81112;
   schema:duration "PT60M";
   schema:endDate "2026-03-11T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1008 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81112 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar11>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -389,11 +351,11 @@ _:fad551c9910c4c16bbb4c52378322cab1008 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1009;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81113;
   schema:duration "PT60M";
   schema:endDate "2026-03-12T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1009 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81113 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar12>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -408,11 +370,11 @@ _:fad551c9910c4c16bbb4c52378322cab1009 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1010;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81114;
   schema:duration "PT60M";
   schema:endDate "2026-03-13T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1010 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81114 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar13>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -427,11 +389,11 @@ _:fad551c9910c4c16bbb4c52378322cab1010 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1011;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81115;
   schema:duration "PT60M";
   schema:endDate "2026-03-14T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1011 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81115 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar14mat>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -446,11 +408,11 @@ _:fad551c9910c4c16bbb4c52378322cab1011 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1012;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81116;
   schema:duration "PT60M";
   schema:endDate "2026-03-14T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1012 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81116 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar14eve>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -465,11 +427,11 @@ _:fad551c9910c4c16bbb4c52378322cab1012 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1013;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81117;
   schema:duration "PT60M";
   schema:endDate "2026-03-15T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1013 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81117 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=candd_mar15mat>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -484,11 +446,11 @@ _:fad551c9910c4c16bbb4c52378322cab1013 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1014;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81118;
   schema:duration "PT120M";
   schema:endDate "2024-11-26T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1014 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81118 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_nov26>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -503,11 +465,11 @@ _:fad551c9910c4c16bbb4c52378322cab1014 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1015;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81119;
   schema:duration "PT120M";
   schema:endDate "2024-11-28T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1015 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81119 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_nov28>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -522,11 +484,11 @@ _:fad551c9910c4c16bbb4c52378322cab1015 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1016;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81120;
   schema:duration "PT120M";
   schema:endDate "2024-11-29T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1016 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81120 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_nov29>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -541,11 +503,11 @@ _:fad551c9910c4c16bbb4c52378322cab1016 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1017;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81121;
   schema:duration "PT120M";
   schema:endDate "2024-11-30T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1017 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81121 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_nov30m>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -560,11 +522,11 @@ _:fad551c9910c4c16bbb4c52378322cab1017 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1018;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81122;
   schema:duration "PT120M";
   schema:endDate "2024-11-30T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1018 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81122 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_nov30e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -579,11 +541,11 @@ _:fad551c9910c4c16bbb4c52378322cab1018 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1019;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81123;
   schema:duration "PT120M";
   schema:endDate "2024-12-01T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1019 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81123 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec1m>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -598,11 +560,11 @@ _:fad551c9910c4c16bbb4c52378322cab1019 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1020;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81124;
   schema:duration "PT120M";
   schema:endDate "2024-12-05T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1020 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81124 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec5>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -617,11 +579,11 @@ _:fad551c9910c4c16bbb4c52378322cab1020 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1021;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81125;
   schema:duration "PT120M";
   schema:endDate "2024-12-06T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1021 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81125 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec6>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -636,11 +598,11 @@ _:fad551c9910c4c16bbb4c52378322cab1021 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1022;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81126;
   schema:duration "PT120M";
   schema:endDate "2024-12-07T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1022 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81126 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec7m>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -655,11 +617,11 @@ _:fad551c9910c4c16bbb4c52378322cab1022 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1023;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81127;
   schema:duration "PT120M";
   schema:endDate "2024-12-07T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1023 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81127 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec7e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -674,11 +636,11 @@ _:fad551c9910c4c16bbb4c52378322cab1023 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1024;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81128;
   schema:duration "PT120M";
   schema:endDate "2024-12-08T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1024 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81128 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec8m>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -693,11 +655,11 @@ _:fad551c9910c4c16bbb4c52378322cab1024 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1025;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81129;
   schema:duration "PT120M";
   schema:endDate "2024-12-12T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1025 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81129 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec12>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -712,11 +674,11 @@ _:fad551c9910c4c16bbb4c52378322cab1025 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1026;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81130;
   schema:duration "PT120M";
   schema:endDate "2024-12-13T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1026 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81130 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec13>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -731,11 +693,11 @@ _:fad551c9910c4c16bbb4c52378322cab1026 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1027;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81131;
   schema:duration "PT120M";
   schema:endDate "2024-12-14T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1027 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81131 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec14m>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -750,11 +712,11 @@ _:fad551c9910c4c16bbb4c52378322cab1027 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1028;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81132;
   schema:duration "PT120M";
   schema:endDate "2024-12-14T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1028 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81132 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec14e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -769,11 +731,11 @@ _:fad551c9910c4c16bbb4c52378322cab1028 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1029;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81133;
   schema:duration "PT120M";
   schema:endDate "2024-12-15T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1029 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81133 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec15m>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -788,11 +750,11 @@ _:fad551c9910c4c16bbb4c52378322cab1029 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1030;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81134;
   schema:duration "PT120M";
   schema:endDate "2024-12-17T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1030 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81134 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec17>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -807,11 +769,11 @@ _:fad551c9910c4c16bbb4c52378322cab1030 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1031;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81135;
   schema:duration "PT120M";
   schema:endDate "2024-12-18T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1031 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81135 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec18>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -826,11 +788,11 @@ _:fad551c9910c4c16bbb4c52378322cab1031 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1032;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81136;
   schema:duration "PT120M";
   schema:endDate "2024-12-19T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1032 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81136 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec19>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -845,11 +807,11 @@ _:fad551c9910c4c16bbb4c52378322cab1032 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1033;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81137;
   schema:duration "PT120M";
   schema:endDate "2024-12-20T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1033 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81137 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec20>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -864,11 +826,11 @@ _:fad551c9910c4c16bbb4c52378322cab1033 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1034;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81138;
   schema:duration "PT120M";
   schema:endDate "2024-12-21T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1034 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81138 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec21m>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -883,11 +845,11 @@ _:fad551c9910c4c16bbb4c52378322cab1034 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1035;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81139;
   schema:duration "PT120M";
   schema:endDate "2024-12-21T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1035 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81139 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec21e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -902,11 +864,11 @@ _:fad551c9910c4c16bbb4c52378322cab1035 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1036;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81140;
   schema:duration "PT120M";
   schema:endDate "2024-12-22T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1036 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81140 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec22m>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -921,11 +883,11 @@ _:fad551c9910c4c16bbb4c52378322cab1036 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1037;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81141;
   schema:duration "PT120M";
   schema:endDate "2024-12-24T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1037 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81141 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec24m>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -940,11 +902,11 @@ _:fad551c9910c4c16bbb4c52378322cab1037 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1038;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81142;
   schema:duration "PT120M";
   schema:endDate "2024-12-26T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1038 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81142 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec26m>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -959,11 +921,11 @@ _:fad551c9910c4c16bbb4c52378322cab1038 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1039;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81143;
   schema:duration "PT120M";
   schema:endDate "2024-12-26T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1039 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81143 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec26e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -978,11 +940,11 @@ _:fad551c9910c4c16bbb4c52378322cab1039 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1040;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81144;
   schema:duration "PT120M";
   schema:endDate "2024-12-27T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1040 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81144 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec27>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -997,11 +959,11 @@ _:fad551c9910c4c16bbb4c52378322cab1040 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1041;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81145;
   schema:duration "PT120M";
   schema:endDate "2024-12-28T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1041 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81145 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec28m>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1016,11 +978,11 @@ _:fad551c9910c4c16bbb4c52378322cab1041 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1042;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81146;
   schema:duration "PT120M";
   schema:endDate "2024-12-28T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1042 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81146 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec28e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1035,11 +997,11 @@ _:fad551c9910c4c16bbb4c52378322cab1042 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1043;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81147;
   schema:duration "PT120M";
   schema:endDate "2024-12-29T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1043 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81147 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=cw_dec29m>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1054,11 +1016,11 @@ _:fad551c9910c4c16bbb4c52378322cab1043 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1044;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81148;
   schema:duration "PT120M";
   schema:endDate "2025-02-25T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1044 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81148 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_feb25>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1073,11 +1035,11 @@ _:fad551c9910c4c16bbb4c52378322cab1044 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1045;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81149;
   schema:duration "PT120M";
   schema:endDate "2025-02-26T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1045 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81149 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_feb26>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1092,11 +1054,11 @@ _:fad551c9910c4c16bbb4c52378322cab1045 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1046;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81150;
   schema:duration "PT120M";
   schema:endDate "2025-02-27T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1046 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81150 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_feb27>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1111,11 +1073,11 @@ _:fad551c9910c4c16bbb4c52378322cab1046 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1047;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81151;
   schema:duration "PT120M";
   schema:endDate "2025-02-28T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1047 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81151 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_feb28>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1130,11 +1092,11 @@ _:fad551c9910c4c16bbb4c52378322cab1047 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1048;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81152;
   schema:duration "PT120M";
   schema:endDate "2025-03-01T16:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1048 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81152 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar1m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1149,11 +1111,11 @@ _:fad551c9910c4c16bbb4c52378322cab1048 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1049;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81153;
   schema:duration "PT120M";
   schema:endDate "2025-03-01T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1049 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81153 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar1e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1168,11 +1130,11 @@ _:fad551c9910c4c16bbb4c52378322cab1049 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1050;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81154;
   schema:duration "PT120M";
   schema:endDate "2025-03-02T16:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1050 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81154 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar2m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1187,11 +1149,11 @@ _:fad551c9910c4c16bbb4c52378322cab1050 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1051;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81155;
   schema:duration "PT120M";
   schema:endDate "2025-03-04T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1051 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81155 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar4>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -1206,11 +1168,11 @@ _:fad551c9910c4c16bbb4c52378322cab1051 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1052;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81156;
   schema:duration "PT120M";
   schema:endDate "2025-03-05T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1052 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81156 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar5>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1225,11 +1187,11 @@ _:fad551c9910c4c16bbb4c52378322cab1052 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1053;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81157;
   schema:duration "PT120M";
   schema:endDate "2025-03-06T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1053 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81157 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar6>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1244,11 +1206,11 @@ _:fad551c9910c4c16bbb4c52378322cab1053 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1054;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81158;
   schema:duration "PT120M";
   schema:endDate "2025-03-07T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1054 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81158 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar7>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1263,11 +1225,11 @@ _:fad551c9910c4c16bbb4c52378322cab1054 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1055;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81159;
   schema:duration "PT120M";
   schema:endDate "2025-03-08T16:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1055 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81159 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar8m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1282,11 +1244,11 @@ _:fad551c9910c4c16bbb4c52378322cab1055 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1056;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81160;
   schema:duration "PT120M";
   schema:endDate "2025-03-08T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1056 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81160 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar8e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1301,11 +1263,11 @@ _:fad551c9910c4c16bbb4c52378322cab1056 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1057;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81161;
   schema:duration "PT120M";
   schema:endDate "2025-03-09T16:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1057 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81161 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar9m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1320,11 +1282,11 @@ _:fad551c9910c4c16bbb4c52378322cab1057 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1058;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81162;
   schema:duration "PT120M";
   schema:endDate "2025-03-12T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1058 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81162 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar12>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1339,11 +1301,11 @@ _:fad551c9910c4c16bbb4c52378322cab1058 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1059;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81163;
   schema:duration "PT120M";
   schema:endDate "2025-03-13T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1059 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81163 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar13>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1358,11 +1320,11 @@ _:fad551c9910c4c16bbb4c52378322cab1059 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1060;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81164;
   schema:duration "PT120M";
   schema:endDate "2025-03-14T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1060 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81164 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar14>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1377,17 +1339,55 @@ _:fad551c9910c4c16bbb4c52378322cab1060 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1061;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81165;
   schema:duration "PT120M";
   schema:endDate "2025-03-15T16:00:00"^^xsd:dateTime .
+
+_:d0229b045dfa4064bf5d80abb08b92e81165 a schema:AggregateOffer;
+  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar15m>;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/albertatheatreprojects/event/64017ALJVKDLVVNBPJGVPSBSJRNSHTJTD>
+  a schema:Event;
+  schema:name "King James";
+  schema:description """
+
+""";
+  schema:startDate "2025-03-15T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
+  schema:url <https://albertatheatreprojects.com/whats-on/>;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81166;
+  schema:duration "PT120M";
+  schema:endDate "2025-03-15T21:30:00"^^xsd:dateTime .
+
+_:d0229b045dfa4064bf5d80abb08b92e81166 a schema:AggregateOffer;
+  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar15e>;
+  schema:lowPrice "35.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/albertatheatreprojects/event/64018ALLHGHDVRMQRTGJPQSCNHSRDLDML>
+  a schema:Event;
+  schema:name "King James";
+  schema:description """
+
+""";
+  schema:startDate "2025-03-16T14:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
+  schema:url <https://albertatheatreprojects.com/whats-on/>;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81167;
+  schema:duration "PT120M";
+  schema:endDate "2025-03-16T16:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>
   a schema:Organization;
   schema:name "Alberta Theatre Projects";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-6382> .
 
-_:fad551c9910c4c16bbb4c52378322cab1061 a schema:AggregateOffer;
-  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar15m>;
+_:d0229b045dfa4064bf5d80abb08b92e81167 a schema:AggregateOffer;
+  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar16m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1404,44 +1404,6 @@ _:fad551c9910c4c16bbb4c52378322cab1061 a schema:AggregateOffer;
   schema:postalCode "T2G 0K8";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/albertatheatreprojects/event/64017ALJVKDLVVNBPJGVPSBSJRNSHTJTD>
-  a schema:Event;
-  schema:name "King James";
-  schema:description """
-
-""";
-  schema:startDate "2025-03-15T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
-  schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1062;
-  schema:duration "PT120M";
-  schema:endDate "2025-03-15T21:30:00"^^xsd:dateTime .
-
-_:fad551c9910c4c16bbb4c52378322cab1062 a schema:AggregateOffer;
-  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar15e>;
-  schema:lowPrice "35.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/albertatheatreprojects/event/64018ALLHGHDVRMQRTGJPQSCNHSRDLDML>
-  a schema:Event;
-  schema:name "King James";
-  schema:description """
-
-""";
-  schema:startDate "2025-03-16T14:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
-  schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1063;
-  schema:duration "PT120M";
-  schema:endDate "2025-03-16T16:00:00"^^xsd:dateTime .
-
-_:fad551c9910c4c16bbb4c52378322cab1063 a schema:AggregateOffer;
-  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=kjames_mar16m>;
-  schema:lowPrice "0.0";
-  schema:priceCurrency "CAD" .
-
 <http://www.spektrix.com/albertatheatreprojects/event/64401AKMPPVDBDCMHSBTMJNCMMKKJJJDG>
   a schema:Event;
   schema:name "Liars at a Funeral";
@@ -1452,11 +1414,11 @@ _:fad551c9910c4c16bbb4c52378322cab1063 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1064;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81168;
   schema:duration "PT120M";
   schema:endDate "2025-04-22T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1064 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81168 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_apr22>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1471,11 +1433,11 @@ _:fad551c9910c4c16bbb4c52378322cab1064 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1065;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81169;
   schema:duration "PT120M";
   schema:endDate "2025-04-23T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1065 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81169 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_apr23>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1490,11 +1452,11 @@ _:fad551c9910c4c16bbb4c52378322cab1065 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1066;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81170;
   schema:duration "PT120M";
   schema:endDate "2025-04-24T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1066 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81170 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_apr24>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1509,11 +1471,11 @@ _:fad551c9910c4c16bbb4c52378322cab1066 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1067;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81171;
   schema:duration "PT120M";
   schema:endDate "2025-04-25T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1067 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81171 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_apr25>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1528,11 +1490,11 @@ _:fad551c9910c4c16bbb4c52378322cab1067 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1068;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81172;
   schema:duration "PT120M";
   schema:endDate "2025-04-26T16:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1068 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81172 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_apr26m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1547,11 +1509,11 @@ _:fad551c9910c4c16bbb4c52378322cab1068 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1069;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81173;
   schema:duration "PT120M";
   schema:endDate "2025-04-26T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1069 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81173 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_apr26e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1566,11 +1528,11 @@ _:fad551c9910c4c16bbb4c52378322cab1069 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1070;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81174;
   schema:duration "PT120M";
   schema:endDate "2025-04-27T16:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1070 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81174 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_apr27m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1585,11 +1547,11 @@ _:fad551c9910c4c16bbb4c52378322cab1070 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1071;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81175;
   schema:duration "PT120M";
   schema:endDate "2025-04-29T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1071 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81175 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_apr29>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -1604,11 +1566,11 @@ _:fad551c9910c4c16bbb4c52378322cab1071 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1072;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81176;
   schema:duration "PT120M";
   schema:endDate "2025-04-30T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1072 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81176 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_apr30>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1623,11 +1585,11 @@ _:fad551c9910c4c16bbb4c52378322cab1072 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1073;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81177;
   schema:duration "PT120M";
   schema:endDate "2025-05-01T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1073 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81177 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_may1>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1642,11 +1604,11 @@ _:fad551c9910c4c16bbb4c52378322cab1073 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1074;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81178;
   schema:duration "PT120M";
   schema:endDate "2025-05-02T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1074 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81178 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_may2>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1661,11 +1623,11 @@ _:fad551c9910c4c16bbb4c52378322cab1074 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1075;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81179;
   schema:duration "PT120M";
   schema:endDate "2025-05-03T16:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1075 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81179 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_may3m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1680,11 +1642,11 @@ _:fad551c9910c4c16bbb4c52378322cab1075 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1076;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81180;
   schema:duration "PT120M";
   schema:endDate "2025-05-03T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1076 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81180 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_may3e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1699,11 +1661,11 @@ _:fad551c9910c4c16bbb4c52378322cab1076 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1077;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81181;
   schema:duration "PT120M";
   schema:endDate "2025-05-04T16:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1077 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81181 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_may4m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1718,11 +1680,11 @@ _:fad551c9910c4c16bbb4c52378322cab1077 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1078;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81182;
   schema:duration "PT120M";
   schema:endDate "2025-05-06T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1078 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81182 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_may6>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1737,11 +1699,11 @@ _:fad551c9910c4c16bbb4c52378322cab1078 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1079;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81183;
   schema:duration "PT120M";
   schema:endDate "2025-05-07T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1079 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81183 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_may7>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1756,11 +1718,11 @@ _:fad551c9910c4c16bbb4c52378322cab1079 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1080;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81184;
   schema:duration "PT120M";
   schema:endDate "2025-05-08T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1080 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81184 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_may8>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1775,11 +1737,11 @@ _:fad551c9910c4c16bbb4c52378322cab1080 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1081;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81185;
   schema:duration "PT120M";
   schema:endDate "2025-05-09T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1081 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81185 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_may9>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1794,11 +1756,11 @@ _:fad551c9910c4c16bbb4c52378322cab1081 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1082;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81186;
   schema:duration "PT120M";
   schema:endDate "2025-05-10T16:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1082 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81186 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_may10m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1813,11 +1775,11 @@ _:fad551c9910c4c16bbb4c52378322cab1082 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1083;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81187;
   schema:duration "PT120M";
   schema:endDate "2025-05-10T21:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1083 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81187 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_may10e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1832,11 +1794,11 @@ _:fad551c9910c4c16bbb4c52378322cab1083 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1084;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81188;
   schema:duration "PT120M";
   schema:endDate "2025-05-11T16:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1084 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81188 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=liars_may11m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1851,11 +1813,11 @@ _:fad551c9910c4c16bbb4c52378322cab1084 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1085;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81189;
   schema:duration "PT60M";
   schema:endDate "2025-10-22T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1085 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81189 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_oct22>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1870,11 +1832,11 @@ _:fad551c9910c4c16bbb4c52378322cab1085 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1086;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81190;
   schema:duration "PT60M";
   schema:endDate "2025-10-23T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1086 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81190 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_oct23>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1889,11 +1851,11 @@ _:fad551c9910c4c16bbb4c52378322cab1086 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1087;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81191;
   schema:duration "PT60M";
   schema:endDate "2025-10-24T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1087 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81191 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_oct24>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1908,11 +1870,11 @@ _:fad551c9910c4c16bbb4c52378322cab1087 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1088;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81192;
   schema:duration "PT60M";
   schema:endDate "2025-10-25T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1088 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81192 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_oct25mat>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1927,11 +1889,11 @@ _:fad551c9910c4c16bbb4c52378322cab1088 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1089;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81193;
   schema:duration "PT60M";
   schema:endDate "2025-10-25T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1089 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81193 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_oct25eve>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
@@ -1946,11 +1908,11 @@ _:fad551c9910c4c16bbb4c52378322cab1089 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1090;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81194;
   schema:duration "PT60M";
   schema:endDate "2025-10-26T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1090 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81194 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_oct26mat>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -1965,11 +1927,11 @@ _:fad551c9910c4c16bbb4c52378322cab1090 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1091;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81195;
   schema:duration "PT60M";
   schema:endDate "2025-10-28T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1091 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81195 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_oct28>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -1984,11 +1946,11 @@ _:fad551c9910c4c16bbb4c52378322cab1091 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1092;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81196;
   schema:duration "PT60M";
   schema:endDate "2025-10-29T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1092 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81196 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_oct29>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2003,11 +1965,11 @@ _:fad551c9910c4c16bbb4c52378322cab1092 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1093;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81197;
   schema:duration "PT60M";
   schema:endDate "2025-10-30T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1093 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81197 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_oct30>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2022,11 +1984,11 @@ _:fad551c9910c4c16bbb4c52378322cab1093 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1094;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81198;
   schema:duration "PT60M";
   schema:endDate "2025-10-31T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1094 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81198 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_oct31>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2041,11 +2003,11 @@ _:fad551c9910c4c16bbb4c52378322cab1094 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1095;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81199;
   schema:duration "PT60M";
   schema:endDate "2025-11-01T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1095 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81199 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_nov1mat>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2060,11 +2022,11 @@ _:fad551c9910c4c16bbb4c52378322cab1095 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1096;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81200;
   schema:duration "PT60M";
   schema:endDate "2025-11-01T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1096 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81200 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_nov1eve>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2079,11 +2041,11 @@ _:fad551c9910c4c16bbb4c52378322cab1096 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1097;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81201;
   schema:duration "PT60M";
   schema:endDate "2025-11-02T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1097 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81201 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_nov2mat>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2098,11 +2060,11 @@ _:fad551c9910c4c16bbb4c52378322cab1097 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1098;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81202;
   schema:duration "PT60M";
   schema:endDate "2025-11-02T20:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1098 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81202 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_nov2eve>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2117,11 +2079,11 @@ _:fad551c9910c4c16bbb4c52378322cab1098 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1099;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81203;
   schema:duration "PT60M";
   schema:endDate "2025-11-04T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1099 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81203 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_nov4>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2136,11 +2098,11 @@ _:fad551c9910c4c16bbb4c52378322cab1099 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1100;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81204;
   schema:duration "PT60M";
   schema:endDate "2025-11-05T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1100 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81204 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_nov5>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -2155,11 +2117,11 @@ _:fad551c9910c4c16bbb4c52378322cab1100 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1101;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81205;
   schema:duration "PT60M";
   schema:endDate "2025-11-06T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1101 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81205 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_nov6>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2174,11 +2136,11 @@ _:fad551c9910c4c16bbb4c52378322cab1101 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1102;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81206;
   schema:duration "PT60M";
   schema:endDate "2025-11-07T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1102 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81206 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_nov7>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2193,11 +2155,11 @@ _:fad551c9910c4c16bbb4c52378322cab1102 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1103;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81207;
   schema:duration "PT60M";
   schema:endDate "2025-11-08T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1103 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81207 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_nov8mat>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2212,11 +2174,11 @@ _:fad551c9910c4c16bbb4c52378322cab1103 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1104;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81208;
   schema:duration "PT60M";
   schema:endDate "2025-11-08T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1104 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81208 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_nov8eve>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2231,11 +2193,11 @@ _:fad551c9910c4c16bbb4c52378322cab1104 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1105;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81209;
   schema:duration "PT60M";
   schema:endDate "2025-11-09T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1105 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81209 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_nov9mat>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2250,11 +2212,11 @@ _:fad551c9910c4c16bbb4c52378322cab1105 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1106;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81210;
   schema:duration "PT60M";
   schema:endDate "2025-11-09T20:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1106 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81210 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=losh_nov9eve>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2269,11 +2231,11 @@ _:fad551c9910c4c16bbb4c52378322cab1106 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1107;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81211;
   schema:duration "PT150M";
   schema:endDate "2024-10-15T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1107 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81211 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct15>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2288,11 +2250,11 @@ _:fad551c9910c4c16bbb4c52378322cab1107 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1108;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81212;
   schema:duration "PT150M";
   schema:endDate "2024-10-16T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1108 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81212 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct16>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2307,11 +2269,11 @@ _:fad551c9910c4c16bbb4c52378322cab1108 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1109;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81213;
   schema:duration "PT150M";
   schema:endDate "2024-10-17T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1109 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81213 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct17>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2339,11 +2301,11 @@ _:fad551c9910c4c16bbb4c52378322cab1109 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1110;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81214;
   schema:duration "PT150M";
   schema:endDate "2024-10-19T16:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1110 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81214 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct19m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2358,11 +2320,11 @@ _:fad551c9910c4c16bbb4c52378322cab1110 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1111;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81215;
   schema:duration "PT150M";
   schema:endDate "2024-10-19T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1111 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81215 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct19e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -2377,11 +2339,11 @@ _:fad551c9910c4c16bbb4c52378322cab1111 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1112;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81216;
   schema:duration "PT150M";
   schema:endDate "2024-10-20T16:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1112 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81216 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct20m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2396,11 +2358,11 @@ _:fad551c9910c4c16bbb4c52378322cab1112 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1113;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81217;
   schema:duration "PT150M";
   schema:endDate "2024-10-22T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1113 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81217 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct22>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -2415,11 +2377,11 @@ _:fad551c9910c4c16bbb4c52378322cab1113 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1114;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81218;
   schema:duration "PT150M";
   schema:endDate "2024-10-23T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1114 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81218 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct23>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2434,11 +2396,11 @@ _:fad551c9910c4c16bbb4c52378322cab1114 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1115;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81219;
   schema:duration "PT150M";
   schema:endDate "2024-10-24T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1115 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81219 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct24>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -2453,11 +2415,11 @@ _:fad551c9910c4c16bbb4c52378322cab1115 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1116;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81220;
   schema:duration "PT150M";
   schema:endDate "2024-10-25T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1116 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81220 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct25>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -2472,11 +2434,11 @@ _:fad551c9910c4c16bbb4c52378322cab1116 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1117;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81221;
   schema:duration "PT150M";
   schema:endDate "2024-10-26T16:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1117 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81221 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct26m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2491,11 +2453,11 @@ _:fad551c9910c4c16bbb4c52378322cab1117 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1118;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81222;
   schema:duration "PT150M";
   schema:endDate "2024-10-26T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1118 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81222 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct26e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -2510,11 +2472,11 @@ _:fad551c9910c4c16bbb4c52378322cab1118 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1119;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81223;
   schema:duration "PT150M";
   schema:endDate "2024-10-27T16:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1119 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81223 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct27m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2529,11 +2491,11 @@ _:fad551c9910c4c16bbb4c52378322cab1119 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1120;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81224;
   schema:duration "PT150M";
   schema:endDate "2024-10-29T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1120 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81224 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct29>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2548,11 +2510,11 @@ _:fad551c9910c4c16bbb4c52378322cab1120 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1121;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81225;
   schema:duration "PT150M";
   schema:endDate "2024-10-30T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1121 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81225 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_oct30>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2567,11 +2529,11 @@ _:fad551c9910c4c16bbb4c52378322cab1121 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1122;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81226;
   schema:duration "PT150M";
   schema:endDate "2024-11-01T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1122 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81226 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_nov1>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -2586,11 +2548,11 @@ _:fad551c9910c4c16bbb4c52378322cab1122 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1123;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81227;
   schema:duration "PT150M";
   schema:endDate "2024-11-02T16:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1123 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81227 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_nov2m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2605,11 +2567,11 @@ _:fad551c9910c4c16bbb4c52378322cab1123 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1124;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81228;
   schema:duration "PT150M";
   schema:endDate "2024-11-02T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1124 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81228 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_nov2e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -2624,11 +2586,11 @@ _:fad551c9910c4c16bbb4c52378322cab1124 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1125;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81229;
   schema:duration "PT150M";
   schema:endDate "2024-11-03T16:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1125 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81229 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_nov3m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2643,11 +2605,11 @@ _:fad551c9910c4c16bbb4c52378322cab1125 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1126;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81230;
   schema:duration "PT150M";
   schema:endDate "2024-11-06T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1126 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81230 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_nov6>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2662,11 +2624,11 @@ _:fad551c9910c4c16bbb4c52378322cab1126 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1127;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81231;
   schema:duration "PT150M";
   schema:endDate "2024-11-07T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1127 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81231 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_nov7>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -2681,11 +2643,11 @@ _:fad551c9910c4c16bbb4c52378322cab1127 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1128;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81232;
   schema:duration "PT150M";
   schema:endDate "2024-11-08T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1128 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81232 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_nov8>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -2700,11 +2662,11 @@ _:fad551c9910c4c16bbb4c52378322cab1128 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1129;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81233;
   schema:duration "PT150M";
   schema:endDate "2024-11-09T16:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1129 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81233 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_nov9m>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2719,11 +2681,11 @@ _:fad551c9910c4c16bbb4c52378322cab1129 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1130;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81234;
   schema:duration "PT150M";
   schema:endDate "2024-11-09T22:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1130 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81234 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_nov9e>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -2738,18 +2700,56 @@ _:fad551c9910c4c16bbb4c52378322cab1130 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1131;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81235;
   schema:duration "PT150M";
   schema:endDate "2024-11-10T16:30:00"^^xsd:dateTime .
+
+_:d0229b045dfa4064bf5d80abb08b92e81235 a schema:AggregateOffer;
+  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_nov10m>;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/albertatheatreprojects/event/70001AMJRQHDGBRNVCKLMQDNCHKHNLGPL>
+  a schema:Event;
+  schema:name "The Wizard of Oz (25-26 Production)";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-25T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
+  schema:url <https://albertatheatreprojects.com/whats-on/>;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81236;
+  schema:duration "PT60M";
+  schema:endDate "2025-11-25T20:00:00"^^xsd:dateTime .
+
+_:d0229b045dfa4064bf5d80abb08b92e81236 a schema:AggregateOffer;
+  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_nov25>;
+  schema:lowPrice "35.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/albertatheatreprojects/event/70002AKMHJSPCSLSDGCPJRRQGDRCDDJPN>
+  a schema:Event;
+  schema:name "The Wizard of Oz (25-26 Production)";
+  schema:description """
+
+""";
+  schema:startDate "2025-11-26T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
+  schema:url <https://albertatheatreprojects.com/whats-on/>;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81237;
+  schema:duration "PT60M";
+  schema:endDate "2025-11-26T20:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>
   a schema:Organization;
   schema:name "Alberta Theatre Projects";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-6382> .
 
-_:fad551c9910c4c16bbb4c52378322cab1131 a schema:AggregateOffer;
-  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=sea_nov10m>;
-  schema:lowPrice "0.0";
+_:d0229b045dfa4064bf5d80abb08b92e81237 a schema:AggregateOffer;
+  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_nov26>;
+  schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
 <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
@@ -2765,47 +2765,9 @@ _:fad551c9910c4c16bbb4c52378322cab1131 a schema:AggregateOffer;
   schema:postalCode "T2G 0K8";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/albertatheatreprojects/event/70001AMJRQHDGBRNVCKLMQDNCHKHNLGPL>
-  a schema:Event;
-  schema:name "The Wizard of Oz";
-  schema:description """
-
-""";
-  schema:startDate "2025-11-25T19:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
-  schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1132;
-  schema:duration "PT60M";
-  schema:endDate "2025-11-25T20:00:00"^^xsd:dateTime .
-
-_:fad551c9910c4c16bbb4c52378322cab1132 a schema:AggregateOffer;
-  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_nov25>;
-  schema:lowPrice "35.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/albertatheatreprojects/event/70002AKMHJSPCSLSDGCPJRRQGDRCDDJPN>
-  a schema:Event;
-  schema:name "The Wizard of Oz";
-  schema:description """
-
-""";
-  schema:startDate "2025-11-26T19:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
-  schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1133;
-  schema:duration "PT60M";
-  schema:endDate "2025-11-26T20:00:00"^^xsd:dateTime .
-
-_:fad551c9910c4c16bbb4c52378322cab1133 a schema:AggregateOffer;
-  schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_nov26>;
-  schema:lowPrice "35.0";
-  schema:priceCurrency "CAD" .
-
 <http://www.spektrix.com/albertatheatreprojects/event/70003AHQNLMNQTDMLPRLKPQDVBHMTCNCL>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -2813,18 +2775,18 @@ _:fad551c9910c4c16bbb4c52378322cab1133 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1134;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81238;
   schema:duration "PT60M";
   schema:endDate "2025-11-27T20:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1134 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81238 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_nov27>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70004AHDLSTMMNCMRQLGLLTTHHBLJKVQB>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -2832,18 +2794,18 @@ _:fad551c9910c4c16bbb4c52378322cab1134 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1135;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81239;
   schema:duration "PT60M";
   schema:endDate "2025-11-28T20:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1135 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81239 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_nov28>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/69807AKKKRGNVKJJBBNGMHLBDBRSJGRCV>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -2851,18 +2813,18 @@ _:fad551c9910c4c16bbb4c52378322cab1135 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1136;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81240;
   schema:duration "PT60M";
   schema:endDate "2025-11-29T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1136 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81240 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_nov29mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70005ARLMTDGPKTVKNHGSPVHRPJHVSDQJ>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -2870,18 +2832,18 @@ _:fad551c9910c4c16bbb4c52378322cab1136 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1137;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81241;
   schema:duration "PT60M";
   schema:endDate "2025-11-29T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1137 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81241 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_nov29eve>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/69808AQHNNLKJBDBQJQVTSBNTNMHBRPNB>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -2889,18 +2851,18 @@ _:fad551c9910c4c16bbb4c52378322cab1137 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1138;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81242;
   schema:duration "PT60M";
   schema:endDate "2025-11-30T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1138 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81242 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_nov30mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70008AVPNRNNRVMDNTNRVPHQPDPHTRSPV>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -2908,18 +2870,18 @@ _:fad551c9910c4c16bbb4c52378322cab1138 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1139;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81243;
   schema:duration "PT60M";
   schema:endDate "2025-12-04T20:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1139 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81243 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec4>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70009APNSQBHJTCTLKGCGRVKNSRLBJCPK>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -2927,18 +2889,18 @@ _:fad551c9910c4c16bbb4c52378322cab1139 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1140;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81244;
   schema:duration "PT60M";
   schema:endDate "2025-12-05T20:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1140 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81244 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec5>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/69809AJBNCDDHGRSVGRPQSGQMVBJNTDGR>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -2946,18 +2908,18 @@ _:fad551c9910c4c16bbb4c52378322cab1140 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1141;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81245;
   schema:duration "PT60M";
   schema:endDate "2025-12-06T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1141 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81245 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec6mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70010AVLDPMTBDSJVQPVCKVHSRLPQVLMN>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -2965,18 +2927,18 @@ _:fad551c9910c4c16bbb4c52378322cab1141 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1142;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81246;
   schema:duration "PT60M";
   schema:endDate "2025-12-06T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1142 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81246 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec6eve>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/69810AHJVRNRSGSKRMLQHBTQGLHBPVHGC>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -2984,18 +2946,18 @@ _:fad551c9910c4c16bbb4c52378322cab1142 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1143;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81247;
   schema:duration "PT60M";
   schema:endDate "2025-12-07T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1143 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81247 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec7mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70013ABQMCGCHBBGNLHBCPVJCDVKLJKNV>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3003,18 +2965,18 @@ _:fad551c9910c4c16bbb4c52378322cab1143 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1144;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81248;
   schema:duration "PT60M";
   schema:endDate "2025-12-11T20:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1144 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81248 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec11>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70014ARKCVLVJDSVJQSRVTGPHDNVDTBLG>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3022,18 +2984,18 @@ _:fad551c9910c4c16bbb4c52378322cab1144 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1145;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81249;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1145 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81249 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec12>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/69811AKQVKGMMBSLKNPPBCLCNJKMLSQSP>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3041,18 +3003,18 @@ _:fad551c9910c4c16bbb4c52378322cab1145 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1146;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81250;
   schema:duration "PT60M";
   schema:endDate "2025-12-13T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1146 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81250 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec13mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70015AJQGSTRJGDQRVMLTDKDTSDTQVHSJ>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3060,18 +3022,18 @@ _:fad551c9910c4c16bbb4c52378322cab1146 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1147;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81251;
   schema:duration "PT60M";
   schema:endDate "2025-12-13T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1147 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81251 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec13eve>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/69812AGCBMSRHBBSCTGPPTPDBKMJRLMSD>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3079,18 +3041,18 @@ _:fad551c9910c4c16bbb4c52378322cab1147 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1148;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81252;
   schema:duration "PT60M";
   schema:endDate "2025-12-14T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1148 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81252 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec14mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70017ARLSTQVPCKBKRNRLKDMVTKDSMBSG>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3098,18 +3060,18 @@ _:fad551c9910c4c16bbb4c52378322cab1148 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1149;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81253;
   schema:duration "PT60M";
   schema:endDate "2025-12-17T20:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1149 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81253 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec17>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70018AKLKNQPRBHMPNCHKGLRLCPLTDNHK>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3117,18 +3079,18 @@ _:fad551c9910c4c16bbb4c52378322cab1149 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1150;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81254;
   schema:duration "PT60M";
   schema:endDate "2025-12-18T20:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1150 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81254 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec18>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70019AJSPJTNPSDSTRVCQVRMTPPRHSPTM>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3136,18 +3098,18 @@ _:fad551c9910c4c16bbb4c52378322cab1150 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1151;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81255;
   schema:duration "PT60M";
   schema:endDate "2025-12-19T20:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1151 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81255 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec19>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/69813AHVLLVQQCGMKCRPQPLQBHBNDTRJJ>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3155,18 +3117,18 @@ _:fad551c9910c4c16bbb4c52378322cab1151 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1152;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81256;
   schema:duration "PT60M";
   schema:endDate "2025-12-20T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1152 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81256 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec20mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70020APMMMNCMNRQKDGGDJKCNJPSLKSHV>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3174,18 +3136,18 @@ _:fad551c9910c4c16bbb4c52378322cab1152 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1153;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81257;
   schema:duration "PT60M";
   schema:endDate "2025-12-20T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1153 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81257 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec20eve>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/69814AQNJCPVCBTMHDPHVSPNKLHHQDHKS>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3193,18 +3155,18 @@ _:fad551c9910c4c16bbb4c52378322cab1153 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1154;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81258;
   schema:duration "PT60M";
   schema:endDate "2025-12-21T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1154 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81258 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec21mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/74401AGBSSPNCNSTSGRQKGQGNLKKTDHTV>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3212,18 +3174,18 @@ _:fad551c9910c4c16bbb4c52378322cab1154 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1155;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81259;
   schema:duration "PT60M";
   schema:endDate "2025-12-21T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1155 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81259 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec21eve>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/71601AMRKGCHRRTHJRLKKPCDSPHMKGQPR>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3231,18 +3193,18 @@ _:fad551c9910c4c16bbb4c52378322cab1155 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1156;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81260;
   schema:duration "PT60M";
   schema:endDate "2025-12-23T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1156 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81260 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec23mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70021AMGLJNPLQKNLMMJJLSNQJHGSJLJM>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3250,18 +3212,18 @@ _:fad551c9910c4c16bbb4c52378322cab1156 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1157;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81261;
   schema:duration "PT60M";
   schema:endDate "2025-12-23T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1157 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81261 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec23eve>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70022AHTTVNTKRQVVLMVGKHBVMNSTCJPB>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3269,18 +3231,18 @@ _:fad551c9910c4c16bbb4c52378322cab1157 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1158;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81262;
   schema:duration "PT60M";
   schema:endDate "2025-12-24T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1158 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81262 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec24mat>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70201ADHVPVLHCVCVCTRPRPPPJCCSKTGL>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3288,18 +3250,18 @@ _:fad551c9910c4c16bbb4c52378322cab1158 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1159;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81263;
   schema:duration "PT60M";
   schema:endDate "2025-12-26T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1159 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81263 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec26mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70024AKSNLJQBNKHKGCDKKCDNSHJJHPJB>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3307,18 +3269,18 @@ _:fad551c9910c4c16bbb4c52378322cab1159 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1160;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81264;
   schema:duration "PT60M";
   schema:endDate "2025-12-26T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1160 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81264 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec26eve>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/69815ABTRJVQQKSRQHCSPKSCRCNLLGCQH>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3326,18 +3288,18 @@ _:fad551c9910c4c16bbb4c52378322cab1160 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1161;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81265;
   schema:duration "PT60M";
   schema:endDate "2025-12-27T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1161 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81265 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec27mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70025APNCPKKGRVPDGPVVTQCLRBCVGMLL>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3345,18 +3307,18 @@ _:fad551c9910c4c16bbb4c52378322cab1161 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1162;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81266;
   schema:duration "PT60M";
   schema:endDate "2025-12-27T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1162 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81266 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec27eve>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/69816AGHBLMCNJDTPJQNDQGTQKCKTTJCH>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3364,18 +3326,18 @@ _:fad551c9910c4c16bbb4c52378322cab1162 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1163;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81267;
   schema:duration "PT60M";
   schema:endDate "2025-12-28T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1163 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81267 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec28mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/71602ATMCRJSNBCSSPPJGRVTCMCVPKGBH>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3383,18 +3345,18 @@ _:fad551c9910c4c16bbb4c52378322cab1163 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1164;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81268;
   schema:duration "PT60M";
   schema:endDate "2025-12-30T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1164 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81268 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec30mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70026ASSDHKQVTTQBHNCPKSNTRPDRHVQQ>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3402,18 +3364,18 @@ _:fad551c9910c4c16bbb4c52378322cab1164 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1165;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81269;
   schema:duration "PT60M";
   schema:endDate "2025-12-30T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1165 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81269 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec30eve>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70027AMMLLVSVPRMBHPTNCBQSPNMHTRTL>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3421,18 +3383,18 @@ _:fad551c9910c4c16bbb4c52378322cab1165 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1166;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81270;
   schema:duration "PT60M";
   schema:endDate "2025-12-31T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1166 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81270 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_dec31mat>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70202ACDHPQGGBJPKKPJRSGGJCJDPSCLD>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3440,18 +3402,18 @@ _:fad551c9910c4c16bbb4c52378322cab1166 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1167;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81271;
   schema:duration "PT60M";
   schema:endDate "2026-01-02T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1167 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81271 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_jan2mat>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70029AGBRMQNLTNJNPMCSVJBSBJLVLMDV>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3459,18 +3421,18 @@ _:fad551c9910c4c16bbb4c52378322cab1167 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1168;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81272;
   schema:duration "PT60M";
   schema:endDate "2026-01-02T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1168 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81272 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_jan2eve>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/69817AQDNVVHCVDTBPGGPBKRPLJTGQCQS>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3478,18 +3440,18 @@ _:fad551c9910c4c16bbb4c52378322cab1168 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1169;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81273;
   schema:duration "PT60M";
   schema:endDate "2026-01-03T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1169 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81273 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_jan3mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/70030ASNKVNRNJPQLJMVSQQJCSNLMBTVN>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3497,18 +3459,18 @@ _:fad551c9910c4c16bbb4c52378322cab1169 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1170;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81274;
   schema:duration "PT60M";
   schema:endDate "2026-01-03T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1170 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81274 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_jan3eve>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/albertatheatreprojects/event/69818ADNDJSSVRCMPSRQJLJBCLRSBJSMB>
   a schema:Event;
-  schema:name "The Wizard of Oz";
+  schema:name "The Wizard of Oz (25-26 Production)";
   schema:description """
 
 """;
@@ -3516,11 +3478,11 @@ _:fad551c9910c4c16bbb4c52378322cab1170 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1171;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81275;
   schema:duration "PT60M";
   schema:endDate "2026-01-04T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1171 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81275 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wofz_jan4mat>;
   schema:lowPrice "40.0";
   schema:priceCurrency "CAD" .
@@ -3535,11 +3497,11 @@ _:fad551c9910c4c16bbb4c52378322cab1171 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1172;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81276;
   schema:duration "PT60M";
   schema:endDate "2026-04-21T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1172 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81276 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_apr21>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -3554,11 +3516,11 @@ _:fad551c9910c4c16bbb4c52378322cab1172 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1173;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81277;
   schema:duration "PT60M";
   schema:endDate "2026-04-22T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1173 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81277 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_apr22>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -3573,11 +3535,11 @@ _:fad551c9910c4c16bbb4c52378322cab1173 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1174;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81278;
   schema:duration "PT60M";
   schema:endDate "2026-04-23T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1174 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81278 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_apr23>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -3592,11 +3554,11 @@ _:fad551c9910c4c16bbb4c52378322cab1174 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1175;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81279;
   schema:duration "PT60M";
   schema:endDate "2026-04-24T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1175 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81279 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_apr24>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -3611,11 +3573,11 @@ _:fad551c9910c4c16bbb4c52378322cab1175 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1176;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81280;
   schema:duration "PT60M";
   schema:endDate "2026-04-25T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1176 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81280 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_apr25mat>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -3630,11 +3592,11 @@ _:fad551c9910c4c16bbb4c52378322cab1176 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1177;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81281;
   schema:duration "PT60M";
   schema:endDate "2026-04-25T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1177 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81281 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_apr25eve>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -3649,11 +3611,11 @@ _:fad551c9910c4c16bbb4c52378322cab1177 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1178;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81282;
   schema:duration "PT60M";
   schema:endDate "2026-04-26T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1178 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81282 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_apr26mat>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -3668,11 +3630,11 @@ _:fad551c9910c4c16bbb4c52378322cab1178 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1179;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81283;
   schema:duration "PT60M";
   schema:endDate "2026-04-28T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1179 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81283 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_apr28>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -3687,11 +3649,11 @@ _:fad551c9910c4c16bbb4c52378322cab1179 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1180;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81284;
   schema:duration "PT60M";
   schema:endDate "2026-04-29T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1180 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81284 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_apr29>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -3706,11 +3668,11 @@ _:fad551c9910c4c16bbb4c52378322cab1180 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1181;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81285;
   schema:duration "PT60M";
   schema:endDate "2026-04-30T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1181 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81285 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_apr30>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -3725,11 +3687,11 @@ _:fad551c9910c4c16bbb4c52378322cab1181 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1182;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81286;
   schema:duration "PT60M";
   schema:endDate "2026-05-01T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1182 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81286 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_may1>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -3744,11 +3706,11 @@ _:fad551c9910c4c16bbb4c52378322cab1182 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1183;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81287;
   schema:duration "PT60M";
   schema:endDate "2026-05-02T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1183 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81287 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_may2mat>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -3763,11 +3725,11 @@ _:fad551c9910c4c16bbb4c52378322cab1183 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1184;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81288;
   schema:duration "PT60M";
   schema:endDate "2026-05-02T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1184 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81288 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_may2eve>;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
@@ -3782,11 +3744,11 @@ _:fad551c9910c4c16bbb4c52378322cab1184 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1185;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81289;
   schema:duration "PT60M";
   schema:endDate "2026-05-03T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1185 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81289 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_may3mat>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -3801,11 +3763,11 @@ _:fad551c9910c4c16bbb4c52378322cab1185 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1186;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81290;
   schema:duration "PT60M";
   schema:endDate "2026-05-06T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1186 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81290 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_may6>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -3820,11 +3782,11 @@ _:fad551c9910c4c16bbb4c52378322cab1186 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1187;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81291;
   schema:duration "PT60M";
   schema:endDate "2026-05-07T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1187 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81291 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_may7>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -3839,11 +3801,11 @@ _:fad551c9910c4c16bbb4c52378322cab1187 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1188;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81292;
   schema:duration "PT60M";
   schema:endDate "2026-05-08T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1188 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81292 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_may8>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -3858,11 +3820,11 @@ _:fad551c9910c4c16bbb4c52378322cab1188 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1189;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81293;
   schema:duration "PT60M";
   schema:endDate "2026-05-09T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1189 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81293 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_may9mat>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -3877,11 +3839,11 @@ _:fad551c9910c4c16bbb4c52378322cab1189 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1190;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81294;
   schema:duration "PT60M";
   schema:endDate "2026-05-09T20:30:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1190 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81294 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_may9eve>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
@@ -3896,11 +3858,11 @@ _:fad551c9910c4c16bbb4c52378322cab1190 a schema:AggregateOffer;
   schema:location <https://spektrix.com/albertatheatreprojects/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:organizer <https://spektrix.com/albertatheatreprojects/organization/alberta-theatre-projects>;
   schema:url <https://albertatheatreprojects.com/whats-on/>;
-  schema:offers _:fad551c9910c4c16bbb4c52378322cab1191;
+  schema:offers _:d0229b045dfa4064bf5d80abb08b92e81295;
   schema:duration "PT60M";
   schema:endDate "2026-05-10T15:00:00"^^xsd:dateTime .
 
-_:fad551c9910c4c16bbb4c52378322cab1191 a schema:AggregateOffer;
+_:d0229b045dfa4064bf5d80abb08b92e81295 a schema:AggregateOffer;
   schema:url <https://albertatheatreprojects.com/book/?web_instance_id=wldwmn_may10mat>;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
