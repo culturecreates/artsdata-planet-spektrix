@@ -45,11 +45,11 @@ manitobaopera:
   attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K2-5133"
 
 nacc:
-  attribute_EventUrl: "https://naccnt.ca/events/{slugify(name)}"
+  attribute_EventUrl: "https://naccnt.ca/events/{slugify(name)}/"
   offerUrl: "https://purchasing.naccnt.ca/ChooseSeats/{extractID(instance_id)}"
 
 sidwilliams:
-  attribute_EventUrl: "https://www.sidwilliamstheatre.com/events/{slugify(name)}"
+  attribute_EventUrl: "https://www.sidwilliamstheatre.com/events/{slugify(name)}/"
   offerUrl: "https://www.sidwilliamstheatre.com/choose-seating/?id={extractID(instance_id)}"
 
 symphonynovascotia:
@@ -60,15 +60,15 @@ theporttheatre:
   offerUrl: "https://www.porttheatre.com/choose-seats/?id={extractID(instance_id)}"
 
 theisabel:
-  attribute_EventUrl: "https://www.queensu.ca/theisabel/whats-on/{slugify(name, remove_words=['the','over'])}" 
+  attribute_EventUrl: "https://www.queensu.ca/theisabel/whats-on/{slugify(name, remove_words=['the','over'])}/" 
 
 earlymusicvancouver:
-  attribute_EventUrl: "https://www.earlymusic.bc.ca/events/{slugify(name)}"
+  attribute_EventUrl: "https://www.earlymusic.bc.ca/events/{slugify(name)}/"
   attribute_PresentedBy: "Early Music Vancouver"
   attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K10-351"
 
 tidemarktheatre:
-  attribute_EventUrl: "https://tidemarktheatre.com/event/{slugify(name)}"
+  attribute_EventUrl: "https://tidemarktheatre.com/event/{slugify(name)}/"
 
 improvcentrevancouver:
   attribute_EventUrl: "https://theimprovcentre.ca/shows/"
@@ -88,7 +88,7 @@ ucalgaryuts:
   offerUrl: "https://theatre-tickets.ucalgary.ca/?tx={extractID(id)}"
 
 gallery7:
-  attribute_EventUrl: "https://www.gallery7theatre.com/shows-training/{slugify(name)}"
+  attribute_EventUrl: "https://www.gallery7theatre.com/shows-training/{slugify(name)}/"
   offerUrl: "https://www.gallery7theatre.com/shows-training/{slugify(name)}/performances"
   attribute_PresentedBy: "Gallery 7 Theatre"
   attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K2-6374"
@@ -124,3 +124,8 @@ owensoundlittletheatre:
 
 nationalmusiccentre:
   offerUrl: "https://purchase.nmc.ca/EventAvailability?EventId={extractID(id)}"
+
+centaurtheatre:
+  attribute_EventUrl: "https://centaurtheatre.com/shows/{slugify(name)}/"
+  attribute_PresentedBy: "Centaur Theatre"
+  attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K10-32"
