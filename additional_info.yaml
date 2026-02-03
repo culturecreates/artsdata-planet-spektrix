@@ -135,3 +135,6 @@ eastlinkcentre:
 thousandislandsplayhouse:
   attribute_EventUrl: "https://www.1000islandsplayhouse.com/{slugify(name)}/"
   offerUrl: "https://www.1000islandsplayhouse.com/book-tickets/?book_id={extractID(instance_id)}"
+
+artspring:
+  offerUrl: "https://purchase.artspring.ca/EventAvailability?EventId={extractID(id)}"
