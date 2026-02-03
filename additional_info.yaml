@@ -131,3 +131,7 @@ centaurtheatre:
 
 eastlinkcentre:
   offerUrl: "https://purchase.eastlinkcentrepei.com/EventAvailability?EventId={extractID(id)}"
+
+thousandislandsplayhouse:
+  attribute_EventUrl: "https://www.1000islandsplayhouse.com/{slugify(name)}/"
+  offerUrl: "https://www.1000islandsplayhouse.com/book-tickets/?book_id={extractID(instance_id)}"
