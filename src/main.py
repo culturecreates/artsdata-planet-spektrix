@@ -35,6 +35,13 @@ def get_minimum_price(instance_id, retries=3, backoff=2):
 
 def enrich_event(event, venues, instances, plans, additional_info):
     print(f"Enriching event {event.get('id')} with location...")
+    
+    # Check exclusions first
+    exclusion_patterns = additional_info.get('exclusion_patterns', [])
+    event_name = event.get('name', '')
+    if util.should_exclude_event(event_name, exclusion_patterns):
+        print(f"  -> Excluding event: {event_name}")
+        return []  # Return empty list to skip this event
 
     for venue_data in venues:
         venue_data["address"] = util.split_address(venue_data.get('address', ''))           

@@ -3,6 +3,7 @@
 # Each source can define its own attributes, such as:
 #   - attribute_EventUrl: the URL where events are listed
 #   - offerUrl: a booking/purchase URL that may include placeholders (e.g., {webInstanceId})
+#   - exclusion_patterns: list of event names to exclude (case-insensitive exact match)
 # Add additional attributes as needed for that source.
 #
 # Example structure:
@@ -30,6 +31,8 @@ albertatheatreprojects:
   offerUrl: "https://albertatheatreprojects.com/book/?web_instance_id={instance_webInstanceId}"
   attribute_PresentedBy: "Alberta Theatre Projects"
   attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K2-6382"
+  exclusion_patterns:
+    - "Gift Voucher"
 
 honens:
   attribute_EventUrl: "https://www.honens.com/events/"
@@ -43,6 +46,8 @@ manitobaopera:
   offerUrl: "https://purchase.mbopera.ca/ChooseSeats/{extractID(instance_id)}"
   attribute_PresentedBy: "Manitoba Opera"
   attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K2-5133"
+  exclusion_patterns:
+    - "Closing Night Dinner"
 
 nacc:
   attribute_EventUrl: "https://naccnt.ca/events/{slugify(name)}/"
@@ -75,6 +80,8 @@ improvcentrevancouver:
   offerUrl: "https://purchase.theimprovcentre.ca/ChooseSeats/{extractID(instance_id)}"
   attribute_PresentedBy: "The Improv Centre"
   attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K2-6384"
+  exclusion_patterns:
+    - "Teams Registration"
 
 rcmusic:
   offerUrl: "https://www.rcmusic.com/tickets/seats/{extractID(instance_id)}"
@@ -92,6 +99,8 @@ gallery7:
   offerUrl: "https://www.gallery7theatre.com/shows-training/{slugify(name)}/performances"
   attribute_PresentedBy: "Gallery 7 Theatre"
   attribute_PresentedBySameAs: "http://kg.artsdata.ca/resource/K2-6374"
+  exclusion_patterns:
+    - "Spring Break Camp"
 
 tarragontheatre:
   offerUrl: "https://purchase.tarragontheatre.com/EventAvailability?EventId={extractID(id)}&ref=bookNow&scroll=timeAndDates"
@@ -114,16 +123,39 @@ capilanouniversity:
 
 yukonartscentre:
   offerUrl: "https://purchasing.yukonartscentre.com/ChooseSeats/{extractID(instance_id)}"
+  exclusion_patterns:
+    - "volunteer shadow"
 
 theatreaquarius:
   offerUrl: "https://purchasing.theatreaquarius.org/EventAvailability?EventId={extractID(id)}&ref=bookNow&scroll=timeAndDates"
+  exclusion_patterns:
+    - "Day pass"
+    - "Grades 4-6"
+    - "Grades 7-8"
+    - "Grades 9-12"
+    - "Ages 6-9"
+    - "Ages 10-13"
+    - "Ages 14-18"
+    - "Lunch opt-in"
+    - "Lunch opt in"
+    - "Grades4-6"
+    - "Stage & Song"
 
 owensoundlittletheatre:
   attribute_EventUrl: "https://roxytheatre.ca/shows/{slugify(name)}/"
   offerUrl: "https://purchase.roxytheatre.ca/EventAvailability?EventId={extractID(id)}&ref=bookNow&scroll=timeAndDates"
+  exclusion_patterns:
+    - "Improv Workshop"
+    - "Choreography Workshop"
+    - "Actor's Workshop"
 
 nationalmusiccentre:
   offerUrl: "https://purchase.nmc.ca/EventAvailability?EventId={extractID(id)}"
+  exclusion_patterns:
+    - "Studio Bell Admission"
+    - "Greatest Hits Tour,"
+    - "Backstage Pass Tour"
+    - "Summer Camp"
 
 centaurtheatre:
   attribute_PresentedBy: "Centaur Theatre"
@@ -137,4 +169,29 @@ thousandislandsplayhouse:
   offerUrl: "https://www.1000islandsplayhouse.com/book-tickets/?book_id={extractID(instance_id)}"
 
 artspring:
-  offerUrl: "https://purchase.artspring.ca/EventAvailability?EventId={extractID(id)}"
+  offerUrl: "https://tickets.artspring.ca/Online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id={extractID(id)}"
+  exclusion_patterns:
+    - "Weekend Pass"
+    - "Full Pass"
+    - "Fall term"
+    - "Spring term"
+
+gctc:
+  exclusion_patterns:
+    - "Volunteer Shift"
+
+kelownacommunitytheatre:
+  exclusion_patterns:
+    - "UBCO Heat"
+    - "Kelowna Falcons"
+    - "Gift Pack"
+
+ticketseller:
+  exclusion_patterns:
+    - "Tea at Mackie Lake House"
+    - "Sleigh Rides at O'Keefe Ranch"
+
+capitoltheatreporthope:
+  exclusion_patterns:
+    - "Volunteer Preview Night"
+    - "Concession Package"
