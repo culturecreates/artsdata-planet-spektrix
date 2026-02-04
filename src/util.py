@@ -9,13 +9,31 @@ def extract_numbers(instance_id: str) -> str:
         return match.group(0)
     
 def slugify(text: str, remove_words: list[str] = None) -> str:
+    import unicodedata
+    
+    # Normalize unicode to decompose accents (NFD = Normalization Form Decomposed)
+    # Then remove combining characters to strip accents
+    text = unicodedata.normalize('NFD', text)
+    text = ''.join(char for char in text if unicodedata.category(char) != 'Mn')
+    
+    # Convert to lowercase
     text = text.lower()
+    
+    # Remove apostrophes (both curly ' and straight ')
+    text = text.replace("'", "").replace("'", "")
+    
+    # Remove specified words if provided
     if remove_words:
         pattern = r'\b(' + '|'.join(map(re.escape, remove_words)) + r')\b'
         text = re.sub(pattern, '', text)
-
+    
+    # Replace all non-alphanumeric characters with hyphens
     text = re.sub(r'[^a-z0-9]+', '-', text)
+    
+    # Collapse multiple hyphens into one
     text = re.sub(r'-+', '-', text)
+    
+    # Trim leading/trailing hyphens
     return text.strip('-')
 
 TRANSFORMATIONS = {
