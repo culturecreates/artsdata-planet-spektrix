@@ -21,7 +21,7 @@ def slugify(text: str, remove_words: list[str] = None) -> str:
     
     # Remove apostrophes - both types:
     # U+0027 = APOSTROPHE (straight ')
-    # U+2019 = RIGHT SINGLE QUOTATION MARK (curly ')
+    # U+2019 = RIGHT SINGLE QUOTATION MARK (curly ’)
     text = text.replace(chr(0x0027), "").replace(chr(0x2019), "")
     
     # Remove specified words if provided
