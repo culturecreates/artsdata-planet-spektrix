@@ -92,3 +92,12 @@ The slugify function accepts additional arguments to customize the output.
 Example:
 
     offerUrl: "https://site.com/events/{slugify(name, remove_words=['the', 'over'])}"
+
+
+Running Tests
+--------------
+
+If using a virtual Python environment, active it first with `source .venv/bin/activate`
+
+Run all tests with `python3 -m unittest discover tests`
+
