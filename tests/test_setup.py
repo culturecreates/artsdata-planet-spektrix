@@ -15,7 +15,7 @@ class TestServices(unittest.TestCase):
         self.events_data = [
             {
                 "description": "Tickets sold by ATP",
-                "htmlDescription": "<div id>\r\n\r\n</div>",
+                "htmlDescription": "<div id=\"test-id\">\r\n\r\n</div>",
                 "duration": 0,
                 "imageUrl": "",
                 "isOnSale": False,
@@ -30,7 +30,7 @@ class TestServices(unittest.TestCase):
             },
             {
                 "description": "2024-25 Season, Feb 25 - 16 Mar, 2025, Slot 5",
-                "htmlDescription": "<div id>\r\n\r\n</div>",
+                "htmlDescription": "<div id=\"test-id\">\r\n\r\n</div>",
                 "duration": 120,
                 "imageUrl": "",
                 "isOnSale": True,

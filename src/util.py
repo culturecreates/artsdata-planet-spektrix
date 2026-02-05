@@ -1,4 +1,5 @@
 import re, ast
+import unicodedata
 
 def extract_numbers(instance_id: str) -> str:
     # Extract all the numbers from the instance_id"
@@ -9,8 +10,7 @@ def extract_numbers(instance_id: str) -> str:
         return match.group(0)
     
 def slugify(text: str, remove_words: list[str] = None) -> str:
-    import unicodedata
-    
+
     # Normalize unicode to decompose accents (NFD = Normalization Form Decomposed)
     # Then remove combining characters to strip accents
     text = unicodedata.normalize('NFD', text)
@@ -19,8 +19,10 @@ def slugify(text: str, remove_words: list[str] = None) -> str:
     # Convert to lowercase
     text = text.lower()
     
-    # Remove apostrophes (both curly ' and straight ')
-    text = text.replace("'", "").replace("'", "")
+    # Remove apostrophes - both types:
+    # U+0027 = APOSTROPHE (straight ')
+    # U+2019 = RIGHT SINGLE QUOTATION MARK (curly ')
+    text = text.replace(chr(0x0027), "").replace(chr(0x2019), "")
     
     # Remove specified words if provided
     if remove_words:
