@@ -1,5 +1,11 @@
-import requests, json, os, util, yaml, time
+import requests, json, os, yaml, time
 from datetime import datetime, timedelta
+
+# Handle imports for both direct execution and package imports
+try:
+    from src import util
+except ModuleNotFoundError:
+    import util
 
 source = os.environ.get('SOURCE').strip()
 
