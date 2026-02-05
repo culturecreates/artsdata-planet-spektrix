@@ -43,6 +43,28 @@ TRANSFORMATIONS = {
     "slugify": slugify
 }
 
+def should_exclude_event(event_name: str, exclusion_patterns: list[str]) -> bool:
+    """
+    Check if event should be excluded based on case-insensitive exact match.
+    
+    Args:
+        event_name: The name of the event
+        exclusion_patterns: List of patterns to check against
+        
+    Returns:
+        True if event should be excluded, False otherwise
+    """
+    if not exclusion_patterns or not event_name:
+        return False
+    
+    event_name_lower = event_name.lower()
+    for pattern in exclusion_patterns:
+        if pattern.lower() == event_name_lower:
+            return True
+    
+    return False
+
+
 def split_address(address: str) -> dict:
     if address == "" or address is None:
         return {}
@@ -103,6 +125,10 @@ def extract_locality(address: str) -> str:
 def add_additional_info(event: dict, additional_info: dict) -> dict:
     # loop through additional_info keys and add to event if not present
     for key, value in additional_info.items():
+        # Skip exclusion_patterns and other non-string values
+        if key == 'exclusion_patterns' or not isinstance(value, str):
+            continue
+            
         if event.get(key) is None and value is not None:
             placeholders = extract_placeholders(value)
             for placeholder in placeholders:

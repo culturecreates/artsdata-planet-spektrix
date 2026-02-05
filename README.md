@@ -97,7 +97,13 @@ Example:
 Running Tests
 --------------
 
-If using a virtual Python environment, active it first with `source .venv/bin/activate`
+If using a virtual Python environment, active it first:
+- macOS/Linux: `source .venv/bin/activate`
+- Windows: `.venv\Scripts\activate`
 
-Run all tests with `python3 -m unittest discover tests`
+Install all dependencies `pip install -r requirements.txt`
+
+Run all tests:
+- `python3 -m unittest discover tests`
+- macOS: `.venv/bin/python3 -m unittest discover tests`
 
