@@ -59,7 +59,7 @@ def should_exclude_event(event_name: str, exclusion_patterns: list[str]) -> bool
     
     event_name_lower = event_name.lower()
     for pattern in exclusion_patterns:
-        if pattern.lower() == event_name_lower:
+        if pattern.lower() in event_name_lower:
             return True
     
     return False

@@ -14,13 +14,14 @@ class TestExclusions(unittest.TestCase):
         self.assertTrue(should_exclude_event("VOLUNTEER SHIFT", patterns))
         self.assertTrue(should_exclude_event("VolUnTeEr ShIfT", patterns))
         
-    def test_exact_match_required(self):
-        """Test that partial matches don't trigger exclusion"""
+    def test_exact_subtring_required(self):
+        """Test that subtring matches trigger exclusion"""
         patterns = ["Volunteer Shift"]
         
-        # These should NOT be excluded (not exact matches)
-        self.assertFalse(should_exclude_event("Volunteer Shift 1", patterns))
-        self.assertFalse(should_exclude_event("The Volunteer Shift", patterns))
+        self.assertTrue(should_exclude_event("Volunteer shift 1", patterns))
+        self.assertTrue(should_exclude_event("The Volunteer Shift", patterns))
+
+        # These should NOT be excluded (not substring matches)
         self.assertFalse(should_exclude_event("Volunteer", patterns))
         self.assertFalse(should_exclude_event("Shift", patterns))
         
