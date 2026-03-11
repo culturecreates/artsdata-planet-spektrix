@@ -1,0 +1,787 @@
+@base <http://example.com/base/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/darkehallsociety/event/9801ASMPJNGDQLTQPCPCCHKQQRGTTRTJM>
+  a schema:Event;
+  schema:name "A World Transformed";
+  schema:description """
+	<span class=\"BoldText\">A World Transformed</span> is a unique performance that weaves together live music, dance, and spoken word to tell the stories of Matthew and Judy Shepard. Produced by Echo Chamber and choreographed by acclaimed Canadian dance makers William Yong and Laurence Lemieux, <span class=\"ItalicText\">A World Transformed</span> is a deeply moving performance that explores profound grief while inspiring hope in the transformative power of every individual to drive social change.  <span><br/></span><span><br/></span>Featuring the talents of:<span><br/></span><span><br/></span>Aaron Schwebel, violin, Artistic Director of Echo Chamber<span><br/></span>Andrea Ludwig, mezzo-soprano<span><br/></span>Dakota Scott-Digout, piano <span><br/></span>Jeanie Chung, piano<span><br/></span>Johanna Bergfelt, dancer<span><br/></span>Marcel d’Entremont, tenor <span><br/></span>Zachary Cardwell, dancer<span><br/></span><span><br/></span><span><br/></span><span class=\"ItalicText\">Premium seating is $50, Standard seating is $40, and Economy seating is $30. Youth tickets (Age 20 and under) are $10. Prices are inclusive of taxes and fees. Seating is assigned.</span>
+""";
+  schema:startDate "2026-03-27T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/e07dba0d-aac1-470c-8a9a-498d6aa19b03.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc1;
+  schema:keywords "Theatre";
+  schema:duration "PT120M";
+  schema:endDate "2026-03-27T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc1 a schema:AggregateOffer;
+  schema:lowPrice "5.56";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:Place;
+  schema:name "Darke Hall";
+  schema:address <https://spektrix.com/darkehallsociety/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL> .
+
+<https://spektrix.com/darkehallsociety/address/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
+  a schema:PostalAddress;
+  schema:streetAddress "2255 College Ave";
+  schema:addressLocality "Regina";
+  schema:addressRegion "SK";
+  schema:postalCode "S4P 0S9";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/darkehallsociety/event/32201AJKCHKSVHJRMVGRPSJQJNPNNBBBQ>
+  a schema:Event;
+  schema:name "Amici Singers – Mixed Tape";
+  schema:description """
+	Please join the <span class=\"BoldText\">Amici Singers</span> for a rockin’ time on May 2nd at 7 pm!  This community choir and its awesome band present a unique experience of rock and pop music with a choir!  It is sure to have you dancing in your seats with hits of the 70’s and 80’s.  Led by Artistic Director Corinne Groff and Apprentice Director Emma Cameron and featuring rock journalists Jim Tenford and Ross MacNab.  <span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $25 for adults and $5 for youth ages 13-18, inclusive of fees and taxes.  Children 12 and under are free but a ticket must be booked for them. Seating is assigned. No refunds.</span>
+""";
+  schema:startDate "2026-05-02T14:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/fa8da9de-d226-4e25-a9fb-c6f1819873b5.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc2;
+  schema:keywords "Music";
+  schema:duration "PT90M";
+  schema:endDate "2026-05-02T16:00:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc2 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/29201ACCPRBMSLVHDLHKGSRKDGGQQMTJM>
+  a schema:Event;
+  schema:name "Amici Singers – Mixed Tape";
+  schema:description """
+	Please join the <span class=\"BoldText\">Amici Singers</span> for a rockin’ time on May 2nd at 7 pm!  This community choir and its awesome band present a unique experience of rock and pop music with a choir!  It is sure to have you dancing in your seats with hits of the 70’s and 80’s.  Led by Artistic Director Corinne Groff and Apprentice Director Emma Cameron and featuring rock journalists Jim Tenford and Ross MacNab.  <span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $25 for adults and $5 for youth ages 13-18, inclusive of fees and taxes.  Children 12 and under are free but a ticket must be booked for them. Seating is assigned. No refunds.</span>
+""";
+  schema:startDate "2026-05-02T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/fa8da9de-d226-4e25-a9fb-c6f1819873b5.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc3;
+  schema:keywords "Music";
+  schema:duration "PT90M";
+  schema:endDate "2026-05-02T20:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc3 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/30201AHVTMBBQKSVNPBBRMTKPDQPRMHJC>
+  a schema:Event;
+  schema:name "Banff Centre Mountain Film Festival World Tour";
+  schema:description """
+	Experience the thrill of adventure at the <span class=\"BoldText\">50th Banff Centre Mountain Film Festival World Tour</span>. Come enjoy the adrenaline rush of high-altitude pursuits, the emotion of personal transformations, and the beauty of adventure sports in wild places captured in breathtaking cinematography. <span><br/></span><span><br/></span>This stop on the Banff Centre Mountain Film Festival World Tour is hosted by <span class=\"BoldText\">The Great Plains Section of the Alpine Club of Canada</span>.<span><br/></span><span><br/></span>Each program is unique, and tickets are sold separately. Film programs and advisories can be found below:<span><br/></span><span class=\"BoldText\">Friday Evening - <a target=\"_blank\" href=\"https://drive.google.com/file/d/1S2PYHJEP1wn7TUj932tw5W58Br4O2Hy1/view\">CREVASSE</a></span><span><br/></span><span class=\"BoldText\">Saturday Matinee - <a target=\"_blank\" href=\"https://drive.google.com/file/d/1mJE7D9kDzOpvrTgPilvnQ3HRU66pK7_D/view\">MORAINE</a></span><span><br/></span><span class=\"BoldText\">Saturday Evening - <a target=\"_blank\" href=\"https://drive.google.com/file/d/1c6u0ZF33HIgZ91Q4BGSHjPxlYXDWFSo3/view\">SERAC</a></span><span><br/></span><span><br/></span>Doors open one hour before showtime. The event will feature information booths, raffle draws, and opportunities to connect with fellow members of the Regina & area outdoor community. Be sure to come early!<span><br/></span><span><br/></span>Thank you to our local sponsors Fresh Air Experience and Regina Climbing Centre.<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $25 for adults inclusive of fees and taxes.  For the Saturday matinee screening, Youth tickets are available for $15 inclusive of fees and taxes.  Seating is assigned.</span>
+""";
+  schema:startDate "2026-04-17T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/8b378e12-b865-49a2-bbff-923d9ad353e9.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc4;
+  schema:keywords "Film";
+  schema:duration "PT90M";
+  schema:endDate "2026-04-17T20:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc4 a schema:AggregateOffer;
+  schema:lowPrice "20.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/30401AVTJMSJLDVLNKKKDPCPPRDDJCLRT>
+  a schema:Event;
+  schema:name "Banff Centre Mountain Film Festival World Tour";
+  schema:description """
+	Experience the thrill of adventure at the <span class=\"BoldText\">50th Banff Centre Mountain Film Festival World Tour</span>. Come enjoy the adrenaline rush of high-altitude pursuits, the emotion of personal transformations, and the beauty of adventure sports in wild places captured in breathtaking cinematography. <span><br/></span><span><br/></span>This stop on the Banff Centre Mountain Film Festival World Tour is hosted by <span class=\"BoldText\">The Great Plains Section of the Alpine Club of Canada</span>.<span><br/></span><span><br/></span>Each program is unique, and tickets are sold separately. Film programs and advisories can be found below:<span><br/></span><span class=\"BoldText\">Friday Evening - <a target=\"_blank\" href=\"https://drive.google.com/file/d/1S2PYHJEP1wn7TUj932tw5W58Br4O2Hy1/view\">CREVASSE</a></span><span><br/></span><span class=\"BoldText\">Saturday Matinee - <a target=\"_blank\" href=\"https://drive.google.com/file/d/1mJE7D9kDzOpvrTgPilvnQ3HRU66pK7_D/view\">MORAINE</a></span><span><br/></span><span class=\"BoldText\">Saturday Evening - <a target=\"_blank\" href=\"https://drive.google.com/file/d/1c6u0ZF33HIgZ91Q4BGSHjPxlYXDWFSo3/view\">SERAC</a></span><span><br/></span><span><br/></span>Doors open one hour before showtime. The event will feature information booths, raffle draws, and opportunities to connect with fellow members of the Regina & area outdoor community. Be sure to come early!<span><br/></span><span><br/></span>Thank you to our local sponsors Fresh Air Experience and Regina Climbing Centre.<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $25 for adults inclusive of fees and taxes.  For the Saturday matinee screening, Youth tickets are available for $15 inclusive of fees and taxes.  Seating is assigned.</span>
+""";
+  schema:startDate "2026-04-18T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/8b378e12-b865-49a2-bbff-923d9ad353e9.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc5;
+  schema:keywords "Film";
+  schema:duration "PT90M";
+  schema:endDate "2026-04-18T15:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc5 a schema:AggregateOffer;
+  schema:lowPrice "10.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/30601ASVMNTVBQGPSKCLTTHTBBRPCLTLM>
+  a schema:Event;
+  schema:name "Banff Centre Mountain Film Festival World Tour";
+  schema:description """
+	Experience the thrill of adventure at the <span class=\"BoldText\">50th Banff Centre Mountain Film Festival World Tour</span>. Come enjoy the adrenaline rush of high-altitude pursuits, the emotion of personal transformations, and the beauty of adventure sports in wild places captured in breathtaking cinematography. <span><br/></span><span><br/></span>This stop on the Banff Centre Mountain Film Festival World Tour is hosted by <span class=\"BoldText\">The Great Plains Section of the Alpine Club of Canada</span>.<span><br/></span><span><br/></span>Each program is unique, and tickets are sold separately. Film programs and advisories can be found below:<span><br/></span><span class=\"BoldText\">Friday Evening - <a target=\"_blank\" href=\"https://drive.google.com/file/d/1S2PYHJEP1wn7TUj932tw5W58Br4O2Hy1/view\">CREVASSE</a></span><span><br/></span><span class=\"BoldText\">Saturday Matinee - <a target=\"_blank\" href=\"https://drive.google.com/file/d/1mJE7D9kDzOpvrTgPilvnQ3HRU66pK7_D/view\">MORAINE</a></span><span><br/></span><span class=\"BoldText\">Saturday Evening - <a target=\"_blank\" href=\"https://drive.google.com/file/d/1c6u0ZF33HIgZ91Q4BGSHjPxlYXDWFSo3/view\">SERAC</a></span><span><br/></span><span><br/></span>Doors open one hour before showtime. The event will feature information booths, raffle draws, and opportunities to connect with fellow members of the Regina & area outdoor community. Be sure to come early!<span><br/></span><span><br/></span>Thank you to our local sponsors Fresh Air Experience and Regina Climbing Centre.<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $25 for adults inclusive of fees and taxes.  For the Saturday matinee screening, Youth tickets are available for $15 inclusive of fees and taxes.  Seating is assigned.</span>
+""";
+  schema:startDate "2026-04-18T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/8b378e12-b865-49a2-bbff-923d9ad353e9.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc6;
+  schema:keywords "Film";
+  schema:duration "PT90M";
+  schema:endDate "2026-04-18T20:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc6 a schema:AggregateOffer;
+  schema:lowPrice "20.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/22002ATKNPKBTHDMHVQBTRKTKGPVTGDQN>
+  a schema:Event;
+  schema:name "Beatlemania Revisited";
+  schema:description """
+	<span class=\"BoldText\">VaughnCo Entertainment is proud to present<span><br/></span><span><br/></span>BEATLEMANIA REVISITED!<span><br/></span>“It’s been a hard day’s night, and I’ve been working like a dog…”</span><span><br/></span> <span><br/></span>Music fans will easily recall these famous lyrics sung by the legendary <span class=\"ItalicText\"><span class=\"BoldText\">John Lennon</span></span> in the timeless Beatles’ hit <span class=\"ItalicText\">‘A Hard Day’s Night’</span>, a worldwide chart-topping single for the Liverpool group back in 1964. The Beatles are the most commercially successful and critically acclaimed act in the history of popular music and according to Guinness World Records, their recordings have sold over one billion units. Originally formed in 1960, the group developed their musical skills and reputation through extensive live performances that culminated into riotous enthusiasm by screaming fans wherever they went, a phenomenon that became known as <span class=\"ItalicText\"><span class=\"BoldText\">‘Beatlemania!’</span></span>.<span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">‘Beatlemania Revisited’</span></span>, an international touring show, recreates the look, sound and excitement of the fab four’s live performances. This unique musical and theatrical event features a combination of talented European and North American cast members in the roles of <span class=\"ItalicText\">John, Paul, George and Ringo</span>.<span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">Beatlemania Revisited</span></span> is a family oriented, audience-interactive performance that will have fans laughing, singing, dancing and clapping along throughout the show. Musically, the show features ‘note-for-note’ song recreations by the amazing cast who are further augmented with full costumes along with vintage instruments and equipment. Focusing mainly on <span class=\"ItalicText\"><span class=\"BoldText\">The Beatles’</span></span> live performances, the show kicks off with their electrifying first appearance on the Ed Sullivan television show in February 1964, taking the audience through five years of the Beatles’ era concluding with their famous January 1969 ‘roof top’ concert. Along the way, <span class=\"ItalicText\"><span class=\"BoldText\">Beatlemania Revisited</span></span> takes in a total of 35 songs, including <span class=\"ItalicText\">‘I Want To Hold Your Hand’, ‘Ticket to Ride’, ‘Yesterday’.  ‘Penny Lane, ‘Hey Jude’, ‘Something’, ‘Let It Be’</span> and many other timeless favourites.<span><br/></span><span><br/></span>Young or old, don’t miss the opportunity to experience this fab new show!!<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $59.94 inclusive of fees and taxes. No refunds. Seating is assigned.</span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-06-27T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/8efb48a8-b82d-4144-b800-c729294f09b3.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc7;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2026-06-27T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc7 a schema:AggregateOffer;
+  schema:lowPrice "55.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/25801AGPSVCGGNRPVHRSNSQGLMPJPTNDB>
+  a schema:Event;
+  schema:name "Bee Gees Revisited – The Tribute Show";
+  schema:description """
+	<span class=\"BoldText\">VaughnCo Entertainment</span> is proud to present the most outstanding <span class=\"BoldText\">Bee Gees Tribute</span> show. <span class=\"BoldText\">Bee Gees Revisited</span> is the ultimate tribute to the Bee Gees. Come and experience the sound, the harmonies, and the beautiful falsetto voices of the brothers Gibb. Performing with a full band the show recreates the Bee Gees 1998 Las Vegas appearance live.<span><br/></span><span><br/></span>The costumes, the music, and the atmosphere is as close to the real thing as you can get. The show suspends belief as it weaves through hit after hit from their classic 60’s catalogue to the groove of their 70’s Disco era hits that made the band a world-wide sensation. Dance and sing along to hits like Staying Alive, Night Fever, Massachusetts, Tragedy, You Should Be Dancing, and Nights on Broadway.<span><br/></span><span><br/></span>All performed note for note by award winning vocalists Colum Henry, Dave Lafame, and Aaron Solomon. This international touring act has played to sold out, standing ovation audiences throughout North America. So put on your white suits, sequin dresses, boogie shoes and get ready to sing and dance the night away with <span class=\"BoldText\">Bee Gees Revisited.  If you are a Bee Gees fan this show is a must see!</span><span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $61 (inclusive of fees and taxes). No refunds. Seating is assigned.</span>
+""";
+  schema:startDate "2026-09-08T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/f9151c01-f0f9-4938-982f-dfc37401caed.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc8;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2026-09-08T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc8 a schema:AggregateOffer;
+  schema:lowPrice "56.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/24401ANRSMNVVNPTCKDHLSQSTGQBDDKHJ>
+  a schema:Event;
+  schema:name "Big Band Theory";
+  schema:description """
+	We regret to share that, due to unforeseen circumstances, the upcoming performance of <span class=\"BoldText\">Big Band Theory</span> scheduled for <span class=\"BoldText\">February 10, 2026</span> at Darke Hall has been postponed to a date yet to be determined.  We hope to have more information on the re-scheduling in the coming weeks.<span><br/></span><span><br/></span>We understand how disappointing this news may be, and we sincerely appreciate your understanding.<span><br/></span><span><br/></span>Please contact our Box Office at 306-523-2751 if you have any questions.
+""";
+  schema:startDate "2026-02-10T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/9758e8de-8721-4fdc-888f-bd0331c7b996.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:keywords "Music";
+  schema:duration "PT90M";
+  schema:endDate "2026-02-10T20:30:00"^^xsd:dateTime .
+
+<http://www.spektrix.com/darkehallsociety/event/9401ARBBPNBJQCDPKKQGHNMPKPQNNHPMG>
+  a schema:Event;
+  schema:name "BLAK: Iconic Canadian Women in Music";
+  schema:description """
+	<span class=\"BoldText\">BLAK</span> is a powerful musical journey celebrating notable Black Canadian women in music. <span class=\"BoldText\">Krystle Dos Santos</span> shares historically important stories about the underground railroad, the civil rights movement, and key events in Black history while weaving in iconic songs from the eras in which these women lived and performed. BLAK features songs and stories from classical and contemporary artists including spirituals, jazz, blues, soul, R&B, pop and country. <span><br/></span><span><br/></span><span class=\"ItalicText\">Premium seating is $50, Standard seating is $40, and Economy seating is $30. Youth tickets (Age 20 and under) are $10. Prices are inclusive of taxes and fees. Seating is assigned.</span>
+""";
+  schema:startDate "2026-03-14T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/2f85f682-2f75-487a-ac51-a81373ad255f.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc9;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2026-03-14T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc9 a schema:AggregateOffer;
+  schema:lowPrice "5.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/24001ABMNLGCGVMRMGTMJKPBQCNHQQLMH>
+  a schema:Event;
+  schema:name "Caity Gyorgy with the Regina Jazz Orchestra";
+  schema:description """
+	Experience an unforgettable evening with the <span class=\"BoldText\">Regina Jazz Orchestra</span> joined by the sensational <span class=\"BoldText\">Caity Gyorgy</span>, a three-time JUNO Award-winning vocalist. Gyorgy’s unparalleled vocal prowess will blend seamlessly with the orchestra’s rich, dynamic arrangements, creating a night of exquisite jazz. Don’t miss this chance to witness a masterful fusion of sophisticated sounds and stellar talent.<span><br/></span><span><br/></span>Caity Gyorgy (pronounced George) is a 3-time JUNO award-winning Canadian vocalist known for singing bebop and swing music. She has performed at jazz clubs and festivals across Canada, Mexico, Finland, Japan, and the USA and has worked and recorded with incredible musicians, including Christine Jensen, Pat LaBarbera, Jocelyn Gould, Ira Coleman, The UMO Helsinki Jazz Orchestra, Bryn Roberts, and Joe LaBarbera, to name a few.<span><br/></span><span><br/></span>In addition to performing, Caity is an award-winning songwriter and composes music and lyrics in the style of the Great American Songbook. She is also a sought-after clinician and is on faculty as a vocal jazz instructor at the Yukon Summer Music Camp in Whitehorse, Yukon, and the Interprovincial Music Camp in McKellar, Ontario. She is currently signed to Brooklyn label La Reserve Records and has released several albums of original and standard music with them including her three JUNO award-winning albums “Now Pronouncing”(2021), “Featuring” (2022) and “Hello! How Are You?” (2024) and her JUNO-nominated album with pianist Mark Limacher titled “You’re Alike, You Two”. (2023). <span><br/></span><span><br/></span>Her new album, “Asking For Trouble” features the music of Frank Loesser played in a duo setting with Mark Limacher and was released on April 11, 2025. Her next album, “Caity Gyorgy with Strings: Arranged and Conducted by Mark Limacher”, will be released on August 22, 2025.<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $48.84 for adults and $21.09 for students, inclusive of fees and taxes.  Seating is not assigned.</span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-05-30T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/c99d7275-c886-4792-aff5-3cdb4c9229f8.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc10;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-05-30T20:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc10 a schema:AggregateOffer;
+  schema:lowPrice "16.65";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/1602AKGTGLQTSQQLRKHRQDVVMHBGRJLDT>
+  a schema:Event;
+  schema:name "Cecilian Chamber Series - Milatz-Crozman Duo with James Campbell";
+  schema:description """
+	Three eminent musicians, <span class=\"BoldText\">clarinetist James Campbell, cellist Cameron Crozman, and pianist Meagan Milatz</span>—all originally from the Prairies—join forces for a program rich in lyricism, virtuosity, and storytelling. Beethoven’s early clarinet trio brims with wit and bold originality, showcasing a young composer eager to push boundaries. A new suite for cello and piano written for Meagan and Cameron by James’s son, Graham Campbell, adds an exciting new voice, infused with jazz rhythms and sweeping landscapes. Brahms’s late clarinet trio offers a window into the introspective character of the composer. Written for his close friend and favourite clarinetist Richard Mühlfeld, a deep personal expression emerges from the supreme blending of the three instruments.<span><br/></span><span><br/></span>A JUNO award winner and Order of Canada recipient, James Campbell has been called “Canada’s pre-eminent clarinetist and wind soloist” by the Toronto Star, “a national treasure” by the Canadian Broadcasting Corporation and “one of the top half dozen clarinetists in the world today” by Fanfare Magazine. He has performed as a soloist and chamber musician in over 35 countries with over 65 orchestras, including the Boston Pops, the London Symphony and Philharmonic, and every major orchestra in Canada. He has collaborated with Glenn Gould and Aaron Copland and toured with over 35 string quartets, including the Guarneri, Amadeus (when he replaced an ailing Benny Goodman on a tour of California) and Vermeer. Of his over 60 recordings, the BBC and The Times of London rated his recording of the Brahms Clarinet Quintet as the best available. He was named Canada’s Artist of the Year, awarded the Queen’s Gold and Diamond Jubilee Medal, an Honourary Doctor of Laws, and was recently inducted into the CBC’s Classical Music Hall of Fame. James Campbell has been the Artistic Director of the Festival of the Sound, the annual summer Canadian chamber music festival, since 1985 and has programmed over 1500 concerts. Under his direction, the Festival has travelled to England, Japan, and the Netherlands, and it has been the subject of documentaries by BBC Television, CBC Television and TV Ontario. <span><br/></span><span><br/></span>Cameron Crozman is “a cellist with a rich imagination and a keen mind” (Diapason Magazine) and leads an active career as soloist and chamber musician across<span><br/></span>Canada, the USA, and Europe, including with the Montreal Symphony Orchestra, Shanghai Oriental Arts Centre, Philharmonie de Paris and Orchestre National d'Ile-de-France. Cameron shares the stage with eminent artists such as James Ehnes, Augustin Hadelich, Louis Lortie, Gérard Caussé, and James Campbell. Cameron’s critically acclaimed recordings with ATMA Classique and Printemps des Arts de Monaco and performances are broadcast on CBC, BBC, RTÉ Radio, Radio France, and Medici.tv. He is grateful to be the winner of the 2024 Fernand-Lindsay Career Grant, supporting the development of his career internationally. Cameron is the co-founder of ClassicalValley, a festival of chamber music and wine in the Okanagan. <span><br/></span><span><br/></span>Meagan Milatz, pianist, is winner of the 2025-2028 Mécénat Musica Prix Goyer, the biggest prize in Canada and one of the largest in the world for a collaborative emerging artist in classical music. Awarded the 2024 Prix Opus “Discovery of the Year”, Meagan is “a remarkable pianist with a seemingly limitless palette of expression” (Le Devoir). Meagan regularly shares the stage with top international musicians including Andrew Wan, concertmaster of the Montreal Symphony Orchestra, Stefan Dohr, Principal Horn of the Berlin Philharmonic, Kai Gleusteen, concertmaster of the Orchestra del Gran Teatre del Liceu of Barcelona, cellist Matt Haimovitz, and mandolinist Avi Avital. As a soloist, Meagan has appeared with Edmonton, Regina, Sherbrooke, Saskatoon, and McGill Symphonies. Meagan has performed in concert in Ireland (New Ross Piano Festival), France, Spain, Italy, Portugal, Scotland, and Malta. As part of the duo \"meagan&amy\", she won the first-ever 50-concert Pan-Canadian Tour offered by Jeunesses Musicales Canada, Debut Atlantic, and Prairie Debut. Meagan has a recording contract for nine albums of solo and chamber music with ATMA Classique.<span><br/></span><span><br/></span>Program: Full Speed Down the Mountain <span><br/></span><span><br/></span>Beethoven: Clarinet Trio in B-flat major, Op. 11 <span><br/></span><span><br/></span>Graham Campbell: Suite for Cello and Piano Composed for Meagan Milatz and Cameron Crozman (2024)<span><br/></span>I. Compass <span><br/></span>II. Silent White <span><br/></span>III. Full Speed Down the Mountain <span><br/></span><span><br/></span>Max Bruch: Selections from Eight Pieces for Clarinet, Cello, and Piano, Op. 83 <span><br/></span><span><br/></span>Leo Weiner: Peregi Verbunk (Recruiting Dance) <span><br/></span><span><br/></span>Brahms: Clarinet Trio in A minor, Op. 114<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $70 for Level 1, $65 for Level 2, and $25 for students.  Prices are inclusive of fees and taxes.  Seating is assigned.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Single tickets go on sale on September 1, 2025.</span><span><br/></span><span><br/></span>To donate to the Cecilian Chamber Series, please visit:  <a target=\"_blank\" href=\"https://www.canadahelps.org/en/charities/cecilian-concert-series-inc/\">DONATE</a>
+""";
+  schema:startDate "2026-04-12T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/1139818d-4715-492a-97f4-f43b2a62ee5a.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc11;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-04-12T16:00:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc11 a schema:AggregateOffer;
+  schema:lowPrice "20.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD>
+  a schema:Event;
+  schema:name "Cecilian Chamber Series - Trio Bohémo";
+  schema:description """
+	Featuring the international award-winning <span class=\"BoldText\">Trio Bohémo</span>, this concert will be a rare occasion to hear both composers and performers from the Czech lands. Dvořak’s famous “Dumky” Piano Trio is at the heart of their program, where melancholy and<span><br/></span>joy are felt in quick succession. In “Moravian Folk Songs”, the performers’ own voices will join the colours of their instruments with traditional melodies from the artists’ homeland by Czech composer Jan Vičar. Framing the program: a Haydn trio overflowing with elegance and wit, and the fiery virtuosity of Mendelssohn’s first piano trio.<span><br/></span><span><br/></span>Trio Bohémo is an award-winning Czech chamber ensemble known for their dynamic performances and mastery of the classical piano trio repertoire. In 2023 they received first prize for the best interpretation of Joseph Haydn, and the audience prize at the International Joseph Haydn Chamber Music Competition in Vienna. The trio also won third prize and the audience prize at the Melbourne International Chamber Music Competition in Australia, and were awarded three special prizes at the ARD International Music Competition. They have also been recipients of the prestigious Czech Chamber Music Society award.<span><br/></span><span><br/></span>Other recognitions have included the Gianni Bergamo Award in Switzerland, prizes at the ISA Festival in Austria including best interpretations of Viennese Classical Music and Czech Contemporary Chamber Music, first prize at the International Filippo Nicosia in Italy, first prize and audience prize at the 2021 International Johannes Brahms Competition in Austria, and the International Parkhouse Award in London.<span><br/></span><span><br/></span>Notable concert venues in which Trio Bohémo have performed include the Vienna Musikverein, Wigmore Hall in London and Stoller Hall in Manchester, UK. They have also appeared in numerous festivals such as the Prague Spring, CZ, Schwarzwald Musikfestival, DE and in Gent at the Festival van Vlaanderen, BE. Trio Bohémo was a member of the “European Chamber Music Academy” from 2020-2022.<span><br/></span><span><br/></span>Trio Bohémo is Matouš Pěruška (violin), Kristina Vocetková (cello), Jan Vojtek (piano).<span><br/></span><span><br/></span>Program: From the Czech Lands<span><br/></span><span><br/></span>Haydn: Piano Trio in A Major, Hob XV:35<span><br/></span>Jan Vičar: Moravian Folk Songs<span><br/></span>Dvořák: Piano Trio No. 4, Op. 90 “Dumky”<span><br/></span>Mendelssohn: Piano Trio No. 1 in D minor, Op. 49<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $70 for Level 1, $65 for Level 2, and $25 for students.  Prices are inclusive of fees and taxes.  Seating is assigned.</span><span><br/></span><span><br/></span><span class=\"BoldText\">Single tickets go on sale on September 1, 2025.</span><span><br/></span><span><br/></span>To donate to the Cecilian Chamber Series, please visit:  <a target=\"_blank\" href=\"https://www.canadahelps.org/en/charities/cecilian-concert-series-inc/\">DONATE</a><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-03-13T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/6764887e-ed9c-4fd3-b50e-a05ea80b9b6d.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc12;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-03-13T20:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc12 a schema:AggregateOffer;
+  schema:lowPrice "20.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/26601APLTNSPSGDPBRQVGGSRDMVBVVNQK>
+  a schema:Event;
+  schema:name "Cecilian Chamber Series Artist Dinner & Fundraiser";
+  schema:description """
+	Join the <span class=\"BoldText\">Cecilian Chamber Series</span> for an Artist Dinner & Fundraiser with the <span class=\"BoldText\">Milatz-Crozman Duo and James Campbell</span> on Sunday, April 12th following their 3 pm concert.  Experience a three-course dinner at Memories Fine Dining (1717 Victoria Avenue) followed by an interview with the artists.<span><br/></span><span><br/></span><span class=\"ItalicText\">Single tickets are $140 each ($75 tax receipt).<span><br/></span><span><br/></span>Deadline for ticket purchases is April 1, 2026.  Limited seating is available.</span><span><br/></span>
+""";
+  schema:startDate "2026-04-12T17:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/ca9eb799-1c58-4cdd-b1e2-a2aaf92e73f1.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc13;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2026-04-12T19:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc13 a schema:AggregateOffer;
+  schema:lowPrice "140.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/18601AGJVHRJDDNTMMMDTKPLTNBGVTLHV>
+  a schema:Event;
+  schema:name "Chen, Cheng & Beethoven";
+  schema:description """
+	One of Canada’s most beloved pianists, Angela Cheng, takes center stage in Beethoven’s Piano Concerto No. 1—a sparkling, crowd-pleasing masterpiece that blends classical charm with virtuosic brilliance.<span><br/></span><span><br/></span>From romantic comfort to modern textures, under the direction of guest conductor Monica Chen, this concert promises a rich and dynamic listening experience—familiar, fresh, and deeply engaging.<span><br/></span><span><br/></span>To purchase tickets, please visit <a target=\"_blank\" href=\"https://reginasymphony.com/chen-cheng-beethoven-dh/\">the RSO website.</a>
+""";
+  schema:startDate "2026-04-25T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/dc2fc62f-08f5-4c61-9015-1cf7ef69058d.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2026-04-25T16:00:00"^^xsd:dateTime .
+
+<http://www.spektrix.com/darkehallsociety/event/17603AKHVPLPCMSBQBBMTSKHRTSQBNQVC>
+  a schema:Event;
+  schema:name "Chen, Cheng & Beethoven";
+  schema:description """
+	One of Canada’s most beloved pianists, Angela Cheng, takes center stage in Beethoven’s Piano Concerto No. 1—a sparkling, crowd-pleasing masterpiece that blends classical charm with virtuosic brilliance.<span><br/></span><span><br/></span>From romantic comfort to modern textures, under the direction of guest conductor Monica Chen, this concert promises a rich and dynamic listening experience—familiar, fresh, and deeply engaging.<span><br/></span><span><br/></span>To purchase tickets, please visit <a target=\"_blank\" href=\"https://reginasymphony.com/chen-cheng-beethoven-dh/\">the RSO website.</a>
+""";
+  schema:startDate "2026-04-25T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/dc2fc62f-08f5-4c61-9015-1cf7ef69058d.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2026-04-25T21:30:00"^^xsd:dateTime .
+
+<http://www.spektrix.com/darkehallsociety/event/28001ATQBPNCNMQQVMPLRVTJTQRGHDNSG>
+  a schema:Event;
+  schema:name "Cinderella";
+  schema:description """
+	<span class=\"BoldText\">Rodgers & Hammerstein’s Cinderella, Enchanted Edition</span> is a charming stage musical that brings the classic fairy tale of Cinderella to life with lively songs, colorful costumes, and heartfelt moments.  The story follows Cinderella as she overcomes hardship with kindness and courage, helped along the way by a touch of magic.  Filled with humor, romance, and uplifting music, the show celebrates believing in yourself and the power of dreams coming true.<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $26.25 for adults, or $15.75 for youth 17 & under (prices include fees and taxes). Seating is assigned.</span>
+""";
+  schema:startDate "2026-05-20T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/e9f4617a-bb81-4624-956a-d9395fe34980.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc14;
+  schema:keywords "Theatre";
+  schema:duration "PT150M";
+  schema:endDate "2026-05-20T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc14 a schema:AggregateOffer;
+  schema:lowPrice "11.55";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/28201ANLRQMDQPKBCRBQJSVDBPMCHQKNS>
+  a schema:Event;
+  schema:name "Cinderella";
+  schema:description """
+	<span class=\"BoldText\">Rodgers & Hammerstein’s Cinderella, Enchanted Edition</span> is a charming stage musical that brings the classic fairy tale of Cinderella to life with lively songs, colorful costumes, and heartfelt moments.  The story follows Cinderella as she overcomes hardship with kindness and courage, helped along the way by a touch of magic.  Filled with humor, romance, and uplifting music, the show celebrates believing in yourself and the power of dreams coming true.<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $26.25 for adults, or $15.75 for youth 17 & under (prices include fees and taxes). Seating is assigned.</span>
+""";
+  schema:startDate "2026-05-21T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/e9f4617a-bb81-4624-956a-d9395fe34980.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc15;
+  schema:keywords "Theatre";
+  schema:duration "PT150M";
+  schema:endDate "2026-05-21T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc15 a schema:AggregateOffer;
+  schema:lowPrice "11.55";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/28401ALHCVVGBRSQJPRCNLLHLGCQGLNBC>
+  a schema:Event;
+  schema:name "Cinderella";
+  schema:description """
+	<span class=\"BoldText\">Rodgers & Hammerstein’s Cinderella, Enchanted Edition</span> is a charming stage musical that brings the classic fairy tale of Cinderella to life with lively songs, colorful costumes, and heartfelt moments.  The story follows Cinderella as she overcomes hardship with kindness and courage, helped along the way by a touch of magic.  Filled with humor, romance, and uplifting music, the show celebrates believing in yourself and the power of dreams coming true.<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $26.25 for adults, or $15.75 for youth 17 & under (prices include fees and taxes). Seating is assigned.</span>
+""";
+  schema:startDate "2026-05-22T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/e9f4617a-bb81-4624-956a-d9395fe34980.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc16;
+  schema:keywords "Theatre";
+  schema:duration "PT150M";
+  schema:endDate "2026-05-22T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc16 a schema:AggregateOffer;
+  schema:lowPrice "11.55";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/28601APDRTPPTPHLHSRDRCLCHBTNJRVPM>
+  a schema:Event;
+  schema:name "Cinderella";
+  schema:description """
+	<span class=\"BoldText\">Rodgers & Hammerstein’s Cinderella, Enchanted Edition</span> is a charming stage musical that brings the classic fairy tale of Cinderella to life with lively songs, colorful costumes, and heartfelt moments.  The story follows Cinderella as she overcomes hardship with kindness and courage, helped along the way by a touch of magic.  Filled with humor, romance, and uplifting music, the show celebrates believing in yourself and the power of dreams coming true.<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $26.25 for adults, or $15.75 for youth 17 & under (prices include fees and taxes). Seating is assigned.</span>
+""";
+  schema:startDate "2026-05-23T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/e9f4617a-bb81-4624-956a-d9395fe34980.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc17;
+  schema:keywords "Theatre";
+  schema:duration "PT150M";
+  schema:endDate "2026-05-23T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc17 a schema:AggregateOffer;
+  schema:lowPrice "11.55";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/29401ADJVTMPMVSKRPCKNPVMCRPLRQJRR>
+  a schema:Event;
+  schema:name "Collective Studios Movie Premiere – 4th Anniversary";
+  schema:description """
+	<span class=\"BoldText\">Collective Studios</span> is celebrating their 4th Anniversary!  This event will feature a pre-show celebration for their “champagne birthday” followed by their virtual showcase… the Movie Premiere!  The Movie Premiere features all the studio’s winter Music Videos, filmed and edited by RC Equina of Kwento Productions.  We are watching these videos on the big screen for the first time!  Enjoy professional dance videos filmed in a variety of styles, complete with rehearsal footage, hilarious behind the scenes extras, and special videos commemorating the studio’s 4 years!  The studio will also be raising money for their new non-profit, Community Dance Initiative, that is working to make dance more accessible by removing physical and financial barriers.  Everyone is welcome to attend… you don’t want to miss it!<span><br/></span><span><br/></span>The lobby opens at 6 pm, with on-stage festivities beginning at 7:15 pm.<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $40 (including fees and taxes). No refunds. Seating is not assigned.</span>
+""";
+  schema:startDate "2026-04-04T19:15:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/ce331831-cb95-49d2-9a97-ac76fa74c081.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc18;
+  schema:keywords "Dance";
+  schema:duration "PT195M";
+  schema:endDate "2026-04-04T22:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc18 a schema:AggregateOffer;
+  schema:lowPrice "35.8";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/26801APBDSSBSQMVTPLPRDJQMMKCLMHMP>
+  a schema:Event;
+  schema:name "Conservatory Musical Theatre Showcase - DAY 1";
+  schema:description """
+	Get ready for four days of singing, dancing, and performing at the <span class=\"BoldText\">Conservatory Musical Theatre Showcase</span>. Students from the University of Regina Conservatory of Performing Arts’ youth musical theatre programs are sure to dazzle and delight the audience with their triple threat status.<span><br/></span><span><br/></span>Performances on <span class=\"BoldText\">DAY 1</span> will include the following (in performance order):<span><br/></span><span><br/></span><span class=\"BoldText\">Advanced Glee (Saturday class)</span> presents <span class=\"BoldText\">Lionel Bart’s <span class=\"ItalicText\">Oliver! JR.</span></span>  Consider yourself at home with <span class=\"ItalicText\">Oliver! JR.</span>, the Broadway Junior version of Lionel Bart's classic musical based on Charles Dickens' novel, Oliver Twist. The streets of Victorian England come to life as Oliver, a malnourished orphan in a workhouse, becomes the neglected apprentice of an undertaker. Oliver escapes to London and finds acceptance amongst a group of petty thieves and pickpockets led by the elderly Fagin. However, being captured for a theft that he did not commit, Oliver’s chances of discovering the true love of a family is threatened. <span class=\"ItalicText\">Oliver! JR.</span> is full of classic songs like \"Consider Yourself\", \"Food Glorious Food\", and \"Oom-Pah-Pah.\" Book, Music and Lyrics by Lionel Bart. <span class=\"ItalicText\">Oliver! JR.</span> is directed by Karen Rose with assistance from Vamshi Vakulabharanam.<span><br/></span><span><br/></span><span class=\"BoldText\">Advanced Glee (Tuesday class)</span> presents the Cameron Mackintosh and Disney classic musical <span class=\"ItalicText\"><span class=\"BoldText\">Mary Poppins JR.</span></span> Based on one of the most popular Disney movies of all time and the Broadway musical that received multiple Olivier and Tony Awards nominations, Cameron Mackintosh and Disney's <span class=\"ItalicText\">Mary Poppins</span> is capturing hearts in a whole new way: as a practically perfect Broadway Junior musical! The jack-of-all trades, Bert, introduces us to England in 1910 and the troubled Banks family. Young Jane and Michael have sent many a nanny packing before Mary Poppins arrives on their doorstep. Using a combination of magic and common sense, she must teach the family members how to value each other again. Mary Poppins takes the children on many magical and memorable adventures, but Jane and Michael aren't the only ones upon whom she has a profound effect. Even grown-ups can learn a lesson or two from the nanny who advises that \"Anything can happen if you let it.\" Cameron Mackintosh and Disney's <span class=\"ItalicText\">Mary Poppins JR.</span> is an enchanting mixture of irresistible story and unforgettable songs. A Musical based on the stories of P.L. Travers and the Walt Disney Film. Original Music and Lyrics by Richard M. Sherman and Robert B. Sherman. Book by Julian Fellowes. New Songs and Additional Music and Lyrics by George Stiles and Anthony Drewe. Co-Created by Cameron Mackintosh. Adapted by iTheatrics under the supervision of Timothy Allen McDonald. <span class=\"ItalicText\">Mary Poppins JR.</span> is directed by Katlyn Redding.<span><br/></span><span><br/></span><span class=\"ItalicText\">MARY POPPINS JR and LIONEL BARTS OLIVER! JR are both presented through special arrangement with Music Theatre International (MTI). All authorized performance materials are also supplied by MTI.  The video or audio recording of these productions is strictly prohibited.</span>  <span><br/></span><a target=\"_blank\" href=\"https://www.mtishows.com/\">www.mtishows.com</a>  <span><br/></span><span><br/></span>Learn more about the University of Regina Conservatory of Performing Arts and about joining Summer Creative Camps in July & August or our Musical Theatre & Drama programs in the fall of 2026:  <span><br/></span><a target=\"_blank\" href=\"https://www.uregina.ca/academics/continuing-education/conservatory-of-performing-arts.html\"> Conservatory of Performing Arts</a><span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $16.80 in advance and $21.00 at the door, inclusive of fees and taxes.  Seating is not assigned.</span><span><br/></span>
+""";
+  schema:startDate "2026-05-09T18:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/2d622b30-5902-44ea-93e4-7a9852e26ba7.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc19;
+  schema:keywords "Theatre";
+  schema:duration "PT150M";
+  schema:endDate "2026-05-09T21:00:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc19 a schema:AggregateOffer;
+  schema:lowPrice "12.6";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/27201ATMPGJCKNGLLLPMRKRVCVBLCMPLH>
+  a schema:Event;
+  schema:name "Conservatory Musical Theatre Showcase - DAY 2";
+  schema:description """
+	Get ready for four days of singing, dancing, and performing at the <span class=\"BoldText\">Conservatory Musical Theatre Showcase</span>. Students from the University of Regina Conservatory of Performing Arts’ youth musical theatre programs are sure to dazzle and delight the audience with their triple threat status.<span><br/></span><span><br/></span>Performances on <span class=\"BoldText\">DAY 2</span> will include the following (in performance order):<span><br/></span><span><br/></span><span class=\"BoldText\">Advanced Glee (Tuesday class)</span> presents the Cameron Mackintosh and Disney classic musical <span class=\"ItalicText\"><span class=\"BoldText\">Mary Poppins JR.</span></span> Based on one of the most popular Disney movies of all time and the Broadway musical that received multiple Olivier and Tony Awards nominations, Cameron Mackintosh and Disney's <span class=\"ItalicText\">Mary Poppins</span> is capturing hearts in a whole new way: as a practically perfect Broadway Junior musical! The jack-of-all trades, Bert, introduces us to England in 1910 and the troubled Banks family. Young Jane and Michael have sent many a nanny packing before Mary Poppins arrives on their doorstep. Using a combination of magic and common sense, she must teach the family members how to value each other again. Mary Poppins takes the children on many magical and memorable adventures, but Jane and Michael aren't the only ones upon whom she has a profound effect. Even grown-ups can learn a lesson or two from the nanny who advises that \"Anything can happen if you let it.\" Cameron Mackintosh and Disney's <span class=\"ItalicText\">Mary Poppins JR.</span> is an enchanting mixture of irresistible story and unforgettable songs. A Musical based on the stories of P.L. Travers and the Walt Disney Film. Original Music and Lyrics by Richard M. Sherman and Robert B. Sherman. Book by Julian Fellowes. New Songs and Additional Music and Lyrics by George Stiles and Anthony Drewe. Co-Created by Cameron Mackintosh. Adapted by iTheatrics under the supervision of Timothy Allen McDonald. <span class=\"ItalicText\">Mary Poppins JR.</span> is directed by Katlyn Redding.<span><br/></span><span><br/></span><span class=\"BoldText\">Advanced Glee (Saturday class)</span> presents <span class=\"BoldText\">Lionel Bart’s <span class=\"ItalicText\">Oliver! JR.</span></span>  Consider yourself at home with <span class=\"ItalicText\">Oliver! JR.</span>, the Broadway Junior version of Lionel Bart's classic musical based on Charles Dickens' novel, Oliver Twist. The streets of Victorian England come to life as Oliver, a malnourished orphan in a workhouse, becomes the neglected apprentice of an undertaker. Oliver escapes to London and finds acceptance amongst a group of petty thieves and pickpockets led by the elderly Fagin. However, being captured for a theft that he did not commit, Oliver’s chances of discovering the true love of a family is threatened. <span class=\"ItalicText\">Oliver! JR.</span> is full of classic songs like \"Consider Yourself\", \"Food Glorious Food\", and \"Oom-Pah-Pah.\" Book, Music and Lyrics by Lionel Bart. <span class=\"ItalicText\">Oliver! JR.</span> is directed by Karen Rose with assistance from Vamshi Vakulabharanam.<span><br/></span><span><br/></span><span class=\"ItalicText\">MARY POPPINS JR and LIONEL BARTS OLIVER! JR are both presented through special arrangement with Music Theatre International (MTI). All authorized performance materials are also supplied by MTI.  The video or audio recording of these productions is strictly prohibited.</span>  <span><br/></span><a target=\"_blank\" href=\"https://www.mtishows.com/\">www.mtishows.com</a>  <span><br/></span><span><br/></span>Learn more about the University of Regina Conservatory of Performing Arts and about joining Summer Creative Camps in July & August or our Musical Theatre & Drama programs in the fall of 2026:  <span><br/></span><a target=\"_blank\" href=\"https://www.uregina.ca/academics/continuing-education/conservatory-of-performing-arts.html\"> Conservatory of Performing Arts</a><span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $16.80 in advance and $21.00 at the door, inclusive of fees and taxes.  Seating is not assigned.</span>
+""";
+  schema:startDate "2026-05-10T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/de4127e6-3ddf-4977-b5db-7dee7a2806a9.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc20;
+  schema:keywords "Theatre";
+  schema:duration "PT150M";
+  schema:endDate "2026-05-10T17:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc20 a schema:AggregateOffer;
+  schema:lowPrice "12.6";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/27401ARJLQPVGRGCMSLCMHMNMQVRHNDVC>
+  a schema:Event;
+  schema:name "Conservatory Musical Theatre Showcase - DAY 3";
+  schema:description """
+	Get ready for four days of singing, dancing, and performing at the <span class=\"BoldText\">Conservatory Musical Theatre Showcase</span>. Students from the University of Regina Conservatory of Performing Arts’ youth musical theatre programs are sure to dazzle and delight the audience with their triple threat status.<span><br/></span><span><br/></span>Performances on <span class=\"BoldText\">DAY 3</span> will include the following (in performance order):<span><br/></span><span><br/></span><span class=\"BoldText\">Senior Glee (Friday class)</span> presents <span class=\"ItalicText\"><span class=\"BoldText\">Cinderella</span></span>. This musical play is a bright version of the classic children’s fairy tale that has all the charm of the original story. You will meet all your favourite familiar characters including Cinderella and her stepsisters, the mean stepmother, the Fairy Godmother and, of course, the handsome prince. As well as some new characters including Cinderella's dog, Rover, who is not just a faithful friend but a talking pet! Jack Porter and Robert Neil Perry have added extra charm to their version with simple, spry musical numbers that add sparkle to this classic fairy tale. Book, music and lyrics by Jack Perry and Robert Neil Porter. <span class=\"ItalicText\">Cinderella</span> is directed by Chip McDaniel.<span><br/></span><span><br/></span><span class=\"BoldText\">Senior Glee (Saturday class)</span> presents <span class=\"ItalicText\"><span class=\"BoldText\">Magic Tree House: Pirates Past Noon KIDS</span></span>. This musical is an adaptation of the fourth of Mary Pope Osborne's award-winning fantasy adventure books from the Magic Tree House book series. This time around, Jack and Annie’s tree house takes them to an island with pirates in the eighteenth-century Caribbean! The siblings meet Captain Bones, a mean old pirate who captures the two and forces them to help him find buried treasure. It's up to Jack and Annie to find their way back to the tree house and make their way home, all the while discovering the power of friendship and the simple pleasures in everyday life. Book by Jenny Laird. Music and Lyrics by Randy Courts. Additional Lyrics by Will Osborne. Based on Magic Tree House #4: Pirates Past Noon by Mary Pope Osbourne. <span class=\"ItalicText\">Magic Tree House: Pirates Past Noon KIDS</span> is directed by Karen Rose with assistance from Tessa Macknak and Elizabeth Madsen. <span><br/></span><span><br/></span><span class=\"BoldText\">Senior Glee (Thursday class)</span> presents <span class=\"ItalicText\"><span class=\"BoldText\">Seussical KIDS</span></span>. This musical is great fun for the whole family! Horton the Elephant, the Cat in the Hat and all your favorite Dr. Seuss characters spring to life onstage in <span class=\"ItalicText\">Seussical KIDS</span>, a fantastical musical extravaganza from Tony-winners, Lynn Ahrens and Stephen Flaherty. Transporting audiences from the Jungle of Nool to the Circus McGurkus, the Cat in the Hat, our narrator, tells the story of Horton. Horton is an elephant who discovers a speck of dust containing tiny people called the Whos, including Jojo, a Who child, who gets in trouble for thinking too many \"thinks.\" Horton's challenge is twofold — not only must he protect the Whos from a world of naysayers and dangers, but he must also guard an abandoned egg that's been left in his care by the irresponsible Mayzie La Bird. Although Horton faces ridicule, danger, kidnapping and a trial, the intrepid Gertrude McFuzz never loses faith in him. The powers of friendship, loyalty, family and community are challenged, but will they emerge triumphant? Book by Lynn Ahrens and Stephen Flaherty. Music by Stephen Flaherty. Lyrics by Lynn Ahrens. Conceived by Lynn Ahrens, Stephen Flaherty, and Eric Idle. Based on the works of Dr. Seuss. Music Supervised, Adapted, and Produced by Bryan Louiselle. <span class=\"ItalicText\">Seussical KIDS</span> is directed by Katlyn Redding and Gillian Engen.<span><br/></span><span><br/></span>There will be a short intermission between each Senior Glee group to reset the stage and organize performers.<span><br/></span><span><br/></span><span class=\"ItalicText\">CINDERELLA</span> is produced by special arrangement with Pioneer Drama Service, Inc., Denver, Colorado.<span><br/></span><span><br/></span><span class=\"ItalicText\">SEUSSICAL KIDS & MAGIC TREE HOUSE: PIRATES PAST NOON KIDS</span> are both presented through special arrangement with Music Theatre International (MTI). All authorized performance materials are also supplied by MTI. The videotaping or other video or audio recording of these two productions is strictly prohibited.<span><br/></span><a target=\"_blank\" href=\"https://www.mtishows.com/\">www.mtishows.com</a>  <span><br/></span><span><br/></span>Learn more about the University of Regina Conservatory of Performing Arts and about joining Summer Creative Camps in July & August or our Musical Theatre & Drama programs in the fall of 2026:  <span><br/></span><a target=\"_blank\" href=\"https://www.uregina.ca/academics/continuing-education/conservatory-of-performing-arts.html\"> Conservatory of Performing Arts</a><span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $12.60 in advance and $15.75 at the door, inclusive of fees and taxes.  Seating is not assigned.</span>
+""";
+  schema:startDate "2026-05-13T18:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/d438ebef-f1fa-4651-96b8-8b1b0d9af2f4.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc21;
+  schema:keywords "Theatre";
+  schema:duration "PT150M";
+  schema:endDate "2026-05-13T21:00:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc21 a schema:AggregateOffer;
+  schema:lowPrice "8.4";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/27601AQVLTVTCJRHPTLCPRBPBJCDTNLPC>
+  a schema:Event;
+  schema:name "Conservatory Musical Theatre Showcase - DAY 4";
+  schema:description """
+	Get ready for four days of singing, dancing, and performing at the <span class=\"BoldText\">Conservatory Musical Theatre Showcase</span>. Students from the University of Regina Conservatory of Performing Arts’ youth musical theatre programs are sure to dazzle and delight the audience with their triple threat status.<span><br/></span><span><br/></span>Performances on <span class=\"BoldText\">DAY 4</span> will include the following (in performance order):<span><br/></span><span><br/></span><span class=\"BoldText\">Mini Glee (5:00pm class & 5:50pm class)</span> presents choral music for <span class=\"BoldText\">Songs of a Disney Hero and Sidekick</span>. Each group will perform individually then will present a special joint song. This group is directed by Fallon Hantelman-Stewart with support from Yzabelle Lopez.<span><br/></span><span><br/></span><span class=\"BoldText\">Junior Glee (Wednesday, 6:30pm class)</span> presents choral music from <span class=\"ItalicText\"><span class=\"BoldText\">Oliver!</span></span>  These groups are directed by Wren Magalong with support from Aubrey Mutala.<span><br/></span><span><br/></span><span class=\"BoldText\">Junior Glee (5:15pm class & 6:30pm class)</span> presents choral music from <span class=\"BoldText\">Disney’s Encanto and Moana</span>. Each group will perform individually then will present a special joint song for the finale. These groups are directed by Katherine Mutschler with support from Jenah Healy.<span><br/></span><span><br/></span>There will be a short transition break between each class just to reset the stage and coordinate students.<span><br/></span><span><br/></span>Learn more about the University of Regina Conservatory of Performing Arts and about joining Summer Creative Camps in July & August or our Musical Theatre & Drama programs in the fall of 2026:  <span><br/></span><a target=\"_blank\" href=\"https://www.uregina.ca/academics/continuing-education/conservatory-of-performing-arts.html\"> Conservatory of Performing Arts</a><span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $8.40 in advance and $10.50 at the door, inclusive of fees and taxes.  Seating is not assigned.</span>
+""";
+  schema:startDate "2026-05-15T18:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/a8d52565-80dc-4da6-bb1a-646e7e4e664e.JPG>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc22;
+  schema:keywords "Theatre";
+  schema:duration "PT75M";
+  schema:endDate "2026-05-15T19:45:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc22 a schema:AggregateOffer;
+  schema:lowPrice "4.2";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/29001ALLPBTHVNSHLVJMKCMRSHGJJGQBT>
+  a schema:Event;
+  schema:name "Conservatory Youth Theatre Showcase ";
+  schema:description """
+	<span class=\"BoldText\">The Conservatory Youth Theatre Showcase</span> is a special event presenting one act plays from the young performers in the Conservatory of Performing Arts Showtime acting program. <span><br/></span><span><br/></span>Performances will include the following (in performance order):<span><br/></span>•	<span class=\"BoldText\">Showtime Junior</span> is our youngest acting program featuring performers ages 8-10. This group will be presenting <span class=\"BoldText\">Fish Tales</span>. Fish is in a pickle. Actually, Fish is in a fishbowl, but she has a major problem — her imagination is broken and she can’t even think of a single wish. Luckily, representatives of the IRS (the Imagination Repair Squad), send Fish on an adventurous undersea journey to the Not-Land of Zo, which is threatened by The Doom. Sapping all the citizens of their energy and spark, it’s going to take creativity and imagination to conquer The Doom! Full of rhymes, wit, and a fun message about being creative and using your imagination. By Beth Ann Powers. This group is directed by Taliyah Hoglander.<span><br/></span><span><br/></span>•	<span class=\"BoldText\">Showtime Senior</span> (5:30pm class) is our oldest acting program featuring performers ages 11-14. This group will be presenting <span class=\"BoldText\">A Window for Murder</span>. You’ll love the touch of British flavor in this entertaining Sherlock Holmes spoof. The world-famous private detective, Burton Everhart III, has been summoned to the Straitford Estate in London to investigate the death of Colonel Straitford. The night has not come to a close before a blood-curdling scream shakes the estate. Burton discovers that the widow, Julia Straitford, has had an unfortunate run in with her bedroom window...or should we say run out? From the disgruntled staff to Mrs. Straitford’s own family, everyone appears to have a motive for helping Julia to her abrupt end. With a colorful cast including a bunny slipper wearing butler and a nephew with multiple personalities, the laughs never stop! By Nathan Coey. This group is directed by Joseph Shane McLellan.<span><br/></span><span><br/></span>•	<span class=\"BoldText\">Showtime Senior</span> (7:15pm class) is our oldest acting program featuring performers ages 11-14. This group will be presenting <span class=\"BoldText\">Big Bad</span>. Big Bad is a smart and wickedly funny play that lets the audience determine the outcome of the play! The most notorious criminal in the fairy-tale world, Big Bad Wolf, is being slapped with a class-action lawsuit by the countless quirky characters he has wronged. Now, the two greatest legal minds in the Enchanted Forest — the Evil Stepmother and the Fairy Godmother — will clash (on live Court TV, no less, with Sydney Grimm as commentator!) in a trial that will be remembered forever after. But can Mr. Wolf make a good case for himself? Was he born a criminal, or made one? Perhaps he does deserve compassion instead of condemnation! What will the verdict be? Only the jury — our audience — can decide the outcome of the trial... and the play! By Alec Strum. This group is directed by Joseph Shane McLellan.<span><br/></span><span><br/></span>There will be a short 10-min transition break between each show just to reset the stage and organize students.<span><br/></span><span><br/></span><span class=\"ItalicText\">Fish Tales, Window for Murder, and Big Bad are all produced by special arrangement with Pioneer Drama Service, Inc., Denver, Colorado.</span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.uregina.ca/academics/continuing-education/conservatory-of-performing-arts.html \">Learn more about the University of Regina Conservatory of Performing Arts and about joining Winter &amp; Spring Creative Camps in February and April or our Musical Theatre &amp; Drama programs starting in January.</a><span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $8.40 in advance and $10.50 at the door, inclusive of fees and taxes.  Seating is not assigned.</span>
+""";
+  schema:startDate "2026-06-08T18:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/4e8d5402-2209-4e17-be62-1cf45f1aea08.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc23;
+  schema:keywords "Theatre";
+  schema:duration "PT150M";
+  schema:endDate "2026-06-08T21:00:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc23 a schema:AggregateOffer;
+  schema:lowPrice "4.2";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/10601APSKMRRDLKDGKBKNPNLTDRGCSHLR>
+  a schema:Event;
+  schema:name "Delhi 2 Dublin";
+  schema:description """
+	For nearly two decades, <span class=\"BoldText\">Delhi 2 Dublin</span> has been at the forefront of South Asian fusion music, pioneering a global bass sound they call \"Subcontinental Pop\"- a high-energy blend of Bhangra, electronic, hip-hop, reggae, and Celtic influences that defies genre and unites dancefloors worldwide. As they approach their 20th anniversary in 2026, members Sanjay Seran, Ravi Binning, Serena Eades and new addition Kal Mattu continue to push the band’s sound and vision to new heights, leading them into an exciting new chapter of music-making after a six-year hiatus. What started as a one-night collaboration at Vancouver’s Celtic Fest in 2006 has evolved into a world-touring phenomenon, gracing legendary stages like Electric Forest, Glastonbury, Burning Man, Bali Spirit Festival, and Woodford Folk Festival while captivating audiences from Mumbai to Nevada. Known for their high-energy, genre-defying performances, Delhi 2 Dublin delivers what fans describe as \"90 minutes of freebasing joy.\"<span><br/></span><span><br/></span><span class=\"ItalicText\">Premium seating is $50, Standard seating is $40, and Economy seating is $30. Prices are inclusive of taxes and fees. Seating is assigned.</span>
+""";
+  schema:startDate "2026-05-01T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/691f23ba-84b2-480d-9432-ce999bb7bac2.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc24;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-05-01T20:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc24 a schema:AggregateOffer;
+  schema:lowPrice "25.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/23801AJTHHRQPTBGSQKNGJHMKGQMHTHHM>
+  a schema:Event;
+  schema:name "Home Brewed featuring Steve Kaldestad";
+  schema:description """
+	Come join the <span class=\"BoldText\">Regina Jazz Orchestra</span> for an unforgettable night of music as we feature Regina ex-pat, Vancouver-based, tenor saxophonist, <span class=\"BoldText\">Steve Kaldestad</span>! <span><br/></span><span><br/></span>Known for his deep, earthy sound and swinging lines (deeply rooted in the jazz tradition), this concert promises to deliver an incredible experience filled with tight ensemble work, powerful solos from Steve and members of the band. Whether you’re a longtime jazz fan or discovering this music for the first time, this event is the perfect chance to enjoy Regina Jazz at its best.<span><br/></span><span><br/></span>Since moving to Vancouver in 2008, Steve Kaldestad has become one of the most in-demand saxophonists on the scene, performing with The Dan Brubeck Quartet, the Jill Townsend Jazz Orchestra, the Fred Stride Jazz Orchestra, and many other groups, while also leading his own quartet. Steve has released 4 CDs on the Cellar Music label to great acclaim including Straight Up featuring the Mike Ledonne Trio, New York Afternoon with the Renee Rosnes Trio and his latest release, Live at Frankie’s Jazz Club.<span><br/></span><span><br/></span>Originally from Regina, Steve spent the ’90s in Montreal, obtaining his Bachelor's and Master's degrees from McGill University. During this time Steve was awarded a grant to study with Lee Konitz in New York. In 2000, he began an eight year stint living and performing in London, England. He has also played and/or recorded with Renee Rosnes, Denzal Sinclaire, Kurt Rosenwinkel, Peter Bernstein, the Karl Jannuska Group, Kevin Dean and many others.<span><br/></span><span><br/></span>Steve now resides in Port Moody, BC and teaches at Capilano University. Steve is a D’addario artist and plays D’addario Select Jazz reeds on all his saxophones.<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $48.84 for adults and $21.09 for students, inclusive of fees and taxes.  Seating is not assigned.</span>
+""";
+  schema:startDate "2026-04-10T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/2954b6db-6cec-4586-9c2c-56fbff0761c8.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc25;
+  schema:keywords "Music";
+  schema:duration "PT90M";
+  schema:endDate "2026-04-10T21:00:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc25 a schema:AggregateOffer;
+  schema:lowPrice "16.65";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/11001ATRSBGDJMQQMCVKRJSQJPSBBHRPT>
+  a schema:Event;
+  schema:name "Michael Kaeshammer";
+  schema:description """
+	Something magical happens when <span class=\"BoldText\">Michael Kaeshammer</span> sits at the piano. Michael isn’t so much a piano player as a piano whisperer. The musician and songwriter coaxes dazzling, kaleidoscopic sounds from the instrument in a way that few can rival. Across a brilliant, globe-trotting career highlighted by nine tours of China, three appearances at the Olympics, and countless shows opposite international stars, Michael has electrified audiences with his incredible repertoire.<span><br/></span><span><br/></span><span class=\"ItalicText\">Premium seating is $50, Standard seating is $40, and Economy seating is $30. Prices are inclusive of taxes and fees. Seating is assigned.</span>
+""";
+  schema:startDate "2026-03-11T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/2dc4a52d-d850-435e-b4f8-2d7f301172f8.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc26;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2026-03-11T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc26 a schema:AggregateOffer;
+  schema:lowPrice "25.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/22601ARRLHTVCDDNCQVPHHJKHRLVJHGRP>
+  a schema:Event;
+  schema:name "Mid-Winter Blues Festival - Friday";
+  schema:description """
+	The <span class=\"BoldText\">Regina Blues Association</span> presents the <span class=\"BoldText\">31st Annual Mid-Winter Blues Festival</span> featuring an All-Canadian line-up.<span><br/></span><span><br/></span>Friday's line-up takes place at Darke Hall and includes:<span><br/></span><span><br/></span>BIG DAVE MCLEAN (Winnipeg)<span><br/></span>OLLEE OWENS (Calgary)<span><br/></span><span class=\"BoldText\">WILD T & THE SPIRIT</span> (Toronto)<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $65 inclusive of fees and taxes.  Seating is assigned.</span>
+""";
+  schema:startDate "2026-03-06T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/5df32d95-2bb4-4958-8dc4-403c69e76c15.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc27;
+  schema:keywords "Music";
+  schema:duration "PT180M";
+  schema:endDate "2026-03-06T22:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc27 a schema:AggregateOffer;
+  schema:lowPrice "60.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/22801AGSKTJDCRVHCKQCVVHGLQCVGCCGM>
+  a schema:Event;
+  schema:name "Mid-Winter Blues Festival - Saturday";
+  schema:description """
+	The <span class=\"BoldText\">Regina Blues Association</span> presents the <span class=\"BoldText\">31st Annual Mid-Winter Blues Festival</span> featuring an All-Canadian line-up.<span><br/></span><span><br/></span>Saturday's line-up takes place at Darke Hall and includes:<span><br/></span><span><br/></span>TERRAPLANE (Regina)<span><br/></span>PAUL KYPE & TEXAS FLOOD (Lethbridge)<span><br/></span><span class=\"BoldText\">TOM LAVIN & THE LEGENDARY POWDER BLUES</span>  (Vancouver)<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $70 inclusive of fees and taxes.  Seating is assigned.</span>
+""";
+  schema:startDate "2026-03-07T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/b1d17df9-e82f-4f4d-97f8-e8472ab18a8a.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc28;
+  schema:keywords "Music";
+  schema:duration "PT180M";
+  schema:endDate "2026-03-07T22:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc28 a schema:AggregateOffer;
+  schema:lowPrice "65.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/23001ARCVCNHNNNCLVMBNCMRGPKGBRCSK>
+  a schema:Event;
+  schema:name "Mid-Winter Blues Festival - Thursday";
+  schema:description """
+	The <span class=\"BoldText\">Regina Blues Association</span> presents the <span class=\"BoldText\">31st Annual Mid-Winter Blues Festival</span> featuring an All-Canadian line-up.<span><br/></span><span><br/></span>Thursday night's line-up is presented at The Exchange and features local artists:<span><br/></span><span><br/></span>Colin Weist<span><br/></span>Blackstrap Molasses<span><br/></span>One Way Out<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $25 inclusive of fees and taxes.  Seating is not assigned.</span><span><br/></span><span><br/></span>As of 5 pm on Thursday, March 5, tickets will only be available for purchase at the door at The Exchange.
+""";
+  schema:startDate "2026-03-05T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/042d1d35-6284-4933-aa14-a81b85ad1ea3.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc29;
+  schema:keywords "Music";
+  schema:duration "PT180M";
+  schema:endDate "2026-03-05T22:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc29 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/19601ASQHGTDLVRHPVGMRMDVHLHMGNGQV>
+  a schema:Event;
+  schema:name "Regina Jazz Orchestra and Jack Semple";
+  schema:description """
+	We regret to share that, due to unforeseen circumstances, the upcoming performance of <span class=\"BoldText\">Regina Jazz Orchestra and Jack Semple</span> scheduled for <span class=\"BoldText\">February 13, 2026</span> at Darke Hall has been postponed to a date yet to be determined.  We hope to have more information on the re-scheduling in the coming weeks.<span><br/></span><span><br/></span>We understand how disappointing this news may be, and we sincerely appreciate your understanding.<span><br/></span><span><br/></span>Please contact our Box Office at 306-523-2751 if you have any questions.<span><br/></span>
+""";
+  schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/3809f568-b7d7-43ec-a3a4-140b16970582.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:keywords "Music";
+  schema:duration "PT105M";
+  schema:endDate "2026-02-13T21:15:00"^^xsd:dateTime .
+
+<http://www.spektrix.com/darkehallsociety/event/13001AJPBLLHQGJTKKHRRTDNKLLTSKVVJ>
+  a schema:Event;
+  schema:name "Regina Musical Club - Ensemble Made In Canada ";
+  schema:description """
+	<span class=\"BoldText\">Ensemble Made In Canada</span> is rapidly gaining recognition as Canada’s premier piano quartet. The members of the group have been forging outstanding individual careers and bring together a wealth of experience having already appeared at prestigious festivals such as Marlboro, Ravinia, Orford, Verbier, Prussia Cove, Pablo Casals and Evian. EMIC has performed for Winnipeg Virtuosi, Montreal Pro Musica, SUNY New Paltz, Stratford Music Festival, Ottawa Chamberfest, Parry Sound Festival of the Sound, Jeffery Chamber Music Series, Lindsay Concert Productions, Almonte in Concert, Women’s Musical Club of Toronto, Kawartha Concerts, including multiple work cycles for the Kitchener-Waterloo Chamber Music Society. EMIC has provided master classes, chamber music coachings, and lectures at universities across Canada and in the United States and have also participated in outreach programs for public schools in Ontario. The group is grateful for support from FACTOR, the Canada Council for the Arts and the Ontario Arts Council. EMIC has been Ensemble-in-Residence at Western University since 2014. <span><br/></span><span><br/></span>Ensemble Made In Canada is <span class=\"BoldText\">Elissa Lee</span>, violin, <span class=\"BoldText\">Sheila Jaffé</span>, viola, <span class=\"BoldText\">Philip Chiu</span>, piano, and <span class=\"BoldText\">Trey Lee</span>, cello.<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $40 for adults, $35 for seniors, inclusive of fees and taxes.  Student tickets are available for free at the door (with Student ID). Seating is not assigned.</span>
+""";
+  schema:startDate "2026-03-29T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/55975e2e-9614-41c6-8014-b58217a40754.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc30;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2026-03-29T17:00:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc30 a schema:AggregateOffer;
+  schema:lowPrice "30.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/12602ARCNSQBVRHRKCDNMNQBCGLPHTCGN>
+  a schema:Event;
+  schema:name "Regina Musical Club - Jâca";
+  schema:description """
+	Cross vivid, folk-inspired melodies with two well-travelled jesters and you’ll find <span class=\"BoldText\">Jâca</span> (ZHĀ-ka), a guitar and clarinet duo with exuberant energy, charm and wit. Clarinetist Wesley Ferreira and guitarist Jaxon Williams define their style as world music fused with personality and are unafraid to experiment with that which captures their fancy – fresh takes on classics as well as composition from emerging artists. They invite you to wander with them through a program ranging from the flirtatious tangos of Piazzolla to a striking Romanian-influenced new work by Canadian composer Candace Bouchard. <span><br/></span><span><br/></span>Highly skilled musicians and educators, both Wesley and Jaxon hold doctorates in music. Wesley is a gifted expressionist whose engaging personality connects audiences with his beloved works. He performs worldwide as soloist, orchestral and chamber musician. International award-winning guitarist Jaxon is a former Fulbright scholar and master of the Spanish guitar repertoire. <span><br/></span><span><br/></span>From the moment the duo step foot on the stage to the final round of applause, audiences members will find themselves engaged, entertained and enthralled. An afternoon with Jâca is an encounter with virtuosic performance, cheeky banter, and rhythms that coax you to play along. <span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $40 for adults, $35 for seniors, inclusive of fees and taxes.  Student tickets are available for free at the door (with Student ID). Seating is not assigned.</span>
+""";
+  schema:startDate "2026-03-01T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/f133a159-3e41-4e90-8214-f85ae140a2aa.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc31;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2026-03-01T17:00:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc31 a schema:AggregateOffer;
+  schema:lowPrice "30.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/14201ARTVMVMMBMSJNNDBHCBBRVSCTRNG>
+  a schema:Event;
+  schema:name "Regina Musical Club - Stradivatango";
+  schema:description """
+	The <span class=\"BoldText\">Stradivatango</span> project brings together two exceptional Canadian artists: <span class=\"BoldText\">Stéphane Tétreault</span>, recognized as a prodigy of the <span class=\"BoldText\">cello</span>, and <span class=\"BoldText\">Denis Plante</span>, a leading figure of the <span class=\"BoldText\">bandoneon</span> in Canada.<span><br/></span><span><br/></span>Together, they explore the world of tango with unmatched passion and virtuosity. Their repertoire consists of Argentine tango classics as well as works specially composed for their unique duo. Their performances alternate between intimate moments and explosive passages, capturing the full emotional richness of tango, from its mesmerizing melancholy to its effervescent energy. Their interpretations are marked by a constant quest for authenticity and creativity, offering the audience a musical experience that is both profound and unforgettable.<span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $40 for adults, $35 for seniors, inclusive of fees and taxes. Student tickets are available for free at the door (with Student ID). Seating is not assigned.</span>
+""";
+  schema:startDate "2026-05-07T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/10eb81fd-bbd2-482f-a86c-c257b31d446a.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc32;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2026-05-07T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc32 a schema:AggregateOffer;
+  schema:lowPrice "30.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/20401AHPLRCCNVVRTBBQTNVLNPCCJVRGB>
+  a schema:Event;
+  schema:name "Regina Musical Club Organ Series - Lost in the Wind: Valerie Hall, Organ & Dean McNeill, Trumpet";
+  schema:description """
+	The organ series rounds out with Saskatchewan musicians in an exploration of wind-powered sound. <span class=\"BoldText\">Dean McNeill</span>, professor of Jazz and Trumpet at The University of Saskatchewan joins <span class=\"BoldText\">Valerie Hall</span>, touring concert organist based in Regina, for an unforgettable evening of music for trumpet and organ. This will not be the music you heard at your best friend’s wedding!<span><br/></span><span><br/></span><span class=\"BoldText\">This show is taking place at Knox Metropolitan Church. 2340 Victoria Avenue.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">Tickets are $40 for adults, $35 for seniors, inclusive of fees and taxes. Student tickets are available for free at the door (with Student ID). Seating is not assigned.</span>
+""";
+  schema:startDate "2026-05-31T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/ec48fab8-38f7-4ef2-bdd1-c966304a6552.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc33;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2026-05-31T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc33 a schema:AggregateOffer;
+  schema:lowPrice "30.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/10201AJHJGJMTBHDNGMTSMTVVGPNSHHLL>
+  a schema:Event;
+  schema:name "Ridge";
+  schema:description """
+	Often called the \"battle that made Canada,\" Vimy Ridge resulted in over 10,000 Canadian casualties. Through storytelling and live music, <span class=\"BoldText\">The Fugitives</span> examine misconceptions and varying perspectives around the battle, while drawing parallels to other formative events in our nation’s past. The songs from <span class=\"ItalicText\">Ridge</span> were nominated for the 2022 JUNO for Best Traditional Roots Album. A vivid, kinetic ride through history, as well as an intimate, personal examination of our connection to the past, <span class=\"ItalicText\">Ridge</span> is a visceral work that passionately argues against the exploitation of young lives.<span><br/></span><span><br/></span>April 8 is Sponsored by U of R Alumni Association<span><br/></span>April is supported by Veterans Affairs Canada<span><br/></span><span><br/></span>Click <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=MxQQoXGrRYw\">here</a> to view the trailer for Ridge.<span><br/></span><span><br/></span><span class=\"ItalicText\">Premium seating is $50, Standard seating is $40, and Economy seating is $30. Youth tickets (Age 20 and under) are $10. Prices are inclusive of taxes and fees. Seating is assigned.</span>
+""";
+  schema:startDate "2026-04-08T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/0c383b0b-8a44-40dd-ad9e-9f6345af60a3.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc34;
+  schema:keywords "Theatre";
+  schema:duration "PT120M";
+  schema:endDate "2026-04-08T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc34 a schema:AggregateOffer;
+  schema:lowPrice "5.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/10401AVGBSHGLNCJKPBDLVSHHVCQHSBNR>
+  a schema:Event;
+  schema:name "Ridge";
+  schema:description """
+	Often called the \"battle that made Canada,\" Vimy Ridge resulted in over 10,000 Canadian casualties. Through storytelling and live music, <span class=\"BoldText\">The Fugitives</span> examine misconceptions and varying perspectives around the battle, while drawing parallels to other formative events in our nation’s past. The songs from <span class=\"ItalicText\">Ridge</span> were nominated for the 2022 JUNO for Best Traditional Roots Album. A vivid, kinetic ride through history, as well as an intimate, personal examination of our connection to the past, <span class=\"ItalicText\">Ridge</span> is a visceral work that passionately argues against the exploitation of young lives.<span><br/></span><span><br/></span>April 8 is Sponsored by U of R Alumni Association<span><br/></span>April is supported by Veterans Affairs Canada<span><br/></span><span><br/></span>Click <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=MxQQoXGrRYw\">here</a> to view the trailer for Ridge.<span><br/></span><span><br/></span><span class=\"ItalicText\">Premium seating is $50, Standard seating is $40, and Economy seating is $30. Youth tickets (Age 20 and under) are $10. Prices are inclusive of taxes and fees. Seating is assigned.</span>
+""";
+  schema:startDate "2026-04-09T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/0c383b0b-8a44-40dd-ad9e-9f6345af60a3.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc35;
+  schema:keywords "Theatre";
+  schema:duration "PT120M";
+  schema:endDate "2026-04-09T16:00:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc35 a schema:AggregateOffer;
+  schema:lowPrice "5.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/27801AGBRBTMKNGSLNDRVNGSHQJPSLPHH>
+  a schema:Event;
+  schema:name "SGI Solstice Speaker Series";
+  schema:description """
+	Join the <span class=\"BoldText\">Friends of the Royal Saskatchewan Museum</span> for a ﬁreside chat featuring <span class=\"BoldText\">Canadian journalists Lisa LaFlamme and Creeson Agecoutay</span>.<span><br/></span><span><br/></span>The discussion, <span class=\"BoldText\">Bearing Witness in Unsettled Times</span>, will be an engaging discussion featuring former colleagues sharing personal and professional career stories and how they are remembered and influence our lives today.<span><br/></span><span><br/></span>For over 35 years, Lisa LaFlamme has been a dynamic force in journalism, navigating the complexities of our time and shedding light on pressing global issues. From the frontlines of breaking news to the heart of Canadian society, LaFlamme has consistently delivered impactful stories that resonate with audiences across the nation.<span><br/></span><span><br/></span>Creeson Agecoutay is Nehiyaw/Plains Cree from the Cowessess First Nation in Treaty 4 Territory. For more than 18 years, Creeson has been a national and local reporter and host with Eagle Feather News, CTV Regina/Saskatoon, CTV Saskatchewan’s Indigenous Circle and CTV National News and is now the host of APTN National News DAYTIME in Winnipeg.<span><br/></span><span><br/></span>Lisa LaFlamme’s journey is a testament to the power of journalism as a tool for change and a beacon of hope for those in need of a voice. Creeson has also been recognized both regionally and nationally for his storytelling.<span><br/></span><span><br/></span>Hosted by the Friends of the Royal Saskatchewan Museum, the <span class=\"BoldText\">SGI Solstice Speaker Series</span> is built around the natural calendar and provides an opportunity to reﬂect on the emotion and changes that happen each season. Topics are current, thought provoking, and designed to create active participation towards Truth and Reconciliation.<span><br/></span> <span><br/></span>Doors open at <span class=\"BoldText\">Darke Hall (2255 College Ave)</span> for the event at 6:30 p.m. and the program begins at 7 p.m. <span class=\"ItalicText\">Tickets can be booked online through the RSM website.</span> Tea and Bannock will be served.<span><br/></span><span><br/></span>All the speaker series presentations will be recorded and shared online by the RSM.<span><br/></span><span><br/></span>The Friends of the Royal Saskatchewan Museum is a charitable nonproﬁt organization that works with the RSM to provide educational opportunities and services, including funding new exhibits, programs, and environmental research. All of which are crucial to help preserve Saskatchewan’s rich natural and human history for generations to come.<span><br/></span><span><br/></span>To learn more about SGI Solstice Speaker Series and other events at the RSM, go to <a target=\"_blank\" href=\"https://royalsaskmuseum.ca/visit/events/SGI-Solstice-Speaker-Series-Lisa-LaFlamme-and-Creeson-Agecoutay\">the Royal Saskatchewan Museum website.</a><span><br/></span>
+""";
+  schema:startDate "2026-03-24T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/aa85723d-9eaa-41d4-901f-9546005b9a98.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:keywords "Lectures";
+  schema:duration "PT120M";
+  schema:endDate "2026-03-24T21:00:00"^^xsd:dateTime .
+
+<http://www.spektrix.com/darkehallsociety/event/10001AJDMSTLMNDPDNVDDGJGHCCDBRDDD>
+  a schema:Event;
+  schema:name "Teagan Littlechief";
+  schema:description """
+	<span class=\"BoldText\">Teagan Littlechief</span> is a dynamic country rock artist with a voice that captivates and a spirit that inspires. Known for her powerhouse vocals and commanding stage presence, Teagan is one of Canada’s leading Indigenous musicians. She is the 2025 SaskMusic Contemporary Indigenous Artist of the Year, the 2024 SCMA Female Artist of the Year, and is a three-time SCMA Indigenous Artist of the Year recipient.<span><br/></span><span><br/></span><span><br/></span><span class=\"ItalicText\">Premium seating is $50, Standard seating is $40, and Economy seating is $30. Prices are inclusive of taxes and fees. Seating is assigned.</span>
+""";
+  schema:startDate "2026-03-28T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/c32416af-38bb-416b-bd1b-f7ffd481123e.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:offers _:1f0031e5c09a44c691b6b62b38fa16dc36;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2026-03-28T21:30:00"^^xsd:dateTime .
+
+_:1f0031e5c09a44c691b6b62b38fa16dc36 a schema:AggregateOffer;
+  schema:lowPrice "25.56";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/28801AVBKQSCSGSCMSTRKBBJTVJRJMRQJ>
+  a schema:Event;
+  schema:name "TEDxRegina 2026:  Once Upon Our Future";
+  schema:description """
+	<span class=\"BoldText\">TEDxRegina 2026</span> is a full-day experience designed to inspire, challenge, and bring our community together.  This year’s experience brings together storytellers, innovators, community leaders, and visionaries who are shaping the world we want to see.  Through two inspiring sessions, attendees will explore how our shared stories, values, and actions can build a future that is more compassionate, creative, and connected.  Join us as we reimagine what’s possible and write the next chapter of our shared future, one idea at a time.<span><br/></span><span><br/></span>For more information and to purchase tickets, visit <a target=\"_blank\" href=\"https://www.eventbrite.ca/e/tedxregina-2026-once-upon-our-future-tickets-1975641689476?aff=oddtdtcreator\">Eventbrite.</a>
+""";
+  schema:startDate "2026-05-29T12:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/dc5de74c-611d-4bb5-bd3f-254a97918106.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:keywords "Lectures";
+  schema:duration "PT600M";
+  schema:endDate "2026-05-29T22:00:00"^^xsd:dateTime .
+
+<http://www.spektrix.com/darkehallsociety/event/30801ARPRRSKJDTQHHJTDRTPHSSSJNCJP>
+  a schema:Event;
+  schema:name "Tommy Douglas Lecture on Health";
+  schema:description """
+	The inaugural <span class=\"BoldText\">Tommy Douglas Lecture on Health</span> will be given by <span class=\"BoldText\">Dr. Katharine Smart</span>, former president of the Canadian Medical Association, and an experienced medical leader and speaker who challenges the status quo in medicine.  The title of the lecture is Medicare at a Crossroads:  Choosing the Future of Canada.<span><br/></span><span><br/></span>Admission is free but registration is encouraged.  To register <a target=\"_blank\" href=\"https://www.showpass.com/tommy-douglas-lecture/\">CLICK HERE.</a>
+""";
+  schema:startDate "2026-03-17T18:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/c4ead68a-c0b6-46e1-9bcf-af5675194b39.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:keywords "Lectures";
+  schema:duration "PT270M";
+  schema:endDate "2026-03-17T22:30:00"^^xsd:dateTime .
+
+<http://www.spektrix.com/darkehallsociety/event/26201AGBHCTNMDGTRMRCVQPKJNVHQTBBK>
+  a schema:Event;
+  schema:name "University of Regina Trombone Choir";
+  schema:description """
+	The <span class=\"BoldText\">U of R Trombone Choir</span> is led by Dr. David Dick, Professor of Music at the University of Regina and Principal Trombone at the RSO.  The choir is made up of trombone players from all over the university community as well as alumni and friends in the wider music community.  The concert will feature a wide range of repertoire for trombone consort, from the Renaissance, the Romantic, and Contemporary music eras.<span><br/></span><span><br/></span><span class=\"ItalicText\">Admission is free.</span>
+""";
+  schema:startDate "2026-03-22T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/345147c9-6d68-4779-9036-22d84a9e1264.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-03-22T15:00:00"^^xsd:dateTime .
+
+<http://www.spektrix.com/darkehallsociety/event/26401ANCDKPPRRGMBPNMJGQSVPCDHQSJS>
+  a schema:Event;
+  schema:name "UofR 3 Minute Thesis Competition";
+  schema:description """
+	Join us for an evening of discovery, inspiration, and bold ideas at the <span class=\"BoldText\">University of Regina's Three-Minute Thesis (3MT®) Finale.</span><span><br/></span><span><br/></span>Be part of an extraordinary evening celebrating the innovative research of our 8 graduate student finalists.  The 3MT Finale showcases the incredible ability of thesis-based students to present their complex research in just three minutes, using only one static slide.  This unique event bridges the gap between academia and the community, highlighting research that addresses real-world challenges.  From health and wellness to engineering, technology, the arts, and sport, you'll hear how innovative ideas are making an impact across a wide range of disciplines.  Each presentation highlights not only the research itself, but the passion, creativity, and communication skills of the students behind it.<span><br/></span><span><br/></span>Whether you're curious about new discoveries, eager to support student success, or simply looking for an engaging evening, this event offers something for everyone.  Come celebrate innovation, cheer on our graduate students, and vote for your favourite presentation in the People's Choice Award.<span><br/></span><span><br/></span><span class=\"ItalicText\">This event is open to the public and free to attend.</span><span><br/></span>
+""";
+  schema:startDate "2026-03-26T18:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/61d1f1cf-30da-4b73-87d5-806b7cb54305.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:keywords "Lectures";
+  schema:duration "PT60M";
+  schema:endDate "2026-03-26T19:00:00"^^xsd:dateTime .
