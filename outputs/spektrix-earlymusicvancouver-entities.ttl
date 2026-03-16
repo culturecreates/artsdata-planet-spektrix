@@ -8,6 +8,42 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
+<http://www.spektrix.com/earlymusicvancouver/event/8802AQDBRPKQCPSNTMKGCQBPJVVSGVLRK>
+  a schema:Event;
+  schema:name "A Tribute to Bach";
+  schema:description """
+	<h1>Théotime Langlois de Swarte & Justin Taylor</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/a8b5fe4f-19ca-4a2d-aaca-dc1e83169192.jpg\" /><span><br/></span><span><br/></span>Star violinist Théotime Langlois de Swarte and his fellow co-founder of Le Consort, harpsichordist Justin Taylor, present an imagined musical meeting of two great pillars of Baroque music, J.S. Bach and Antonio Vivaldi.<span><br/></span><span><br/></span>The captivating violin/harpsichord duo draws full houses worldwide with their distinctive reinterpretations of both canonical and lesser- known early music gems. This recital highlights the virtuosity and expressiveness of Vivaldi’s writing for violin and the melodic power of Bach’s harpsichord music.
+""";
+  schema:startDate "2026-03-21T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/a8b5fe4f-19ca-4a2d-aaca-dc1e83169192.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/a-tribute-to-bach/>;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922959;
+  schema:duration "PT60M";
+  schema:endDate "2026-03-21T20:30:00"^^xsd:dateTime .
+
+<https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver> a schema:Organization;
+  schema:name "Early Music Vancouver";
+  schema:sameAs <http://kg.artsdata.ca/resource/K10-351> .
+
+_:d25bd24b203747b0805b2b5a2fe2a7922959 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>
+  a schema:Place;
+  schema:name "Chan Centre";
+  schema:address <https://spektrix.com/earlymusicvancouver/address/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV> .
+
+<https://spektrix.com/earlymusicvancouver/address/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>
+  a schema:PostalAddress;
+  schema:streetAddress "6265 Crescent Rd";
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "BC";
+  schema:postalCode "V6T 1Z1";
+  schema:addressCountry "CA" .
+
 <http://www.spektrix.com/earlymusicvancouver/event/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR>
   a schema:Event;
   schema:name "Amanda Forsythe sings Handel";
@@ -19,15 +55,11 @@
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/amanda-forsythe-sings-handel/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2942;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922960;
   schema:duration "PT60M";
   schema:endDate "2025-09-27T20:30:00"^^xsd:dateTime .
 
-<https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver> a schema:Organization;
-  schema:name "Early Music Vancouver";
-  schema:sameAs <http://kg.artsdata.ca/resource/K10-351> .
-
-_:007e814498d6490bab5eafa09a0e283b2942 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922960 a schema:AggregateOffer;
   schema:lowPrice "24.7";
   schema:priceCurrency "CAD" .
 
@@ -55,11 +87,11 @@ _:007e814498d6490bab5eafa09a0e283b2942 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/amandine-beyer-gli-incogniti/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2943;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922961;
   schema:duration "PT60M";
   schema:endDate "2026-04-17T20:30:00"^^xsd:dateTime .
 
-_:007e814498d6490bab5eafa09a0e283b2943 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922961 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -74,84 +106,12 @@ _:007e814498d6490bab5eafa09a0e283b2943 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/amour-courtois-medieval-meets-jazz/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2944;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922962;
   schema:duration "PT60M";
   schema:endDate "2026-03-13T20:30:00"^^xsd:dateTime .
 
-_:007e814498d6490bab5eafa09a0e283b2944 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922962 a schema:AggregateOffer;
   schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK>
-  a schema:Event;
-  schema:name "Bach & The Heavens";
-  schema:description """
-
-""";
-  schema:startDate "2025-08-01T13:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/bach-the-heavens/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2945;
-  schema:duration "PT60M";
-  schema:endDate "2025-08-01T14:00:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2945 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/7601AHCJPTHNBCVJHLQNKQVKDRKRMLTPC>
-  a schema:Event;
-  schema:name "Bach Cantatas: The Ascent";
-  schema:description """
-
-""";
-  schema:startDate "2025-08-05T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/bach-cantatas-the-ascent/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2946;
-  schema:duration "PT60M";
-  schema:endDate "2025-08-05T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2946 a schema:AggregateOffer;
-  schema:lowPrice "24.7";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/8001ARTDCCTGLQPKPGKVDJPJMKTGHTJJP>
-  a schema:Event;
-  schema:name "Bach’s Musical Offering ";
-  schema:description """
-
-""";
-  schema:startDate "2025-08-07T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/bachs-musical-offering/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2947;
-  schema:duration "PT60M";
-  schema:endDate "2025-08-07T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2947 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/4401APLLPBSHLDJVTLGBDQTQBHJDJSHCM>
-  a schema:Event;
-  schema:name "Blessed Echoes: Elizabethan Lute Songs";
-  schema:description """
-
-""";
-  schema:startDate "2024-12-05T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/blessed-echoes-elizabethan-lute-songs/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2948;
-  schema:duration "PT60M";
-  schema:endDate "2024-12-05T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2948 a schema:AggregateOffer;
-  schema:lowPrice "24.7";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/earlymusicvancouver/event/7802AKHHNGMHTPCQJCPSSQPTDLLHKQRDT>
@@ -165,11 +125,11 @@ _:007e814498d6490bab5eafa09a0e283b2948 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/consone-quartet/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2949;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922963;
   schema:duration "PT60M";
   schema:endDate "2025-10-09T20:30:00"^^xsd:dateTime .
 
-_:007e814498d6490bab5eafa09a0e283b2949 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922963 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -184,218 +144,13 @@ _:007e814498d6490bab5eafa09a0e283b2949 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/constantinople-presents-bach-khayyam/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2950;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922964;
   schema:duration "PT60M";
   schema:endDate "2026-01-30T20:30:00"^^xsd:dateTime .
 
-_:007e814498d6490bab5eafa09a0e283b2950 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922964 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/3402ANVKRBQVHVKBSVBTSDMPLTJMHNPBP>
-  a schema:Event;
-  schema:name "DanteNova: Music from Dante’s Commedia";
-  schema:description """
-
-""";
-  schema:startDate "2024-10-25T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/dantenova-music-from-dantes-commedia/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2951;
-  schema:duration "PT60M";
-  schema:endDate "2024-10-25T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2951 a schema:AggregateOffer;
-  schema:lowPrice "24.7";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/7401ABQKCMHPSMGCDJCDKPNHPKRBSBRLS>
-  a schema:Event;
-  schema:name "De Juer et de Baler / To Play and Dance";
-  schema:description """
-
-""";
-  schema:startDate "2025-08-02T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/de-juer-et-de-baler-to-play-and-dance/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2952;
-  schema:duration "PT60M";
-  schema:endDate "2025-08-02T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2952 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/5201APJKBKCCCNQQMCTQGVKMLVCGJKMGP>
-  a schema:Event;
-  schema:name "Dorothee Mields & the PBO: Bach Ties the Knot";
-  schema:description """
-
-""";
-  schema:startDate "2025-02-15T15:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/dorothee-mields-the-pbo-bach-ties-the-knot/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2953;
-  schema:duration "PT60M";
-  schema:endDate "2025-02-15T16:00:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2953 a schema:AggregateOffer;
-  schema:lowPrice "24.05";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/earlymusicvancouver/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>
-  a schema:Place;
-  schema:name "St. Andrew's Wesley United Church" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/4604ALJVLHLPPSPVBKQJDVDRHVDMMHMKG>
-  a schema:Event;
-  schema:name "Doulce Mémoire: Now, Let Us Dance!";
-  schema:description """
-
-""";
-  schema:startDate "2025-04-12T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/doulce-memoire-now-let-us-dance/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2954;
-  schema:duration "PT60M";
-  schema:endDate "2025-04-12T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2954 a schema:AggregateOffer;
-  schema:lowPrice "24.7";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/earlymusicvancouver/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>
-  a schema:Place;
-  schema:name "Vancouver Playhouse";
-  schema:address <https://spektrix.com/earlymusicvancouver/address/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR> .
-
-<https://spektrix.com/earlymusicvancouver/address/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>
-  a schema:PostalAddress;
-  schema:streetAddress "600 Hamilton St";
-  schema:addressLocality "Vancouver";
-  schema:addressRegion "BC";
-  schema:postalCode "V6B 2P1";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC>
-  a schema:Event;
-  schema:name "El Parnasso: La Música de Estevan Daça";
-  schema:description """
-
-""";
-  schema:startDate "2025-02-16T15:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/el-parnasso-la-musica-de-estevan-daca/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2955;
-  schema:duration "PT60M";
-  schema:endDate "2025-02-16T16:00:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2955 a schema:AggregateOffer;
-  schema:lowPrice "29.25";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/earlymusicvancouver/location/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>
-  a schema:Place;
-  schema:name "Pacific Spirit United Church";
-  schema:address <https://spektrix.com/earlymusicvancouver/address/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ> .
-
-<https://spektrix.com/earlymusicvancouver/address/1601APDLPHDNDHQKCQVBHMDTSQVKMKLPQ>
-  a schema:PostalAddress;
-  schema:streetAddress "2195 W 45th Ave";
-  schema:addressLocality "Vancouver";
-  schema:addressRegion "BC";
-  schema:postalCode "V6M 2J4";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/5801ANBQVBLJQKVGKMVQVKJKLJQMKBTVN>
-  a schema:Event;
-  schema:name "Estuary: Ablaye Cissoko, Kiya Tabassian & Patrick Graham";
-  schema:description """
-
-""";
-  schema:startDate "2025-05-06T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/estuary-ablaye-cissoko-kiya-tabassian-patrick-graham/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2956;
-  schema:duration "PT90M";
-  schema:endDate "2025-05-06T21:00:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2956 a schema:AggregateOffer;
-  schema:lowPrice "24.7";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/7801ATTBPVLSHPLVGKMJNMMDGBTHMPBTK>
-  a schema:Event;
-  schema:name "Figments & Fragments: Marenzio to Mozart ";
-  schema:description """
-
-""";
-  schema:startDate "2025-08-07T13:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/figments-fragments-marenzio-to-mozart/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2957;
-  schema:duration "PT60M";
-  schema:endDate "2025-08-07T14:00:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2957 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/7002AHSTPBJLTRHRKRQLVRNJNVMBBVDBM>
-  a schema:Event;
-  schema:name "Forgotten Harmonies: Schubert & Friends ";
-  schema:description """
-
-""";
-  schema:startDate "2025-08-01T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/forgotten-harmonies-schubert-friends/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2958;
-  schema:duration "PT60M";
-  schema:endDate "2025-08-01T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2958 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/6001AHTPDKPQHHKQPKDKSKRBSTJBCVNKB>
-  a schema:Event;
-  schema:name "Goldberg Variations - Victoria";
-  schema:description """
-
-""";
-  schema:startDate "2024-09-21T15:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/goldberg-variations-victoria/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2959;
-  schema:duration "PT60M";
-  schema:endDate "2024-09-21T16:00:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2959 a schema:AggregateOffer;
-  schema:lowPrice "11.0";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/earlymusicvancouver/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>
-  a schema:Place;
-  schema:name "First Church of Christ, Scientist Victoria";
-  schema:address <https://spektrix.com/earlymusicvancouver/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN> .
-
-<https://spektrix.com/earlymusicvancouver/address/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>
-  a schema:PostalAddress;
-  schema:streetAddress "1205 Pandora Ave";
-  schema:addressLocality "Victoria";
-  schema:addressRegion "BC";
-  schema:postalCode "V8V 3R3";
-  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/earlymusicvancouver/event/7602ASSCKKKJPGHHTBCRSHBQVDLLCSCNT>
   a schema:Event;
@@ -408,11 +163,11 @@ _:007e814498d6490bab5eafa09a0e283b2959 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/handels-messiah-vancouver/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2960;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922965;
   schema:duration "PT60M";
   schema:endDate "2025-12-13T20:00:00"^^xsd:dateTime .
 
-_:007e814498d6490bab5eafa09a0e283b2960 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922965 a schema:AggregateOffer;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
@@ -440,11 +195,11 @@ _:007e814498d6490bab5eafa09a0e283b2960 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/handels-messiah-richmond/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2961;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922966;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:00:00"^^xsd:dateTime .
 
-_:007e814498d6490bab5eafa09a0e283b2961 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922966 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -461,24 +216,6 @@ _:007e814498d6490bab5eafa09a0e283b2961 a schema:AggregateOffer;
   schema:postalCode "V6X 1L8";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/earlymusicvancouver/event/3603ASVMHKBLJJJMNQJVSSTNNGTBKJMRS>
-  a schema:Event;
-  schema:name "Iestyn Davies & Fretwork: Lamento";
-  schema:description """
-
-""";
-  schema:startDate "2024-11-26T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/iestyn-davies-fretwork-lamento/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2962;
-  schema:duration "PT60M";
-  schema:endDate "2024-11-26T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2962 a schema:AggregateOffer;
-  schema:lowPrice "24.7";
-  schema:priceCurrency "CAD" .
-
 <http://www.spektrix.com/earlymusicvancouver/event/9601AVDDJDNPPDCBTDGNSVVJSTBLBSPNQ>
   a schema:Event;
   schema:name "L'Orfeo";
@@ -490,43 +227,12 @@ _:007e814498d6490bab5eafa09a0e283b2962 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/lorfeo/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2963;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922967;
   schema:duration "PT120M";
   schema:endDate "2026-07-31T21:30:00"^^xsd:dateTime .
 
-_:007e814498d6490bab5eafa09a0e283b2963 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922967 a schema:AggregateOffer;
   schema:lowPrice "29.25";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>
-  a schema:Place;
-  schema:name "Chan Centre";
-  schema:address <https://spektrix.com/earlymusicvancouver/address/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV> .
-
-<https://spektrix.com/earlymusicvancouver/address/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>
-  a schema:PostalAddress;
-  schema:streetAddress "6265 Crescent Rd";
-  schema:addressLocality "Vancouver";
-  schema:addressRegion "BC";
-  schema:postalCode "V6T 1Z1";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/7202ADKSBQLMVLGTBJCBGTJSQSNSRSQNV>
-  a schema:Event;
-  schema:name "Mozart’s Requiem ";
-  schema:description """
-
-""";
-  schema:startDate "2025-08-08T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/mozarts-requiem/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2964;
-  schema:duration "PT60M";
-  schema:endDate "2025-08-08T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2964 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/earlymusicvancouver/event/9001AGHDBMPJDRPSRMKLRCJGBJJMTQGDH>
@@ -540,31 +246,26 @@ _:007e814498d6490bab5eafa09a0e283b2964 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/philippe-jaroussky-la-gelosia/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2965;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922968;
   schema:duration "PT60M";
   schema:endDate "2026-05-01T20:30:00"^^xsd:dateTime .
 
-_:007e814498d6490bab5eafa09a0e283b2965 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922968 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
-<http://www.spektrix.com/earlymusicvancouver/event/4603ASNQGLMQPKDJRGNBSSMGBKGDBGHGL>
-  a schema:Event;
-  schema:name "Quicksilver: The Early Moderns";
-  schema:description """
+<https://spektrix.com/earlymusicvancouver/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>
+  a schema:Place;
+  schema:name "Vancouver Playhouse";
+  schema:address <https://spektrix.com/earlymusicvancouver/address/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR> .
 
-""";
-  schema:startDate "2025-03-21T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/quicksilver-the-early-moderns/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2966;
-  schema:duration "PT60M";
-  schema:endDate "2025-03-21T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2966 a schema:AggregateOffer;
-  schema:lowPrice "24.05";
-  schema:priceCurrency "CAD" .
+<https://spektrix.com/earlymusicvancouver/address/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>
+  a schema:PostalAddress;
+  schema:streetAddress "600 Hamilton St";
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "BC";
+  schema:postalCode "V6B 2P1";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/earlymusicvancouver/event/8002ADDMGTTKLLMSVMNBSMMMTSLVRCMJB>
   a schema:Event;
@@ -577,11 +278,11 @@ _:007e814498d6490bab5eafa09a0e283b2966 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/ronald-brautigam-in-recital/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2967;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922969;
   schema:duration "PT60M";
   schema:endDate "2026-02-28T20:30:00"^^xsd:dateTime .
 
-_:007e814498d6490bab5eafa09a0e283b2967 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922969 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -596,47 +297,11 @@ _:007e814498d6490bab5eafa09a0e283b2967 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/schubert-boccherini-mimosa-string-quintet/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2968;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922970;
   schema:duration "PT60M";
   schema:endDate "2025-11-01T20:30:00"^^xsd:dateTime .
 
-_:007e814498d6490bab5eafa09a0e283b2968 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/4801ANHPDLLRCQPPBDBQTRQJMPNKSLKPJ>
-  a schema:Event;
-  schema:name "Sequentia: Gregorius ";
-  schema:description """
-
-""";
-  schema:startDate "2025-01-17T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/sequentia-gregorius/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2969;
-  schema:duration "PT60M";
-  schema:endDate "2025-01-17T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2969 a schema:AggregateOffer;
-  schema:lowPrice "24.7";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/6801ABTVLJRVPSSSGRNRDNBVDKGKTRLVM>
-  a schema:Event;
-  schema:name "Silk Strings - A Chinese-Baroque Musical Dialogue";
-  schema:description """
-
-""";
-  schema:startDate "2025-07-29T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/silk-strings-a-chinese-baroque-musical-dialogue/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2970;
-  schema:duration "PT60M";
-  schema:endDate "2025-07-29T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2970 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922970 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -651,11 +316,11 @@ _:007e814498d6490bab5eafa09a0e283b2970 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/strawberry-fields/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2971;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922971;
   schema:duration "PT60M";
   schema:endDate "2026-02-27T20:30:00"^^xsd:dateTime .
 
-_:007e814498d6490bab5eafa09a0e283b2971 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922971 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -670,96 +335,10 @@ _:007e814498d6490bab5eafa09a0e283b2971 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/tafelmusik-brilliant-baroque/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2972;
+  schema:offers _:d25bd24b203747b0805b2b5a2fe2a7922972;
   schema:duration "PT60M";
   schema:endDate "2025-11-15T20:30:00"^^xsd:dateTime .
 
-_:007e814498d6490bab5eafa09a0e283b2972 a schema:AggregateOffer;
+_:d25bd24b203747b0805b2b5a2fe2a7922972 a schema:AggregateOffer;
   schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/7001AGCLPBHTQLDRVGJQJGVCGDJKJPPNR>
-  a schema:Event;
-  schema:name "The Enchanted Forest";
-  schema:description """
-
-""";
-  schema:startDate "2025-07-31T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/the-enchanted-forest/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2973;
-  schema:duration "PT60M";
-  schema:endDate "2025-07-31T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2973 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/8802AQDBRPKQCPSNTMKGCQBPJVVSGVLRK>
-  a schema:Event;
-  schema:name "Théotime Langlois de Swarte & Justin Taylor";
-  schema:description """
-	<h1>Théotime Langlois de Swarte & Justin Taylor</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/7082c762-1926-405c-935e-7c8b6291af79.jpg\" /><span><br/></span><span><br/></span>Star violinist Théotime Langlois de Swarte and his fellow co-founder of Le Consort, harpsichordist Justin Taylor, present an imagined musical meeting of two great pillars of Baroque music, J.S. Bach and Antonio Vivaldi.<span><br/></span><span><br/></span>The captivating violin/harpsichord duo draws full houses worldwide with their distinctive reinterpretations of both canonical and lesser- known early music gems. This recital highlights the virtuosity and expressiveness of Vivaldi’s writing for violin and the melodic power of Bach’s harpsichord music.
-""";
-  schema:startDate "2026-03-21T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/earlymusicvancouver/files/7082c762-1926-405c-935e-7c8b6291af79.jpg>;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/theotime-langlois-de-swarte-justin-taylor/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2974;
-  schema:duration "PT60M";
-  schema:endDate "2026-03-21T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2974 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/6601AQMNQNHRQGLJKCSPPPSGMQSBMDCJM>
-  a schema:Event;
-  schema:name "True North Variations ";
-  schema:description """
-
-""";
-  schema:startDate "2025-07-27T14:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/true-north-variations/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2975;
-  schema:duration "PT60M";
-  schema:endDate "2025-07-27T15:00:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2975 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/earlymusicvancouver/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>
-  a schema:Place;
-  schema:name "The Annex";
-  schema:address <https://spektrix.com/earlymusicvancouver/address/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP> .
-
-<https://spektrix.com/earlymusicvancouver/address/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>
-  a schema:PostalAddress;
-  schema:streetAddress "823 Seymour Street";
-  schema:addressLocality "2nd floor";
-  schema:addressRegion "BC";
-  schema:postalCode "V6B 3L4";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/earlymusicvancouver/event/5001ABHHSRBTQRMRKVQTDCNNRTMMJHMGD>
-  a schema:Event;
-  schema:name "VOCES8: Draw on Sweet Night";
-  schema:description """
-
-""";
-  schema:startDate "2025-02-14T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
-  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/voces8-draw-on-sweet-night/>;
-  schema:offers _:007e814498d6490bab5eafa09a0e283b2976;
-  schema:duration "PT60M";
-  schema:endDate "2025-02-14T20:30:00"^^xsd:dateTime .
-
-_:007e814498d6490bab5eafa09a0e283b2976 a schema:AggregateOffer;
-  schema:lowPrice "26.0";
   schema:priceCurrency "CAD" .
