@@ -198,3 +198,7 @@ capitoltheatreporthope:
   exclusion_patterns:
     - "Volunteer Preview Night"
     - "Concession Package"
+
+darkehallsociety:
+  attribute_EventUrl: "https://purchase.darkehall.ca/EventAvailability?EventId={extractID(id)}"
+  offerUrl: "https://purchase.darkehall.ca/ChooseSeats/{extractID(instance_id)}"
