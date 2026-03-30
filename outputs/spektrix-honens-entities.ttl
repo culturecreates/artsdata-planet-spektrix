@@ -8,6 +8,167 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
+<http://www.spektrix.com/honens/event/38601APMJBSGHLBVKJDHHGBQTTKBBSMSJ> a schema:Event;
+  schema:name "Bison Noir: Revisions in Real-Time";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-11T21:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/honens/location/3001AKGPBMSRNCDBJCGBHRDVVQRQLSLMV>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
+  schema:url <https://www.honens.com/events/>;
+  schema:offers _:084cbc9889fd4ea9a5a7470ba25c8cfd2059;
+  schema:duration "PT60M";
+  schema:endDate "2026-09-11T22:00:00"^^xsd:dateTime .
+
+<https://spektrix.com/honens/organization/honens> a schema:Organization;
+  schema:name "Honens";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-6383> .
+
+_:084cbc9889fd4ea9a5a7470ba25c8cfd2059 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/honens/location/3001AKGPBMSRNCDBJCGBHRDVVQRQLSLMV> a schema:Place;
+  schema:name "King Eddy";
+  schema:address <https://spektrix.com/honens/address/3001AKGPBMSRNCDBJCGBHRDVVQRQLSLMV> .
+
+<https://spektrix.com/honens/address/3001AKGPBMSRNCDBJCGBHRDVVQRQLSLMV> a schema:PostalAddress;
+  schema:streetAddress "438 9 Avenue SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 0R9";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/38402AHVQSHJNGJDCVCGTLMGCKSVGPKPG> a schema:Event;
+  schema:name "Classical Adaptations: Duo Diorama";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-13T10:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/honens/location/8401ACDNQDNDVRQCTJQRQPHVTKLNTCVJH>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
+  schema:url <https://www.honens.com/events/>;
+  schema:offers _:084cbc9889fd4ea9a5a7470ba25c8cfd2060;
+  schema:duration "PT60M";
+  schema:endDate "2026-09-13T11:30:00"^^xsd:dateTime .
+
+_:084cbc9889fd4ea9a5a7470ba25c8cfd2060 a schema:AggregateOffer;
+  schema:lowPrice "5.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/honens/location/8401ACDNQDNDVRQCTJQRQPHVTKLNTCVJH> a schema:Place;
+  schema:name "Feature Gallery, TELUS Spark";
+  schema:address <https://spektrix.com/honens/address/8401ACDNQDNDVRQCTJQRQPHVTKLNTCVJH> .
+
+<https://spektrix.com/honens/address/8401ACDNQDNDVRQCTJQRQPHVTKLNTCVJH> a schema:PostalAddress;
+  schema:streetAddress "220 Saint George's Drive NE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:postalCode "T2E 5T2";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/38201AHNBNPJGLCLVNBPRCDPTCCSQSKKV> a schema:Event;
+  schema:name "Dialogues with the Piano";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-10T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/honens/location/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
+  schema:url <https://www.honens.com/events/>;
+  schema:offers _:084cbc9889fd4ea9a5a7470ba25c8cfd2061;
+  schema:duration "PT60M";
+  schema:endDate "2026-09-10T20:00:00"^^xsd:dateTime .
+
+_:084cbc9889fd4ea9a5a7470ba25c8cfd2061 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/honens/location/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR> a schema:Place;
+  schema:name "Performance Hall, National Music Centre";
+  schema:address <https://spektrix.com/honens/address/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR> .
+
+<https://spektrix.com/honens/address/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR> a schema:PostalAddress;
+  schema:streetAddress "850 4 Street SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 1R1";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/39001AMGJLTQNTKSVBHSJCGGLBSSLLVJK> a schema:Event;
+  schema:name "Echoes in Motion";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-12T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/honens/location/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
+  schema:url <https://www.honens.com/events/>;
+  schema:offers _:084cbc9889fd4ea9a5a7470ba25c8cfd2062;
+  schema:duration "PT60M";
+  schema:endDate "2026-09-12T20:00:00"^^xsd:dateTime .
+
+_:084cbc9889fd4ea9a5a7470ba25c8cfd2062 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/honens/event/38001AJMJGLMVGBGPDQNMJJMCJDLNBDQB> a schema:Event;
+  schema:name "Honens Lab";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-10T09:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/honens/location/4801ANHPDLLRCQPPBDBQTRQJMPNKSLKPJ>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
+  schema:url <https://www.honens.com/events/>;
+  schema:offers _:084cbc9889fd4ea9a5a7470ba25c8cfd2063;
+  schema:duration "PT60M";
+  schema:endDate "2026-09-10T10:00:00"^^xsd:dateTime .
+
+_:084cbc9889fd4ea9a5a7470ba25c8cfd2063 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/honens/location/4801ANHPDLLRCQPPBDBQTRQJMPNKSLKPJ> a schema:Place;
+  schema:name "TransAlta Pavilion, Taylor Centre for the Performing Arts";
+  schema:address <https://spektrix.com/honens/address/4801ANHPDLLRCQPPBDBQTRQJMPNKSLKPJ> .
+
+<https://spektrix.com/honens/address/4801ANHPDLLRCQPPBDBQTRQJMPNKSLKPJ> a schema:PostalAddress;
+  schema:streetAddress "18 Mount Royal Circle SW";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:postalCode "T3E 7N5";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/39401AHHBKTRJHJPLGBDBSTVVRJPBTKLC> a schema:Event;
+  schema:name "Neurorecital";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-13T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/honens/location/5001ABHHSRBTQRMRKVQTDCNNRTMMJHMGD>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
+  schema:url <https://www.honens.com/events/>;
+  schema:offers _:084cbc9889fd4ea9a5a7470ba25c8cfd2064;
+  schema:duration "PT60M";
+  schema:endDate "2026-09-13T20:00:00"^^xsd:dateTime .
+
+_:084cbc9889fd4ea9a5a7470ba25c8cfd2064 a schema:AggregateOffer;
+  schema:lowPrice "10.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/honens/location/5001ABHHSRBTQRMRKVQTDCNNRTMMJHMGD> a schema:Place;
+  schema:name "Infinity Dome Theatre, TELUS Spark";
+  schema:address <https://spektrix.com/honens/address/5001ABHHSRBTQRMRKVQTDCNNRTMMJHMGD> .
+
+<https://spektrix.com/honens/address/5001ABHHSRBTQRMRKVQTDCNNRTMMJHMGD> a schema:PostalAddress;
+  schema:streetAddress "220 Saint George's Drive NE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:postalCode "T2E 5T2";
+  schema:addressCountry "CA" .
+
 <http://www.spektrix.com/honens/event/35201AQQRSLKMCNNBJNMJCGMJTGPJQHBV> a schema:Event;
   schema:name "On Stage: Romantic Gifts";
   schema:description """
@@ -17,15 +178,11 @@
   schema:location <https://spektrix.com/honens/location/2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV>;
   schema:organizer <https://spektrix.com/honens/organization/honens>;
   schema:url <https://www.honens.com/events/>;
-  schema:offers _:7511882b090848c5b5bb2213eeb9fe842068;
+  schema:offers _:084cbc9889fd4ea9a5a7470ba25c8cfd2065;
   schema:duration "PT60M";
   schema:endDate "2026-04-10T20:00:00"^^xsd:dateTime .
 
-<https://spektrix.com/honens/organization/honens> a schema:Organization;
-  schema:name "Honens";
-  schema:sameAs <http://kg.artsdata.ca/resource/K2-6383> .
-
-_:7511882b090848c5b5bb2213eeb9fe842068 a schema:AggregateOffer;
+_:084cbc9889fd4ea9a5a7470ba25c8cfd2065 a schema:AggregateOffer;
   schema:lowPrice "10.0";
   schema:priceCurrency "CAD" .
 
@@ -38,6 +195,52 @@ _:7511882b090848c5b5bb2213eeb9fe842068 a schema:AggregateOffer;
   schema:addressLocality "Calgary";
   schema:addressRegion "AB";
   schema:postalCode "T2R 0P3";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/38802ANVGKGJCPVMLNKPHJLQDSLGKPMMB> a schema:Event;
+  schema:name "Open Air Calgary";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-12T14:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/honens/location/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
+  schema:url <https://www.honens.com/events/>;
+  schema:duration "PT60M";
+  schema:endDate "2026-09-12T15:00:00"^^xsd:dateTime .
+
+<https://spektrix.com/honens/location/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR> a schema:Place;
+  schema:name "RiverWalk Plaza";
+  schema:address <https://spektrix.com/honens/address/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR> .
+
+<https://spektrix.com/honens/address/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR> a schema:PostalAddress;
+  schema:streetAddress "618 Confluence Way SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 0G1";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/39201APPPJQSCBDBPCLLVKSNCLNHTDTRQ> a schema:Event;
+  schema:name "Open Air High River";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-13T14:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/honens/location/6001AHTPDKPQHHKQPKDKSKRBSTJBCVNKB>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
+  schema:url <https://www.honens.com/events/>;
+  schema:duration "PT60M";
+  schema:endDate "2026-09-13T15:00:00"^^xsd:dateTime .
+
+<https://spektrix.com/honens/location/6001AHTPDKPQHHKQPKDKSKRBSTJBCVNKB> a schema:Place;
+  schema:name "George Lane Memorial Park";
+  schema:address <https://spektrix.com/honens/address/6001AHTPDKPQHHKQPKDKSKRBSTJBCVNKB> .
+
+<https://spektrix.com/honens/address/6001AHTPDKPQHHKQPKDKSKRBSTJBCVNKB> a schema:PostalAddress;
+  schema:streetAddress "343 Macleod Trail SW";
+  schema:addressLocality "High River";
+  schema:addressRegion "AB";
+  schema:postalCode "T1V 1A1";
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/honens/event/36001AVSBSKQTBCMJCHVTHSQVQCNPBTLJ> a schema:Event;
@@ -97,17 +300,6 @@ _:7511882b090848c5b5bb2213eeb9fe842068 a schema:AggregateOffer;
   schema:url <https://www.honens.com/events/>;
   schema:duration "PT60M";
   schema:endDate "2026-08-08T15:00:00"^^xsd:dateTime .
-
-<https://spektrix.com/honens/location/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR> a schema:Place;
-  schema:name "RiverWalk Plaza";
-  schema:address <https://spektrix.com/honens/address/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR> .
-
-<https://spektrix.com/honens/address/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR> a schema:PostalAddress;
-  schema:streetAddress "618 Confluence Way SE";
-  schema:addressLocality "Calgary";
-  schema:addressRegion "AB";
-  schema:postalCode "T2G 0G1";
-  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/honens/event/36201ASKGPVLCNJNCMBLVSLJHKQPCHTRV> a schema:Event;
   schema:name "Piano Project YYC: Georgy Tchaidze";
@@ -177,3 +369,32 @@ _:7511882b090848c5b5bb2213eeb9fe842068 a schema:AggregateOffer;
   schema:addressRegion "AB";
   schema:postalCode "T2T 0A3";
   schema:addressCountry "CA" .
+
+<http://www.spektrix.com/honens/event/38401ANGTJSBMBHBQLHQPNRBLQSPPBRDN> a schema:Event;
+  schema:name "Reverberations: Chopin Reframed";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-11T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/honens/location/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
+  schema:url <https://www.honens.com/events/>;
+  schema:duration "PT60M";
+  schema:endDate "2026-09-11T20:00:00"^^xsd:dateTime .
+
+<http://www.spektrix.com/honens/event/38801AQDNRKLTDJNRGTHNNSDTQVMLRTCD> a schema:Event;
+  schema:name "Storytellers: Babar the Elephant";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-12T10:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/honens/location/5401AGJPGHQLLTTGLRDMRHSLBPRNDKDHR>;
+  schema:organizer <https://spektrix.com/honens/organization/honens>;
+  schema:url <https://www.honens.com/events/>;
+  schema:offers _:084cbc9889fd4ea9a5a7470ba25c8cfd2066;
+  schema:duration "PT60M";
+  schema:endDate "2026-09-12T11:30:00"^^xsd:dateTime .
+
+_:084cbc9889fd4ea9a5a7470ba25c8cfd2066 a schema:AggregateOffer;
+  schema:lowPrice "5.0";
+  schema:priceCurrency "CAD" .
