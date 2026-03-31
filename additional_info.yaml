@@ -202,3 +202,12 @@ capitoltheatreporthope:
 darkehallsociety:
   attribute_EventUrl: "https://purchase.darkehall.ca/EventAvailability?EventId={extractID(id)}"
   offerUrl: "https://purchase.darkehall.ca/ChooseSeats/{extractID(instance_id)}"
+
+gatewaytheatre:
+  exclusion_patterns:
+    - "Ages 6-7"
+    - "Ages 8-10"
+    - "Ages 11-13"
+    - "Ages 11-18"
+    - "Ages 14-18"
+    - "NPAA BC"
