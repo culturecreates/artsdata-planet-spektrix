@@ -8,27 +8,27 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/earlymusicvancouver/event/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR>
+<http://www.spektrix.com/earlymusicvancouver/event/10802AKDPPJLQDDGMGRRMQHBTKBDQPLRL>
   a schema:Event;
-  schema:name "Amanda Forsythe sings Handel";
+  schema:name " Pien d’amoroso affetto / With Amorous Affections";
   schema:description """
-	<h1>Amanda Forsythe sings Handel</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/f067423f-90fc-4fbc-8dd7-3da24c744d3e.jpg\" /><span><br/></span><span><br/></span>This exceptional concert features the return of internationally-acclaimed soprano Amanda Forsythe with the Pacific Baroque Orchestra under the direction of Alexander Weimann. The performance features Handel arias originally written for Elisabeth Duparc (‘La Francesina’) and includes the world premiere of Métis composer Pat Carrabré’s “The Mother Tree” based on Suzanne Simard’s novel “Finding The Mother Tree”.
+	<h1>Pien d’amoroso affetto / With Amorous Affections</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/f298b785-94fa-40df-8135-ffb5111a69b6.jpg\" /><span><br/></span><span><br/></span>Acclaimed vocalist Marc Mauillon and harpist Angélique Mauillon take you a journey through the music of Renaissance Florence and Paris, to discover the origins and evolution of the opera. The birth of opera is traced through composers such as Giulio Caccini, Jacopo Peri, and composers of the ‘airs de cour’ Sébastien Le Camus and Michel Lambert, inspired by the poetry of Henriette de Coligny. Join them for this deeply personal and refined exploration of music’s most passionate form.
 """;
-  schema:startDate "2025-09-27T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/earlymusicvancouver/files/f067423f-90fc-4fbc-8dd7-3da24c744d3e.jpg>;
+  schema:startDate "2026-08-04T13:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/f298b785-94fa-40df-8135-ffb5111a69b6.jpg>;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
-  schema:url <https://www.earlymusic.bc.ca/events/amanda-forsythe-sings-handel/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82710;
+  schema:url <https://www.earlymusic.bc.ca/events/pien-damoroso-affetto-with-amorous-affections/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882927;
   schema:duration "PT60M";
-  schema:endDate "2025-09-27T20:30:00"^^xsd:dateTime .
+  schema:endDate "2026-08-04T14:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver> a schema:Organization;
   schema:name "Early Music Vancouver";
   schema:sameAs <http://kg.artsdata.ca/resource/K10-351> .
 
-_:ec4383dd32b74b0f85c637f958b321f82710 a schema:AggregateOffer;
-  schema:lowPrice "24.7";
+_:27f0623284aa408d9fe9a7f2081ff7882927 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
 <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
@@ -44,6 +44,95 @@ _:ec4383dd32b74b0f85c637f958b321f82710 a schema:AggregateOffer;
   schema:postalCode "V6C 2L1";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/earlymusicvancouver/event/10401AVGBSHGLNCJKPBDLVSHHVCQHSBNR>
+  a schema:Event;
+  schema:name "A French Baroque Christmas with Ensemble Correspondances";
+  schema:description """
+	<h1>A French Baroque Christmas with Ensemble Correspondances</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/388ac8cf-e92e-4bf5-99b7-dc76a427b73b.jpg\" /><span><br/></span><span><br/></span><span><br/></span>Written for the holy night of Christmas, Charpentier’s Midnight Mass has travelled the world. Based on traditional French Noëls, this music offers pleasure to everyone: be it through the joy of hearing a familiar tune, or of marveling at its extraordinary craftsmanship. The very simplicity of the original songs lends the entire Mass a cheerful character and a transparency that is anything but shallow, speaking instead in a language that was once profoundly universal.
+""";
+  schema:startDate "2026-12-04T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/388ac8cf-e92e-4bf5-99b7-dc76a427b73b.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/a-french-baroque-christmas-with-ensemble-correspondances/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882928;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-04T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882928 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>
+  a schema:Place;
+  schema:name "Chan Centre";
+  schema:address <https://spektrix.com/earlymusicvancouver/address/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV> .
+
+<https://spektrix.com/earlymusicvancouver/address/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>
+  a schema:PostalAddress;
+  schema:streetAddress "6265 Crescent Rd";
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "BC";
+  schema:postalCode "V6T 1Z1";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/10201AJHJGJMTBHDNGMTSMTVVGPNSHHLL>
+  a schema:Event;
+  schema:name "A Little Night Music with Mozart ";
+  schema:description """
+	<h1>A Little Night Music with Mozart</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/5b2234ed-bfa9-4515-a41c-4e259ae96275.jpg\" /><span><br/></span><span><br/></span>W.A. Mozart’s KV 525, Eine Kleine Nachtmusik, is arguably one of the most recognizable pieces in the history of classical music. But it is only one of countless “Serenatas” or serenades  –  pieces written for entertainment in the evening hours. We pair Mozart’s classic tune, freshly performed on period instruments, with a lesser-known piece from his earlier life in Salzburg: The Serenata Notturna, KV 239. This eclectic programme also includes a fanciful quintet by Boccherini about 18th century night-life in Madrid, instrumental songs by Dowland and Purcell, and an intriguing night-watch tune by Austrian composer Heinrich Ignaz Franz Biber, in which even the audience will participate.
+""";
+  schema:startDate "2026-10-17T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/5b2234ed-bfa9-4515-a41c-4e259ae96275.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/a-little-night-music-with-mozart/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882929;
+  schema:duration "PT60M";
+  schema:endDate "2026-10-17T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882929 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/10601APSKMRRDLKDGKBKNPNLTDRGCSHLR>
+  a schema:Event;
+  schema:name "Amanda Forsythe & Opera Prima - Tormento Seicento ";
+  schema:description """
+	<h1>Amanda Forsythe & Opera Prima -Tormento Seicento</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/5fd9691f-023c-4108-8fdd-71f081bf6bb0.jpg\" /><span><br/></span><span><br/></span>“ In many ways, the music of the early Baroque period bears a stronger relationship to jazz improvisation than to the late Baroque composers,”writes soprano Amanda Forsythe in her program notes. “ Musicians of the early Baroque were masters of improvisation and they invented melodies and harmonies with skill and confidence. The goal of this period in music was expression — the singer was at an advantage, with the text and melody notated, but the heart of this operation was the Basso Continuo, the musicians that interpreted the figured bass line. ”
+""";
+  schema:startDate "2027-01-22T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/5fd9691f-023c-4108-8fdd-71f081bf6bb0.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/amanda-forsythe-opera-prima-tormento-seicento/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882930;
+  schema:duration "PT60M";
+  schema:endDate "2027-01-22T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882930 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/8201APNKPTCPSVLMMRDKJCTKBHRDCGHGR>
+  a schema:Event;
+  schema:name "Amanda Forsythe sings Handel";
+  schema:description """
+	<h1>Amanda Forsythe sings Handel</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/f067423f-90fc-4fbc-8dd7-3da24c744d3e.jpg\" /><span><br/></span><span><br/></span>This exceptional concert features the return of internationally-acclaimed soprano Amanda Forsythe with the Pacific Baroque Orchestra under the direction of Alexander Weimann. The performance features Handel arias originally written for Elisabeth Duparc (‘La Francesina’) and includes the world premiere of Métis composer Pat Carrabré’s “The Mother Tree” based on Suzanne Simard’s novel “Finding The Mother Tree”.
+""";
+  schema:startDate "2025-09-27T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/f067423f-90fc-4fbc-8dd7-3da24c744d3e.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/amanda-forsythe-sings-handel/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882931;
+  schema:duration "PT60M";
+  schema:endDate "2025-09-27T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882931 a schema:AggregateOffer;
+  schema:lowPrice "24.7";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/earlymusicvancouver/event/6602ATBVLJQKCMGMLQRDTTBNMTTCNKCBH>
   a schema:Event;
   schema:name "Amandine Beyer & Gli Incogniti";
@@ -55,11 +144,11 @@ _:ec4383dd32b74b0f85c637f958b321f82710 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/amandine-beyer-gli-incogniti/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82711;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882932;
   schema:duration "PT60M";
   schema:endDate "2026-04-17T20:30:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82711 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7882932 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -74,11 +163,132 @@ _:ec4383dd32b74b0f85c637f958b321f82711 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/amour-courtois-medieval-meets-jazz/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82712;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882933;
   schema:duration "PT60M";
   schema:endDate "2026-03-13T20:30:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82712 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7882933 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/11401ADJMJHLSTCBJCSJGTJRVLDRSDLQV>
+  a schema:Event;
+  schema:name "Bach Dances";
+  schema:description """
+	<h1>Bach Dances</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/fbb3d6ef-fc45-40fd-b5a0-edda792e1e06.jpg\" /><span><br/></span><span><br/></span><span><br/></span>Bach Dances is a world premiere contemporary dance production conceived by award-winning choreographer and opera stage director Idan Cohen. A co-production between Ne.Sans Opera and Dance, The Dance Centre and Early Music Vancouver, the work reimagines Bach’s first three cello suites as a powerful theatrical experience of live music and contemporary dance. The suites will be performed live by celebrated cellist Elinor Frey, and feature exceptional dancers, evocative costumes, and striking visual imagery.
+""";
+  schema:startDate "2026-08-01T13:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/fbb3d6ef-fc45-40fd-b5a0-edda792e1e06.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/bach-dances/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882934;
+  schema:duration "PT60M";
+  schema:endDate "2026-08-01T14:00:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882934 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/earlymusicvancouver/location/2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV>
+  a schema:Place;
+  schema:name "Scotia Dance Theatre";
+  schema:address <https://spektrix.com/earlymusicvancouver/address/2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV> .
+
+<https://spektrix.com/earlymusicvancouver/address/2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV>
+  a schema:PostalAddress;
+  schema:streetAddress "677 Davie Street";
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "BC";
+  schema:postalCode "V6B 2G6";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/11002ARDJKBMTSMJHJHPVRQVKGRHJQMNS>
+  a schema:Event;
+  schema:name "Bach Dances";
+  schema:description """
+	<h1>Bach Dances</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/fbb3d6ef-fc45-40fd-b5a0-edda792e1e06.jpg\" /><span><br/></span><span><br/></span><span><br/></span>Bach Dances is a world premiere contemporary dance production conceived by award-winning choreographer and opera stage director Idan Cohen. A co-production between Ne.Sans Opera and Dance, The Dance Centre and Early Music Vancouver, the work reimagines Bach’s first three cello suites as a powerful theatrical experience of live music and contemporary dance. The suites will be performed live by celebrated cellist Elinor Frey, and feature exceptional dancers, evocative costumes, and striking visual imagery.
+""";
+  schema:startDate "2026-08-01T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/fbb3d6ef-fc45-40fd-b5a0-edda792e1e06.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/2001AHRPHKQVSMKGSDJKJQJCLGRKHBSVV>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/bach-dances/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882935;
+  schema:duration "PT60M";
+  schema:endDate "2026-08-01T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882935 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/12001ALNGHTPHGCKCMSTDNQBDRDVTJPQB>
+  a schema:Event;
+  schema:name "Bach with Weimann: The Compass Rose";
+  schema:description """
+	<h1>Bach with Weimann: The Compass Rose</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/3266d3a8-aa31-4d2d-984a-8c551db6a168.jpg\" /><span><br/></span><span><br/></span>While we know and love Bach for his cantatas, oratorios, concertos, and chamber music, he never seems more himself than on the organ. His writings for the ‘king of all instruments’ (W.A. Mozart) open the gates to an entire universe of harmony and polyphony, achieving a degree of freedom impossible for any other instrument, and allowing for a unique window into Bach’s mind
+""";
+  schema:startDate "2026-08-01T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/3266d3a8-aa31-4d2d-984a-8c551db6a168.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/418AJJBBRHLGHNBRDRRVHRTTMLTMDRGNQ>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/bach-with-weimann-the-compass-rose/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882936;
+  schema:duration "PT60M";
+  schema:endDate "2026-08-01T16:00:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882936 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/earlymusicvancouver/location/418AJJBBRHLGHNBRDRRVHRTTMLTMDRGNQ>
+  a schema:Place;
+  schema:name "West Vancouver United Church";
+  schema:address <https://spektrix.com/earlymusicvancouver/address/418AJJBBRHLGHNBRDRRVHRTTMLTMDRGNQ> .
+
+<https://spektrix.com/earlymusicvancouver/address/418AJJBBRHLGHNBRDRRVHRTTMLTMDRGNQ>
+  a schema:PostalAddress;
+  schema:streetAddress "2062 Esquimalt Ave";
+  schema:addressLocality "West Vancouver";
+  schema:addressRegion "BC";
+  schema:postalCode "V7V 1S4";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/10203APTLQMJTMVGCTRDJDRRLMMCBHKRL>
+  a schema:Event;
+  schema:name "Beethoven & Schubert Trios";
+  schema:description """
+	<h1>Beethoven & Schubert Trios</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/9778b005-a1cf-4ec9-9eaa-9da9dc99c914.jpg\" /><span><br/></span><span><br/></span><span><br/></span>This programme is created around a specific piano, the 1819 Graf, and presents two icons of the repertoire (Beethoven’s Ghost and Schubert’s op. 100) alongside a little-known gem: the single movement Beethoven wrote for pianist Maximiliane Brentano, the woman who inspired Goethe’s The Sorrows of Young Werther. Beethoven bares his soul in the middle movement of Ghost, a meditation on tragedy, despair and hope, while the outer movements sizzle with energy and humour. Schubert’s E-flat trio is from his last year of life; it’s hard not to imagine the composer in ill health, desperately trying to express everything he could. Listeners familiar with piano trios played on modern instruments will be surprised: this ensemble sounds more like a string quartet, with each of the pianist’s hands acting as an instrument of its own.
+""";
+  schema:startDate "2026-08-06T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/9778b005-a1cf-4ec9-9eaa-9da9dc99c914.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/beethoven-schubert-trios/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882937;
+  schema:duration "PT60M";
+  schema:endDate "2026-08-06T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882937 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/10001AJDMSTLMNDPDNVDDGJGHCCDBRDDD>
+  a schema:Event;
+  schema:name "Blind Man’s Bluff - Concerto di Margherita";
+  schema:description """
+	<h1>Blind Man’s Bluff - Concerto di Margherita</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/412fab80-0896-4c88-8c08-eceb5a110027.jpg\" /><span><br/></span><span><br/></span>Inspired by the vocal and instrumental works of late 16th and early 17th century Italy, the ensemble Concerto di Margherita presents a programme in the form of a fable: an archetypal Lover is caught in a cruel game of Blind Man’s Bluff. Playing with concepts of visibility and sight throughout the concert, the musicians take the audience with them on the Lover’s path: born in bright innocence, blinded and deluded by love, lost and disoriented in darkness and finally finding solace in obscurity. 
+""";
+  schema:startDate "2026-10-02T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/412fab80-0896-4c88-8c08-eceb5a110027.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/blind-mans-bluff-concerto-di-margherita/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882938;
+  schema:duration "PT60M";
+  schema:endDate "2026-10-02T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882938 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -93,11 +303,11 @@ _:ec4383dd32b74b0f85c637f958b321f82712 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/consone-quartet/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82713;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882939;
   schema:duration "PT60M";
   schema:endDate "2025-10-09T20:30:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82713 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7882939 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -112,11 +322,86 @@ _:ec4383dd32b74b0f85c637f958b321f82713 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/constantinople-presents-bach-khayyam/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82714;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882940;
   schema:duration "PT60M";
   schema:endDate "2026-01-30T20:30:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82714 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7882940 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/9803APJMBSPQJQHHVQDHJQRGNBVQQNLSJ>
+  a schema:Event;
+  schema:name "Die schöne Müllerin - Franz Schubert";
+  schema:description """
+	<h1>Die schöne Müllerin - Franz Schubert</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/7cb4d419-84a2-4d7d-9423-38af0fa25aba.jpg\" /><span><br/></span><span><br/></span>Music contains all the power of the unsaid; it guides our understanding of the text but also our deepest feelings while following it. Franz Schubert shows a masterful use of this power in his song cycle Die schöne Müllerin: The twenty songs trace a journey through love and loss: A wandering miller falls in love with a miller’s daughter but is displaced by a rival hunter. Heartbroken and obsessed with his own death, he imagines the flowers sprouting from his grave and ultimately drowns himself; the water lulling him to his final rest. Yet, within this tragic tale, are some of Schubert’s most beguiling melodies.
+""";
+  schema:startDate "2026-08-05T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/7cb4d419-84a2-4d7d-9423-38af0fa25aba.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/die-schone-mullerin-franz-schubert/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882941;
+  schema:duration "PT60M";
+  schema:endDate "2026-08-05T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882941 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/9802AVVSDKQBDSCDRGQKTKDKNHLPKMDCG>
+  a schema:Event;
+  schema:name "Festive Cantatas: Gloria with Vivaldi & Bach";
+  schema:description """
+	<h1>Festive Cantatas: Gloria with Vivaldi & Bach</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/929473db-6157-4fc7-b87c-28241c3d4e5c.jpg\" /><span><br/></span><span><br/></span>For much of his adult life, Antonio Vivaldi worked as a teacher at the Ospedale della Pietà, a charitable convent, orphanage and music school established by Venetian nuns in the 14th century. It was for those children that Vivaldi composed such pieces as The ‘Gloria’, and in doing so attracted travelers from around Europe to see them perform. Inspired by Vivaldi’s work with young people, we have invited the Vancouver Youth Choir to perform ‘Gloria’ with us this holiday season, which is sure to be an extraordinary celebration of light and joy. 
+""";
+  schema:startDate "2026-12-20T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/929473db-6157-4fc7-b87c-28241c3d4e5c.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/festive-cantatas-gloria-with-vivaldi-bach/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882942;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-20T16:00:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882942 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/11801AKPSMNLHVNHMDJQKSBJCLCVQPNQJ>
+  a schema:Event;
+  schema:name "Florilegium: Songs of Medieval England";
+  schema:description """
+	<h1>Florilegium: Songs of Medieval England</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/cd62c223-fd33-4b9f-8578-34fc2849dd54.jpg\" /><span><br/></span><span><br/></span><span><br/></span>Rising medieval ensemble COMTESSA present a program that offers a rare glimpse into the vibrant musical culture of the British isles from 1150 to 1300. The influence of Celtic folk songs and dances, troubadour music, and plainchant is evident in these pieces, which often employ themes of nature and allegory. COMTESSA curates this collection of English medieval songs to follow the lifecycle of a flower. The term “Florilegium,” derived from the Latin words “flos” (flower) and “legere” (to gather), was historically used for treatises on flowers or a compilation of excerpts from other writings, an offshoot of the common placing tradition. These songs, rich in themes of nature, offer a comprehensive overview of the medieval musical landscape in the British Isles. Presented with authentic medieval performance practices and period instruments, this program brings the past vividly to life.
+""";
+  schema:startDate "2026-08-05T13:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/cd62c223-fd33-4b9f-8578-34fc2849dd54.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/florilegium-songs-of-medieval-england/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882943;
+  schema:duration "PT60M";
+  schema:endDate "2026-08-05T14:00:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882943 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/11201AKDDTJMTSLCSVGSKVSMSBBMJNQCH>
+  a schema:Event;
+  schema:name "Handel’s La Resurrezione with PBO";
+  schema:description """
+	<h1>Handel’s La Resurrezione with PBO</h1><span><br/></span><span><br/></span><img /><span><br/></span><span><br/></span><span><br/></span>In 1708, George Frideric Handel was just twenty-three years old, a German Lutheran who had been in Rome for only two years, when he undertook one of the most profound subjects of Catholic liturgy: the Passion and Resurrection of Christ. In La Resurrezione, Handel encapsulates all the operatic styles and languages available at the time. The story is bookended by the transcendent fight between heaven and hell, personified by an angel and Lucifer; the earthly actors are Mary Magdalene, Mary Cleophas and John the Baptist. A stellar team of 5 soloists will join the festive orchestra forces with trumpets, oboes, recorders, flute, bassoon, strings, gamba, harpsichord and theorbo.
+""";
+  schema:startDate "2027-03-25T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/handels-la-resurrezione-with-pbo/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882944;
+  schema:duration "PT60M";
+  schema:endDate "2027-03-25T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882944 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -131,11 +416,11 @@ _:ec4383dd32b74b0f85c637f958b321f82714 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/handels-messiah-vancouver/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82715;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882945;
   schema:duration "PT60M";
   schema:endDate "2025-12-13T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82715 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7882945 a schema:AggregateOffer;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
@@ -163,11 +448,11 @@ _:ec4383dd32b74b0f85c637f958b321f82715 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/handels-messiah-richmond/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82716;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882946;
   schema:duration "PT60M";
   schema:endDate "2025-12-12T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82716 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7882946 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -184,6 +469,25 @@ _:ec4383dd32b74b0f85c637f958b321f82716 a schema:AggregateOffer;
   schema:postalCode "V6X 1L8";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/earlymusicvancouver/event/11601ASNTDDTNQDPTRBBMHTCLMHBVDMHV>
+  a schema:Event;
+  schema:name "Lachrimae";
+  schema:description """
+	<h1> Lachrimae</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/3387fa5c-ea51-4150-8fae-6e272ad9241b.jpg\" /><span><br/></span><span><br/></span><span><br/></span>Lachrimæ, or Seaven Teares is the collection that made John Dowland famous across Europe—so much so that he proudly styled himself “Jo: Dolande de Lachrimæ.” The work is emblematic of the Elizabethan fascination with melancholy, yet it reminds us of a timeless paradox: sad music often brings us comfort, not despair. Indeed, Dowland himself once wrote: “no doubt pleasant are the teares which Musicke weepes, neither are teares shed alwayes in sorrowe, but sometimes in joy and gladnesse.” Or, as Elton John put it, “It feels so good to hurt so bad / and suffer just enough to sing the blues.” This concert probes this enduring paradox, pairing Dowland’s seven iconic pavans with songs from the 17th to the 20th centuries that reflect on music’s cathartic power and its remarkable ability to console, heal, and lift us up.
+""";
+  schema:startDate "2026-08-04T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/3387fa5c-ea51-4150-8fae-6e272ad9241b.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/lachrimae/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882947;
+  schema:duration "PT60M";
+  schema:endDate "2026-08-04T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882947 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/earlymusicvancouver/event/9601AVDDJDNPPDCBTDGNSVVJSTBLBSPNQ>
   a schema:Event;
   schema:name "L'Orfeo";
@@ -195,26 +499,51 @@ _:ec4383dd32b74b0f85c637f958b321f82716 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/lorfeo/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82717;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882948;
   schema:duration "PT120M";
   schema:endDate "2026-07-31T21:30:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82717 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7882948 a schema:AggregateOffer;
   schema:lowPrice "29.25";
   schema:priceCurrency "CAD" .
 
-<https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>
-  a schema:Place;
-  schema:name "Chan Centre";
-  schema:address <https://spektrix.com/earlymusicvancouver/address/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV> .
+<http://www.spektrix.com/earlymusicvancouver/event/10801ADHCBQTDNRNBLLTSCPBVDKMJGHCJ>
+  a schema:Event;
+  schema:name "Moonlit Mozart with Les Délices ";
+  schema:description """
+	<h1>Moonlit Mozart with Les Délices</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/31d5a9cf-859b-4176-8161-7df1079b2d09.jpg\" /><span><br/></span><span><br/></span><span><br/></span>In late-18th century Vienna, wind bands known as “Harmoniemusik” offered an effective – and colorful – means of presenting music in virtually any setting. Whether performing nocturnes or serenades, dance music, or even operatic or symphonic reductions, an ensemble of eight woodwinds could cover most – if not all – bases. Soaring melodies were often split between first oboe and first clarinet, inner parts were covered by other winds and horns, bassoons would alternate between tenor solos and bustling bass lines, and a double bass often provided reinforcement on the low end. For Moonlit Mozart, acclaimed oboist and Les Délices Artistic Director, Debra Nagy, brings together today’s finest period-instrument woodwind players for an “undeniably uplifting” all-Mozart program that includes original 18th-century arrangements of selections from The Magic Flute and Don Giovanni, plus Mozart’s transcendent Serenade in C minor (K388).
+""";
+  schema:startDate "2027-02-20T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/31d5a9cf-859b-4176-8161-7df1079b2d09.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/moonlit-mozart-with-les-delices/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882949;
+  schema:duration "PT60M";
+  schema:endDate "2027-02-20T20:30:00"^^xsd:dateTime .
 
-<https://spektrix.com/earlymusicvancouver/address/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>
-  a schema:PostalAddress;
-  schema:streetAddress "6265 Crescent Rd";
-  schema:addressLocality "Vancouver";
-  schema:addressRegion "BC";
-  schema:postalCode "V6T 1Z1";
-  schema:addressCountry "CA" .
+_:27f0623284aa408d9fe9a7f2081ff7882949 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/9801ASMPJNGDQLTQPCPCCHKQQRGTTRTJM>
+  a schema:Event;
+  schema:name "Music for The Little Ice Age";
+  schema:description """
+	<h1>Music for The Little Ice Age</h1><span><br/></span><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/0579392b-6da4-4ecc-8d85-6b2fac511046.jpg\" /><span><br/></span><span><br/></span><span><br/></span>This programme features the premiere of Snow Skills, a newly commissioned work by composer Peter Hannan that blends humans with electronics, and the past with the present. Stories unfold through Renaissance letters and speech set against contemporary digital transmissions, performed by a small vocal ensemble, with the Pacific Baroque Orchestra on period instruments and electronic tracks. Paired with works by Buxtehude, Eimwag, Schein and Scheidt that echo themes of upheaval and renewal, this evening invites reflection on the fragility and resilience of human life across time, and reminds us that climate change is not only a scientific or political issue but a profoundly human story.
+""";
+  schema:startDate "2026-09-18T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/0579392b-6da4-4ecc-8d85-6b2fac511046.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/music-for-the-little-ice-age/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882950;
+  schema:duration "PT60M";
+  schema:endDate "2026-09-18T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882950 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/earlymusicvancouver/event/9001AGHDBMPJDRPSRMKLRCJGBJJMTQGDH>
   a schema:Event;
@@ -227,11 +556,11 @@ _:ec4383dd32b74b0f85c637f958b321f82717 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/philippe-jaroussky-la-gelosia/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82718;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882951;
   schema:duration "PT60M";
   schema:endDate "2026-05-01T20:30:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82718 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7882951 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -259,11 +588,11 @@ _:ec4383dd32b74b0f85c637f958b321f82718 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/ronald-brautigam-in-recital/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82719;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882952;
   schema:duration "PT60M";
   schema:endDate "2026-02-28T20:30:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82719 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7882952 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -278,11 +607,62 @@ _:ec4383dd32b74b0f85c637f958b321f82719 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/schubert-boccherini-mimosa-string-quintet/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82720;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882953;
   schema:duration "PT60M";
   schema:endDate "2025-11-01T20:30:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82720 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7882953 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/12201AVGSVDJSKHNLNDGDHCNLJPBPLMHR>
+  a schema:Event;
+  schema:name "Songline: Musical Hike";
+  schema:description """
+	<h1>Songline: Musical Hike</h1><span><br/></span><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/5d17d9f9-d3b4-4286-8b35-18dda234cf29.jpg\" /><span><br/></span><span><br/></span><span><br/></span>Songline: Musical Hike, is a unique and intimate opportunity to experience both the inherent music of nature, and the ways in which nature transforms and enriches music. Participants join Artist-in-Residence Marc Mauillon as he sings selections from his album for solo voice, Songline. Audience members journey together through the forest, pausing at intervals to experience the expressive power of the unaccompanied voice among the trees.
+""";
+  schema:startDate "2026-08-06T11:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/5d17d9f9-d3b4-4286-8b35-18dda234cf29.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/songline-musical-hike/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882954;
+  schema:duration "PT60M";
+  schema:endDate "2026-08-06T12:00:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882954 a schema:AggregateOffer;
+  schema:lowPrice "31.85";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/earlymusicvancouver/location/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD>
+  a schema:Place;
+  schema:name "Malcolm Knapp Research Forest";
+  schema:address <https://spektrix.com/earlymusicvancouver/address/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD> .
+
+<https://spektrix.com/earlymusicvancouver/address/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD>
+  a schema:PostalAddress;
+  schema:streetAddress "14500 Silver Valley Rd";
+  schema:addressLocality "Maple Ridge";
+  schema:addressRegion "BC";
+  schema:postalCode "V4R 2R3";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/10402ARDVDMNJBRVPDTKLPJMKVHLCQLDV>
+  a schema:Event;
+  schema:name "Songs from the Mayflower with Ménestrel";
+  schema:description """
+	<h1>Songs from the Mayflower with Ménestrel</h1><span><br/></span><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/aa5bd644-f9d9-443b-9880-53716a4ccd00.jpg\" /><span><br/></span><span><br/></span><span><br/></span>Ménestrel is a Canadian early music duo mixing ancient repertoire with Canadian oral folk traditions. Their sound is grounded in historical practice, yet their sensibility is disarmingly modern, shaped by the emotional clarity and immediacy of folk and popular styles. This concert features a beautiful programme of folksongs collected by Helen Creighton, Canada’s ‘First Lady of Folklore,’ who was responsible for amassing over 4,000 songs from across the Canadian Maritimes. Come hear music from the traditions that were present in Canada in the 17th and early 18th centuries, songs like “The Sea Captain”, “Fear a Bhata”, “She’s like the Swallow” and the Quebec traditional “À la Claire Fontaine” – a musical snapshot of the melodies and rhythms emblematic of Eastern Canada.
+""";
+  schema:startDate "2027-04-30T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/aa5bd644-f9d9-443b-9880-53716a4ccd00.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/songs-from-the-mayflower-with-menestrel/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882955;
+  schema:duration "PT60M";
+  schema:endDate "2027-04-30T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882955 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -297,11 +677,11 @@ _:ec4383dd32b74b0f85c637f958b321f82720 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/strawberry-fields/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82721;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882956;
   schema:duration "PT60M";
   schema:endDate "2026-02-27T20:30:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82721 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7882956 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -316,10 +696,67 @@ _:ec4383dd32b74b0f85c637f958b321f82721 a schema:AggregateOffer;
   schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
   schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
   schema:url <https://www.earlymusic.bc.ca/events/tafelmusik-brilliant-baroque/>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82722;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882957;
   schema:duration "PT60M";
   schema:endDate "2025-11-15T20:30:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82722 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7882957 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/10202ADJGHVCGKNPSMBBSGCQGHLJSLGTS>
+  a schema:Event;
+  schema:name "The Magic of Monteverdi with Les Arts Florissants";
+  schema:description """
+	<h1>The Magic of Monteverdi with Les Arts Florissants</h1><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/7174ecca-d5de-464c-a95f-b638afd621a2.jpg\" /><span><br/></span><span><br/></span><span><br/></span>Join Baroque masters William Christie and Paul Agnew for a revelatory program of Monteverdi’s finest madrigals for mixed voices, including a performance of the iconic Il Combattimento (The Combat of Tancred and Clorinda). William Christie will lead the continuo from the harpsichord, and Paul Agnew will lead and sing in the vocal ensemble, joined by singers who are rising stars from the next generation. 
+""";
+  schema:startDate "2026-11-17T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/7174ecca-d5de-464c-a95f-b638afd621a2.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/the-magic-of-monteverdi-with-les-arts-florissants/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882958;
+  schema:duration "PT60M";
+  schema:endDate "2026-11-17T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882958 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/11001ATRSBGDJMQQMCVKRJSQJPSBBHRPT>
+  a schema:Event;
+  schema:name "The Rise of European Music";
+  schema:description """
+	<h1>The Rise of European Music</h1><span><br/></span><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/5f893562-725b-4d93-8611-b181b247ef4e.jpg\" /><span><br/></span><span><br/></span><span><br/></span>More than 600 years ago, a young musician named Johannes Ciconia left his native Liège to travel south. The first major Franco-Flemish composer to make his fortune in Italy, he helped establish a long tradition of cultural exchange between the northern and southern parts of Europe that lent a new, international dimension to the music of the early 15th century. Michele Pasotti and his ensemble La Fonte Musica trace this rise of European music through the works of Ciconia and those of his precursors and famed successors such as Guillaume Dufay and John Dunstaple.
+""";
+  schema:startDate "2027-03-12T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/5f893562-725b-4d93-8611-b181b247ef4e.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/the-rise-of-european-music/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882959;
+  schema:duration "PT60M";
+  schema:endDate "2027-03-12T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882959 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/earlymusicvancouver/event/9804ARGKSGLMKQVPVCLVJCGJGNSPSNHGC>
+  a schema:Event;
+  schema:name "Vivaldi’s The Four Seasons ";
+  schema:description """
+	<h1>Vivaldi’s The Four Seasons</h1><span><br/></span><span><br/></span><img src=\"https://system.spektrix.com/earlymusicvancouver/files/07fb048a-0d06-4158-b40b-8d28f04480c2.jpg\" /><span><br/></span><span><br/></span><span><br/></span>Vivaldi’s best-known concertos for violin and string orchestra revolutionized ideas about what orchestral music could achieve. In these compositions, music has learned to represent flowing creeks, singing birds (of different species, each specifically characterized), a shepherd and his barking dog, buzzing flies, storms, drunken dancers, hunting parties from both the hunters’ and prey’s point of view, even the stillness of frozen landscapes and the warmth of winter fires. We have long looked forward to programming this repertoire and are delighted to present it now with star violinist and guest director Rachel Podger, in collaboration with Vancouver’s own Pacific Baroque Orchestra.
+""";
+  schema:startDate "2026-08-07T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/earlymusicvancouver/files/07fb048a-0d06-4158-b40b-8d28f04480c2.jpg>;
+  schema:location <https://spektrix.com/earlymusicvancouver/location/402AJKCLLRDNMBKMHTCGLBDHJTBPJBDNV>;
+  schema:organizer <https://spektrix.com/earlymusicvancouver/organization/early-music-vancouver>;
+  schema:url <https://www.earlymusic.bc.ca/events/vivaldis-the-four-seasons/>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882960;
+  schema:duration "PT60M";
+  schema:endDate "2026-08-07T20:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7882960 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .

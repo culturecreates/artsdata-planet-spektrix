@@ -8,6 +8,27 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
+<http://www.spektrix.com/yukonartscentre/event/66801AQKPRHKKGQQBTMBVQVVTVMKKQTGN>
+  a schema:Event;
+  schema:name "All City Band: Sounds of Spring Celebration";
+  schema:description """
+	<h1>All-City Band: Sounds of Spring Celebration</h1><span><br/></span>The Sounds of Spring are in the air! Come join the All-City Band Society for a celebration of community music making on Monday, May 4th at the Yukon Arts Centre. <span><br/></span><span><br/></span>Show time 7pm, music in the lobby from 6:30pm and delicious baked goods & pop for sale during intermission. We have a wonderful program of favourites from the Concert & Jazz band repertoires to share with you, played by the students of Porter Creek & FH Collins Secondary Schools & our wonderful adult musicians! <span><br/></span><span><br/></span>Don’t forget to bring any donations you might have for the Food Bank; we can collect them & drop them off for you. Tickets: $20 (adults); $15 (students/seniors); & $10 (children under 12). For more information contact allcitybandwhitehorse@gmail.com or go to our Facebook page (@allcityband1) or our website (allcityband.com).<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-05-04T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883070;
+  schema:duration "PT120M";
+  schema:endDate "2026-05-04T21:00:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7883070 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/66801>;
+  schema:lowPrice "7.5";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:Place;
+  schema:name "Yukon Arts Centre Mainstage" .
+
 <http://www.spektrix.com/yukonartscentre/event/45001APSKGSQJNQPLCLJCBDHPHSDJVPSS>
   a schema:Event;
   schema:name "An Evening with Josh Ritter";
@@ -17,18 +38,14 @@
   schema:startDate "2026-03-28T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/d1faa3e2-ed39-49cc-b308-6d11edc78eac.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82827;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883071;
   schema:duration "PT120M";
   schema:endDate "2026-03-28T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82827 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883071 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/45001>;
   schema:lowPrice "7.5";
   schema:priceCurrency "CAD" .
-
-<https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
-  a schema:Place;
-  schema:name "Yukon Arts Centre Mainstage" .
 
 <http://www.spektrix.com/yukonartscentre/event/61401ATQDMVMSLPDTKCRQGQKNDHQSBBKR>
   a schema:Event;
@@ -39,11 +56,11 @@ _:ec4383dd32b74b0f85c637f958b321f82827 a schema:AggregateOffer;
   schema:startDate "2026-03-12T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/02764799-9fac-4f43-b413-461a7319448e.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82828;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883072;
   schema:duration "PT120M";
   schema:endDate "2026-03-12T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82828 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883072 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/61401>;
   schema:lowPrice "12.5";
   schema:priceCurrency "CAD" .
@@ -57,11 +74,11 @@ _:ec4383dd32b74b0f85c637f958b321f82828 a schema:AggregateOffer;
   schema:startDate "2026-03-13T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/02764799-9fac-4f43-b413-461a7319448e.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82829;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883073;
   schema:duration "PT120M";
   schema:endDate "2026-03-13T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82829 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883073 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/61601>;
   schema:lowPrice "12.5";
   schema:priceCurrency "CAD" .
@@ -75,11 +92,11 @@ _:ec4383dd32b74b0f85c637f958b321f82829 a schema:AggregateOffer;
   schema:startDate "2026-05-16T16:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/38d5ae5a-b5a9-41c1-9832-fa1649cf6060.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82830;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883074;
   schema:duration "PT150M";
   schema:endDate "2026-05-16T18:30:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82830 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883074 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/64001>;
   schema:lowPrice "27.5";
   schema:priceCurrency "CAD" .
@@ -97,11 +114,11 @@ _:ec4383dd32b74b0f85c637f958b321f82830 a schema:AggregateOffer;
   schema:startDate "2026-03-27T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/8c423d58-00e6-4d57-a9a9-42375bf9bed4.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/410ANBMGVKCVJSMSDSBLPSGBKJCSBJGRP>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82831;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883075;
   schema:duration "PT120M";
   schema:endDate "2026-03-27T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82831 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883075 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/63801>;
   schema:lowPrice "17.5";
   schema:priceCurrency "CAD" .
@@ -119,11 +136,11 @@ _:ec4383dd32b74b0f85c637f958b321f82831 a schema:AggregateOffer;
   schema:startDate "2026-03-21T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/f3de5002-10e9-4c90-8210-d7c6527bbca0.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82832;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883076;
   schema:duration "PT120M";
   schema:endDate "2026-03-21T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82832 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883076 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/44601>;
   schema:lowPrice "7.5";
   schema:priceCurrency "CAD" .
@@ -137,11 +154,11 @@ _:ec4383dd32b74b0f85c637f958b321f82832 a schema:AggregateOffer;
   schema:startDate "2026-03-28T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/ecbe7157-3dd6-4a31-afa3-52f4345e05fb.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82833;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883077;
   schema:duration "PT70M";
   schema:endDate "2026-03-28T21:10:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82833 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883077 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65401>;
   schema:lowPrice "28.5";
   schema:priceCurrency "CAD" .
@@ -165,11 +182,11 @@ _:ec4383dd32b74b0f85c637f958b321f82833 a schema:AggregateOffer;
   schema:startDate "2026-03-22T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/ef75da0d-ee82-4709-8110-8e7c5fe3f94d.jpeg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82834;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883078;
   schema:duration "PT135M";
   schema:endDate "2026-03-22T21:45:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82834 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883078 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/36401>;
   schema:lowPrice "17.5";
   schema:priceCurrency "CAD" .
@@ -183,11 +200,11 @@ _:ec4383dd32b74b0f85c637f958b321f82834 a schema:AggregateOffer;
   schema:startDate "2026-03-05T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/99cd95fc-a945-4c3b-951b-73b711ad5f2c.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82835;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883079;
   schema:duration "PT75M";
   schema:endDate "2026-03-05T21:15:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82835 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883079 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/62001>;
   schema:lowPrice "32.5";
   schema:priceCurrency "CAD" .
@@ -201,11 +218,11 @@ _:ec4383dd32b74b0f85c637f958b321f82835 a schema:AggregateOffer;
   schema:startDate "2026-03-19T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd54160a-779a-43ce-ac1f-a334a0427453.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82836;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883080;
   schema:duration "PT120M";
   schema:endDate "2026-03-19T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82836 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883080 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/64201>;
   schema:lowPrice "27.5";
   schema:priceCurrency "CAD" .
@@ -219,13 +236,67 @@ _:ec4383dd32b74b0f85c637f958b321f82836 a schema:AggregateOffer;
   schema:startDate "2026-04-10T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7370dfe4-feda-4357-aeff-113e7740af09.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82837;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883081;
   schema:duration "PT120M";
   schema:endDate "2026-04-10T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82837 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883081 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/64801>;
   schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/65601ABJVQCQRNKJTHQGGNGBHPDGVBKKD>
+  a schema:Event;
+  schema:name "Punch Up by Kat Sandler";
+  schema:description """
+	<h1>Punch Up by Kat Sandler</h1><span><br/></span>What happens when the Funniest Man Alive tries to help the Most Pathetic Guy Ever make the Saddest Girl in the World laugh?<span><br/></span><span><br/></span>Duncan is a boring guy, living a simple life and working at a bread factory. Then he stumbles upon Brenda, a sad young woman who’s about to end her life. Convinced he’s fallen in love, Duncan strikes up a desperate deal: if he can get her to laugh, she'll give life another shot, but if he can’t, he must help her go through with her plan.<span><br/></span><span><br/></span>The catch? Duncan isn’t funny. At all. So he borrows Pat, his second-favourite comedian, to help him come up with the perfect routine. But a bad break-up has left Pat in no mood to teach a lonely loser the difference between knock-knock jokes and schadenfreude while chained to a typewriter.<span><br/></span><span><br/></span>A tragicomedy of three misfits, Punch Up navigates a hostage situation and a life-or-death comedy lesson to show just how far we’ll go for a laugh.<span><br/></span><span><br/></span>Directed by Asha Bittenbender<span><br/></span>Featuring Michael Gwynne-Thompson, Josh Schroeder, and Brenna Symanski
+""";
+  schema:startDate "2026-06-25T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/5d77905a-7ce0-412c-9b03-bd741e6bf45e.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883082;
+  schema:duration "PT75M";
+  schema:endDate "2026-06-25T21:15:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7883082 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65601>;
+  schema:lowPrice "27.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/65801ABDQQTPTQHTDJVCCJNHQLNRJJCBG>
+  a schema:Event;
+  schema:name "Punch Up by Kat Sandler";
+  schema:description """
+	<h1>Punch Up by Kat Sandler</h1><span><br/></span>What happens when the Funniest Man Alive tries to help the Most Pathetic Guy Ever make the Saddest Girl in the World laugh?<span><br/></span><span><br/></span>Duncan is a boring guy, living a simple life and working at a bread factory. Then he stumbles upon Brenda, a sad young woman who’s about to end her life. Convinced he’s fallen in love, Duncan strikes up a desperate deal: if he can get her to laugh, she'll give life another shot, but if he can’t, he must help her go through with her plan.<span><br/></span><span><br/></span>The catch? Duncan isn’t funny. At all. So he borrows Pat, his second-favourite comedian, to help him come up with the perfect routine. But a bad break-up has left Pat in no mood to teach a lonely loser the difference between knock-knock jokes and schadenfreude while chained to a typewriter.<span><br/></span><span><br/></span>A tragicomedy of three misfits, Punch Up navigates a hostage situation and a life-or-death comedy lesson to show just how far we’ll go for a laugh.<span><br/></span><span><br/></span>Directed by Asha Bittenbender<span><br/></span>Featuring Michael Gwynne-Thompson, Josh Schroeder, and Brenna Symanski
+""";
+  schema:startDate "2026-06-26T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/5d77905a-7ce0-412c-9b03-bd741e6bf45e.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883083;
+  schema:duration "PT75M";
+  schema:endDate "2026-06-26T21:15:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7883083 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65801>;
+  schema:lowPrice "27.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/65802ATSHJMDCBCNQSPMPBSCBGMTRCNKL>
+  a schema:Event;
+  schema:name "Punch Up by Kat Sandler";
+  schema:description """
+	<h1>Punch Up by Kat Sandler</h1><span><br/></span>What happens when the Funniest Man Alive tries to help the Most Pathetic Guy Ever make the Saddest Girl in the World laugh?<span><br/></span><span><br/></span>Duncan is a boring guy, living a simple life and working at a bread factory. Then he stumbles upon Brenda, a sad young woman who’s about to end her life. Convinced he’s fallen in love, Duncan strikes up a desperate deal: if he can get her to laugh, she'll give life another shot, but if he can’t, he must help her go through with her plan.<span><br/></span><span><br/></span>The catch? Duncan isn’t funny. At all. So he borrows Pat, his second-favourite comedian, to help him come up with the perfect routine. But a bad break-up has left Pat in no mood to teach a lonely loser the difference between knock-knock jokes and schadenfreude while chained to a typewriter.<span><br/></span><span><br/></span>A tragicomedy of three misfits, Punch Up navigates a hostage situation and a life-or-death comedy lesson to show just how far we’ll go for a laugh.<span><br/></span><span><br/></span>Directed by Asha Bittenbender<span><br/></span>Featuring Michael Gwynne-Thompson, Josh Schroeder, and Brenna Symanski
+""";
+  schema:startDate "2026-06-27T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/5d77905a-7ce0-412c-9b03-bd741e6bf45e.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883084;
+  schema:duration "PT75M";
+  schema:endDate "2026-06-27T21:15:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7883084 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65802>;
+  schema:lowPrice "27.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/yukonartscentre/event/49201ADMHVCPDCGVCRJSKQMLVHNQNVVVH>
@@ -237,11 +308,11 @@ _:ec4383dd32b74b0f85c637f958b321f82837 a schema:AggregateOffer;
   schema:startDate "2026-03-20T18:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/07fd8fe7-4791-4765-9490-f94cc8be42f5.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82838;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883085;
   schema:duration "PT300M";
   schema:endDate "2026-03-20T23:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82838 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883085 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/49201>;
   schema:lowPrice "52.5";
   schema:priceCurrency "CAD" .
@@ -255,13 +326,121 @@ _:ec4383dd32b74b0f85c637f958b321f82838 a schema:AggregateOffer;
   schema:startDate "2026-04-27T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/a4d72fb9-a209-404c-9d77-205d7d4a49fd.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82839;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883086;
   schema:duration "PT120M";
   schema:endDate "2026-04-27T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82839 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883086 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/62801>;
   schema:lowPrice "7.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/66001AJSDDCKQDHCCKMMQLSPQJHHDNNSR>
+  a schema:Event;
+  schema:name "The Art is Alive: Beyond the Canvas";
+  schema:description """
+	<h1>The Art is Alive: Beyond the Canvas</h1><h2>Northern Lights School of Dance</h2><span><br/></span>See the paintings awaken into living works of performance art. Northern Lights School of Dance presents two rich and varied performances featuring its 370 students. “Tableaux Vivants” is a ballet, while “Beyond the Canvas” showcases Acro, Jazz, Tap, Street Styles and more. 
+""";
+  schema:startDate "2026-05-08T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/bf9912d0-b311-4375-a878-d4b142eb6e23.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883087;
+  schema:duration "PT120M";
+  schema:endDate "2026-05-08T21:00:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7883087 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/66001>;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/66201ANBJCCNMNTBQVCLNSBCLHRLCHCHL>
+  a schema:Event;
+  schema:name "The Art is Alive: Beyond the Canvas";
+  schema:description """
+	<h1>The Art is Alive: Beyond the Canvas</h1><h2>Northern Lights School of Dance</h2><span><br/></span>See the paintings awaken into living works of performance art. Northern Lights School of Dance presents two rich and varied performances featuring its 370 students. “Tableaux Vivants” is a ballet, while “Beyond the Canvas” showcases Acro, Jazz, Tap, Street Styles and more. 
+""";
+  schema:startDate "2026-05-09T13:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/bf9912d0-b311-4375-a878-d4b142eb6e23.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883088;
+  schema:duration "PT120M";
+  schema:endDate "2026-05-09T15:00:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7883088 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/66201>;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/66002AMJRRKMLMKQRPHRPCNVGRCJTPPSC>
+  a schema:Event;
+  schema:name "The Art is Alive: Beyond the Canvas";
+  schema:description """
+	<h1>The Art is Alive: Beyond the Canvas</h1><h2>Northern Lights School of Dance</h2><span><br/></span>See the paintings awaken into living works of performance art. Northern Lights School of Dance presents two rich and varied performances featuring its 370 students. “Tableaux Vivants” is a ballet, while “Beyond the Canvas” showcases Acro, Jazz, Tap, Street Styles and more. 
+""";
+  schema:startDate "2026-05-09T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/bf9912d0-b311-4375-a878-d4b142eb6e23.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883089;
+  schema:duration "PT120M";
+  schema:endDate "2026-05-09T21:00:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7883089 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/66002>;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/66401ABGHVCPGPCLVNGNMHHVHCCMPBDSP>
+  a schema:Event;
+  schema:name "The Art is Alive: Tableaux Vivants";
+  schema:description """
+	<h1>Northern Lights School of Dance</h1><h2>The Art is Alive: Tableaux Vivants</h2><span><br/></span>See the paintings awaken into living works of performance art. Northern Lights School of Dance presents two rich and varied performances featuring its 370 students. “Tableaux Vivants” is a ballet, while “Beyond the Canvas” showcases Acro, Jazz, Tap, Street Styles and more. 
+""";
+  schema:startDate "2026-05-13T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/cfa83ae7-cf7f-40c8-90ed-cff6af07c36a.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883090;
+  schema:duration "PT120M";
+  schema:endDate "2026-05-13T21:00:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7883090 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/66401>;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/66402AQSGKVVNKGTGDDCQQRVHVTCPGDRN>
+  a schema:Event;
+  schema:name "The Art is Alive: Tableaux Vivants";
+  schema:description """
+	<h1>Northern Lights School of Dance</h1><h2>The Art is Alive: Tableaux Vivants</h2><span><br/></span>See the paintings awaken into living works of performance art. Northern Lights School of Dance presents two rich and varied performances featuring its 370 students. “Tableaux Vivants” is a ballet, while “Beyond the Canvas” showcases Acro, Jazz, Tap, Street Styles and more. 
+""";
+  schema:startDate "2026-05-14T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/cfa83ae7-cf7f-40c8-90ed-cff6af07c36a.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883091;
+  schema:duration "PT120M";
+  schema:endDate "2026-05-14T21:00:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7883091 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/66402>;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/67001APKGPVRDVBKMDCRCRMPHDNRDBKDN>
+  a schema:Event;
+  schema:name "The Art is Alive: Tableaux Vivants (School Matinee)";
+  schema:description """
+	<h1>Northern Lights School of Dance </h1><h2>The Art is Alive: Tableaux Vivants School Matinee</h2>See the paintings awaken into living works of performance art. Northern Lights School of Dance presents two rich and varied performances featuring its 370 students. “Tableaux Vivants” is a ballet, while “Beyond the Canvas” showcases Acro, Jazz, Tap, Street Styles and more. 
+""";
+  schema:startDate "2026-05-14T12:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/79c80e21-9f9d-40d1-ae77-e4ae1be62622.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883092;
+  schema:duration "PT120M";
+  schema:endDate "2026-05-14T14:30:00"^^xsd:dateTime .
+
+_:27f0623284aa408d9fe9a7f2081ff7883092 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/67001>;
+  schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/yukonartscentre/event/60401AJBTCTVVQCDNPTHTLLCCKRPLQHLB>
@@ -273,11 +452,11 @@ _:ec4383dd32b74b0f85c637f958b321f82839 a schema:AggregateOffer;
   schema:startDate "2026-02-11T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd7b8c9e-a8ca-44f5-a85e-dbbde37a96a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82840;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883093;
   schema:duration "PT60M";
   schema:endDate "2026-02-11T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82840 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883093 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/60401>;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
@@ -291,11 +470,11 @@ _:ec4383dd32b74b0f85c637f958b321f82840 a schema:AggregateOffer;
   schema:startDate "2026-02-12T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd7b8c9e-a8ca-44f5-a85e-dbbde37a96a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82841;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883094;
   schema:duration "PT60M";
   schema:endDate "2026-02-12T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82841 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883094 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/59001>;
   schema:lowPrice "30.5";
   schema:priceCurrency "CAD" .
@@ -309,11 +488,11 @@ _:ec4383dd32b74b0f85c637f958b321f82841 a schema:AggregateOffer;
   schema:startDate "2026-02-13T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd7b8c9e-a8ca-44f5-a85e-dbbde37a96a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82842;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883095;
   schema:duration "PT60M";
   schema:endDate "2026-02-13T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82842 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883095 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/59201>;
   schema:lowPrice "30.5";
   schema:priceCurrency "CAD" .
@@ -327,11 +506,11 @@ _:ec4383dd32b74b0f85c637f958b321f82842 a schema:AggregateOffer;
   schema:startDate "2026-02-14T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd7b8c9e-a8ca-44f5-a85e-dbbde37a96a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82843;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883096;
   schema:duration "PT60M";
   schema:endDate "2026-02-14T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82843 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883096 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/59401>;
   schema:lowPrice "30.5";
   schema:priceCurrency "CAD" .
@@ -345,11 +524,11 @@ _:ec4383dd32b74b0f85c637f958b321f82843 a schema:AggregateOffer;
   schema:startDate "2026-02-18T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd7b8c9e-a8ca-44f5-a85e-dbbde37a96a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82844;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883097;
   schema:duration "PT60M";
   schema:endDate "2026-02-18T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82844 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883097 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/59002>;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
@@ -363,11 +542,11 @@ _:ec4383dd32b74b0f85c637f958b321f82844 a schema:AggregateOffer;
   schema:startDate "2026-02-19T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd7b8c9e-a8ca-44f5-a85e-dbbde37a96a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82845;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883098;
   schema:duration "PT60M";
   schema:endDate "2026-02-19T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82845 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883098 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/59801>;
   schema:lowPrice "30.5";
   schema:priceCurrency "CAD" .
@@ -381,11 +560,11 @@ _:ec4383dd32b74b0f85c637f958b321f82845 a schema:AggregateOffer;
   schema:startDate "2026-02-20T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd7b8c9e-a8ca-44f5-a85e-dbbde37a96a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82846;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883099;
   schema:duration "PT60M";
   schema:endDate "2026-02-20T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82846 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883099 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/60001>;
   schema:lowPrice "30.5";
   schema:priceCurrency "CAD" .
@@ -399,11 +578,11 @@ _:ec4383dd32b74b0f85c637f958b321f82846 a schema:AggregateOffer;
   schema:startDate "2026-02-21T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd7b8c9e-a8ca-44f5-a85e-dbbde37a96a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82847;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883100;
   schema:duration "PT60M";
   schema:endDate "2026-02-21T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82847 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883100 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/60201>;
   schema:lowPrice "30.5";
   schema:priceCurrency "CAD" .
@@ -417,11 +596,11 @@ _:ec4383dd32b74b0f85c637f958b321f82847 a schema:AggregateOffer;
   schema:startDate "2026-02-25T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd7b8c9e-a8ca-44f5-a85e-dbbde37a96a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82848;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883101;
   schema:duration "PT60M";
   schema:endDate "2026-02-25T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82848 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883101 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/59202>;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
@@ -435,11 +614,11 @@ _:ec4383dd32b74b0f85c637f958b321f82848 a schema:AggregateOffer;
   schema:startDate "2026-02-26T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd7b8c9e-a8ca-44f5-a85e-dbbde37a96a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82849;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883102;
   schema:duration "PT60M";
   schema:endDate "2026-02-26T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82849 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883102 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/59203>;
   schema:lowPrice "30.5";
   schema:priceCurrency "CAD" .
@@ -453,11 +632,11 @@ _:ec4383dd32b74b0f85c637f958b321f82849 a schema:AggregateOffer;
   schema:startDate "2026-02-27T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd7b8c9e-a8ca-44f5-a85e-dbbde37a96a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82850;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883103;
   schema:duration "PT60M";
   schema:endDate "2026-02-27T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82850 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883103 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/58802>;
   schema:lowPrice "30.5";
   schema:priceCurrency "CAD" .
@@ -471,11 +650,11 @@ _:ec4383dd32b74b0f85c637f958b321f82850 a schema:AggregateOffer;
   schema:startDate "2026-02-28T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/cd7b8c9e-a8ca-44f5-a85e-dbbde37a96a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82851;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883104;
   schema:duration "PT60M";
   schema:endDate "2026-02-28T20:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82851 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883104 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/60601>;
   schema:lowPrice "30.5";
   schema:priceCurrency "CAD" .
@@ -489,11 +668,11 @@ _:ec4383dd32b74b0f85c637f958b321f82851 a schema:AggregateOffer;
   schema:startDate "2026-04-08T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82852;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883105;
   schema:duration "PT120M";
   schema:endDate "2026-04-08T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82852 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883105 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65201>;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
@@ -507,11 +686,11 @@ _:ec4383dd32b74b0f85c637f958b321f82852 a schema:AggregateOffer;
   schema:startDate "2026-04-09T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82853;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883106;
   schema:duration "PT120M";
   schema:endDate "2026-04-09T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82853 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883106 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65001>;
   schema:lowPrice "36.5";
   schema:priceCurrency "CAD" .
@@ -525,11 +704,11 @@ _:ec4383dd32b74b0f85c637f958b321f82853 a schema:AggregateOffer;
   schema:startDate "2026-04-10T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82854;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883107;
   schema:duration "PT120M";
   schema:endDate "2026-04-10T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82854 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883107 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65002>;
   schema:lowPrice "36.5";
   schema:priceCurrency "CAD" .
@@ -543,11 +722,11 @@ _:ec4383dd32b74b0f85c637f958b321f82854 a schema:AggregateOffer;
   schema:startDate "2026-04-11T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82855;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883108;
   schema:duration "PT120M";
   schema:endDate "2026-04-11T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82855 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883108 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65003>;
   schema:lowPrice "36.5";
   schema:priceCurrency "CAD" .
@@ -561,11 +740,11 @@ _:ec4383dd32b74b0f85c637f958b321f82855 a schema:AggregateOffer;
   schema:startDate "2026-04-15T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82856;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883109;
   schema:duration "PT120M";
   schema:endDate "2026-04-15T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82856 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883109 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65202>;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
@@ -579,11 +758,11 @@ _:ec4383dd32b74b0f85c637f958b321f82856 a schema:AggregateOffer;
   schema:startDate "2026-04-16T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82857;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883110;
   schema:duration "PT120M";
   schema:endDate "2026-04-16T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82857 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883110 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65004>;
   schema:lowPrice "36.5";
   schema:priceCurrency "CAD" .
@@ -597,11 +776,11 @@ _:ec4383dd32b74b0f85c637f958b321f82857 a schema:AggregateOffer;
   schema:startDate "2026-04-17T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82858;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883111;
   schema:duration "PT120M";
   schema:endDate "2026-04-17T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82858 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883111 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65005>;
   schema:lowPrice "36.5";
   schema:priceCurrency "CAD" .
@@ -615,11 +794,11 @@ _:ec4383dd32b74b0f85c637f958b321f82858 a schema:AggregateOffer;
   schema:startDate "2026-04-18T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82859;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883112;
   schema:duration "PT120M";
   schema:endDate "2026-04-18T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82859 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883112 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65006>;
   schema:lowPrice "36.5";
   schema:priceCurrency "CAD" .
@@ -633,11 +812,11 @@ _:ec4383dd32b74b0f85c637f958b321f82859 a schema:AggregateOffer;
   schema:startDate "2026-04-22T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82860;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883113;
   schema:duration "PT120M";
   schema:endDate "2026-04-22T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82860 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883113 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65203>;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
@@ -651,11 +830,11 @@ _:ec4383dd32b74b0f85c637f958b321f82860 a schema:AggregateOffer;
   schema:startDate "2026-04-23T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82861;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883114;
   schema:duration "PT120M";
   schema:endDate "2026-04-23T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82861 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883114 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65007>;
   schema:lowPrice "36.5";
   schema:priceCurrency "CAD" .
@@ -669,11 +848,11 @@ _:ec4383dd32b74b0f85c637f958b321f82861 a schema:AggregateOffer;
   schema:startDate "2026-04-24T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82862;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883115;
   schema:duration "PT120M";
   schema:endDate "2026-04-24T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82862 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883115 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65008>;
   schema:lowPrice "36.5";
   schema:priceCurrency "CAD" .
@@ -687,11 +866,11 @@ _:ec4383dd32b74b0f85c637f958b321f82862 a schema:AggregateOffer;
   schema:startDate "2026-04-25T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82863;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883116;
   schema:duration "PT120M";
   schema:endDate "2026-04-25T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82863 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883116 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65009>;
   schema:lowPrice "36.5";
   schema:priceCurrency "CAD" .
@@ -705,11 +884,11 @@ _:ec4383dd32b74b0f85c637f958b321f82863 a schema:AggregateOffer;
   schema:startDate "2026-04-29T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82864;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883117;
   schema:duration "PT120M";
   schema:endDate "2026-04-29T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82864 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883117 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65204>;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
@@ -723,11 +902,11 @@ _:ec4383dd32b74b0f85c637f958b321f82864 a schema:AggregateOffer;
   schema:startDate "2026-04-30T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82865;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883118;
   schema:duration "PT120M";
   schema:endDate "2026-04-30T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82865 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883118 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65010>;
   schema:lowPrice "36.5";
   schema:priceCurrency "CAD" .
@@ -741,11 +920,11 @@ _:ec4383dd32b74b0f85c637f958b321f82865 a schema:AggregateOffer;
   schema:startDate "2026-05-01T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82866;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883119;
   schema:duration "PT120M";
   schema:endDate "2026-05-01T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82866 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883119 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65011>;
   schema:lowPrice "36.5";
   schema:priceCurrency "CAD" .
@@ -759,11 +938,11 @@ _:ec4383dd32b74b0f85c637f958b321f82866 a schema:AggregateOffer;
   schema:startDate "2026-05-02T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7580a91d-0ba8-4756-bb99-f18746a1b183.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82867;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883120;
   schema:duration "PT120M";
   schema:endDate "2026-05-02T21:00:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82867 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883120 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65012>;
   schema:lowPrice "36.5";
   schema:priceCurrency "CAD" .
@@ -777,11 +956,11 @@ _:ec4383dd32b74b0f85c637f958b321f82867 a schema:AggregateOffer;
   schema:startDate "2026-05-14T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/5f5cb17a-368f-45b2-8e67-e2b07766e2a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82868;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883121;
   schema:duration "PT75M";
   schema:endDate "2026-05-14T21:15:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82868 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883121 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/62601>;
   schema:lowPrice "17.5";
   schema:priceCurrency "CAD" .
@@ -795,11 +974,11 @@ _:ec4383dd32b74b0f85c637f958b321f82868 a schema:AggregateOffer;
   schema:startDate "2026-05-15T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/5f5cb17a-368f-45b2-8e67-e2b07766e2a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82869;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883122;
   schema:duration "PT75M";
   schema:endDate "2026-05-15T21:15:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82869 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883122 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/62602>;
   schema:lowPrice "17.5";
   schema:priceCurrency "CAD" .
@@ -813,11 +992,11 @@ _:ec4383dd32b74b0f85c637f958b321f82869 a schema:AggregateOffer;
   schema:startDate "2026-05-16T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/5f5cb17a-368f-45b2-8e67-e2b07766e2a8.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82870;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883123;
   schema:duration "PT75M";
   schema:endDate "2026-05-16T21:15:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82870 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883123 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/62603>;
   schema:lowPrice "17.5";
   schema:priceCurrency "CAD" .
@@ -831,11 +1010,11 @@ _:ec4383dd32b74b0f85c637f958b321f82870 a schema:AggregateOffer;
   schema:startDate "2026-04-11T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/30962623-ccc5-4cb0-8b21-0ed478fec5ba.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:ec4383dd32b74b0f85c637f958b321f82871;
+  schema:offers _:27f0623284aa408d9fe9a7f2081ff7883124;
   schema:duration "PT75M";
   schema:endDate "2026-04-11T20:15:00"^^xsd:dateTime .
 
-_:ec4383dd32b74b0f85c637f958b321f82871 a schema:AggregateOffer;
+_:27f0623284aa408d9fe9a7f2081ff7883124 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/62201>;
   schema:lowPrice "7.5";
   schema:priceCurrency "CAD" .
