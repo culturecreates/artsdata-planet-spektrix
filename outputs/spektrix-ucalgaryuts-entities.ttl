@@ -8,20 +8,20 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/ucalgaryuts/event/150601ADQLKMBTCQGNPSTKLSLKKRSCBKS> a schema:Event;
-  schema:name "Calgary Vocal Festival Showcase Concert";
+<http://www.spektrix.com/ucalgaryuts/event/154401ADQDKNDGVMGCPBVSVTHJJDSNDNL> a schema:Event;
+  schema:name "2026 Year End Gala Concert";
   schema:description """
 	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
 """;
-  schema:startDate "2026-04-25T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/ucalgaryuts/files/e8606e21-8fe3-4650-921f-cc2eb13b1294.jpg>;
+  schema:startDate "2026-05-30T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/ucalgaryuts/files/53c8ea4e-18ef-4dc9-b383-72f64074e010.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882071;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92113;
   schema:duration "PT60M";
-  schema:endDate "2026-04-25T20:30:00"^^xsd:dateTime .
+  schema:endDate "2026-05-30T15:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882071 a schema:AggregateOffer;
-  schema:url <https://theatre-tickets.ucalgary.ca/?tx=121201>;
+_:78f1e3f00e524974ab72909aa5a3a4a92113 a schema:AggregateOffer;
+  schema:url <https://theatre-tickets.ucalgary.ca/?tx=124401>;
   schema:lowPrice "7.5";
   schema:priceCurrency "CAD" .
 
@@ -33,6 +33,55 @@ _:27f0623284aa408d9fe9a7f2081ff7882071 a schema:AggregateOffer;
   schema:streetAddress "206 University Court NW";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/ucalgaryuts/event/154601ACRLNBTBKDTRRJTDJBBGLQKMDCS> a schema:Event;
+  schema:name "Airs, Dances, and Variations";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2026-06-08T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92114;
+  schema:duration "PT60M";
+  schema:endDate "2026-06-08T20:30:00"^^xsd:dateTime .
+
+_:78f1e3f00e524974ab72909aa5a3a4a92114 a schema:AggregateOffer;
+  schema:url <https://theatre-tickets.ucalgary.ca/?tx=124601>;
+  schema:lowPrice "12.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/ucalgaryuts/event/154801ADMTBVNDSKGBTCJBQDMLRJLNGRK> a schema:Event;
+  schema:name "Annual Spring Concert";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2026-05-28T19:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92115;
+  schema:duration "PT60M";
+  schema:endDate "2026-05-28T20:00:00"^^xsd:dateTime .
+
+_:78f1e3f00e524974ab72909aa5a3a4a92115 a schema:AggregateOffer;
+  schema:url <https://theatre-tickets.ucalgary.ca/?tx=124801>;
+  schema:lowPrice "7.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/ucalgaryuts/event/150601ADQLKMBTCQGNPSTKLSLKKRSCBKS> a schema:Event;
+  schema:name "Calgary Vocal Festival Showcase Concert";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2026-04-25T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/ucalgaryuts/files/e8606e21-8fe3-4650-921f-cc2eb13b1294.jpg>;
+  schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92116;
+  schema:duration "PT60M";
+  schema:endDate "2026-04-25T20:30:00"^^xsd:dateTime .
+
+_:78f1e3f00e524974ab72909aa5a3a4a92116 a schema:AggregateOffer;
+  schema:url <https://theatre-tickets.ucalgary.ca/?tx=121201>;
+  schema:lowPrice "7.5";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/ucalgaryuts/event/148401AHQDJPRRQDPKTJSVKMQLBTGVMGT> a schema:Event;
   schema:name "Celebrating World Premieres";
   schema:description """
@@ -41,11 +90,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882071 a schema:AggregateOffer;
   schema:startDate "2026-03-28T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/565669b7-4ade-42c3-b9fc-9293dd606454.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882072;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92117;
   schema:duration "PT60M";
   schema:endDate "2026-03-28T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882072 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92117 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=119001>;
   schema:lowPrice "8.5";
   schema:priceCurrency "CAD" .
@@ -58,11 +107,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882072 a schema:AggregateOffer;
   schema:startDate "2025-05-21T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/c11cdf9b-7bc7-446f-bae6-57a2c96a66e9.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882073;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92118;
   schema:duration "PT60M";
   schema:endDate "2025-05-21T20:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882073 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92118 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=105401>;
   schema:lowPrice "12.5";
   schema:priceCurrency "CAD" .
@@ -75,11 +124,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882073 a schema:AggregateOffer;
   schema:startDate "2026-06-07T11:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/4a6ee333-e3f5-40a7-b721-8dc43683dd2e.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882074;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92119;
   schema:duration "PT60M";
   schema:endDate "2026-06-07T12:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882074 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92119 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=124001>;
   schema:lowPrice "22.5";
   schema:priceCurrency "CAD" .
@@ -99,11 +148,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882074 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/ucalgaryuts/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882075;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92120;
   schema:duration "PT60M";
   schema:endDate "2026-04-10T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882075 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92120 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=111201>;
   schema:lowPrice "9.0";
   schema:priceCurrency "CAD" .
@@ -123,11 +172,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882075 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-11T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/ucalgaryuts/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882076;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92121;
   schema:duration "PT60M";
   schema:endDate "2026-04-11T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882076 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92121 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=111201>;
   schema:lowPrice "9.0";
   schema:priceCurrency "CAD" .
@@ -140,11 +189,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882076 a schema:AggregateOffer;
   schema:startDate "2025-10-26T14:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/fb3f8180-6446-4ade-86d6-98171d4c825e.jpeg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882077;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92122;
   schema:duration "PT60M";
   schema:endDate "2025-10-26T15:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882077 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92122 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=115601>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -156,11 +205,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882077 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-26T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882078;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92123;
   schema:duration "PT60M";
   schema:endDate "2026-03-26T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882078 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92123 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=115001>;
   schema:lowPrice "9.0";
   schema:priceCurrency "CAD" .
@@ -172,13 +221,61 @@ _:27f0623284aa408d9fe9a7f2081ff7882078 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882079;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92124;
   schema:duration "PT60M";
   schema:endDate "2026-03-27T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882079 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92124 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=115001>;
   schema:lowPrice "9.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/ucalgaryuts/event/155001ATLNPMBMQPHCMDJPMLMMNNGTDGB> a schema:Event;
+  schema:name "Div 1 Show “All About Me”";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2026-05-30T14:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92125;
+  schema:duration "PT60M";
+  schema:endDate "2026-05-30T15:30:00"^^xsd:dateTime .
+
+_:78f1e3f00e524974ab72909aa5a3a4a92125 a schema:AggregateOffer;
+  schema:url <https://theatre-tickets.ucalgary.ca/?tx=125001>;
+  schema:lowPrice "27.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/ucalgaryuts/event/154602ARQKHVMDTDGRNSMLQHPNTTKHBQS> a schema:Event;
+  schema:name "Div 2 Show “Growing Strong”";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2026-05-30T18:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92126;
+  schema:duration "PT60M";
+  schema:endDate "2026-05-30T19:30:00"^^xsd:dateTime .
+
+_:78f1e3f00e524974ab72909aa5a3a4a92126 a schema:AggregateOffer;
+  schema:url <https://theatre-tickets.ucalgary.ca/?tx=124602>;
+  schema:lowPrice "27.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/ucalgaryuts/event/155201ASVRJVBHKTKVHKRVMGNLSDBJDLD> a schema:Event;
+  schema:name "Div 3 Show \"Thrive\"";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span>
+""";
+  schema:startDate "2026-06-27T18:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92127;
+  schema:duration "PT60M";
+  schema:endDate "2026-06-27T19:30:00"^^xsd:dateTime .
+
+_:78f1e3f00e524974ab72909aa5a3a4a92127 a schema:AggregateOffer;
+  schema:url <https://theatre-tickets.ucalgary.ca/?tx=125201>;
+  schema:lowPrice "31.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/ucalgaryuts/event/149401ALSPNQKBLRBDJBKVKJLTNBBJLMB> a schema:Event;
@@ -189,11 +286,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882079 a schema:AggregateOffer;
   schema:startDate "2026-05-06T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/67f35b04-92b2-402d-9e79-42942d50d04e.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882080;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92128;
   schema:duration "PT60M";
   schema:endDate "2026-05-06T20:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882080 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92128 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=120001>;
   schema:lowPrice "15.5";
   schema:priceCurrency "CAD" .
@@ -206,11 +303,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882080 a schema:AggregateOffer;
   schema:startDate "2026-05-07T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/dd1488c4-4988-4ab0-8c9f-a9bafddbc2aa.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882081;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92129;
   schema:duration "PT60M";
   schema:endDate "2026-05-07T20:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882081 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92129 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=120201>;
   schema:lowPrice "15.5";
   schema:priceCurrency "CAD" .
@@ -223,11 +320,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882081 a schema:AggregateOffer;
   schema:startDate "2026-05-09T16:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/28e181bc-e021-4f80-8c8f-35e31a5fa98f.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882082;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92130;
   schema:duration "PT60M";
   schema:endDate "2026-05-09T17:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882082 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92130 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=123001>;
   schema:lowPrice "27.5";
   schema:priceCurrency "CAD" .
@@ -240,11 +337,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882082 a schema:AggregateOffer;
   schema:startDate "2026-06-14T14:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/6332dcb2-bc91-418e-9429-b1a25bb1e780.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882083;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92131;
   schema:duration "PT60M";
   schema:endDate "2026-06-14T15:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882083 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92131 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=119201>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -257,11 +354,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882083 a schema:AggregateOffer;
   schema:startDate "2026-04-18T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/f54b3a1e-9a5c-4ad7-a179-63b469ab3793.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882084;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92132;
   schema:duration "PT60M";
   schema:endDate "2026-04-18T20:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882084 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92132 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=119401>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -274,11 +371,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882084 a schema:AggregateOffer;
   schema:startDate "2026-06-07T15:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/06d79cbe-55fd-4d00-9d2d-17b59428034c.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882085;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92133;
   schema:duration "PT60M";
   schema:endDate "2026-06-07T16:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882085 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92133 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=123801>;
   schema:lowPrice "17.5";
   schema:priceCurrency "CAD" .
@@ -290,11 +387,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882085 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882086;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92134;
   schema:duration "PT60M";
   schema:endDate "2026-03-12T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882086 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92134 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=109401>;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
@@ -306,11 +403,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882086 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882087;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92135;
   schema:duration "PT60M";
   schema:endDate "2026-03-13T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882087 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92135 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=109401>;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
@@ -322,11 +419,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882087 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882088;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92136;
   schema:duration "PT60M";
   schema:endDate "2026-03-14T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882088 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92136 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=109401>;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
@@ -339,11 +436,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882088 a schema:AggregateOffer;
   schema:startDate "2026-03-02T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/74b93770-aafa-4039-8491-0c8dd2a38a66.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882089;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92137;
   schema:duration "PT60M";
   schema:endDate "2026-03-02T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882089 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92137 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=113601>;
   schema:lowPrice "17.0";
   schema:priceCurrency "CAD" .
@@ -356,11 +453,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882089 a schema:AggregateOffer;
   schema:startDate "2026-05-07T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/d6fca04a-a9b7-43f3-9d36-b79f97072c6f.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882090;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92138;
   schema:duration "PT60M";
   schema:endDate "2026-05-07T20:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882090 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92138 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=121601>;
   schema:lowPrice "12.5";
   schema:priceCurrency "CAD" .
@@ -373,11 +470,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882090 a schema:AggregateOffer;
   schema:startDate "2026-05-17T09:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/22edc222-d425-4e1a-b363-94474c39c6e8.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882091;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92139;
   schema:duration "PT60M";
   schema:endDate "2026-05-17T10:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882091 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92139 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=120401>;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
@@ -390,13 +487,30 @@ _:27f0623284aa408d9fe9a7f2081ff7882091 a schema:AggregateOffer;
   schema:startDate "2026-05-17T17:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/462d4d3e-e88b-48c9-80a6-525009349bce.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882092;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92140;
   schema:duration "PT60M";
   schema:endDate "2026-05-17T18:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882092 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92140 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=120601>;
   schema:lowPrice "29.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/ucalgaryuts/event/155401ABPSMPLBQDNCHMRVBTGRQRMTMKQ> a schema:Event;
+  schema:name "ONCUE and ENCORE: Full Circle";
+  schema:description """
+	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span><span><br/></span>
+""";
+  schema:startDate "2026-06-06T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/ucalgaryuts/files/c5237c7d-20e2-4515-a77b-3f2527573afd.jpg>;
+  schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92141;
+  schema:duration "PT60M";
+  schema:endDate "2026-06-06T20:30:00"^^xsd:dateTime .
+
+_:78f1e3f00e524974ab72909aa5a3a4a92141 a schema:AggregateOffer;
+  schema:url <https://theatre-tickets.ucalgary.ca/?tx=125401>;
+  schema:lowPrice "12.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/ucalgaryuts/event/153001ABDHNCPSBRTHDQRPSNMVVNRKLVR> a schema:Event;
@@ -407,11 +521,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882092 a schema:AggregateOffer;
   schema:startDate "2026-05-22T18:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/2139607b-210b-4d29-a8d7-7c0ccde31332.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882093;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92142;
   schema:duration "PT60M";
   schema:endDate "2026-05-22T19:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882093 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92142 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=123601>;
   schema:lowPrice "25.5";
   schema:priceCurrency "CAD" .
@@ -424,11 +538,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882093 a schema:AggregateOffer;
   schema:startDate "2026-05-23T18:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/2139607b-210b-4d29-a8d7-7c0ccde31332.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882094;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92143;
   schema:duration "PT60M";
   schema:endDate "2026-05-23T19:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882094 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92143 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=123601>;
   schema:lowPrice "25.5";
   schema:priceCurrency "CAD" .
@@ -441,11 +555,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882094 a schema:AggregateOffer;
   schema:startDate "2026-03-25T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/c98abe49-3cd4-4d88-9915-ac1a3dcaadb0.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882095;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92144;
   schema:duration "PT60M";
   schema:endDate "2026-03-25T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882095 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92144 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=113801>;
   schema:lowPrice "9.0";
   schema:priceCurrency "CAD" .
@@ -458,11 +572,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882095 a schema:AggregateOffer;
   schema:startDate "2026-05-10T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/0013c6c3-67f2-4999-aa03-ea7ea6a58ff4.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882096;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92145;
   schema:duration "PT60M";
   schema:endDate "2026-05-10T15:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882096 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92145 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=122401>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -475,11 +589,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882096 a schema:AggregateOffer;
   schema:startDate "2026-06-06T13:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/87fba09c-64b6-4bbf-a582-34e43975e313.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882097;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92146;
   schema:duration "PT60M";
   schema:endDate "2026-06-06T14:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882097 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92146 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=120801>;
   schema:lowPrice "32.5";
   schema:priceCurrency "CAD" .
@@ -490,12 +604,13 @@ _:27f0623284aa408d9fe9a7f2081ff7882097 a schema:AggregateOffer;
 	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span><span><br/></span><span><br/></span> 
 """;
   schema:startDate "2026-06-10T17:45:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/ucalgaryuts/files/3643bdba-2392-4bc1-a59d-674277fda7a2.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882098;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92147;
   schema:duration "PT60M";
   schema:endDate "2026-06-10T18:45:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882098 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92147 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=124201>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -506,12 +621,13 @@ _:27f0623284aa408d9fe9a7f2081ff7882098 a schema:AggregateOffer;
 	<span class=\"ItalicText\">Tickets are non-refundable and unchangeable.</span><span><br/></span><span><br/></span><span class=\"ItalicText\">By purchasing tickets, the ticket holder acknowledges that there may be photographs and-or videos taken of them while in University Theatre Services venues, and consents to the use of these photographs and-or videos in future promotional and-or marketing materials.</span><span><br/></span><span><br/></span> 
 """;
   schema:startDate "2026-06-11T17:45:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/ucalgaryuts/files/3643bdba-2392-4bc1-a59d-674277fda7a2.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882099;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92148;
   schema:duration "PT60M";
   schema:endDate "2026-06-11T18:45:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882099 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92148 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=124201>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -524,11 +640,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882099 a schema:AggregateOffer;
   schema:startDate "2026-05-15T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/d726eaf0-20da-4b8a-8910-3ef3012495f2.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882100;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92149;
   schema:duration "PT60M";
   schema:endDate "2026-05-15T20:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882100 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92149 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=122601>;
   schema:lowPrice "27.5";
   schema:priceCurrency "CAD" .
@@ -540,11 +656,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882100 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-19T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/ucalgaryuts/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882101;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92150;
   schema:duration "PT60M";
   schema:endDate "2026-03-19T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882101 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92150 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=119601>;
   schema:lowPrice "8.0";
   schema:priceCurrency "CAD" .
@@ -556,11 +672,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882101 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/ucalgaryuts/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882102;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92151;
   schema:duration "PT60M";
   schema:endDate "2026-03-20T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882102 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92151 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=119601>;
   schema:lowPrice "8.0";
   schema:priceCurrency "CAD" .
@@ -572,11 +688,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882102 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/ucalgaryuts/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882103;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92152;
   schema:duration "PT60M";
   schema:endDate "2026-03-21T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882103 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92152 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=119601>;
   schema:lowPrice "8.0";
   schema:priceCurrency "CAD" .
@@ -589,11 +705,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882103 a schema:AggregateOffer;
   schema:startDate "2026-04-07T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/955bbf70-a5a6-457a-bedb-606ee1456dd2.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882104;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92153;
   schema:duration "PT60M";
   schema:endDate "2026-04-07T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882104 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92153 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=114401>;
   schema:lowPrice "9.0";
   schema:priceCurrency "CAD" .
@@ -606,11 +722,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882104 a schema:AggregateOffer;
   schema:startDate "2026-04-02T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/3b2da5cc-b9e8-4d4b-8b9c-0e8995e267a1.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882105;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92154;
   schema:duration "PT60M";
   schema:endDate "2026-04-02T21:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882105 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92154 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=113002>;
   schema:lowPrice "9.0";
   schema:priceCurrency "CAD" .
@@ -623,11 +739,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882105 a schema:AggregateOffer;
   schema:startDate "2026-04-17T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/8eb8988c-5398-47a1-847b-7a4b85156c92.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882106;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92155;
   schema:duration "PT60M";
   schema:endDate "2026-04-17T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882106 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92155 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=115201>;
   schema:lowPrice "9.0";
   schema:priceCurrency "CAD" .
@@ -640,11 +756,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882106 a schema:AggregateOffer;
   schema:startDate "2026-04-09T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/bf19f01f-a797-4fea-a5ec-02c6629f3502.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882107;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92156;
   schema:duration "PT60M";
   schema:endDate "2026-04-09T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882107 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92156 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=114601>;
   schema:lowPrice "9.0";
   schema:priceCurrency "CAD" .
@@ -657,11 +773,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882107 a schema:AggregateOffer;
   schema:startDate "2026-04-10T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/788bc7b1-4a96-44a6-981d-0be88db251b4.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882108;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92157;
   schema:duration "PT60M";
   schema:endDate "2026-04-10T20:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882108 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92157 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=114801>;
   schema:lowPrice "9.0";
   schema:priceCurrency "CAD" .
@@ -674,11 +790,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882108 a schema:AggregateOffer;
   schema:startDate "2026-03-30T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/6e1b5b3d-ba63-403b-9004-e1fa88021cae.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882109;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92158;
   schema:duration "PT60M";
   schema:endDate "2026-03-30T21:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882109 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92158 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=114201>;
   schema:lowPrice "9.0";
   schema:priceCurrency "CAD" .
@@ -691,11 +807,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882109 a schema:AggregateOffer;
   schema:startDate "2026-05-03T18:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/4b7157be-fdc7-49a0-bca7-35aa08eefe53.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882110;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92159;
   schema:duration "PT60M";
   schema:endDate "2026-05-03T19:30:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882110 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92159 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=121401>;
   schema:lowPrice "12.5";
   schema:priceCurrency "CAD" .
@@ -708,11 +824,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882110 a schema:AggregateOffer;
   schema:startDate "2026-05-09T15:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/77b1cd3e-5a25-4afb-a677-05a5c8c55aeb.jpeg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/403ASKCQMVCSKPPLNQMQPJVVSRPGMSKLR>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882111;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92160;
   schema:duration "PT60M";
   schema:endDate "2026-05-09T16:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882111 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92160 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=123002>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -725,11 +841,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882111 a schema:AggregateOffer;
   schema:startDate "2026-04-19T13:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/dfe1f17c-86d8-4626-9dbf-02d9609b8327.jpg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882112;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92161;
   schema:duration "PT60M";
   schema:endDate "2026-04-19T14:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882112 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92161 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=121801>;
   schema:lowPrice "12.5";
   schema:priceCurrency "CAD" .
@@ -742,11 +858,11 @@ _:27f0623284aa408d9fe9a7f2081ff7882112 a schema:AggregateOffer;
   schema:startDate "2026-05-02T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/ucalgaryuts/files/dd2289c0-78db-4b8a-886f-fa74bba60bf3.jpeg>;
   schema:location <https://spektrix.com/ucalgaryuts/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:27f0623284aa408d9fe9a7f2081ff7882113;
+  schema:offers _:78f1e3f00e524974ab72909aa5a3a4a92162;
   schema:duration "PT60M";
   schema:endDate "2026-05-02T15:00:00"^^xsd:dateTime .
 
-_:27f0623284aa408d9fe9a7f2081ff7882113 a schema:AggregateOffer;
+_:78f1e3f00e524974ab72909aa5a3a4a92162 a schema:AggregateOffer;
   schema:url <https://theatre-tickets.ucalgary.ca/?tx=122801>;
   schema:lowPrice "12.5";
   schema:priceCurrency "CAD" .
