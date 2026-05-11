@@ -18,7 +18,7 @@
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/35ba5b33-652d-4330-849d-7a32f7b1b961.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5253;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75259;
   schema:duration "PT100M";
   schema:endDate "2025-11-16T16:40:00"^^xsd:dateTime .
 
@@ -27,7 +27,7 @@
   schema:name "Vancouver Recital Society";
   schema:sameAs <http://kg.artsdata.ca/resource/K10-348> .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5253 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75259 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=ALTSTAEDT_DUNFORD>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
@@ -45,6 +45,31 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5253 a schema:AggregateOffer;
   schema:postalCode "V6B 5N6";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/vancouverrecitalsociety/event/8001ARTDCCTGLQPKPGKVDJPJMKTGHTJJP>
+  a schema:Event;
+  schema:name "Andras Schiff ";
+  schema:description """
+
+""";
+  schema:startDate "2026-12-06T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/b2c7a994-19a9-4288-91a6-4aef87816582.jpeg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
+  schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
+  schema:duration "PT90M";
+  schema:endDate "2026-12-06T16:30:00"^^xsd:dateTime .
+
+<https://spektrix.com/vancouverrecitalsociety/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>
+  a schema:Place;
+  schema:name "Roy Barnett Hall";
+  schema:address <https://spektrix.com/vancouverrecitalsociety/address/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
+
+<https://spektrix.com/vancouverrecitalsociety/address/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>
+  a schema:PostalAddress;
+  schema:streetAddress "6361 Memorial Rd";
+  schema:addressLocality "Vancouver";
+  schema:addressRegion "BC";
+  schema:addressCountry "CA" .
+
 <http://www.spektrix.com/vancouverrecitalsociety/event/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>
   a schema:Event;
   schema:name "Andrea Lucchesini";
@@ -55,14 +80,27 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5253 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/b9ecb00c-55ab-439b-840b-3e3032d430bc.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5254;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75260;
   schema:duration "PT100M";
   schema:endDate "2025-09-21T16:40:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5254 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75260 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=LUCCHESINI>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/6203AKCSLRMTTMDHGKNRNDNLVGVTVNBGQ>
+  a schema:Event;
+  schema:name "Appl & Sidorova";
+  schema:description """
+
+""";
+  schema:startDate "2027-03-07T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/beabbfa8-8917-4da1-8139-f57dc5f98fdb.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
+  schema:duration "PT60M";
+  schema:endDate "2027-03-07T16:00:00"^^xsd:dateTime .
 
 <http://www.spektrix.com/vancouverrecitalsociety/event/3401ARKRNLBJKDJTKHBHRJBNHVDNSKPTR>
   a schema:Event;
@@ -74,11 +112,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5254 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/01c35db9-7568-4b49-84ca-884d3e59ce67.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5255;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75261;
   schema:duration "PT100M";
   schema:endDate "2026-03-19T21:10:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5255 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75261 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=APPL_BAILLIEU1>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -106,11 +144,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5255 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/efe9cf46-e3d4-453f-81b3-06a8639f768a.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5256;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75262;
   schema:duration "PT60M";
   schema:endDate "2026-03-20T20:30:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5256 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75262 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=APPL_BAILLIEU2>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -125,11 +163,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5256 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/6ab98d68-b43e-4dbe-ac5a-91ef0578413f.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5257;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75263;
   schema:duration "PT60M";
   schema:endDate "2026-03-22T16:00:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5257 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75263 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=APPL_BAILLIEU3>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -144,11 +182,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5257 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/5eca8134-5303-4bab-8ed8-463ea53a2701.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5258;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75264;
   schema:duration "PT100M";
   schema:endDate "2026-05-07T21:40:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5258 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75264 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=SUMINO>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
@@ -166,6 +204,19 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5258 a schema:AggregateOffer;
   schema:postalCode "V6B 3L4";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/vancouverrecitalsociety/event/9601AVDDJDNPPDCBTDGNSVVJSTBLBSPNQ>
+  a schema:Event;
+  schema:name "Jean Rondeau";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-15T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/994e1379-b8a7-4e30-897a-95c7cb054c59.jpeg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
+  schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
+  schema:duration "PT90M";
+  schema:endDate "2026-11-15T16:30:00"^^xsd:dateTime .
+
 <http://www.spektrix.com/vancouverrecitalsociety/event/2002APLLRJQLLLDGLMSVTSPVTNQPBGKGL>
   a schema:Event;
   schema:name "Jeneba Kanneh-Mason";
@@ -176,11 +227,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5258 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/4222cd39-f906-42ac-ae4b-0312ccf05c27.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5259;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75265;
   schema:duration "PT100M";
   schema:endDate "2026-02-22T16:40:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5259 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75265 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=KANNEH-MASON>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
@@ -195,11 +246,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5259 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/442a0e67-0db8-45ff-a73d-1cccee798d81.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5260;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75266;
   schema:duration "PT100M";
   schema:endDate "2025-10-19T16:40:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5260 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75266 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=JERUSALEM>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
@@ -214,11 +265,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5260 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/3999a094-bab0-41da-9a55-4858069b592f.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5261;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75267;
   schema:duration "PT100M";
   schema:endDate "2026-04-12T16:40:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5261 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75267 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=BALLESTER_FUNG>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
@@ -233,11 +284,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5261 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/21fe3b70-5a4e-4e22-8132-8f013a29611a.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5262;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75268;
   schema:duration "PT100M";
   schema:endDate "2026-02-08T16:40:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5262 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75268 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=ASAL>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
@@ -252,14 +303,27 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5262 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/c04b54c9-ef57-46ec-aeff-441d50ef7521.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5263;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75269;
   schema:duration "PT100M";
   schema:endDate "2025-11-30T16:40:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5263 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75269 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=KULA_ABDEL>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK>
+  a schema:Event;
+  schema:name "Leif Ove Andsnes";
+  schema:description """
+
+""";
+  schema:startDate "2027-03-14T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/cdc2bfde-3c78-43c6-8047-15b78acf0da5.jpeg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
+  schema:duration "PT90M";
+  schema:endDate "2027-03-14T16:30:00"^^xsd:dateTime .
 
 <http://www.spektrix.com/vancouverrecitalsociety/event/1002AHCBPDSTCNNKTDJHQGSBVHKNHQLMG>
   a schema:Event;
@@ -271,11 +335,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5263 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/446ddf04-fc81-49bd-8813-c63cb2d6e239.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5264;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75270;
   schema:duration "PT100M";
   schema:endDate "2026-03-08T16:40:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5264 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75270 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=LEONKORO>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
@@ -290,14 +354,40 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5264 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/334ccf16-a813-4fc6-9bc4-c62a682f3a31.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5265;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75271;
   schema:duration "PT100M";
   schema:endDate "2026-03-01T16:40:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5265 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75271 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=FUJITA>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/6001AHTPDKPQHHKQPKDKSKRBSTJBCVNKB>
+  a schema:Event;
+  schema:name "Nikolovska & Shibe";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-08T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/4e83fa5c-6e06-4501-a308-b1017ef6b86c.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
+  schema:duration "PT90M";
+  schema:endDate "2026-11-08T16:30:00"^^xsd:dateTime .
+
+<http://www.spektrix.com/vancouverrecitalsociety/event/8601AVPPNNBTVGDHCLBCTPRSLGQPDSBRD>
+  a schema:Event;
+  schema:name "Ridout & Colli";
+  schema:description """
+
+""";
+  schema:startDate "2027-05-09T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/ff224747-4d74-4ffa-8ec3-f71b4b31a767.jpg>;
+  schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
+  schema:duration "PT90M";
+  schema:endDate "2027-05-09T16:30:00"^^xsd:dateTime .
 
 <http://www.spektrix.com/vancouverrecitalsociety/event/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL>
   a schema:Event;
@@ -309,11 +399,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5265 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/4e5fb856-8aec-42c5-93f0-4b19afab6ce4.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5266;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75272;
   schema:duration "PT60M";
   schema:endDate "2025-11-02T16:00:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5266 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75272 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=SHIBE>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
@@ -328,11 +418,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5266 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/6bea6af7-a23f-48d7-a7f2-2138f8748abd.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5267;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75273;
   schema:duration "PT100M";
   schema:endDate "2026-01-18T16:40:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5267 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75273 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=POON>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
@@ -347,11 +437,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5267 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/6fdc96de-2583-4d67-a400-3b0f00ff5e59.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5268;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75274;
   schema:duration "PT100M";
   schema:endDate "2025-10-26T16:40:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5268 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75274 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=SIQI_YUN>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
@@ -366,11 +456,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5268 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/cfed56d5-4eaa-4529-aa3e-0ed7bb917192.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5269;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75275;
   schema:duration "PT100M";
   schema:endDate "2026-05-03T16:40:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5269 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75275 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=UKE_ORCH>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
@@ -385,11 +475,11 @@ _:8d3f42148ac64d7f9ac146ece797e2dc5269 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/vancouverrecitalsociety/files/e4451ce4-7c2f-4e86-8052-5c0bc3b87210.jpg>;
   schema:location <https://spektrix.com/vancouverrecitalsociety/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/vancouverrecitalsociety/organization/vancouver-recital-society>;
-  schema:offers _:8d3f42148ac64d7f9ac146ece797e2dc5270;
+  schema:offers _:61bf61df540e4d49aa04255634b383c75276;
   schema:duration "PT100M";
   schema:endDate "2026-05-01T21:10:00"^^xsd:dateTime .
 
-_:8d3f42148ac64d7f9ac146ece797e2dc5270 a schema:AggregateOffer;
+_:61bf61df540e4d49aa04255634b383c75276 a schema:AggregateOffer;
   schema:url <https://purchase.vanrecital.com/EventAvailability?WebEventId=OLAFSSON>;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
