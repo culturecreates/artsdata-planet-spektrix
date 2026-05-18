@@ -8,25 +8,25 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/calgaryphil/event/78602AHGJQGHKHCHNJGPCKKRMGBSHHGJH> a schema:Event;
-  schema:name "Alberta in Harmony:  The Planets ";
+<http://www.spektrix.com/calgaryphil/event/94801AQGDVBVLGRCLPPTDPPJTRRNKCQLR> a schema:Event;
+  schema:name "A Robert Munsch Story Time";
   schema:description """
 
 """;
-  schema:startDate "2026-05-02T19:30:00"^^xsd:dateTime;
+  schema:startDate "2027-01-17T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71825;
-  schema:keywords "Specials";
-  schema:duration "PT120M";
-  schema:endDate "2026-05-02T21:30:00"^^xsd:dateTime .
+  schema:offers _:4bdb307e74294ec49983d160f745219a2003;
+  schema:keywords "Symphony Sundays for Kids";
+  schema:duration "PT60M";
+  schema:endDate "2027-01-17T16:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra> a schema:Organization;
   schema:name "Calgary Philharmonic Orchestra";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5588> .
 
-_:61bf61df540e4d49aa04255634b383c71825 a schema:AggregateOffer;
-  schema:lowPrice "28.0";
+_:4bdb307e74294ec49983d160f745219a2003 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
 <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:Place;
@@ -38,6 +38,91 @@ _:61bf61df540e4d49aa04255634b383c71825 a schema:AggregateOffer;
   schema:addressLocality "205 8 Ave SE";
   schema:addressRegion "AB";
   schema:addressCountry "CA" .
+
+<http://www.spektrix.com/calgaryphil/event/91601AJMNHMTLBDBJLRJNVBDCQJRTDBTT> a schema:Event;
+  schema:name "A Sunrise Odyssey";
+  schema:description """
+
+""";
+  schema:startDate "2027-05-07T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2004;
+  schema:keywords "Classics 1";
+  schema:duration "PT120M";
+  schema:endDate "2027-05-07T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2004 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/91801ACPDKLNHQGVGGGJLRQCRTTBHVKGT> a schema:Event;
+  schema:name "A Sunrise Odyssey";
+  schema:description """
+
+""";
+  schema:startDate "2027-05-08T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2005;
+  schema:keywords "Classics 1";
+  schema:duration "PT120M";
+  schema:endDate "2027-05-08T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2005 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/78602AHGJQGHKHCHNJGPCKKRMGBSHHGJH> a schema:Event;
+  schema:name "Alberta in Harmony:  The Planets ";
+  schema:description """
+
+""";
+  schema:startDate "2026-05-02T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2006;
+  schema:keywords "Specials";
+  schema:duration "PT120M";
+  schema:endDate "2026-05-02T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2006 a schema:AggregateOffer;
+  schema:lowPrice "28.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/94401ARDLRHSVRSCRMVBGVLRHHLMQHDLL> a schema:Event;
+  schema:name "An Evening on Broadway with Arielle Jacobs";
+  schema:description """
+
+""";
+  schema:startDate "2027-03-12T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2007;
+  schema:keywords "Pops";
+  schema:duration "PT120M";
+  schema:endDate "2027-03-12T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2007 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/94601ASVLLJKGKRQSCCDGRBPVBDVNDCCJ> a schema:Event;
+  schema:name "An Evening on Broadway with Arielle Jacobs";
+  schema:description """
+
+""";
+  schema:startDate "2027-03-13T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2008;
+  schema:keywords "Pops";
+  schema:duration "PT120M";
+  schema:endDate "2027-03-13T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2008 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/75002ALSJNMMGDKRQLRJTVJHCMSHSTBHC> a schema:Event;
   schema:name "An Evening with Lang Lang ";
@@ -59,12 +144,12 @@ _:61bf61df540e4d49aa04255634b383c71825 a schema:AggregateOffer;
   schema:startDate "2026-04-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71826;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2009;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-04-23T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71826 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2009 a schema:AggregateOffer;
   schema:lowPrice "80.0";
   schema:priceCurrency "CAD" .
 
@@ -79,19 +164,19 @@ _:61bf61df540e4d49aa04255634b383c71826 a schema:AggregateOffer;
   schema:addressCountry "CA" .
 
 <http://www.spektrix.com/calgaryphil/event/96201AVHBRLKVRBQDMRMKRTNNBPDVNJLH> a schema:Event;
-  schema:name "Angélique Kidjo's An African Symphony";
+  schema:name "Angélique Kidjo's African Symphony";
   schema:description """
 
 """;
   schema:startDate "2027-05-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71827;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2010;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2027-05-15T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71827 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2010 a schema:AggregateOffer;
   schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
@@ -103,9 +188,14 @@ _:61bf61df540e4d49aa04255634b383c71827 a schema:AggregateOffer;
   schema:startDate "2027-02-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2011;
   schema:keywords "Baroque";
   schema:duration "PT120M";
   schema:endDate "2027-02-05T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2011 a schema:AggregateOffer;
+  schema:lowPrice "59.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/79601ASCTKDBCBKCCCJCJDVJJNHDMCPQK> a schema:Event;
   schema:name "Baroque at Bella with Camille Delaforge";
@@ -115,12 +205,12 @@ _:61bf61df540e4d49aa04255634b383c71827 a schema:AggregateOffer;
   schema:startDate "2026-02-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71828;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2012;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-02-05T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71828 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2012 a schema:AggregateOffer;
   schema:lowPrice "50.0";
   schema:priceCurrency "CAD" .
 
@@ -132,12 +222,12 @@ _:61bf61df540e4d49aa04255634b383c71828 a schema:AggregateOffer;
   schema:startDate "2025-11-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71829;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2013;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-11-06T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71829 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2013 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -149,9 +239,14 @@ _:61bf61df540e4d49aa04255634b383c71829 a schema:AggregateOffer;
   schema:startDate "2026-10-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Specials";
+  schema:offers _:4bdb307e74294ec49983d160f745219a2014;
+  schema:keywords "Baroque";
   schema:duration "PT120M";
   schema:endDate "2026-10-23T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2014 a schema:AggregateOffer;
+  schema:lowPrice "59.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/100401ARBKMPTRJMJVPTTDVMDQSMLTVBR> a schema:Event;
   schema:name "Baroque at Bella with Patrick Quigley";
@@ -161,9 +256,65 @@ _:61bf61df540e4d49aa04255634b383c71829 a schema:AggregateOffer;
   schema:startDate "2027-04-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2015;
   schema:keywords "Baroque";
   schema:duration "PT120M";
   schema:endDate "2027-04-23T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2015 a schema:AggregateOffer;
+  schema:lowPrice "59.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/93001AKPMKDQLDNTLBKNJTSQGLTNBGGRP> a schema:Event;
+  schema:name "Beethoven + Mozart";
+  schema:description """
+
+""";
+  schema:startDate "2027-06-04T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2016;
+  schema:keywords "Classics 2";
+  schema:duration "PT120M";
+  schema:endDate "2027-06-04T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2016 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/92202ALJGJDJQQQBBCQJSPNJVGKMBNDLC> a schema:Event;
+  schema:name "Beethoven + Mozart";
+  schema:description """
+
+""";
+  schema:startDate "2027-06-05T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2017;
+  schema:keywords "Classics 2";
+  schema:duration "PT120M";
+  schema:endDate "2027-06-05T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2017 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/94001ABHSVSCRRNGDRPBKKCTMBTMNVSKS> a schema:Event;
+  schema:name "Beethoven Lives Upstairs";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-20T15:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2018;
+  schema:keywords "Symphony Sundays for Kids";
+  schema:duration "PT60M";
+  schema:endDate "2026-09-20T16:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2018 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/73402AVNLMVHVJRLCQLBBRNHGLTBDGSCP> a schema:Event;
   schema:name "Beethoven’s Fifth Symphony";
@@ -173,12 +324,12 @@ _:61bf61df540e4d49aa04255634b383c71829 a schema:AggregateOffer;
   schema:startDate "2025-10-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71830;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2019;
   schema:keywords "Classics 3";
   schema:duration "PT90M";
   schema:endDate "2025-10-03T21:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71830 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2019 a schema:AggregateOffer;
   schema:lowPrice "22.0";
   schema:priceCurrency "CAD" .
 
@@ -190,12 +341,12 @@ _:61bf61df540e4d49aa04255634b383c71830 a schema:AggregateOffer;
   schema:startDate "2025-10-04T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71831;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2020;
   schema:keywords "Classics 3";
   schema:duration "PT90M";
   schema:endDate "2025-10-04T16:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71831 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2020 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -207,9 +358,14 @@ _:61bf61df540e4d49aa04255634b383c71831 a schema:AggregateOffer;
   schema:startDate "2027-03-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2021;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2027-03-20T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2021 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/77002AJHJVKQRBQKBMJCJCNKTSBLTPVTG> a schema:Event;
   schema:name "Best of Barber: Adagio + More";
@@ -219,13 +375,47 @@ _:61bf61df540e4d49aa04255634b383c71831 a schema:AggregateOffer;
   schema:startDate "2025-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71832;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2022;
   schema:keywords "Classics 3";
   schema:duration "PT90M";
   schema:endDate "2025-11-21T21:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71832 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2022 a schema:AggregateOffer;
   schema:lowPrice "24.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/93002ARBLDKJTBRGMPSGJRCVQTNDLGDQM> a schema:Event;
+  schema:name "Bitter Sweet Symphony: The Best of the 90s";
+  schema:description """
+
+""";
+  schema:startDate "2027-05-28T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2023;
+  schema:keywords "Pops";
+  schema:duration "PT120M";
+  schema:endDate "2027-05-28T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2023 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/93601ASMSRSHLGTLHJVMLSMKVNQKJMQCR> a schema:Event;
+  schema:name "Bitter Sweet Symphony: The Best of the 90s";
+  schema:description """
+
+""";
+  schema:startDate "2027-05-29T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2024;
+  schema:keywords "Pops";
+  schema:duration "PT120M";
+  schema:endDate "2027-05-29T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2024 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/71601AMRKGCHRRTHJRLKKPCDSPHMKGQPR> a schema:Event;
@@ -236,13 +426,13 @@ _:61bf61df540e4d49aa04255634b383c71832 a schema:AggregateOffer;
   schema:startDate "2026-05-29T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71833;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2025;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-05-29T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71833 a schema:AggregateOffer;
-  schema:lowPrice "26.0";
+_:4bdb307e74294ec49983d160f745219a2025 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/71801ABVJVLDBDPJBNLJVMTCQQRSJHMBM> a schema:Event;
@@ -253,13 +443,30 @@ _:61bf61df540e4d49aa04255634b383c71833 a schema:AggregateOffer;
   schema:startDate "2026-05-30T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71834;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2026;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-05-30T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71834 a schema:AggregateOffer;
-  schema:lowPrice "25.0";
+_:4bdb307e74294ec49983d160f745219a2026 a schema:AggregateOffer;
+  schema:lowPrice "32.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/95001AGRTJLQSRDPVNBKJLGDDCGQSBRRT> a schema:Event;
+  schema:name "BUGS! Le Carnaval des insectes";
+  schema:description """
+
+""";
+  schema:startDate "2027-03-07T15:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2027;
+  schema:keywords "Symphony Sundays for Kids";
+  schema:duration "PT60M";
+  schema:endDate "2027-03-07T16:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2027 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/96601ALSQGSDJLRHKNNNJQDSSMHMHMNJQ> a schema:Event;
@@ -270,254 +477,14 @@ _:61bf61df540e4d49aa04255634b383c71834 a schema:AggregateOffer;
   schema:startDate "2026-11-26T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71835;
-  schema:keywords "Holiday";
+  schema:offers _:4bdb307e74294ec49983d160f745219a2028;
+  schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-11-26T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71835 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2028 a schema:AggregateOffer;
   schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/calgaryphil/event/90601ASHQMPBMPNGDJRPRCQDTKGMGRQCS> a schema:Event;
-  schema:name "Classics 1A";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-18T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 1";
-  schema:duration "PT120M";
-  schema:endDate "2026-09-18T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/90801ADCHGPKGDSJCLPHLQJMGHDMHKLCK> a schema:Event;
-  schema:name "Classics 1A";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-19T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 1";
-  schema:duration "PT120M";
-  schema:endDate "2026-09-19T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/91001AGRQVVNCNSQHCNHSNGBSKJVCSJCL> a schema:Event;
-  schema:name "Classics 1B";
-  schema:description """
-
-""";
-  schema:startDate "2026-11-20T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Curated Series 1";
-  schema:duration "PT120M";
-  schema:endDate "2026-11-20T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/91201ALKRLHGDGHKMCRKDBJKSBNPKJQGR> a schema:Event;
-  schema:name "Classics 1B";
-  schema:description """
-
-""";
-  schema:startDate "2026-11-21T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Curated Series 1";
-  schema:duration "PT120M";
-  schema:endDate "2026-11-21T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/91401AQKQGPGGPDLVJTSNQMHHHBRGBVSM> a schema:Event;
-  schema:name "Classics 1C";
-  schema:description """
-
-""";
-  schema:startDate "2027-02-12T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 1";
-  schema:duration "PT120M";
-  schema:endDate "2027-02-12T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/91002ASMMMHDCRHLGSKHCBNGPQJRBGSSM> a schema:Event;
-  schema:name "Classics 1C";
-  schema:description """
-
-""";
-  schema:startDate "2027-02-13T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 1";
-  schema:duration "PT120M";
-  schema:endDate "2027-02-13T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/91601AJMNHMTLBDBJLRJNVBDCQJRTDBTT> a schema:Event;
-  schema:name "Classics 1D";
-  schema:description """
-
-""";
-  schema:startDate "2027-05-07T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 1";
-  schema:duration "PT120M";
-  schema:endDate "2027-05-07T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/91801ACPDKLNHQGVGGGJLRQCRTTBHVKGT> a schema:Event;
-  schema:name "Classics 1D";
-  schema:description """
-
-""";
-  schema:startDate "2027-05-08T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 1";
-  schema:duration "PT120M";
-  schema:endDate "2027-05-08T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/92001ACMVVRHKQMSLNPTJRKSCQLCJBRDB> a schema:Event;
-  schema:name "Classics 2A";
-  schema:description """
-
-""";
-  schema:startDate "2026-11-06T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 2";
-  schema:duration "PT120M";
-  schema:endDate "2026-11-06T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/92201ASMGRMRGGNSBGRTMVTKMBJNMBVNK> a schema:Event;
-  schema:name "Classics 2A";
-  schema:description """
-
-""";
-  schema:startDate "2026-11-07T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 2";
-  schema:duration "PT120M";
-  schema:endDate "2026-11-07T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/92401AJSJQHTGHCTNCGHBVPSTGHPJLLLT> a schema:Event;
-  schema:name "Classics 2B";
-  schema:description """
-
-""";
-  schema:startDate "2027-01-22T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 2";
-  schema:duration "PT120M";
-  schema:endDate "2027-01-22T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/92601APQCHQPJPMRPPCQQKBJGHJRQSVBP> a schema:Event;
-  schema:name "Classics 2B";
-  schema:description """
-
-""";
-  schema:startDate "2027-01-23T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 2";
-  schema:duration "PT120M";
-  schema:endDate "2027-01-23T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/92801ABBPVVLCTHDBQJRSNTDCNSVRCNLP> a schema:Event;
-  schema:name "Classics 2C";
-  schema:description """
-
-""";
-  schema:startDate "2027-04-09T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 2";
-  schema:duration "PT120M";
-  schema:endDate "2027-04-09T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/92802ANRLGDQVKTRKDPTHJDJKMCKKDDKH> a schema:Event;
-  schema:name "Classics 2C";
-  schema:description """
-
-""";
-  schema:startDate "2027-04-10T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 2";
-  schema:duration "PT120M";
-  schema:endDate "2027-04-10T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/93001AKPMKDQLDNTLBKNJTSQGLTNBGGRP> a schema:Event;
-  schema:name "Classics 2D";
-  schema:description """
-
-""";
-  schema:startDate "2027-06-04T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 2";
-  schema:duration "PT120M";
-  schema:endDate "2027-06-04T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/92202ALJGJDJQQQBBCQJSPNJVGKMBNDLC> a schema:Event;
-  schema:name "Classics 2D";
-  schema:description """
-
-""";
-  schema:startDate "2027-06-05T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 2";
-  schema:duration "PT120M";
-  schema:endDate "2027-06-05T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/93201APSNKTSHQMVPMTLQPVBVVLTQCRLN> a schema:Event;
-  schema:name "Classics 3A";
-  schema:description """
-
-""";
-  schema:startDate "2026-10-30T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 3";
-  schema:duration "PT90M";
-  schema:endDate "2026-10-30T21:00:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/92602AVGGBCLKHCQGJPLVVVQJGLQGPMCJ> a schema:Event;
-  schema:name "Classics 3B";
-  schema:description """
-
-""";
-  schema:startDate "2026-12-04T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 3";
-  schema:duration "PT90M";
-  schema:endDate "2026-12-04T21:00:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/92803AMTCGLPLGGMGKHJCNMPMNKJQPKTT> a schema:Event;
-  schema:name "Classics 3C";
-  schema:description """
-
-""";
-  schema:startDate "2027-03-06T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 3";
-  schema:duration "PT90M";
-  schema:endDate "2027-03-06T21:00:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/92603AGNHBPDPKPHJTDSKPGGJPRVBJHGC> a schema:Event;
-  schema:name "Classics 3D";
-  schema:description """
-
-""";
-  schema:startDate "2027-04-30T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Classics 3";
-  schema:duration "PT90M";
-  schema:endDate "2027-04-30T21:00:00"^^xsd:dateTime .
 
 <http://www.spektrix.com/calgaryphil/event/71001AGBBMCNTJHLGBJRQPPQJJCSTSQBR> a schema:Event;
   schema:name "Dance Dance Disco";
@@ -527,12 +494,12 @@ _:61bf61df540e4d49aa04255634b383c71835 a schema:AggregateOffer;
   schema:startDate "2026-03-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71836;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2029;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-03-06T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71836 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2029 a schema:AggregateOffer;
   schema:lowPrice "23.0";
   schema:priceCurrency "CAD" .
 
@@ -544,12 +511,12 @@ _:61bf61df540e4d49aa04255634b383c71836 a schema:AggregateOffer;
   schema:startDate "2026-03-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71837;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2030;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-03-07T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71837 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2030 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -561,9 +528,14 @@ _:61bf61df540e4d49aa04255634b383c71837 a schema:AggregateOffer;
   schema:startDate "2026-10-09T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2031;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-10-09T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2031 a schema:AggregateOffer;
+  schema:lowPrice "29.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/95002AVMRGHQDCRRHDVMSVMGRHVKKVKCM> a schema:Event;
   schema:name "Disney's Moana Live-To-Film Concert";
@@ -573,9 +545,14 @@ _:61bf61df540e4d49aa04255634b383c71837 a schema:AggregateOffer;
   schema:startDate "2026-10-10T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2032;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-10-10T16:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2032 a schema:AggregateOffer;
+  schema:lowPrice "29.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/98801AKQTBNPHKSKVKNHDSDLMDTQTRVHK> a schema:Event;
   schema:name "Dolly Parton's Threads: My Songs in Symphony";
@@ -585,9 +562,14 @@ _:61bf61df540e4d49aa04255634b383c71837 a schema:AggregateOffer;
   schema:startDate "2026-09-11T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2033;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-09-11T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2033 a schema:AggregateOffer;
+  schema:lowPrice "49.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/96801ADHLKNLHKQQPHHDBRLVLVNSHTGBL> a schema:Event;
   schema:name "Dr. Seuss' How the Grinch Stole Christmas";
@@ -597,14 +579,9 @@ _:61bf61df540e4d49aa04255634b383c71837 a schema:AggregateOffer;
   schema:startDate "2026-11-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71838;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2026-11-27T20:30:00"^^xsd:dateTime .
-
-_:61bf61df540e4d49aa04255634b383c71838 a schema:AggregateOffer;
-  schema:lowPrice "35.0";
-  schema:priceCurrency "CAD" .
 
 <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> a schema:Place;
   schema:name "Jubilee Auditorium";
@@ -625,14 +602,9 @@ _:61bf61df540e4d49aa04255634b383c71838 a schema:AggregateOffer;
   schema:startDate "2026-11-28T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71839;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2026-11-28T15:30:00"^^xsd:dateTime .
-
-_:61bf61df540e4d49aa04255634b383c71839 a schema:AggregateOffer;
-  schema:lowPrice "35.0";
-  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/95801ALCSKCQJQBVRNRGSNHJHPLGBTSCG> a schema:Event;
   schema:name "Dreams of Bollywood";
@@ -642,13 +614,81 @@ _:61bf61df540e4d49aa04255634b383c71839 a schema:AggregateOffer;
   schema:startDate "2026-10-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71840;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2034;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-10-17T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71840 a schema:AggregateOffer;
-  schema:lowPrice "32.0";
+_:4bdb307e74294ec49983d160f745219a2034 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/101001ASRCJQGCSBLJCPNPQQRRGSLJCLH> a schema:Event;
+  schema:name "Education Concert: BUGS! Le Carnaval des insectes";
+  schema:description """
+
+""";
+  schema:startDate "2027-03-10T10:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2035;
+  schema:keywords "Education";
+  schema:duration "PT60M";
+  schema:endDate "2027-03-10T11:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2035 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/101201AKQDJBPLLQCKLJCTLCMQDHDTGBQ> a schema:Event;
+  schema:name "Education Concert: BUGS! Le Carnaval des insectes";
+  schema:description """
+
+""";
+  schema:startDate "2027-03-11T10:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2036;
+  schema:keywords "Education";
+  schema:duration "PT60M";
+  schema:endDate "2027-03-11T11:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2036 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/101801AVSHLGMPQTDNPMVCVCDQQRKRTVP> a schema:Event;
+  schema:name "Education Concert: Grounder's Grand Adventure";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-25T10:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2037;
+  schema:keywords "Education";
+  schema:duration "PT60M";
+  schema:endDate "2026-11-25T11:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2037 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/102001AJMQLQRLPQBJDHKSMKHRJJQGBLS> a schema:Event;
+  schema:name "Education Concert: Grounder's Grand Adventure";
+  schema:description """
+
+""";
+  schema:startDate "2026-12-01T10:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2038;
+  schema:keywords "Education";
+  schema:duration "PT60M";
+  schema:endDate "2026-12-01T11:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2038 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/81201ASDHGJQQCKCDQPRKCBRSVSHQHDDN> a schema:Event;
@@ -674,6 +714,40 @@ _:61bf61df540e4d49aa04255634b383c71840 a schema:AggregateOffer;
   schema:keywords "Education";
   schema:duration "PT60M";
   schema:endDate "2025-11-20T11:00:00"^^xsd:dateTime .
+
+<http://www.spektrix.com/calgaryphil/event/101401AGMNDJHGVPGSVRJJRVVDSKJCNCL> a schema:Event;
+  schema:name "Education Concert: Peter and the Wolf with The Old Trout Puppet Workshop";
+  schema:description """
+
+""";
+  schema:startDate "2027-05-12T10:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2039;
+  schema:keywords "Education";
+  schema:duration "PT60M";
+  schema:endDate "2027-05-12T11:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2039 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/101601ABKPHTQSGCLGKNMSQSNJNQHSRRC> a schema:Event;
+  schema:name "Education Concert: Peter and the Wolf with The Old Trout Puppet Workshop";
+  schema:description """
+
+""";
+  schema:startDate "2027-05-19T10:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2040;
+  schema:keywords "Education";
+  schema:duration "PT60M";
+  schema:endDate "2027-05-19T11:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2040 a schema:AggregateOffer;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/81601ALGJMDVGMSHVCQBMQRJBKHDSGMMK> a schema:Event;
   schema:name "Education Concert: Swan Lake";
@@ -735,6 +809,23 @@ _:61bf61df540e4d49aa04255634b383c71840 a schema:AggregateOffer;
   schema:duration "PT60M";
   schema:endDate "2026-05-07T11:00:00"^^xsd:dateTime .
 
+<http://www.spektrix.com/calgaryphil/event/92603AGNHBPDPKPHJTDSKPGGJPRVBJHGC> a schema:Event;
+  schema:name "Fantasy + Firebird";
+  schema:description """
+
+""";
+  schema:startDate "2027-04-30T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2041;
+  schema:keywords "Classics 3";
+  schema:duration "PT90M";
+  schema:endDate "2027-04-30T21:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2041 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/calgaryphil/event/80201ACSGMBNRJDTHKBMHPTGBKGRKVSBS> a schema:Event;
   schema:name "Gamesymphonic with Eímear Noone";
   schema:description """
@@ -743,12 +834,12 @@ _:61bf61df540e4d49aa04255634b383c71840 a schema:AggregateOffer;
   schema:startDate "2026-03-28T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71841;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2042;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2026-03-28T20:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71841 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2042 a schema:AggregateOffer;
   schema:lowPrice "49.0";
   schema:priceCurrency "CAD" .
 
@@ -760,12 +851,12 @@ _:61bf61df540e4d49aa04255634b383c71841 a schema:AggregateOffer;
   schema:startDate "2025-09-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71842;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2043;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2025-09-12T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71842 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2043 a schema:AggregateOffer;
   schema:lowPrice "22.0";
   schema:priceCurrency "CAD" .
 
@@ -777,12 +868,12 @@ _:61bf61df540e4d49aa04255634b383c71842 a schema:AggregateOffer;
   schema:startDate "2025-09-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71843;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2044;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2025-09-13T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71843 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2044 a schema:AggregateOffer;
   schema:lowPrice "24.0";
   schema:priceCurrency "CAD" .
 
@@ -794,12 +885,12 @@ _:61bf61df540e4d49aa04255634b383c71843 a schema:AggregateOffer;
   schema:startDate "2025-12-04T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71844;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2045;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-12-04T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71844 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2045 a schema:AggregateOffer;
   schema:lowPrice "23.0";
   schema:priceCurrency "CAD" .
 
@@ -811,12 +902,12 @@ _:61bf61df540e4d49aa04255634b383c71844 a schema:AggregateOffer;
   schema:startDate "2025-12-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71845;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2046;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-12-05T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71845 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2046 a schema:AggregateOffer;
   schema:lowPrice "22.0";
   schema:priceCurrency "CAD" .
 
@@ -828,12 +919,12 @@ _:61bf61df540e4d49aa04255634b383c71845 a schema:AggregateOffer;
   schema:startDate "2026-06-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71846;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2047;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2026-06-05T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71846 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2047 a schema:AggregateOffer;
   schema:lowPrice "22.0";
   schema:priceCurrency "CAD" .
 
@@ -845,13 +936,30 @@ _:61bf61df540e4d49aa04255634b383c71846 a schema:AggregateOffer;
   schema:startDate "2026-06-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71847;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2048;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2026-06-06T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71847 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2048 a schema:AggregateOffer;
   schema:lowPrice "23.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/92602AVGGBCLKHCQGJPLVVVQJGLQGPMCJ> a schema:Event;
+  schema:name "Holiday Bells + Winter Dreams";
+  schema:description """
+
+""";
+  schema:startDate "2026-12-04T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2049;
+  schema:keywords "Classics 3";
+  schema:duration "PT90M";
+  schema:endDate "2026-12-04T21:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2049 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/80401ARTSPVHDDBJHRKBQKPHQDNLHVQMC> a schema:Event;
@@ -862,12 +970,12 @@ _:61bf61df540e4d49aa04255634b383c71847 a schema:AggregateOffer;
   schema:startDate "2025-11-28T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71848;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2050;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2025-11-28T20:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71848 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2050 a schema:AggregateOffer;
   schema:lowPrice "49.0";
   schema:priceCurrency "CAD" .
 
@@ -890,12 +998,12 @@ _:61bf61df540e4d49aa04255634b383c71848 a schema:AggregateOffer;
   schema:startDate "2025-11-29T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/7201AGVQLLVCMRVMGVNKPRVVNRMQNTVLK>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71849;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2051;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2025-11-29T15:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71849 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2051 a schema:AggregateOffer;
   schema:lowPrice "49.0";
   schema:priceCurrency "CAD" .
 
@@ -907,12 +1015,12 @@ _:61bf61df540e4d49aa04255634b383c71849 a schema:AggregateOffer;
   schema:startDate "2026-09-04T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71850;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2052;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2026-09-04T20:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71850 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2052 a schema:AggregateOffer;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
@@ -924,12 +1032,12 @@ _:61bf61df540e4d49aa04255634b383c71850 a schema:AggregateOffer;
   schema:startDate "2026-09-05T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71851;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2053;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2026-09-05T15:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71851 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2053 a schema:AggregateOffer;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
@@ -941,12 +1049,12 @@ _:61bf61df540e4d49aa04255634b383c71851 a schema:AggregateOffer;
   schema:startDate "2027-05-01T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71852;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2054;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2027-05-01T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71852 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2054 a schema:AggregateOffer;
   schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
@@ -958,12 +1066,12 @@ _:61bf61df540e4d49aa04255634b383c71852 a schema:AggregateOffer;
   schema:startDate "2026-01-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71853;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2055;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2026-01-23T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71853 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2055 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -975,12 +1083,12 @@ _:61bf61df540e4d49aa04255634b383c71853 a schema:AggregateOffer;
   schema:startDate "2026-01-24T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71854;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2056;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2026-01-24T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71854 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2056 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -992,12 +1100,12 @@ _:61bf61df540e4d49aa04255634b383c71854 a schema:AggregateOffer;
   schema:startDate "2026-02-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71855;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2057;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2026-02-27T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71855 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2057 a schema:AggregateOffer;
   schema:lowPrice "22.0";
   schema:priceCurrency "CAD" .
 
@@ -1009,12 +1117,12 @@ _:61bf61df540e4d49aa04255634b383c71855 a schema:AggregateOffer;
   schema:startDate "2026-02-28T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71856;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2058;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2026-02-28T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71856 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2058 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1026,14 +1134,9 @@ _:61bf61df540e4d49aa04255634b383c71856 a schema:AggregateOffer;
   schema:startDate "2027-05-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71857;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2027-05-21T21:30:00"^^xsd:dateTime .
-
-_:61bf61df540e4d49aa04255634b383c71857 a schema:AggregateOffer;
-  schema:lowPrice "35.0";
-  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/97802AKRMCRDCDBNMRGQKVMKGJQNPTGCM> a schema:Event;
   schema:name "Jurassic Park in Concert";
@@ -1043,14 +1146,9 @@ _:61bf61df540e4d49aa04255634b383c71857 a schema:AggregateOffer;
   schema:startDate "2027-05-22T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71858;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2027-05-22T16:30:00"^^xsd:dateTime .
-
-_:61bf61df540e4d49aa04255634b383c71858 a schema:AggregateOffer;
-  schema:lowPrice "35.0";
-  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/71401ARSRNJGNDQJKBJKRPKVJLLHLBTQD> a schema:Event;
   schema:name "La Vida Loca: Latin Pop Hits";
@@ -1061,12 +1159,12 @@ _:61bf61df540e4d49aa04255634b383c71858 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/calgaryphil/files/b5754eaf-ae80-4afb-88b8-0ad741458545.jpg>;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71859;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2059;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-04-10T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71859 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2059 a schema:AggregateOffer;
   schema:lowPrice "41.0";
   schema:priceCurrency "CAD" .
 
@@ -1079,12 +1177,12 @@ _:61bf61df540e4d49aa04255634b383c71859 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/calgaryphil/files/b5754eaf-ae80-4afb-88b8-0ad741458545.jpg>;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71860;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2060;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-04-11T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71860 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2060 a schema:AggregateOffer;
   schema:lowPrice "33.0";
   schema:priceCurrency "CAD" .
 
@@ -1096,13 +1194,13 @@ _:61bf61df540e4d49aa04255634b383c71860 a schema:AggregateOffer;
   schema:startDate "2026-05-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71861;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2061;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2026-05-22T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71861 a schema:AggregateOffer;
-  schema:lowPrice "26.0";
+_:4bdb307e74294ec49983d160f745219a2061 a schema:AggregateOffer;
+  schema:lowPrice "27.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/73001AVCMHLKGJVPNKDTRBKJNMCBVTBRQ> a schema:Event;
@@ -1113,13 +1211,47 @@ _:61bf61df540e4d49aa04255634b383c71861 a schema:AggregateOffer;
   schema:startDate "2026-05-23T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71862;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2062;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2026-05-23T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71862 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2062 a schema:AggregateOffer;
   schema:lowPrice "26.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/91001AGRQVVNCNSQHCNHSNGBSKJVCSJCL> a schema:Event;
+  schema:name "Mozart + Mahler";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-20T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2063;
+  schema:keywords "Classics 1";
+  schema:duration "PT120M";
+  schema:endDate "2026-11-20T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2063 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/91201ALKRLHGDGHKMCRKDBJKSBNPKJQGR> a schema:Event;
+  schema:name "Mozart + Mahler";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-21T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2064;
+  schema:keywords "Classics 1";
+  schema:duration "PT120M";
+  schema:endDate "2026-11-21T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2064 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/87001ATNHRQCRQHKBKPTBSRTPVHCMNHHK> a schema:Event;
@@ -1145,6 +1277,40 @@ _:61bf61df540e4d49aa04255634b383c71862 a schema:AggregateOffer;
   schema:postalCode "T2P 3S9";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/calgaryphil/event/90601ASHQMPBMPNGDJRPRCQDTKGMGRQCS> a schema:Event;
+  schema:name "Nordic Nights";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-18T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2065;
+  schema:keywords "Classics 1";
+  schema:duration "PT120M";
+  schema:endDate "2026-09-18T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2065 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/90801ADCHGPKGDSJCLPHLQJMGHDMHKLCK> a schema:Event;
+  schema:name "Nordic Nights";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-19T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2066;
+  schema:keywords "Classics 1";
+  schema:duration "PT120M";
+  schema:endDate "2026-09-19T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2066 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/calgaryphil/event/77602AKRMSHHVVBGMKVMSVGJBSKHDLKMN> a schema:Event;
   schema:name "Nothing Compares: The Music of Prince";
   schema:description """
@@ -1153,13 +1319,44 @@ _:61bf61df540e4d49aa04255634b383c71862 a schema:AggregateOffer;
   schema:startDate "2025-11-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71863;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2067;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-11-08T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71863 a schema:AggregateOffer;
+<https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra> a schema:Organization;
+  schema:name "Calgary Philharmonic Orchestra";
+  schema:sameAs <http://kg.artsdata.ca/resource/K2-5588> .
+
+_:4bdb307e74294ec49983d160f745219a2067 a schema:AggregateOffer;
   schema:lowPrice "23.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:Place;
+  schema:name "Jack Singer Concert Hall";
+  schema:address <https://spektrix.com/calgaryphil/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/calgaryphil/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:PostalAddress;
+  schema:streetAddress "Werklund Centre";
+  schema:addressLocality "205 8 Ave SE";
+  schema:addressRegion "AB";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/calgaryphil/event/95201ADLDPTCJCDJNVDLNRRQBSJCCKBCS> a schema:Event;
+  schema:name "Peter and the Wolf with The Old Trout Puppet Workshop";
+  schema:description """
+
+""";
+  schema:startDate "2027-05-16T15:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2068;
+  schema:keywords "Symphony Sundays for Kids";
+  schema:duration "PT60M";
+  schema:endDate "2027-05-16T16:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2068 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/79801AMDTQSCPLKTTHTHCSBCKQRGGLQLB> a schema:Event;
@@ -1170,12 +1367,12 @@ _:61bf61df540e4d49aa04255634b383c71863 a schema:AggregateOffer;
   schema:startDate "2025-09-07T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71864;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2069;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2025-09-07T15:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71864 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2069 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1196,144 +1393,14 @@ _:61bf61df540e4d49aa04255634b383c71864 a schema:AggregateOffer;
   schema:startDate "2026-09-13T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/6201ANGSSCQJBJKPGQJKLCSPNNGGRQDGC>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71865;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2070;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-09-13T16:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71865 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2070 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/calgaryphil/event/93202ALMTVMTNKPTHNSNBLSJCDHLRVTJP> a schema:Event;
-  schema:name "Pops 1";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-25T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Pops";
-  schema:duration "PT120M";
-  schema:endDate "2026-09-25T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/94201ACKSQKLJRVNBCTGNDVTCJCHVPLBC> a schema:Event;
-  schema:name "Pops 1";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-26T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Pops";
-  schema:duration "PT120M";
-  schema:endDate "2026-09-26T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/93401ADSVCQMQNMJNHNNNRLDRJPDKQRCG> a schema:Event;
-  schema:name "Pops 2";
-  schema:description """
-
-""";
-  schema:startDate "2026-11-13T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Pops";
-  schema:duration "PT120M";
-  schema:endDate "2026-11-13T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/92604AHDHLDCJHMTPVKBGCMNLTPTHQGPL> a schema:Event;
-  schema:name "Pops 2";
-  schema:description """
-
-""";
-  schema:startDate "2026-11-14T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Pops";
-  schema:duration "PT120M";
-  schema:endDate "2026-11-14T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/91202AVKKNLMHPQPPTGHNQLVRJBKVDLMT> a schema:Event;
-  schema:name "Pops 3";
-  schema:description """
-
-""";
-  schema:startDate "2027-01-15T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Pops";
-  schema:duration "PT120M";
-  schema:endDate "2027-01-15T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/93203APVPJQPPLNCDSVKQBPMKBDQCSPKH> a schema:Event;
-  schema:name "Pops 3";
-  schema:description """
-
-""";
-  schema:startDate "2027-01-16T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Pops";
-  schema:duration "PT120M";
-  schema:endDate "2027-01-16T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/94401ARDLRHSVRSCRMVBGVLRHHLMQHDLL> a schema:Event;
-  schema:name "Pops 4";
-  schema:description """
-
-""";
-  schema:startDate "2027-03-12T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Pops";
-  schema:duration "PT120M";
-  schema:endDate "2027-03-12T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/94601ASVLLJKGKRQSCCDGRBPVBDVNDCCJ> a schema:Event;
-  schema:name "Pops 4";
-  schema:description """
-
-""";
-  schema:startDate "2027-03-13T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Pops";
-  schema:duration "PT120M";
-  schema:endDate "2027-03-13T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/93002ARBLDKJTBRGMPSGJRCVQTNDLGDQM> a schema:Event;
-  schema:name "Pops 5";
-  schema:description """
-
-""";
-  schema:startDate "2027-05-28T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Pops";
-  schema:duration "PT120M";
-  schema:endDate "2027-05-28T21:30:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/93601ASMSRSHLGTLHJVMLSMKVNQKJMQCR> a schema:Event;
-  schema:name "Pops 5";
-  schema:description """
-
-""";
-  schema:startDate "2027-05-29T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Pops";
-  schema:duration "PT120M";
-  schema:endDate "2027-05-29T21:30:00"^^xsd:dateTime .
-
-<https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:Place;
-  schema:name "Jack Singer Concert Hall";
-  schema:address <https://spektrix.com/calgaryphil/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-<https://spektrix.com/calgaryphil/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:PostalAddress;
-  schema:streetAddress "Werklund Centre";
-  schema:addressLocality "205 8 Ave SE";
-  schema:addressRegion "AB";
-  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/calgaryphil/event/76201ANNTCLJDJJJGJSPTQBVRJLDQTKHL> a schema:Event;
   schema:name "Postcards from Italy";
@@ -1343,17 +1410,30 @@ _:61bf61df540e4d49aa04255634b383c71865 a schema:AggregateOffer;
   schema:startDate "2026-05-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71866;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2071;
   schema:keywords "Classics 3";
   schema:duration "PT90M";
   schema:endDate "2026-05-08T21:00:00"^^xsd:dateTime .
 
-<https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra> a schema:Organization;
-  schema:name "Calgary Philharmonic Orchestra";
-  schema:sameAs <http://kg.artsdata.ca/resource/K2-5588> .
-
-_:61bf61df540e4d49aa04255634b383c71866 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2071 a schema:AggregateOffer;
   schema:lowPrice "36.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/92803AMTCGLPLGGMGKHJCNMPMNKJQPKTT> a schema:Event;
+  schema:name "Rachmaninoff's Symphonic Dances";
+  schema:description """
+
+""";
+  schema:startDate "2027-03-06T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2072;
+  schema:keywords "Classics 3";
+  schema:duration "PT90M";
+  schema:endDate "2027-03-06T21:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2072 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/78401AJTHVQKCLLSCNJNQLQTRRQHGJKMK> a schema:Event;
@@ -1364,12 +1444,12 @@ _:61bf61df540e4d49aa04255634b383c71866 a schema:AggregateOffer;
   schema:startDate "2026-02-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71867;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2073;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-02-07T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71867 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2073 a schema:AggregateOffer;
   schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
@@ -1381,12 +1461,12 @@ _:61bf61df540e4d49aa04255634b383c71867 a schema:AggregateOffer;
   schema:startDate "2026-02-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71868;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2074;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2026-02-13T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71868 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2074 a schema:AggregateOffer;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
 
@@ -1398,12 +1478,12 @@ _:61bf61df540e4d49aa04255634b383c71868 a schema:AggregateOffer;
   schema:startDate "2026-02-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71869;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2075;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2026-02-14T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71869 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2075 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1415,12 +1495,12 @@ _:61bf61df540e4d49aa04255634b383c71869 a schema:AggregateOffer;
   schema:startDate "2026-01-01T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71870;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2076;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-01-01T16:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71870 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2076 a schema:AggregateOffer;
   schema:lowPrice "69.0";
   schema:priceCurrency "CAD" .
 
@@ -1432,13 +1512,30 @@ _:61bf61df540e4d49aa04255634b383c71870 a schema:AggregateOffer;
   schema:startDate "2027-01-01T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71871;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2077;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2027-01-01T16:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71871 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2077 a schema:AggregateOffer;
   schema:lowPrice "69.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/93201APSNKTSHQMVPMTLQPVBVVLTQCRLN> a schema:Event;
+  schema:name "Schumann, Strings + Soundscapes";
+  schema:description """
+
+""";
+  schema:startDate "2026-10-30T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2078;
+  schema:keywords "Classics 3";
+  schema:duration "PT90M";
+  schema:endDate "2026-10-30T21:00:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2078 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/77001ASPJSLCRLJQBKRKTCGKTBJSMBSHC> a schema:Event;
@@ -1449,12 +1546,12 @@ _:61bf61df540e4d49aa04255634b383c71871 a schema:AggregateOffer;
   schema:startDate "2025-11-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71872;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2079;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2025-11-14T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71872 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2079 a schema:AggregateOffer;
   schema:lowPrice "23.0";
   schema:priceCurrency "CAD" .
 
@@ -1466,12 +1563,12 @@ _:61bf61df540e4d49aa04255634b383c71872 a schema:AggregateOffer;
   schema:startDate "2025-11-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71873;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2080;
   schema:keywords "Classics 1";
   schema:duration "PT120M";
   schema:endDate "2025-11-15T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71873 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2080 a schema:AggregateOffer;
   schema:lowPrice "23.0";
   schema:priceCurrency "CAD" .
 
@@ -1483,12 +1580,12 @@ _:61bf61df540e4d49aa04255634b383c71873 a schema:AggregateOffer;
   schema:startDate "2027-04-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71874;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2081;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2027-04-17T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71874 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2081 a schema:AggregateOffer;
   schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
@@ -1500,9 +1597,14 @@ _:61bf61df540e4d49aa04255634b383c71874 a schema:AggregateOffer;
   schema:startDate "2027-01-30T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2082;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2027-01-30T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2082 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/74201ACMVPHLJKTRRBJKKLCTRPJVKGDGS> a schema:Event;
   schema:name "Star Wars: Return of the Jedi in Concert";
@@ -1512,12 +1614,12 @@ _:61bf61df540e4d49aa04255634b383c71874 a schema:AggregateOffer;
   schema:startDate "2026-05-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71875;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2083;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2026-05-15T20:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71875 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2083 a schema:AggregateOffer;
   schema:lowPrice "59.0";
   schema:priceCurrency "CAD" .
 
@@ -1540,12 +1642,12 @@ _:61bf61df540e4d49aa04255634b383c71875 a schema:AggregateOffer;
   schema:startDate "2026-05-16T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71876;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2084;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2026-05-16T15:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71876 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2084 a schema:AggregateOffer;
   schema:lowPrice "59.0";
   schema:priceCurrency "CAD" .
 
@@ -1557,13 +1659,47 @@ _:61bf61df540e4d49aa04255634b383c71876 a schema:AggregateOffer;
   schema:startDate "2026-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71877;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2085;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2026-05-16T20:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71877 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2085 a schema:AggregateOffer;
   schema:lowPrice "59.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/91202AVKKNLMHPQPPTGHNQLVRJBKVDLMT> a schema:Event;
+  schema:name "Stayin' Alive: The Bee Gees and Beyond with Rajaton";
+  schema:description """
+
+""";
+  schema:startDate "2027-01-15T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2086;
+  schema:keywords "Pops";
+  schema:duration "PT120M";
+  schema:endDate "2027-01-15T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2086 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/93203APVPJQPPLNCDSVKQBPMKBDQCSPKH> a schema:Event;
+  schema:name "Stayin' Alive: The Bee Gees and Beyond with Rajaton";
+  schema:description """
+
+""";
+  schema:startDate "2027-01-16T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2087;
+  schema:keywords "Pops";
+  schema:duration "PT120M";
+  schema:endDate "2027-01-16T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2087 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/76601ATPKJGRNKVVHLSJKLRGVJNDHKVDL> a schema:Event;
@@ -1586,9 +1722,14 @@ _:61bf61df540e4d49aa04255634b383c71877 a schema:AggregateOffer;
   schema:startDate "2026-10-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2088;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-10-03T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2088 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/80001ADKNNLRVJJNLRCNBCHMDBTSMBPBV> a schema:Event;
   schema:name "Steven Page + the Calgary Phil: A Holiday Special";
@@ -1598,13 +1739,81 @@ _:61bf61df540e4d49aa04255634b383c71877 a schema:AggregateOffer;
   schema:startDate "2025-12-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71878;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2089;
   schema:keywords "Specials";
   schema:duration "PT60M";
   schema:endDate "2025-12-06T20:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71878 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2089 a schema:AggregateOffer;
   schema:lowPrice "49.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/91401AQKQGPGGPDLVJTSNQMHHHBRGBVSM> a schema:Event;
+  schema:name "Strings of Love";
+  schema:description """
+
+""";
+  schema:startDate "2027-02-12T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2090;
+  schema:keywords "Classics 1";
+  schema:duration "PT120M";
+  schema:endDate "2027-02-12T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2090 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/91002ASMMMHDCRHLGSKHCBNGPQJRBGSSM> a schema:Event;
+  schema:name "Strings of Love";
+  schema:description """
+
+""";
+  schema:startDate "2027-02-13T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2091;
+  schema:keywords "Classics 1";
+  schema:duration "PT120M";
+  schema:endDate "2027-02-13T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2091 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/92401AJSJQHTGHCTNCGHBVPSTGHPJLLLT> a schema:Event;
+  schema:name "Symphonic Epics: Dvořák + Janáček";
+  schema:description """
+
+""";
+  schema:startDate "2027-01-22T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2092;
+  schema:keywords "Classics 2";
+  schema:duration "PT120M";
+  schema:endDate "2027-01-22T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2092 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/92601APQCHQPJPMRPPCQQKBJGHJRQSVBP> a schema:Event;
+  schema:name "Symphonic Epics: Dvořák + Janáček";
+  schema:description """
+
+""";
+  schema:startDate "2027-01-23T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2093;
+  schema:keywords "Classics 2";
+  schema:duration "PT120M";
+  schema:endDate "2027-01-23T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2093 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/73201AGSCKBTGSBVVPVMMGBMDMVPLHBVG> a schema:Event;
@@ -1615,12 +1824,12 @@ _:61bf61df540e4d49aa04255634b383c71878 a schema:AggregateOffer;
   schema:startDate "2025-10-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71879;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2094;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2025-10-17T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71879 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2094 a schema:AggregateOffer;
   schema:lowPrice "22.0";
   schema:priceCurrency "CAD" .
 
@@ -1632,62 +1841,14 @@ _:61bf61df540e4d49aa04255634b383c71879 a schema:AggregateOffer;
   schema:startDate "2025-10-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71880;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2095;
   schema:keywords "Classics 2";
   schema:duration "PT120M";
   schema:endDate "2025-10-18T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71880 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2095 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/calgaryphil/event/94001ABHSVSCRRNGDRPBKKCTMBTMNVSKS> a schema:Event;
-  schema:name "Symphony Sundays for Kids 1";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-20T15:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Symphony Sundays for Kids";
-  schema:duration "PT60M";
-  schema:endDate "2026-09-20T16:00:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/94801AQGDVBVLGRCLPPTDPPJTRRNKCQLR> a schema:Event;
-  schema:name "Symphony Sundays for Kids 2";
-  schema:description """
-
-""";
-  schema:startDate "2027-01-17T15:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Symphony Sundays for Kids";
-  schema:duration "PT60M";
-  schema:endDate "2027-01-17T16:00:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/95001AGRTJLQSRDPVNBKJLGDDCGQSBRRT> a schema:Event;
-  schema:name "Symphony Sundays for Kids 3";
-  schema:description """
-
-""";
-  schema:startDate "2027-03-07T15:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Symphony Sundays for Kids";
-  schema:duration "PT60M";
-  schema:endDate "2027-03-07T16:00:00"^^xsd:dateTime .
-
-<http://www.spektrix.com/calgaryphil/event/95201ADLDPTCJCDJNVDLNRRQBSJCCKBCS> a schema:Event;
-  schema:name "Symphony Sundays for Kids 4";
-  schema:description """
-
-""";
-  schema:startDate "2027-05-16T15:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:keywords "Symphony Sundays for Kids";
-  schema:duration "PT60M";
-  schema:endDate "2027-05-16T16:00:00"^^xsd:dateTime .
 
 <http://www.spektrix.com/calgaryphil/event/74801ATMBGSKMPNBVPKBRVQTPBHBSVTTR> a schema:Event;
   schema:name "SYNTHONY: EDM Meets Orchestra";
@@ -1697,12 +1858,12 @@ _:61bf61df540e4d49aa04255634b383c71880 a schema:AggregateOffer;
   schema:startDate "2025-09-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/7001AGCLPBHTQLDRVGJQJGVCGDJKJPPNR>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71881;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2096;
   schema:keywords "Specials";
   schema:duration "PT240M";
   schema:endDate "2025-09-05T23:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71881 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2096 a schema:AggregateOffer;
   schema:lowPrice "99.0";
   schema:priceCurrency "CAD" .
 
@@ -1716,6 +1877,40 @@ _:61bf61df540e4d49aa04255634b383c71881 a schema:AggregateOffer;
   schema:addressRegion "AB";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/calgaryphil/event/92001ACMVVRHKQMSLNPTJRKSCQLCJBRDB> a schema:Event;
+  schema:name "Tchaikovsky's Sixth: The Final Symphony";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-06T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2097;
+  schema:keywords "Classics 2";
+  schema:duration "PT120M";
+  schema:endDate "2026-11-06T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2097 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/92201ASMGRMRGGNSBGRTMVTKMBJNMBVNK> a schema:Event;
+  schema:name "Tchaikovsky's Sixth: The Final Symphony";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-07T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2098;
+  schema:keywords "Classics 2";
+  schema:duration "PT120M";
+  schema:endDate "2026-11-07T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2098 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/calgaryphil/event/81001ABQTGSMTVRBPQBNVJMCNHMKQHNNQ> a schema:Event;
   schema:name "Tenille Townes + the Calgary Philharmonic Orchestra";
   schema:description """
@@ -1724,13 +1919,47 @@ _:61bf61df540e4d49aa04255634b383c71881 a schema:AggregateOffer;
   schema:startDate "2026-04-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71882;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2099;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-04-25T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71882 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2099 a schema:AggregateOffer;
   schema:lowPrice "50.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/93401ADSVCQMQNMJNHNNNRLDRJPDKQRCG> a schema:Event;
+  schema:name "The Billy Joel Songbook with Tony DeSare";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-13T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2100;
+  schema:keywords "Pops";
+  schema:duration "PT120M";
+  schema:endDate "2026-11-13T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2100 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/92604AHDHLDCJHMTPVKBGCMNLTPTHQGPL> a schema:Event;
+  schema:name "The Billy Joel Songbook with Tony DeSare";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-14T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2101;
+  schema:keywords "Pops";
+  schema:duration "PT120M";
+  schema:endDate "2026-11-14T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2101 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/75001AGTQCJTJHTKDTVQBGHSKSHJRPGJN> a schema:Event;
@@ -1741,12 +1970,12 @@ _:61bf61df540e4d49aa04255634b383c71882 a schema:AggregateOffer;
   schema:startDate "2025-09-21T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71883;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2102;
   schema:keywords "Symphony Sundays for Kids";
   schema:duration "PT60M";
   schema:endDate "2025-09-21T16:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71883 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2102 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1758,12 +1987,12 @@ _:61bf61df540e4d49aa04255634b383c71883 a schema:AggregateOffer;
   schema:startDate "2026-01-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71884;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2103;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-01-16T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71884 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2103 a schema:AggregateOffer;
   schema:lowPrice "22.0";
   schema:priceCurrency "CAD" .
 
@@ -1775,12 +2004,12 @@ _:61bf61df540e4d49aa04255634b383c71884 a schema:AggregateOffer;
   schema:startDate "2026-01-17T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71885;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2104;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-01-17T16:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71885 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2104 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1792,13 +2021,47 @@ _:61bf61df540e4d49aa04255634b383c71885 a schema:AggregateOffer;
   schema:startDate "2026-01-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71886;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2105;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2026-01-17T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71886 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2105 a schema:AggregateOffer;
   schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/93202ALMTVMTNKPTHNSNBLSJCDHLRVTJP> a schema:Event;
+  schema:name "The Music of John Williams";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-25T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2106;
+  schema:keywords "Pops";
+  schema:duration "PT120M";
+  schema:endDate "2026-09-25T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2106 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/94201ACKSQKLJRVNBCTGNDVTCJCHVPLBC> a schema:Event;
+  schema:name "The Music of John Williams";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-26T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2107;
+  schema:keywords "Pops";
+  schema:duration "PT120M";
+  schema:endDate "2026-09-26T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2107 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/70201ADHVPVLHCVCVCTRPRPPPJCCSKTGL> a schema:Event;
@@ -1809,12 +2072,12 @@ _:61bf61df540e4d49aa04255634b383c71886 a schema:AggregateOffer;
   schema:startDate "2025-09-19T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71887;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2108;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2025-09-19T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71887 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2108 a schema:AggregateOffer;
   schema:lowPrice "23.0";
   schema:priceCurrency "CAD" .
 
@@ -1826,12 +2089,12 @@ _:61bf61df540e4d49aa04255634b383c71887 a schema:AggregateOffer;
   schema:startDate "2025-09-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71888;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2109;
   schema:keywords "Pops";
   schema:duration "PT120M";
   schema:endDate "2025-09-20T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71888 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2109 a schema:AggregateOffer;
   schema:lowPrice "22.0";
   schema:priceCurrency "CAD" .
 
@@ -1843,12 +2106,12 @@ _:61bf61df540e4d49aa04255634b383c71888 a schema:AggregateOffer;
   schema:startDate "2025-10-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71889;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2110;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-10-10T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71889 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2110 a schema:AggregateOffer;
   schema:lowPrice "32.0";
   schema:priceCurrency "CAD" .
 
@@ -1860,13 +2123,47 @@ _:61bf61df540e4d49aa04255634b383c71889 a schema:AggregateOffer;
   schema:startDate "2025-10-11T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71890;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2111;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-10-11T16:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71890 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2111 a schema:AggregateOffer;
   schema:lowPrice "32.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/92801ABBPVVLCTHDBQJRSNTDCNSVRCNLP> a schema:Event;
+  schema:name "The Rite of Spring";
+  schema:description """
+
+""";
+  schema:startDate "2027-04-09T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2112;
+  schema:keywords "Classics 2";
+  schema:duration "PT120M";
+  schema:endDate "2027-04-09T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2112 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/calgaryphil/event/92802ANRLGDQVKTRKDPTHJDJKMCKKDDKH> a schema:Event;
+  schema:name "The Rite of Spring";
+  schema:description """
+
+""";
+  schema:startDate "2027-04-10T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2113;
+  schema:keywords "Classics 2";
+  schema:duration "PT120M";
+  schema:endDate "2027-04-10T21:30:00"^^xsd:dateTime .
+
+_:4bdb307e74294ec49983d160f745219a2113 a schema:AggregateOffer;
+  schema:lowPrice "34.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/74202ADRCDVKHBLHSLMSLRSJLCLQCKHJR> a schema:Event;
@@ -1877,12 +2174,12 @@ _:61bf61df540e4d49aa04255634b383c71890 a schema:AggregateOffer;
   schema:startDate "2025-12-09T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71891;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2114;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-12-09T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71891 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2114 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1904,12 +2201,12 @@ _:61bf61df540e4d49aa04255634b383c71891 a schema:AggregateOffer;
   schema:startDate "2025-12-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71892;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2115;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-12-10T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71892 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2115 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1921,12 +2218,12 @@ _:61bf61df540e4d49aa04255634b383c71892 a schema:AggregateOffer;
   schema:startDate "2025-12-11T17:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71893;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2116;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-12-11T19:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71893 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2116 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1938,97 +2235,97 @@ _:61bf61df540e4d49aa04255634b383c71893 a schema:AggregateOffer;
   schema:startDate "2025-12-11T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71894;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2117;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2025-12-11T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71894 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2117 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/97201AMPBGQVTDNKMCRQSQPLRVBSVPHQP> a schema:Event;
-  schema:name "Traditional Christmas 2026";
+  schema:name "Traditional Christmas";
   schema:description """
 
 """;
   schema:startDate "2026-12-08T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71895;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2118;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-12-08T22:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71895 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2118 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/97401ARGCPLDNVCJLRBNGCPTGKNMBDGTM> a schema:Event;
-  schema:name "Traditional Christmas 2026";
+  schema:name "Traditional Christmas";
   schema:description """
 
 """;
   schema:startDate "2026-12-09T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71896;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2119;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-12-09T20:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71896 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2119 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/97601ANGGDVGHNHNKSKTVRHMBMCQRLHVB> a schema:Event;
-  schema:name "Traditional Christmas 2026";
+  schema:name "Traditional Christmas";
   schema:description """
 
 """;
   schema:startDate "2026-12-09T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71897;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2120;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-12-09T22:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71897 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2120 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/97801AGQGGTQMDMRTNGSRNNHMVSSLHPCQ> a schema:Event;
-  schema:name "Traditional Christmas 2026";
+  schema:name "Traditional Christmas";
   schema:description """
 
 """;
   schema:startDate "2026-12-10T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71898;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2121;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-12-10T20:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71898 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2121 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/calgaryphil/event/98001AKDTLSBSKSGBLTKKJNNPJHVMHDCR> a schema:Event;
-  schema:name "Traditional Christmas 2026";
+  schema:name "Traditional Christmas";
   schema:description """
 
 """;
   schema:startDate "2026-12-10T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71899;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2122;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-12-10T22:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71899 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2122 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2040,12 +2337,12 @@ _:61bf61df540e4d49aa04255634b383c71899 a schema:AggregateOffer;
   schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71900;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2123;
   schema:keywords "Classics 3";
   schema:duration "PT90M";
   schema:endDate "2026-03-20T21:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71900 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2123 a schema:AggregateOffer;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
@@ -2057,12 +2354,12 @@ _:61bf61df540e4d49aa04255634b383c71900 a schema:AggregateOffer;
   schema:startDate "2026-04-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71901;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2124;
   schema:keywords "Specials";
   schema:duration "PT90M";
   schema:endDate "2026-04-17T21:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71901 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2124 a schema:AggregateOffer;
   schema:lowPrice "47.0";
   schema:priceCurrency "CAD" .
 
@@ -2074,12 +2371,12 @@ _:61bf61df540e4d49aa04255634b383c71901 a schema:AggregateOffer;
   schema:startDate "2026-01-18T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71902;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2125;
   schema:keywords "Symphony Sundays for Kids";
   schema:duration "PT60M";
   schema:endDate "2026-01-18T16:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71902 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2125 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -2091,12 +2388,12 @@ _:61bf61df540e4d49aa04255634b383c71902 a schema:AggregateOffer;
   schema:startDate "2026-01-30T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71903;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2126;
   schema:keywords "Specials";
   schema:duration "PT120M";
   schema:endDate "2026-01-30T21:30:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71903 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2126 a schema:AggregateOffer;
   schema:lowPrice "24.0";
   schema:priceCurrency "CAD" .
 
@@ -2108,12 +2405,12 @@ _:61bf61df540e4d49aa04255634b383c71903 a schema:AggregateOffer;
   schema:startDate "2026-05-10T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71904;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2127;
   schema:keywords "Symphony Sundays for Kids";
   schema:duration "PT60M";
   schema:endDate "2026-05-10T16:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71904 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2127 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -2125,11 +2422,11 @@ _:61bf61df540e4d49aa04255634b383c71904 a schema:AggregateOffer;
   schema:startDate "2026-03-01T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/calgaryphil/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/calgaryphil/organization/calgary-philharmonic-orchestra>;
-  schema:offers _:61bf61df540e4d49aa04255634b383c71905;
+  schema:offers _:4bdb307e74294ec49983d160f745219a2128;
   schema:keywords "Symphony Sundays for Kids";
   schema:duration "PT60M";
   schema:endDate "2026-03-01T16:00:00"^^xsd:dateTime .
 
-_:61bf61df540e4d49aa04255634b383c71905 a schema:AggregateOffer;
+_:4bdb307e74294ec49983d160f745219a2128 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
