@@ -8,6 +8,46 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
+<http://www.spektrix.com/yukonartscentre/event/70803AQSCGVKTCQQQVRDTTQRHRPGMGJJM>
+  a schema:Event;
+  schema:name "Active Voice featuring Carol Off and Ivan Coyote";
+  schema:description """
+	Please join us for an evening of reading and conversation, featuring author and journalist Carol Off, in conversation with writer and storyteller Ivan Coyote. <span><br/></span><span><br/></span>Active Voice seeks to bring global voices to our Yukon community, and foster intimate and authentic discussion between each artist and our communities. Our next guest is the incredible Carol Off, who will be welcomed and hosted by Yukon University’s Specialist in Creative Engagement and Expression, Ivan Coyote.  <span><br/></span><span><br/></span>Carol Off is a multi-award-winning journalist, author and broadcaster. For almost 16 years, she co-hosted CBC Radio’s flagship current affairs program, As It Happens, where she amused and enlightened supper-hour listeners in Canada and much of the United States with her unique style of feisty, witty and compassionate interviews. <span><br/></span><span><br/></span>Carol has packed 4 careers into one: As a radio journalist in the 1980s she reported on national politics in Quebec and on Parliament Hill. As a correspondent for CBC TV’s The National, she covered events around the world including the breakup of the former Yugoslavia; the war in Afghanistan; the election of Vladimir Putin; war crimes trials in The Hague; and Canadian peacekeeping missions. Carol has published several best-selling and award-winning books such as The Lion, the Fox and the Eagle: Generals and Justice in Yugoslavia and Rwanda; The Ghosts of Medak Pocket; and her personal story of bringing an Afghan family to Canada – All We Leave Behind: A Reporter’s Journey into the Lives of Others. She lives and works in Toronto with her husband, author and journalist Linden MacIntyre, and an omniscient cat named Caversham.
+""";
+  schema:startDate "2026-11-30T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/dceb0f72-58f8-4d44-9b03-bbf2f7751065.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023582;
+  schema:duration "PT60M";
+  schema:endDate "2026-11-30T20:00:00"^^xsd:dateTime .
+
+_:c5a4b28f60d54d888edb71ae5e343b023582 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/70803>;
+  schema:lowPrice "7.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:Place;
+  schema:name "Yukon Arts Centre Mainstage" .
+
+<http://www.spektrix.com/yukonartscentre/event/70601ARTMQVDQNBCQNBNVCVCNCQVKTRPG>
+  a schema:Event;
+  schema:name "Basia Bulat";
+  schema:description """
+	Basia Bulat is a Montreal-based singer-songwriter whose work bridges gospel, soul, and classic folk, carried by a distinctive voice and a deeply expressive multi-instrumental approach. A three-time Polaris Music Prize finalist and JUNO Award nominee, Bulat has built an international reputation through a rich and evolving catalogue, from her early analogue folk recordings to more expansive, collaborative works. <span><br/></span><span><br/></span>Her music has been celebrated on global stages and platforms — from NPR’s Tiny Desk and Later... with Jools Holland to major tribute concerts honouring artists like Leonard Cohen and The Band — and she has toured alongside artists including Sufjan Stevens, The National, and Nick Cave and the Bad Seeds. In 2025, Bulat released Basia’s Palace, her most sonically expansive album to date, featuring lush arrangements, synthesizers, and layered melodies, earning widespread acclaim across North America and Europe. <span><br/></span><span><br/></span>In 2026, she returns to a more intimate setting, presenting a solo tour that reimagines songs from Basia’s Palace alongside highlights from her extensive catalogue. Performing on guitar, piano, and autoharp, these stripped-down concerts foreground the emotional core of her songwriting, allowing each piece to unfold with clarity and depth. The result is a powerful and personal live experience — one that highlights Bulat’s singular artistry and enduring place within the contemporary folk tradition.
+""";
+  schema:startDate "2026-09-18T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/e4c8c47e-5cd0-49c2-a750-6926c65140a2.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023583;
+  schema:duration "PT120M";
+  schema:endDate "2026-09-18T21:00:00"^^xsd:dateTime .
+
+_:c5a4b28f60d54d888edb71ae5e343b023583 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/70601>;
+  schema:lowPrice "7.0";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/yukonartscentre/event/69801ACHMQQPHNNNRPKGGCKPVPDJPPBTJ>
   a schema:Event;
   schema:name "Blue Feather Music Festival - Friday";
@@ -17,18 +57,14 @@
   schema:startDate "2026-11-06T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/7840c8b3-dbcc-48a1-8bf8-53559c2244c0.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24068;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023584;
   schema:duration "PT240M";
   schema:endDate "2026-11-06T23:00:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24068 a schema:AggregateOffer;
+_:c5a4b28f60d54d888edb71ae5e343b023584 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/69801>;
   schema:lowPrice "17.5";
   schema:priceCurrency "CAD" .
-
-<https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
-  a schema:Place;
-  schema:name "Yukon Arts Centre Mainstage" .
 
 <http://www.spektrix.com/yukonartscentre/event/70001AMJRQHDGBRNVCKLMQDNCHKHNLGPL>
   a schema:Event;
@@ -39,13 +75,49 @@ _:c92eb91bdcdc4d86a3b73bc5ae6539c24068 a schema:AggregateOffer;
   schema:startDate "2026-11-07T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/d6954611-760d-418c-bbe2-e58b1fef68a7.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24069;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023585;
   schema:duration "PT240M";
   schema:endDate "2026-11-07T23:00:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24069 a schema:AggregateOffer;
+_:c5a4b28f60d54d888edb71ae5e343b023585 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/70001>;
   schema:lowPrice "17.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/70602AMBCJVSCJCBBTQHLPPHDKVSNQJKG>
+  a schema:Event;
+  schema:name "Burnstick";
+  schema:description """
+	Burnstick is a Canadian folk music duo forged from passion and unfiltered emotion — where two voices become one powerful musical force. Anchored by the resonant Weissenborn lap slide guitars of Plains-Cree guitarist Jason Burnstick and the rich, poetic songwriting and harmonies of francophone-Métis vocalist Nadia Burnstick, their sound is at once cinematic and intimate. Drawing from a decade of life lived fully — as partners in both art and life — their music carries stories of love, loss, belonging, and the sacred ties that shape who we are. <span><br/></span><span><br/></span>Guided by a fearless creative spirit and unafraid to push boundaries, Burnstick creates soul-stirring landscapes that challenge listeners to feel deeply and reflect inward. Backed by their drummer, Nadia and Jason perform deeply resonant music that always strikes a chord with audiences. JUNO-nominated and critically acclaimed, they stand not only as musicians but as storytellers of heart and human connection.
+""";
+  schema:startDate "2026-10-20T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/a63c2e9b-1199-4e66-a684-e3f080881d92.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023586;
+  schema:duration "PT120M";
+  schema:endDate "2026-10-20T21:00:00"^^xsd:dateTime .
+
+_:c5a4b28f60d54d888edb71ae5e343b023586 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/70602>;
+  schema:lowPrice "7.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/yukonartscentre/event/70802ANLCHJCJMRBSLVTCVKBSQQLMHBLN>
+  a schema:Event;
+  schema:name "Friday the 13th: Babes in the Bush Burlesque";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-13T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/88b15a1e-1900-4641-9c69-633350938a4f.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023587;
+  schema:duration "PT180M";
+  schema:endDate "2026-11-13T23:00:00"^^xsd:dateTime .
+
+_:c5a4b28f60d54d888edb71ae5e343b023587 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/70802>;
+  schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/yukonartscentre/event/70201ADHVPVLHCVCVCTRPRPPPJCCSKTGL>
@@ -57,11 +129,11 @@ _:c92eb91bdcdc4d86a3b73bc5ae6539c24069 a schema:AggregateOffer;
   schema:startDate "2026-07-15T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/b6277b6c-f235-4a34-a730-3de2e8e1c7a9.jpeg>;
   schema:location <https://spektrix.com/yukonartscentre/location/406ASLRSDBSTJKJLVLTJRRMNQHGNKCDRK>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24070;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023588;
   schema:duration "PT75M";
   schema:endDate "2026-07-15T20:15:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24070 a schema:AggregateOffer;
+_:c5a4b28f60d54d888edb71ae5e343b023588 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/70201>;
   schema:lowPrice "17.5";
   schema:priceCurrency "CAD" .
@@ -70,122 +142,76 @@ _:c92eb91bdcdc4d86a3b73bc5ae6539c24070 a schema:AggregateOffer;
   a schema:Place;
   schema:name "Whitehorse United Church" .
 
-<http://www.spektrix.com/yukonartscentre/event/69401AHRLMSBQLVDQNDHQJHGMBCGHMNBC>
+<http://www.spektrix.com/yukonartscentre/event/71001AGBBMCNTJHLGBJRQPPQJJCSTSQBR>
   a schema:Event;
-  schema:name "Moppets Childrens Festival: Gustavo the Impossiblist";
+  schema:name "Nightswimming Theatre - These Are The Songs I Sing When I'm Sad";
   schema:description """
-	Gustavo the Impossibilist is a world-traveled, wildly unpredictable character performed by Dean Bareham, the Artistic Director and co-founder of Green Fools Theatre in Calgary. Described as a \"stunt clown\" and \"master of unrealized stupidity,\" Gustavo is a beloved fixture at international festivals and local Canadian events. Gustavo's act is a comedic blend of physical theatre, clowning, and stilt-walking. His performances are built around the hilariously \"impossible\" nature of his stunts.
+	<span class=\"ItalicText\">These Are The Songs That I Sing When I’m Sad</span> by Jane Miller and Brian Quirt is an intimate and joyous performance for one singer and an audience gathered around her piano. The show explores the songs people turn to when they’re sad, the songs that lift them out of sadness, and what makes listening to sad songs so addictive. <span><br/></span><span><br/></span>Part TED-talk, part house concert, join Jane as she shares the songs and stories that have impacted her life, and have the chance to share one of your songs with us. After each performance we publish a sad songs playlist generated by the audience members of that show. Check out the most recent playlists here from tours in Whitehorse, St. John’s, Vancouver, Victoria, and beyond: <a target=\"_blank\" href=\"https://nightswimming.ca/performance/these-are-the-songs-that-i-sing-when-im-sad/\">nightswimming.ca</a>
 """;
-  schema:startDate "2026-06-06T15:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/yukonartscentre/files/3aa09c77-9a91-439e-a1b2-1944e2fe8008.jpg>;
+  schema:startDate "2026-10-22T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/6b77aa5a-68f0-43d7-bc5f-272604b28dcb.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24071;
-  schema:duration "PT50M";
-  schema:endDate "2026-06-06T15:50:00"^^xsd:dateTime .
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023589;
+  schema:duration "PT120M";
+  schema:endDate "2026-10-22T21:00:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24071 a schema:AggregateOffer;
-  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/69401>;
-  schema:lowPrice "5.0";
+_:c5a4b28f60d54d888edb71ae5e343b023589 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/71001>;
+  schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
-<http://www.spektrix.com/yukonartscentre/event/69201ARPJLTNJBTLLMTLRNMQHNSVKNBHM>
+<http://www.spektrix.com/yukonartscentre/event/71002ASCMCKCBKSBHNNMMJSTMKNRGTRVT>
   a schema:Event;
-  schema:name "Moppets Childrens Festival: Murphy and the Cats - Music for the Whole Family";
+  schema:name "Nightswimming Theatre - These Are The Songs I Sing When I'm Sad";
   schema:description """
-	Murphy and the Cats are award winning young musicians who have been performing together since they were wee lads in elementary school.  On fiddle, drums and percussion, ukulele, guitar, double bass, kazoo and even a paper bag, the Cats know how to keep the audience entertained. Their repertoire is rooted in the popular music of the 20’s and 30’s and they will era hop into Beatles music and beyond to get your toes tapping. So put your dance shoes on and come out for a joyously good time! 
+	<span class=\"ItalicText\">These Are The Songs That I Sing When I’m Sad</span> by Jane Miller and Brian Quirt is an intimate and joyous performance for one singer and an audience gathered around her piano. The show explores the songs people turn to when they’re sad, the songs that lift them out of sadness, and what makes listening to sad songs so addictive. <span><br/></span><span><br/></span>Part TED-talk, part house concert, join Jane as she shares the songs and stories that have impacted her life, and have the chance to share one of your songs with us. After each performance we publish a sad songs playlist generated by the audience members of that show. Check out the most recent playlists here from tours in Whitehorse, St. John’s, Vancouver, Victoria, and beyond: <a target=\"_blank\" href=\"https://nightswimming.ca/performance/these-are-the-songs-that-i-sing-when-im-sad/\">nightswimming.ca</a>
 """;
-  schema:startDate "2026-06-06T13:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/yukonartscentre/files/d5ae65ad-32c2-4e13-9a7e-f5796d0a1b07.jpg>;
+  schema:startDate "2026-10-23T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/6b77aa5a-68f0-43d7-bc5f-272604b28dcb.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24072;
-  schema:duration "PT45M";
-  schema:endDate "2026-06-06T13:45:00"^^xsd:dateTime .
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023590;
+  schema:duration "PT120M";
+  schema:endDate "2026-10-23T21:00:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24072 a schema:AggregateOffer;
-  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/69201>;
-  schema:lowPrice "5.0";
+_:c5a4b28f60d54d888edb71ae5e343b023590 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/71002>;
+  schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
-<http://www.spektrix.com/yukonartscentre/event/69001AQHRKJGBJLJBVQPKPMTSHNLBBLGD>
+<http://www.spektrix.com/yukonartscentre/event/71003AQCKCQRHTJNMLTLQSQGTVCBNPRCJ>
   a schema:Event;
-  schema:name "Moppets Childrens Festival: The Trollsons in \"The Storyteller\"";
+  schema:name "Nightswimming Theatre - These Are The Songs I Sing When I'm Sad";
   schema:description """
-	The Trollsons are a family of masked Scandinavian trolls, that have been performing together since 1995, and have been seen at festivals, special events, theatres and Children’s Festivals throughout the world. They have a wide range of performances, including children’s theatre, festival-stage shows, and interactive roving characters. <span><br/></span><span><br/></span>The Storyteller had a highly successful run at the Singapore International Children’s Festival, and has also been seen at the London, Ontario Children’s Festival, Shanghai Children’s Festival, the China Puppet Theatre in Beijing, and throughout BC. The incredible troll masks were created by award-winning mask designer Melody Anderson.<span><br/></span>
+	<span class=\"ItalicText\">These Are The Songs That I Sing When I’m Sad</span> by Jane Miller and Brian Quirt is an intimate and joyous performance for one singer and an audience gathered around her piano. The show explores the songs people turn to when they’re sad, the songs that lift them out of sadness, and what makes listening to sad songs so addictive. <span><br/></span><span><br/></span>Part TED-talk, part house concert, join Jane as she shares the songs and stories that have impacted her life, and have the chance to share one of your songs with us. After each performance we publish a sad songs playlist generated by the audience members of that show. Check out the most recent playlists here from tours in Whitehorse, St. John’s, Vancouver, Victoria, and beyond: <a target=\"_blank\" href=\"https://nightswimming.ca/performance/these-are-the-songs-that-i-sing-when-im-sad/\">nightswimming.ca</a>
 """;
-  schema:startDate "2026-06-06T10:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/yukonartscentre/files/9cb2471b-b4d3-4b48-a17b-ebe32ce440d7.jpg>;
+  schema:startDate "2026-10-24T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/6b77aa5a-68f0-43d7-bc5f-272604b28dcb.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24073;
-  schema:duration "PT60M";
-  schema:endDate "2026-06-06T11:00:00"^^xsd:dateTime .
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023591;
+  schema:duration "PT120M";
+  schema:endDate "2026-10-24T21:00:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24073 a schema:AggregateOffer;
-  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/69001>;
-  schema:lowPrice "5.0";
+_:c5a4b28f60d54d888edb71ae5e343b023591 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/71003>;
+  schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
-<http://www.spektrix.com/yukonartscentre/event/65601ABJVQCQRNKJTHQGGNGBHPDGVBKKD>
+<http://www.spektrix.com/yukonartscentre/event/70801ACCPCJTVQVGBDPKMJGLRTJJDDVBG>
   a schema:Event;
-  schema:name "Punch Up by Kat Sandler";
+  schema:name "Scott Ward - Comedy, Hypnosis, and Psychic Trickster Show";
   schema:description """
-	<h1>Punch Up by Kat Sandler</h1><span><br/></span>What happens when the Funniest Man Alive tries to help the Most Pathetic Guy Ever make the Saddest Girl in the World laugh?<span><br/></span><span><br/></span>Duncan is a boring guy, living a simple life and working at a bread factory. Then he stumbles upon Brenda, a sad young woman who’s about to end her life. Convinced he’s fallen in love, Duncan strikes up a desperate deal: if he can get her to laugh, she'll give life another shot, but if he can’t, he must help her go through with her plan.<span><br/></span><span><br/></span>The catch? Duncan isn’t funny. At all. So he borrows Pat, his second-favourite comedian, to help him come up with the perfect routine. But a bad break-up has left Pat in no mood to teach a lonely loser the difference between knock-knock jokes and schadenfreude while chained to a typewriter.<span><br/></span><span><br/></span>A tragicomedy of three misfits, Punch Up navigates a hostage situation and a life-or-death comedy lesson to show just how far we’ll go for a laugh.<span><br/></span><span><br/></span>Directed by Asha Bittenbender<span><br/></span>Featuring Michael Gwynne-Thompson, Josh Schroeder, and Brenna Symanski<span><br/></span><span><br/></span>*Content advisory: Mature themes, coarse language, and discussion of suicide.<span><br/></span><span><br/></span>Punch Up is a presentation of Fuzzy Soul Theatre Collective. Learn more at fuzzysoul.ca
+	Come enjoy a night of amazement and laughter with Hypnotist Scott Ward! A natural with the audience, Scott provides a high quality, hilarious live hypnosis show that will keep you wanting more. Hypnotizing for over two decades, he has entertained thousands of people at events large and small — from the Las Vegas Strip to The Seminole Hard Rock to headlining at the River Cree Casino in Edmonton! Come get hypnotized, mesmerized, and entertained at the Scott Ward Comedy Hypnosis Show, an event suitable for all ages!
 """;
-  schema:startDate "2026-06-25T20:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/yukonartscentre/files/5d77905a-7ce0-412c-9b03-bd741e6bf45e.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24074;
-  schema:duration "PT75M";
-  schema:endDate "2026-06-25T21:15:00"^^xsd:dateTime .
+  schema:startDate "2026-11-10T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/yukonartscentre/files/bede58b6-06d1-4721-b9c4-366edcb80a74.jpg>;
+  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023592;
+  schema:duration "PT90M";
+  schema:endDate "2026-11-10T20:30:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24074 a schema:AggregateOffer;
-  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65601>;
-  schema:lowPrice "27.5";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>
-  a schema:Place;
-  schema:name "Guild Hall";
-  schema:address <https://spektrix.com/yukonartscentre/address/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> .
-
-<https://spektrix.com/yukonartscentre/address/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH> a
-    schema:PostalAddress;
-  schema:streetAddress "27 14th Ave";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/yukonartscentre/event/65801ABDQQTPTQHTDJVCCJNHQLNRJJCBG>
-  a schema:Event;
-  schema:name "Punch Up by Kat Sandler";
-  schema:description """
-	<h1>Punch Up by Kat Sandler</h1><span><br/></span>What happens when the Funniest Man Alive tries to help the Most Pathetic Guy Ever make the Saddest Girl in the World laugh?<span><br/></span><span><br/></span>Duncan is a boring guy, living a simple life and working at a bread factory. Then he stumbles upon Brenda, a sad young woman who’s about to end her life. Convinced he’s fallen in love, Duncan strikes up a desperate deal: if he can get her to laugh, she'll give life another shot, but if he can’t, he must help her go through with her plan.<span><br/></span><span><br/></span>The catch? Duncan isn’t funny. At all. So he borrows Pat, his second-favourite comedian, to help him come up with the perfect routine. But a bad break-up has left Pat in no mood to teach a lonely loser the difference between knock-knock jokes and schadenfreude while chained to a typewriter.<span><br/></span><span><br/></span>A tragicomedy of three misfits, Punch Up navigates a hostage situation and a life-or-death comedy lesson to show just how far we’ll go for a laugh.<span><br/></span><span><br/></span>Directed by Asha Bittenbender<span><br/></span>Featuring Michael Gwynne-Thompson, Josh Schroeder, and Brenna Symanski<span><br/></span><span><br/></span>*Content advisory: Mature themes, coarse language, and discussion of suicide.<span><br/></span><span><br/></span>Punch Up is a presentation of Fuzzy Soul Theatre Collective. Learn more at fuzzysoul.ca
-""";
-  schema:startDate "2026-06-26T20:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/yukonartscentre/files/5d77905a-7ce0-412c-9b03-bd741e6bf45e.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24075;
-  schema:duration "PT75M";
-  schema:endDate "2026-06-26T21:15:00"^^xsd:dateTime .
-
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24075 a schema:AggregateOffer;
-  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65801>;
-  schema:lowPrice "27.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/65802ATSHJMDCBCNQSPMPBSCBGMTRCNKL>
-  a schema:Event;
-  schema:name "Punch Up by Kat Sandler";
-  schema:description """
-	<h1>Punch Up by Kat Sandler</h1><span><br/></span>What happens when the Funniest Man Alive tries to help the Most Pathetic Guy Ever make the Saddest Girl in the World laugh?<span><br/></span><span><br/></span>Duncan is a boring guy, living a simple life and working at a bread factory. Then he stumbles upon Brenda, a sad young woman who’s about to end her life. Convinced he’s fallen in love, Duncan strikes up a desperate deal: if he can get her to laugh, she'll give life another shot, but if he can’t, he must help her go through with her plan.<span><br/></span><span><br/></span>The catch? Duncan isn’t funny. At all. So he borrows Pat, his second-favourite comedian, to help him come up with the perfect routine. But a bad break-up has left Pat in no mood to teach a lonely loser the difference between knock-knock jokes and schadenfreude while chained to a typewriter.<span><br/></span><span><br/></span>A tragicomedy of three misfits, Punch Up navigates a hostage situation and a life-or-death comedy lesson to show just how far we’ll go for a laugh.<span><br/></span><span><br/></span>Directed by Asha Bittenbender<span><br/></span>Featuring Michael Gwynne-Thompson, Josh Schroeder, and Brenna Symanski<span><br/></span><span><br/></span>*Content advisory: Mature themes, coarse language, and discussion of suicide.<span><br/></span><span><br/></span>Punch Up is a presentation of Fuzzy Soul Theatre Collective. Learn more at fuzzysoul.ca
-""";
-  schema:startDate "2026-06-27T20:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/yukonartscentre/files/5d77905a-7ce0-412c-9b03-bd741e6bf45e.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/404ALTQJTMGRQHLVHMCJNCTMNSLVDVNGH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24076;
-  schema:duration "PT75M";
-  schema:endDate "2026-06-27T21:15:00"^^xsd:dateTime .
-
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24076 a schema:AggregateOffer;
-  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/65802>;
-  schema:lowPrice "27.5";
+_:c5a4b28f60d54d888edb71ae5e343b023592 a schema:AggregateOffer;
+  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/70801>;
+  schema:lowPrice "7.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/yukonartscentre/event/69601ANKVPKVRSPMHRSMLLQSTRLSKPHPR>
@@ -197,11 +223,11 @@ _:c92eb91bdcdc4d86a3b73bc5ae6539c24076 a schema:AggregateOffer;
   schema:startDate "2026-11-20T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/78d298b0-d495-4fc3-966d-ebe82af58863.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24077;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023593;
   schema:duration "PT120M";
   schema:endDate "2026-11-20T21:30:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24077 a schema:AggregateOffer;
+_:c5a4b28f60d54d888edb71ae5e343b023593 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/69601>;
   schema:lowPrice "49.0";
   schema:priceCurrency "CAD" .
@@ -215,11 +241,11 @@ _:c92eb91bdcdc4d86a3b73bc5ae6539c24077 a schema:AggregateOffer;
   schema:startDate "2026-11-21T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/78d298b0-d495-4fc3-966d-ebe82af58863.jpg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24078;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023594;
   schema:duration "PT120M";
   schema:endDate "2026-11-21T21:30:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24078 a schema:AggregateOffer;
+_:c5a4b28f60d54d888edb71ae5e343b023594 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/68001>;
   schema:lowPrice "49.0";
   schema:priceCurrency "CAD" .
@@ -233,11 +259,11 @@ _:c92eb91bdcdc4d86a3b73bc5ae6539c24078 a schema:AggregateOffer;
   schema:startDate "2026-08-11T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/c72fb829-9f56-4551-92ac-e0a1bfecd70e.jpeg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24079;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023595;
   schema:duration "PT90M";
   schema:endDate "2026-08-11T20:30:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24079 a schema:AggregateOffer;
+_:c5a4b28f60d54d888edb71ae5e343b023595 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/70401>;
   schema:lowPrice "39.5";
   schema:priceCurrency "CAD" .
@@ -251,11 +277,11 @@ _:c92eb91bdcdc4d86a3b73bc5ae6539c24079 a schema:AggregateOffer;
   schema:startDate "2026-08-12T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/c72fb829-9f56-4551-92ac-e0a1bfecd70e.jpeg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24080;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023596;
   schema:duration "PT90M";
   schema:endDate "2026-08-12T20:30:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24080 a schema:AggregateOffer;
+_:c5a4b28f60d54d888edb71ae5e343b023596 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/70402>;
   schema:lowPrice "39.5";
   schema:priceCurrency "CAD" .
@@ -269,11 +295,11 @@ _:c92eb91bdcdc4d86a3b73bc5ae6539c24080 a schema:AggregateOffer;
   schema:startDate "2026-08-13T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/c72fb829-9f56-4551-92ac-e0a1bfecd70e.jpeg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24081;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023597;
   schema:duration "PT90M";
   schema:endDate "2026-08-13T20:30:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24081 a schema:AggregateOffer;
+_:c5a4b28f60d54d888edb71ae5e343b023597 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/70403>;
   schema:lowPrice "39.5";
   schema:priceCurrency "CAD" .
@@ -287,11 +313,11 @@ _:c92eb91bdcdc4d86a3b73bc5ae6539c24081 a schema:AggregateOffer;
   schema:startDate "2026-08-14T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/c72fb829-9f56-4551-92ac-e0a1bfecd70e.jpeg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24082;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023598;
   schema:duration "PT90M";
   schema:endDate "2026-08-14T20:30:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24082 a schema:AggregateOffer;
+_:c5a4b28f60d54d888edb71ae5e343b023598 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/70404>;
   schema:lowPrice "39.5";
   schema:priceCurrency "CAD" .
@@ -305,101 +331,11 @@ _:c92eb91bdcdc4d86a3b73bc5ae6539c24082 a schema:AggregateOffer;
   schema:startDate "2026-08-15T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/yukonartscentre/files/c72fb829-9f56-4551-92ac-e0a1bfecd70e.jpeg>;
   schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24083;
+  schema:offers _:c5a4b28f60d54d888edb71ae5e343b023599;
   schema:duration "PT90M";
   schema:endDate "2026-08-15T20:30:00"^^xsd:dateTime .
 
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24083 a schema:AggregateOffer;
+_:c5a4b28f60d54d888edb71ae5e343b023599 a schema:AggregateOffer;
   schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/70405>;
   schema:lowPrice "39.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/67201AVCRKQDBSGLQHRCLJQTBDLCTLNNQ>
-  a schema:Event;
-  schema:name "YTYP Presents: The Wizard of Oz";
-  schema:description """
-	<h1>Yukon Theatre for Young People Presents: The Wizard of Oz</h1><span class=\"ItalicText\">Yukon Theatre for Young People is pleased to present this incredible production featuring a cast of Yukon young people ages 11-18.</span><span><br/></span>Follow the yellow brick road in this delightful stage adaptation of L. Frank Baum’s beloved tale, featuring the iconic musical score from the MGM film. The timeless tale, in which young Dorothy Gale travels from Kansas over the rainbow to the magical Land of Oz, continues to thrill audiences worldwide.<span><br/></span>
-""";
-  schema:startDate "2026-06-17T19:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/yukonartscentre/files/528b8941-4f52-467f-a8bf-c548fc9b7098.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24084;
-  schema:duration "PT120M";
-  schema:endDate "2026-06-17T21:00:00"^^xsd:dateTime .
-
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24084 a schema:AggregateOffer;
-  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/67201>;
-  schema:lowPrice "29.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/67202AJKCGHHLJGVTQJBBGRRLNRQHBSHJ>
-  a schema:Event;
-  schema:name "YTYP Presents: The Wizard of Oz";
-  schema:description """
-	<h1>Yukon Theatre for Young People Presents: The Wizard of Oz</h1><span class=\"ItalicText\">Yukon Theatre for Young People is pleased to present this incredible production featuring a cast of Yukon young people ages 11-18.</span><span><br/></span>Follow the yellow brick road in this delightful stage adaptation of L. Frank Baum’s beloved tale, featuring the iconic musical score from the MGM film. The timeless tale, in which young Dorothy Gale travels from Kansas over the rainbow to the magical Land of Oz, continues to thrill audiences worldwide.<span><br/></span>
-""";
-  schema:startDate "2026-06-18T19:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/yukonartscentre/files/528b8941-4f52-467f-a8bf-c548fc9b7098.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24085;
-  schema:duration "PT120M";
-  schema:endDate "2026-06-18T21:00:00"^^xsd:dateTime .
-
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24085 a schema:AggregateOffer;
-  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/67202>;
-  schema:lowPrice "29.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/67203ALTHCGJDKDVHQGQHKHQQMKBCPVLC>
-  a schema:Event;
-  schema:name "YTYP Presents: The Wizard of Oz";
-  schema:description """
-	<h1>Yukon Theatre for Young People Presents: The Wizard of Oz</h1><span class=\"ItalicText\">Yukon Theatre for Young People is pleased to present this incredible production featuring a cast of Yukon young people ages 11-18.</span><span><br/></span>Follow the yellow brick road in this delightful stage adaptation of L. Frank Baum’s beloved tale, featuring the iconic musical score from the MGM film. The timeless tale, in which young Dorothy Gale travels from Kansas over the rainbow to the magical Land of Oz, continues to thrill audiences worldwide.<span><br/></span>
-""";
-  schema:startDate "2026-06-19T19:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/yukonartscentre/files/528b8941-4f52-467f-a8bf-c548fc9b7098.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24086;
-  schema:duration "PT120M";
-  schema:endDate "2026-06-19T21:00:00"^^xsd:dateTime .
-
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24086 a schema:AggregateOffer;
-  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/67203>;
-  schema:lowPrice "29.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/67401ALTRTTRTPTSQHLNNDTGHMDRBCNBR>
-  a schema:Event;
-  schema:name "YTYP Presents: The Wizard of Oz";
-  schema:description """
-	<h1>Yukon Theatre for Young People Presents: The Wizard of Oz</h1><span class=\"ItalicText\">Yukon Theatre for Young People is pleased to present this incredible production featuring a cast of Yukon young people ages 11-18.</span><span><br/></span>Follow the yellow brick road in this delightful stage adaptation of L. Frank Baum’s beloved tale, featuring the iconic musical score from the MGM film. The timeless tale, in which young Dorothy Gale travels from Kansas over the rainbow to the magical Land of Oz, continues to thrill audiences worldwide.<span><br/></span>
-""";
-  schema:startDate "2026-06-20T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/yukonartscentre/files/528b8941-4f52-467f-a8bf-c548fc9b7098.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24087;
-  schema:duration "PT120M";
-  schema:endDate "2026-06-20T16:00:00"^^xsd:dateTime .
-
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24087 a schema:AggregateOffer;
-  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/67401>;
-  schema:lowPrice "29.5";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/yukonartscentre/event/67204ABLGLSKGKTTPTNTHTKJDDVQJTBNT>
-  a schema:Event;
-  schema:name "YTYP Presents: The Wizard of Oz";
-  schema:description """
-	<h1>Yukon Theatre for Young People Presents: The Wizard of Oz</h1><span class=\"ItalicText\">Yukon Theatre for Young People is pleased to present this incredible production featuring a cast of Yukon young people ages 11-18.</span><span><br/></span>Follow the yellow brick road in this delightful stage adaptation of L. Frank Baum’s beloved tale, featuring the iconic musical score from the MGM film. The timeless tale, in which young Dorothy Gale travels from Kansas over the rainbow to the magical Land of Oz, continues to thrill audiences worldwide.<span><br/></span>
-""";
-  schema:startDate "2026-06-20T19:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/yukonartscentre/files/528b8941-4f52-467f-a8bf-c548fc9b7098.jpg>;
-  schema:location <https://spektrix.com/yukonartscentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c92eb91bdcdc4d86a3b73bc5ae6539c24088;
-  schema:duration "PT120M";
-  schema:endDate "2026-06-20T21:00:00"^^xsd:dateTime .
-
-_:c92eb91bdcdc4d86a3b73bc5ae6539c24088 a schema:AggregateOffer;
-  schema:url <https://purchasing.yukonartscentre.com/ChooseSeats/67204>;
-  schema:lowPrice "29.5";
   schema:priceCurrency "CAD" .
