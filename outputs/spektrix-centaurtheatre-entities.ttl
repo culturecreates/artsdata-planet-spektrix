@@ -8,26 +8,27 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/centaurtheatre/event/87201AJBBCVJSDDKPTDJQMGVSLBVHDVPM> a
+<http://www.spektrix.com/centaurtheatre/event/85601ATTRSQHQPBGNRTKLKJJMRLPJKPBR> a
     schema:Event;
-  schema:name "Baz Lurhmann’s Romeo + Juliet: Live in Concert";
+  schema:name "AMÉLIE: The Musical";
   schema:description """
-	Featuring Sarah Segal-Lazar & The Butcher Hearts + special guest artists
+	The three-time META nominated production of AMÉLIE returns! Come be swept away to Paris in this musical adaptation of beloved French film, <span class=\"ItalicText\">Le fabuleux destin d'Amélie Poulain</span>. The cafe awaits…<span><br/></span>/<span><br/></span>«AMÉLIE», trois fois en nomination aux META, est de retour! Laissez-vous transporter à Paris dans cette adaptation musicale du film français adoré, <span class=\"ItalicText\">Le fabuleux destin d’Amélie Poulain</span>. Le café vous attend…<span><br/></span>
 """;
-  schema:startDate "2026-11-28T20:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/5a48633b-b43c-4794-8f86-f7555becaeef.jpg>;
+  schema:startDate "2026-08-28T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/96ab68c0-8598-4a65-bab0-4ae0386f4523.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62962;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2923;
+  schema:keywords "Musical";
   schema:duration "PT60M";
-  schema:endDate "2026-11-28T21:00:00"^^xsd:dateTime .
+  schema:endDate "2026-08-28T21:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/centaurtheatre/organization/centaur-theatre> a schema:Organization;
   schema:name "Centaur Theatre";
   schema:sameAs <http://kg.artsdata.ca/resource/K10-32> .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62962 a schema:AggregateOffer;
-  schema:lowPrice "16.0";
+_:491c6ecfe2e84a5188c9c36471a83f2f2923 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
 <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a
@@ -42,6 +43,62 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62962 a schema:AggregateOffer;
   schema:addressRegion "QC";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/centaurtheatre/event/85801AHLRGTDDCGCPTJSNCDVLVBKJKJNJ> a
+    schema:Event;
+  schema:name "AMÉLIE: The Musical";
+  schema:description """
+	The three-time META nominated production of AMÉLIE returns! Come be swept away to Paris in this musical adaptation of beloved French film, <span class=\"ItalicText\">Le fabuleux destin d'Amélie Poulain</span>. The cafe awaits…<span><br/></span>/<span><br/></span>«AMÉLIE», trois fois en nomination aux META, est de retour! Laissez-vous transporter à Paris dans cette adaptation musicale du film français adoré, <span class=\"ItalicText\">Le fabuleux destin d’Amélie Poulain</span>. Le café vous attend…<span><br/></span>
+""";
+  schema:startDate "2026-08-29T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/96ab68c0-8598-4a65-bab0-4ae0386f4523.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2924;
+  schema:keywords "Musical";
+  schema:duration "PT60M";
+  schema:endDate "2026-08-29T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2924 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/86001AQMSNDTJGPGTMPLNKVBHBTGJPNHN> a
+    schema:Event;
+  schema:name "AMÉLIE: The Musical";
+  schema:description """
+	The three-time META nominated production of AMÉLIE returns! Come be swept away to Paris in this musical adaptation of beloved French film, <span class=\"ItalicText\">Le fabuleux destin d'Amélie Poulain</span>. The cafe awaits…<span><br/></span>/<span><br/></span>«AMÉLIE», trois fois en nomination aux META, est de retour! Laissez-vous transporter à Paris dans cette adaptation musicale du film français adoré, <span class=\"ItalicText\">Le fabuleux destin d’Amélie Poulain</span>. Le café vous attend…<span><br/></span>
+""";
+  schema:startDate "2026-08-30T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/96ab68c0-8598-4a65-bab0-4ae0386f4523.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2925;
+  schema:keywords "Musical";
+  schema:duration "PT60M";
+  schema:endDate "2026-08-30T16:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2925 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/87201AJBBCVJSDDKPTDJQMGVSLBVHDVPM> a
+    schema:Event;
+  schema:name "Baz Lurhmann’s Romeo + Juliet: Live in Concert";
+  schema:description """
+	Featuring Sarah Segal-Lazar & The Butcher Hearts + special guest artists
+""";
+  schema:startDate "2026-11-28T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/5a48633b-b43c-4794-8f86-f7555becaeef.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2926;
+  schema:duration "PT60M";
+  schema:endDate "2026-11-28T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2926 a schema:AggregateOffer;
+  schema:lowPrice "16.0";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/centaurtheatre/event/70003AHQNLMNQTDMLPRLKPQDVBHMTCNCL> a
     schema:Event;
   schema:name "Holiday in Zürich";
@@ -52,12 +109,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62962 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62963;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2927;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-04T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62963 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2927 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -71,12 +128,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62963 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62964;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2928;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-05T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62964 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2928 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -90,12 +147,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62964 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62965;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2929;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-07T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62965 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2929 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -109,12 +166,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62965 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62966;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2930;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-07T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62966 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2930 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -128,12 +185,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62966 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62967;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2931;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-08T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62967 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2931 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -147,12 +204,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62967 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62968;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2932;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-10T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62968 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2932 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -166,12 +223,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62968 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62969;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2933;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-11T13:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62969 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2933 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -185,12 +242,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62969 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62970;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2934;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-11T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62970 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2934 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -204,12 +261,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62970 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62971;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2935;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-12T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62971 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2935 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -223,12 +280,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62971 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62972;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2936;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-13T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62972 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2936 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -242,12 +299,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62972 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62973;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2937;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-14T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62973 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2937 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -261,12 +318,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62973 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62974;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2938;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-14T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62974 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2938 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -280,12 +337,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62974 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62975;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2939;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-15T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62975 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2939 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -299,12 +356,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62975 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62976;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2940;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-17T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62976 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2940 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -318,12 +375,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62976 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62977;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2941;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-18T13:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62977 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2941 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -337,12 +394,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62977 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62978;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2942;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-18T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62978 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2942 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -356,12 +413,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62978 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62979;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2943;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-19T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62979 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2943 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -375,12 +432,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62979 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62980;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2944;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-20T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62980 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2944 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -394,12 +451,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62980 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62981;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2945;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-21T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62981 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2945 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -413,12 +470,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62981 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62982;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2946;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-21T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62982 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2946 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -432,12 +489,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62982 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/6851d1e4-1522-45de-80fb-d9bf6890184a.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62983;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2947;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-11-22T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62983 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2947 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -451,11 +508,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62983 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62984;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2948;
   schema:duration "PT60M";
   schema:endDate "2027-03-03T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62984 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2948 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -469,11 +526,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62984 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62985;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2949;
   schema:duration "PT60M";
   schema:endDate "2027-03-04T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62985 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2949 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -487,11 +544,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62985 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62986;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2950;
   schema:duration "PT60M";
   schema:endDate "2027-03-06T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62986 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2950 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -505,11 +562,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62986 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62987;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2951;
   schema:duration "PT60M";
   schema:endDate "2027-03-06T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62987 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2951 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -523,11 +580,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62987 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62988;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2952;
   schema:duration "PT60M";
   schema:endDate "2027-03-07T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62988 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2952 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -541,11 +598,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62988 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62989;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2953;
   schema:duration "PT60M";
   schema:endDate "2027-03-09T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62989 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2953 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -559,11 +616,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62989 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62990;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2954;
   schema:duration "PT60M";
   schema:endDate "2027-03-10T13:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62990 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2954 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -577,11 +634,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62990 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62991;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2955;
   schema:duration "PT60M";
   schema:endDate "2027-03-10T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62991 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2955 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -595,11 +652,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62991 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62992;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2956;
   schema:duration "PT60M";
   schema:endDate "2027-03-11T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62992 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2956 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -613,11 +670,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62992 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62993;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2957;
   schema:duration "PT60M";
   schema:endDate "2027-03-12T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62993 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2957 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -631,11 +688,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62993 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62994;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2958;
   schema:duration "PT60M";
   schema:endDate "2027-03-13T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62994 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2958 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -649,11 +706,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62994 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62995;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2959;
   schema:duration "PT60M";
   schema:endDate "2027-03-13T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62995 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2959 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -667,11 +724,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62995 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62996;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2960;
   schema:duration "PT60M";
   schema:endDate "2027-03-14T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62996 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2960 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -685,11 +742,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62996 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62997;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2961;
   schema:duration "PT60M";
   schema:endDate "2027-03-16T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62997 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2961 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -703,11 +760,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62997 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62998;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2962;
   schema:duration "PT60M";
   schema:endDate "2027-03-17T13:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62998 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2962 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -721,11 +778,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62998 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a62999;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2963;
   schema:duration "PT60M";
   schema:endDate "2027-03-17T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a62999 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2963 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -739,11 +796,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a62999 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63000;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2964;
   schema:duration "PT60M";
   schema:endDate "2027-03-18T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63000 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2964 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -757,11 +814,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63000 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63001;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2965;
   schema:duration "PT60M";
   schema:endDate "2027-03-19T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63001 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2965 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -775,11 +832,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63001 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63002;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2966;
   schema:duration "PT60M";
   schema:endDate "2027-03-20T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63002 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2966 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -793,11 +850,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63002 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63003;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2967;
   schema:duration "PT60M";
   schema:endDate "2027-03-20T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63003 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2967 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -811,11 +868,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63003 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9c2635d2-09d1-4d6f-8a89-2c2aeae05b19.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63004;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2968;
   schema:duration "PT60M";
   schema:endDate "2027-03-21T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63004 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2968 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -829,11 +886,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63004 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/af46b42b-b8ba-44cf-8fac-71d235245d1f.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63005;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2969;
   schema:duration "PT60M";
   schema:endDate "2026-12-03T20:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63005 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2969 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -847,11 +904,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63005 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/af46b42b-b8ba-44cf-8fac-71d235245d1f.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63006;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2970;
   schema:duration "PT60M";
   schema:endDate "2026-12-04T20:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63006 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2970 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -865,11 +922,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63006 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/af46b42b-b8ba-44cf-8fac-71d235245d1f.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63007;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2971;
   schema:duration "PT60M";
   schema:endDate "2026-12-05T20:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63007 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2971 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -883,11 +940,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63007 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/af463865-0b8b-4af1-8a26-04f5bf179bb7.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63008;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2972;
   schema:duration "PT60M";
   schema:endDate "2026-06-18T19:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63008 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2972 a schema:AggregateOffer;
   schema:lowPrice "250.0";
   schema:priceCurrency "CAD" .
 
@@ -901,12 +958,228 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63008 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/33c712f0-8710-472b-bb41-1ca7dd8c2c2e.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63009;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2973;
   schema:duration "PT60M";
   schema:endDate "2026-06-18T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63009 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2973 a schema:AggregateOffer;
   schema:lowPrice "75.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/87601ANPLQMNRMNHLQMLDPMSJKHLTKRCN> a
+    schema:Event;
+  schema:name "Swashbuckling (or De cape et d'épée)";
+  schema:description """
+	Through classical texts and many styles of stage fighting, two brothers grow from kids to young adults. As their relationship evolves, they discover how brotherhood is linked to the perpetuation of male violence.<span><br/></span>/<span><br/></span>À travers des textes classiques et de plusieurs styles de combat de scène, deux frères grandissent. Leur relation évolue et ils découvrent comment la fraternité est reliée à la perpétuation de la violence masculine.
+""";
+  schema:startDate "2026-12-11T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/3ca3be83-1160-4727-81bd-594505d1be11.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2974;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-11T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2974 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/87801ASLQQHMPKPGBDLSGTSDTGVGLSHBK> a
+    schema:Event;
+  schema:name "Swashbuckling (or De cape et d'épée)";
+  schema:description """
+	Through classical texts and many styles of stage fighting, two brothers grow from kids to young adults. As their relationship evolves, they discover how brotherhood is linked to the perpetuation of male violence.<span><br/></span>/<span><br/></span>À travers des textes classiques et de plusieurs styles de combat de scène, deux frères grandissent. Leur relation évolue et ils découvrent comment la fraternité est reliée à la perpétuation de la violence masculine.
+""";
+  schema:startDate "2026-12-12T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/3ca3be83-1160-4727-81bd-594505d1be11.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2975;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-12T15:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2975 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/87602ABGBKTRRQDSBVBJLJNBSLHRLDLQR> a
+    schema:Event;
+  schema:name "Swashbuckling (or De cape et d'épée)";
+  schema:description """
+	Through classical texts and many styles of stage fighting, two brothers grow from kids to young adults. As their relationship evolves, they discover how brotherhood is linked to the perpetuation of male violence.<span><br/></span>/<span><br/></span>À travers des textes classiques et de plusieurs styles de combat de scène, deux frères grandissent. Leur relation évolue et ils découvrent comment la fraternité est reliée à la perpétuation de la violence masculine.
+""";
+  schema:startDate "2026-12-12T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/3ca3be83-1160-4727-81bd-594505d1be11.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2976;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-12T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2976 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/88001ADRQNDDMJRSRGPCBRBDVGTKQJCDH> a
+    schema:Event;
+  schema:name "Swashbuckling (or De cape et d'épée)";
+  schema:description """
+	Through classical texts and many styles of stage fighting, two brothers grow from kids to young adults. As their relationship evolves, they discover how brotherhood is linked to the perpetuation of male violence.<span><br/></span>/<span><br/></span>À travers des textes classiques et de plusieurs styles de combat de scène, deux frères grandissent. Leur relation évolue et ils découvrent comment la fraternité est reliée à la perpétuation de la violence masculine.
+""";
+  schema:startDate "2026-12-13T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/3ca3be83-1160-4727-81bd-594505d1be11.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2977;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-13T15:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2977 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/88201ARGKKMLLRVMKPHJVBMLTPPGVHJQL> a
+    schema:Event;
+  schema:name "Swashbuckling (or De cape et d'épée)";
+  schema:description """
+	Through classical texts and many styles of stage fighting, two brothers grow from kids to young adults. As their relationship evolves, they discover how brotherhood is linked to the perpetuation of male violence.<span><br/></span>/<span><br/></span>À travers des textes classiques et de plusieurs styles de combat de scène, deux frères grandissent. Leur relation évolue et ils découvrent comment la fraternité est reliée à la perpétuation de la violence masculine.
+""";
+  schema:startDate "2026-12-13T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/3ca3be83-1160-4727-81bd-594505d1be11.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2978;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-13T20:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2978 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/88401ASCRSKMTCVCTCMNGVQHNLNNRPHNR> a
+    schema:Event;
+  schema:name "Swashbuckling (or De cape et d'épée)";
+  schema:description """
+	Through classical texts and many styles of stage fighting, two brothers grow from kids to young adults. As their relationship evolves, they discover how brotherhood is linked to the perpetuation of male violence.<span><br/></span>/<span><br/></span>À travers des textes classiques et de plusieurs styles de combat de scène, deux frères grandissent. Leur relation évolue et ils découvrent comment la fraternité est reliée à la perpétuation de la violence masculine.
+""";
+  schema:startDate "2026-12-15T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/3ca3be83-1160-4727-81bd-594505d1be11.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2979;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-15T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2979 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/88601AQDJSGGLTSQJVGQGKCVNSRNQVTBJ> a
+    schema:Event;
+  schema:name "Swashbuckling (or De cape et d'épée)";
+  schema:description """
+	Through classical texts and many styles of stage fighting, two brothers grow from kids to young adults. As their relationship evolves, they discover how brotherhood is linked to the perpetuation of male violence.<span><br/></span>/<span><br/></span>À travers des textes classiques et de plusieurs styles de combat de scène, deux frères grandissent. Leur relation évolue et ils découvrent comment la fraternité est reliée à la perpétuation de la violence masculine.
+""";
+  schema:startDate "2026-12-16T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/3ca3be83-1160-4727-81bd-594505d1be11.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2980;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-16T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2980 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/88801AMLPDGCTLNTSLQPSSMVJQJDNHLSV> a
+    schema:Event;
+  schema:name "Swashbuckling (or De cape et d'épée)";
+  schema:description """
+	Through classical texts and many styles of stage fighting, two brothers grow from kids to young adults. As their relationship evolves, they discover how brotherhood is linked to the perpetuation of male violence.<span><br/></span>/<span><br/></span>À travers des textes classiques et de plusieurs styles de combat de scène, deux frères grandissent. Leur relation évolue et ils découvrent comment la fraternité est reliée à la perpétuation de la violence masculine.
+""";
+  schema:startDate "2026-12-17T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/3ca3be83-1160-4727-81bd-594505d1be11.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2981;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-17T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2981 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/89001AJHBVGSNNCRSDJSGMLLHVGPBDRNB> a
+    schema:Event;
+  schema:name "Swashbuckling (or De cape et d'épée)";
+  schema:description """
+	Through classical texts and many styles of stage fighting, two brothers grow from kids to young adults. As their relationship evolves, they discover how brotherhood is linked to the perpetuation of male violence.<span><br/></span>/<span><br/></span>À travers des textes classiques et de plusieurs styles de combat de scène, deux frères grandissent. Leur relation évolue et ils découvrent comment la fraternité est reliée à la perpétuation de la violence masculine.
+""";
+  schema:startDate "2026-12-18T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/3ca3be83-1160-4727-81bd-594505d1be11.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2982;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-18T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2982 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/87402AJMSKJKRJNNTTPKCBLGMMBCCRVGG> a
+    schema:Event;
+  schema:name "Swashbuckling (or De cape et d'épée)";
+  schema:description """
+	Through classical texts and many styles of stage fighting, two brothers grow from kids to young adults. As their relationship evolves, they discover how brotherhood is linked to the perpetuation of male violence.<span><br/></span>/<span><br/></span>À travers des textes classiques et de plusieurs styles de combat de scène, deux frères grandissent. Leur relation évolue et ils découvrent comment la fraternité est reliée à la perpétuation de la violence masculine.
+""";
+  schema:startDate "2026-12-19T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/3ca3be83-1160-4727-81bd-594505d1be11.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2983;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-19T15:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2983 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/89201AJNRQKJVCPNLDMBQVRHGSCKHNGKK> a
+    schema:Event;
+  schema:name "Swashbuckling (or De cape et d'épée)";
+  schema:description """
+	Through classical texts and many styles of stage fighting, two brothers grow from kids to young adults. As their relationship evolves, they discover how brotherhood is linked to the perpetuation of male violence.<span><br/></span>/<span><br/></span>À travers des textes classiques et de plusieurs styles de combat de scène, deux frères grandissent. Leur relation évolue et ils découvrent comment la fraternité est reliée à la perpétuation de la violence masculine.
+""";
+  schema:startDate "2026-12-19T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/3ca3be83-1160-4727-81bd-594505d1be11.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2984;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-19T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2984 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/89401ATPRKKNMKCBDQNCVHVDCMGJRDGGR> a
+    schema:Event;
+  schema:name "Swashbuckling (or De cape et d'épée)";
+  schema:description """
+	Through classical texts and many styles of stage fighting, two brothers grow from kids to young adults. As their relationship evolves, they discover how brotherhood is linked to the perpetuation of male violence.<span><br/></span>/<span><br/></span>À travers des textes classiques et de plusieurs styles de combat de scène, deux frères grandissent. Leur relation évolue et ils découvrent comment la fraternité est reliée à la perpétuation de la violence masculine.
+""";
+  schema:startDate "2026-12-20T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/3ca3be83-1160-4727-81bd-594505d1be11.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2985;
+  schema:duration "PT60M";
+  schema:endDate "2026-12-20T15:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2985 a schema:AggregateOffer;
+  schema:lowPrice "22.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/centaurtheatre/event/82801ASNJHRMMGSTGCDGBHPMRGKRJRGVS> a
@@ -919,12 +1192,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63009 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/f5906331-d3b1-42bf-8f60-2590dfb74172.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63010;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2986;
   schema:keywords "Musical";
   schema:duration "PT60M";
   schema:endDate "2026-08-22T20:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63010 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2986 a schema:AggregateOffer;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
 
@@ -938,12 +1211,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63010 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/f5906331-d3b1-42bf-8f60-2590dfb74172.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63011;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2987;
   schema:keywords "Musical";
   schema:duration "PT60M";
   schema:endDate "2026-08-23T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63011 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2987 a schema:AggregateOffer;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
 
@@ -957,12 +1230,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63011 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/f5906331-d3b1-42bf-8f60-2590dfb74172.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63012;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2988;
   schema:keywords "Musical";
   schema:duration "PT60M";
   schema:endDate "2026-08-26T20:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63012 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2988 a schema:AggregateOffer;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
 
@@ -976,12 +1249,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63012 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/f5906331-d3b1-42bf-8f60-2590dfb74172.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63013;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2989;
   schema:keywords "Musical";
   schema:duration "PT60M";
   schema:endDate "2026-08-27T20:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63013 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2989 a schema:AggregateOffer;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
 
@@ -995,12 +1268,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63013 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/f5906331-d3b1-42bf-8f60-2590dfb74172.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63014;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2990;
   schema:keywords "Musical";
   schema:duration "PT60M";
   schema:endDate "2026-08-28T20:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63014 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2990 a schema:AggregateOffer;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
 
@@ -1014,12 +1287,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63014 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/f5906331-d3b1-42bf-8f60-2590dfb74172.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63015;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2991;
   schema:keywords "Musical";
   schema:duration "PT60M";
   schema:endDate "2026-08-29T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63015 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2991 a schema:AggregateOffer;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
 
@@ -1033,12 +1306,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63015 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/f5906331-d3b1-42bf-8f60-2590dfb74172.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63016;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2992;
   schema:keywords "Musical";
   schema:duration "PT60M";
   schema:endDate "2026-08-29T20:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63016 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2992 a schema:AggregateOffer;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
 
@@ -1052,12 +1325,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63016 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63017;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2993;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-10-01T20:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63017 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2993 a schema:AggregateOffer;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
 
@@ -1071,12 +1344,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63017 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63018;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2994;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-10-02T20:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63018 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2994 a schema:AggregateOffer;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
 
@@ -1090,12 +1363,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63018 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63019;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2995;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-10-03T16:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63019 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f2995 a schema:AggregateOffer;
   schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
 
@@ -1109,294 +1382,17 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63019 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63020;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2996;
   schema:keywords "Drama";
   schema:duration "PT60M";
   schema:endDate "2026-10-03T20:30:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63020 a schema:AggregateOffer;
-  schema:lowPrice "5.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/85202ASSVBTBVVCTPSPNQPHCGMSCDTQHV> a
-    schema:Event;
-  schema:name "THE SOUND OF DOGS";
-  schema:description """
-	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
-""";
-  schema:startDate "2026-10-04T15:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63021;
-  schema:keywords "Drama";
-  schema:duration "PT60M";
-  schema:endDate "2026-10-04T16:00:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63021 a schema:AggregateOffer;
-  schema:lowPrice "5.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/85003ANKTTMHRKVGBGDLGCCTBKRNKVVQQ> a
-    schema:Event;
-  schema:name "THE SOUND OF DOGS";
-  schema:description """
-	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
-""";
-  schema:startDate "2026-10-06T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63022;
-  schema:keywords "Drama";
-  schema:duration "PT60M";
-  schema:endDate "2026-10-06T20:30:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63022 a schema:AggregateOffer;
-  schema:lowPrice "5.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/85004ALQDDPKLJRGDBGTCMNNJGHTBRPCJ> a
-    schema:Event;
-  schema:name "THE SOUND OF DOGS";
-  schema:description """
-	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
-""";
-  schema:startDate "2026-10-07T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63023;
-  schema:keywords "Drama";
-  schema:duration "PT60M";
-  schema:endDate "2026-10-07T20:30:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63023 a schema:AggregateOffer;
-  schema:lowPrice "5.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/85005ALLPQQCVDJKKRDSMKLPNLNHQCHCM> a
-    schema:Event;
-  schema:name "THE SOUND OF DOGS";
-  schema:description """
-	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
-""";
-  schema:startDate "2026-10-08T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63024;
-  schema:keywords "Drama";
-  schema:duration "PT60M";
-  schema:endDate "2026-10-08T20:30:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63024 a schema:AggregateOffer;
-  schema:lowPrice "5.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/85006ADDTBPLTHVTSKJNRHCHQTCPGTRSC> a
-    schema:Event;
-  schema:name "THE SOUND OF DOGS";
-  schema:description """
-	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
-""";
-  schema:startDate "2026-10-09T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63025;
-  schema:keywords "Drama";
-  schema:duration "PT60M";
-  schema:endDate "2026-10-09T20:30:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63025 a schema:AggregateOffer;
-  schema:lowPrice "5.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/85203AVLQNPNQMHNSQTVNDGLBRCNRTBKV> a
-    schema:Event;
-  schema:name "THE SOUND OF DOGS";
-  schema:description """
-	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
-""";
-  schema:startDate "2026-10-10T15:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63026;
-  schema:keywords "Drama";
-  schema:duration "PT60M";
-  schema:endDate "2026-10-10T16:00:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63026 a schema:AggregateOffer;
-  schema:lowPrice "5.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/85007AGTVLSKRGCDBRGBMRNNBCNSQPJJK> a
-    schema:Event;
-  schema:name "THE SOUND OF DOGS";
-  schema:description """
-	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
-""";
-  schema:startDate "2026-10-10T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63027;
-  schema:keywords "Drama";
-  schema:duration "PT60M";
-  schema:endDate "2026-10-10T20:30:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63027 a schema:AggregateOffer;
-  schema:lowPrice "5.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/71603AQRRBTDDSMVCGQQSTHNHNMMCDGTS> a
-    schema:Event;
-  schema:name "Waiting for Godot";
-  schema:description """
-	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
-""";
-  schema:startDate "2027-05-05T20:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63028;
-  schema:duration "PT60M";
-  schema:endDate "2027-05-05T21:00:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63028 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/77401ATDSDLQCDJCLVLHGVLTPSDBJPPBK> a
-    schema:Event;
-  schema:name "Waiting for Godot";
-  schema:description """
-	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
-""";
-  schema:startDate "2027-05-06T20:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63029;
-  schema:duration "PT60M";
-  schema:endDate "2027-05-06T21:00:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63029 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/77801ALGLLMQCDBGLKSDTLSHPSSRGRDGK> a
-    schema:Event;
-  schema:name "Waiting for Godot";
-  schema:description """
-	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
-""";
-  schema:startDate "2027-05-08T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63030;
-  schema:duration "PT60M";
-  schema:endDate "2027-05-08T15:00:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63030 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/78001AJVTNNMLKVVKRDSMTQKRPBBPTRNG> a
-    schema:Event;
-  schema:name "Waiting for Godot";
-  schema:description """
-	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
-""";
-  schema:startDate "2027-05-08T20:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63031;
-  schema:duration "PT60M";
-  schema:endDate "2027-05-08T21:00:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63031 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/78002ABDQLKRVDKMKSTKRVHBKMMGMNLKJ> a
-    schema:Event;
-  schema:name "Waiting for Godot";
-  schema:description """
-	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
-""";
-  schema:startDate "2027-05-09T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63032;
-  schema:duration "PT60M";
-  schema:endDate "2027-05-09T15:00:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63032 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/78201AKNQKRQLDQDJJBPGTRKDVHLTDSPD> a
-    schema:Event;
-  schema:name "Waiting for Godot";
-  schema:description """
-	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
-""";
-  schema:startDate "2027-05-11T20:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63033;
-  schema:duration "PT60M";
-  schema:endDate "2027-05-11T21:00:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63033 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/78601ARVGCQRVNKQDTCLPCBLPJJMRRLRQ> a
-    schema:Event;
-  schema:name "Waiting for Godot";
-  schema:description """
-	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
-""";
-  schema:startDate "2027-05-12T12:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63034;
-  schema:duration "PT60M";
-  schema:endDate "2027-05-12T13:00:00"^^xsd:dateTime .
-
-_:e22a3fd4f9e24c1cb113047b51a0f3a63034 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/centaurtheatre/event/78401AJTHVQKCLLSCNJNQLQTRRQHGJKMK> a
-    schema:Event;
-  schema:name "Waiting for Godot";
-  schema:description """
-	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
-""";
-  schema:startDate "2027-05-12T20:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
-  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63035;
-  schema:duration "PT60M";
-  schema:endDate "2027-05-12T21:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/centaurtheatre/organization/centaur-theatre> a schema:Organization;
   schema:name "Centaur Theatre";
   schema:sameAs <http://kg.artsdata.ca/resource/K10-32> .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63035 a schema:AggregateOffer;
-  schema:lowPrice "15.0";
+_:491c6ecfe2e84a5188c9c36471a83f2f2996 a schema:AggregateOffer;
+  schema:lowPrice "5.0";
   schema:priceCurrency "CAD" .
 
 <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a
@@ -1411,6 +1407,283 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63035 a schema:AggregateOffer;
   schema:addressRegion "QC";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/centaurtheatre/event/85202ASSVBTBVVCTPSPNQPHCGMSCDTQHV> a
+    schema:Event;
+  schema:name "THE SOUND OF DOGS";
+  schema:description """
+	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
+""";
+  schema:startDate "2026-10-04T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2997;
+  schema:keywords "Drama";
+  schema:duration "PT60M";
+  schema:endDate "2026-10-04T16:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2997 a schema:AggregateOffer;
+  schema:lowPrice "5.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/85003ANKTTMHRKVGBGDLGCCTBKRNKVVQQ> a
+    schema:Event;
+  schema:name "THE SOUND OF DOGS";
+  schema:description """
+	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
+""";
+  schema:startDate "2026-10-06T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2998;
+  schema:keywords "Drama";
+  schema:duration "PT60M";
+  schema:endDate "2026-10-06T20:30:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2998 a schema:AggregateOffer;
+  schema:lowPrice "5.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/85004ALQDDPKLJRGDBGTCMNNJGHTBRPCJ> a
+    schema:Event;
+  schema:name "THE SOUND OF DOGS";
+  schema:description """
+	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
+""";
+  schema:startDate "2026-10-07T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f2999;
+  schema:keywords "Drama";
+  schema:duration "PT60M";
+  schema:endDate "2026-10-07T20:30:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f2999 a schema:AggregateOffer;
+  schema:lowPrice "5.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/85005ALLPQQCVDJKKRDSMKLPNLNHQCHCM> a
+    schema:Event;
+  schema:name "THE SOUND OF DOGS";
+  schema:description """
+	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
+""";
+  schema:startDate "2026-10-08T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3000;
+  schema:keywords "Drama";
+  schema:duration "PT60M";
+  schema:endDate "2026-10-08T20:30:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f3000 a schema:AggregateOffer;
+  schema:lowPrice "5.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/85006ADDTBPLTHVTSKJNRHCHQTCPGTRSC> a
+    schema:Event;
+  schema:name "THE SOUND OF DOGS";
+  schema:description """
+	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
+""";
+  schema:startDate "2026-10-09T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3001;
+  schema:keywords "Drama";
+  schema:duration "PT60M";
+  schema:endDate "2026-10-09T20:30:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f3001 a schema:AggregateOffer;
+  schema:lowPrice "5.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/85203AVLQNPNQMHNSQTVNDGLBRCNRTBKV> a
+    schema:Event;
+  schema:name "THE SOUND OF DOGS";
+  schema:description """
+	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
+""";
+  schema:startDate "2026-10-10T15:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3002;
+  schema:keywords "Drama";
+  schema:duration "PT60M";
+  schema:endDate "2026-10-10T16:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f3002 a schema:AggregateOffer;
+  schema:lowPrice "5.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/85007AGTVLSKRGCDBRGBMRNNBCNSQPJJK> a
+    schema:Event;
+  schema:name "THE SOUND OF DOGS";
+  schema:description """
+	Official Brave New Looks selection · Séléction officielle de Brave New Looks<span><br/></span><span><br/></span><span class=\"BoldText\">Pay What You Decide</span><span><br/></span>25 Pay-What-You-Decide tickets are available for each performance! Choose one of the PWYD ticket types.<span><br/></span><span><br/></span><span class=\"BoldText\">Payez ce que vous décidez</span><span><br/></span>25 billets payez-ce-que-vous-décidez seront disponibles pour chaque répresentation ! Choissisez les types de billet marqués \"PWYD.\"
+""";
+  schema:startDate "2026-10-10T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/a48b5b36-532c-459b-8c8b-5522fe1433ec.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3003;
+  schema:keywords "Drama";
+  schema:duration "PT60M";
+  schema:endDate "2026-10-10T20:30:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f3003 a schema:AggregateOffer;
+  schema:lowPrice "5.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/71603AQRRBTDDSMVCGQQSTHNHNMMCDGTS> a
+    schema:Event;
+  schema:name "Waiting for Godot";
+  schema:description """
+	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
+""";
+  schema:startDate "2027-05-05T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3004;
+  schema:duration "PT60M";
+  schema:endDate "2027-05-05T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f3004 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/77401ATDSDLQCDJCLVLHGVLTPSDBJPPBK> a
+    schema:Event;
+  schema:name "Waiting for Godot";
+  schema:description """
+	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
+""";
+  schema:startDate "2027-05-06T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3005;
+  schema:duration "PT60M";
+  schema:endDate "2027-05-06T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f3005 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/77801ALGLLMQCDBGLKSDTLSHPSSRGRDGK> a
+    schema:Event;
+  schema:name "Waiting for Godot";
+  schema:description """
+	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
+""";
+  schema:startDate "2027-05-08T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3006;
+  schema:duration "PT60M";
+  schema:endDate "2027-05-08T15:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f3006 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/78001AJVTNNMLKVVKRDSMTQKRPBBPTRNG> a
+    schema:Event;
+  schema:name "Waiting for Godot";
+  schema:description """
+	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
+""";
+  schema:startDate "2027-05-08T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3007;
+  schema:duration "PT60M";
+  schema:endDate "2027-05-08T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f3007 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/78002ABDQLKRVDKMKSTKRVHBKMMGMNLKJ> a
+    schema:Event;
+  schema:name "Waiting for Godot";
+  schema:description """
+	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
+""";
+  schema:startDate "2027-05-09T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3008;
+  schema:duration "PT60M";
+  schema:endDate "2027-05-09T15:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f3008 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/78201AKNQKRQLDQDJJBPGTRKDVHLTDSPD> a
+    schema:Event;
+  schema:name "Waiting for Godot";
+  schema:description """
+	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
+""";
+  schema:startDate "2027-05-11T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3009;
+  schema:duration "PT60M";
+  schema:endDate "2027-05-11T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f3009 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/78601ARVGCQRVNKQDTCLPCBLPJJMRRLRQ> a
+    schema:Event;
+  schema:name "Waiting for Godot";
+  schema:description """
+	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
+""";
+  schema:startDate "2027-05-12T12:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3010;
+  schema:duration "PT60M";
+  schema:endDate "2027-05-12T13:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f3010 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/centaurtheatre/event/78401AJTHVQKCLLSCNJNQLQTRRQHGJKMK> a
+    schema:Event;
+  schema:name "Waiting for Godot";
+  schema:description """
+	A raw, contemporary Godot, where a new generation waits, jokes, spirals, and searches for meaning in a world that keeps promising something—and never quite delivers.<span><br/></span>/<span><br/></span>Une relecture contemporaine de Godot, où une nouvelle génération attend, plaisante, vacille et cherche un sens dans un monde qui promet sans cesse quelque chose — sans jamais vraiment le livrer.
+""";
+  schema:startDate "2027-05-12T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
+  schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3011;
+  schema:duration "PT60M";
+  schema:endDate "2027-05-12T21:00:00"^^xsd:dateTime .
+
+_:491c6ecfe2e84a5188c9c36471a83f2f3011 a schema:AggregateOffer;
+  schema:lowPrice "15.0";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/centaurtheatre/event/78801ALLGMGPNVLNCTKNGHCNHKQJNKVGD> a
     schema:Event;
   schema:name "Waiting for Godot";
@@ -1421,11 +1694,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63035 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63036;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3012;
   schema:duration "PT60M";
   schema:endDate "2027-05-13T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63036 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3012 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1439,11 +1712,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63036 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63037;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3013;
   schema:duration "PT60M";
   schema:endDate "2027-05-14T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63037 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3013 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1457,11 +1730,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63037 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63038;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3014;
   schema:duration "PT60M";
   schema:endDate "2027-05-15T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63038 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3014 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1475,11 +1748,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63038 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63039;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3015;
   schema:duration "PT60M";
   schema:endDate "2027-05-15T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63039 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3015 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1493,11 +1766,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63039 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63040;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3016;
   schema:duration "PT60M";
   schema:endDate "2027-05-16T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63040 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3016 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1511,11 +1784,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63040 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63041;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3017;
   schema:duration "PT60M";
   schema:endDate "2027-05-19T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63041 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3017 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1529,11 +1802,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63041 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63042;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3018;
   schema:duration "PT60M";
   schema:endDate "2027-05-20T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63042 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3018 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1547,11 +1820,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63042 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63043;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3019;
   schema:duration "PT60M";
   schema:endDate "2027-05-21T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63043 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3019 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1565,11 +1838,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63043 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63044;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3020;
   schema:duration "PT60M";
   schema:endDate "2027-05-22T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63044 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3020 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1583,11 +1856,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63044 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63045;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3021;
   schema:duration "PT60M";
   schema:endDate "2027-05-22T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63045 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3021 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1601,11 +1874,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63045 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/7c9fd25c-7de9-42fa-bbf0-dec1916c7244.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63046;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3022;
   schema:duration "PT60M";
   schema:endDate "2027-05-23T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63046 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3022 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1619,12 +1892,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63046 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9a6b0ee3-4b2f-468f-92d5-2bb87aa6a597.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63047;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3023;
   schema:keywords "Storytelling";
   schema:duration "PT90M";
   schema:endDate "2026-10-02T21:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63047 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3023 a schema:AggregateOffer;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
 
@@ -1638,12 +1911,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63047 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9a6b0ee3-4b2f-468f-92d5-2bb87aa6a597.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63048;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3024;
   schema:keywords "Storytelling";
   schema:duration "PT90M";
   schema:endDate "2026-10-03T15:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63048 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3024 a schema:AggregateOffer;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
 
@@ -1657,12 +1930,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63048 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9a6b0ee3-4b2f-468f-92d5-2bb87aa6a597.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63049;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3025;
   schema:keywords "Storytelling";
   schema:duration "PT90M";
   schema:endDate "2026-10-03T21:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63049 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3025 a schema:AggregateOffer;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
 
@@ -1676,12 +1949,12 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63049 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/9a6b0ee3-4b2f-468f-92d5-2bb87aa6a597.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63050;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3026;
   schema:keywords "Storytelling";
   schema:duration "PT90M";
   schema:endDate "2026-10-04T15:30:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63050 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3026 a schema:AggregateOffer;
   schema:lowPrice "29.0";
   schema:priceCurrency "CAD" .
 
@@ -1695,11 +1968,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63050 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63051;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3027;
   schema:duration "PT60M";
   schema:endDate "2027-04-14T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63051 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3027 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1713,11 +1986,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63051 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63052;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3028;
   schema:duration "PT60M";
   schema:endDate "2027-04-15T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63052 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3028 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1731,11 +2004,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63052 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63053;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3029;
   schema:duration "PT60M";
   schema:endDate "2027-04-17T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63053 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3029 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1749,11 +2022,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63053 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63054;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3030;
   schema:duration "PT60M";
   schema:endDate "2027-04-17T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63054 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3030 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1767,11 +2040,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63054 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63055;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3031;
   schema:duration "PT60M";
   schema:endDate "2027-04-18T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63055 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3031 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1785,11 +2058,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63055 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63056;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3032;
   schema:duration "PT60M";
   schema:endDate "2027-04-20T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63056 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3032 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1803,11 +2076,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63056 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63057;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3033;
   schema:duration "PT60M";
   schema:endDate "2027-04-21T13:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63057 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3033 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1821,11 +2094,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63057 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63058;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3034;
   schema:duration "PT60M";
   schema:endDate "2027-04-21T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63058 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3034 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1839,11 +2112,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63058 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63059;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3035;
   schema:duration "PT60M";
   schema:endDate "2027-04-22T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63059 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3035 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1857,11 +2130,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63059 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63060;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3036;
   schema:duration "PT60M";
   schema:endDate "2027-04-23T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63060 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3036 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1875,11 +2148,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63060 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63061;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3037;
   schema:duration "PT60M";
   schema:endDate "2027-04-24T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63061 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3037 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1893,11 +2166,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63061 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63062;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3038;
   schema:duration "PT60M";
   schema:endDate "2027-04-24T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63062 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3038 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1911,11 +2184,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63062 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63063;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3039;
   schema:duration "PT60M";
   schema:endDate "2027-04-25T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63063 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3039 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1929,11 +2202,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63063 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63064;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3040;
   schema:duration "PT60M";
   schema:endDate "2027-04-27T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63064 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3040 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1947,11 +2220,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63064 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63065;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3041;
   schema:duration "PT60M";
   schema:endDate "2027-04-28T13:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63065 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3041 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1965,11 +2238,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63065 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63066;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3042;
   schema:duration "PT60M";
   schema:endDate "2027-04-28T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63066 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3042 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1983,11 +2256,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63066 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63067;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3043;
   schema:duration "PT60M";
   schema:endDate "2027-04-29T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63067 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3043 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2001,11 +2274,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63067 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63068;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3044;
   schema:duration "PT60M";
   schema:endDate "2027-04-30T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63068 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3044 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2019,11 +2292,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63068 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63069;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3045;
   schema:duration "PT60M";
   schema:endDate "2027-05-01T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63069 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3045 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2037,11 +2310,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63069 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63070;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3046;
   schema:duration "PT60M";
   schema:endDate "2027-05-01T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63070 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3046 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2055,11 +2328,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63070 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/add35c5a-320c-4360-a052-2cb5c5c1c483.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63071;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3047;
   schema:duration "PT60M";
   schema:endDate "2027-05-02T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63071 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3047 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2073,11 +2346,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63071 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63072;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3048;
   schema:duration "PT60M";
   schema:endDate "2026-10-13T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63072 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3048 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2091,11 +2364,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63072 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63073;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3049;
   schema:duration "PT60M";
   schema:endDate "2026-10-14T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63073 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3049 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2109,11 +2382,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63073 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63074;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3050;
   schema:duration "PT60M";
   schema:endDate "2026-10-15T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63074 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3050 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2127,11 +2400,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63074 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63075;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3051;
   schema:duration "PT60M";
   schema:endDate "2026-10-16T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63075 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3051 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2145,11 +2418,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63075 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63076;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3052;
   schema:duration "PT60M";
   schema:endDate "2026-10-17T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63076 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3052 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2163,11 +2436,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63076 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63077;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3053;
   schema:duration "PT60M";
   schema:endDate "2026-10-18T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63077 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3053 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2181,11 +2454,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63077 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63078;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3054;
   schema:duration "PT60M";
   schema:endDate "2026-10-20T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63078 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3054 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2199,11 +2472,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63078 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63079;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3055;
   schema:duration "PT60M";
   schema:endDate "2026-10-21T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63079 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3055 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2217,11 +2490,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63079 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63080;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3056;
   schema:duration "PT60M";
   schema:endDate "2026-10-22T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63080 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3056 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2235,11 +2508,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63080 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63081;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3057;
   schema:duration "PT60M";
   schema:endDate "2026-10-23T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63081 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3057 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2253,11 +2526,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63081 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63082;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3058;
   schema:duration "PT60M";
   schema:endDate "2026-10-24T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63082 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3058 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2271,11 +2544,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63082 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63083;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3059;
   schema:duration "PT60M";
   schema:endDate "2026-10-25T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63083 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3059 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2289,11 +2562,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63083 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63084;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3060;
   schema:duration "PT60M";
   schema:endDate "2026-10-27T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63084 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3060 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2307,11 +2580,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63084 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63085;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3061;
   schema:duration "PT60M";
   schema:endDate "2026-10-28T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63085 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3061 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2325,11 +2598,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63085 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63086;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3062;
   schema:duration "PT60M";
   schema:endDate "2026-10-29T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63086 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3062 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2343,11 +2616,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63086 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63087;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3063;
   schema:duration "PT60M";
   schema:endDate "2026-10-30T21:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63087 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3063 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2361,11 +2634,11 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63087 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63088;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3064;
   schema:duration "PT60M";
   schema:endDate "2026-10-31T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63088 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3064 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -2379,10 +2652,10 @@ _:e22a3fd4f9e24c1cb113047b51a0f3a63088 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/centaurtheatre/files/961811d5-37cb-4c3c-b97e-967cbf0a9ffb.jpg>;
   schema:location <https://spektrix.com/centaurtheatre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/centaurtheatre/organization/centaur-theatre>;
-  schema:offers _:e22a3fd4f9e24c1cb113047b51a0f3a63089;
+  schema:offers _:491c6ecfe2e84a5188c9c36471a83f2f3065;
   schema:duration "PT60M";
   schema:endDate "2026-11-01T15:00:00"^^xsd:dateTime .
 
-_:e22a3fd4f9e24c1cb113047b51a0f3a63089 a schema:AggregateOffer;
+_:491c6ecfe2e84a5188c9c36471a83f2f3065 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
