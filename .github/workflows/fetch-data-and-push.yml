@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: run python
         run: |
           IFS=',' read -ra SOURCES <<< "${{ inputs.sources }}"
@@ -32,7 +32,7 @@ jobs:
           done
 
       - name: upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: all-json-files
           path: json_data/
@@ -71,7 +71,7 @@ jobs:
           mv "$tmp_file" "$config_file"
 
       - name: download artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         id: download-step
         with:
           name: all-json-files
@@ -107,7 +107,7 @@ jobs:
             echo "matrix=$formatted_matrix" >> $GITHUB_OUTPUT
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: all-ttl-files
           path: outputs/
@@ -117,11 +117,11 @@ jobs:
     needs: process-using-ontorefine
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Download artifacts
         id: download-step
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: all-ttl-files
           path: outputs/
@@ -142,7 +142,7 @@ jobs:
       matrix: ${{fromJson(needs.process-using-ontorefine.outputs.matrix)}}
     steps:
       - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v1.1.0
+        uses: culturecreates/artsdata-pipeline-action@v4
         with:
           artifact: ${{ matrix.artifact }}
           publisher: "https://github.com/fjjulien#this"
