@@ -8,6 +8,66 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
+<http://www.spektrix.com/terrabrucemajestic/event/142801ACCMGHVPCLJQCSQSPMHKNMMPRLJ>
+  a schema:Event;
+  schema:name "A Jolly Dolly Christmas";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-27T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec127;
+  schema:duration "PT120M";
+  schema:endDate "2026-11-27T21:30:00"^^xsd:dateTime .
+
+_:c18c16561d4b44cf9b22798891bbc2ec127 a schema:AggregateOffer;
+  schema:lowPrice "57.5";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:Place;
+  schema:name "The Majestic Theatre";
+  schema:address <https://spektrix.com/terrabrucemajestic/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/terrabrucemajestic/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:PostalAddress;
+  schema:streetAddress "390 Duckworth Street";
+  schema:addressLocality "St. John's";
+  schema:addressRegion "NL";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/terrabrucemajestic/event/143001AHPVCJMGLRJTQBNVSHVLMBTMPHK>
+  a schema:Event;
+  schema:name "A Jolly Dolly Christmas";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-28T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec128;
+  schema:duration "PT120M";
+  schema:endDate "2026-11-28T21:30:00"^^xsd:dateTime .
+
+_:c18c16561d4b44cf9b22798891bbc2ec128 a schema:AggregateOffer;
+  schema:lowPrice "57.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/terrabrucemajestic/event/143201ALKQBKGTBLRTMBHLJSQRRLDCPNK>
+  a schema:Event;
+  schema:name "A Jolly Dolly Christmas";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-29T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec129;
+  schema:duration "PT120M";
+  schema:endDate "2026-11-29T21:30:00"^^xsd:dateTime .
+
+_:c18c16561d4b44cf9b22798891bbc2ec129 a schema:AggregateOffer;
+  schema:lowPrice "57.5";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/terrabrucemajestic/event/139801AGNQKSSLKVSMPHSBQDBKDDRVSGH>
   a schema:Event;
   schema:name "A Little Night Music - YPC Cabaret";
@@ -16,12 +76,12 @@
 """;
   schema:startDate "2026-08-14T21:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e129;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec130;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-08-14T23:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e129 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec130 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -45,26 +105,14 @@ _:c6b4b1028eff4381af491812ccede69e129 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-04T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e130;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec131;
   schema:keywords "Music";
   schema:duration "PT180M";
   schema:endDate "2025-12-04T22:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e130 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec131 a schema:AggregateOffer;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
-
-<https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
-  a schema:Place;
-  schema:name "The Majestic Theatre";
-  schema:address <https://spektrix.com/terrabrucemajestic/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-<https://spektrix.com/terrabrucemajestic/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
-  a schema:PostalAddress;
-  schema:streetAddress "390 Duckworth Street";
-  schema:addressLocality "St. John's";
-  schema:addressRegion "NL";
-  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/terrabrucemajestic/event/109601AKCNLBPBVBJGBHHJQTBPSDDCDNG>
   a schema:Event;
@@ -74,12 +122,12 @@ _:c6b4b1028eff4381af491812ccede69e130 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-20T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e131;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec132;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2026-02-20T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e131 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec132 a schema:AggregateOffer;
   schema:lowPrice "45.0";
   schema:priceCurrency "CAD" .
 
@@ -91,12 +139,12 @@ _:c6b4b1028eff4381af491812ccede69e131 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-21T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e132;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec133;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2026-02-21T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e132 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec133 a schema:AggregateOffer;
   schema:lowPrice "45.0";
   schema:priceCurrency "CAD" .
 
@@ -108,12 +156,12 @@ _:c6b4b1028eff4381af491812ccede69e132 a schema:AggregateOffer;
 """;
   schema:startDate "2026-10-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e133;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec134;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-10-07T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e133 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec134 a schema:AggregateOffer;
   schema:lowPrice "46.0";
   schema:priceCurrency "CAD" .
 
@@ -125,12 +173,12 @@ _:c6b4b1028eff4381af491812ccede69e133 a schema:AggregateOffer;
 """;
   schema:startDate "2026-10-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e134;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec135;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-10-08T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e134 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec135 a schema:AggregateOffer;
   schema:lowPrice "46.0";
   schema:priceCurrency "CAD" .
 
@@ -142,29 +190,12 @@ _:c6b4b1028eff4381af491812ccede69e134 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-09T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e135;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec136;
   schema:duration "PT150M";
   schema:endDate "2026-05-09T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e135 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec136 a schema:AggregateOffer;
   schema:lowPrice "20.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/terrabrucemajestic/event/126801AMJKJDPSLTMCLCRJQMMHGTLRHRB>
-  a schema:Event;
-  schema:name "All You Need is Love";
-  schema:description """
-
-""";
-  schema:startDate "2026-08-20T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e136;
-  schema:keywords "Music";
-  schema:duration "PT120M";
-  schema:endDate "2026-08-20T21:30:00"^^xsd:dateTime .
-
-_:c6b4b1028eff4381af491812ccede69e136 a schema:AggregateOffer;
-  schema:lowPrice "48.3";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/terrabrucemajestic/event/127001ARTBCTCNVSNSQLQNJMVTKGRVGCG>
@@ -175,12 +206,12 @@ _:c6b4b1028eff4381af491812ccede69e136 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e137;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec137;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-08-21T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e137 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec137 a schema:AggregateOffer;
   schema:lowPrice "48.3";
   schema:priceCurrency "CAD" .
 
@@ -192,12 +223,12 @@ _:c6b4b1028eff4381af491812ccede69e137 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e138;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec138;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-08-22T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e138 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec138 a schema:AggregateOffer;
   schema:lowPrice "48.3";
   schema:priceCurrency "CAD" .
 
@@ -209,11 +240,11 @@ _:c6b4b1028eff4381af491812ccede69e138 a schema:AggregateOffer;
 """;
   schema:startDate "2026-09-25T21:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e139;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec139;
   schema:duration "PT60M";
   schema:endDate "2026-09-25T22:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e139 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec139 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -225,12 +256,12 @@ _:c6b4b1028eff4381af491812ccede69e139 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-25T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e140;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec140;
   schema:keywords "Film";
   schema:duration "PT99M";
   schema:endDate "2026-02-25T20:39:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e140 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec140 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -242,11 +273,11 @@ _:c6b4b1028eff4381af491812ccede69e140 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-27T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e141;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec141;
   schema:duration "PT120M";
   schema:endDate "2026-03-27T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e141 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec141 a schema:AggregateOffer;
   schema:lowPrice "34.5";
   schema:priceCurrency "CAD" .
 
@@ -258,11 +289,11 @@ _:c6b4b1028eff4381af491812ccede69e141 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e142;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec142;
   schema:duration "PT150M";
   schema:endDate "2026-02-27T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e142 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec142 a schema:AggregateOffer;
   schema:lowPrice "53.0";
   schema:priceCurrency "CAD" .
 
@@ -274,11 +305,11 @@ _:c6b4b1028eff4381af491812ccede69e142 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-28T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e143;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec143;
   schema:duration "PT150M";
   schema:endDate "2026-02-28T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e143 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec143 a schema:AggregateOffer;
   schema:lowPrice "53.0";
   schema:priceCurrency "CAD" .
 
@@ -290,11 +321,11 @@ _:c6b4b1028eff4381af491812ccede69e143 a schema:AggregateOffer;
 """;
   schema:startDate "2026-10-27T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e144;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec144;
   schema:duration "PT210M";
   schema:endDate "2026-10-27T22:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e144 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec144 a schema:AggregateOffer;
   schema:lowPrice "80.49";
   schema:priceCurrency "CAD" .
 
@@ -306,11 +337,11 @@ _:c6b4b1028eff4381af491812ccede69e144 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-24T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e145;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec145;
   schema:duration "PT120M";
   schema:endDate "2026-04-24T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e145 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec145 a schema:AggregateOffer;
   schema:lowPrice "53.0";
   schema:priceCurrency "CAD" .
 
@@ -322,11 +353,11 @@ _:c6b4b1028eff4381af491812ccede69e145 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e146;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec146;
   schema:duration "PT120M";
   schema:endDate "2026-04-25T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e146 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec146 a schema:AggregateOffer;
   schema:lowPrice "53.0";
   schema:priceCurrency "CAD" .
 
@@ -338,12 +369,12 @@ _:c6b4b1028eff4381af491812ccede69e146 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e147;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec147;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2025-12-16T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e147 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec147 a schema:AggregateOffer;
   schema:lowPrice "51.75";
   schema:priceCurrency "CAD" .
 
@@ -355,12 +386,12 @@ _:c6b4b1028eff4381af491812ccede69e147 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e148;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec148;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2025-12-17T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e148 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec148 a schema:AggregateOffer;
   schema:lowPrice "51.75";
   schema:priceCurrency "CAD" .
 
@@ -372,12 +403,12 @@ _:c6b4b1028eff4381af491812ccede69e148 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e149;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec149;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2025-12-18T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e149 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec149 a schema:AggregateOffer;
   schema:lowPrice "51.75";
   schema:priceCurrency "CAD" .
 
@@ -389,12 +420,12 @@ _:c6b4b1028eff4381af491812ccede69e149 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e150;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec150;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2025-12-20T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e150 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec150 a schema:AggregateOffer;
   schema:lowPrice "51.75";
   schema:priceCurrency "CAD" .
 
@@ -406,11 +437,11 @@ _:c6b4b1028eff4381af491812ccede69e150 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-01T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e151;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec151;
   schema:duration "PT60M";
   schema:endDate "2026-03-01T20:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e151 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec151 a schema:AggregateOffer;
   schema:lowPrice "23.0";
   schema:priceCurrency "CAD" .
 
@@ -422,12 +453,12 @@ _:c6b4b1028eff4381af491812ccede69e151 a schema:AggregateOffer;
 """;
   schema:startDate "2026-10-10T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e152;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec152;
   schema:keywords "Music";
   schema:duration "PT150M";
   schema:endDate "2026-10-10T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e152 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec152 a schema:AggregateOffer;
   schema:lowPrice "34.5";
   schema:priceCurrency "CAD" .
 
@@ -439,12 +470,12 @@ _:c6b4b1028eff4381af491812ccede69e152 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-10T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e153;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec153;
   schema:keywords "Comedy";
   schema:duration "PT120M";
   schema:endDate "2026-04-10T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e153 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec153 a schema:AggregateOffer;
   schema:lowPrice "23.0";
   schema:priceCurrency "CAD" .
 
@@ -456,12 +487,12 @@ _:c6b4b1028eff4381af491812ccede69e153 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-19T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e154;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec154;
   schema:keywords "Comedy";
   schema:duration "PT90M";
   schema:endDate "2026-07-19T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e154 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec154 a schema:AggregateOffer;
   schema:lowPrice "39.5";
   schema:priceCurrency "CAD" .
 
@@ -473,11 +504,11 @@ _:c6b4b1028eff4381af491812ccede69e154 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e155;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec155;
   schema:duration "PT60M";
   schema:endDate "2026-11-13T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e155 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec155 a schema:AggregateOffer;
   schema:lowPrice "55.2";
   schema:priceCurrency "CAD" .
 
@@ -489,11 +520,11 @@ _:c6b4b1028eff4381af491812ccede69e155 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e156;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec156;
   schema:duration "PT60M";
   schema:endDate "2026-11-14T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e156 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec156 a schema:AggregateOffer;
   schema:lowPrice "55.2";
   schema:priceCurrency "CAD" .
 
@@ -505,11 +536,11 @@ _:c6b4b1028eff4381af491812ccede69e156 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e157;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec157;
   schema:duration "PT60M";
   schema:endDate "2026-11-20T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e157 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec157 a schema:AggregateOffer;
   schema:lowPrice "55.2";
   schema:priceCurrency "CAD" .
 
@@ -521,12 +552,28 @@ _:c6b4b1028eff4381af491812ccede69e157 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e158;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec158;
   schema:duration "PT60M";
   schema:endDate "2026-11-21T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e158 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec158 a schema:AggregateOffer;
   schema:lowPrice "55.2";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/terrabrucemajestic/event/143602AJLQKGTDTSMGJBRQVNKNMHJHLCJ>
+  a schema:Event;
+  schema:name "Disenchanted - A Tribute Show";
+  schema:description """
+
+""";
+  schema:startDate "2026-10-31T14:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec159;
+  schema:duration "PT60M";
+  schema:endDate "2026-10-31T15:30:00"^^xsd:dateTime .
+
+_:c18c16561d4b44cf9b22798891bbc2ec159 a schema:AggregateOffer;
+  schema:lowPrice "40.25";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/terrabrucemajestic/event/134601ABHRNHMVGKCBRSNBDKCHLCTBGCD>
@@ -537,11 +584,11 @@ _:c6b4b1028eff4381af491812ccede69e158 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-19T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e159;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec160;
   schema:duration "PT120M";
   schema:endDate "2026-06-19T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e159 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec160 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -553,11 +600,11 @@ _:c6b4b1028eff4381af491812ccede69e159 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-08T21:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e160;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec161;
   schema:duration "PT120M";
   schema:endDate "2026-05-08T23:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e160 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec161 a schema:AggregateOffer;
   schema:lowPrice "12.0";
   schema:priceCurrency "CAD" .
 
@@ -569,12 +616,12 @@ _:c6b4b1028eff4381af491812ccede69e160 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e161;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec162;
   schema:keywords "Music";
   schema:duration "PT90M";
   schema:endDate "2026-08-13T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e161 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec162 a schema:AggregateOffer;
   schema:lowPrice "11.5";
   schema:priceCurrency "CAD" .
 
@@ -586,12 +633,12 @@ _:c6b4b1028eff4381af491812ccede69e161 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-24T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e162;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec163;
   schema:keywords "Musical Theatre";
   schema:duration "PT60M";
   schema:endDate "2026-07-24T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e162 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec163 a schema:AggregateOffer;
   schema:lowPrice "36.8";
   schema:priceCurrency "CAD" .
 
@@ -603,12 +650,12 @@ _:c6b4b1028eff4381af491812ccede69e162 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-25T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e163;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec164;
   schema:keywords "Musical Theatre";
   schema:duration "PT60M";
   schema:endDate "2026-07-25T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e163 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec164 a schema:AggregateOffer;
   schema:lowPrice "36.8";
   schema:priceCurrency "CAD" .
 
@@ -620,12 +667,12 @@ _:c6b4b1028eff4381af491812ccede69e163 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-26T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e164;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec165;
   schema:keywords "Musical Theatre";
   schema:duration "PT60M";
   schema:endDate "2026-07-26T15:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e164 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec165 a schema:AggregateOffer;
   schema:lowPrice "36.8";
   schema:priceCurrency "CAD" .
 
@@ -637,12 +684,12 @@ _:c6b4b1028eff4381af491812ccede69e164 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-09T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e165;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec166;
   schema:keywords "Musical Theatre";
   schema:duration "PT60M";
   schema:endDate "2026-08-09T15:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e165 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec166 a schema:AggregateOffer;
   schema:lowPrice "36.8";
   schema:priceCurrency "CAD" .
 
@@ -654,12 +701,12 @@ _:c6b4b1028eff4381af491812ccede69e165 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-16T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e166;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec167;
   schema:keywords "Musical Theatre";
   schema:duration "PT60M";
   schema:endDate "2026-08-16T15:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e166 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec167 a schema:AggregateOffer;
   schema:lowPrice "36.8";
   schema:priceCurrency "CAD" .
 
@@ -671,12 +718,12 @@ _:c6b4b1028eff4381af491812ccede69e166 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e167;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec168;
   schema:keywords "Music";
   schema:duration "PT90M";
   schema:endDate "2026-07-17T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e167 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec168 a schema:AggregateOffer;
   schema:lowPrice "17.25";
   schema:priceCurrency "CAD" .
 
@@ -688,11 +735,11 @@ _:c6b4b1028eff4381af491812ccede69e167 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-11T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e168;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec169;
   schema:duration "PT150M";
   schema:endDate "2025-12-11T22:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e168 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec169 a schema:AggregateOffer;
   schema:lowPrice "55.0";
   schema:priceCurrency "CAD" .
 
@@ -704,11 +751,11 @@ _:c6b4b1028eff4381af491812ccede69e168 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-12T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e169;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec170;
   schema:duration "PT150M";
   schema:endDate "2025-12-12T22:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e169 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec170 a schema:AggregateOffer;
   schema:lowPrice "55.0";
   schema:priceCurrency "CAD" .
 
@@ -720,11 +767,11 @@ _:c6b4b1028eff4381af491812ccede69e169 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-13T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e170;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec171;
   schema:duration "PT150M";
   schema:endDate "2025-12-13T22:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e170 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec171 a schema:AggregateOffer;
   schema:lowPrice "55.0";
   schema:priceCurrency "CAD" .
 
@@ -736,11 +783,11 @@ _:c6b4b1028eff4381af491812ccede69e170 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-14T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e171;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec172;
   schema:duration "PT150M";
   schema:endDate "2025-12-14T22:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e171 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec172 a schema:AggregateOffer;
   schema:lowPrice "55.0";
   schema:priceCurrency "CAD" .
 
@@ -752,12 +799,12 @@ _:c6b4b1028eff4381af491812ccede69e171 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-28T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e172;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec173;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2026-08-28T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e172 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec173 a schema:AggregateOffer;
   schema:lowPrice "17.25";
   schema:priceCurrency "CAD" .
 
@@ -769,12 +816,12 @@ _:c6b4b1028eff4381af491812ccede69e172 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-10T21:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e173;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec174;
   schema:keywords "Comedy";
   schema:duration "PT120M";
   schema:endDate "2026-04-10T23:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e173 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec174 a schema:AggregateOffer;
   schema:lowPrice "20.7";
   schema:priceCurrency "CAD" .
 
@@ -786,12 +833,12 @@ _:c6b4b1028eff4381af491812ccede69e173 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-09T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e174;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec175;
   schema:keywords "Musical Theatre";
   schema:duration "PT120M";
   schema:endDate "2026-04-09T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e174 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec175 a schema:AggregateOffer;
   schema:lowPrice "28.75";
   schema:priceCurrency "CAD" .
 
@@ -803,11 +850,11 @@ _:c6b4b1028eff4381af491812ccede69e174 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-29T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e175;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec176;
   schema:duration "PT60M";
   schema:endDate "2026-04-29T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e175 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec176 a schema:AggregateOffer;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
@@ -819,11 +866,11 @@ _:c6b4b1028eff4381af491812ccede69e175 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-30T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e176;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec177;
   schema:duration "PT60M";
   schema:endDate "2026-04-30T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e176 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec177 a schema:AggregateOffer;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
@@ -835,11 +882,11 @@ _:c6b4b1028eff4381af491812ccede69e176 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-01T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e177;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec178;
   schema:duration "PT60M";
   schema:endDate "2026-05-01T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e177 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec178 a schema:AggregateOffer;
   schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
@@ -851,12 +898,28 @@ _:c6b4b1028eff4381af491812ccede69e177 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-02T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e178;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec179;
   schema:duration "PT60M";
   schema:endDate "2026-05-02T15:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e178 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec179 a schema:AggregateOffer;
   schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/terrabrucemajestic/event/142601AJVCBPGNSBPNNSGRPMCDVGTJKVV>
+  a schema:Event;
+  schema:name "Hall Pass - Queer Dance Party";
+  schema:description """
+
+""";
+  schema:startDate "2026-09-18T21:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec180;
+  schema:duration "PT180M";
+  schema:endDate "2026-09-19T00:00:00"^^xsd:dateTime .
+
+_:c18c16561d4b44cf9b22798891bbc2ec180 a schema:AggregateOffer;
+  schema:lowPrice "12.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/terrabrucemajestic/event/141001AGJLGTBCGCMHCDHSTKGJRLSBMSV>
@@ -867,12 +930,12 @@ _:c6b4b1028eff4381af491812ccede69e178 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-15T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e179;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec181;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-08-15T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e179 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec181 a schema:AggregateOffer;
   schema:lowPrice "17.25";
   schema:priceCurrency "CAD" .
 
@@ -884,12 +947,12 @@ _:c6b4b1028eff4381af491812ccede69e179 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-29T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e180;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec182;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2026-08-29T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e180 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec182 a schema:AggregateOffer;
   schema:lowPrice "50.0";
   schema:priceCurrency "CAD" .
 
@@ -901,11 +964,11 @@ _:c6b4b1028eff4381af491812ccede69e180 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e181;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec183;
   schema:duration "PT120M";
   schema:endDate "2026-08-27T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e181 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec183 a schema:AggregateOffer;
   schema:lowPrice "50.0";
   schema:priceCurrency "CAD" .
 
@@ -917,11 +980,11 @@ _:c6b4b1028eff4381af491812ccede69e181 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-04T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e182;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec184;
   schema:duration "PT180M";
   schema:endDate "2026-11-04T23:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e182 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec184 a schema:AggregateOffer;
   schema:lowPrice "45.0";
   schema:priceCurrency "CAD" .
 
@@ -933,11 +996,11 @@ _:c6b4b1028eff4381af491812ccede69e182 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-05T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e183;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec185;
   schema:duration "PT180M";
   schema:endDate "2026-11-05T23:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e183 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec185 a schema:AggregateOffer;
   schema:lowPrice "45.0";
   schema:priceCurrency "CAD" .
 
@@ -949,11 +1012,11 @@ _:c6b4b1028eff4381af491812ccede69e183 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e184;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec186;
   schema:duration "PT150M";
   schema:endDate "2026-05-14T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e184 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec186 a schema:AggregateOffer;
   schema:lowPrice "53.0";
   schema:priceCurrency "CAD" .
 
@@ -965,11 +1028,11 @@ _:c6b4b1028eff4381af491812ccede69e184 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e185;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec187;
   schema:duration "PT150M";
   schema:endDate "2026-05-15T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e185 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec187 a schema:AggregateOffer;
   schema:lowPrice "53.0";
   schema:priceCurrency "CAD" .
 
@@ -981,11 +1044,11 @@ _:c6b4b1028eff4381af491812ccede69e185 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e186;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec188;
   schema:duration "PT150M";
   schema:endDate "2026-05-16T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e186 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec188 a schema:AggregateOffer;
   schema:lowPrice "53.0";
   schema:priceCurrency "CAD" .
 
@@ -997,12 +1060,12 @@ _:c6b4b1028eff4381af491812ccede69e186 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-27T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e187;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec189;
   schema:keywords "Musical Theatre";
   schema:duration "PT165M";
   schema:endDate "2026-06-27T16:45:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e187 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec189 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1014,12 +1077,12 @@ _:c6b4b1028eff4381af491812ccede69e187 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e188;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec190;
   schema:keywords "Musical Theatre";
   schema:duration "PT165M";
   schema:endDate "2026-06-27T22:15:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e188 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec190 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1031,12 +1094,12 @@ _:c6b4b1028eff4381af491812ccede69e188 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-28T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e189;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec191;
   schema:keywords "Musical Theatre";
   schema:duration "PT165M";
   schema:endDate "2026-06-28T22:15:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e189 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec191 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -1048,12 +1111,12 @@ _:c6b4b1028eff4381af491812ccede69e189 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-30T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e190;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec192;
   schema:keywords "Music";
   schema:duration "PT60M";
   schema:endDate "2026-01-30T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e190 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec192 a schema:AggregateOffer;
   schema:lowPrice "50.0";
   schema:priceCurrency "CAD" .
 
@@ -1065,11 +1128,11 @@ _:c6b4b1028eff4381af491812ccede69e190 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-08T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e191;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec193;
   schema:duration "PT60M";
   schema:endDate "2026-05-08T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e191 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec193 a schema:AggregateOffer;
   schema:lowPrice "45.0";
   schema:priceCurrency "CAD" .
 
@@ -1081,11 +1144,11 @@ _:c6b4b1028eff4381af491812ccede69e191 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-01T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e192;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec194;
   schema:duration "PT120M";
   schema:endDate "2026-04-01T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e192 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec194 a schema:AggregateOffer;
   schema:lowPrice "51.0";
   schema:priceCurrency "CAD" .
 
@@ -1097,11 +1160,11 @@ _:c6b4b1028eff4381af491812ccede69e192 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-02T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e193;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec195;
   schema:duration "PT120M";
   schema:endDate "2026-04-02T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e193 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec195 a schema:AggregateOffer;
   schema:lowPrice "51.0";
   schema:priceCurrency "CAD" .
 
@@ -1113,11 +1176,11 @@ _:c6b4b1028eff4381af491812ccede69e193 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-03T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e194;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec196;
   schema:duration "PT120M";
   schema:endDate "2026-04-03T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e194 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec196 a schema:AggregateOffer;
   schema:lowPrice "51.0";
   schema:priceCurrency "CAD" .
 
@@ -1129,11 +1192,11 @@ _:c6b4b1028eff4381af491812ccede69e194 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-04T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e195;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec197;
   schema:duration "PT120M";
   schema:endDate "2026-04-04T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e195 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec197 a schema:AggregateOffer;
   schema:lowPrice "51.0";
   schema:priceCurrency "CAD" .
 
@@ -1145,11 +1208,11 @@ _:c6b4b1028eff4381af491812ccede69e195 a schema:AggregateOffer;
 """;
   schema:startDate "2026-10-14T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e196;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec198;
   schema:duration "PT120M";
   schema:endDate "2026-10-14T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e196 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec198 a schema:AggregateOffer;
   schema:lowPrice "62.5";
   schema:priceCurrency "CAD" .
 
@@ -1161,11 +1224,11 @@ _:c6b4b1028eff4381af491812ccede69e196 a schema:AggregateOffer;
 """;
   schema:startDate "2026-10-15T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e197;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec199;
   schema:duration "PT120M";
   schema:endDate "2026-10-15T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e197 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec199 a schema:AggregateOffer;
   schema:lowPrice "62.5";
   schema:priceCurrency "CAD" .
 
@@ -1177,11 +1240,11 @@ _:c6b4b1028eff4381af491812ccede69e197 a schema:AggregateOffer;
 """;
   schema:startDate "2026-10-16T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e198;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec200;
   schema:duration "PT120M";
   schema:endDate "2026-10-16T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e198 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec200 a schema:AggregateOffer;
   schema:lowPrice "62.5";
   schema:priceCurrency "CAD" .
 
@@ -1193,11 +1256,11 @@ _:c6b4b1028eff4381af491812ccede69e198 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-12T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e199;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec201;
   schema:duration "PT180M";
   schema:endDate "2026-04-12T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e199 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec201 a schema:AggregateOffer;
   schema:lowPrice "52.75";
   schema:priceCurrency "CAD" .
 
@@ -1209,12 +1272,12 @@ _:c6b4b1028eff4381af491812ccede69e199 a schema:AggregateOffer;
 """;
   schema:startDate "2026-10-29T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e200;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec202;
   schema:keywords "Comedy";
   schema:duration "PT120M";
   schema:endDate "2026-10-29T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e200 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec202 a schema:AggregateOffer;
   schema:lowPrice "52.5";
   schema:priceCurrency "CAD" .
 
@@ -1226,12 +1289,12 @@ _:c6b4b1028eff4381af491812ccede69e200 a schema:AggregateOffer;
 """;
   schema:startDate "2026-10-30T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e201;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec203;
   schema:keywords "Comedy";
   schema:duration "PT120M";
   schema:endDate "2026-10-30T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e201 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec203 a schema:AggregateOffer;
   schema:lowPrice "52.5";
   schema:priceCurrency "CAD" .
 
@@ -1243,12 +1306,12 @@ _:c6b4b1028eff4381af491812ccede69e201 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-15T18:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e202;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec204;
   schema:keywords "Film";
   schema:duration "PT90M";
   schema:endDate "2026-07-15T20:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e202 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec204 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -1260,11 +1323,11 @@ _:c6b4b1028eff4381af491812ccede69e202 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-15T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e203;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec205;
   schema:duration "PT60M";
   schema:endDate "2026-02-15T16:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e203 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec205 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1276,12 +1339,12 @@ _:c6b4b1028eff4381af491812ccede69e203 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-15T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e204;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec206;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-02-15T17:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e204 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec206 a schema:AggregateOffer;
   schema:lowPrice "39.1";
   schema:priceCurrency "CAD" .
 
@@ -1293,11 +1356,11 @@ _:c6b4b1028eff4381af491812ccede69e204 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-15T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e205;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec207;
   schema:duration "PT60M";
   schema:endDate "2026-02-15T16:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e205 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec207 a schema:AggregateOffer;
   schema:lowPrice "39.1";
   schema:priceCurrency "CAD" .
 
@@ -1309,12 +1372,12 @@ _:c6b4b1028eff4381af491812ccede69e205 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e206;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec208;
   schema:keywords "Musical Theatre";
   schema:duration "PT135M";
   schema:endDate "2026-03-12T21:45:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e206 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec208 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1326,12 +1389,12 @@ _:c6b4b1028eff4381af491812ccede69e206 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-13T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e207;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec209;
   schema:keywords "Musical Theatre";
   schema:duration "PT135M";
   schema:endDate "2026-03-13T21:45:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e207 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec209 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1343,12 +1406,12 @@ _:c6b4b1028eff4381af491812ccede69e207 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-14T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e208;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec210;
   schema:keywords "Musical Theatre";
   schema:duration "PT135M";
   schema:endDate "2026-03-14T16:15:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e208 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec210 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1360,12 +1423,12 @@ _:c6b4b1028eff4381af491812ccede69e208 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e209;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec211;
   schema:keywords "Musical Theatre";
   schema:duration "PT135M";
   schema:endDate "2026-03-14T21:45:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e209 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec211 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1389,67 +1452,14 @@ _:c6b4b1028eff4381af491812ccede69e209 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e210;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec212;
   schema:keywords "Musical Theatre";
   schema:duration "PT135M";
   schema:endDate "2026-03-18T21:45:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e210 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec212 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/terrabrucemajestic/event/111206ARGMRRNGHCDHDPLNPMLDPRLPBSJ>
-  a schema:Event;
-  schema:name "MAN OF THE YEAR";
-  schema:description """
-
-""";
-  schema:startDate "2026-03-19T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e211;
-  schema:keywords "Musical Theatre";
-  schema:duration "PT135M";
-  schema:endDate "2026-03-19T21:45:00"^^xsd:dateTime .
-
-_:c6b4b1028eff4381af491812ccede69e211 a schema:AggregateOffer;
-  schema:lowPrice "30.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/terrabrucemajestic/event/111207ACKQBVHQCNCDBMPVKRHGLDVRDPH>
-  a schema:Event;
-  schema:name "MAN OF THE YEAR";
-  schema:description """
-
-""";
-  schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e212;
-  schema:keywords "Musical Theatre";
-  schema:duration "PT135M";
-  schema:endDate "2026-03-20T21:45:00"^^xsd:dateTime .
-
-_:c6b4b1028eff4381af491812ccede69e212 a schema:AggregateOffer;
-  schema:lowPrice "30.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/terrabrucemajestic/event/124001AVJNRQTJVGNQCPPTDTMPJPKVJMC>
-  a schema:Event;
-  schema:name "MAN OF THE YEAR";
-  schema:description """
-
-""";
-  schema:startDate "2026-03-21T14:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e213 .
-
-_:c6b4b1028eff4381af491812ccede69e213 a schema:AggregateOffer;
-  schema:lowPrice "30.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/terrabrucemajestic/event/124001AVJNRQTJVGNQCPPTDTMPJPKVJMC>
-  schema:keywords "Musical Theatre";
-  schema:duration "PT135M";
-  schema:endDate "2026-03-21T16:15:00"^^xsd:dateTime .
 
 <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
   a schema:Place;
@@ -1463,6 +1473,57 @@ _:c6b4b1028eff4381af491812ccede69e213 a schema:AggregateOffer;
   schema:addressRegion "NL";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/terrabrucemajestic/event/111206ARGMRRNGHCDHDPLNPMLDPRLPBSJ>
+  a schema:Event;
+  schema:name "MAN OF THE YEAR";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-19T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec213;
+  schema:keywords "Musical Theatre";
+  schema:duration "PT135M";
+  schema:endDate "2026-03-19T21:45:00"^^xsd:dateTime .
+
+_:c18c16561d4b44cf9b22798891bbc2ec213 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/terrabrucemajestic/event/111207ACKQBVHQCNCDBMPVKRHGLDVRDPH>
+  a schema:Event;
+  schema:name "MAN OF THE YEAR";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-20T19:30:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec214;
+  schema:keywords "Musical Theatre";
+  schema:duration "PT135M";
+  schema:endDate "2026-03-20T21:45:00"^^xsd:dateTime .
+
+_:c18c16561d4b44cf9b22798891bbc2ec214 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/terrabrucemajestic/event/124001AVJNRQTJVGNQCPPTDTMPJPKVJMC>
+  a schema:Event;
+  schema:name "MAN OF THE YEAR";
+  schema:description """
+
+""";
+  schema:startDate "2026-03-21T14:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec215;
+  schema:keywords "Musical Theatre";
+  schema:duration "PT135M";
+  schema:endDate "2026-03-21T16:15:00"^^xsd:dateTime .
+
+_:c18c16561d4b44cf9b22798891bbc2ec215 a schema:AggregateOffer;
+  schema:lowPrice "30.0";
+  schema:priceCurrency "CAD" .
+
 <http://www.spektrix.com/terrabrucemajestic/event/111208AMCLMTSHCVCNVVRBSHCLCCCRGQS>
   a schema:Event;
   schema:name "MAN OF THE YEAR";
@@ -1471,12 +1532,12 @@ _:c6b4b1028eff4381af491812ccede69e213 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-21T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e214;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec216;
   schema:keywords "Musical Theatre";
   schema:duration "PT135M";
   schema:endDate "2026-03-21T21:45:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e214 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec216 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1488,12 +1549,12 @@ _:c6b4b1028eff4381af491812ccede69e214 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-22T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e215;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec217;
   schema:keywords "Musical Theatre";
   schema:duration "PT135M";
   schema:endDate "2026-03-22T16:15:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e215 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec217 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1505,11 +1566,11 @@ _:c6b4b1028eff4381af491812ccede69e215 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-19T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e216;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec218;
   schema:duration "PT180M";
   schema:endDate "2026-06-19T23:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e216 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec218 a schema:AggregateOffer;
   schema:lowPrice "67.5";
   schema:priceCurrency "CAD" .
 
@@ -1521,11 +1582,11 @@ _:c6b4b1028eff4381af491812ccede69e216 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-20T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e217;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec219;
   schema:duration "PT180M";
   schema:endDate "2026-06-20T23:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e217 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec219 a schema:AggregateOffer;
   schema:lowPrice "67.5";
   schema:priceCurrency "CAD" .
 
@@ -1537,12 +1598,12 @@ _:c6b4b1028eff4381af491812ccede69e217 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e218;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec220;
   schema:keywords "Musical Theatre";
   schema:duration "PT150M";
   schema:endDate "2026-08-06T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e218 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec220 a schema:AggregateOffer;
   schema:lowPrice "54.05";
   schema:priceCurrency "CAD" .
 
@@ -1554,12 +1615,12 @@ _:c6b4b1028eff4381af491812ccede69e218 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e219;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec221;
   schema:keywords "Musical Theatre";
   schema:duration "PT150M";
   schema:endDate "2026-08-07T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e219 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec221 a schema:AggregateOffer;
   schema:lowPrice "54.05";
   schema:priceCurrency "CAD" .
 
@@ -1571,12 +1632,12 @@ _:c6b4b1028eff4381af491812ccede69e219 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e220;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec222;
   schema:keywords "Musical Theatre";
   schema:duration "PT150M";
   schema:endDate "2026-08-08T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e220 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec222 a schema:AggregateOffer;
   schema:lowPrice "54.05";
   schema:priceCurrency "CAD" .
 
@@ -1588,12 +1649,12 @@ _:c6b4b1028eff4381af491812ccede69e220 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-09T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e221;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec223;
   schema:keywords "Musical Theatre";
   schema:duration "PT150M";
   schema:endDate "2026-08-09T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e221 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec223 a schema:AggregateOffer;
   schema:lowPrice "54.05";
   schema:priceCurrency "CAD" .
 
@@ -1605,12 +1666,12 @@ _:c6b4b1028eff4381af491812ccede69e221 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e222;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec224;
   schema:keywords "Musical Theatre";
   schema:duration "PT150M";
   schema:endDate "2026-08-14T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e222 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec224 a schema:AggregateOffer;
   schema:lowPrice "54.05";
   schema:priceCurrency "CAD" .
 
@@ -1622,12 +1683,12 @@ _:c6b4b1028eff4381af491812ccede69e222 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-15T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e223;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec225;
   schema:keywords "Musical Theatre";
   schema:duration "PT150M";
   schema:endDate "2026-08-15T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e223 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec225 a schema:AggregateOffer;
   schema:lowPrice "54.05";
   schema:priceCurrency "CAD" .
 
@@ -1639,12 +1700,12 @@ _:c6b4b1028eff4381af491812ccede69e223 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-11T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e224;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec226;
   schema:keywords "Comedy";
   schema:duration "PT90M";
   schema:endDate "2026-07-11T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e224 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec226 a schema:AggregateOffer;
   schema:lowPrice "34.5";
   schema:priceCurrency "CAD" .
 
@@ -1656,12 +1717,12 @@ _:c6b4b1028eff4381af491812ccede69e224 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-13T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e225;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec227;
   schema:keywords "Music";
   schema:duration "PT150M";
   schema:endDate "2026-06-13T22:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e225 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec227 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1673,12 +1734,12 @@ _:c6b4b1028eff4381af491812ccede69e225 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-10T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e226;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec228;
   schema:keywords "Film";
   schema:duration "PT120M";
   schema:endDate "2026-07-10T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e226 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec228 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1690,12 +1751,12 @@ _:c6b4b1028eff4381af491812ccede69e226 a schema:AggregateOffer;
 """;
   schema:startDate "2026-09-11T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e227;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec229;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-09-11T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e227 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec229 a schema:AggregateOffer;
   schema:lowPrice "49.0";
   schema:priceCurrency "CAD" .
 
@@ -1707,12 +1768,12 @@ _:c6b4b1028eff4381af491812ccede69e227 a schema:AggregateOffer;
 """;
   schema:startDate "2026-09-12T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e228;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec230;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-09-12T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e228 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec230 a schema:AggregateOffer;
   schema:lowPrice "49.0";
   schema:priceCurrency "CAD" .
 
@@ -1724,11 +1785,11 @@ _:c6b4b1028eff4381af491812ccede69e228 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-21T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e229;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec231;
   schema:duration "PT120M";
   schema:endDate "2026-08-21T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e229 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec231 a schema:AggregateOffer;
   schema:lowPrice "15.0";
   schema:priceCurrency "CAD" .
 
@@ -1752,12 +1813,12 @@ _:c6b4b1028eff4381af491812ccede69e229 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-21T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e230;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec232;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-05-21T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e230 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec232 a schema:AggregateOffer;
   schema:lowPrice "44.0";
   schema:priceCurrency "CAD" .
 
@@ -1769,12 +1830,12 @@ _:c6b4b1028eff4381af491812ccede69e230 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-22T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e231;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec233;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-05-22T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e231 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec233 a schema:AggregateOffer;
   schema:lowPrice "44.0";
   schema:priceCurrency "CAD" .
 
@@ -1786,11 +1847,11 @@ _:c6b4b1028eff4381af491812ccede69e231 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-21T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e232;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec234;
   schema:duration "PT120M";
   schema:endDate "2025-12-21T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e232 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec234 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1802,11 +1863,11 @@ _:c6b4b1028eff4381af491812ccede69e232 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-22T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e233;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec235;
   schema:duration "PT120M";
   schema:endDate "2025-12-22T17:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e233 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec235 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1818,11 +1879,11 @@ _:c6b4b1028eff4381af491812ccede69e233 a schema:AggregateOffer;
 """;
   schema:startDate "2025-12-22T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e234;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec236;
   schema:duration "PT120M";
   schema:endDate "2025-12-22T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e234 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec236 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1834,11 +1895,11 @@ _:c6b4b1028eff4381af491812ccede69e234 a schema:AggregateOffer;
 """;
   schema:startDate "2026-09-18T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e235;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec237;
   schema:duration "PT120M";
   schema:endDate "2026-09-18T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e235 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec237 a schema:AggregateOffer;
   schema:lowPrice "53.0";
   schema:priceCurrency "CAD" .
 
@@ -1850,11 +1911,11 @@ _:c6b4b1028eff4381af491812ccede69e235 a schema:AggregateOffer;
 """;
   schema:startDate "2026-09-19T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e236;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec238;
   schema:duration "PT120M";
   schema:endDate "2026-09-19T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e236 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec238 a schema:AggregateOffer;
   schema:lowPrice "53.0";
   schema:priceCurrency "CAD" .
 
@@ -1866,12 +1927,12 @@ _:c6b4b1028eff4381af491812ccede69e236 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-29T13:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e237;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec239;
   schema:keywords "Music";
   schema:duration "PT180M";
   schema:endDate "2026-08-29T16:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e237 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec239 a schema:AggregateOffer;
   schema:lowPrice "17.25";
   schema:priceCurrency "CAD" .
 
@@ -1883,12 +1944,12 @@ _:c6b4b1028eff4381af491812ccede69e237 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-16T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e238;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec240;
   schema:keywords "Film";
   schema:duration "PT180M";
   schema:endDate "2026-04-16T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e238 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec240 a schema:AggregateOffer;
   schema:lowPrice "28.75";
   schema:priceCurrency "CAD" .
 
@@ -1900,11 +1961,11 @@ _:c6b4b1028eff4381af491812ccede69e238 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-11T20:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e239;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec241;
   schema:duration "PT60M";
   schema:endDate "2026-07-11T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e239 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec241 a schema:AggregateOffer;
   schema:lowPrice "30.0";
   schema:priceCurrency "CAD" .
 
@@ -1916,12 +1977,12 @@ _:c6b4b1028eff4381af491812ccede69e239 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-10T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e240;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec242;
   schema:keywords "Film";
   schema:duration "PT60M";
   schema:endDate "2026-01-10T20:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e240 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec242 a schema:AggregateOffer;
   schema:lowPrice "17.25";
   schema:priceCurrency "CAD" .
 
@@ -1933,11 +1994,11 @@ _:c6b4b1028eff4381af491812ccede69e240 a schema:AggregateOffer;
 """;
   schema:startDate "2026-02-14T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e241;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec243;
   schema:duration "PT150M";
   schema:endDate "2026-02-14T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e241 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec243 a schema:AggregateOffer;
   schema:lowPrice "53.0";
   schema:priceCurrency "CAD" .
 
@@ -1949,12 +2010,12 @@ _:c6b4b1028eff4381af491812ccede69e241 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-16T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e242;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec244;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-01-16T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e242 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec244 a schema:AggregateOffer;
   schema:lowPrice "46.2";
   schema:priceCurrency "CAD" .
 
@@ -1966,12 +2027,12 @@ _:c6b4b1028eff4381af491812ccede69e242 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-17T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e243;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec245;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-01-17T16:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e243 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec245 a schema:AggregateOffer;
   schema:lowPrice "46.2";
   schema:priceCurrency "CAD" .
 
@@ -1983,12 +2044,12 @@ _:c6b4b1028eff4381af491812ccede69e243 a schema:AggregateOffer;
 """;
   schema:startDate "2026-01-17T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e244;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec246;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-01-17T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e244 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec246 a schema:AggregateOffer;
   schema:lowPrice "46.2";
   schema:priceCurrency "CAD" .
 
@@ -2000,12 +2061,12 @@ _:c6b4b1028eff4381af491812ccede69e244 a schema:AggregateOffer;
 """;
   schema:startDate "2026-08-30T13:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e245;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec247;
   schema:keywords "Music";
   schema:duration "PT180M";
   schema:endDate "2026-08-30T16:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e245 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec247 a schema:AggregateOffer;
   schema:lowPrice "17.25";
   schema:priceCurrency "CAD" .
 
@@ -2017,12 +2078,28 @@ _:c6b4b1028eff4381af491812ccede69e245 a schema:AggregateOffer;
 """;
   schema:startDate "2026-09-20T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e246;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec248;
   schema:duration "PT75M";
   schema:endDate "2026-09-20T21:15:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e246 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec248 a schema:AggregateOffer;
   schema:lowPrice "44.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/terrabrucemajestic/event/143401APGBLLTBJMQTHTVRCKCBVPQHSBG>
+  a schema:Event;
+  schema:name "The Halloween Gala";
+  schema:description """
+
+""";
+  schema:startDate "2026-10-17T20:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec249;
+  schema:duration "PT180M";
+  schema:endDate "2026-10-17T23:00:00"^^xsd:dateTime .
+
+_:c18c16561d4b44cf9b22798891bbc2ec249 a schema:AggregateOffer;
+  schema:lowPrice "45.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/terrabrucemajestic/event/132801ALNSRCRGCVGDNPBCVMGSRLBKJTR>
@@ -2033,11 +2110,11 @@ _:c6b4b1028eff4381af491812ccede69e246 a schema:AggregateOffer;
 """;
   schema:startDate "2026-10-02T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e247;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec250;
   schema:duration "PT120M";
   schema:endDate "2026-10-02T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e247 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec250 a schema:AggregateOffer;
   schema:lowPrice "62.5";
   schema:priceCurrency "CAD" .
 
@@ -2049,11 +2126,11 @@ _:c6b4b1028eff4381af491812ccede69e247 a schema:AggregateOffer;
 """;
   schema:startDate "2026-10-03T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e248;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec251;
   schema:duration "PT120M";
   schema:endDate "2026-10-03T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e248 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec251 a schema:AggregateOffer;
   schema:lowPrice "62.5";
   schema:priceCurrency "CAD" .
 
@@ -2065,12 +2142,12 @@ _:c6b4b1028eff4381af491812ccede69e248 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-07T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e249;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec252;
   schema:keywords "Film";
   schema:duration "PT120M";
   schema:endDate "2026-05-07T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e249 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec252 a schema:AggregateOffer;
   schema:lowPrice "12.5";
   schema:priceCurrency "CAD" .
 
@@ -2082,12 +2159,12 @@ _:c6b4b1028eff4381af491812ccede69e249 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-04T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e250;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec253;
   schema:keywords "Musical Theatre";
   schema:duration "PT150M";
   schema:endDate "2026-06-04T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e250 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec253 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2099,12 +2176,12 @@ _:c6b4b1028eff4381af491812ccede69e250 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e251;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec254;
   schema:keywords "Musical Theatre";
   schema:duration "PT150M";
   schema:endDate "2026-06-05T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e251 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec254 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2116,12 +2193,12 @@ _:c6b4b1028eff4381af491812ccede69e251 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e252;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec255;
   schema:keywords "Musical Theatre";
   schema:duration "PT150M";
   schema:endDate "2026-06-06T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e252 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec255 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2133,12 +2210,12 @@ _:c6b4b1028eff4381af491812ccede69e252 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-07T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e253;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec256;
   schema:keywords "Musical Theatre";
   schema:duration "PT150M";
   schema:endDate "2026-06-07T16:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e253 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec256 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2150,11 +2227,11 @@ _:c6b4b1028eff4381af491812ccede69e253 a schema:AggregateOffer;
 """;
   schema:startDate "2026-05-30T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e254;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec257;
   schema:duration "PT120M";
   schema:endDate "2026-05-30T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e254 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec257 a schema:AggregateOffer;
   schema:lowPrice "23.0";
   schema:priceCurrency "CAD" .
 
@@ -2166,12 +2243,12 @@ _:c6b4b1028eff4381af491812ccede69e254 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-25T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e255;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec258;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-07-25T22:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e255 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec258 a schema:AggregateOffer;
   schema:lowPrice "23.0";
   schema:priceCurrency "CAD" .
 
@@ -2183,11 +2260,11 @@ _:c6b4b1028eff4381af491812ccede69e255 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-17T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e256;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec259;
   schema:duration "PT180M";
   schema:endDate "2026-04-17T23:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e256 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec259 a schema:AggregateOffer;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
@@ -2199,11 +2276,11 @@ _:c6b4b1028eff4381af491812ccede69e256 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-18T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e257;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec260;
   schema:duration "PT180M";
   schema:endDate "2026-04-18T23:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e257 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec260 a schema:AggregateOffer;
   schema:lowPrice "35.0";
   schema:priceCurrency "CAD" .
 
@@ -2215,11 +2292,11 @@ _:c6b4b1028eff4381af491812ccede69e257 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-04T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e258;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec261;
   schema:duration "PT120M";
   schema:endDate "2026-07-04T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e258 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec261 a schema:AggregateOffer;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
 
@@ -2231,12 +2308,12 @@ _:c6b4b1028eff4381af491812ccede69e258 a schema:AggregateOffer;
 """;
   schema:startDate "2026-04-11T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e259;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec262;
   schema:keywords "Film";
   schema:duration "PT90M";
   schema:endDate "2026-04-11T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e259 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec262 a schema:AggregateOffer;
   schema:lowPrice "11.0";
   schema:priceCurrency "CAD" .
 
@@ -2248,11 +2325,11 @@ _:c6b4b1028eff4381af491812ccede69e259 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-01T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e260;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec263;
   schema:duration "PT120M";
   schema:endDate "2026-11-01T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e260 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec263 a schema:AggregateOffer;
   schema:lowPrice "1.0";
   schema:priceCurrency "CAD" .
 
@@ -2264,11 +2341,11 @@ _:c6b4b1028eff4381af491812ccede69e260 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-02T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e261;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec264;
   schema:duration "PT120M";
   schema:endDate "2026-11-02T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e261 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec264 a schema:AggregateOffer;
   schema:lowPrice "1.0";
   schema:priceCurrency "CAD" .
 
@@ -2280,11 +2357,11 @@ _:c6b4b1028eff4381af491812ccede69e261 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-03T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e262;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec265;
   schema:duration "PT120M";
   schema:endDate "2026-11-03T21:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e262 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec265 a schema:AggregateOffer;
   schema:lowPrice "1.0";
   schema:priceCurrency "CAD" .
 
@@ -2296,11 +2373,11 @@ _:c6b4b1028eff4381af491812ccede69e262 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-04T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e263;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec266;
   schema:duration "PT120M";
   schema:endDate "2026-11-04T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e263 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec266 a schema:AggregateOffer;
   schema:lowPrice "1.0";
   schema:priceCurrency "CAD" .
 
@@ -2312,11 +2389,11 @@ _:c6b4b1028eff4381af491812ccede69e263 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-05T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e264;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec267;
   schema:duration "PT120M";
   schema:endDate "2026-11-05T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e264 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec267 a schema:AggregateOffer;
   schema:lowPrice "1.0";
   schema:priceCurrency "CAD" .
 
@@ -2328,11 +2405,11 @@ _:c6b4b1028eff4381af491812ccede69e264 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-06T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e265;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec268;
   schema:duration "PT120M";
   schema:endDate "2026-11-06T21:30:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e265 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec268 a schema:AggregateOffer;
   schema:lowPrice "1.0";
   schema:priceCurrency "CAD" .
 
@@ -2344,11 +2421,11 @@ _:c6b4b1028eff4381af491812ccede69e265 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-07T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e266;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec269;
   schema:duration "PT60M";
   schema:endDate "2026-11-07T15:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e266 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec269 a schema:AggregateOffer;
   schema:lowPrice "1.0";
   schema:priceCurrency "CAD" .
 
@@ -2360,11 +2437,11 @@ _:c6b4b1028eff4381af491812ccede69e266 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-08T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e267;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec270;
   schema:duration "PT60M";
   schema:endDate "2026-11-08T15:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e267 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec270 a schema:AggregateOffer;
   schema:lowPrice "1.0";
   schema:priceCurrency "CAD" .
 
@@ -2376,10 +2453,10 @@ _:c6b4b1028eff4381af491812ccede69e267 a schema:AggregateOffer;
 """;
   schema:startDate "2026-11-09T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/terrabrucemajestic/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:c6b4b1028eff4381af491812ccede69e268;
+  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec271;
   schema:duration "PT60M";
   schema:endDate "2026-11-09T15:00:00"^^xsd:dateTime .
 
-_:c6b4b1028eff4381af491812ccede69e268 a schema:AggregateOffer;
+_:c18c16561d4b44cf9b22798891bbc2ec271 a schema:AggregateOffer;
   schema:lowPrice "1.0";
   schema:priceCurrency "CAD" .
