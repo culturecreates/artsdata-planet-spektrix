@@ -8,6 +8,34 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
+<http://www.spektrix.com/tidemarktheatre/event/65401ARRMBSGBRKRMPJDLPDLGHVCMRJJP>
+  a schema:Event;
+  schema:name "25th Anniversary Community Dinner";
+  schema:description """
+	This September, we're celebrating 25 years of bringing farmers, makers, food producers, and our community together—and we'd love for you to be part of it.<span><br/></span><span><br/></span>Imagine a long harvest table stretching beneath tents on Shoppers Row, filled with neighbours sharing a delicious meal made from the incredible food grown and produced by the Campbell River Farmers Market vendors. New friendships are formed, conversations flow, and together we celebrate a quarter century of supporting local food, local businesses, and community connections.<span><br/></span><span><br/></span>This dinner is more than an anniversary celebration. It's an opportunity to bring our community together around the table while showcasing the extraordinary products our farmers and food vendors grow and create.<span><br/></span><span><br/></span>Our goal is to serve 300 meals, including 200 ticketed guests and complimentary meals for community members who might not otherwise be able to attend. We are committed to making this an inclusive event where everyone has a place at the table.<span><br/></span><span><br/></span>To make this vision a reality, we're inviting businesses, organizations, and community members to become early supporters. You can:<span><br/></span><span><br/></span>●      Purchase tickets or reserve a table of ten for your staff, family, or clients. Early commitments help us plan with confidence.<span><br/></span><span><br/></span>●      Sponsor tickets so community members experiencing financial barriers can attend.<span><br/></span><span><br/></span>Tickets: $25.00 <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2026-09-13T17:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/tidemarktheatre/files/d7518581-f629-42c9-843c-25800334511e.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD>;
+  schema:url <https://tidemarktheatre.com/event/25th-anniversary-community-dinner/>;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8060;
+  schema:duration "PT120M";
+  schema:endDate "2026-09-13T19:00:00"^^xsd:dateTime .
+
+_:949eeafecd2646b7ab3928b76d03b5ea8060 a schema:AggregateOffer;
+  schema:lowPrice "25.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/tidemarktheatre/location/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD>
+  a schema:Place;
+  schema:name "Shoppers Row";
+  schema:address <https://spektrix.com/tidemarktheatre/address/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD> .
+
+<https://spektrix.com/tidemarktheatre/address/2201AVBSMNJRLVSBVJRSDNQHLHDGPHDLD> a
+    schema:PostalAddress;
+  schema:streetAddress "Between 11th & 13th Avenue";
+  schema:addressCountry "CA" .
+
 <http://www.spektrix.com/tidemarktheatre/event/59601AVKDPHNNKSRGJLHVHKTKQPTKMSDT>
   a schema:Event;
   schema:name "Acoustic Blues Reunion";
@@ -18,11 +46,11 @@
   schema:image <https://system.spektrix.com/tidemarktheatre/files/8822a484-b187-48f1-898d-5f6158ac1c4a.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/acoustic-blues-reunion/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8255;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8061;
   schema:duration "PT120M";
   schema:endDate "2026-11-09T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8255 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8061 a schema:AggregateOffer;
   schema:lowPrice "45.15";
   schema:priceCurrency "CAD" .
 
@@ -49,12 +77,12 @@ _:c18c16561d4b44cf9b22798891bbc2ec8255 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/ed466716-9e54-412e-b488-fe7b84ffe744.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
   schema:url <https://tidemarktheatre.com/event/aysanabee/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8256;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8062;
   schema:duration "PT120M";
   schema:endDate "2026-09-18T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8256 a schema:AggregateOffer;
-  schema:lowPrice "27.5";
+_:949eeafecd2646b7ab3928b76d03b5ea8062 a schema:AggregateOffer;
+  schema:lowPrice "31.5";
   schema:priceCurrency "CAD" .
 
 <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>
@@ -80,11 +108,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8256 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/b31a5a78-e0aa-4b7f-9b1c-39fc8d0cd5bc.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/barracuda/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8257;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8063;
   schema:duration "PT120M";
   schema:endDate "2026-10-23T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8257 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8063 a schema:AggregateOffer;
   schema:lowPrice "49.5";
   schema:priceCurrency "CAD" .
 
@@ -98,13 +126,44 @@ _:c18c16561d4b44cf9b22798891bbc2ec8257 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/1a998ce8-6c81-48c6-af40-7662e554fba9.jpeg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/bee-gees-revisited-tribute-show/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8258;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8064;
   schema:duration "PT120M";
   schema:endDate "2026-11-04T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8258 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8064 a schema:AggregateOffer;
   schema:lowPrice "61.0";
   schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/tidemarktheatre/event/65601ABJVQCQRNKJTHQGGNGBHPDGVBKKD>
+  a schema:Event;
+  schema:name "Belle Plaine";
+  schema:description """
+	Enigmatic singer-songwriter Belle Plaine hails from the heart of the Canadian Prairies. She brings creativity and versatility to every musical moment: a charming folk singer, honkytonk front woman and clear-eyed storyteller. Her eclecticism has seen her perform internationally, with symphonies, at music festivals and in intimate house concerts. Her 2018 album <span class=\"ItalicText\">Malice, Mercy, Grief + Wrath </span>was a 2020 JUNO nominee and her duet with Colter Wall on his song “Caroline” achieved gold certification by the RIAA.<span><br/></span><span><br/></span>Her brand new album <span class=\"ItalicText\">The Weather</span> will be released on September 18. Produced by Paul Rigby (Neko Case, Garth Hudson), <span class=\"ItalicText\">The Weather</span> takes Belle Plaine's synthesis of folk, early country and roots music in a new direction to exist on the edges of indie rock and country. Its deeply feminine songwriting perspective hits hard when delivered through the vehicle of her definitive tone and versatility as a singer. The infinite horizon, farming work ethic and sincerity of her upbringing transports listeners to this modest, yet vast, landscape.<span><br/></span><span><br/></span>Her writing has been favourably reviewed by Rolling Stone, Exclaim! and No Depression, and her voice has been called “effortless, versatile… both girlish and husky in the same song”, “sultry, seductive, fragile, and dusky while still capable of room-filling bombast when the moment calls for it”, “the voice of an angel”, “to borrow an old cliche: she could sing the phone book…\"<span><br/></span><span><br/></span>Belle Plaine has built a loyal following that continues to flourish and has brought her to stages near and far including Bristol Rhythm & Roots Reunion in Tennessee/Virginia, Kickin’ It On The Creek in Kentucky, Festival of Small Halls in PEI, Wide Cut Weekend in Alberta, Regina Folk Festival, JUNOfest, Folk Alliance International and AmericanaFest, and regular and enthusiastic airplay on stations like Alberta’s CKUA and Seattle’s KEXP.<span><br/></span><span><br/></span>The Highway 19 Concert Series is supported by the Province of BC through BC Arts Council and BC Live, and the Government of Canada’s Department of Canadian Heritage.<span><br/></span><span><br/></span>General admission tickets are $30 with a limited number available for $20 to be accessible for those with limited income. Youth tickets are only $5.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://belleplainemusic.com\">https://belleplainemusic.com</a><span><br/></span><a target=\"_blank\" href=\"http://www.highway19.ca\">www.highway19.ca</a><span><br/></span><span><br/></span>Tickets: $30/$20 Adult, $5 Youth <span class=\"ItalicText\">(+applicable taxes & fees)</span>
+""";
+  schema:startDate "2026-09-27T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/tidemarktheatre/files/a4dddf89-b57d-4a40-a041-b978c5a10735.jpg>;
+  schema:location <https://spektrix.com/tidemarktheatre/location/415ALQKLPHMRBGJNJRMQSSMKQRHCDNQHV>;
+  schema:url <https://tidemarktheatre.com/event/belle-plaine/>;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8065;
+  schema:duration "PT120M";
+  schema:endDate "2026-09-27T21:00:00"^^xsd:dateTime .
+
+_:949eeafecd2646b7ab3928b76d03b5ea8065 a schema:AggregateOffer;
+  schema:lowPrice "5.25";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/tidemarktheatre/location/415ALQKLPHMRBGJNJRMQSSMKQRHCDNQHV>
+  a schema:Place;
+  schema:name "Willow Point Lions Hall";
+  schema:address <https://spektrix.com/tidemarktheatre/address/415ALQKLPHMRBGJNJRMQSSMKQRHCDNQHV> .
+
+<https://spektrix.com/tidemarktheatre/address/415ALQKLPHMRBGJNJRMQSSMKQRHCDNQHV> a
+    schema:PostalAddress;
+  schema:streetAddress "2165 S Island Hwy";
+  schema:addressLocality "Campbell River";
+  schema:addressRegion "BC";
+  schema:postalCode "V9W 2G6";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/tidemarktheatre/event/54801ALMQKJGDVBDJQKPLMBMQRRRSMCNM>
   a schema:Event;
@@ -116,11 +175,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8258 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/6a32cc18-f92b-4044-9fac-aa3365d9da12.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/bourne-to-be-ozz/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8259;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8066;
   schema:duration "PT120M";
   schema:endDate "2026-10-31T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8259 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8066 a schema:AggregateOffer;
   schema:lowPrice "50.4";
   schema:priceCurrency "CAD" .
 
@@ -134,11 +193,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8259 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/adc89bcc-26f6-460d-8bfb-f111c2f3f467.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/brent-butt/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8260;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8067;
   schema:duration "PT120M";
   schema:endDate "2026-09-24T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8260 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8067 a schema:AggregateOffer;
   schema:lowPrice "64.05";
   schema:priceCurrency "CAD" .
 
@@ -152,11 +211,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8260 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/61ceb2a7-6f22-494e-b9b0-98b5c2f5b2ab.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/caleb-hart-with-sonic-alley/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8261;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8068;
   schema:duration "PT120M";
   schema:endDate "2026-11-13T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8261 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8068 a schema:AggregateOffer;
   schema:lowPrice "45.15";
   schema:priceCurrency "CAD" .
 
@@ -170,11 +229,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8261 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/cf926408-dce0-433f-9b27-cb61b756b744.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/classic-ronstadt/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8262;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8069;
   schema:duration "PT120M";
   schema:endDate "2026-10-02T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8262 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8069 a schema:AggregateOffer;
   schema:lowPrice "49.5";
   schema:priceCurrency "CAD" .
 
@@ -188,11 +247,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8262 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/a363dfc5-45c9-46ca-bb9a-e68347533e2f.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/completely-creedence-band/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8263;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8070;
   schema:duration "PT120M";
   schema:endDate "2026-11-06T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8263 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8070 a schema:AggregateOffer;
   schema:lowPrice "50.4";
   schema:priceCurrency "CAD" .
 
@@ -206,11 +265,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8263 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/50280ef1-9f67-4bf9-884c-4f18e7c91a54.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/crash-test-dummies/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8264;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8071;
   schema:duration "PT120M";
   schema:endDate "2026-11-12T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8264 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8071 a schema:AggregateOffer;
   schema:lowPrice "60.0";
   schema:priceCurrency "CAD" .
 
@@ -224,11 +283,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8264 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/38ff4c49-11fd-4abe-a11d-a43e4a5aac50.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/crff-blue-heron/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8265;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8072;
   schema:duration "PT90M";
   schema:endDate "2026-11-10T20:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8265 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8072 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
 
@@ -242,11 +301,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8265 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/100fe7a8-c537-4bdb-9df5-9a5bde402342.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/crff-champions-of-the-golden-valley/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8266;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8073;
   schema:duration "PT81M";
   schema:endDate "2026-09-29T20:21:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8266 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8073 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
 
@@ -260,11 +319,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8266 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/eebe01f0-4afb-4275-bc78-c5e018955d90.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/crff-ha-chan-shake-your-booty/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8267;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8074;
   schema:duration "PT122M";
   schema:endDate "2026-11-24T21:02:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8267 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8074 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
 
@@ -278,11 +337,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8267 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/09ae8e40-f321-47d2-a9b1-598333f9db92.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/crff-i-swear/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8268;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8075;
   schema:duration "PT120M";
   schema:endDate "2026-10-27T21:00:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8268 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8075 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
 
@@ -296,11 +355,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8268 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/94125e7b-4bba-46d3-9762-20783fcbae40.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/crff-the-presidents-cake/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8269;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8076;
   schema:duration "PT105M";
   schema:endDate "2026-10-13T20:45:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8269 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8076 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
 
@@ -314,12 +373,12 @@ _:c18c16561d4b44cf9b22798891bbc2ec8269 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/c8397c97-e909-4429-b83c-ed456f7e2cb9.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
   schema:url <https://tidemarktheatre.com/event/dan-mangan/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8270;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8077;
   schema:duration "PT120M";
   schema:endDate "2027-03-20T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8270 a schema:AggregateOffer;
-  schema:lowPrice "27.5";
+_:949eeafecd2646b7ab3928b76d03b5ea8077 a schema:AggregateOffer;
+  schema:lowPrice "31.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/tidemarktheatre/event/60601ATNTMJGPJLLKLVBRSMHPPDCNKPMC>
@@ -332,11 +391,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8270 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/4ef0f16e-1718-4e31-b3c2-336994474dde.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/diabolo-dance-theatre-of-taiwan/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8271;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8078;
   schema:duration "PT120M";
   schema:endDate "2026-09-11T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8271 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8078 a schema:AggregateOffer;
   schema:lowPrice "24.15";
   schema:priceCurrency "CAD" .
 
@@ -350,11 +409,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8271 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/ac6ea5ae-9ba3-4b21-bc28-7ed994990da7.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/dino-archies-comedy-extravaganza/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8272;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8079;
   schema:duration "PT120M";
   schema:endDate "2026-11-07T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8272 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8079 a schema:AggregateOffer;
   schema:lowPrice "55.65";
   schema:priceCurrency "CAD" .
 
@@ -368,11 +427,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8272 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/11ba3ea5-cdf1-4030-b868-7f1e9c69948d.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/fleetwood-magic/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8273;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8080;
   schema:duration "PT130M";
   schema:endDate "2026-09-18T21:40:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8273 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8080 a schema:AggregateOffer;
   schema:lowPrice "61.95";
   schema:priceCurrency "CAD" .
 
@@ -386,12 +445,12 @@ _:c18c16561d4b44cf9b22798891bbc2ec8273 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/ecc9d7a5-09ef-421d-8649-3bd1583cec2d.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
   schema:url <https://tidemarktheatre.com/event/gamelan-bike-bike/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8274;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8081;
   schema:duration "PT120M";
   schema:endDate "2027-02-20T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8274 a schema:AggregateOffer;
-  schema:lowPrice "27.5";
+_:949eeafecd2646b7ab3928b76d03b5ea8081 a schema:AggregateOffer;
+  schema:lowPrice "31.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/tidemarktheatre/event/53201AKJTJLSKDPDLPTMDVPTDGSNGNBPL>
@@ -404,11 +463,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8274 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/ae219f72-6693-43eb-83b7-1da818fe1eea.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/girls-night-out-the-show/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8275;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8082;
   schema:duration "PT120M";
   schema:endDate "2026-09-23T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8275 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8082 a schema:AggregateOffer;
   schema:lowPrice "39.95";
   schema:priceCurrency "CAD" .
 
@@ -422,11 +481,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8275 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/0bddc1ca-0d9a-4270-9aec-b2d07504a8d8.jpeg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/highwaymen-show/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8276;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8083;
   schema:duration "PT120M";
   schema:endDate "2026-09-09T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8276 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8083 a schema:AggregateOffer;
   schema:lowPrice "61.0";
   schema:priceCurrency "CAD" .
 
@@ -440,11 +499,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8276 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/74aea87e-d3ca-44ae-b0d3-d16d4527d658.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/holly-jolly-jill-barber-christmas/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8277;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8084;
   schema:duration "PT120M";
   schema:endDate "2026-11-25T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8277 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8084 a schema:AggregateOffer;
   schema:lowPrice "45.15";
   schema:priceCurrency "CAD" .
 
@@ -458,11 +517,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8277 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/2b3f5dd5-70a0-4a0c-93c3-ea947549aa10.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/ian-maksin/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8278;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8085;
   schema:duration "PT120M";
   schema:endDate "2026-09-03T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8278 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8085 a schema:AggregateOffer;
   schema:lowPrice "29.4";
   schema:priceCurrency "CAD" .
 
@@ -476,11 +535,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8278 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/d7f4c595-51e7-43bc-b36a-d4f546ea63c4.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/improv-comedy-rumble/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8279;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8086;
   schema:duration "PT115M";
   schema:endDate "2026-10-24T21:25:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8279 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8086 a schema:AggregateOffer;
   schema:lowPrice "46.2";
   schema:priceCurrency "CAD" .
 
@@ -494,11 +553,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8279 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/d3aaec60-709f-4c04-8595-87fae8933292.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/jim-witter-the-piano-men/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8280;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8087;
   schema:duration "PT120M";
   schema:endDate "2026-10-19T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8280 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8087 a schema:AggregateOffer;
   schema:lowPrice "55.65";
   schema:priceCurrency "CAD" .
 
@@ -512,12 +571,12 @@ _:c18c16561d4b44cf9b22798891bbc2ec8280 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/465c5ec3-1a85-4ecd-a670-398568ee469e.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
   schema:url <https://tidemarktheatre.com/event/locarno/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8281;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8088;
   schema:duration "PT120M";
   schema:endDate "2027-04-17T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8281 a schema:AggregateOffer;
-  schema:lowPrice "27.5";
+_:949eeafecd2646b7ab3928b76d03b5ea8088 a schema:AggregateOffer;
+  schema:lowPrice "31.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/tidemarktheatre/event/56601ACCRKSPGKVDGHVRNMKGTVPHPQPBK>
@@ -530,11 +589,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8281 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/e35bb2a8-7bdb-4067-8f05-b41027fb4a6f.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/love-can-build-a-bridge/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8282;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8089;
   schema:duration "PT120M";
   schema:endDate "2026-09-26T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8282 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8089 a schema:AggregateOffer;
   schema:lowPrice "55.65";
   schema:priceCurrency "CAD" .
 
@@ -548,12 +607,12 @@ _:c18c16561d4b44cf9b22798891bbc2ec8282 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/4ee5fc50-af24-49da-9ef9-2a7ac07c2282.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
   schema:url <https://tidemarktheatre.com/event/malika-tirolien/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8283;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8090;
   schema:duration "PT120M";
   schema:endDate "2026-11-28T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8283 a schema:AggregateOffer;
-  schema:lowPrice "27.5";
+_:949eeafecd2646b7ab3928b76d03b5ea8090 a schema:AggregateOffer;
+  schema:lowPrice "31.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/tidemarktheatre/event/62201AMQLTQHPVGDTSSJLQDCVBSGVTNNB>
@@ -566,11 +625,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8283 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/c5cdabc5-4fd9-4b08-af5c-0050332c5a83.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/nautical-disaster/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8284;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8091;
   schema:duration "PT120M";
   schema:endDate "2026-10-17T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8284 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8091 a schema:AggregateOffer;
   schema:lowPrice "51.98";
   schema:priceCurrency "CAD" .
 
@@ -584,11 +643,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8284 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/1c48fb2d-1782-4a05-9f0e-b1e89eed9b17.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/408AGTMCPQJCJMVNVRHCBMPHRTBGQDBRC>;
   schema:url <https://tidemarktheatre.com/event/nautical-disaster-live-stream/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8285;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8092;
   schema:duration "PT120M";
   schema:endDate "2026-10-17T21:15:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8285 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8092 a schema:AggregateOffer;
   schema:lowPrice "28.0";
   schema:priceCurrency "CAD" .
 
@@ -615,12 +674,12 @@ _:c18c16561d4b44cf9b22798891bbc2ec8285 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/87b7a356-22f8-4521-bc6d-c1a8cdeab766.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
   schema:url <https://tidemarktheatre.com/event/owen-pallett/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8286;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8093;
   schema:duration "PT120M";
   schema:endDate "2027-01-23T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8286 a schema:AggregateOffer;
-  schema:lowPrice "27.5";
+_:949eeafecd2646b7ab3928b76d03b5ea8093 a schema:AggregateOffer;
+  schema:lowPrice "31.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/tidemarktheatre/event/60801AHTJHGGNNSGVTBBSHPTBHTDLSBLM>
@@ -633,11 +692,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8286 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/91d69d05-24b0-46e2-a590-335a4be92cd9.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/pwr-up-ac-dc-tribute/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8287;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8094;
   schema:duration "PT120M";
   schema:endDate "2026-09-19T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8287 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8094 a schema:AggregateOffer;
   schema:lowPrice "44.95";
   schema:priceCurrency "CAD" .
 
@@ -651,11 +710,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8287 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/39bb2cd5-d7cc-4db1-91f4-bd3031ae2356.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/queen-its-a-kinda-magic/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8288;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8095;
   schema:duration "PT120M";
   schema:endDate "2026-09-10T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8288 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8095 a schema:AggregateOffer;
   schema:lowPrice "49.0";
   schema:priceCurrency "CAD" .
 
@@ -669,12 +728,12 @@ _:c18c16561d4b44cf9b22798891bbc2ec8288 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/606ec10d-8e9f-496a-989c-47f714592ad3.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/419AGRGJLHKVDHDNGCMMKNVJLNRPHSNJP>;
   schema:url <https://tidemarktheatre.com/event/raagaverse-with-strings/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8289;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8096;
   schema:duration "PT120M";
   schema:endDate "2026-10-17T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8289 a schema:AggregateOffer;
-  schema:lowPrice "27.5";
+_:949eeafecd2646b7ab3928b76d03b5ea8096 a schema:AggregateOffer;
+  schema:lowPrice "31.5";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/tidemarktheatre/event/60001AQMCNPHJDPMRBPJPHQTSVTJDCRKQ>
@@ -687,11 +746,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8289 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/e9e4eb52-d84e-45b3-9f46-3cac079d056f.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/randys-cheesburger-picnic/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8290;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8097;
   schema:duration "PT120M";
   schema:endDate "2026-09-04T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8290 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8097 a schema:AggregateOffer;
   schema:lowPrice "34.65";
   schema:priceCurrency "CAD" .
 
@@ -705,11 +764,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8290 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/2d6d80e4-0726-4503-bf95-8f4224dd0785.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/randys-vip-meet-greet/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8291;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8098;
   schema:duration "PT60M";
   schema:endDate "2026-09-04T19:00:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8291 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8098 a schema:AggregateOffer;
   schema:lowPrice "105.0";
   schema:priceCurrency "CAD" .
 
@@ -723,11 +782,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8291 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/c92d2074-ccd8-4e04-83e5-35c9a90d5cd7.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/ron-james/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8292;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8099;
   schema:duration "PT120M";
   schema:endDate "2026-11-05T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8292 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8099 a schema:AggregateOffer;
   schema:lowPrice "81.9";
   schema:priceCurrency "CAD" .
 
@@ -741,11 +800,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8292 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/b3011b53-fd50-41d5-ac2b-9f5e7b7edcfc.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/tentacle-tribe/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8293;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8100;
   schema:duration "PT120M";
   schema:endDate "2026-10-15T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8293 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8100 a schema:AggregateOffer;
   schema:lowPrice "13.65";
   schema:priceCurrency "CAD" .
 
@@ -759,11 +818,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8293 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/3b62b2fc-53a4-4105-ad85-8bc30faf4fc6.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/the-alan-jackson-experience/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8294;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8101;
   schema:duration "PT120M";
   schema:endDate "2026-09-22T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8294 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8101 a schema:AggregateOffer;
   schema:lowPrice "55.65";
   schema:priceCurrency "CAD" .
 
@@ -777,11 +836,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8294 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/6f169ca3-e244-4f59-a07f-d7ba1af83c9e.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/the-barra-macneils/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8295;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8102;
   schema:duration "PT120M";
   schema:endDate "2026-11-14T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8295 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8102 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -795,11 +854,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8295 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/8422af7a-4270-44b8-a954-463358089259.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/the-great-canadian-road-trip/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8296;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8103;
   schema:duration "PT120M";
   schema:endDate "2026-10-21T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8296 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8103 a schema:AggregateOffer;
   schema:lowPrice "59.85";
   schema:priceCurrency "CAD" .
 
@@ -813,11 +872,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8296 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/300361b5-c36e-4fcb-8ff7-167337b82526.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/the-return-of-simon-garfunkel/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8297;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8104;
   schema:duration "PT120M";
   schema:endDate "2026-09-13T21:00:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8297 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8104 a schema:AggregateOffer;
   schema:lowPrice "46.45";
   schema:priceCurrency "CAD" .
 
@@ -831,11 +890,11 @@ _:c18c16561d4b44cf9b22798891bbc2ec8297 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/be44144f-4a0f-4914-a552-d6d90cd445cd.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/tom-cochrane/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8298;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8105;
   schema:duration "PT120M";
   schema:endDate "2026-11-03T21:30:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8298 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8105 a schema:AggregateOffer;
   schema:lowPrice "105.0";
   schema:priceCurrency "CAD" .
 
@@ -849,10 +908,10 @@ _:c18c16561d4b44cf9b22798891bbc2ec8298 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/tidemarktheatre/files/c77f97f9-b2fa-45e2-af3a-b12745fb997c.jpg>;
   schema:location <https://spektrix.com/tidemarktheatre/location/405AGDKDKNLGVLJCSNTLQBVTRTGBTHCPJ>;
   schema:url <https://tidemarktheatre.com/event/tom-cochrane-vip-meet-greet/>;
-  schema:offers _:c18c16561d4b44cf9b22798891bbc2ec8299;
+  schema:offers _:949eeafecd2646b7ab3928b76d03b5ea8106;
   schema:duration "PT30M";
   schema:endDate "2026-11-03T22:15:00"^^xsd:dateTime .
 
-_:c18c16561d4b44cf9b22798891bbc2ec8299 a schema:AggregateOffer;
+_:949eeafecd2646b7ab3928b76d03b5ea8106 a schema:AggregateOffer;
   schema:lowPrice "138.6";
   schema:priceCurrency "CAD" .
