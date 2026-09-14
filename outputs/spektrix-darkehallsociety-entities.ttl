@@ -8,19 +8,25 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/darkehallsociety/event/43601AMKQJGTDVBKLNSTTJVLMKDNDDDLS>
+<http://www.spektrix.com/darkehallsociety/event/38202ALTPGKBCKCMLBKRMKDKMNRVJPCCC>
   a schema:Event;
-  schema:name "Aleana Young's Annual Wine & Cheese Classic";
+  schema:name "Andrea Menard";
   schema:description """
-	Sip, snack, and socialize at <span class=\"BoldText\">Aleana Young's Annual Wine & Cheese Classic</span>—our favourite summer tradition!<span><br/></span><span><br/></span>Raise a glass and join Aleana Young and Josh McLean of Homestead Bar à Vin for an unforgettable evening of incredible wine, delicious cheese, and great company. Enjoy exclusive wine and cheese pairings you won't find anywhere else, connect with friends old and new, and make a few pour decisions—all in support of a great cause.<span><br/></span><span><br/></span>Whether you're a curious first-timer or a seasoned wine lover, there's something for everyone. Expect a relaxed atmosphere, plenty of laughs, and some truly exceptional food and wine.<span><br/></span><span><br/></span>This event sells out every year, so don't wait—grab your tickets now and join us for one of the highlights of the summer!<span><br/></span><span><br/></span>To purchase tickets, click <a target=\"_blank\" href=\"https://www.eventbrite.ca/e/aleana-youngs-annual-wine-cheese-classic-tickets-1994490649222\">here</a>.
+	An evening of powerful song and storytelling, <span class=\"BoldText\">Andrea Menard</span> in concert is both intimate and inspiring. Blending jazz, blues, and contemporary influences, this performance invites audiences into a space of reflection, connection, and celebration—rooted in culture, resilience, and the strength of voice. <span><br/></span><span><br/></span><span class=\"BoldText\">Andrea Menard</span> is an award-winning Métis singer-songwriter and actor known for her lyrical, soulful voice and deeply personal storytelling. With longtime collaborator Robert Walsh, she creates music that bridges cultures and communities. A celebrated performer across Canada, her work uplifts Indigenous voices and honours Métis heritage. <span><br/></span><span><br/></span><span><br/></span><span class=\"UnderlineText\">Tickets</span>  <span><br/></span>Premium $50 | Standard $40 | Economy $30 <span><br/></span>New for 26/27: $10 Youth (under 20)<span><br/></span> <span><br/></span><span class=\"UnderlineText\">The Ultimate Pass</span><span><br/></span>Build your own Darke Hall experience with our <span class=\"ItalicText\"><span class=\"BoldText\">Ultimate Pass</span></span>!<span><br/></span><span><br/></span>For $320, choose any 8 Darke Hall Presents performances and reserve your seats at the time of purchase—giving you the flexibility to create a season that fits your interests and schedule while securing your preferred seats early.<span><br/></span><span><br/></span>Purchase your Ultimate Pass by October 30 and receive complimentary coat check for the entire season as a thank you for supporting Darke Hall early in the season.<span><br/></span><span><br/></span><span><br/></span>Every ticket supports the ongoing work of Darke Hall and helps keep this historic stage alive.
 """;
-  schema:startDate "2026-09-03T18:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/darkehallsociety/files/3f560ae4-0ecc-4a4c-b1b0-cd11f57a5550.jpg>;
+  schema:startDate "2027-04-02T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/9e72bc57-d832-4edd-af61-447719c106a4.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=36601>;
-  schema:keywords "Lectures";
-  schema:duration "PT180M";
-  schema:endDate "2026-09-03T21:00:00"^^xsd:dateTime .
+  schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=32602>;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96349;
+  schema:keywords "Music";
+  schema:duration "PT120M";
+  schema:endDate "2027-04-02T21:30:00"^^xsd:dateTime .
+
+_:6cfb468278f340539e63131aadaca0c96349 a schema:AggregateOffer;
+  schema:url <https://purchase.darkehall.ca/ChooseSeats/38202>;
+  schema:lowPrice "5.56";
+  schema:priceCurrency "CAD" .
 
 <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>
   a schema:Place;
@@ -35,26 +41,6 @@
   schema:postalCode "S4P 0S9";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/darkehallsociety/event/38202ALTPGKBCKCMLBKRMKDKMNRVJPCCC>
-  a schema:Event;
-  schema:name "Andrea Menard";
-  schema:description """
-	An evening of powerful song and storytelling, <span class=\"BoldText\">Andrea Menard</span> in concert is both intimate and inspiring. Blending jazz, blues, and contemporary influences, this performance invites audiences into a space of reflection, connection, and celebration—rooted in culture, resilience, and the strength of voice. <span><br/></span><span><br/></span><span class=\"BoldText\">Andrea Menard</span> is an award-winning Métis singer-songwriter and actor known for her lyrical, soulful voice and deeply personal storytelling. With longtime collaborator Robert Walsh, she creates music that bridges cultures and communities. A celebrated performer across Canada, her work uplifts Indigenous voices and honours Métis heritage. <span><br/></span><span><br/></span><span><br/></span><span class=\"UnderlineText\">Tickets</span>  <span><br/></span>Premium $50 | Standard $40 | Economy $30 <span><br/></span>New for 26/27: $10 Youth (under 20)<span><br/></span> <span><br/></span><span class=\"UnderlineText\">The Ultimate Pass</span><span><br/></span>Build your own Darke Hall experience with our <span class=\"ItalicText\"><span class=\"BoldText\">Ultimate Pass</span></span>!<span><br/></span><span><br/></span>For $320, choose any 8 Darke Hall Presents performances and reserve your seats at the time of purchase—giving you the flexibility to create a season that fits your interests and schedule while securing your preferred seats early.<span><br/></span><span><br/></span>Purchase your Ultimate Pass by October 30 and receive complimentary coat check for the entire season as a thank you for supporting Darke Hall early in the season.<span><br/></span><span><br/></span><span><br/></span>Every ticket supports the ongoing work of Darke Hall and helps keep this historic stage alive.
-""";
-  schema:startDate "2027-04-02T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/darkehallsociety/files/9e72bc57-d832-4edd-af61-447719c106a4.jpg>;
-  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=32602>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6426;
-  schema:keywords "Music";
-  schema:duration "PT120M";
-  schema:endDate "2027-04-02T21:30:00"^^xsd:dateTime .
-
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6426 a schema:AggregateOffer;
-  schema:url <https://purchase.darkehall.ca/ChooseSeats/38202>;
-  schema:lowPrice "5.56";
-  schema:priceCurrency "CAD" .
-
 <http://www.spektrix.com/darkehallsociety/event/25801AGPSVCGGNRPVHRSNSQGLMPJPTNDB>
   a schema:Event;
   schema:name "Bee Gees Revisited – The Tribute Show";
@@ -65,12 +51,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6426 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/f9151c01-f0f9-4938-982f-dfc37401caed.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=22601>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6427;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96350;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-09-08T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6427 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96350 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/25801>;
   schema:lowPrice "56.56";
   schema:priceCurrency "CAD" .
@@ -85,12 +71,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6427 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/a3dd6907-3e11-4870-a6cc-4f9725d0c8e0.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=33801>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6428;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96351;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-12-05T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6428 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96351 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/40801>;
   schema:lowPrice "11.1";
   schema:priceCurrency "CAD" .
@@ -105,12 +91,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6428 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/f85b4fc3-ea30-4a3a-9e35-88e9714de9ed.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=34001>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6429;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96352;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-02-02T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6429 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96352 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/41001>;
   schema:lowPrice "5.55";
   schema:priceCurrency "CAD" .
@@ -125,14 +111,34 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6429 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/e701a8ae-258f-434d-93aa-1011d68c5616.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=34401>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6430;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96353;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-04-17T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6430 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96353 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/41401>;
   schema:lowPrice "11.1";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/45401AJDKTHQLVSLBBVQGBPQSVNVKLQMM>
+  a schema:Event;
+  schema:name "Book Launch for Kai Cheng Thom and Vivek Shraya";
+  schema:description """
+	Join two of Canada’s beloved trans authors <span class=\"BoldText\">Vivek Shraya and Kai Cheng Thom</span> as they celebrate the release of two works of fiction exploring dystopian and utopian worlds that are frightening, fantastical, and not so far away from the world we live in today: <span class=\"BoldText\">Shraya’s <span class=\"ItalicText\">The Hystericals</span></span>, and <span class=\"BoldText\">Thom’s <span class=\"ItalicText\">The Shapeshifter’s Guide to Gym Class</span></span>.<span><br/></span><span><br/></span>A reception will follow. The University store will be on site to sell copies of both books. <span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">Admission is free but registration is recommended.  Please click on Book Now to register.</span></span><span><br/></span>
+""";
+  schema:startDate "2026-10-13T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/fa69bb55-4554-402f-a414-1f0665e3ae9c.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=38401>;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96354;
+  schema:keywords "Lectures";
+  schema:duration "PT120M";
+  schema:endDate "2026-10-13T21:00:00"^^xsd:dateTime .
+
+_:6cfb468278f340539e63131aadaca0c96354 a schema:AggregateOffer;
+  schema:url <https://purchase.darkehall.ca/ChooseSeats/45401>;
+  schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/darkehallsociety/event/37802AKQMQCRDGQHPRGHGDKTDKDVRVDTT>
@@ -145,12 +151,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6430 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/8ee5dba5-f9bb-4099-92c1-dbc9f2e6d6a0.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=32801>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6431;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96355;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-04-14T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6431 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96355 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/37802>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -165,12 +171,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6431 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/1f4fbeb1-7b35-465d-b919-71e9a4905f43.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=30803>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6432;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96356;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-11-26T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6432 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96356 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/36402>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -185,12 +191,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6432 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/ba58ff63-9a73-4a45-a2da-3ef65e59c647.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=26801>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6433;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96357;
   schema:keywords "Music";
   schema:duration "PT90M";
   schema:endDate "2027-03-14T16:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6433 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96357 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/31801>;
   schema:lowPrice "20.56";
   schema:priceCurrency "CAD" .
@@ -205,12 +211,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6433 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/20a619ec-884c-43e3-92f9-0b8b1bb9dc8c.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=26001>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6434;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96358;
   schema:keywords "Music";
   schema:duration "PT90M";
   schema:endDate "2026-09-20T16:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6434 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96358 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/31001>;
   schema:lowPrice "20.56";
   schema:priceCurrency "CAD" .
@@ -225,12 +231,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6434 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/549a93a1-4d6c-4a4c-a0bb-d421c1c0676e.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=26201>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6435;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96359;
   schema:keywords "Music";
   schema:duration "PT90M";
   schema:endDate "2026-10-25T16:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6435 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96359 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/31201>;
   schema:lowPrice "20.56";
   schema:priceCurrency "CAD" .
@@ -245,12 +251,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6435 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/57c7100c-6b13-42ef-9ffe-4f09a5e74acc.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=26601>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6436;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96360;
   schema:keywords "Music";
   schema:duration "PT90M";
   schema:endDate "2027-01-31T16:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6436 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96360 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/31601>;
   schema:lowPrice "20.56";
   schema:priceCurrency "CAD" .
@@ -265,12 +271,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6436 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/e102414b-51c2-4aec-a501-401a3356246e.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=26401>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6437;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96361;
   schema:keywords "Music";
   schema:duration "PT90M";
   schema:endDate "2026-11-08T16:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6437 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96361 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/31401>;
   schema:lowPrice "20.56";
   schema:priceCurrency "CAD" .
@@ -285,12 +291,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6437 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/28670bcf-d22e-42fe-a5de-016c8acc2ab5.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=27001>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6438;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96362;
   schema:keywords "Music";
   schema:duration "PT90M";
   schema:endDate "2027-04-18T16:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6438 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96362 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/32001>;
   schema:lowPrice "20.56";
   schema:priceCurrency "CAD" .
@@ -305,12 +311,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6438 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/445be070-8d9a-4095-ace8-c99fef54605f.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=31602>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6439;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96363;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-12-19T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6439 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96363 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/36603>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -325,12 +331,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6439 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/527eeb0f-7981-4c28-abd2-2bf8d25fe0a4.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=36401>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6440;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96364;
   schema:keywords "Dance";
   schema:duration "PT180M";
   schema:endDate "2026-09-26T22:00:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6440 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96364 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/43401>;
   schema:lowPrice "20.8";
   schema:priceCurrency "CAD" .
@@ -353,18 +359,18 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6440 a schema:AggregateOffer;
   a schema:Event;
   schema:name "Dan Mangan: National Light Tour";
   schema:description """
-	A master storyteller with a gift for connection, <span class=\"BoldText\">Dan Mangan</span> returns to Darke Hall with an evening of songs that are as thoughtful as they are unforgettable. Blending indie folk with sharp wit and emotional depth, this is a show that feels intimate, honest, and fully alive in the moment. <span><br/></span><span><br/></span>A 2x JUNO Award-winning songwriter, <span class=\"BoldText\">Dan Mangan</span> has spent over two decades shaping Canada’s indie folk landscape. Known for his evolving sound and deeply human songwriting, he has built a loyal following through powerful live performances that balance humour, vulnerability, and connection.<span><br/></span><span><br/></span><span><br/></span><span class=\"UnderlineText\">Tickets</span>  <span><br/></span>Premium $50 | Standard $40 | Economy $30 <span><br/></span>New for 26/27: $10 Youth (under 20)<span><br/></span> <span><br/></span><span class=\"UnderlineText\">The Ultimate Pass</span><span><br/></span>Build your own Darke Hall experience with our <span class=\"ItalicText\"><span class=\"BoldText\">Ultimate Pass</span></span>!<span><br/></span><span><br/></span>For $320, choose any 8 Darke Hall Presents performances and reserve your seats at the time of purchase—giving you the flexibility to create a season that fits your interests and schedule while securing your preferred seats early.<span><br/></span><span><br/></span>Purchase your Ultimate Pass by October 30 and receive complimentary coat check for the entire season as a thank you for supporting Darke Hall early in the season.<span><br/></span><span><br/></span><span><br/></span>Every ticket helps keep this stage alive with music, stories, and shared moments. 
+	A master storyteller with a gift for connection, <span class=\"BoldText\">Dan Mangan</span> returns to Darke Hall with an evening of songs that are as thoughtful as they are unforgettable. Blending indie folk with sharp wit and emotional depth, this is a show that feels intimate, honest, and fully alive in the moment. <span><br/></span><span><br/></span>A 2x JUNO Award-winning songwriter, <span class=\"BoldText\">Dan Mangan</span> has spent over two decades shaping Canada’s indie folk landscape. Known for his evolving sound and deeply human songwriting, he has built a loyal following through powerful live performances that balance humour, vulnerability, and connection.<span><br/></span><span><br/></span>Adding to the evening will be <span class=\"BoldText\">The Secret Beach</span> as support act.  The Secret Beach is the long-running musical home of Manitoba songwriter <span class=\"BoldText\">Micah Erenberg</span> (AKA Karima Micah).<span><br/></span><span><br/></span>Rooted in the Prairies, The Secret Beach's music draws equally from country music, folk songs, chicken shack rock n' roll, and the particular humour and melancholy of small-town life. Alongside longtime collaborator Daniel Diamond and a revolving cast of friends and fellow travellers, Erenberg has built a catalogue of songs filled with characters you know, places you've been, roadside reflections, and the strange beauty of everyday life.<span><br/></span><span><br/></span><span><br/></span><span><br/></span><span class=\"UnderlineText\">Tickets</span>  <span><br/></span>Premium $50 | Standard $40 | Economy $30 <span><br/></span>New for 26/27: $10 Youth (under 20)<span><br/></span> <span><br/></span><span class=\"UnderlineText\">The Ultimate Pass</span><span><br/></span>Build your own Darke Hall experience with our <span class=\"ItalicText\"><span class=\"BoldText\">Ultimate Pass</span></span>!<span><br/></span><span><br/></span>For $320, choose any 8 Darke Hall Presents performances and reserve your seats at the time of purchase—giving you the flexibility to create a season that fits your interests and schedule while securing your preferred seats early.<span><br/></span><span><br/></span>Purchase your Ultimate Pass by October 30 and receive complimentary coat check for the entire season as a thank you for supporting Darke Hall early in the season.<span><br/></span><span><br/></span><span><br/></span>Every ticket helps keep this stage alive with music, stories, and shared moments. 
 """;
   schema:startDate "2026-10-04T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/darkehallsociety/files/af86edff-e761-4a8a-b453-8700f17b0cb4.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=31001>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6441;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96365;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-10-04T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6441 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96365 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/36601>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -379,12 +385,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6441 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/6975ec50-7261-4592-8742-e005e0e95e38.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=32001>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6442;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96366;
   schema:keywords "Music";
   schema:duration "PT90M";
   schema:endDate "2026-12-20T16:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6442 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96366 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/37801>;
   schema:lowPrice "2.0";
   schema:priceCurrency "CAD" .
@@ -399,12 +405,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6442 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/6181b133-4bba-4256-a844-116c855a7f1d.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=32401>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6443;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96367;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-03-02T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6443 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96367 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/37202>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -419,12 +425,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6443 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/1a70d6ef-c362-4aed-902c-84571b5a3aca.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=31601>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6444;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96368;
   schema:keywords "Theatre";
   schema:duration "PT120M";
   schema:endDate "2026-11-14T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6444 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96368 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/36602>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -439,12 +445,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6444 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/6c96ee51-d8ed-41a9-b8b2-a1ff64ba04fd.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=37201>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6445;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96369;
   schema:keywords "Lectures";
   schema:duration "PT270M";
   schema:endDate "2026-10-17T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6445 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96369 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/44201>;
   schema:lowPrice "56.7";
   schema:priceCurrency "CAD" .
@@ -459,12 +465,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6445 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/8b6d899a-6de5-4c3e-904f-9bcb01f464fa.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=31401>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6446;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96370;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-10-23T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6446 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96370 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/37001>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -479,12 +485,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6446 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/2a384f59-fceb-479f-a723-426d1785c8ac.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=36001>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6447;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96371;
   schema:keywords "Music";
   schema:duration "PT110M";
   schema:endDate "2026-09-21T20:35:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6447 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96371 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/43001>;
   schema:lowPrice "62.72";
   schema:priceCurrency "CAD" .
@@ -499,12 +505,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6447 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/71760d15-f05f-492b-8e47-090f954fc3f2.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=31202>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6448;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96372;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-12-18T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6448 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96372 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/37601>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -519,12 +525,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6448 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/3bc6b6f9-84ab-4009-904f-4ecc835ad055.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=30802>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6449;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96373;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-11-22T17:00:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6449 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96373 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/37201>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -539,12 +545,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6449 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/69fb39fa-a047-4b76-8702-bc50f8db5b5d.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=31201>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6450;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96374;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-10-18T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6450 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96374 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/36801>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -559,12 +565,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6450 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/d2a14daf-9871-467c-9801-a54ae75b84bc.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=34201>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6451;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96375;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-02-06T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6451 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96375 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/41201>;
   schema:lowPrice "11.1";
   schema:priceCurrency "CAD" .
@@ -579,12 +585,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6451 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/f74d6ee0-828f-4f15-b94f-e5c0827e0db8.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=32201>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6452;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96376;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-02-05T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6452 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96376 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/38001>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -599,12 +605,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6452 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/0f2b3704-1395-48d2-9d0b-1ee2bb93e1fd.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=31801>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6453;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96377;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-12-10T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6453 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96377 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/37401>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -619,12 +625,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6453 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/1b4f0cfe-fd38-427c-bbc3-b266e946543c.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=35801>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6454;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96378;
   schema:keywords "Music";
   schema:duration "PT135M";
   schema:endDate "2026-09-18T21:45:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6454 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96378 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/42801>;
   schema:lowPrice "44.4";
   schema:priceCurrency "CAD" .
@@ -639,12 +645,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6454 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/e5fafb1b-f30c-4f4c-9e5e-c088f226d243.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=33201>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6455;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96379;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-05-12T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6455 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96379 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/38801>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -659,12 +665,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6455 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/a11a5dc7-992f-421f-a969-2bee3e3de111.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=31802>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6456;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96380;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-02-20T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6456 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96380 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/38201>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -679,12 +685,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6456 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/be5e77c6-ab80-46f4-9c7d-0477e9f5c363.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=16601>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6457;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96381;
   schema:keywords "Music";
   schema:duration "PT105M";
   schema:endDate "2026-09-19T21:15:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6457 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96381 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/19601>;
   schema:lowPrice "11.1";
   schema:priceCurrency "CAD" .
@@ -699,12 +705,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6457 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/d7cd6a4e-3323-4780-bd75-d95f2bcc8476.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=34801>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6458;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96382;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-11-20T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6458 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96382 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/41801>;
   schema:lowPrice "30.56";
   schema:priceCurrency "CAD" .
@@ -719,12 +725,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6458 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/08c25f44-d3b5-414d-b1ec-670d7519683a.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=35201>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6459;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96383;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-04-03T17:00:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6459 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96383 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/42201>;
   schema:lowPrice "30.56";
   schema:priceCurrency "CAD" .
@@ -739,12 +745,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6459 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/715317d0-8ebb-43ce-90e8-d6c3e7976271.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=35401>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6460;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96384;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-03-07T17:00:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6460 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96384 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/42401>;
   schema:lowPrice "30.56";
   schema:priceCurrency "CAD" .
@@ -759,12 +765,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6460 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/a7e361f6-3ef9-41d2-9308-2ab0d7ea7390.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=34601>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6461;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96385;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-09-13T17:00:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6461 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96385 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/41601>;
   schema:lowPrice "30.56";
   schema:priceCurrency "CAD" .
@@ -779,12 +785,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6461 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/42aab23e-566f-4271-bb7b-0e3f43db95a7.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=34802>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6462;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96386;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-01-03T17:00:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6462 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96386 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/41802>;
   schema:lowPrice "30.56";
   schema:priceCurrency "CAD" .
@@ -799,12 +805,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6462 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/e28be04d-966e-4a9a-90d3-53d991fd5597.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=35001>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6463;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96387;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-02-07T17:00:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6463 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96387 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/42001>;
   schema:lowPrice "30.56";
   schema:priceCurrency "CAD" .
@@ -819,12 +825,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6463 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/a3232598-c36a-4e08-8eca-e128841c7430.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=36201>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6464;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96388;
   schema:keywords "Music";
   schema:duration "PT90M";
   schema:endDate "2026-09-11T20:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6464 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96388 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/43201>;
   schema:lowPrice "30.56";
   schema:priceCurrency "CAD" .
@@ -839,12 +845,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6464 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/d7322cea-00a4-46cd-8f7b-d6314e0b2e3d.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=37801>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6465;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96389;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-02-12T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6465 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96389 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/44801>;
   schema:lowPrice "30.56";
   schema:priceCurrency "CAD" .
@@ -859,12 +865,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6465 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/6502e5b9-1b2a-46ff-a330-9f8eddd70eae.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=37601>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6466;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96390;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-11-27T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6466 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96390 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/44601>;
   schema:lowPrice "30.56";
   schema:priceCurrency "CAD" .
@@ -879,12 +885,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6466 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/7e693ae7-359f-4e60-bf3b-04f917aebe91.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=37401>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6467;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96391;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-09-25T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6467 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96391 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/44401>;
   schema:lowPrice "30.56";
   schema:priceCurrency "CAD" .
@@ -899,15 +905,29 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6467 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/a849f2b4-d855-414d-b991-c1ae8e75b260.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=38001>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6468;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96392;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-06-13T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6468 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96392 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/45001>;
   schema:lowPrice "30.56";
   schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/45801APJPHDJMJCSGNSRNCNRNHDDTHVGL>
+  a schema:Event;
+  schema:name "RSO Presents: Phantom of the Opera";
+  schema:description """
+	<h2>Silent movie with live performance.</h2><span><br/></span><span class=\"BoldText\">FEATURING<span><br/></span>Michael Bridge, accordion</span><span><br/></span><span><br/></span>Step into a world of mystery and suspense this Halloween at Darke Hall on October 29 with Phantom of the Opera. Experience the iconic <span class=\"BoldText\">1929 silent horror classic</span> accompanied live by digital accordionist Michael Bridge.<span><br/></span><span><br/></span>Using his custom digital accordion, Bridge brings the story to life with sounds you’ve never heard before—from haunting choirs and pulsating drums to shimmering synths and eerie effects. Watch the Phantom unfold on screen as the music transforms every scene into a thrilling, immersive experience.<span><br/></span><span><br/></span><span class=\"BoldText\">*The Regina Symphony Orchestra does not appear in this concert.</span><span><br/></span><span><br/></span>To purchase tickets, please visit the <a target=\"_blank\" href=\"https://reginasymphony.com/concerts/phantom-of-the-opera/\">RSO website</a>.<span><br/></span>
+""";
+  schema:startDate "2026-10-29T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/57537edb-7a86-45ad-bb48-0c80d25e85fc.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=38801>;
+  schema:keywords "Music";
+  schema:duration "PT90M";
+  schema:endDate "2026-10-29T21:00:00"^^xsd:dateTime .
 
 <http://www.spektrix.com/darkehallsociety/event/36401AGDPLVGNCJMRKTPQLBSBLCVKVSMG>
   a schema:Event;
@@ -919,29 +939,15 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6468 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/5804415a-7dc9-44ea-9700-1feb536cae04.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=30801>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6469;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96393;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2026-10-03T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6469 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96393 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/36401>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/darkehallsociety/event/43801ACRLMVKGBSGVDHLHBRQGTPTTSDDJ>
-  a schema:Event;
-  schema:name "Startup Summit";
-  schema:description """
-	<span class=\"BoldText\">Startup Summit</span> is Cultivator's flagship high-energy event built to expand founder ambition by exposing them to real, relatable success stories, bigger outcomes than they currently believe are possible, and clear pathways from the Prairies to national and global scale.<span><br/></span> <span><br/></span>Every session is grounded in real experience. Founders who have been through the fire. Before-and-after moments. The hard truths behind the wins.<span><br/></span><span><br/></span>You'll find the pivot, the near-failure, the unexpected win, and exactly what it took to get through it.<span><br/></span><span><br/></span><span class=\"BoldText\">Inspiration + Execution</span>. This year, founders will leave Startup Summit recalibrated - believing bigger is possible and with a clearer understanding of the specific steps to get there.<span><br/></span><span><br/></span>Whether you're thinking about your first $100K, landing your first enterprise deal, or wondering whether you can build something of real scale from Saskatchewan, this event is built for you.<span><br/></span><span><br/></span>Our greatest competitive advantage is each other. Startup Summit is where that advantage gets activated. <span><br/></span><span><br/></span>To register, click <a target=\"_blank\" href=\"https://www.saskstartupsummit.com/\">here</a>.<span><br/></span><span><br/></span>
-""";
-  schema:startDate "2026-09-09T18:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/darkehallsociety/files/34a5d378-3e7a-40b7-a523-e08a6461e355.jpg>;
-  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=36801>;
-  schema:keywords "Lectures";
-  schema:duration "PT240M";
-  schema:endDate "2026-09-09T22:00:00"^^xsd:dateTime .
 
 <http://www.spektrix.com/darkehallsociety/event/38401ANGTJSBMBHBQLHQPNRBLQSPPBRDN>
   a schema:Event;
@@ -953,12 +959,12 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6469 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/1b2ddf94-9890-44c6-854c-c21f14a215a6.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=32601>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6470;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96394;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-03-16T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6470 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96394 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/38401>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
@@ -973,12 +979,26 @@ _:59e0d1189b9e4ff0a83f6dc3bf844c9a6470 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/darkehallsociety/files/edf571be-793b-4047-8473-ecfd332840a2.jpg>;
   schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
   schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=33001>;
-  schema:offers _:59e0d1189b9e4ff0a83f6dc3bf844c9a6471;
+  schema:offers _:6cfb468278f340539e63131aadaca0c96395;
   schema:keywords "Music";
   schema:duration "PT120M";
   schema:endDate "2027-04-28T21:30:00"^^xsd:dateTime .
 
-_:59e0d1189b9e4ff0a83f6dc3bf844c9a6471 a schema:AggregateOffer;
+_:6cfb468278f340539e63131aadaca0c96395 a schema:AggregateOffer;
   schema:url <https://purchase.darkehall.ca/ChooseSeats/38601>;
   schema:lowPrice "5.56";
   schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/darkehallsociety/event/45601AKQVBSQHJBQRVBTCHVPGDDNQTRGL>
+  a schema:Event;
+  schema:name "U of R MAP Music Department Faculty Recital";
+  schema:description """
+	The <span class=\"BoldText\">University of Regina Department of Music Faculty</span> showcase their musical passion and skill in celebration of the the gift of the 1893 Steinway Piano from the estate of Pamela Broberg.<span><br/></span><span><br/></span><span class=\"ItalicText\"><span class=\"BoldText\">Admission is free.</span></span>
+""";
+  schema:startDate "2026-10-16T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/darkehallsociety/files/ffe49423-c92e-4d38-9987-6d7d7459e826.jpg>;
+  schema:location <https://spektrix.com/darkehallsociety/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
+  schema:url <https://purchase.darkehall.ca/EventAvailability?EventId=38601>;
+  schema:keywords "Music";
+  schema:duration "PT60M";
+  schema:endDate "2026-10-16T20:00:00"^^xsd:dateTime .
