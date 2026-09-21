@@ -18,7 +18,7 @@
   schema:image <https://system.spektrix.com/manitobaopera/files/86cd54fd-44e7-464e-80f1-7d206b3bcf56.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:6cfb468278f340539e63131aadaca0c94217;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834276;
   schema:duration "PT60M";
   schema:endDate "2026-03-19T15:30:00"^^xsd:dateTime .
 
@@ -26,7 +26,7 @@
   schema:name "Manitoba Opera";
   schema:sameAs <http://kg.artsdata.ca/resource/K2-5133> .
 
-_:6cfb468278f340539e63131aadaca0c94217 a schema:AggregateOffer;
+_:d11a43f1e93a4c5aa8d453136672c5834276 a schema:AggregateOffer;
   schema:url <https://purchase.mbopera.ca/ChooseSeats/17001>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -40,6 +40,36 @@ _:6cfb468278f340539e63131aadaca0c94217 a schema:AggregateOffer;
   schema:streetAddress "555 Main Street";
   schema:addressCountry "CA" .
 
+<http://www.spektrix.com/manitobaopera/event/23601ABQMTDMTTDQVVNJCNJPSQCSVMLHB> a
+    schema:Event;
+  schema:name "Film Screening: The Sting";
+  schema:description """
+	Film Screening: <span class=\"ItalicText\">The Sting</span> (1973)<span><br/></span>Friday, October 23<span><br/></span>Landmark Cinemas Grant Park<span><br/></span>1:00 PM (doors open 12:30 PM)<span><br/></span><span><br/></span>Winner of seven Academy Awards, this caper film starring Paul Newman and Robert Redford was also notable for its soundtrack, which heavily featured the music of Scott Joplin and contributed to a resurgence of interest in Joplin's work in that decade.<span><br/></span><span><br/></span>The film will be introduced by film enthusiast, journalist, and educator, Alison Gillmor, with a brief presentation about the music of Scott Joplin given by composer and conductor Larry Strachan.<span><br/></span><span><br/></span>This event is free to attend.<span><br/></span>Advance registration is required. Limited seating.
+""";
+  schema:startDate "2026-10-23T13:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/manitobaopera/location/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL>;
+  schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834277;
+  schema:duration "PT129M";
+  schema:endDate "2026-10-23T15:09:00"^^xsd:dateTime .
+
+_:d11a43f1e93a4c5aa8d453136672c5834277 a schema:AggregateOffer;
+  schema:url <https://purchase.mbopera.ca/ChooseSeats/23601>;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/manitobaopera/location/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL> a
+    schema:Place;
+  schema:name "Landmark Cinemas - Grant Park";
+  schema:address <https://spektrix.com/manitobaopera/address/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL> .
+
+<https://spektrix.com/manitobaopera/address/1801APGQPRKNVLCHGSKJBCTJKDRMGPLNL> a schema:PostalAddress;
+  schema:streetAddress "1120 Grant Avenue Unit 127";
+  schema:addressLocality "Winnipeg";
+  schema:addressRegion "MB";
+  schema:postalCode "R3M 2A6";
+  schema:addressCountry "CA" .
+
 <http://www.spektrix.com/manitobaopera/event/23201APGCMPGJNLTBJBBRLRLRBCKNMGMV> a
     schema:Event;
   schema:name "Friday Dinner";
@@ -50,11 +80,11 @@ _:6cfb468278f340539e63131aadaca0c94217 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/manitobaopera/files/203b58c2-09ba-4214-9cad-396d272fbe68.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:6cfb468278f340539e63131aadaca0c94218;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834278;
   schema:duration "PT90M";
   schema:endDate "2026-11-27T19:30:00"^^xsd:dateTime .
 
-_:6cfb468278f340539e63131aadaca0c94218 a schema:AggregateOffer;
+_:d11a43f1e93a4c5aa8d453136672c5834278 a schema:AggregateOffer;
   schema:url <https://purchase.mbopera.ca/ChooseSeats/23201>;
   schema:lowPrice "75.0";
   schema:priceCurrency "CAD" .
@@ -69,11 +99,11 @@ _:6cfb468278f340539e63131aadaca0c94218 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/manitobaopera/files/6e2b5384-68d9-4814-8121-11572e15fc9a.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:6cfb468278f340539e63131aadaca0c94219;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834279;
   schema:duration "PT165M";
   schema:endDate "2027-04-17T22:15:00"^^xsd:dateTime .
 
-_:6cfb468278f340539e63131aadaca0c94219 a schema:AggregateOffer;
+_:d11a43f1e93a4c5aa8d453136672c5834279 a schema:AggregateOffer;
   schema:url <https://purchase.mbopera.ca/ChooseSeats/16401>;
   schema:lowPrice "23.5";
   schema:priceCurrency "CAD" .
@@ -88,11 +118,11 @@ _:6cfb468278f340539e63131aadaca0c94219 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/manitobaopera/files/6e2b5384-68d9-4814-8121-11572e15fc9a.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:6cfb468278f340539e63131aadaca0c94220;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834280;
   schema:duration "PT165M";
   schema:endDate "2027-04-21T21:45:00"^^xsd:dateTime .
 
-_:6cfb468278f340539e63131aadaca0c94220 a schema:AggregateOffer;
+_:d11a43f1e93a4c5aa8d453136672c5834280 a schema:AggregateOffer;
   schema:url <https://purchase.mbopera.ca/ChooseSeats/16202>;
   schema:lowPrice "23.5";
   schema:priceCurrency "CAD" .
@@ -107,11 +137,11 @@ _:6cfb468278f340539e63131aadaca0c94220 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/manitobaopera/files/6e2b5384-68d9-4814-8121-11572e15fc9a.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:6cfb468278f340539e63131aadaca0c94221;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834281;
   schema:duration "PT165M";
   schema:endDate "2027-04-23T22:15:00"^^xsd:dateTime .
 
-_:6cfb468278f340539e63131aadaca0c94221 a schema:AggregateOffer;
+_:d11a43f1e93a4c5aa8d453136672c5834281 a schema:AggregateOffer;
   schema:url <https://purchase.mbopera.ca/ChooseSeats/16601>;
   schema:lowPrice "23.5";
   schema:priceCurrency "CAD" .
@@ -126,14 +156,59 @@ _:6cfb468278f340539e63131aadaca0c94221 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/manitobaopera/files/14f0adc8-142e-40bb-8377-aab778f3772b.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:6cfb468278f340539e63131aadaca0c94222;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834282;
   schema:duration "PT120M";
   schema:endDate "2026-11-21T19:00:00"^^xsd:dateTime .
 
-_:6cfb468278f340539e63131aadaca0c94222 a schema:AggregateOffer;
+_:d11a43f1e93a4c5aa8d453136672c5834282 a schema:AggregateOffer;
   schema:url <https://purchase.mbopera.ca/ChooseSeats/22801>;
   schema:lowPrice "150.0";
   schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/manitobaopera/event/23801AJTHHRQPTBGSQKNGJHMKGQMHTHHM> a
+    schema:Event;
+  schema:name "TEST EVENT";
+  schema:description """
+
+""";
+  schema:startDate "2026-10-29T18:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
+  schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834283;
+  schema:duration "PT60M";
+  schema:endDate "2026-10-29T19:00:00"^^xsd:dateTime .
+
+_:d11a43f1e93a4c5aa8d453136672c5834283 a schema:AggregateOffer;
+  schema:url <https://purchase.mbopera.ca/ChooseSeats/23801>;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/manitobaopera/event/24001ABMNLGCGVMRMGTMJKPBQCNHQQLMH> a
+    schema:Event;
+  schema:name "TEST SUPPLEMENTARY EVENT";
+  schema:description """
+
+""";
+  schema:startDate "2026-10-29T17:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/manitobaopera/location/413AQMCVGSSDBPJPNNJKRQRSMGMTDKJMR>;
+  schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834284;
+  schema:duration "PT60M";
+  schema:endDate "2026-10-29T18:00:00"^^xsd:dateTime .
+
+_:d11a43f1e93a4c5aa8d453136672c5834284 a schema:AggregateOffer;
+  schema:url <https://purchase.mbopera.ca/ChooseSeats/24001>;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/manitobaopera/location/413AQMCVGSSDBPJPNNJKRQRSMGMTDKJMR> a
+    schema:Place;
+  schema:name "Canadian Museum for Human Rights";
+  schema:address <https://spektrix.com/manitobaopera/address/413AQMCVGSSDBPJPNNJKRQRSMGMTDKJMR> .
+
+<https://spektrix.com/manitobaopera/address/413AQMCVGSSDBPJPNNJKRQRSMGMTDKJMR> a schema:PostalAddress;
+  schema:streetAddress "85 Israel Asper Way";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/manitobaopera/event/15801AMKKPNSMSJBRKTDKDKJVGCKCBJKN> a
     schema:Event;
@@ -145,11 +220,11 @@ _:6cfb468278f340539e63131aadaca0c94222 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/manitobaopera/files/8b2c1cf7-1eae-47c8-ad61-761f3850d0dd.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:6cfb468278f340539e63131aadaca0c94223;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834285;
   schema:duration "PT150M";
   schema:endDate "2026-11-21T22:00:00"^^xsd:dateTime .
 
-_:6cfb468278f340539e63131aadaca0c94223 a schema:AggregateOffer;
+_:d11a43f1e93a4c5aa8d453136672c5834285 a schema:AggregateOffer;
   schema:url <https://purchase.mbopera.ca/ChooseSeats/15801>;
   schema:lowPrice "23.5";
   schema:priceCurrency "CAD" .
@@ -164,11 +239,11 @@ _:6cfb468278f340539e63131aadaca0c94223 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/manitobaopera/files/8b2c1cf7-1eae-47c8-ad61-761f3850d0dd.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:6cfb468278f340539e63131aadaca0c94224;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834286;
   schema:duration "PT150M";
   schema:endDate "2026-11-25T21:30:00"^^xsd:dateTime .
 
-_:6cfb468278f340539e63131aadaca0c94224 a schema:AggregateOffer;
+_:d11a43f1e93a4c5aa8d453136672c5834286 a schema:AggregateOffer;
   schema:url <https://purchase.mbopera.ca/ChooseSeats/16001>;
   schema:lowPrice "23.5";
   schema:priceCurrency "CAD" .
@@ -183,11 +258,11 @@ _:6cfb468278f340539e63131aadaca0c94224 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/manitobaopera/files/8b2c1cf7-1eae-47c8-ad61-761f3850d0dd.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:6cfb468278f340539e63131aadaca0c94225;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834287;
   schema:duration "PT150M";
   schema:endDate "2026-11-27T22:00:00"^^xsd:dateTime .
 
-_:6cfb468278f340539e63131aadaca0c94225 a schema:AggregateOffer;
+_:d11a43f1e93a4c5aa8d453136672c5834287 a schema:AggregateOffer;
   schema:url <https://purchase.mbopera.ca/ChooseSeats/16201>;
   schema:lowPrice "23.5";
   schema:priceCurrency "CAD" .
@@ -202,11 +277,11 @@ _:6cfb468278f340539e63131aadaca0c94225 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/manitobaopera/files/76154524-026b-4781-9c8b-77f546ca8587.jpg>;
   schema:location <https://spektrix.com/manitobaopera/location/411APPGHLQHMBTKVQCCLNCNNTVTQRHRKG>;
   schema:organizer <https://spektrix.com/manitobaopera/organization/manitoba-opera>;
-  schema:offers _:6cfb468278f340539e63131aadaca0c94226;
+  schema:offers _:d11a43f1e93a4c5aa8d453136672c5834288;
   schema:duration "PT90M";
   schema:endDate "2026-11-25T19:00:00"^^xsd:dateTime .
 
-_:6cfb468278f340539e63131aadaca0c94226 a schema:AggregateOffer;
+_:d11a43f1e93a4c5aa8d453136672c5834288 a schema:AggregateOffer;
   schema:url <https://purchase.mbopera.ca/ChooseSeats/23001>;
   schema:lowPrice "75.0";
   schema:priceCurrency "CAD" .
