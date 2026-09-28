@@ -8,6 +8,35 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
+<http://www.spektrix.com/thousandislandsplayhouse/event/73801ANBCGMJCHDPQBLMBCJTMLMHSQQHQ>
+  a schema:Event;
+  schema:name "2027 Season Launch";
+  schema:description """
+
+""";
+  schema:startDate "2026-10-15T10:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/90d32c6d-b364-4f52-a605-7702f476c7e6.jpg>;
+  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:url <https://www.1000islandsplayhouse.com/2027-season-launch/>;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2494;
+  schema:duration "PT60M";
+  schema:endDate "2026-10-15T11:00:00"^^xsd:dateTime .
+
+_:e7331e89a7a2400ca720e9295a95796e2494 a schema:AggregateOffer;
+  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=73801>;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:Place;
+  schema:name "Springer Theatre";
+  schema:address <https://spektrix.com/thousandislandsplayhouse/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+
+<https://spektrix.com/thousandislandsplayhouse/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+  a schema:PostalAddress;
+  schema:streetAddress "185 South Street";
+  schema:addressCountry "CA" .
+
 <http://www.spektrix.com/thousandislandsplayhouse/event/64001ANBSKVRHGJPQLNNPRVKMPBNDJQGG>
   a schema:Event;
   schema:name "A Moonlit Night";
@@ -21,15 +50,53 @@
   schema:duration "PT60M";
   schema:endDate "2026-06-18T18:30:00"^^xsd:dateTime .
 
-<https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
-  a schema:Place;
-  schema:name "Springer Theatre";
-  schema:address <https://spektrix.com/thousandislandsplayhouse/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
+<http://www.spektrix.com/thousandislandsplayhouse/event/76001ACNQBDSGGTSVDMCVRMLGHGQHVKLH>
+  a schema:Event;
+  schema:name "Brigadoon";
+  schema:description """
 
-<https://spektrix.com/thousandislandsplayhouse/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
+""";
+  schema:startDate "2026-11-21T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/41ade20c-2081-45b6-9102-95e5d3efb378.jpg>;
+  schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:url <https://www.1000islandsplayhouse.com/brigadoon/>;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2495;
+  schema:duration "PT140M";
+  schema:endDate "2026-11-21T21:50:00"^^xsd:dateTime .
+
+_:e7331e89a7a2400ca720e9295a95796e2495 a schema:AggregateOffer;
+  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=76001>;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
+  a schema:Place;
+  schema:name "Firehall Theatre";
+  schema:address <https://spektrix.com/thousandislandsplayhouse/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
+
+<https://spektrix.com/thousandislandsplayhouse/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
   a schema:PostalAddress;
   schema:streetAddress "185 South Street";
   schema:addressCountry "CA" .
+
+<http://www.spektrix.com/thousandislandsplayhouse/event/76201ANNTCLJDJJJGJSPTQBVRJLDQTKHL>
+  a schema:Event;
+  schema:name "Brigadoon";
+  schema:description """
+
+""";
+  schema:startDate "2026-11-22T14:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/41ade20c-2081-45b6-9102-95e5d3efb378.jpg>;
+  schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:url <https://www.1000islandsplayhouse.com/brigadoon/>;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2496;
+  schema:duration "PT140M";
+  schema:endDate "2026-11-22T16:50:00"^^xsd:dateTime .
+
+_:e7331e89a7a2400ca720e9295a95796e2496 a schema:AggregateOffer;
+  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=76201>;
+  schema:lowPrice "20.0";
+  schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/thousandislandsplayhouse/event/59411ATMRQCGKQHPGGLBCHPJNGKHRQGJL>
   a schema:Event;
@@ -41,12 +108,12 @@
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832601;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2497;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-09-22T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832601 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2497 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59411>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -75,12 +142,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832601 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832602;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2498;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-09-24T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832602 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2498 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59413>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -95,12 +162,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832602 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832603;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2499;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-09-25T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832603 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2499 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60201>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -115,12 +182,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832603 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832604;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2500;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-09-26T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832604 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2500 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60401>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -135,12 +202,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832604 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832605;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2501;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-09-26T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832605 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2501 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60202>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -155,12 +222,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832605 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832606;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2502;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-09-27T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832606 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2502 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60402>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -175,12 +242,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832606 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832607;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2503;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-09-29T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832607 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2503 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60001>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -195,12 +262,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832607 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832608;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2504;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-09-30T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832608 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2504 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60403>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -215,12 +282,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832608 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832609;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2505;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-09-30T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832609 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2505 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60203>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -235,12 +302,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832609 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832610;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2506;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-01T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832610 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2506 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60204>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -255,12 +322,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832610 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832611;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2507;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-02T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832611 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2507 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60205>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -275,12 +342,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832611 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832612;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2508;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-03T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832612 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2508 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60404>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -295,12 +362,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832612 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832613;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2509;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-03T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832613 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2509 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60206>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -315,12 +382,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832613 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832614;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2510;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-04T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832614 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2510 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60405>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -335,12 +402,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832614 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832615;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2511;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-06T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832615 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2511 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60002>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -355,12 +422,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832615 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832616;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2512;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-07T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832616 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2512 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60406>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -375,12 +442,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832616 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832617;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2513;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-07T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832617 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2513 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60207>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -395,12 +462,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832617 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832618;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2514;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-08T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832618 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2514 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60208>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -415,12 +482,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832618 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832619;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2515;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-09T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832619 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2515 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60209>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -435,12 +502,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832619 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832620;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2516;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-10T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832620 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2516 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60407>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -455,12 +522,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832620 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832621;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2517;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-10T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832621 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2517 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60210>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -475,12 +542,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832621 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832622;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2518;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-11T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832622 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2518 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60408>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -495,12 +562,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832622 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832623;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2519;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-13T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832623 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2519 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60003>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -515,12 +582,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832623 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832624;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2520;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-14T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832624 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2520 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60409>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -535,12 +602,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832624 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832625;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2521;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-14T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832625 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2521 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60211>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -555,12 +622,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832625 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832626;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2522;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-15T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832626 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2522 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60212>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -575,12 +642,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832626 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832627;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2523;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-16T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832627 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2523 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60213>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -595,12 +662,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832627 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832628;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2524;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-17T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832628 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2524 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60410>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -615,12 +682,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832628 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832629;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2525;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-17T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832629 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2525 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60214>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -635,12 +702,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832629 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832630;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2526;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-18T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832630 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2526 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60411>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -655,12 +722,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832630 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832631;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2527;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-20T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832631 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2527 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60004>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -675,12 +742,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832631 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832632;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2528;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-21T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832632 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2528 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60412>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -695,12 +762,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832632 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832633;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2529;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-21T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832633 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2529 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60215>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -715,12 +782,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832633 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832634;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2530;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-22T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832634 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2530 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60216>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -735,12 +802,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832634 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832635;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2531;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-23T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832635 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2531 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60217>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -755,12 +822,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832635 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832636;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2532;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-24T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832636 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2532 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60413>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -775,12 +842,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832636 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832637;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2533;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-24T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832637 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2533 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60218>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -795,12 +862,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832637 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832638;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2534;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-25T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832638 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2534 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60414>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -815,12 +882,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832638 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832639;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2535;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-27T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832639 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2535 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60005>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -835,12 +902,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832639 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832640;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2536;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-28T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832640 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2536 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60415>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -855,12 +922,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832640 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832641;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2537;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-28T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832641 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2537 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60219>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -875,12 +942,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832641 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832642;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2538;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-29T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832642 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2538 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60220>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -895,12 +962,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832642 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832643;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2539;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-30T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832643 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2539 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60222>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -915,12 +982,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832643 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832644;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2540;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-30T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832644 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2540 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60221>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -935,12 +1002,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832644 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832645;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2541;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-10-31T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832645 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2541 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60416>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -955,12 +1022,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832645 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832646;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2542;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-11-01T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832646 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2542 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=60417>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -975,12 +1042,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832646 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832647;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2543;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-11-03T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832647 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2543 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=72401>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -995,12 +1062,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832647 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832648;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2544;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-11-03T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832648 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2544 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=72203>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -1015,12 +1082,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832648 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832649;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2545;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-11-04T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832649 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2545 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=72201>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -1035,12 +1102,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832649 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832650;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2546;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-11-04T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832650 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2546 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=72204>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -1055,12 +1122,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832650 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832651;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2547;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-11-05T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832651 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2547 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=72205>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -1075,12 +1142,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832651 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832652;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2548;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-11-06T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832652 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2548 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=72206>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -1095,12 +1162,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832652 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832653;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2549;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-11-07T15:40:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832653 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2549 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=72202>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -1115,483 +1182,13 @@ _:d11a43f1e93a4c5aa8d453136672c5832653 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/da1576bc-ab92-49fc-819e-146b1e0028f1.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/come-from-away/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832654;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2550;
   schema:keywords "Musical";
   schema:duration "PT100M";
   schema:endDate "2026-11-07T21:10:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832654 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2550 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=72207>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59201ANQRMQQHPMKRBHKNCGQLPCVGCBKN>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-08-25T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832655;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-08-25T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832655 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59201>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59202ATRBRCGRHHKQJBLJGDPPMVSKKQTP>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-08-26T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832656;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-08-26T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832656 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59202>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59203APRQBPGHRLNSGTDRGLGGMLPKMVMN>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-08-27T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832657;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-08-27T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832657 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59203>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59401AVPBDGTDRSCSDKLHRHSTPMLPGGSV>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-08-28T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832658;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-08-28T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832658 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59401>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59801AKQJRVHNSMCTHJNRGJQCBCJCQDDC>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-08-29T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832659;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-08-29T15:59:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832659 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59801>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59402AGJCQQLMJRLRNNHMMRKJSBMDPVCS>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-08-29T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832660;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-08-29T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832660 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59402>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59802ADSTVDBRVSNKBKDMQVMVJNQRJSJM>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-08-30T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832661;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-08-30T15:59:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832661 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59802>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59601AVKDPHNNKSRGJLHVHKTKQPTKMSDT>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-01T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832662;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-01T15:59:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832662 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59601>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59803ARGJTRSHNGCSHTPCMTJKDGDLKJJS>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-02T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832663;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-02T15:59:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832663 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59803>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59403ANGKTBVKMLLTGBSJCDDNNGJQJNMP>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-02T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832664;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-02T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832664 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59403>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59404ALCSBKMNKQGTLCBBKKSQCTBMTTCV>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-03T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832665;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-03T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832665 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59404>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
-  a schema:Place;
-  schema:name "Springer Theatre";
-  schema:address <https://spektrix.com/thousandislandsplayhouse/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> .
-
-<https://spektrix.com/thousandislandsplayhouse/address/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>
-  a schema:PostalAddress;
-  schema:streetAddress "185 South Street";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59405ANBHRCNHTGNKDBJKDHRHPGKQPQQK>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-04T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832666;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-04T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832666 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59405>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59804AQTBCTVQMKDHBBGPSHDJRNDSKMQB>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-05T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832667;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-05T15:59:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832667 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59804>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59406ADCLQMRGDLCHNBCPGBKNNJNLVTCB>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-05T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832668;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-05T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832668 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59406>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59805ASNMNPHHBDMHKCPNVLBDGMDNTMSR>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-06T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832669;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-06T15:59:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832669 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59805>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59602AQVNQSLDJBSDBSLQPLTKBSJQRLJM>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-08T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832670;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-08T15:59:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832670 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59602>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59806ANRVQSCSTBRHGPHJQMNVJTKQHCQN>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-09T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832671;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-09T15:59:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832671 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59806>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59407ANKSGBTLTPKRDHGVVSHRGPHMGCSQ>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-09T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832672;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-09T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832672 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59407>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59408ADKKBTLGBHRBRTGMLNVVTHPGQLVJ>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-10T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832673;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-10T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832673 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59408>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59409ANLTDMCTTGPQVQGPMNTRSHRKVRLH>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-11T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832674;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-11T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832674 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59409>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59807AJQCQCGKSTMVLDPNSGGGKRDKSLQH>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-12T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832675;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-12T15:59:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832675 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59807>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59410ALTRDJVCHDMHMCBHGMDBNRHLVBDV>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-12T19:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832676;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-12T21:29:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832676 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59410>;
-  schema:lowPrice "27.12";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/59808AMQNKPCVDGCKMBBGJPRKQBJLPTKT>
-  a schema:Event;
-  schema:name "Murder at Ackerton Manor";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-13T14:00:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/4e587fe4-dcdf-4309-b36a-1946f2e52a4a.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/murder-at-ackerton-manor/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832677;
-  schema:keywords "Comedy";
-  schema:duration "PT119M";
-  schema:endDate "2026-09-13T15:59:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832677 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=59808>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
 
@@ -1604,11 +1201,11 @@ _:d11a43f1e93a4c5aa8d453136672c5832677 a schema:AggregateOffer;
   schema:startDate "2026-06-05T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/page-to-stage/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832678;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2551;
   schema:duration "PT120M";
   schema:endDate "2026-06-05T16:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832678 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2551 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=71201>;
   schema:lowPrice "16.95";
   schema:priceCurrency "CAD" .
@@ -1622,11 +1219,11 @@ _:d11a43f1e93a4c5aa8d453136672c5832678 a schema:AggregateOffer;
   schema:startDate "2026-07-17T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/page-to-stage/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832679;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2552;
   schema:duration "PT120M";
   schema:endDate "2026-07-17T16:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832679 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2552 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=71401>;
   schema:lowPrice "16.95";
   schema:priceCurrency "CAD" .
@@ -1640,11 +1237,11 @@ _:d11a43f1e93a4c5aa8d453136672c5832679 a schema:AggregateOffer;
   schema:startDate "2026-09-04T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/page-to-stage/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832680;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2553;
   schema:duration "PT120M";
   schema:endDate "2026-09-04T16:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832680 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2553 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=71601>;
   schema:lowPrice "16.95";
   schema:priceCurrency "CAD" .
@@ -1658,270 +1255,13 @@ _:d11a43f1e93a4c5aa8d453136672c5832680 a schema:AggregateOffer;
   schema:startDate "2026-10-16T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:url <https://www.1000islandsplayhouse.com/page-to-stage/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832681;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2554;
   schema:duration "PT120M";
   schema:endDate "2026-10-16T16:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832681 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2554 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=71801>;
   schema:lowPrice "16.95";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/67401ALTRTTRTPTSQHLNNDTGHMDRBCNBR>
-  a schema:Event;
-  schema:name "Production Facility Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-06-24T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/cbf1230d-92db-4735-8b29-5fb2bc4d933e.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:url <https://www.1000islandsplayhouse.com/production-facility-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832682;
-  schema:duration "PT60M";
-  schema:endDate "2026-06-24T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832682 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=67401>;
-  schema:lowPrice "11.3";
-  schema:priceCurrency "CAD" .
-
-<https://spektrix.com/thousandislandsplayhouse/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>
-  a schema:Place;
-  schema:name "Production Facility";
-  schema:address <https://spektrix.com/thousandislandsplayhouse/address/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT> .
-
-<https://spektrix.com/thousandislandsplayhouse/address/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>
-  a schema:PostalAddress;
-  schema:streetAddress "425 Herbert Street";
-  schema:addressCountry "CA" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/67601AVHPCSTMMBKTGKLCGLQQCGMMBVSK>
-  a schema:Event;
-  schema:name "Production Facility Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-07-08T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/cbf1230d-92db-4735-8b29-5fb2bc4d933e.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:url <https://www.1000islandsplayhouse.com/production-facility-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832683;
-  schema:duration "PT60M";
-  schema:endDate "2026-07-08T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832683 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=67601>;
-  schema:lowPrice "11.3";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/67801ATCLBJSLNJHDDQMPHBVVCKNGLMHB>
-  a schema:Event;
-  schema:name "Production Facility Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-07-22T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/cbf1230d-92db-4735-8b29-5fb2bc4d933e.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:url <https://www.1000islandsplayhouse.com/production-facility-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832684;
-  schema:duration "PT60M";
-  schema:endDate "2026-07-22T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832684 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=67801>;
-  schema:lowPrice "11.3";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/68001AVGQGHPGPGDNBSVTRMTDGHNQRSLV>
-  a schema:Event;
-  schema:name "Production Facility Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-08-05T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/cbf1230d-92db-4735-8b29-5fb2bc4d933e.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:url <https://www.1000islandsplayhouse.com/production-facility-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832685;
-  schema:duration "PT60M";
-  schema:endDate "2026-08-05T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832685 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=68001>;
-  schema:lowPrice "11.3";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/67402ABKLTNJPDTQLGVKSJSJJJQGGDRSL>
-  a schema:Event;
-  schema:name "Production Facility Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-08-19T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/cbf1230d-92db-4735-8b29-5fb2bc4d933e.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:url <https://www.1000islandsplayhouse.com/production-facility-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832686;
-  schema:duration "PT60M";
-  schema:endDate "2026-08-19T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832686 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=67402>;
-  schema:lowPrice "11.3";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/68201ATPHPGBHMDNSHHSTPHBMQBRQBLST>
-  a schema:Event;
-  schema:name "Production Facility Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-02T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/cbf1230d-92db-4735-8b29-5fb2bc4d933e.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:url <https://www.1000islandsplayhouse.com/production-facility-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832687;
-  schema:duration "PT60M";
-  schema:endDate "2026-09-02T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832687 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=68201>;
-  schema:lowPrice "11.3";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/68401ANKJDRLSGLSHHGCVSLLNTTTQRLMS>
-  a schema:Event;
-  schema:name "Production Facility Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-16T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/cbf1230d-92db-4735-8b29-5fb2bc4d933e.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:url <https://www.1000islandsplayhouse.com/production-facility-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832688;
-  schema:duration "PT60M";
-  schema:endDate "2026-09-16T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832688 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=68401>;
-  schema:lowPrice "11.3";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/68801ALBSQSHRCDRCGNPHHPCVVCPMPMDD>
-  a schema:Event;
-  schema:name "Theatre Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-07-02T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/92d17030-dfad-4958-b712-283a9a30866d.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/theatre-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832689;
-  schema:duration "PT60M";
-  schema:endDate "2026-07-02T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832689 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=68801>;
-  schema:lowPrice "11.3";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/67003AVPNBDJNTJDBKHKPJNDDVSPHHHRH>
-  a schema:Event;
-  schema:name "Theatre Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-07-16T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/92d17030-dfad-4958-b712-283a9a30866d.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/theatre-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832690;
-  schema:duration "PT60M";
-  schema:endDate "2026-07-16T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832690 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=67003>;
-  schema:lowPrice "11.3";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/68602AVRSPNTBNBBKGNCCBVJSBBMSHPSS>
-  a schema:Event;
-  schema:name "Theatre Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-07-30T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/92d17030-dfad-4958-b712-283a9a30866d.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/theatre-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832691;
-  schema:duration "PT60M";
-  schema:endDate "2026-07-30T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832691 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=68602>;
-  schema:lowPrice "11.3";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/69201ARPJLTNJBTLLMTLRNMQHNSVKNBHM>
-  a schema:Event;
-  schema:name "Theatre Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-08-27T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/92d17030-dfad-4958-b712-283a9a30866d.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/theatre-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832692;
-  schema:duration "PT60M";
-  schema:endDate "2026-08-27T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832692 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=69201>;
-  schema:lowPrice "11.3";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/68603ADTLBMQKBDCPHDQQMRKNVLGPCGLT>
-  a schema:Event;
-  schema:name "Theatre Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-10T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/92d17030-dfad-4958-b712-283a9a30866d.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/theatre-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832693;
-  schema:duration "PT60M";
-  schema:endDate "2026-09-10T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832693 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=68603>;
-  schema:lowPrice "11.3";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/thousandislandsplayhouse/event/69202AKQCDRPMHRPGPJTTRDGJCRNKMKHV>
-  a schema:Event;
-  schema:name "Theatre Tours";
-  schema:description """
-
-""";
-  schema:startDate "2026-09-24T10:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/92d17030-dfad-4958-b712-283a9a30866d.jpg>;
-  schema:location <https://spektrix.com/thousandislandsplayhouse/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:url <https://www.1000islandsplayhouse.com/theatre-tours/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832694;
-  schema:duration "PT60M";
-  schema:endDate "2026-09-24T11:30:00"^^xsd:dateTime .
-
-_:d11a43f1e93a4c5aa8d453136672c5832694 a schema:AggregateOffer;
-  schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=69202>;
-  schema:lowPrice "11.3";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/thousandislandsplayhouse/event/61601AVSDPSGQNGMDBLSJQKNCHSPHMMLK>
@@ -1934,25 +1274,15 @@ _:d11a43f1e93a4c5aa8d453136672c5832694 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832695;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2555;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-10T21:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832695 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2555 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61601>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
-
-<https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
-  a schema:Place;
-  schema:name "Firehall Theatre";
-  schema:address <https://spektrix.com/thousandislandsplayhouse/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
-
-<https://spektrix.com/thousandislandsplayhouse/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
-  a schema:PostalAddress;
-  schema:streetAddress "185 South Street";
-  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/thousandislandsplayhouse/event/61206AKVDCVCJCCCNCBLBHMJDBSPVCRBJ>
   a schema:Event;
@@ -1964,12 +1294,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832695 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832696;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2556;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-11T21:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832696 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2556 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61206>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -1984,12 +1314,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832696 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832697;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2557;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-12T21:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832697 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2557 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61207>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2004,12 +1334,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832697 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832698;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2558;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-13T15:30:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832698 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2558 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61401>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2024,15 +1354,25 @@ _:d11a43f1e93a4c5aa8d453136672c5832698 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832699;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2559;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-15T21:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832699 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2559 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61201>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
+
+<https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
+  a schema:Place;
+  schema:name "Firehall Theatre";
+  schema:address <https://spektrix.com/thousandislandsplayhouse/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
+
+<https://spektrix.com/thousandislandsplayhouse/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
+  a schema:PostalAddress;
+  schema:streetAddress "185 South Street";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/thousandislandsplayhouse/event/61402ALRTDBPMKTDNBPVSQKBQGQTMCMGK>
   a schema:Event;
@@ -2044,12 +1384,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832699 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832700;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2560;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-16T15:30:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832700 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2560 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61402>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2064,12 +1404,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832700 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832701;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2561;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-17T15:30:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832701 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2561 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61403>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2084,12 +1424,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832701 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832702;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2562;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-18T21:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832702 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2562 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61208>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2104,12 +1444,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832702 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832703;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2563;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-19T21:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832703 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2563 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61209>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2124,12 +1464,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832703 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832704;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2564;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-20T15:30:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832704 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2564 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61404>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2144,12 +1484,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832704 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832705;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2565;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-22T21:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832705 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2565 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61202>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2164,12 +1504,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832705 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832706;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2566;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-23T15:30:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832706 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2566 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61405>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2184,12 +1524,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832706 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832707;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2567;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-24T15:30:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832707 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2567 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61406>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2204,12 +1544,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832707 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832708;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2568;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-25T21:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832708 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2568 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61210>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2224,12 +1564,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832708 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832709;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2569;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-26T21:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832709 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2569 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61211>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2244,12 +1584,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832709 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832710;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2570;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-27T15:30:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832710 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2570 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61407>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2264,12 +1604,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832710 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832711;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2571;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-29T21:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832711 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2571 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61203>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2284,12 +1624,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832711 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832712;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2572;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-09-30T15:30:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832712 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2572 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61408>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2304,12 +1644,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832712 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832713;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2573;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-10-01T15:30:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832713 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2573 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61409>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2324,12 +1664,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832713 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832714;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2574;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-10-02T21:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832714 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2574 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61212>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2344,12 +1684,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832714 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832715;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2575;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-10-03T21:00:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832715 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2575 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61213>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
@@ -2364,12 +1704,12 @@ _:d11a43f1e93a4c5aa8d453136672c5832715 a schema:AggregateOffer;
   schema:image <https://system.spektrix.com/thousandislandsplayhouse/files/62ec368e-b125-4e57-ab3a-153e828097b8.jpg>;
   schema:location <https://spektrix.com/thousandislandsplayhouse/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
   schema:url <https://www.1000islandsplayhouse.com/wonderful-joe/>;
-  schema:offers _:d11a43f1e93a4c5aa8d453136672c5832716;
+  schema:offers _:e7331e89a7a2400ca720e9295a95796e2576;
   schema:keywords "Drama";
   schema:duration "PT90M";
   schema:endDate "2026-10-04T15:30:00"^^xsd:dateTime .
 
-_:d11a43f1e93a4c5aa8d453136672c5832716 a schema:AggregateOffer;
+_:e7331e89a7a2400ca720e9295a95796e2576 a schema:AggregateOffer;
   schema:url <https://www.1000islandsplayhouse.com/book-tickets/?book_id=61410>;
   schema:lowPrice "27.12";
   schema:priceCurrency "CAD" .
