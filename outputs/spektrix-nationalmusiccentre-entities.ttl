@@ -16,11 +16,11 @@
 """;
   schema:startDate "2025-11-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42282;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72284;
   schema:duration "PT60M";
   schema:endDate "2025-11-27T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42282 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72284 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=33001>;
   schema:lowPrice "12.4";
   schema:priceCurrency "CAD" .
@@ -46,14 +46,44 @@ _:9ec39dc5c604456196f82735f7e99ad42282 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-24T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42283;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72285;
   schema:duration "PT60M";
   schema:endDate "2025-05-24T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42283 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72285 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=28001>;
   schema:lowPrice "15.75";
   schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/nationalmusiccentre/event/190801APTTTCLHDPLJJVBGHJGQLBMBRDJ>
+  a schema:Event;
+  schema:name "2026 Program Test";
+  schema:description """
+
+""";
+  schema:startDate "2026-10-29T13:00:00"^^xsd:dateTime;
+  schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72286;
+  schema:duration "PT60M";
+  schema:endDate "2026-10-29T14:00:00"^^xsd:dateTime .
+
+_:1ffe682b6d774e17985871fde78009e72286 a schema:AggregateOffer;
+  schema:url <https://purchase.nmc.ca/EventAvailability?EventId=52801>;
+  schema:lowPrice "8.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
+  a schema:Place;
+  schema:name "Studio Bell";
+  schema:address <https://spektrix.com/nationalmusiccentre/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
+
+<https://spektrix.com/nationalmusiccentre/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
+  a schema:PostalAddress;
+  schema:streetAddress "850 4th Street SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 0L8";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/182201AKLHSBJGPRBLJBLDPLKPHGJSQQC>
   a schema:Event;
@@ -64,11 +94,11 @@ _:9ec39dc5c604456196f82735f7e99ad42283 a schema:AggregateOffer;
   schema:startDate "2026-12-13T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/7dc2f346-a220-4fb6-ac70-cebe0f438061.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42284;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72287;
   schema:duration "PT60M";
   schema:endDate "2026-12-13T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42284 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72287 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=48401>;
   schema:lowPrice "61.95";
   schema:priceCurrency "CAD" .
@@ -82,11 +112,11 @@ _:9ec39dc5c604456196f82735f7e99ad42284 a schema:AggregateOffer;
   schema:startDate "2025-11-03T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/003fe8f0-ff30-49bb-b0c0-60c930605a00.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42285;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72288;
   schema:duration "PT60M";
   schema:endDate "2025-11-03T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42285 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72288 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=33401>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -113,11 +143,11 @@ _:9ec39dc5c604456196f82735f7e99ad42285 a schema:AggregateOffer;
   schema:startDate "2026-11-02T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/86a498b1-9d4e-4264-b84e-1e1100fe38ce.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42286;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72289;
   schema:duration "PT60M";
   schema:endDate "2026-11-02T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42286 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72289 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=52401>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -131,11 +161,11 @@ _:9ec39dc5c604456196f82735f7e99ad42286 a schema:AggregateOffer;
   schema:startDate "2025-11-23T16:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/ed47d4dc-b0f5-41b4-9942-253f20b105fe.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42287;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72290;
   schema:duration "PT60M";
   schema:endDate "2025-11-23T17:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42287 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72290 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=33801>;
   schema:lowPrice "15.75";
   schema:priceCurrency "CAD" .
@@ -148,27 +178,14 @@ _:9ec39dc5c604456196f82735f7e99ad42287 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-22T11:45:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42288;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72291;
   schema:duration "PT60M";
   schema:endDate "2025-11-22T12:45:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42288 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72291 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=33601>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
-
-<https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
-  a schema:Place;
-  schema:name "Studio Bell";
-  schema:address <https://spektrix.com/nationalmusiccentre/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
-
-<https://spektrix.com/nationalmusiccentre/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
-  a schema:PostalAddress;
-  schema:streetAddress "850 4th Street SE";
-  schema:addressLocality "Calgary";
-  schema:addressRegion "AB";
-  schema:postalCode "T2G 0L8";
-  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/178801ACMMVBVTMNHHNCBBVQRVSTQVKVB>
   a schema:Event;
@@ -178,11 +195,11 @@ _:9ec39dc5c604456196f82735f7e99ad42288 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-06T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42289;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72292;
   schema:duration "PT60M";
   schema:endDate "2026-06-06T11:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42289 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72292 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=45801>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -196,11 +213,11 @@ _:9ec39dc5c604456196f82735f7e99ad42289 a schema:AggregateOffer;
   schema:startDate "2026-10-15T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/fa791eee-80b9-47ca-8054-8d7fa9ed5e0b.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42290;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72293;
   schema:duration "PT60M";
   schema:endDate "2026-10-15T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42290 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72293 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=49401>;
   schema:lowPrice "42.0";
   schema:priceCurrency "CAD" .
@@ -214,11 +231,11 @@ _:9ec39dc5c604456196f82735f7e99ad42290 a schema:AggregateOffer;
   schema:startDate "2026-10-16T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/fa791eee-80b9-47ca-8054-8d7fa9ed5e0b.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42291;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72294;
   schema:duration "PT60M";
   schema:endDate "2026-10-16T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42291 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72294 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=49401>;
   schema:lowPrice "42.0";
   schema:priceCurrency "CAD" .
@@ -232,11 +249,11 @@ _:9ec39dc5c604456196f82735f7e99ad42291 a schema:AggregateOffer;
   schema:startDate "2026-10-17T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/fa791eee-80b9-47ca-8054-8d7fa9ed5e0b.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42292;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72295;
   schema:duration "PT60M";
   schema:endDate "2026-10-17T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42292 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72295 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=49401>;
   schema:lowPrice "42.0";
   schema:priceCurrency "CAD" .
@@ -245,18 +262,18 @@ _:9ec39dc5c604456196f82735f7e99ad42292 a schema:AggregateOffer;
   a schema:Event;
   schema:name "Canada Bridges & NMC Present: AYE (A Youth Explosion)";
   schema:description """
-	A Youth Explosion (AYE) is an annual celebration of Indigenous youth and young adult voices, bringing community together through storytelling, culture, and creativity. Enjoy an evening of vendors, food, art, and inspiring performances, featuring the Alberta debut of recording artist LOV.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.google.com/maps/place/Studio+Bell,+home+of+the+National+Music+Centre/@51.0445506,-114.054786,17z/data=!3m1!4b1!4m5!3m4!1s0x53717aaa864fd43b:0x7609799479e4d20e!8m2!3d51.0445591!4d-114.0529828\">Studio Bell, 850 4 Street SE Calgary</a><span><br/></span><span><br/></span>Doors: 6:30 pm Showtime: 7:30 pm<span><br/></span><span><br/></span>General Admission: $10.00<span><br/></span><span><br/></span>NMC Members receive a 15% discount off tickets — just log into your NMC account and it’s applied automatically.
+	A Youth Explosion (AYE) is an annual celebration of Indigenous youth and young adult voices, bringing community together through storytelling, culture, and creativity. Enjoy an evening of vendors, food, art, and inspiring performances, featuring the Alberta debut of recording artist LOV.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.google.com/maps/place/Studio+Bell,+home+of+the+National+Music+Centre/@51.0445506,-114.054786,17z/data=!3m1!4b1!4m5!3m4!1s0x53717aaa864fd43b:0x7609799479e4d20e!8m2!3d51.0445591!4d-114.0529828\">Studio Bell, 850 4 Street SE Calgary</a><span><br/></span><span><br/></span>Doors: 5:30 pm Showtime: 6:30 pm<span><br/></span><span><br/></span>Tickets: $20 in advance or $25 at the door.<span><br/></span><span><br/></span>NMC Members receive a 15% discount off tickets — just log into your NMC account and it’s applied automatically.
 """;
-  schema:startDate "2026-11-20T19:30:00"^^xsd:dateTime;
+  schema:startDate "2026-11-20T18:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/aecf6b9a-8fdb-4d26-b2c8-135cf54b8ba9.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42293;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72296;
   schema:duration "PT60M";
-  schema:endDate "2026-11-20T20:30:00"^^xsd:dateTime .
+  schema:endDate "2026-11-20T19:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42293 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72296 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=52601>;
-  schema:lowPrice "10.0";
+  schema:lowPrice "20.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/114401AVDPMSVRKSDBRDNJTHRVTVCKGRR>
@@ -267,11 +284,11 @@ _:9ec39dc5c604456196f82735f7e99ad42293 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-21T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42294;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72297;
   schema:duration "PT60M";
   schema:endDate "2025-05-21T11:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42294 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72297 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=28601>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -284,11 +301,11 @@ _:9ec39dc5c604456196f82735f7e99ad42294 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-29T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42295;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72298;
   schema:duration "PT60M";
   schema:endDate "2026-03-29T14:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42295 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72298 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=39601>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -301,11 +318,11 @@ _:9ec39dc5c604456196f82735f7e99ad42295 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-21T12:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42296;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72299;
   schema:duration "PT60M";
   schema:endDate "2025-05-21T13:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42296 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72299 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=28201>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -319,11 +336,11 @@ _:9ec39dc5c604456196f82735f7e99ad42296 a schema:AggregateOffer;
   schema:startDate "2026-09-13T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/ae37d031-4178-4f6a-8a28-225866746d72.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42297;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72300;
   schema:duration "PT60M";
   schema:endDate "2026-09-13T21:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42297 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72300 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=49001>;
   schema:lowPrice "46.2";
   schema:priceCurrency "CAD" .
@@ -337,11 +354,11 @@ _:9ec39dc5c604456196f82735f7e99ad42297 a schema:AggregateOffer;
   schema:startDate "2026-09-10T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/5f6ec356-6112-4639-b3c3-35bec5af2edb.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42298;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72301;
   schema:duration "PT60M";
   schema:endDate "2026-09-10T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42298 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72301 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=43201>;
   schema:lowPrice "10.5";
   schema:priceCurrency "CAD" .
@@ -355,11 +372,11 @@ _:9ec39dc5c604456196f82735f7e99ad42298 a schema:AggregateOffer;
   schema:startDate "2025-10-04T08:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/bfb9d887-77bc-4f16-b6ad-6088a72f49e7.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42299;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72302;
   schema:duration "PT60M";
   schema:endDate "2025-10-04T09:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42299 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72302 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=31601>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -373,11 +390,11 @@ _:9ec39dc5c604456196f82735f7e99ad42299 a schema:AggregateOffer;
   schema:startDate "2025-10-05T13:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/8baf785c-300b-462d-a73a-473d19d6e300.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42300;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72303;
   schema:duration "PT60M";
   schema:endDate "2025-10-05T14:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42300 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72303 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=31801>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -391,11 +408,11 @@ _:9ec39dc5c604456196f82735f7e99ad42300 a schema:AggregateOffer;
   schema:startDate "2026-09-12T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/843d9acb-f60a-41d8-9de7-78c019afd840.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42301;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72304;
   schema:duration "PT60M";
   schema:endDate "2026-09-12T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42301 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72304 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42801>;
   schema:lowPrice "10.5";
   schema:priceCurrency "CAD" .
@@ -409,11 +426,11 @@ _:9ec39dc5c604456196f82735f7e99ad42301 a schema:AggregateOffer;
   schema:startDate "2026-04-12T11:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/f2262dc1-d8eb-4388-b08e-61bc8770f742.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42302;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72305;
   schema:duration "PT60M";
   schema:endDate "2026-04-12T12:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42302 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72305 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=40001>;
   schema:lowPrice "15.75";
   schema:priceCurrency "CAD" .
@@ -427,11 +444,11 @@ _:9ec39dc5c604456196f82735f7e99ad42302 a schema:AggregateOffer;
   schema:startDate "2026-05-09T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/739eec0e-658b-43fa-89a1-788ede57c306.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42303;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72306;
   schema:duration "PT60M";
   schema:endDate "2026-05-09T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42303 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72306 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=38201>;
   schema:lowPrice "41.0";
   schema:priceCurrency "CAD" .
@@ -444,11 +461,11 @@ _:9ec39dc5c604456196f82735f7e99ad42303 a schema:AggregateOffer;
 """;
   schema:startDate "2026-07-31T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42304;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72307;
   schema:duration "PT60M";
   schema:endDate "2026-07-31T11:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42304 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72307 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=41801>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -461,11 +478,11 @@ _:9ec39dc5c604456196f82735f7e99ad42304 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-21T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42305;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72308;
   schema:duration "PT60M";
   schema:endDate "2026-06-21T11:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42305 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72308 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=47201>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -479,11 +496,11 @@ _:9ec39dc5c604456196f82735f7e99ad42305 a schema:AggregateOffer;
   schema:startDate "2026-11-03T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/6423f660-ab06-49da-a1a3-ed764472461a.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42306;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72309;
   schema:duration "PT60M";
   schema:endDate "2026-11-03T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42306 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72309 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=50401>;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
@@ -497,11 +514,11 @@ _:9ec39dc5c604456196f82735f7e99ad42306 a schema:AggregateOffer;
   schema:startDate "2026-06-26T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/9feb7757-6ac7-40ab-a4b6-1ab7c06e3027.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42307;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72310;
   schema:duration "PT60M";
   schema:endDate "2026-06-26T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42307 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72310 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=41001>;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
@@ -514,11 +531,11 @@ _:9ec39dc5c604456196f82735f7e99ad42307 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-26T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42308;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72311;
   schema:duration "PT60M";
   schema:endDate "2025-06-26T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42308 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72311 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=27601>;
   schema:lowPrice "15.99";
   schema:priceCurrency "CAD" .
@@ -532,11 +549,11 @@ _:9ec39dc5c604456196f82735f7e99ad42308 a schema:AggregateOffer;
   schema:startDate "2026-03-15T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/1ea0c2df-ec79-41ad-8e94-e86e1f1a5dc4.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42309;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72312;
   schema:duration "PT60M";
   schema:endDate "2026-03-15T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42309 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72312 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=35001>;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
@@ -550,11 +567,11 @@ _:9ec39dc5c604456196f82735f7e99ad42309 a schema:AggregateOffer;
   schema:startDate "2026-06-27T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/c051018a-b384-40a2-b19f-a724818c328c.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42310;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72313;
   schema:duration "PT60M";
   schema:endDate "2026-06-27T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42310 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72313 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=41201>;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
@@ -567,11 +584,11 @@ _:9ec39dc5c604456196f82735f7e99ad42310 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-23T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42311;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72314;
   schema:duration "PT60M";
   schema:endDate "2025-06-23T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42311 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72314 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=27401>;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
@@ -585,11 +602,11 @@ _:9ec39dc5c604456196f82735f7e99ad42311 a schema:AggregateOffer;
   schema:startDate "2026-05-23T22:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/0329ff03-480a-426a-9ea6-c2a11358ebd6.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42312;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72315;
   schema:duration "PT60M";
   schema:endDate "2026-05-23T23:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42312 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72315 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=44201>;
   schema:lowPrice "45.0";
   schema:priceCurrency "CAD" .
@@ -603,11 +620,11 @@ _:9ec39dc5c604456196f82735f7e99ad42312 a schema:AggregateOffer;
   schema:startDate "2026-09-04T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/9b3d3a5b-557f-4960-8c76-7a37a8516bf1.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42313;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72316;
   schema:duration "PT60M";
   schema:endDate "2026-09-04T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42313 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72316 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=48601>;
   schema:lowPrice "63.0";
   schema:priceCurrency "CAD" .
@@ -620,11 +637,11 @@ _:9ec39dc5c604456196f82735f7e99ad42313 a schema:AggregateOffer;
 """;
   schema:startDate "2025-07-04T08:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42314;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72317;
   schema:duration "PT60M";
   schema:endDate "2025-07-04T09:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42314 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72317 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=29602>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -648,11 +665,11 @@ _:9ec39dc5c604456196f82735f7e99ad42314 a schema:AggregateOffer;
   schema:startDate "2026-04-08T17:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/c744fe05-1813-4f2e-bab3-7530c375d8f1.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42315;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72318;
   schema:duration "PT60M";
   schema:endDate "2026-04-08T18:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42315 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72318 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=40401>;
   schema:lowPrice "52.5";
   schema:priceCurrency "CAD" .
@@ -666,11 +683,11 @@ _:9ec39dc5c604456196f82735f7e99ad42315 a schema:AggregateOffer;
   schema:startDate "2026-04-09T17:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/c744fe05-1813-4f2e-bab3-7530c375d8f1.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42316;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72319;
   schema:duration "PT60M";
   schema:endDate "2026-04-09T18:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42316 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72319 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=40401>;
   schema:lowPrice "52.5";
   schema:priceCurrency "CAD" .
@@ -684,11 +701,11 @@ _:9ec39dc5c604456196f82735f7e99ad42316 a schema:AggregateOffer;
   schema:startDate "2026-08-22T16:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/03cbc953-a644-476c-9ad6-d2d6fa8c8a8d.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42317;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72320;
   schema:duration "PT60M";
   schema:endDate "2026-08-22T17:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42317 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72320 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=46201>;
   schema:lowPrice "60.0";
   schema:priceCurrency "CAD" .
@@ -702,11 +719,11 @@ _:9ec39dc5c604456196f82735f7e99ad42317 a schema:AggregateOffer;
   schema:startDate "2026-06-26T17:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/f16d3f11-efbe-4c70-b155-03ede3bf15cf.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42318;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72321;
   schema:duration "PT60M";
   schema:endDate "2026-06-26T18:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42318 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72321 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=41601>;
   schema:lowPrice "52.5";
   schema:priceCurrency "CAD" .
@@ -720,11 +737,11 @@ _:9ec39dc5c604456196f82735f7e99ad42318 a schema:AggregateOffer;
   schema:startDate "2026-06-07T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/d210f0f5-ce93-45bc-a945-015e8ea9be27.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42319;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72322;
   schema:duration "PT60M";
   schema:endDate "2026-06-07T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42319 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72322 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42201>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -738,11 +755,11 @@ _:9ec39dc5c604456196f82735f7e99ad42319 a schema:AggregateOffer;
   schema:startDate "2026-10-04T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/d210f0f5-ce93-45bc-a945-015e8ea9be27.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42320;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72323;
   schema:duration "PT60M";
   schema:endDate "2026-10-04T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42320 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72323 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42201>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -756,11 +773,11 @@ _:9ec39dc5c604456196f82735f7e99ad42320 a schema:AggregateOffer;
   schema:startDate "2027-02-07T15:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/d210f0f5-ce93-45bc-a945-015e8ea9be27.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42321;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72324;
   schema:duration "PT60M";
   schema:endDate "2027-02-07T16:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42321 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72324 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42201>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -774,11 +791,11 @@ _:9ec39dc5c604456196f82735f7e99ad42321 a schema:AggregateOffer;
   schema:startDate "2026-08-09T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/68e1ab36-202c-444e-a019-e6763e20c4fa.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42322;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72325;
   schema:duration "PT60M";
   schema:endDate "2026-08-09T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42322 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72325 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42601>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -792,11 +809,11 @@ _:9ec39dc5c604456196f82735f7e99ad42322 a schema:AggregateOffer;
   schema:startDate "2026-12-06T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/68e1ab36-202c-444e-a019-e6763e20c4fa.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42323;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72326;
   schema:duration "PT60M";
   schema:endDate "2026-12-06T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42323 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72326 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42601>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -810,11 +827,11 @@ _:9ec39dc5c604456196f82735f7e99ad42323 a schema:AggregateOffer;
   schema:startDate "2027-04-04T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/68e1ab36-202c-444e-a019-e6763e20c4fa.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42324;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72327;
   schema:duration "PT60M";
   schema:endDate "2027-04-04T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42324 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72327 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42601>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -828,11 +845,11 @@ _:9ec39dc5c604456196f82735f7e99ad42324 a schema:AggregateOffer;
   schema:startDate "2026-07-05T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/0dc718bc-cf53-4bad-8c31-7f1ac2a9ca8d.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42325;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72328;
   schema:duration "PT60M";
   schema:endDate "2026-07-05T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42325 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72328 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42401>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -846,11 +863,11 @@ _:9ec39dc5c604456196f82735f7e99ad42325 a schema:AggregateOffer;
   schema:startDate "2026-11-01T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/0dc718bc-cf53-4bad-8c31-7f1ac2a9ca8d.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42326;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72329;
   schema:duration "PT60M";
   schema:endDate "2026-11-01T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42326 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72329 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42401>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -864,11 +881,11 @@ _:9ec39dc5c604456196f82735f7e99ad42326 a schema:AggregateOffer;
   schema:startDate "2027-03-07T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/0dc718bc-cf53-4bad-8c31-7f1ac2a9ca8d.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42327;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72330;
   schema:duration "PT60M";
   schema:endDate "2027-03-07T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42327 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72330 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42401>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -882,11 +899,11 @@ _:9ec39dc5c604456196f82735f7e99ad42327 a schema:AggregateOffer;
   schema:startDate "2026-05-03T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/cac8ed46-791b-4264-a220-fe75333d2644.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42328;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72331;
   schema:duration "PT60M";
   schema:endDate "2026-05-03T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42328 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72331 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42001>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -900,11 +917,11 @@ _:9ec39dc5c604456196f82735f7e99ad42328 a schema:AggregateOffer;
   schema:startDate "2026-09-06T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/cac8ed46-791b-4264-a220-fe75333d2644.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42329;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72332;
   schema:duration "PT60M";
   schema:endDate "2026-09-06T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42329 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72332 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42001>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -918,11 +935,11 @@ _:9ec39dc5c604456196f82735f7e99ad42329 a schema:AggregateOffer;
   schema:startDate "2027-01-10T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/cac8ed46-791b-4264-a220-fe75333d2644.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42330;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72333;
   schema:duration "PT60M";
   schema:endDate "2027-01-10T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42330 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72333 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=42001>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -936,11 +953,11 @@ _:9ec39dc5c604456196f82735f7e99ad42330 a schema:AggregateOffer;
   schema:startDate "2026-09-26T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/11490808-03df-4363-bd95-4a562ae75ee6.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42331;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72334;
   schema:duration "PT60M";
   schema:endDate "2026-09-26T21:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42331 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72334 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=49601>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -954,11 +971,11 @@ _:9ec39dc5c604456196f82735f7e99ad42331 a schema:AggregateOffer;
   schema:startDate "2026-09-27T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/11490808-03df-4363-bd95-4a562ae75ee6.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42332;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72335;
   schema:duration "PT60M";
   schema:endDate "2026-09-27T21:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42332 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72335 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=49601>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -973,11 +990,11 @@ _:9ec39dc5c604456196f82735f7e99ad42332 a schema:AggregateOffer;
   schema:startDate "2026-07-23T15:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/2d25c71e-8467-41d4-acd0-a55ba30e53b9.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42333;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72336;
   schema:duration "PT60M";
   schema:endDate "2026-07-23T16:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42333 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72336 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=48201>;
   schema:lowPrice "52.5";
   schema:priceCurrency "CAD" .
@@ -990,11 +1007,11 @@ _:9ec39dc5c604456196f82735f7e99ad42333 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-07T12:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42334;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72337;
   schema:duration "PT60M";
   schema:endDate "2025-10-07T13:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42334 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72337 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=32601>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1007,11 +1024,11 @@ _:9ec39dc5c604456196f82735f7e99ad42334 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-16T12:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42335;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72338;
   schema:duration "PT60M";
   schema:endDate "2025-10-16T13:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42335 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72338 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=32601>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1024,11 +1041,11 @@ _:9ec39dc5c604456196f82735f7e99ad42335 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-21T12:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42336;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72339;
   schema:duration "PT60M";
   schema:endDate "2025-10-21T13:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42336 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72339 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=32601>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1041,11 +1058,11 @@ _:9ec39dc5c604456196f82735f7e99ad42336 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-30T12:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42337;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72340;
   schema:duration "PT60M";
   schema:endDate "2025-10-30T13:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42337 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72340 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=32601>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1058,11 +1075,11 @@ _:9ec39dc5c604456196f82735f7e99ad42337 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-26T12:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42338;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72341;
   schema:duration "PT60M";
   schema:endDate "2025-03-26T13:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42338 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72341 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=27001>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1075,11 +1092,11 @@ _:9ec39dc5c604456196f82735f7e99ad42338 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-26T13:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42339;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72342;
   schema:duration "PT60M";
   schema:endDate "2025-03-26T14:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42339 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72342 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=27001>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1092,11 +1109,11 @@ _:9ec39dc5c604456196f82735f7e99ad42339 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-26T14:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42340;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72343;
   schema:duration "PT60M";
   schema:endDate "2025-03-26T15:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42340 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72343 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=27001>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1109,11 +1126,11 @@ _:9ec39dc5c604456196f82735f7e99ad42340 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-26T15:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42341;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72344;
   schema:duration "PT60M";
   schema:endDate "2025-03-26T16:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42341 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72344 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=27001>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1127,11 +1144,11 @@ _:9ec39dc5c604456196f82735f7e99ad42341 a schema:AggregateOffer;
   schema:startDate "2026-03-01T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/2932b386-054b-4bfb-b54d-ae4893326139.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42342;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72345;
   schema:duration "PT60M";
   schema:endDate "2026-03-01T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42342 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72345 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=36001>;
   schema:lowPrice "36.75";
   schema:priceCurrency "CAD" .
@@ -1145,11 +1162,11 @@ _:9ec39dc5c604456196f82735f7e99ad42342 a schema:AggregateOffer;
   schema:startDate "2026-03-08T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/0fe74197-7b17-4b49-99d6-a39c6a34b24d.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42343;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72346;
   schema:duration "PT60M";
   schema:endDate "2026-03-08T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42343 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72346 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=36401>;
   schema:lowPrice "31.7";
   schema:priceCurrency "CAD" .
@@ -1163,11 +1180,11 @@ _:9ec39dc5c604456196f82735f7e99ad42343 a schema:AggregateOffer;
   schema:startDate "2026-08-22T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/81b63e3b-3da2-43dc-a7dc-807c971970c9.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42344;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72347;
   schema:duration "PT60M";
   schema:endDate "2026-08-22T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42344 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72347 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=44001>;
   schema:lowPrice "18.9";
   schema:priceCurrency "CAD" .
@@ -1180,11 +1197,11 @@ _:9ec39dc5c604456196f82735f7e99ad42344 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-27T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42345;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72348;
   schema:duration "PT60M";
   schema:endDate "2025-02-27T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42345 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72348 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=24001>;
   schema:lowPrice "51.45";
   schema:priceCurrency "CAD" .
@@ -1197,11 +1214,11 @@ _:9ec39dc5c604456196f82735f7e99ad42345 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-29T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42346;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72349;
   schema:duration "PT60M";
   schema:endDate "2025-03-29T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42346 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72349 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=26801>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -1215,11 +1232,11 @@ _:9ec39dc5c604456196f82735f7e99ad42346 a schema:AggregateOffer;
   schema:startDate "2025-09-19T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/36b46b91-a7fe-432c-8f13-17ca68847e59.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42347;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72350;
   schema:duration "PT60M";
   schema:endDate "2025-09-19T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42347 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72350 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=31001>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -1233,11 +1250,11 @@ _:9ec39dc5c604456196f82735f7e99ad42347 a schema:AggregateOffer;
   schema:startDate "2026-01-31T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/e3745e9a-f3f1-4b65-93ec-b312d1413548.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42348;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72351;
   schema:duration "PT60M";
   schema:endDate "2026-01-31T21:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42348 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72351 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=34801>;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
@@ -1250,11 +1267,11 @@ _:9ec39dc5c604456196f82735f7e99ad42348 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-28T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42349;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72352;
   schema:duration "PT60M";
   schema:endDate "2025-02-28T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42349 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72352 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=24801>;
   schema:lowPrice "36.75";
   schema:priceCurrency "CAD" .
@@ -1267,11 +1284,11 @@ _:9ec39dc5c604456196f82735f7e99ad42349 a schema:AggregateOffer;
 """;
   schema:startDate "2025-03-08T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42350;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72353;
   schema:duration "PT60M";
   schema:endDate "2025-03-08T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42350 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72353 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=25801>;
   schema:lowPrice "40.95";
   schema:priceCurrency "CAD" .
@@ -1285,11 +1302,11 @@ _:9ec39dc5c604456196f82735f7e99ad42350 a schema:AggregateOffer;
   schema:startDate "2026-04-25T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/47044fa8-79f0-46f6-a786-410ac6f78f86.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42351;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72354;
   schema:duration "PT60M";
   schema:endDate "2026-04-25T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42351 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72354 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=36601>;
   schema:lowPrice "57.75";
   schema:priceCurrency "CAD" .
@@ -1302,11 +1319,11 @@ _:9ec39dc5c604456196f82735f7e99ad42351 a schema:AggregateOffer;
 """;
   schema:startDate "2025-02-01T20:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42352;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72355;
   schema:duration "PT60M";
   schema:endDate "2025-02-01T21:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42352 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72355 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=24601>;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
@@ -1320,11 +1337,11 @@ _:9ec39dc5c604456196f82735f7e99ad42352 a schema:AggregateOffer;
   schema:startDate "2025-10-09T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/013ef951-cb03-40c6-a562-fee46fb558e3.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42353;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72356;
   schema:duration "PT60M";
   schema:endDate "2025-10-09T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42353 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72356 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=31401>;
   schema:lowPrice "79.8";
   schema:priceCurrency "CAD" .
@@ -1338,11 +1355,11 @@ _:9ec39dc5c604456196f82735f7e99ad42353 a schema:AggregateOffer;
   schema:startDate "2027-03-17T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/5c8ae5f8-2664-4470-93d5-eab2286b5b73.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42354;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72357;
   schema:duration "PT60M";
   schema:endDate "2027-03-17T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42354 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72357 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=52001>;
   schema:lowPrice "56.7";
   schema:priceCurrency "CAD" .
@@ -1356,11 +1373,11 @@ _:9ec39dc5c604456196f82735f7e99ad42354 a schema:AggregateOffer;
   schema:startDate "2026-02-14T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/31a995e0-6632-4edf-9a9b-5ca20ab80874.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42355;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72358;
   schema:duration "PT60M";
   schema:endDate "2026-02-14T21:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42355 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72358 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=35801>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -1374,11 +1391,11 @@ _:9ec39dc5c604456196f82735f7e99ad42355 a schema:AggregateOffer;
   schema:startDate "2025-08-15T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/9fadf8c9-258a-48cc-997d-122529c7a213.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42356;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72359;
   schema:duration "PT60M";
   schema:endDate "2025-08-15T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42356 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72359 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=30001>;
   schema:lowPrice "26.25";
   schema:priceCurrency "CAD" .
@@ -1391,14 +1408,27 @@ _:9ec39dc5c604456196f82735f7e99ad42356 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-14T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42357;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72360;
   schema:duration "PT60M";
   schema:endDate "2025-06-14T11:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42357 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72360 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=29401>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
+
+<https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
+  a schema:Place;
+  schema:name "Studio Bell";
+  schema:address <https://spektrix.com/nationalmusiccentre/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
+
+<https://spektrix.com/nationalmusiccentre/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
+  a schema:PostalAddress;
+  schema:streetAddress "850 4th Street SE";
+  schema:addressLocality "Calgary";
+  schema:addressRegion "AB";
+  schema:postalCode "T2G 0L8";
+  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/138001ATKKTGVSKVBTNJLDSBCPRMJRRJR>
   a schema:Event;
@@ -1409,11 +1439,11 @@ _:9ec39dc5c604456196f82735f7e99ad42357 a schema:AggregateOffer;
   schema:startDate "2025-11-23T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/79fb8ca4-03b6-45be-b8cb-693084a807d4.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42358;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72361;
   schema:duration "PT60M";
   schema:endDate "2025-11-23T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42358 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72361 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=31201>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -1439,11 +1469,11 @@ _:9ec39dc5c604456196f82735f7e99ad42358 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-20T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42359;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72362;
   schema:duration "PT190M";
   schema:endDate "2025-06-20T22:40:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42359 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72362 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=28801>;
   schema:lowPrice "51.45";
   schema:priceCurrency "CAD" .
@@ -1457,11 +1487,11 @@ _:9ec39dc5c604456196f82735f7e99ad42359 a schema:AggregateOffer;
   schema:startDate "2027-02-24T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/c5717f3c-a1b3-46c9-bad9-3f20a778bf69.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42360;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72363;
   schema:duration "PT60M";
   schema:endDate "2027-02-24T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42360 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72363 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=52201>;
   schema:lowPrice "68.25";
   schema:priceCurrency "CAD" .
@@ -1475,11 +1505,11 @@ _:9ec39dc5c604456196f82735f7e99ad42360 a schema:AggregateOffer;
   schema:startDate "2027-02-25T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/c5717f3c-a1b3-46c9-bad9-3f20a778bf69.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42361;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72364;
   schema:duration "PT60M";
   schema:endDate "2027-02-25T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42361 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72364 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=52201>;
   schema:lowPrice "68.25";
   schema:priceCurrency "CAD" .
@@ -1493,11 +1523,11 @@ _:9ec39dc5c604456196f82735f7e99ad42361 a schema:AggregateOffer;
   schema:startDate "2026-02-06T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/60913208-3d4f-4bbb-87be-e5f1bd688ba4.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42362;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72365;
   schema:duration "PT60M";
   schema:endDate "2026-02-06T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42362 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72365 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=35401>;
   schema:lowPrice "36.75";
   schema:priceCurrency "CAD" .
@@ -1511,11 +1541,11 @@ _:9ec39dc5c604456196f82735f7e99ad42362 a schema:AggregateOffer;
   schema:startDate "2026-06-28T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/b3687422-a625-43e7-9e38-1052a99266a8.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42363;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72366;
   schema:duration "PT60M";
   schema:endDate "2026-06-28T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42363 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72366 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=46401>;
   schema:lowPrice "51.45";
   schema:priceCurrency "CAD" .
@@ -1528,11 +1558,11 @@ _:9ec39dc5c604456196f82735f7e99ad42363 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-22T19:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42364;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72367;
   schema:duration "PT60M";
   schema:endDate "2025-06-22T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42364 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72367 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=29001>;
   schema:lowPrice "61.95";
   schema:priceCurrency "CAD" .
@@ -1546,11 +1576,11 @@ _:9ec39dc5c604456196f82735f7e99ad42364 a schema:AggregateOffer;
   schema:startDate "2026-09-30T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/f2442cd7-77b2-4538-8cd8-080d1f89ce00.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42365;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72368;
   schema:duration "PT60M";
   schema:endDate "2026-09-30T21:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42365 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72368 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=46801>;
   schema:lowPrice "68.25";
   schema:priceCurrency "CAD" .
@@ -1564,11 +1594,11 @@ _:9ec39dc5c604456196f82735f7e99ad42365 a schema:AggregateOffer;
   schema:startDate "2025-10-04T20:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/b2cb610f-5fcb-4aa9-9bb6-82b4cc4fed97.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42366;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72369;
   schema:duration "PT90M";
   schema:endDate "2025-10-04T21:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42366 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72369 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=32001>;
   schema:lowPrice "36.75";
   schema:priceCurrency "CAD" .
@@ -1582,11 +1612,11 @@ _:9ec39dc5c604456196f82735f7e99ad42366 a schema:AggregateOffer;
   schema:startDate "2026-10-18T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/84c1888b-b6da-46c7-80c6-f13fbbf148de.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42367;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72370;
   schema:duration "PT60M";
   schema:endDate "2026-10-18T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42367 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72370 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=39401>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -1600,27 +1630,14 @@ _:9ec39dc5c604456196f82735f7e99ad42367 a schema:AggregateOffer;
   schema:startDate "2026-03-14T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/0fe80bb9-02e0-433f-b118-3b8d690f8380.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42368;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72371;
   schema:duration "PT60M";
   schema:endDate "2026-03-14T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42368 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72371 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=34201>;
   schema:lowPrice "36.75";
   schema:priceCurrency "CAD" .
-
-<https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
-  a schema:Place;
-  schema:name "Studio Bell";
-  schema:address <https://spektrix.com/nationalmusiccentre/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
-
-<https://spektrix.com/nationalmusiccentre/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
-  a schema:PostalAddress;
-  schema:streetAddress "850 4th Street SE";
-  schema:addressLocality "Calgary";
-  schema:addressRegion "AB";
-  schema:postalCode "T2G 0L8";
-  schema:addressCountry "CA" .
 
 <http://www.spektrix.com/nationalmusiccentre/event/131001AKLPDKCKNJTRJJKCSJNQLPBJRQH>
   a schema:Event;
@@ -1631,11 +1648,11 @@ _:9ec39dc5c604456196f82735f7e99ad42368 a schema:AggregateOffer;
   schema:startDate "2025-10-25T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/a1edd8f2-75ce-4c84-8a8b-a8d7c28e8f94.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42369;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72372;
   schema:duration "PT60M";
   schema:endDate "2025-10-25T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42369 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72372 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=30201>;
   schema:lowPrice "52.5";
   schema:priceCurrency "CAD" .
@@ -1649,11 +1666,11 @@ _:9ec39dc5c604456196f82735f7e99ad42369 a schema:AggregateOffer;
   schema:startDate "2026-04-08T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/32d5b940-8487-4bab-9421-10e5417a0c07.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42370;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72373;
   schema:duration "PT60M";
   schema:endDate "2026-04-08T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42370 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72373 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=38401>;
   schema:lowPrice "89.25";
   schema:priceCurrency "CAD" .
@@ -1667,11 +1684,11 @@ _:9ec39dc5c604456196f82735f7e99ad42370 a schema:AggregateOffer;
   schema:startDate "2026-04-09T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/dc5a0e24-5a15-4eca-ba2c-98f5a1ec1148.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42371;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72374;
   schema:duration "PT60M";
   schema:endDate "2026-04-09T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42371 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72374 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=37401>;
   schema:lowPrice "89.25";
   schema:priceCurrency "CAD" .
@@ -1685,11 +1702,11 @@ _:9ec39dc5c604456196f82735f7e99ad42371 a schema:AggregateOffer;
   schema:startDate "2026-11-06T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/69a7782a-49a6-4966-acbc-1f86e225e4c3.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42372;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72375;
   schema:duration "PT60M";
   schema:endDate "2026-11-06T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42372 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72375 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=51401>;
   schema:lowPrice "51.45";
   schema:priceCurrency "CAD" .
@@ -1703,11 +1720,11 @@ _:9ec39dc5c604456196f82735f7e99ad42372 a schema:AggregateOffer;
   schema:startDate "2026-11-22T14:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/29ec36b7-612e-4cc3-b4de-b9829b4eb72f.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42373;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72376;
   schema:duration "PT60M";
   schema:endDate "2026-11-22T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42373 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72376 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=39201>;
   schema:lowPrice "78.75";
   schema:priceCurrency "CAD" .
@@ -1721,11 +1738,11 @@ _:9ec39dc5c604456196f82735f7e99ad42373 a schema:AggregateOffer;
   schema:startDate "2026-11-22T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/29ec36b7-612e-4cc3-b4de-b9829b4eb72f.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42374;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72377;
   schema:duration "PT60M";
   schema:endDate "2026-11-22T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42374 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72377 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=39201>;
   schema:lowPrice "78.75";
   schema:priceCurrency "CAD" .
@@ -1739,11 +1756,11 @@ _:9ec39dc5c604456196f82735f7e99ad42374 a schema:AggregateOffer;
   schema:startDate "2026-09-25T19:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/ec1fd94f-cf7c-48a8-a97a-6dfb7c3f3ad1.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42375;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72378;
   schema:duration "PT60M";
   schema:endDate "2026-09-25T20:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42375 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72378 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=49201>;
   schema:lowPrice "20.9";
   schema:priceCurrency "CAD" .
@@ -1757,11 +1774,11 @@ _:9ec39dc5c604456196f82735f7e99ad42375 a schema:AggregateOffer;
   schema:startDate "2026-03-13T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/0562d93d-0546-41aa-be91-bc6ba907a6ab.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42376;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72379;
   schema:duration "PT60M";
   schema:endDate "2026-03-13T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42376 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72379 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=36801>;
   schema:lowPrice "42.0";
   schema:priceCurrency "CAD" .
@@ -1775,11 +1792,11 @@ _:9ec39dc5c604456196f82735f7e99ad42376 a schema:AggregateOffer;
   schema:startDate "2025-09-17T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/3db8e91e-61b7-46c3-bd78-36f6f45da6b2.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42377;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72380;
   schema:duration "PT180M";
   schema:endDate "2025-09-17T22:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42377 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72380 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=30601>;
   schema:lowPrice "10.5";
   schema:priceCurrency "CAD" .
@@ -1806,11 +1823,11 @@ _:9ec39dc5c604456196f82735f7e99ad42377 a schema:AggregateOffer;
   schema:startDate "2026-09-17T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/79b18cbf-c19f-4e84-a43c-9e2522d8c82e.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/1201AQKTLDJVPVNVGVNTLHSSDPLSGRGBT>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42378;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72381;
   schema:duration "PT60M";
   schema:endDate "2026-09-17T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42378 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72381 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=50201>;
   schema:lowPrice "10.5";
   schema:priceCurrency "CAD" .
@@ -1824,11 +1841,11 @@ _:9ec39dc5c604456196f82735f7e99ad42378 a schema:AggregateOffer;
   schema:startDate "2026-11-14T10:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/9b39f8b6-0abe-412f-af44-4a178674ff6e.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42379;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72382;
   schema:duration "PT60M";
   schema:endDate "2026-11-14T11:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42379 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72382 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=51001>;
   schema:lowPrice "33.7";
   schema:priceCurrency "CAD" .
@@ -1841,11 +1858,11 @@ _:9ec39dc5c604456196f82735f7e99ad42379 a schema:AggregateOffer;
 """;
   schema:startDate "2026-06-19T18:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42380;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72383;
   schema:duration "PT60M";
   schema:endDate "2026-06-19T19:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42380 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72383 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=44601>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1859,11 +1876,11 @@ _:9ec39dc5c604456196f82735f7e99ad42380 a schema:AggregateOffer;
   schema:startDate "2025-11-23T12:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/e96abb26-b942-4c77-a93f-0c0d5d300713.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42381;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72384;
   schema:duration "PT60M";
   schema:endDate "2025-11-23T13:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42381 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72384 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=34001>;
   schema:lowPrice "10.5";
   schema:priceCurrency "CAD" .
@@ -1876,11 +1893,11 @@ _:9ec39dc5c604456196f82735f7e99ad42381 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-29T13:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42382;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72385;
   schema:duration "PT60M";
   schema:endDate "2026-03-29T14:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42382 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72385 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=40201>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1893,11 +1910,11 @@ _:9ec39dc5c604456196f82735f7e99ad42382 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-29T14:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42383;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72386;
   schema:duration "PT60M";
   schema:endDate "2026-03-29T15:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42383 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72386 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=40201>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1910,11 +1927,11 @@ _:9ec39dc5c604456196f82735f7e99ad42383 a schema:AggregateOffer;
 """;
   schema:startDate "2026-03-29T15:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42384;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72387;
   schema:duration "PT60M";
   schema:endDate "2026-03-29T16:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42384 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72387 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=40201>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -1928,11 +1945,11 @@ _:9ec39dc5c604456196f82735f7e99ad42384 a schema:AggregateOffer;
   schema:startDate "2026-09-11T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/2dce4dcd-0d88-4930-a5b9-c647dd773b07.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42385;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72388;
   schema:duration "PT60M";
   schema:endDate "2026-09-11T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42385 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72388 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=43001>;
   schema:lowPrice "10.5";
   schema:priceCurrency "CAD" .
@@ -1946,11 +1963,11 @@ _:9ec39dc5c604456196f82735f7e99ad42385 a schema:AggregateOffer;
   schema:startDate "2025-11-12T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/11830b1e-f9d8-43fa-81c2-64b48c360398.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42386;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72389;
   schema:duration "PT60M";
   schema:endDate "2025-11-12T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42386 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72389 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=32801>;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
@@ -1964,11 +1981,11 @@ _:9ec39dc5c604456196f82735f7e99ad42386 a schema:AggregateOffer;
   schema:startDate "2026-09-21T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/aff1124c-6d80-442d-bd71-b6203fada838.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42387;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72390;
   schema:duration "PT60M";
   schema:endDate "2026-09-21T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42387 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72390 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=47401>;
   schema:lowPrice "26.25";
   schema:priceCurrency "CAD" .
@@ -1982,11 +1999,11 @@ _:9ec39dc5c604456196f82735f7e99ad42387 a schema:AggregateOffer;
   schema:startDate "2026-06-20T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/62530579-1ead-4487-9a28-f006a84523a8.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42388;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72391;
   schema:duration "PT60M";
   schema:endDate "2026-06-20T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42388 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72391 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=43801>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2000,11 +2017,11 @@ _:9ec39dc5c604456196f82735f7e99ad42388 a schema:AggregateOffer;
   schema:startDate "2026-06-20T13:30:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/c8174ae9-5551-4f66-b4b5-2434fdf13a52.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42389;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72392;
   schema:duration "PT60M";
   schema:endDate "2026-06-20T14:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42389 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72392 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=43601>;
   schema:lowPrice "9.45";
   schema:priceCurrency "CAD" .
@@ -2018,11 +2035,11 @@ _:9ec39dc5c604456196f82735f7e99ad42389 a schema:AggregateOffer;
   schema:startDate "2026-06-19T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/8184a751-b020-48ce-8e4b-51c92da10b62.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42390;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72393;
   schema:duration "PT60M";
   schema:endDate "2026-06-19T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42390 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72393 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=40801>;
   schema:lowPrice "9.45";
   schema:priceCurrency "CAD" .
@@ -2036,11 +2053,11 @@ _:9ec39dc5c604456196f82735f7e99ad42390 a schema:AggregateOffer;
   schema:startDate "2026-11-08T13:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/191c1dc6-aab1-4468-acbe-2a29cd3b03e1.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42391;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72394;
   schema:duration "PT60M";
   schema:endDate "2026-11-08T14:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42391 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72394 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=50001>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2054,11 +2071,11 @@ _:9ec39dc5c604456196f82735f7e99ad42391 a schema:AggregateOffer;
   schema:startDate "2026-11-08T15:15:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/191c1dc6-aab1-4468-acbe-2a29cd3b03e1.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42392;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72395;
   schema:duration "PT60M";
   schema:endDate "2026-11-08T16:15:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42392 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72395 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=50001>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2072,11 +2089,11 @@ _:9ec39dc5c604456196f82735f7e99ad42392 a schema:AggregateOffer;
   schema:startDate "2026-08-30T11:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/bf9546b8-5f86-4ee7-8ac1-c0bcefe3d7ed.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42393;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72396;
   schema:duration "PT60M";
   schema:endDate "2026-08-30T12:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42393 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72396 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=47601>;
   schema:lowPrice "19.5";
   schema:priceCurrency "CAD" .
@@ -2090,11 +2107,11 @@ _:9ec39dc5c604456196f82735f7e99ad42393 a schema:AggregateOffer;
   schema:startDate "2026-06-28T11:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/80360088-b2e0-431b-932c-28ea6f73ef0a.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42394;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72397;
   schema:duration "PT60M";
   schema:endDate "2026-06-28T12:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42394 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72397 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=44401>;
   schema:lowPrice "19.5";
   schema:priceCurrency "CAD" .
@@ -2108,11 +2125,11 @@ _:9ec39dc5c604456196f82735f7e99ad42394 a schema:AggregateOffer;
   schema:startDate "2026-10-25T11:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/4c25dc9d-d70a-45da-b12b-3911ec433ed5.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42395;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72398;
   schema:duration "PT60M";
   schema:endDate "2026-10-25T12:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42395 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72398 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=48001>;
   schema:lowPrice "19.5";
   schema:priceCurrency "CAD" .
@@ -2126,11 +2143,11 @@ _:9ec39dc5c604456196f82735f7e99ad42395 a schema:AggregateOffer;
   schema:startDate "2026-05-31T11:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/bf12ad04-9201-49ca-9557-41b485c34cb4.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42396;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72399;
   schema:duration "PT60M";
   schema:endDate "2026-05-31T12:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42396 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72399 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=43401>;
   schema:lowPrice "19.5";
   schema:priceCurrency "CAD" .
@@ -2144,11 +2161,11 @@ _:9ec39dc5c604456196f82735f7e99ad42396 a schema:AggregateOffer;
   schema:startDate "2026-07-26T11:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/d824f409-b35d-4fec-8eb0-9fe2c80b7d3f.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42397;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72400;
   schema:duration "PT60M";
   schema:endDate "2026-07-26T12:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42397 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72400 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=45001>;
   schema:lowPrice "19.5";
   schema:priceCurrency "CAD" .
@@ -2162,11 +2179,11 @@ _:9ec39dc5c604456196f82735f7e99ad42397 a schema:AggregateOffer;
   schema:startDate "2026-11-14T11:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/4531bba5-ad47-40f9-bb54-c878827ec032.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42398;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72401;
   schema:duration "PT60M";
   schema:endDate "2026-11-14T12:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42398 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72401 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=51801>;
   schema:lowPrice "19.5";
   schema:priceCurrency "CAD" .
@@ -2180,11 +2197,11 @@ _:9ec39dc5c604456196f82735f7e99ad42398 a schema:AggregateOffer;
   schema:startDate "2026-09-27T11:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/70423efa-0d1a-4c3c-a401-68a493ff7bbd.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42399;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72402;
   schema:duration "PT60M";
   schema:endDate "2026-09-27T12:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42399 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72402 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=47801>;
   schema:lowPrice "19.5";
   schema:priceCurrency "CAD" .
@@ -2197,11 +2214,11 @@ _:9ec39dc5c604456196f82735f7e99ad42399 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-15T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42400;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72403;
   schema:duration "PT60M";
   schema:endDate "2025-05-15T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42400 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72403 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=25401>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2215,11 +2232,11 @@ _:9ec39dc5c604456196f82735f7e99ad42400 a schema:AggregateOffer;
   schema:startDate "2025-08-23T19:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/0d5c32ba-52fc-4729-baa5-715f7ef8f237.jpg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42401;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72404;
   schema:duration "PT60M";
   schema:endDate "2025-08-23T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42401 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72404 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=30401>;
   schema:lowPrice "63.0";
   schema:priceCurrency "CAD" .
@@ -2232,11 +2249,11 @@ _:9ec39dc5c604456196f82735f7e99ad42401 a schema:AggregateOffer;
 """;
   schema:startDate "2025-06-20T10:30:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42402;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72405;
   schema:duration "PT60M";
   schema:endDate "2025-06-20T11:30:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42402 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72405 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=29201>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2249,11 +2266,11 @@ _:9ec39dc5c604456196f82735f7e99ad42402 a schema:AggregateOffer;
 """;
   schema:startDate "2025-05-31T19:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42403;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72406;
   schema:duration "PT60M";
   schema:endDate "2025-05-31T20:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42403 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72406 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=27801>;
   schema:lowPrice "47.25";
   schema:priceCurrency "CAD" .
@@ -2266,11 +2283,11 @@ _:9ec39dc5c604456196f82735f7e99ad42403 a schema:AggregateOffer;
 """;
   schema:startDate "2025-11-06T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42404;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72407;
   schema:duration "PT60M";
   schema:endDate "2025-11-06T11:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42404 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72407 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=22001>;
   schema:lowPrice "25.0";
   schema:priceCurrency "CAD" .
@@ -2283,11 +2300,11 @@ _:9ec39dc5c604456196f82735f7e99ad42404 a schema:AggregateOffer;
 """;
   schema:startDate "2025-10-26T10:00:00"^^xsd:dateTime;
   schema:location <https://spektrix.com/nationalmusiccentre/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42405;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72408;
   schema:duration "PT60M";
   schema:endDate "2025-10-26T11:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42405 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72408 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=33201>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2301,11 +2318,11 @@ _:9ec39dc5c604456196f82735f7e99ad42405 a schema:AggregateOffer;
   schema:startDate "2026-03-28T13:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/11666ecc-245e-4ea8-a0f2-82d2416c059e.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42406;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72409;
   schema:duration "PT60M";
   schema:endDate "2026-03-28T14:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42406 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72409 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=39001>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
@@ -2319,11 +2336,11 @@ _:9ec39dc5c604456196f82735f7e99ad42406 a schema:AggregateOffer;
   schema:startDate "2026-03-14T13:00:00"^^xsd:dateTime;
   schema:image <https://system.spektrix.com/nationalmusiccentre/files/d3c6be6d-c170-4b0a-ab95-fb0bc0882270.jpeg>;
   schema:location <https://spektrix.com/nationalmusiccentre/location/201AGBHDRLQHNHPHKKMPKLGPMDRDTDMVL>;
-  schema:offers _:9ec39dc5c604456196f82735f7e99ad42407;
+  schema:offers _:1ffe682b6d774e17985871fde78009e72410;
   schema:duration "PT60M";
   schema:endDate "2026-03-14T14:00:00"^^xsd:dateTime .
 
-_:9ec39dc5c604456196f82735f7e99ad42407 a schema:AggregateOffer;
+_:1ffe682b6d774e17985871fde78009e72410 a schema:AggregateOffer;
   schema:url <https://purchase.nmc.ca/EventAvailability?EventId=38801>;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
