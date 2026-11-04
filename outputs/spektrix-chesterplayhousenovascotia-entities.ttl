@@ -1,0 +1,445 @@
+@base <http://example.com/base/> .
+@prefix event: <https://spektrix.com/event/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix place: <https://spektrix.com/place/> .
+@prefix address: <https://spektrix.com/postalAddress/> .
+@prefix organization: <https://spektrix.com/organization/> .
+@prefix performer: <https://spektrix.com/performer/> .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/33601ABMMCLRHCDGJGLSCVTKRJSMDCMSS>
+  a schema:Event;
+  schema:name "9 to 5";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/d4a616ba-e170-4b9c-89ab-ea199e25d0f7.jpg\" /><span><br/></span><h1> 9 to 5</h1><span><br/></span>Join us as we celebrate the incredible life and legacy of actor, musician, and philanthropist Dolly Parton with a special screening of the box-office smash hit <span class=\"ItalicText\">9 to 5</span>!<span><br/></span><span><br/></span>Jane Fonda, Lily Tomlin, and Dabney Coleman join Dolly in this hilarious office satire about three female secretaries who take matters into their own hands after enduring the tyranny and sexism of their chauvinistic boss. When they imagine a way to get revenge, their wild plan sets off a series of unforgettable events—and ultimately puts the women in charge of the business themselves.<span><br/></span><span><br/></span>A true classic, <span class=\"ItalicText\">9 to 5</span> is made even more memorable by Dolly Parton’s iconic title song, which earned her two Grammy Awards for Best Country Song and Best Country Vocal Performance Female, and received an Academy Award nomination for Best Original Song.<span><br/></span><span><br/></span>Come out to the Chester Playhouse on November 8th and experience this larger-than-life performer on the big screen one more time!<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=CGtFlLtgA78/\">Watch the Trailer!</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Sunday, November 8th at 2:00 pm<span><br/></span><span class=\"ItalicText\">1 hour and 50 minutes</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span>Adults -<span class=\"BoldText\">$17.00</span> ($12.28+ tax & $3 Building Reserve Fee)<span><br/></span>Youth (4-19) -<span class=\"BoldText\">$9</span>  ($5.26 + tax & $3 Building Reserve Fee) <span><br/></span>$10 Community Tickets use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Rating: PG<span><br/></span>Genre: Comedy<span><br/></span><span><br/></span>Admission includes complimentary popcorn.<span><br/></span><span><br/></span>General Admission<span><br/></span>Doors open 45 mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-11-08T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/d4a616ba-e170-4b9c-89ab-ea199e25d0f7.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd1;
+  schema:keywords "Movies";
+  schema:duration "PT110M";
+  schema:endDate "2026-11-08T15:50:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd1 a schema:AggregateOffer;
+  schema:lowPrice "6.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
+  a schema:Place;
+  schema:name "Chester Playhouse";
+  schema:address <https://spektrix.com/chesterplayhousenovascotia/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN> .
+
+<https://spektrix.com/chesterplayhousenovascotia/address/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>
+  a schema:PostalAddress;
+  schema:streetAddress "22 Pleasant St";
+  schema:addressLocality "Chester";
+  schema:postalCode "B0J 1J0";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/33801ASNTMSCGCRRHSPSCJNKGBMBPNMSP>
+  a schema:Event;
+  schema:name "A Christmas Story";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/babc3b1a-e141-4caf-9855-9a9092cdcaa1.jpg\" /><span><br/></span><h1>A Christmas Story</h1>a part of the Chester Village Christmas!<span><br/></span><span><br/></span>Join us in Chester for Chester Village Christmas and a big-screen showing of the holiday classic <span class=\"ItalicText\">A Christmas Story</span>! <span><br/></span><span><br/></span>Based on the humorous writings of author Jean Shepherd, this beloved holiday movie follows the wintry exploits of youngster Ralphie Parker (Peter Billingsley), who spends most of his time dodging a bully (Zack Ward) and dreaming of his ideal Christmas gift, a \"Red Ryder air rifle.\" Frequently at odds with his cranky dad (Darren McGavin) but comforted by his doting mother (Melinda Dillon), Ralphie struggles to make it to Christmas Day with his glasses and his hopes intact.<span><br/></span><span><br/></span>“<span class=\"ItalicText\">It's impossible to watch A Christmas Story and not remember what it felt like to be a kid during the holidays</span>.” - DVDJournal<span><br/></span><span><br/></span>“<span class=\"ItalicText\">A Christmas Story's message is aimed at children and at the child in all of us for whom the Spirit of Christmas is alive and well</span>.”  - Three Movie Buffs<span><br/></span><span><br/></span>With a special <span class=\"BoldText\">$5 ticket price</span> for everyone, there’s no better time to enjoy the magic of the holidays at Chester Playhouse!  Don’t delay—book your tickets today and get ready to celebrate the season with us!<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=EubdGeiZOcE\">Watch the Trailer!</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Sunday, November 29th at 2:00 pm<span><br/></span><span class=\"ItalicText\">1 hour and 33 minutes</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span>Alltix (4-19) -<span class=\"BoldText\">$5.00</span> ($1.75+ tax & $3 Building Reserve Fee)<span><br/></span><span><br/></span>Rating: PG<span><br/></span>Genre: Holiday, Family, Comedy<span><br/></span><span><br/></span>Admission includes complimentary popcorn.<span><br/></span><span><br/></span>General Admission<span><br/></span>Doors open 45 mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-11-29T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/babc3b1a-e141-4caf-9855-9a9092cdcaa1.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd2;
+  schema:keywords "Movies";
+  schema:duration "PT93M";
+  schema:endDate "2026-11-29T15:33:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd2 a schema:AggregateOffer;
+  schema:lowPrice "2.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/31401ACGSQBSNGJMMSMSJDBKPVTCCSKMC>
+  a schema:Event;
+  schema:name "By-FOLK-le: A Community Variety Show";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/b47adffd-0177-4425-b990-df3fb6ad2944.jpg\" /><span><br/></span><h1>By-FOLK-le!</h1><span><br/></span>Chester’s beloved community talent show, the <span class=\"BoldText\"><span class=\"ItalicText\">By-FOLK-le is BACK</span></span>!<span><br/></span><span><br/></span>Join your friends and neighbours, as they take the stage in a celebration of community talent! Songs, monologues, jokes, and surprises abound in this sometimes silly, sometimes stunning, always delightful evening of pre-holiday fun. <span><br/></span><span><br/></span>Featuring performances by <span class=\"BoldText\">Dark & Stormy</span>, and a bill of all-local talent including: <span><br/></span><span><br/></span><span class=\"BoldText\">Kyle O’Brien</span> - Singer/Songwriter<span><br/></span><span class=\"BoldText\">Zachary Miller</span> - Oldtimey Canadiana Swing with added Kazoo!<span><br/></span><span class=\"BoldText\">Sage</span> - Harmonious Singers<span><br/></span><span class=\"BoldText\">Erin Gore & Andrew Hamson</span> - Poetry with a twist<span><br/></span><span class=\"BoldText\">Katie Feltmate</span> - Singer/Songwriter<span><br/></span><span><br/></span>.... just to name a few, you won’t want to miss this chance to sing, dance, and celebrate the talent that lives in this wonderful community.<span><br/></span><span><br/></span>Hosting the show is improv comedy duo <span class=\"BoldText\">Colin and Joe</span>! Colin Dunphy and Joe Harfhouche are regulars around the Halifax comedy scene, and had a stellar show at the 2025 Halifax Fringe Festival. We’re so excited to have them bringing the laughs (and even some games) to By-FOLK-le!<span><br/></span><span><br/></span>We hope you’ll join us for an evening of wonderful surprises, as Chester takes the stage of its Playhouse! <span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Saturday, December 12th at 7:30 pm<span><br/></span><span class=\"ItalicText\">2x45 minute sets, plus intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span><span class=\"BoldText\">Pay What You Can</span> - suggested $25<span><br/></span><span><br/></span>Reserved Seating<span><br/></span>Doors open 45mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span>
+""";
+  schema:startDate "2026-12-12T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/b47adffd-0177-4425-b990-df3fb6ad2944.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd3;
+  schema:keywords "Variety";
+  schema:duration "PT90M";
+  schema:endDate "2026-12-12T21:00:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd3 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/31801ADDBNQLLLKJTNRHHPMNDDRKHTBJB>
+  a schema:Event;
+  schema:name "Cosi Fan Tutte (MET Opera)";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/78b28e5a-40d6-4ec0-aa27-b8b4eac1ff8b.jpg\" /><span><br/></span><h1>Cosi Fan Tutte</h1><h2>MET Opera Live in HD (Encore)</h2><span><br/></span>Our 2027-2027 MET Live in HD season kicks off with Mozart’s satirical comedy of fickle young love, <span class=\"ItalicText\">Cosi Fan Tutte</span>, one of the composer’s most sublime creations<span><br/></span><span><br/></span>Phelim McDermott’s “colorful, inventive” (The New York Times) staging, inspired by Coney Island in the 1950s, sets the uproarious story at a boardwalk amusement park, where the two pairs of lovers at the heart of the tale find themselves on one emotional—and literal—thrill ride after another.<span><br/></span><span><br/></span>Soprano Federica Lombardi and mezzo-soprano Samantha Hankey sing Fiordiligi and Dorabella, opposite tenor Duke Kim and baritone Andrey Zhilikhovsky as Ferrando and Guglielmo. Bass-baritone Gerald Finley stars as the cynical Don Alfonso, with soprano Ana María Martínez as the witty maid Despina. <span><br/></span><span><br/></span>The third and final collaboration between Mozart and librettist Lorenzo Da Ponte is a fascinating paradox: a frothy comedy of manners with an intensely dark take on human nature; an old story (it has antecedents in Boccaccio, Shakespeare, and Cervantes, among others) with a startlingly modern tone; and a beautiful score depicting questionable behavior. <span class=\"ItalicText\">Così Fan Tutte</span> was only moderately successful at its premiere and remained just outside the standard repertoire for more than a century. Così still poses unique challenges, and correspondingly unique rewards, for the public today. Every possible impression of love—from the loftiest to the basest—is explored in this extraordinary opera.<span><br/></span><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Sunday, November 1st at 2:00 pm<span><br/></span><span class=\"ItalicText\">3 hours and 35 minutes plus one intermissions</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span>Adults -<span class=\"BoldText\">$23.00</span> ($17.54+ tax & $3 Building Reserve Fee)<span><br/></span>Youth (under 20) -<span class=\"BoldText\">$11.50</span>  ($7.45 + tax & $3 Building Reserve Fee) <span><br/></span>$10 Community Tickets use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Genre: Opera<span><br/></span>Language: Sung in Italian with English subtitles<span><br/></span><span><br/></span>Admission includes complimentary popcorn.<span><br/></span><span><br/></span>General Admission<span><br/></span>Doors open 45 mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-11-01T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/78b28e5a-40d6-4ec0-aa27-b8b4eac1ff8b.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd4;
+  schema:keywords "Movies";
+  schema:duration "PT215M";
+  schema:endDate "2026-11-01T17:35:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd4 a schema:AggregateOffer;
+  schema:lowPrice "8.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/34401AVSCHHTDLGCSLVJRSQLBPTLHDKLB>
+  a schema:Event;
+  schema:name "In Conversation: Donna Morrissey (In Person)";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/d5a19351-660f-4b69-bfa8-f6bf2939d9e7.jpg\" /><span><br/></span><h1>In Conversation with Donna Morrissey</h1><span><br/></span>Join our host Liz Crocker as she sits down in conversation with award-winning author Donna Morrissey to discuss her newly released memoir <span class=\"ItalicText\">Tell It to the Water</span>.<span><br/></span><span><br/></span>Donna's memoir of her father's approaching death is a raucous hymn to family life--the ties that enthrall, enrage and bind you, if only in your heart, to the place that will always be home because it's where Mom and Dad set your wobbly feet on the ground.<span><br/></span><span><br/></span>Heartbreak meets rip-roaring humor as Donna and her siblings share stories of the dad they're about to lose--the Newfoundland version of a Greek chorus. You can practically smell the sea and feel the Ski-Doo  tearing through the woods, but this is a universal tale. If you've ever mourned a parent, especially one who drove you nuts, this fractured but defiantly devoted family is singing your song.<span><br/></span><span><br/></span>Among Donna’s writing honours are the Thomas Raddall Atlantic Fiction Award and the Arthur Ellis Award for Best Crime Fiction for <span class=\"ItalicText\">The Fortunate Brother</span>; <span class=\"ItalicText\">Sylvanus Now</span> was shortlisted for the Commonwealth Writers’ Prize; and <span class=\"ItalicText\">The Deception of Livvy Higgs</span> was a One Read pick for Nova Scotia in 2017. Her fiction has also won awards in the US and the UK, and has been translated into several languages. Born and raised in Newfoundland, she lives in Halifax.<span><br/></span><span><br/></span>We are thrilled to welcome Donna to the Chester Playhouse once again, and hope you can join us for what is bound to be a heartfelt, entertaining afternoon.<span><br/></span><span><br/></span>Copies of <span class=\"ItalicText\">Tell It to the Water</span> will be available for sale at the event courtesy of our friends Village Emporium.<span><br/></span><span><br/></span>Can’t join us in person? We are pleased to also offer this in conversation via Livestream. Purchase a <a target=\"_blank\" href=\"https://purchase.chesterplayhouse.ca/ChooseSeats/
+34601/\">livestream ticket</a>, and watch the event live, or for one week following the event!<span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Sunday, November 22nd at 2pm<span><br/></span><span class=\"ItalicText\">75 minutes, no intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span><span class=\"BoldText\">Adults</span> - <span class=\"BoldText\">$20.00</span>  ($14.92 + taxes & $3 Building Reserve Fee)<span><br/></span><span class=\"BoldText\">Youth (4-19)</span> - <span class=\"BoldText\">$10 </span> ($6.14 + taxes & $3 Building Reserve Fee) <span><br/></span><span><br/></span>General Admission Seating<span><br/></span>Doors open 45mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-11-22T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/d5a19351-660f-4b69-bfa8-f6bf2939d9e7.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd5;
+  schema:keywords "In-Conversation";
+  schema:duration "PT75M";
+  schema:endDate "2026-11-22T15:15:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd5 a schema:AggregateOffer;
+  schema:lowPrice "7.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/34601ALVSBJCTDPKVRHHHNJPRRSBQSGSH>
+  a schema:Event;
+  schema:name "In Conversation: Donna Morrissey (LIVESTREAM)";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/f693881a-e979-4bc5-85f7-d90cfc6a7de6.jpg\" /><span><br/></span><h1>In Conversation with Donna Morrissey</h1><h1>LIVESTREAM</h1><span><br/></span>Join our host Liz Crocker via LIVESTREAM as she sits down in conversation with award-winning author Donna Morrissey to discuss her newly released memoir <span class=\"ItalicText\">Tell It to the Water</span>.<span><br/></span><span><br/></span>Donna's memoir of her father's approaching death is a raucous hymn to family life--the ties that enthrall, enrage and bind you, if only in your heart, to the place that will always be home because it's where Mom and Dad set your wobbly feet on the ground.<span><br/></span><span><br/></span>Heartbreak meets rip-roaring humor as Donna and her siblings share stories of the dad they're about to lose--the Newfoundland version of a Greek chorus. You can practically smell the sea and feel the Ski-Doo  tearing through the woods, but this is a universal tale. If you've ever mourned a parent, especially one who drove you nuts, this fractured but defiantly devoted family is singing your song.<span><br/></span><span><br/></span>Among Donna’s writing honours are the Thomas Raddall Atlantic Fiction Award and the Arthur Ellis Award for Best Crime Fiction for <span class=\"ItalicText\">The Fortunate Brother</span>; <span class=\"ItalicText\">Sylvanus Now</span> was shortlisted for the Commonwealth Writers’ Prize; and <span class=\"ItalicText\">The Deception of Livvy Higgs</span> was a One Read pick for Nova Scotia in 2017. Her fiction has also won awards in the US and the UK, and has been translated into several languages. Born and raised in Newfoundland, she lives in Halifax.<span><br/></span><span><br/></span>We are thrilled to welcome Donna to the Chester Playhouse once again, and hope you can join us for what is bound to be a heartfelt, entertaining afternoon.<span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Sunday, November 22nd at 2pm<span><br/></span><span class=\"ItalicText\">75 minutes, no intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span><span class=\"BoldText\">Alltix</span> - <span class=\"BoldText\">$15.00</span>  ($10.53 + taxes & $3 Building Reserve Fee)<span><br/></span><span><br/></span>*You will receive your link to the Livestream via YouTube in your ticket purchase confirmation email.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-11-22T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/f693881a-e979-4bc5-85f7-d90cfc6a7de6.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd6;
+  schema:keywords "In-Conversation";
+  schema:duration "PT75M";
+  schema:endDate "2026-11-22T15:15:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd6 a schema:AggregateOffer;
+  schema:lowPrice "12.0";
+  schema:priceCurrency "CAD" .
+
+<https://spektrix.com/chesterplayhousenovascotia/location/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>
+  a schema:Place;
+  schema:name "Live Stream";
+  schema:address <https://spektrix.com/chesterplayhousenovascotia/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR> .
+
+<https://spektrix.com/chesterplayhousenovascotia/address/801ARDQDDMGGJKKRTNTJBMCCMMBCPQKCR>
+  a schema:PostalAddress;
+  schema:streetAddress "Please follow link in confirmation email for access";
+  schema:addressCountry "CA" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/26601APLTNSPSGDPBRQVGGSRDMVBVVNQK>
+  a schema:Event;
+  schema:name "James Mullinger";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/682c4c09-6dad-47bb-ab99-d2435835f1f9.jpg\" /><span><br/></span><h1>James Mullinger</h1><h2>Canadian Comedian</h2><span><br/></span>A Chester favourite stand up comedian, <span class=\"BoldText\">James Mullinger</span> returns for hilarious observations on Maritime life.<span><br/></span><span><br/></span>Award-winning comedian James Mullinger is embarking on his biggest cross-Canada tour yet with his brand new stand-up show Canadian Comedian - a hilarious and heartfelt love letter to his adopted home.<span><br/></span><span><br/></span>Having moved from London, England to New Brunswick, Canada over a decade ago, James has become one of Canada’s most celebrated comedians, selling out arenas and theatres across the country. Canadian Comedian explores everything James adores about Canada - small-town life in the Maritimes, the kindness of Canadians, and the quirks that make this the greatest country in the world. <span><br/></span><span><br/></span>The show also sees James at his most personal, sharing stories about parenting, being diagnosed with ADHD later in life, his citizenship ceremony, and finding joy (and comedy) in the chaos of everyday life and what it means to be a Canadian by choice.<span><br/></span><span><br/></span>This is James’ first show in Chester for two years and he can’t wait to return! Book now - he always sells out fast! <span><br/></span><span><br/></span>“<span class=\"ItalicText\">Comedian James Mullinger has the audience laughing uproariously</span>.” - The Globe & Mail<span><br/></span><span><br/></span>“<span class=\"ItalicText\">Unmissable</span>.” -GQ Magazine<span><br/></span><span><br/></span>“<span class=\"ItalicText\">A great stand up</span>.” -Jimmy Carr<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://youtu.be/4UfglK-YnUk?si=o5JvqgBhGTCdVxTG\">Discover James Mullinger!</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Saturday, November 7th at 7:30 pm<span><br/></span><span class=\"ItalicText\">75 minutes, no intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span><span class=\"BoldText\">Adults</span> - <span class=\"BoldText\">$42.00</span>  ($42.99 + taxes & $3 Building Reserve Fee)<span><br/></span><span class=\"BoldText\">Youth (4-19)</span> - <span class=\"BoldText\">$26.00 </span> ($20.18 + taxes & $3 Building Reserve Fee) <span><br/></span><span class=\"BoldText\">$10 Community Tickets</span> use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Reserved Seating<span><br/></span>Doors open 45mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-11-07T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/682c4c09-6dad-47bb-ab99-d2435835f1f9.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd7;
+  schema:keywords "Comedy";
+  schema:duration "PT75M";
+  schema:endDate "2026-11-07T20:45:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd7 a schema:AggregateOffer;
+  schema:lowPrice "23.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/32201AJKCHKSVHJRMVGRPSJQJNPNNBBBQ>
+  a schema:Event;
+  schema:name "La Fanciulla del West";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/a3e071a3-febd-44f9-8a51-af9641c615f3.jpg\" /><span><br/></span><h1>La Fanciulla del West</h1><h2>MET Opera Live in HD (Encore)</h2><span><br/></span>Puccini’s exhilarating drama of the Wild West returns in a new staging by celebrated British director Richard Jones, marking the company’s first new production of <span class=\"ItalicText\">La Fanciulla del West</span> in more than 30 years.<span><br/></span><span><br/></span>Soprano Vida Miknevičiūtė makes an important Met debut as the larger-than-life Minnie, the tough tavern owner with a heart of gold who finds love when she least expects it. Tenor SeokJong Baek is the dashing bandit who rambles into the remote California mining town to steal her heart, opposite baritone Christopher Maltman as the lawman determined to deliver rough justice—and win Minnie for himself. Maestro Keri-Lynn Wilson takes the podium to conduct one of opera’s most action-packed adventures. <span><br/></span><span><br/></span>World premiere: Metropolitan Opera, New York, 1910. Puccini’s “American” opera, based on David Belasco’s play <span class=\"ItalicText\">The Girl of the Golden West</span>, had its glamorous and highly publicized world premiere at the Metropolitan Opera, with the composer in the audience. The drama is set during the California Gold Rush, and the girl of the title is one of Puccini’s most appealing heroines—a strong, independent woman determined to win the man she loves. Although it fell out of favor with audiences for a few decades following its original success, <span class=\"ItalicText\">Fanciulla</span> has rebounded in popularity in recent years and is now counted among Puccini’s best works.<span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Sunday, March 21st at 2:00 pm<span><br/></span><span class=\"ItalicText\">3 hours plus one intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span>Adults -<span class=\"BoldText\">$23.00</span> ($17.54+ tax & $3 Building Reserve Fee)<span><br/></span>Youth (under 20) -<span class=\"BoldText\">$11.50</span>  ($7.45 + tax & $3 Building Reserve Fee) <span><br/></span>$10 Community Tickets use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Genre: Opera<span><br/></span>Language: Sung in Italian with English subtitles<span><br/></span><span><br/></span>Admission includes complimentary popcorn.<span><br/></span><span><br/></span>General Admission<span><br/></span>Doors open 45 mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span>
+""";
+  schema:startDate "2027-03-21T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/a3e071a3-febd-44f9-8a51-af9641c615f3.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd8;
+  schema:keywords "Movies";
+  schema:duration "PT180M";
+  schema:endDate "2027-03-21T17:00:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd8 a schema:AggregateOffer;
+  schema:lowPrice "8.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/26801APBDSSBSQMVTPLPRDJQMMKCLMHMP>
+  a schema:Event;
+  schema:name "Lennie Gallant: The Innkeeper's Christmas 2026";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/aad431e8-4cc2-43b8-a1e5-52f01e482d56.jpg\" /><span><br/></span><h1>Lennie Gallant:</h1><h1>The Innkeeper's Christmas 2026</h1><span><br/></span><span class=\"BoldText\">Lennie Gallant</span>, Chester's favourite folk musician, makes a triumphant 2-show return to the Playhouse with his beloved Christmas concert, <span class=\"ItalicText\">The Innkeeper’s Christmas</span>.<span><br/></span><span><br/></span>Celebrate the season in style with Lennie and his exceptional band as they bring their beloved Christmas concert to the stage! This festive fan favourite blends original holiday songs, heartfelt storytelling, and stunning large-screen visuals for a truly immersive experience. As well as songs from his highly acclaimed original Christmas album, this year’s show will include new compositions and some fabulous new arrangements to some Yuletide favourites! Lennie and his band are spreading cheer with standout tracks like the stellar “Christmas Day on Planet Earth”, a song already finding its place among modern holiday classics. There are also fun numbers like “I’m Gonna Have a Merry Christmas Even If It Kills Me”, “Love Reigns on Christmas Day”, and of course, the iconic show title number, “The Innkeeper”.<span><br/></span><span><br/></span>After several years of sold-out shows across Eastern Canada, this year’s expanded multimedia production promises to be the most magical yet. Joining Lennie are an allstar lineup: Acadian standout Patricia Richard, virtuoso pianist Julien Robichaud, and gifted violinist Marie-Andrée Gaudet. Together, they’ve been dazzling audiences all year—now they’re ready to fill your holiday with warmth, wonder, laughter, and unforgettable music. <span><br/></span><span><br/></span>Bring your Christmas spirit...and get ready to fall in love with the season all over again.<span><br/></span><span><br/></span>Presented with generous support from <a target=\"_blank\" href=\"https://www.spda.ca/\">SP Dumaresq Architect Limited</a><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=3T3gXfW2sfM&amp;t=8s\">Discover The Innkeepers Christmas</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Wednesday, December 16th at 7:30 pm -<span class=\"BoldText\">SOLD OUT</span><span><br/></span>Thursday, December 17th at 7:30 pm -<span class=\"BoldText\">SOLD OUT</span><span><br/></span><span class=\"ItalicText\">2x45 minute sets, plus intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span><span class=\"BoldText\">Adults</span> - <span class=\"BoldText\">$65.00</span>  ($54.39 + taxes & $3 Building Reserve Fee)<span><br/></span><span class=\"BoldText\">Youth (4-19)</span> - <span class=\"BoldText\">$32.50 </span> ($25.88 + taxes & $3 Building Reserve Fee) <span><br/></span><span class=\"BoldText\">$10 Community Tickets</span> use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Reserved Seating<span><br/></span>Doors open 45mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-12-16T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/aad431e8-4cc2-43b8-a1e5-52f01e482d56.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd9;
+  schema:keywords "Music";
+  schema:duration "PT90M";
+  schema:endDate "2026-12-16T21:00:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd9 a schema:AggregateOffer;
+  schema:lowPrice "29.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/26802ALHDCBRNTBMPBSSHMRRDMHVJNVVQ>
+  a schema:Event;
+  schema:name "Lennie Gallant: The Innkeeper's Christmas 2026";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/aad431e8-4cc2-43b8-a1e5-52f01e482d56.jpg\" /><span><br/></span><h1>Lennie Gallant:</h1><h1>The Innkeeper's Christmas 2026</h1><span><br/></span><span class=\"BoldText\">Lennie Gallant</span>, Chester's favourite folk musician, makes a triumphant 2-show return to the Playhouse with his beloved Christmas concert, <span class=\"ItalicText\">The Innkeeper’s Christmas</span>.<span><br/></span><span><br/></span>Celebrate the season in style with Lennie and his exceptional band as they bring their beloved Christmas concert to the stage! This festive fan favourite blends original holiday songs, heartfelt storytelling, and stunning large-screen visuals for a truly immersive experience. As well as songs from his highly acclaimed original Christmas album, this year’s show will include new compositions and some fabulous new arrangements to some Yuletide favourites! Lennie and his band are spreading cheer with standout tracks like the stellar “Christmas Day on Planet Earth”, a song already finding its place among modern holiday classics. There are also fun numbers like “I’m Gonna Have a Merry Christmas Even If It Kills Me”, “Love Reigns on Christmas Day”, and of course, the iconic show title number, “The Innkeeper”.<span><br/></span><span><br/></span>After several years of sold-out shows across Eastern Canada, this year’s expanded multimedia production promises to be the most magical yet. Joining Lennie are an allstar lineup: Acadian standout Patricia Richard, virtuoso pianist Julien Robichaud, and gifted violinist Marie-Andrée Gaudet. Together, they’ve been dazzling audiences all year—now they’re ready to fill your holiday with warmth, wonder, laughter, and unforgettable music. <span><br/></span><span><br/></span>Bring your Christmas spirit...and get ready to fall in love with the season all over again.<span><br/></span><span><br/></span>Presented with generous support from <a target=\"_blank\" href=\"https://www.spda.ca/\">SP Dumaresq Architect Limited</a><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=3T3gXfW2sfM&amp;t=8s\">Discover The Innkeepers Christmas</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Wednesday, December 16th at 7:30 pm -<span class=\"BoldText\">SOLD OUT</span><span><br/></span>Thursday, December 17th at 7:30 pm -<span class=\"BoldText\">SOLD OUT</span><span><br/></span><span class=\"ItalicText\">2x45 minute sets, plus intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span><span class=\"BoldText\">Adults</span> - <span class=\"BoldText\">$65.00</span>  ($54.39 + taxes & $3 Building Reserve Fee)<span><br/></span><span class=\"BoldText\">Youth (4-19)</span> - <span class=\"BoldText\">$32.50 </span> ($25.88 + taxes & $3 Building Reserve Fee) <span><br/></span><span class=\"BoldText\">$10 Community Tickets</span> use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Reserved Seating<span><br/></span>Doors open 45mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-12-17T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/aad431e8-4cc2-43b8-a1e5-52f01e482d56.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd10;
+  schema:keywords "Music";
+  schema:duration "PT90M";
+  schema:endDate "2026-12-17T21:00:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd10 a schema:AggregateOffer;
+  schema:lowPrice "29.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/32801AVMKCMLRNPSSSQQTHRKHHMLJSPPT>
+  a schema:Event;
+  schema:name "Matt Andersen";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/4935178c-fd1b-4359-bf21-472aed3ee7c4.jpg\" /><span><br/></span><h1>Matt Andersen</h1><h2>Making Spirits Bright</h2><span><br/></span>Celebrate the holiday season with one of Atlantic Canada’s brightest stars, <span class=\"BoldText\">Matt Andersen</span>.<span><br/></span><span><br/></span>When Matt Andersen steps on stage, he brings a lifetime of music to every note he plays. His latest album, <span class=\"ItalicText\">The Hammer & The Rose</span>, is a veritable garden of heart; a (mostly) delicate collection of tender folk and stirring soul numbers that find the New Brunswick-born songwriter thoughtfully tending to the most important things in life. <span><br/></span><span><br/></span>Andersen’s stage presence is informed by decades of cutting his teeth in dusty clubs, dim-lit bars, and grand theatres all over the world, delivering moving performances that run the gamut from intimate to wallshaking. In the studio, he’s always brought the same attention to detail and commitment to craft as he has to his live show, and the result - a multi-faceted and poignant body of work - has led him to amass over 33 million streams on Spotify and 30 million views on YouTube. <span><br/></span><span><br/></span>In addition to headlining major festivals, clubs and theatres throughout North America, Europe, and Australia, he has shared the stage and toured with Marcus King, Beth Hart, Marty Stuart, Greg Allman, Tedeschi Trucks Band, Randy Bachman, Serena Ryder, Tab Benoit, and more. Andersen nabbed the 2013 and 2016 European Blues Awards for Best Solo/Acoustic Act, was the first ever Canadian to take home top honours in the solo category at the 2010 International Blues Challenge in Memphis, won the CIMA Road Gold award in 2015, and has won multiple Maple Blues Awards. Matt Andersen & The Big Bottle of Joy was nominated for a Juno Award in 2024.<span><br/></span><span><br/></span>For two nights in December, join us as Matt Andersen brings the sound of the season to the Chester Playhouse stage with a collection of holiday favourites, sprinkled with a dusting of incredible original pieces.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://youtu.be/slvO9GqcSno/\">Discover Matt Andersen!</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Wednesday, December 2nd at 7:30 pm -<span class=\"BoldText\">SOLD OUT</span><span><br/></span>Thursday, December 3rd at 7:30  pm<span><br/></span><span class=\"ItalicText\">2x45 minute sets, plus intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span><span class=\"BoldText\">Adults</span> - <span class=\"BoldText\">$65.00</span>  ($54.39 + taxes & $3 Building Reserve Fee)<span><br/></span><span class=\"BoldText\">Youth (4-19)</span> - <span class=\"BoldText\">$32.50 </span> ($25.88 + taxes & $3 Building Reserve Fee) <span><br/></span><span class=\"BoldText\">$10 Community Tickets</span> use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Reserved Seating<span><br/></span>Doors open 45mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-12-02T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/4935178c-fd1b-4359-bf21-472aed3ee7c4.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd11;
+  schema:keywords "Music";
+  schema:duration "PT90M";
+  schema:endDate "2026-12-02T21:00:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd11 a schema:AggregateOffer;
+  schema:lowPrice "29.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/32802ASLRTPHCRCTJBVDQVMPRCSTPQMRS>
+  a schema:Event;
+  schema:name "Matt Andersen";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/4935178c-fd1b-4359-bf21-472aed3ee7c4.jpg\" /><span><br/></span><h1>Matt Andersen</h1><h2>Making Spirits Bright</h2><span><br/></span>Celebrate the holiday season with one of Atlantic Canada’s brightest stars, <span class=\"BoldText\">Matt Andersen</span>.<span><br/></span><span><br/></span>When Matt Andersen steps on stage, he brings a lifetime of music to every note he plays. His latest album, <span class=\"ItalicText\">The Hammer & The Rose</span>, is a veritable garden of heart; a (mostly) delicate collection of tender folk and stirring soul numbers that find the New Brunswick-born songwriter thoughtfully tending to the most important things in life. <span><br/></span><span><br/></span>Andersen’s stage presence is informed by decades of cutting his teeth in dusty clubs, dim-lit bars, and grand theatres all over the world, delivering moving performances that run the gamut from intimate to wallshaking. In the studio, he’s always brought the same attention to detail and commitment to craft as he has to his live show, and the result - a multi-faceted and poignant body of work - has led him to amass over 33 million streams on Spotify and 30 million views on YouTube. <span><br/></span><span><br/></span>In addition to headlining major festivals, clubs and theatres throughout North America, Europe, and Australia, he has shared the stage and toured with Marcus King, Beth Hart, Marty Stuart, Greg Allman, Tedeschi Trucks Band, Randy Bachman, Serena Ryder, Tab Benoit, and more. Andersen nabbed the 2013 and 2016 European Blues Awards for Best Solo/Acoustic Act, was the first ever Canadian to take home top honours in the solo category at the 2010 International Blues Challenge in Memphis, won the CIMA Road Gold award in 2015, and has won multiple Maple Blues Awards. Matt Andersen & The Big Bottle of Joy was nominated for a Juno Award in 2024.<span><br/></span><span><br/></span>For two nights in December, join us as Matt Andersen brings the sound of the season to the Chester Playhouse stage with a collection of holiday favourites, sprinkled with a dusting of incredible original pieces.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://youtu.be/slvO9GqcSno/\">Discover Matt Andersen!</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Wednesday, December 2nd at 7:30 pm -<span class=\"BoldText\">SOLD OUT</span><span><br/></span>Thursday, December 3rd at 7:30  pm<span><br/></span><span class=\"ItalicText\">2x45 minute sets, plus intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span><span class=\"BoldText\">Adults</span> - <span class=\"BoldText\">$65.00</span>  ($54.39 + taxes & $3 Building Reserve Fee)<span><br/></span><span class=\"BoldText\">Youth (4-19)</span> - <span class=\"BoldText\">$32.50 </span> ($25.88 + taxes & $3 Building Reserve Fee) <span><br/></span><span class=\"BoldText\">$10 Community Tickets</span> use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Reserved Seating<span><br/></span>Doors open 45mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-12-03T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/4935178c-fd1b-4359-bf21-472aed3ee7c4.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd12;
+  schema:keywords "Music";
+  schema:duration "PT90M";
+  schema:endDate "2026-12-03T21:00:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd12 a schema:AggregateOffer;
+  schema:lowPrice "29.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/29801AKHGBCBQNDCCBHCDGNPLGJBDMJSD>
+  a schema:Event;
+  schema:name "On This Winter's Night ";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/0657cfce-d3b6-420e-ac1f-b2e6dcf83d62.jpg\" /><span><br/></span><h1>Tara MacLean and The Bayfield String Quartet</h1><span><br/></span>Curl up for <span class=\"ItalicText\">On This Winter’s Night</span>, a cozy and elegant evening of glistening winter music and storytelling with one of Canada’s foremost award-winning vocalists and best selling author, Tara MacLean. <span><br/></span><span><br/></span>Joined by the Bayfield String Quartet, Tara will share a luminous blend of classic, contemporary, and original songs, curating an unforgettable night. Through song and story, <span class=\"ItalicText\">On This Winter’s Night</span> will wrap the audience in the magic of the season — weaving warmth, wonder, and holiday spirit into every heart.<span><br/></span><span><br/></span>About Tara MacLean:<span><br/></span><span><br/></span>Canadian singer/songwriter Tara MacLean has been an internationally renowned and award winning recording and touring artist for over 25 years. She released her first album with the Nettwerk Music Group in 1996 and Sony Music Publishing Canada. Since then has been signed with Capitol Records, and EMI Canada with her JUNO nominated band Shaye. She has written and recorded seven solo albums and two with the band.<span><br/></span><span><br/></span>Tara won the Contemporary Roots Recording of the Year award at the 2025 Music PEI awards for her <span class=\"ItalicText\">Live in My Hometown</span> EP. In 2024, she received three nominations for her album <span class=\"ItalicText\">Sparrow</span> at the East Coast Music Awards, and took home the award for Single of the Year at the MPEI Awards. Last year, Tara received the Stompin' Tom award by the East Coast Music Association, marking an outstanding contribution to music in the region.<span><br/></span><span><br/></span>About the Bayfield String Quartet:<span><br/></span><span><br/></span>The Bayfield String Quartet, known for their vibrant and engaging performances, is a dynamic ensemble that brings a fresh perspective to the string quartet tradition. Comprising four exceptional musicians—Karen Graves (violin), Kinley Dowling (violin), Jeffrey Bazett-Jones (viola), and Natalie Williams Calhoun (cello)—the quartet has quickly established itself in Charlottetown as one of the most compelling ensembles on the local chamber music scene. <span><br/></span><span><br/></span><a target=\"_blank\" href=\"http://youtube.com/watch?v=jyO5HxhAbGg&amp;feature=youtu.be/\">Watch the Trailer!</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Saturday, November 28th at 7:30 pm<span><br/></span><span class=\"ItalicText\">2x45 minute sets, plus intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span><span class=\"BoldText\">Adults</span> - <span class=\"BoldText\">$55.00</span>  ($45.62 + taxes & $3 Building Reserve Fee)<span><br/></span><span class=\"BoldText\">Youth (4-19)</span> - <span class=\"BoldText\">$27.50 </span> ($21.50 + taxes & $3 Building Reserve Fee) <span><br/></span><span class=\"BoldText\">$10 Community Tickets</span> use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Reserved Seating<span><br/></span>Doors open 45mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span>
+""";
+  schema:startDate "2026-11-28T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/0657cfce-d3b6-420e-ac1f-b2e6dcf83d62.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd13;
+  schema:keywords "Music";
+  schema:duration "PT90M";
+  schema:endDate "2026-11-28T21:00:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd13 a schema:AggregateOffer;
+  schema:lowPrice "24.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/32601AKDCCCPHNNLLKVMKNDNHMQKCVBKT>
+  a schema:Event;
+  schema:name "Otello (MET Opera)";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/71bb190b-ce4b-4927-b1d6-9c7259f38511.jpg\" /><span><br/></span><h1>Otello</h1><h2>MET Opera Live in HD (Encore)</h2><span><br/></span>Our 2026-2027 MET Live in HD season comes to an glorious end with <span class=\"ItalicText\">Otello</span>.<span><br/></span><span><br/></span>Two of today’s leading dramatic tenors—Michael Fabiano and Brian Jagde, take on the tour-de-force title role of Otello, what many consider the ultimate Italian opera, live to cinemas worldwide. Verdi’s monumental Shakespearean tragedy also features soprano Ailyn Pérez in her company role debut as the long-suffering Desdemona, alongside baritone Artur Ruciński as the sinister Iago. Michele Mariotti leads the full forces of the Met Orchestra and Chorus in the exhilarating score.<span><br/></span><span><br/></span>World premiere: Teatro alla Scala, Milan, 1887. Often cited as Italian opera’s greatest tragedy, <span class=\"ItalicText\">Otello</span> is a miraculous union of music and drama—a masterpiece as profound philosophically as it is thrilling theatrically. Shakespeare’s tale of an outsider, a great hero who can’t control his jealousy, was carefully molded by the librettist Arrigo Boito into a taut and powerful libretto. All three lead roles are demanding—making the opera a challenge to produce—but the role of Otello in particular requires an astounding natural instrument capable of both powerful and delicate sounds, superb musical intelligence, and impressive acting abilities.<span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Sunday, November 23rd at 2:00 pm<span><br/></span><span class=\"ItalicText\">2 hours and 55 minutes plus one intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span>Adults -<span class=\"BoldText\">$23.00</span> ($17.54+ tax & $3 Building Reserve Fee)<span><br/></span>Youth (under 20) -<span class=\"BoldText\">$11.50</span>  ($7.45 + tax & $3 Building Reserve Fee) <span><br/></span>$10 Community Tickets use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Genre: Opera<span><br/></span>Language: Sung in Italian with English subtitles<span><br/></span><span><br/></span>Admission includes complimentary popcorn.<span><br/></span><span><br/></span>General Admission<span><br/></span>Doors open 45 mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span>
+""";
+  schema:startDate "2027-06-20T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/71bb190b-ce4b-4927-b1d6-9c7259f38511.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd14;
+  schema:keywords "Movies";
+  schema:duration "PT175M";
+  schema:endDate "2027-06-20T16:55:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd14 a schema:AggregateOffer;
+  schema:lowPrice "8.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/29403ALQBDJHVCGQBQQCSTPLMVLDJKBKM>
+  a schema:Event;
+  schema:name "Ridge ft. The Fugitives";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/883c5ccf-331a-4f91-a309-6b1278bcaa4f.jpg\" /><span><br/></span><h1>Ridge ft. The Fugitives</h1><span><br/></span>The Fugitives present <span class=\"ItalicText\">Ridge</span>, a visceral music storytelling show centred around the Battle of Vimy Ridge that probes difficult, yet necessary, questions about how and why we grieve.<span><br/></span><span><br/></span>Often called “the battle that made Canada”, Vimy Ridge resulted in over 10,000 Canadian casualties.  In <span class=\"ItalicText\">Ridge</span>, Brendan McLeod and The Fugitives examine misconceptions and varying perspectives around the battle, while drawing parallels to other formative events in our nation’s past. <span><br/></span><span><br/></span>The Fugitives perform their JUNO nominated 5th album <span class=\"ItalicText\">Trench Songs</span> to accompany the WWI storytelling and thought-provoking narrative McLeod provides. Based on the writing by WWI soldiers, the band wrote new melodies and music for these words. The result is a poignant and stripped-back collection of work that emphasizes the emotional content of the lyrics and continues the long tradition of folk music reshaping songs over time — the same way soldiers reshaped these songs in the trenches.<span><br/></span><span><br/></span>The Fugitives are an acoustic folk-roots group headed by songwriters Adrian Glynn and Brendan McLeod. They’re joined by banjo player Tim Loten (Red Fox Band) and violinist Carly Frey (The Coal Porters). Over their seven albums, they’ve amassed a JUNO nomination, six CFMA nominations, and toured extensively through Canada, Europe, and the UK.<span><br/></span><span><br/></span>A vivid, kinetic ride through history, as well as an intimate, personal examination of our connection to the past, <span class=\"ItalicText\">Ridge</span> is a visceral work that passionately argues against the exploitation of young lives.<span><br/></span><span><br/></span>This performance is offered thanks to support from Veteran Affairs Canada.<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://youtu.be/MxQQoXGrRYw?si=oBrgi2F0LBwFdwtg\">Watch the Trailer!</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Saturday, November 14th at 7:30 pm<span><br/></span><span class=\"ItalicText\">75 minutes, no intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span><span class=\"BoldText\">Adults</span> - <span class=\"BoldText\">$45.00</span>  ($36.85 + taxes & $3 Building Reserve Fee)<span><br/></span><span class=\"BoldText\">Youth (4-19)</span> - <span class=\"BoldText\">$22.50</span> ($17.11 + taxes & $3 Building Reserve Fee) <span><br/></span><span class=\"BoldText\">$10 Community Tickets</span> use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Reserved Seating<span><br/></span>Doors open 45mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span>
+""";
+  schema:startDate "2026-11-14T19:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/883c5ccf-331a-4f91-a309-6b1278bcaa4f.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd15;
+  schema:keywords "Music";
+  schema:duration "PT75M";
+  schema:endDate "2026-11-14T20:45:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd15 a schema:AggregateOffer;
+  schema:lowPrice "19.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/31601AJQCKSMKVPVHKSNQGKNCQPTMVGLL>
+  a schema:Event;
+  schema:name "Samson et Dalila (MET Opera)";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/0a80a5b2-34c4-4a51-8d5a-a17584003a08.jpg\" /><span><br/></span><h1>Samson et Dalilia</h1><h1>MET Opera Live in HD (Encore)</h1><span><br/></span>Sacred, scandalous, and irresistibly alluring, join us for <span class=\"ItalicText\">Samson et Dalila</span> as our MET Opera Live in HD presentations continue into 2027.<span><br/></span><span><br/></span>Camille Saint-Saëns’s spectacular take on the biblical hero of legendary strength and the seductive Philistine whose beauty overpowers him returns in the Met’s larger-than-life production. Featuring a massive orchestra and chorus and some of opera’s most spellbinding tunes, this masterpiece of French grand opera is a feast for the eyes and ears. Giacomo Sagripanti conducts an electrifying cast led by the formidable star pairing of mezzo-soprano Aigul Akhmetshina and tenor Clay Hilley. <span><br/></span><span><br/></span>World premiere: Grand Ducal Theater, Weimar, 1877. The source of this popular opera is a single chapter in the biblical Book of Judges, and the brevity of the tale did nothing to prevent it from becoming one of the world’s great stories of love (or at least passion)—as well as the archetypal depiction of a man betrayed by an immoral woman. Saint-Saëns’s opera, along with other artistic renderings across multiple genres, has had an important role in the popularization of this tale. Despite tepid success early on, <span class=\"ItalicText\">Samson et Dalila</span> eventually conquered the operatic world and has proven itself a magnificent evening of theater.  <span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Sunday, January 17 at 2:00 pm<span><br/></span><span class=\"ItalicText\">3 hours and 35 minutes plus two intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span>Adults -<span class=\"BoldText\">$23.00</span> ($17.54+ tax & $3 Building Reserve Fee)<span><br/></span>Youth (under 20) -<span class=\"BoldText\">$11.50</span>  ($7.45 + tax & $3 Building Reserve Fee) <span><br/></span>$10 Community Tickets use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Genre: Opera<span><br/></span>Language: Sung in Italian with English subtitles<span><br/></span><span><br/></span>Admission includes complimentary popcorn.<span><br/></span><span><br/></span>General Admission<span><br/></span>Doors open 45 mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span>
+""";
+  schema:startDate "2027-01-17T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/0a80a5b2-34c4-4a51-8d5a-a17584003a08.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd16;
+  schema:keywords "Movies";
+  schema:duration "PT215M";
+  schema:endDate "2027-01-17T17:35:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd16 a schema:AggregateOffer;
+  schema:lowPrice "8.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/34201ASMCSDCJKPKGCLJTKVRDGQJPPMJH>
+  a schema:Event;
+  schema:name "Scene Study Intensive (Fall)";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/600a84d0-603e-40e2-92bb-3e1878a22981.jpg\" /><span><br/></span><h1>Scene Study Intensive </h1><span><br/></span>Explore working with dramatic text and build your acting muscles in this <span class=\"ItalicText\">Scene Study Intensive</span> for adult actors! <span><br/></span><span><br/></span>Over the course of six successive Monday nights, participants will work on scenes from Modern Classics and Contemporary plays. All classes take place directly onstage at The Chester Playhouse, offering a wonderful opportunity to play on a professional stage.<span><br/></span><span><br/></span>Come explore characters and scenes while having fun and creating connections in your community, and deepening your craft of acting.<span><br/></span><span><br/></span>Join us for this fun, creative, and enriching class as you move “from page… to stage”!  <span><br/></span><span><br/></span>This class is intended for adults aged <span class=\"BoldText\">19 and up</span>.<span><br/></span><span><br/></span><span class=\"BoldText\">Prerequisite</span>: This acting intensive is designed for adults with previous acting experience or participation in Chester Playhouse adult acting classes, or with special permission of the instructor.<span><br/></span><span><br/></span>This class will be held on the Chester Playhouse stage. The Chester Playhouse is accessible by lift. <span><br/></span><span><br/></span><span class=\"BoldText\">Dates</span>: Mondays, Oct 19th - Nov 23rd<span><br/></span><span><br/></span><span class=\"BoldText\">Time</span>: 4:30pm - 6:30pm<span><br/></span><span><br/></span><span class=\"BoldText\">Ages</span>: 19+<span><br/></span><span><br/></span><span class=\"BoldText\">Registration Fee</span>:<span><br/></span> $228 ($200 + tax) *Please note $50 of the fee is non-refundable.<span><br/></span><span><br/></span><span class=\"BoldText\">Max Registration</span>: 12 participants<span><br/></span><span><br/></span><span class=\"BoldText\">Instructor</span> - Kristina Nicoll<span><br/></span>
+""";
+  schema:startDate "2026-10-19T16:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/600a84d0-603e-40e2-92bb-3e1878a22981.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd17;
+  schema:duration "PT120M";
+  schema:endDate "2026-10-19T18:30:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd17 a schema:AggregateOffer;
+  schema:lowPrice "228.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/32401ANQMVQVNTGTQHTSGSGJCPVKHDGKP>
+  a schema:Event;
+  schema:name "Silent Night (MET Opera)";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/e86f172d-49dc-4443-b7e3-df98461bcd58.jpg\" /><span><br/></span><h1>Silent Night</h1><h2>MET Opera Live in HD (Encore)</h2><span><br/></span>Following his smash-hit company debut with <span class=\"ItalicText\">The Hours</span>, composer Kevin Puts returns to the Met with his Pulitzer Prize–winning first opera, <span class=\"ItalicText\">Silent Night</span>.<span><br/></span><span><br/></span>Inspired by the true events of the 1914 Christmas truce, <span class=\"ItalicText\">Silent Night</span> takes us to the moment when soldiers spontaneously set aside the horrors of the First World War and crossed the trenches to mingle, exchange gifts, and sing carols with the enemy.<span><br/></span><span><br/></span>A poignant depiction of shared humanity in the most inhumane circumstances, Puts’s grand, cinematic opera—with a libretto by Mark Campbell based on the film <span class=\"ItalicText\">Joyeux Noël</span> —has been widely acclaimed since its 2011 premiere, hailed as “an overwhelming emotive experience” by The Guardian. <span class=\"ItalicText\">Silent Night</span> receives an evocative staging by James Robinson that takes the audience directly to the battlefields of the Western Front. The star-studded cast, featuring soprano Elza van den Heever and tenors Ben Bliss and Rolando Villazón, among many others, is conducted by debuting maestro Dalia Stasevska.<span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Sunday, May 16th at 2:00 pm<span><br/></span><span class=\"ItalicText\">Runtime - TBC</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span>Adults -<span class=\"BoldText\">$23.00</span> ($17.54+ tax & $3 Building Reserve Fee)<span><br/></span>Youth (under 20) -<span class=\"BoldText\">$11.50</span>  ($7.45 + tax & $3 Building Reserve Fee) <span><br/></span>$10 Community Tickets use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Genre: Opera<span><br/></span>Language: Sung in French with English subtitles<span><br/></span><span><br/></span>Admission includes complimentary popcorn.<span><br/></span><span><br/></span>General Admission<span><br/></span>Doors open 45 mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span>
+""";
+  schema:startDate "2027-05-16T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/e86f172d-49dc-4443-b7e3-df98461bcd58.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd18;
+  schema:keywords "Movies";
+  schema:duration "PT60M";
+  schema:endDate "2027-05-16T15:00:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd18 a schema:AggregateOffer;
+  schema:lowPrice "8.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/32001ABCGNLKMHMQDQQTTRQRNTSNGPVMC>
+  a schema:Event;
+  schema:name "The Magic Flute (MET Opera)";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/f934c71f-01c0-477b-b497-baa03f7534d0.jpg\" /><span><br/></span><h1>The Magic Flute</h1><h2>MET Opera Live in HD (Encore)</h2><span><br/></span>A treasured holiday tradition, Mozart’s heartwarming fairy tale <span class=\"ItalicText\">The Magic Flute</span>, takes the stage in the Met’s abridged, English-language production by Julie Taymor—the Tony Award–winning director of Broadway’s The Lion King. Featuring some of opera’s most popular melodies and brought to life with colorful sets and costumes and dazzling puppetry, it’s perfect for audiences of all ages.<span><br/></span><span><br/></span><span class=\"ItalicText\">Synopsis</span>:<span><br/></span>A mythical land between the sun and the moon. Three ladies in the service of the Queen of the Night save Prince Tamino from a serpent. When they leave to tell the queen, the birdcatcher Papageno appears. He boasts to Tamino that it was he who killed the creature. The ladies return to give Tamino a portrait of the queen’s daughter, Pamina, who they say has been enslaved by the evil Sarastro. Tamino immediately falls in love with the girl’s picture. The queen, appearing in a burst of thunder, tells Tamino about the loss of her daughter and commands him to rescue her. The ladies give a magic flute to Tamino and silver bells to Papageno to ensure their safety on the journey and appoint three spirits to guide them.<span><br/></span><span><br/></span>A sublime fairy tale that moves freely between earthy comedy and noble mysticism, <span class=\"ItalicText\">The Magic Flute</span> was written for a theater located just outside Vienna with the clear intention of appealing to audiences from all walks of life. The story is told in a singspiel (“song-play”) format characterized by separate musical numbers connected by dialogue and stage activity, an excellent structure for navigating the diverse moods, ranging from solemn to lighthearted, of the story and score.<span><br/></span><span><br/></span>This encore presentation is part of the Met’s award-winning Live in HD series, bringing opera to movie theaters across the globe.<span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Sunday, December 13th at 2:00 pm<span><br/></span><span class=\"ItalicText\">1 hour and 30 minutes, no intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span>Adults -<span class=\"BoldText\">$23.00</span> ($17.54+ tax & $3 Building Reserve Fee)<span><br/></span>Youth (under 20) -<span class=\"BoldText\">$11.50</span>  ($7.45 + tax & $3 Building Reserve Fee) <span><br/></span>$10 Community Tickets use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Genre: Opera<span><br/></span>Language: Sung in English<span><br/></span><span><br/></span>Admission includes complimentary popcorn.<span><br/></span><span><br/></span>General Admission<span><br/></span>Doors open 45 mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-12-13T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/f934c71f-01c0-477b-b497-baa03f7534d0.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd19;
+  schema:keywords "Movies";
+  schema:duration "PT90M";
+  schema:endDate "2026-12-13T15:30:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd19 a schema:AggregateOffer;
+  schema:lowPrice "8.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/35601ALVJGKRTKBQLPHGRMJPNQQKSPRPT>
+  a schema:Event;
+  schema:name "The Nutcracker - The Royal Ballet ";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/aad0601a-e28c-43a7-b1d3-1067db7dd0bb.jpg\" /><span><br/></span><h1>The Nutcracker - The Royal Ballet in Cinemas</h1><h2>Filmed Ballet</h2>North American Re-release, filmed live December 10, 2025<span><br/></span><span><br/></span>We’re sprinkling a little sugar-plum magic into your holiday season as we bring a screening of a filmed performance of Tchaikovsky’s beloved <span class=\"ItalicText\">The Nutcracker</span> by the Royal Ballet to Chester Playhouse!<span><br/></span><span><br/></span><span class=\"ItalicText\">Synopsis</span>:<span><br/></span>At a cosy Christmas party, young Clara meets the mysterious magician Drosselmeyer, who gives her a nutcracker doll. When the guests have departed and the house is asleep, Clara sneaks downstairs in search of the doll. Instead, she finds Drosselmeyer, who whisks her away on a journey into a whole world of enchantment: fantastical landscapes of flurried snow and glittering confection where toys come alive and the magic never stops.<span><br/></span><span><br/></span>Peter Wright’s production of this festive family favourite sparkles to the wondrous swell of Tchaikovsky’s orchestral score, alongside the glow and grandeur of Julia Trevelyan Oman’s period designs.<span><br/></span><span><br/></span>Join us for this beloved holiday tradition. <span><br/></span><span><br/></span><span class=\"BoldText\">*Please note that this is not a live ballet performance - this is a screening of a performance that was filmed. </span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://youtu.be/KvHrztAlmko/\">Watch the Trailer!</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Saturday, December 5th at 7:00 pm<span><br/></span>Sunday, December 6th at 2:00 pm<span><br/></span><span class=\"ItalicText\">2hrs 20min, plus one intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span>Adults -<span class=\"BoldText\">$23.00</span> ($17.54+ tax & $3 Building Reserve Fee)<span><br/></span>Youth (4-19) -<span class=\"BoldText\">$11.50</span>  ($7.45 + tax & $3 Building Reserve Fee) <span><br/></span>$10 Community Tickets use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Genre: Filmed Ballet<span><br/></span><span><br/></span>Admission includes complimentary popcorn.<span><br/></span><span><br/></span>General Admission<span><br/></span>Doors open 45 mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span>
+""";
+  schema:startDate "2026-12-05T19:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/aad0601a-e28c-43a7-b1d3-1067db7dd0bb.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd20;
+  schema:keywords "Movies";
+  schema:duration "PT140M";
+  schema:endDate "2026-12-05T21:20:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd20 a schema:AggregateOffer;
+  schema:lowPrice "8.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/35602AVSGTMGDTTMMTVPLVNVCQKGJTSQK>
+  a schema:Event;
+  schema:name "The Nutcracker - The Royal Ballet ";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/aad0601a-e28c-43a7-b1d3-1067db7dd0bb.jpg\" /><span><br/></span><h1>The Nutcracker - The Royal Ballet in Cinemas</h1><h2>Filmed Ballet</h2>North American Re-release, filmed live December 10, 2025<span><br/></span><span><br/></span>We’re sprinkling a little sugar-plum magic into your holiday season as we bring a screening of a filmed performance of Tchaikovsky’s beloved <span class=\"ItalicText\">The Nutcracker</span> by the Royal Ballet to Chester Playhouse!<span><br/></span><span><br/></span><span class=\"ItalicText\">Synopsis</span>:<span><br/></span>At a cosy Christmas party, young Clara meets the mysterious magician Drosselmeyer, who gives her a nutcracker doll. When the guests have departed and the house is asleep, Clara sneaks downstairs in search of the doll. Instead, she finds Drosselmeyer, who whisks her away on a journey into a whole world of enchantment: fantastical landscapes of flurried snow and glittering confection where toys come alive and the magic never stops.<span><br/></span><span><br/></span>Peter Wright’s production of this festive family favourite sparkles to the wondrous swell of Tchaikovsky’s orchestral score, alongside the glow and grandeur of Julia Trevelyan Oman’s period designs.<span><br/></span><span><br/></span>Join us for this beloved holiday tradition. <span><br/></span><span><br/></span><span class=\"BoldText\">*Please note that this is not a live ballet performance - this is a screening of a performance that was filmed. </span><span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://youtu.be/KvHrztAlmko/\">Watch the Trailer!</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Saturday, December 5th at 7:00 pm<span><br/></span>Sunday, December 6th at 2:00 pm<span><br/></span><span class=\"ItalicText\">2hrs 20min, plus one intermission</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span>Adults -<span class=\"BoldText\">$23.00</span> ($17.54+ tax & $3 Building Reserve Fee)<span><br/></span>Youth (4-19) -<span class=\"BoldText\">$11.50</span>  ($7.45 + tax & $3 Building Reserve Fee) <span><br/></span>$10 Community Tickets use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Genre: Filmed Ballet<span><br/></span><span><br/></span>Admission includes complimentary popcorn.<span><br/></span><span><br/></span>General Admission<span><br/></span>Doors open 45 mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span>
+""";
+  schema:startDate "2026-12-06T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/aad0601a-e28c-43a7-b1d3-1067db7dd0bb.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd21;
+  schema:keywords "Movies";
+  schema:duration "PT140M";
+  schema:endDate "2026-12-06T16:20:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd21 a schema:AggregateOffer;
+  schema:lowPrice "8.5";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/34801AJDHTGHVDDDGHKMHBRJLKTRHLMSR>
+  a schema:Event;
+  schema:name "Tony";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/255dff6e-ab77-48d8-b108-ffefc53ce0b6.jpg\" /><span><br/></span><h1>Tony</h1><span><br/></span>Canadian director Matt Johnson (<span class=\"ItalicText\">Nirvanna, The Band, The Show, The Movie</span>) brings the extraordinary story of iconic chef, author, and broadcaster Anthony Bourdain to the big screen with <span class=\"ItalicText\">Tony</span>.<span><br/></span><span><br/></span><span class=\"ItalicText\">Synopsis</span>:<span><br/></span>In this origin story of a voice that defined a generation, 19-year-old Anthony Bourdain (portrayed by Dominic Sessa, the breakout star from <span class=\"ItalicText\">The Holdovers</span>) stumbles into the chaotic world of a Cape Cod restaurant kitchen, setting off a summer that will shape the course of his life.<span><br/></span><span><br/></span>Tony currently sits with a 93% Fresh resting on RottenTomatoes.com with critics raving:<span><br/></span><span><br/></span>“<span class=\"ItalicText\">Before he was \"Anthony Bourdain,\" he was just Tony, carrying raw kitchen confidential experiences with a flame to venture into parts unknown. \"Tony\" is a briny, consequential coming-of-age story, seasoned with a blend of authenticity, chaos and care</span>.” - The MovieMaven<span><br/></span><span><br/></span>“<span class=\"ItalicText\">Sessa captures Bourdain’s sardonic wit, and his performance hints at the evolution of the Anthony Bourdain we know from his writing and shows: a person who used self-deprecating humor to mock his flaws and career</span>.” - Fort Worth Report<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=k1MVnzd2aVc/\">Watch the Trailer!</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Sunday, November 15th at 2:00 pm<span><br/></span><span class=\"ItalicText\">1 hour and 46 minutes</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span>Adults -<span class=\"BoldText\">$17.00</span> ($12.28+ tax & $3 Building Reserve Fee)<span><br/></span>Youth (18-19) -<span class=\"BoldText\">$9</span>  ($5.26 + tax & $3 Building Reserve Fee) <span><br/></span>$10 Community Tickets use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Rating: R (Language, Sexual Content, Nudity)<span><br/></span>Genre: Drama/Biography<span><br/></span><span><br/></span>Admission includes complimentary popcorn.<span><br/></span><span><br/></span>General Admission<span><br/></span>Doors open 45 mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-11-15T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/255dff6e-ab77-48d8-b108-ffefc53ce0b6.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd22;
+  schema:keywords "Movies";
+  schema:duration "PT106M";
+  schema:endDate "2026-11-15T15:46:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd22 a schema:AggregateOffer;
+  schema:lowPrice "6.0";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/chesterplayhousenovascotia/event/35001ANDBMVNTNMQTQBCTTLTMVTJHVKBV>
+  a schema:Event;
+  schema:name "White Christmas";
+  schema:description """
+	<img src=\"https://system.spektrix.com/chesterplayhousenovascotia/files/a1e27799-1d2a-4267-8e79-f56eb274affd.jpg\" /><span><br/></span><h1>White Christmas</h1><span><br/></span>As the holidays draw near, join us one last time in 2026 for a timeless holiday classic and experience <span class=\"ItalicText\">White Christmas</span> on the big screen at your Chester Playhouse.<span><br/></span><span><br/></span><span class=\"ItalicText\">Synopsis</span>:<span><br/></span>Two talented song and dance men (Bing Crosby and Danny Kaye) team up after the war to become one of the hottest acts in show business. One winter they join forces with a sister act (Rosemary Clooney and Vera-Ellen) and trek to Vermont for a white Christmas. The result is stuff dreams are made of.<span><br/></span><span><br/></span>“<span class=\"ItalicText\">This was the Mamma Mia! of its day, a nostalgic blast of popular Irving Berlin showtunes gift-wrapped in new-fangled VistaVision that danced its way to the top of the 1954 box office.</span>” - Total Film<span><br/></span><span><br/></span>“<span class=\"ItalicText\">There have been few song and dance stars in cinematic history more universally loved that Bing Crosby and Danny Kaye, so to see them come together in this Christmas classic is a real treat</span>.”- Eye for Film<span><br/></span><span><br/></span>Gather your friends and family and make it part of your holiday tradition! We can’t wait to celebrate the season with you!<span><br/></span><span><br/></span><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=mQ1Hl1ZcdBI\">Watch the Trailer!</a><span><br/></span><span><br/></span><span class=\"BoldText\">When</span> <span><br/></span>Sunday, December 20th at 2:00 pm<span><br/></span><span class=\"ItalicText\">2 hours</span><span><br/></span><span><br/></span><span class=\"BoldText\">Tickets</span><span><br/></span>Adults -<span class=\"BoldText\">$17.00</span> ($12.28+ tax & $3 Building Reserve Fee)<span><br/></span>Youth (4-19) -<span class=\"BoldText\">$9</span>  ($5.26 + tax & $3 Building Reserve Fee) <span><br/></span>$10 Community Tickets use code <span class=\"BoldText\">10FOR10</span> (<span class=\"ItalicText\">limit of 10 per performance</span>)<span><br/></span><span><br/></span>Rating: PG<span><br/></span>Genre: Holiday, Musical<span><br/></span><span><br/></span>Admission includes complimentary popcorn.<span><br/></span><span><br/></span>General Admission<span><br/></span>Doors open 45 mins before the show.<span><br/></span><span><br/></span>The Chester Playhouse is wheelchair accessible. Please call the Box Office at (902) 275-3933 to arrange accessible seating.<span><br/></span><span><br/></span>Babes in arms & children under 4 are not permitted in the theatre.<span><br/></span><span><br/></span><span><br/></span><span><br/></span>
+""";
+  schema:startDate "2026-12-20T14:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/chesterplayhousenovascotia/files/a1e27799-1d2a-4267-8e79-f56eb274affd.jpg>;
+  schema:location <https://spektrix.com/chesterplayhousenovascotia/location/601APNNMRMBJQQPBSCNQGQHGKKCRPSSGN>;
+  schema:offers _:98c7b39533524a8098b484e4a7b4c9fd23;
+  schema:keywords "Movies";
+  schema:duration "PT120M";
+  schema:endDate "2026-12-20T16:00:00"^^xsd:dateTime .
+
+_:98c7b39533524a8098b484e4a7b4c9fd23 a schema:AggregateOffer;
+  schema:lowPrice "6.0";
+  schema:priceCurrency "CAD" .
