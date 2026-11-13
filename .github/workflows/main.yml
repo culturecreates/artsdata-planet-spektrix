@@ -10,7 +10,7 @@ jobs:
     uses: ./.github/workflows/fetch-data-and-push.yml
     with:
       sources: >
-        gatewaytheatre,
+        persephonetheatre,
         kaymeekcentre,
         terrabrucemajestic,
         factorytheatre,
@@ -57,5 +57,6 @@ jobs:
         imperialtheatrenewbrunswick,
         tidemarktheatre,
         artspring, 
+        gatewaytheatre,
     secrets:
       PUBLISHER_URI_GREGORY: ${{ secrets.PUBLISHER_URI_GREGORY }}
