@@ -8,24 +8,25 @@
 @prefix organization: <https://spektrix.com/organization/> .
 @prefix performer: <https://spektrix.com/performer/> .
 
-<http://www.spektrix.com/theisabel/event/60801AHTJHGGNNSGVTBBSHPTBHTDLSBLM> a schema:Event;
-  schema:name "2026-27 Ewan Lecture: The Invisible Universe";
+<http://www.spektrix.com/theisabel/event/60401AJBTCTVVQCDNPTHTLLCCKRPLQHLB> a schema:Event;
+  schema:name "2026-27 Queen's University: Distinguished Service Awards Celebration";
   schema:description """
-
+	Inaugurated by the University Council in 1974, this award recognizes individuals who have made the University a better place through their extraordinary contributions. The 2026 recipients of the Distinguished Service Award are a group of community members and leaders who have each made a lasting, positive impact upon Queen’s University. Stand-up cocktail reception with hors d'oeuvres, followed by the award presentations.<span><br/></span><span><br/></span>2026 DSA Recipients:<span><br/></span><ul><li> Peter Chin</li><li> Te ho wis kwûnt, Clinton Allen Doxtator</li><li> Bruce Elliott, PhD’74</li><li> Beverly Lapham</li><li> Robert McFarlane, Com’83</li><li> Lynnette Purda</li><li> Daniel Tisch, BA’91, MBA’96</li><li> Stephen Vanner Artsci’78, MA’81, Meds’83</li></ul>
 """;
-  schema:startDate "2026-09-16T19:00:00"^^xsd:dateTime;
+  schema:startDate "2026-11-13T17:30:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/theisabel/files/8f8d86f1-0b99-4ec0-a229-1e495ac3ded5.jpg>;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/queen’s-university>;
-  schema:url <https://www.queensu.ca/theisabel/whats-on/2026-27-ewan-lecture-invisible-universe/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3657;
-  schema:duration "PT95M";
-  schema:endDate "2026-09-16T20:35:00"^^xsd:dateTime .
+  schema:url <https://www.queensu.ca/theisabel/whats-on/2026-27-queens-university-distinguished-service-awards-celebration/>;
+  schema:offers _:4194371d82e84858905a56e3126468724624;
+  schema:duration "PT60M";
+  schema:endDate "2026-11-13T18:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/theisabel/organization/queen’s-university> a schema:Organization;
   schema:name "Queen’s University" .
 
-_:96f94eced5364c239a65fb6cb1b4681f3657 a schema:AggregateOffer;
-  schema:lowPrice "0.0";
+_:4194371d82e84858905a56e3126468724624 a schema:AggregateOffer;
+  schema:lowPrice "22.6";
   schema:priceCurrency "CAD" .
 
 <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH> a schema:Place;
@@ -39,27 +40,6 @@ _:96f94eced5364c239a65fb6cb1b4681f3657 a schema:AggregateOffer;
   schema:postalCode "K7L 2X4";
   schema:addressCountry "CA" .
 
-<http://www.spektrix.com/theisabel/event/59801AKQJRVHNSMCTHJNRGJQCBCJCQDDC> a schema:Event;
-  schema:name "2026-27 Kingston WritersFest: Sculpted by Storms: Michelle Good in Conversation with Shelagh Rogers";
-  schema:description """
-	The Kingston WritersFest is delighted to present Michelle Good on stage and in conversation with beloved broadcaster Shelagh Rogers. The award-winning author of <span class=\"ItalicText\">Five Little Indians</span> will present her new novel, <span class=\"ItalicText\">Eliza Sunshine</span>, a sweeping family saga tracing three generations of Cree women bound together by story, survival, and the land itself. Featuring a special performance by singer/songwriter Kym Gouchie.
-""";
-  schema:startDate "2026-09-30T19:00:00"^^xsd:dateTime;
-  schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/theisabel/organization/kingston-writersfest>;
-  schema:url <https://www.queensu.ca/theisabel/whats-on/2026-27-kingston-writersfest-sculpted-by-storms-michelle-good-in-conversation-with-shelagh-rogers/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3658;
-  schema:keywords "Literature Event";
-  schema:duration "PT120M";
-  schema:endDate "2026-09-30T21:00:00"^^xsd:dateTime .
-
-<https://spektrix.com/theisabel/organization/kingston-writersfest> a schema:Organization;
-  schema:name "Kingston WritersFest" .
-
-_:96f94eced5364c239a65fb6cb1b4681f3658 a schema:AggregateOffer;
-  schema:lowPrice "46.0";
-  schema:priceCurrency "CAD" .
-
 <http://www.spektrix.com/theisabel/event/62201AMQLTQHPVGDTSSJLQDCVBSGVTNNB> a schema:Event;
   schema:name "2026-27 Rental Event: BRA (Breast Reconstruction Awareness) Day Kingston 2026";
   schema:description """
@@ -69,14 +49,14 @@ _:96f94eced5364c239a65fb6cb1b4681f3658 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/other-presenters>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/2026-27-rental-event-bra-breast-reconstruction-awareness-day-kingston-2026/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3659;
+  schema:offers _:4194371d82e84858905a56e3126468724625;
   schema:duration "PT300M";
   schema:endDate "2026-10-28T22:00:00"^^xsd:dateTime .
 
 <https://spektrix.com/theisabel/organization/other-presenters> a schema:Organization;
   schema:name "Other Presenters" .
 
-_:96f94eced5364c239a65fb6cb1b4681f3659 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724625 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -89,14 +69,14 @@ _:96f94eced5364c239a65fb6cb1b4681f3659 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/the-royal-society-of-canada>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/2026-27-royal-society-of-canada-eastern-ontario-symposium/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3660;
+  schema:offers _:4194371d82e84858905a56e3126468724626;
   schema:duration "PT60M";
   schema:endDate "2026-09-25T19:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/theisabel/organization/the-royal-society-of-canada> a schema:Organization;
   schema:name "The Royal Society of Canada" .
 
-_:96f94eced5364c239a65fb6cb1b4681f3660 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724626 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -109,7 +89,7 @@ _:96f94eced5364c239a65fb6cb1b4681f3660 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/the-isabel-voices>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/a-festive-celebration-with-isabel-voices/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3661;
+  schema:offers _:4194371d82e84858905a56e3126468724627;
   schema:keywords "Choral, Seasonal, Christmas";
   schema:duration "PT60M";
   schema:endDate "2026-11-21T15:30:00"^^xsd:dateTime .
@@ -117,7 +97,7 @@ _:96f94eced5364c239a65fb6cb1b4681f3660 a schema:AggregateOffer;
 <https://spektrix.com/theisabel/organization/the-isabel-voices> a schema:Organization;
   schema:name "The Isabel Voices" .
 
-_:96f94eced5364c239a65fb6cb1b4681f3661 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724627 a schema:AggregateOffer;
   schema:lowPrice "16.95";
   schema:priceCurrency "CAD" .
 
@@ -130,12 +110,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3661 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/the-isabel-voices>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/a-festive-celebration-with-isabel-voices/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3662;
+  schema:offers _:4194371d82e84858905a56e3126468724628;
   schema:keywords "Choral, Seasonal, Christmas";
   schema:duration "PT60M";
   schema:endDate "2026-11-21T20:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3662 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724628 a schema:AggregateOffer;
   schema:lowPrice "16.95";
   schema:priceCurrency "CAD" .
 
@@ -148,7 +128,7 @@ _:96f94eced5364c239a65fb6cb1b4681f3662 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/bageshree-vaze-and-vineet-vyas-in-darbar/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3663;
+  schema:offers _:4194371d82e84858905a56e3126468724629;
   schema:keywords "Hindustani Classical, Kathak Dance ";
   schema:duration "PT90M";
   schema:endDate "2026-11-13T21:30:00"^^xsd:dateTime .
@@ -157,7 +137,7 @@ _:96f94eced5364c239a65fb6cb1b4681f3662 a schema:AggregateOffer;
   a schema:Organization;
   schema:name "Isabel Bader Centre for the Performing Arts" .
 
-_:96f94eced5364c239a65fb6cb1b4681f3663 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724629 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
 
@@ -171,7 +151,7 @@ _:96f94eced5364c239a65fb6cb1b4681f3663 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/trailhead-kingston-and-belleville>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/banff-mountain-film-festival-world-tour-2027/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3664;
+  schema:offers _:4194371d82e84858905a56e3126468724630;
   schema:keywords "Film";
   schema:duration "PT60M";
   schema:endDate "2027-01-14T20:00:00"^^xsd:dateTime .
@@ -180,7 +160,7 @@ _:96f94eced5364c239a65fb6cb1b4681f3663 a schema:AggregateOffer;
     schema:Organization;
   schema:name "Trailhead Kingston and Belleville" .
 
-_:96f94eced5364c239a65fb6cb1b4681f3664 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724630 a schema:AggregateOffer;
   schema:lowPrice "26.0";
   schema:priceCurrency "CAD" .
 
@@ -194,12 +174,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3664 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/trailhead-kingston-and-belleville>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/banff-mountain-film-festival-world-tour-2027/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3665;
+  schema:offers _:4194371d82e84858905a56e3126468724631;
   schema:keywords "Film";
   schema:duration "PT60M";
   schema:endDate "2027-01-15T20:00:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3665 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724631 a schema:AggregateOffer;
   schema:lowPrice "26.0";
   schema:priceCurrency "CAD" .
 
@@ -213,12 +193,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3665 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/trailhead-kingston-and-belleville>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/banff-mountain-film-festival-world-tour-2027/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3666;
+  schema:offers _:4194371d82e84858905a56e3126468724632;
   schema:keywords "Film";
   schema:duration "PT60M";
   schema:endDate "2027-01-16T20:00:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3666 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724632 a schema:AggregateOffer;
   schema:lowPrice "26.0";
   schema:priceCurrency "CAD" .
 
@@ -231,11 +211,11 @@ _:96f94eced5364c239a65fb6cb1b4681f3666 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/the-isabel-voices>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/broadway/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3667;
+  schema:offers _:4194371d82e84858905a56e3126468724633;
   schema:duration "PT60M";
   schema:endDate "2027-05-08T15:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3667 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724633 a schema:AggregateOffer;
   schema:lowPrice "16.95";
   schema:priceCurrency "CAD" .
 
@@ -248,12 +228,34 @@ _:96f94eced5364c239a65fb6cb1b4681f3667 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/the-isabel-voices>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/broadway/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3668;
+  schema:offers _:4194371d82e84858905a56e3126468724634;
   schema:duration "PT60M";
   schema:endDate "2027-05-08T20:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3668 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724634 a schema:AggregateOffer;
   schema:lowPrice "16.95";
+  schema:priceCurrency "CAD" .
+
+<http://www.spektrix.com/theisabel/event/67201AVCRKQDBSGLQHRCLJQTBDLCTLNNQ> a schema:Event;
+  schema:name "Broken Hearts and Tangos featuring Students of DRAM/MUSC 349";
+  schema:description """
+	<h1>The students of DRAM/MUSC 349 present:</h1><span><br/></span><h2>The Broken Hearts and Tangos Cabaret</h2><span><br/></span>High kicks or low growls, a tango or a ballad, Miko, Mitski, Misty, or Mackie Messer - whatever you’re feeling, we’ve got something that will make you feel at home. So come on up to the house, come to the cabaret!
+""";
+  schema:startDate "2026-12-03T20:00:00"^^xsd:dateTime;
+  schema:image <https://system.spektrix.com/theisabel/files/b6a3f521-1835-4ca3-9846-fc8f91ec5c48.jpeg>;
+  schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
+  schema:organizer <https://spektrix.com/theisabel/organization/dan-school-of-drama-&-music>;
+  schema:url <https://www.queensu.ca/theisabel/whats-on/broken-hearts-and-tangos-featuring-students-of-dram-musc-349/>;
+  schema:offers _:4194371d82e84858905a56e3126468724635;
+  schema:keywords "Cabaret, Vocal";
+  schema:duration "PT60M";
+  schema:endDate "2026-12-03T21:00:00"^^xsd:dateTime .
+
+<https://spektrix.com/theisabel/organization/dan-school-of-drama-&-music> a schema:Organization;
+  schema:name "DAN School of Drama & Music" .
+
+_:4194371d82e84858905a56e3126468724635 a schema:AggregateOffer;
+  schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/theisabel/event/55401ACNDTGGQPPPTRVGVMSDRVVBMKVVG> a schema:Event;
@@ -265,12 +267,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3668 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/canadian-league-of-composers-75th-anniversary-past-presidents-piano-recital-with-john-burge/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3669;
+  schema:offers _:4194371d82e84858905a56e3126468724636;
   schema:keywords "Piano, Classical";
   schema:duration "PT75M";
   schema:endDate "2026-09-13T15:45:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3669 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724636 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
 
@@ -283,12 +285,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3669 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/cheng-duo/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3670;
+  schema:offers _:4194371d82e84858905a56e3126468724637;
   schema:keywords "Chamber, Classical";
   schema:duration "PT60M";
   schema:endDate "2027-02-05T20:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3670 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724637 a schema:AggregateOffer;
   schema:lowPrice "11.0";
   schema:priceCurrency "CAD" .
 
@@ -301,7 +303,7 @@ _:96f94eced5364c239a65fb6cb1b4681f3670 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/lionhearts-inc>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/christmas-with-lionhearts/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3671;
+  schema:offers _:4194371d82e84858905a56e3126468724638;
   schema:keywords "Christmas, Rock, Pop, Country, Seasonal";
   schema:duration "PT60M";
   schema:endDate "2026-11-27T20:00:00"^^xsd:dateTime .
@@ -309,7 +311,7 @@ _:96f94eced5364c239a65fb6cb1b4681f3670 a schema:AggregateOffer;
 <https://spektrix.com/theisabel/organization/lionhearts-inc> a schema:Organization;
   schema:name "Lionhearts Inc" .
 
-_:96f94eced5364c239a65fb6cb1b4681f3671 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724638 a schema:AggregateOffer;
   schema:lowPrice "45.99";
   schema:priceCurrency "CAD" .
 
@@ -322,31 +324,13 @@ _:96f94eced5364c239a65fb6cb1b4681f3671 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/delirium-musicum/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3672;
+  schema:offers _:4194371d82e84858905a56e3126468724639;
   schema:keywords "Baroque, Classical";
   schema:duration "PT104M";
   schema:endDate "2027-04-09T21:14:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3672 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724639 a schema:AggregateOffer;
   schema:lowPrice "11.0";
-  schema:priceCurrency "CAD" .
-
-<http://www.spektrix.com/theisabel/event/60401AJBTCTVVQCDNPTHTLLCCKRPLQHLB> a schema:Event;
-  schema:name "Distinguished Service Awards Celebration";
-  schema:description """
-	Inaugurated by the University Council in 1974, this award recognizes individuals who have made the University a better place through their extraordinary contributions. The 2026 recipients of the Distinguished Service Award are a group of community members and leaders who have each made a lasting, positive impact upon Queen’s University. Stand-up cocktail reception with hors d'oeuvres, followed by the award presentations.<span><br/></span><span><br/></span>2026 DSA Recipients:<span><br/></span><ul><li> Peter Chin</li><li> Te ho wis kwûnt, Clinton Allen Doxtator</li><li> Bruce Elliott, PhD’74</li><li> Beverly Lapham</li><li> Robert McFarlane, Com’83</li><li> Lynnette Purda</li><li> Daniel Tisch, BA’91, MBA’96</li><li> Stephen Vanner Artsci’78, MA’81, Meds’83</li></ul>
-""";
-  schema:startDate "2026-11-13T17:30:00"^^xsd:dateTime;
-  schema:image <https://system.spektrix.com/theisabel/files/8f8d86f1-0b99-4ec0-a229-1e495ac3ded5.jpg>;
-  schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
-  schema:organizer <https://spektrix.com/theisabel/organization/queen’s-university>;
-  schema:url <https://www.queensu.ca/theisabel/whats-on/distinguished-service-awards-celebration/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3673;
-  schema:duration "PT60M";
-  schema:endDate "2026-11-13T18:30:00"^^xsd:dateTime .
-
-_:96f94eced5364c239a65fb6cb1b4681f3673 a schema:AggregateOffer;
-  schema:lowPrice "22.6";
   schema:priceCurrency "CAD" .
 
 <http://www.spektrix.com/theisabel/event/66801AQKPRHKKGQQBTMBVQVVTVMKKQTGN> a schema:Event;
@@ -359,15 +343,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3673 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/dan-school-of-drama-&-music>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/divertimento-featuring-queens-university-wind-and-percussion-ensembles/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3674;
+  schema:offers _:4194371d82e84858905a56e3126468724640;
   schema:keywords "Classical, Concert Band, Wind Band";
-  schema:duration "PT60M";
-  schema:endDate "2026-11-23T20:30:00"^^xsd:dateTime .
+  schema:duration "PT75M";
+  schema:endDate "2026-11-23T20:45:00"^^xsd:dateTime .
 
-<https://spektrix.com/theisabel/organization/dan-school-of-drama-&-music> a schema:Organization;
-  schema:name "DAN School of Drama & Music" .
-
-_:96f94eced5364c239a65fb6cb1b4681f3674 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724640 a schema:AggregateOffer;
   schema:lowPrice "4.0";
   schema:priceCurrency "CAD" .
 
@@ -380,12 +361,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3674 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/elisabeth-pion/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3675;
+  schema:offers _:4194371d82e84858905a56e3126468724641;
   schema:keywords "Piano, Classical";
   schema:duration "PT60M";
   schema:endDate "2027-05-09T15:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3675 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724641 a schema:AggregateOffer;
   schema:lowPrice "11.0";
   schema:priceCurrency "CAD" .
 
@@ -398,12 +379,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3675 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/ensemble132/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3676;
+  schema:offers _:4194371d82e84858905a56e3126468724642;
   schema:keywords "Chamber, Classical";
   schema:duration "PT110M";
   schema:endDate "2026-09-20T16:20:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3676 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724642 a schema:AggregateOffer;
   schema:lowPrice "6.0";
   schema:priceCurrency "CAD" .
 
@@ -416,11 +397,11 @@ _:96f94eced5364c239a65fb6cb1b4681f3676 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/the-isabel-voices>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/footprints/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3677;
+  schema:offers _:4194371d82e84858905a56e3126468724643;
   schema:duration "PT60M";
   schema:endDate "2027-03-21T15:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3677 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724643 a schema:AggregateOffer;
   schema:lowPrice "16.95";
   schema:priceCurrency "CAD" .
 
@@ -433,12 +414,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3677 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/garrick-ohlsson/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3678;
+  schema:offers _:4194371d82e84858905a56e3126468724644;
   schema:keywords "Piano, Classical";
   schema:duration "PT60M";
   schema:endDate "2027-01-31T15:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3678 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724644 a schema:AggregateOffer;
   schema:lowPrice "11.0";
   schema:priceCurrency "CAD" .
 
@@ -451,14 +432,14 @@ _:96f94eced5364c239a65fb6cb1b4681f3678 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/good-lovelies>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/good-lovelies-20th-anniversary-christmas-concert/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3679;
+  schema:offers _:4194371d82e84858905a56e3126468724645;
   schema:duration "PT60M";
   schema:endDate "2026-12-19T20:30:00"^^xsd:dateTime .
 
 <https://spektrix.com/theisabel/organization/good-lovelies> a schema:Organization;
   schema:name "Good Lovelies" .
 
-_:96f94eced5364c239a65fb6cb1b4681f3679 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724645 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
 
@@ -471,12 +452,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3679 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/gryphon-trio-and-rob-kapilow/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3680;
+  schema:offers _:4194371d82e84858905a56e3126468724646;
   schema:keywords "Chamber, Classical";
   schema:duration "PT60M";
   schema:endDate "2027-01-13T20:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3680 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724646 a schema:AggregateOffer;
   schema:lowPrice "11.0";
   schema:priceCurrency "CAD" .
 
@@ -489,12 +470,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3680 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/harvest-moon-celebration-with-david-r-maracle/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3681;
+  schema:offers _:4194371d82e84858905a56e3126468724647;
   schema:keywords "Listenings, Indigenous";
   schema:duration "PT80M";
   schema:endDate "2026-10-02T21:20:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3681 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724647 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
 
@@ -507,12 +488,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3681 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/jan-lisiecki/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3682;
+  schema:offers _:4194371d82e84858905a56e3126468724648;
   schema:keywords "Piano, Classical";
   schema:duration "PT110M";
   schema:endDate "2026-11-15T16:20:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3682 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724648 a schema:AggregateOffer;
   schema:lowPrice "59.4";
   schema:priceCurrency "CAD" .
 
@@ -525,12 +506,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3682 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/janina-fialkowska/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3683;
+  schema:offers _:4194371d82e84858905a56e3126468724649;
   schema:keywords "Piano, Classical";
   schema:duration "PT110M";
   schema:endDate "2026-10-18T16:20:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3683 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724649 a schema:AggregateOffer;
   schema:lowPrice "6.0";
   schema:priceCurrency "CAD" .
 
@@ -543,12 +524,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3683 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/ji-su-jung-and-timothy-chooi/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3684;
+  schema:offers _:4194371d82e84858905a56e3126468724650;
   schema:keywords "Chamber, Classical";
   schema:duration "PT60M";
   schema:endDate "2027-04-23T20:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3684 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724650 a schema:AggregateOffer;
   schema:lowPrice "11.0";
   schema:priceCurrency "CAD" .
 
@@ -561,12 +542,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3684 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/jupiter-ensemble/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3685;
+  schema:offers _:4194371d82e84858905a56e3126468724651;
   schema:keywords "Baroque, Classical";
   schema:duration "PT65M";
   schema:endDate "2026-11-24T20:35:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3685 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724651 a schema:AggregateOffer;
   schema:lowPrice "11.0";
   schema:priceCurrency "CAD" .
 
@@ -579,12 +560,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3685 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/keith-whiteduck/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3686;
+  schema:offers _:4194371d82e84858905a56e3126468724652;
   schema:keywords "Rock, Jazz, Indigenous";
   schema:duration "PT60M";
   schema:endDate "2027-02-12T21:00:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3686 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724652 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
 
@@ -597,12 +578,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3686 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/leticia-moreno-and-friends/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3687;
+  schema:offers _:4194371d82e84858905a56e3126468724653;
   schema:keywords "Baroque, Classical";
   schema:duration "PT60M";
   schema:endDate "2027-02-18T20:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3687 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724653 a schema:AggregateOffer;
   schema:lowPrice "11.0";
   schema:priceCurrency "CAD" .
 
@@ -615,12 +596,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3687 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/mariachi-herencia-de-mexico/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3688;
+  schema:offers _:4194371d82e84858905a56e3126468724654;
   schema:keywords "Mariachi";
   schema:duration "PT120M";
   schema:endDate "2026-10-30T21:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3688 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724654 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
 
@@ -633,12 +614,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3688 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/missing/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3689;
+  schema:offers _:4194371d82e84858905a56e3126468724655;
   schema:keywords "Opera, Listenings";
   schema:duration "PT80M";
   schema:endDate "2026-09-29T20:50:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3689 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724655 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -652,7 +633,7 @@ _:96f94eced5364c239a65fb6cb1b4681f3689 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/luckystar-production>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/music-by-ennio-morricone-with-grand-piano-and-string-quartet/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3690;
+  schema:offers _:4194371d82e84858905a56e3126468724656;
   schema:keywords "Classical, Film";
   schema:duration "PT70M";
   schema:endDate "2027-02-14T20:40:00"^^xsd:dateTime .
@@ -660,7 +641,7 @@ _:96f94eced5364c239a65fb6cb1b4681f3689 a schema:AggregateOffer;
 <https://spektrix.com/theisabel/organization/luckystar-production> a schema:Organization;
   schema:name "Luckystar Production" .
 
-_:96f94eced5364c239a65fb6cb1b4681f3690 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724656 a schema:AggregateOffer;
   schema:lowPrice "45.0";
   schema:priceCurrency "CAD" .
 
@@ -673,12 +654,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3690 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/national-arts-centre-orchestra-with-james-ehnes/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3691;
+  schema:offers _:4194371d82e84858905a56e3126468724657;
   schema:keywords "Classical, Orchestra";
   schema:duration "PT60M";
   schema:endDate "2027-03-11T20:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3691 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724657 a schema:AggregateOffer;
   schema:lowPrice "66.0";
   schema:priceCurrency "CAD" .
 
@@ -691,12 +672,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3691 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/national-youth-orchestra-of-canada/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3692;
+  schema:offers _:4194371d82e84858905a56e3126468724658;
   schema:keywords "Classical, Orchestra";
   schema:duration "PT120M";
   schema:endDate "2026-07-23T21:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3692 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724658 a schema:AggregateOffer;
   schema:lowPrice "6.0";
   schema:priceCurrency "CAD" .
 
@@ -709,12 +690,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3692 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/pavel-haas-quartet/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3693;
+  schema:offers _:4194371d82e84858905a56e3126468724659;
   schema:keywords "Chamber, Classical";
   schema:duration "PT60M";
   schema:endDate "2027-03-20T20:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3693 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724659 a schema:AggregateOffer;
   schema:lowPrice "11.0";
   schema:priceCurrency "CAD" .
 
@@ -727,12 +708,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3693 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/pre-concert-talk-with-janina-fialkowska/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3694;
+  schema:offers _:4194371d82e84858905a56e3126468724660;
   schema:keywords "Classical, Conversation";
   schema:duration "PT60M";
   schema:endDate "2026-10-18T14:00:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3694 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724660 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -745,12 +726,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3694 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/reginald-mobley-with-baptiste-trotignon/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3695;
+  schema:offers _:4194371d82e84858905a56e3126468724661;
   schema:keywords "Baroque, Classical";
   schema:duration "PT60M";
   schema:endDate "2027-02-26T20:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3695 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724661 a schema:AggregateOffer;
   schema:lowPrice "11.0";
   schema:priceCurrency "CAD" .
 
@@ -763,12 +744,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3695 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/royal-conservatory-orchestra/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3696;
+  schema:offers _:4194371d82e84858905a56e3126468724662;
   schema:keywords "Classical, Orchestra";
   schema:duration "PT60M";
   schema:endDate "2027-04-29T20:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3696 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724662 a schema:AggregateOffer;
   schema:lowPrice "11.0";
   schema:priceCurrency "CAD" .
 
@@ -781,12 +762,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3696 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/sadaf-amini/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3697;
+  schema:offers _:4194371d82e84858905a56e3126468724663;
   schema:keywords "Santur";
   schema:duration "PT60M";
   schema:endDate "2027-04-02T21:00:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3697 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724663 a schema:AggregateOffer;
   schema:lowPrice "21.0";
   schema:priceCurrency "CAD" .
 
@@ -799,12 +780,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3697 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/schmaltz-pepper/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3698;
+  schema:offers _:4194371d82e84858905a56e3126468724664;
   schema:keywords "Klezmer, Jazz";
   schema:duration "PT60M";
   schema:endDate "2026-06-15T20:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3698 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724664 a schema:AggregateOffer;
   schema:lowPrice "31.0";
   schema:priceCurrency "CAD" .
 
@@ -817,12 +798,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3698 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/splashn-boots/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3699;
+  schema:offers _:4194371d82e84858905a56e3126468724665;
   schema:keywords "Family";
   schema:duration "PT60M";
   schema:endDate "2027-02-21T15:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3699 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724665 a schema:AggregateOffer;
   schema:lowPrice "6.0";
   schema:priceCurrency "CAD" .
 
@@ -835,12 +816,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3699 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/swing-shift-big-band/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3700;
+  schema:offers _:4194371d82e84858905a56e3126468724666;
   schema:keywords "Big Band, Jazz, Swing";
   schema:duration "PT60M";
   schema:endDate "2026-11-28T20:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3700 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724666 a schema:AggregateOffer;
   schema:lowPrice "11.0";
   schema:priceCurrency "CAD" .
 
@@ -853,7 +834,7 @@ _:96f94eced5364c239a65fb6cb1b4681f3700 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/1001ADGKSHLJDTDBJQTBMGLLJRLBJCMNN>;
   schema:organizer <https://spektrix.com/theisabel/organization/kingston-choral-society>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/heart-of-winter-a-choral-advent/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3701;
+  schema:offers _:4194371d82e84858905a56e3126468724667;
   schema:keywords "Choral, Classical, Christmas";
   schema:duration "PT90M";
   schema:endDate "2026-11-22T16:00:00"^^xsd:dateTime .
@@ -861,7 +842,7 @@ _:96f94eced5364c239a65fb6cb1b4681f3700 a schema:AggregateOffer;
 <https://spektrix.com/theisabel/organization/kingston-choral-society> a schema:Organization;
   schema:name "Kingston Choral Society" .
 
-_:96f94eced5364c239a65fb6cb1b4681f3701 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724667 a schema:AggregateOffer;
   schema:lowPrice "0.0";
   schema:priceCurrency "CAD" .
 
@@ -885,12 +866,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3701 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/trio-hochelaga/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3702;
+  schema:offers _:4194371d82e84858905a56e3126468724668;
   schema:keywords "Chamber, Classical";
   schema:duration "PT108M";
   schema:endDate "2026-11-01T16:18:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3702 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724668 a schema:AggregateOffer;
   schema:lowPrice "6.0";
   schema:priceCurrency "CAD" .
 
@@ -904,12 +885,12 @@ _:96f94eced5364c239a65fb6cb1b4681f3702 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/dan-school-of-drama-&-music>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/unfinished-reverie-featuring-queens-orchestra/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3703;
+  schema:offers _:4194371d82e84858905a56e3126468724669;
   schema:keywords "Classical, Orchestra";
   schema:duration "PT60M";
   schema:endDate "2026-11-29T17:00:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3703 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724669 a schema:AggregateOffer;
   schema:lowPrice "4.0";
   schema:priceCurrency "CAD" .
 
@@ -922,11 +903,11 @@ _:96f94eced5364c239a65fb6cb1b4681f3703 a schema:AggregateOffer;
   schema:location <https://spektrix.com/theisabel/location/401ANPJQJQPQMRSBDNMVNLSPGTRBVQVRH>;
   schema:organizer <https://spektrix.com/theisabel/organization/isabel-bader-centre-for-the-performing-arts>;
   schema:url <https://www.queensu.ca/theisabel/whats-on/voces8/>;
-  schema:offers _:96f94eced5364c239a65fb6cb1b4681f3704;
+  schema:offers _:4194371d82e84858905a56e3126468724670;
   schema:keywords "Classical, Vocal, Chamber";
   schema:duration "PT120M";
   schema:endDate "2026-07-05T21:30:00"^^xsd:dateTime .
 
-_:96f94eced5364c239a65fb6cb1b4681f3704 a schema:AggregateOffer;
+_:4194371d82e84858905a56e3126468724670 a schema:AggregateOffer;
   schema:lowPrice "71.0";
   schema:priceCurrency "CAD" .
